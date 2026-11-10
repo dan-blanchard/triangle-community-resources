@@ -24,7 +24,7 @@ Each research file is a JSON array of objects:
 
 city (pick the one where it physically operates; use "Triangle-wide" for region-wide/online/mobile):
   Durham, Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, Apex, Morrisville, Garner,
-  Wake Forest, Knightdale, Fuquay-Varina, Holly Springs, Wendell, Zebulon, Pittsboro, Triangle-wide
+  Wake Forest, Knightdale, Fuquay-Varina, Holly Springs, Wendell, Zebulon, Rolesville, Pittsboro, Triangle-wide
 
 categories (one or more):
   Food, Clothing & Household, Housing & Shelter, Hygiene & Laundry, Health & Harm Reduction,

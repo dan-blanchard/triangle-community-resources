@@ -14,7 +14,7 @@ UA = "Mozilla/5.0 (compatible; TriangleCommunityResources/1.0; daily community r
 CITIES = [
     "Durham", "Raleigh", "Chapel Hill", "Carrboro", "Hillsborough", "Cary", "Apex",
     "Morrisville", "Garner", "Wake Forest", "Knightdale", "Fuquay-Varina", "Holly Springs",
-    "Wendell", "Zebulon", "Pittsboro", "Triangle-wide",
+    "Wendell", "Zebulon", "Rolesville", "Pittsboro", "Triangle-wide",
 ]
 
 CATEGORIES = [
@@ -39,6 +39,7 @@ _CITY_PATTERNS = [
     ("Garner", r"garner(?!\s*(rd|road))"),
     ("Wendell", r"wendell(?!\s*(blvd))"),
     ("Zebulon", r"zebulon"),
+    ("Rolesville", r"rolesville(?!\s*(rd|road))"),
     ("Apex", r"\bapex\b"),
     ("Cary", r"\bcary\b"),
     ("Raleigh", r"raleigh|raliegh"),
@@ -53,23 +54,39 @@ _ZIP_CITY = {
     "27278": "Hillsborough", "27312": "Pittsboro", "27511": "Cary", "27513": "Cary",
     "27518": "Cary", "27519": "Cary", "27502": "Apex", "27523": "Apex", "27539": "Apex",
     "27560": "Morrisville", "27529": "Garner", "27587": "Wake Forest", "27545": "Knightdale",
-    "27526": "Fuquay-Varina", "27540": "Holly Springs", "27591": "Wendell", "27597": "Zebulon",
+    "27526": "Fuquay-Varina", "27540": "Holly Springs", "27591": "Wendell", "27597": "Zebulon", "27571": "Rolesville",
 }
+
+
+_STREET_SUFFIX = (r"\b(?:st|street|rd|road|ave|avenue|blvd|boulevard|dr|drive|hwy|highway|ln|lane|way|ct|court|"
+                  r"pkwy|parkway|pl|place|cir|circle|loop|trl|trail|ste|suite|n|s|e|w)\b\.?")
 
 
 def infer_city(text: str, default: str = "") -> str:
     t = (text or "").lower()
-    # Prefer the city that appears right before ", NC" / a ZIP, i.e. the mailing city.
-    m = re.search(r"([a-z\- ]+?),?\s*(nc|north carolina)\b", t)
-    if m:
+    zips = re.findall(r"\b(27\d{3})\b", t)
+    # The mailing town is whatever sits right before ", NC" -- after the last street word,
+    # so "780 Durham St, Clayton, NC" is Clayton (out of area), not Durham.
+    # With several addresses (one per line), the first one is the primary.
+    anchored = []
+    for line in re.split(r"\n|\|", t):
+        anchored = re.findall(r"([a-z\-. ]+?)\s*,?\s*(?:nc|north carolina)\b", line)
+        if anchored:
+            break
+    if anchored:
+        tail = re.split(_STREET_SUFFIX, anchored[-1])[-1].strip(" ,.")
         for city, pat in _CITY_PATTERNS:
-            if re.search(pat, m.group(1)):
+            if tail and re.search(pat, tail):
                 return city
-    for z in re.findall(r"\b(27\d{3})\b", t):
+        if tail and re.search(r"[a-z]{3,}", tail):
+            return default  # a named town we don't cover
+    for z in zips:
         if z in _ZIP_CITY:
             return _ZIP_CITY[z]
-        if z.startswith(("276",)):
+        if z.startswith("276"):
             return "Raleigh"
+    if zips:
+        return default
     for city, pat in _CITY_PATTERNS:
         if re.search(pat, t):
             return city

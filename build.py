@@ -48,7 +48,11 @@ COST_LABEL = {
     "free": "Free", "pay_what_you_can": "Pay what you can", "sliding_scale": "Sliding scale",
     "low_cost_membership": "Low-cost membership", "unknown": "Ask about cost",
 }
-_FAITH = r"church|umc\b|baptist|iglesia|cristian|ministr|methodist|episcopal|presbyterian|catholic|holiness|temple|synagogue|mosque|masjid|cme\b|sda\b|adventist|congregation|jewish|lutheran|chapel(?! hill)|parish|rescue mission|salvation army|concilio|guerreros"
+_FAITH = (r"church|\bumc\b|\bame\b|\bmbc\b|\bucc\b|\bcme\b|\bsda\b|baptist|methodist|episcopal|presbyterian|lutheran|"
+          r"catholic|adventist|pentecost|apostolic|holiness|\bholy\b|\bzion\b|tabernacle|cathedral|fellowship|"
+          r"christian|christiano|cristian|iglesia|ministr|missionary|gospel|revival|congregation|parish|diocese|"
+          r"chapel(?! hill)|temple|synagogue|jewish|mosque|masjid|islamic|\bicna\b|word of god|faith center|"
+          r"assembly of god|rescue mission|salvation army|concilio|guerreros")
 _PUBLIC = r"county|city of|town of|librar|housing authority|department|\bdss\b|durham tech|wake tech|\bnc |n\.c\. |public schools"
 
 
@@ -121,7 +125,11 @@ def dedupe(entries: list[dict]) -> list[dict]:
     aliases = {k.lower(): v for k, v in json.loads(ALIASES.read_text()).items() if not k.startswith("_")} if ALIASES.exists() else {}
     out: list[dict] = []
     for e in entries:
-        e["name"] = aliases.get(e["name"].lower(), e["name"])
+        renamed = aliases.get(e["name"].lower())
+        if renamed:
+            e["name"] = renamed
+            if not e.get("curated_file"):
+                e["org_type"] = infer_org_type(e)
         key = norm_name(e["name"])
         match = None
         for o in out:
