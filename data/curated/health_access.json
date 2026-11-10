@@ -515,26 +515,6 @@
   "notes": "Also at Southern Human Services Center, 2501 Homestead Rd, Chapel Hill. Email dssinfo@orangecountync.gov."
  },
  {
-  "name": "NeighborHealth Center",
-  "city": "Raleigh",
-  "categories": [
-   "Health Care & Harm Reduction",
-   "Mental Health & Crisis",
-   "Kids & Families"
-  ],
-  "org_type": "faith_based",
-  "description": "Nonprofit primary care practice: adult care, pediatrics, OB/GYN and prenatal care, birth control and family planning, behavioral health, nutrition, lab and pharmacy.",
-  "address": "2605 Blue Ridge Rd, Suite 225, Raleigh, NC 27607",
-  "url": "https://neighborhealthcenter.org/",
-  "phone": "(984) 222-8000",
-  "hours": "Mon–Fri 8 am–5 pm; Sat 8 am–noon",
-  "access": "Uninsured patients welcome; same-day and next-day visits for established patients. Staff speak Spanish, Mandarin and Arabic.",
-  "cost": "sliding_scale",
-  "source_url": "https://neighborhealthcenter.org/payment-policies/",
-  "checked": "2026-11-10",
-  "notes": "Sliding fee $25–$75 per visit by income and family size; others pay a $150 same-day self-pay rate. A Christian faith-based practice that says it serves patients of any faith without discrimination. Pharmacy: (984) 222-8008."
- },
- {
   "name": "NC Division of Services for the Deaf and Hard of Hearing – Raleigh Regional Center",
   "city": "Raleigh",
   "categories": [

@@ -50,5 +50,13 @@
  {
   "pattern": "students?\\s*(&|and)\\s*staff only|for (\\w+ )?students only|students only",
   "reason": "Campus program limited to students/staff"
+ },
+ {
+  "pattern": "neighborhealth",
+  "reason": "Maintainer decision 2026-11-10: past partnerships with an anti-abortion pregnancy center and a church tied to conversion therapy (INDY Week, 2019)"
+ },
+ {
+  "pattern": "concilio pen[te]costal",
+  "reason": "Maintainer decision 2026-11-10: listed food hours match worship service times; food appears to be given only during services"
  }
 ]

@@ -853,7 +853,8 @@
   "verdict": "no_info",
   "evidence": "No program description found online.",
   "evidence_url": "",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "decision": "excluded by maintainer: food appears tied to service times"
  },
  {
   "name": "Cedar Grove United Methodist Church",
