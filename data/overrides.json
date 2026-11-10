@@ -58,8 +58,11 @@
   "_why": "Cost checked 2026-11-10: https://www.durhamhousingauthority.org/public-housing"
  },
  "TROSA|Durham": {
-  "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://trosainc.org/"
+  "notes": "Residents work about two years in TROSA's businesses (moving, lawn care, thrift and others) without pay or tips, in exchange for free housing, meals and treatment. It offers naltrexone but not methadone or buprenorphine (NC Health News, April 2022: northcarolinahealthnews.org/2022/04/06/11m-for-nc-rehab-raises-concerns/).",
+  "_if": {
+   "notes": ""
+  },
+  "_why": "Maintainer decision 2026-11-10: keep with a factual note. TROSA confirmed the unpaid work, tips policy and naltrexone-only medication to NC Health News / KFF Health News (Apr 2022); its current site describes the same model."
  },
  "Welcome Baby Durham County Cooperative Extension|Durham": {
   "cost": "free",
@@ -447,11 +450,15 @@
   "_why": "Checked 2026-11-10: No church site or 2026 guide listing found; aggregators (foodpantries.org) conflict with each other and with ours. https://www.foodpantries.org/li/nc_27604_st-james-food-pantry"
  },
  "Rush Metropolitan Church|Raleigh": {
+  "name": "Rush Metropolitan Church – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
   "_if": {
-   "notes": ""
+   "phone": "(919) 876-4446"
   },
-  "notes": "We couldn't confirm this mobile pantry is still running (the church itself is listed at 558 E Cabarrus St); call before going.",
-  "_why": "Checked 2026-11-10: No pantry listing anywhere; church directories give 558 E Cabarrus St, 919-832-6270. Phone on ours matches River of Raleigh entry, possibly a Dream Center number. https://ebiblestories.com/church/listing_238791.shtml"
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
  },
  "Abundant Life Cathedral|Raleigh": {
   "_if": {
@@ -551,11 +558,16 @@
   "_why": "Checked 2026-11-10: Church site (© 2026) gives office phone 919-365-6266 but no pantry hours. Two directories match our hours; others differ; FeedAM showed closed snapshot. https://www.wendellumc.org/"
  },
  "River of Raleigh Church|Raleigh": {
+  "name": "River of Raleigh Church – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "address": "8924 Buffaloe Rd, Knightdale, NC 27545",
   "_if": {
-   "notes": ""
+   "phone": "(919) 876-4446"
   },
-  "notes": "We couldn't confirm this mobile pantry is still running; call before going.",
-  "_why": "Checked 2026-11-10: No listing for the church or pantry found. Phone matches the Rush Metropolitan entry and resembles Raleigh Dream Center's 919-867-4446."
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
  },
  "Iglesia El Buen Pastor|Durham": {
   "_if": {
@@ -750,5 +762,232 @@
   },
   "notes": "We couldn't confirm this Saturday meal online; the parish office (520 W. Holding Ave., (919) 570-0070) can confirm. Call before going.",
   "_why": "Checked 2026-11-10: Diocese/parish listings show 520 W. Holding Ave, 919-570-0070, no meal program; town brochure doesn't list it. https://dioceseofraleigh.org/parish/saint-catherine-siena-wake-forest"
+ },
+ "Boundary Village|Cary": {
+  "name": "Boundary Village – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "2nd & 4th Sat 10 am–12 pm",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Buffaloe Mobile Home Park|Raleigh": {
+  "name": "Buffaloe Mobile Home Park – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Casa De Luna Apartments|Raleigh": {
+  "name": "Casa De Luna Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Foxhall Village|Raleigh": {
+  "name": "Foxhall Village – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "Every other Tuesday at 11:30 am, until supplies run out",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Laurel Crossing Apartments|Knightdale": {
+  "name": "Laurel Crossing Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "2nd Sat 10 am–12 pm",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "McMakin|Raleigh": {
+  "name": "McMakin – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Neuse Estates|Raleigh": {
+  "name": "Neuse Estates – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "New Hope Village 1|Wake Forest": {
+  "name": "New Hope Village 1 – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "address": "217 N. Allen St, Wake Forest, NC 27587",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "New Hope Village 2|Wake Forest": {
+  "name": "New Hope Village 2 – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Orchard Pointe|Raleigh": {
+  "name": "Orchard Pointe – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "2nd & 4th Sat 10 am–12 pm",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Overlooke Apartments|Raleigh": {
+  "name": "Overlooke Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Raleigh Millbank Apartments|Raleigh": {
+  "name": "Raleigh Millbank Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Shady Acres|Knightdale": {
+  "name": "Shady Acres – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "2nd Sat 10 am–12 pm",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Stonecrest Apartments|Raleigh": {
+  "name": "Stonecrest Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "The Bridges|Raleigh": {
+  "name": "The Bridges – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "address": "6456 The Lakes Dr, Raleigh, NC 27609",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "The Oaks|Raleigh": {
+  "name": "The Oaks – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Treetop Apartments|Raleigh": {
+  "name": "Treetop Apartments – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Washington Terrace|Raleigh": {
+  "name": "Washington Terrace – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "hours": "2nd Sat 10 am–12 pm",
+  "address": "1951 Booker Dr, Raleigh, NC 27610",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Granite Acres|Rolesville": {
+  "name": "Granite Acres – Raleigh Dream Center mobile pantry",
+  "phone": "(919) 867-4446",
+  "org_type": "faith_based",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "notes": "Raleigh Dream Center's current stop list (Nov 2026) doesn't include this stop, so it may have ended. Call (919) 867-4446 before going.",
+  "_if": {
+   "phone": "(919) 876-4446"
+  },
+  "_why": "Checked 2026-11-10 against https://raleighdreamcenter.org/resources/: the feed's 876-4446 is a typo for RDC's 867-4446; schedule per RDC's own stop list."
+ },
+ "Raleigh Dream Center|Raleigh": {
+  "org_type": "faith_based",
+  "hours": "Walk-up pantry: 2nd & 4th Sat 10 am–12 pm",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "_if": {
+   "hours": "Friday 10:00 am - 11:30 am"
+  },
+  "_why": "Checked 2026-11-10: RDC's own schedule lists the walk-up pantry on 2nd & 4th Saturdays, not Fridays (https://raleighdreamcenter.org/resources/). No religious participation required per its pages."
  }
 }

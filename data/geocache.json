@@ -720,6 +720,11 @@
 "lon": -78.615408,
 "checked": "2026-11-10"
 },
+"1951 booker dr|raleigh|27610": {
+"lat": 35.785957,
+"lon": -78.615408,
+"checked": "2026-11-10"
+},
 "197 nc-87|pittsboro|27312": {
 "lat": 35.724212,
 "lon": -79.187342,
@@ -887,6 +892,11 @@
 "checked": "2026-11-10"
 },
 "217 n. allen rd|wake forest|27587": {
+"lat": 35.978506,
+"lon": -78.500766,
+"checked": "2026-11-10"
+},
+"217 n. allen st|wake forest|27587": {
 "lat": 35.978506,
 "lon": -78.500766,
 "checked": "2026-11-10"
@@ -1457,6 +1467,11 @@
 "lon": -78.579512,
 "checked": "2026-11-10"
 },
+"412 e. pilot st|durham|27707": {
+"lat": 35.965441,
+"lon": -78.908542,
+"checked": "2026-11-10"
+},
 "412 liberty st|durham|27701": {
 "lat": 35.993779,
 "lon": -78.895795,
@@ -1554,6 +1569,11 @@
 "4408 lead mine rd|raleigh|27612": {
 "lat": 35.840394,
 "lon": -78.673689,
+"checked": "2026-11-10"
+},
+"4500 parrish manor dr|garner|27610": {
+"lat": 35.735822,
+"lon": -78.575793,
 "checked": "2026-11-10"
 },
 "4720 forestville rd.raleigh|raleigh|27616": {
@@ -1798,6 +1818,11 @@
 "checked": "2026-11-10",
 "nominatim": "2026-11-10",
 "via": "osm"
+},
+"6456 the lakes dr|raleigh|27609": {
+"lat": 35.867219,
+"lon": -78.626418,
+"checked": "2026-11-10"
 },
 "6556 lake hill dr|raleigh|27609": {
 "lat": 35.869305,

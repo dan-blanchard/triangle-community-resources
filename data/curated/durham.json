@@ -756,5 +756,23 @@
   "source_url": "https://www.bookharvest.org/familyspace",
   "checked": "2026-11-10",
   "notes": "Book Babies: free literacy coaching and 100+ books by kindergarten for families of Medicaid-eligible newborns (enroll at bookharvest.org/book-babies). Book Hub map: bookharvest.org/find-a-book-hub. Phone is (252) 497-BOOK."
+ },
+ {
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "cost": "free",
+  "url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "phone": "(919) 867-4446",
+  "access": "",
+  "notes": "Run by Raleigh Dream Center, a Christian ministry. Groceries are free. Volunteers may offer to pray with you or talk about faith, but nothing we found says you have to take part. Call (919) 867-4446 to confirm days and times.",
+  "source_url": "https://raleighdreamcenter.org/resources/",
+  "checked": "2026-11-10",
+  "description": "Mobile food pantry run by Raleigh Dream Center: free groceries handed out at this neighborhood stop.",
+  "name": "Rolling Hills – Raleigh Dream Center mobile pantry",
+  "city": "Durham",
+  "address": "412 E. Pilot St, Durham, NC 27707",
+  "hours": "2nd & 4th Sat 10 am–12 pm"
  }
 ]
