@@ -13,10 +13,17 @@ grouped by **town → need**.
      from https://dcia.org/guides/): financial, meals, housing, domestic violence, clothing,
      and immigrant/refugee tabs.
    - `cws.py`: CWS Durham "Master Resource List" (Triangle Area tab).
+   - `orange_ext.py`: NC Cooperative Extension's "Find Food in Orange County" list, with
+     transit directions for each site.
+   - `opendata.py`: Wake County Food Finder map, Durham Open Data food resources, and
+     Chatham County Public Health food assistance (government open data).
    - `curated.py`: hand-verified entries in `data/curated/*.json`: mutual aid, community
      fridges, tool libraries, maker spaces, repair cafés, harm reduction, and so on.
 2. **Cleans up**: normalizes town and category, drops excluded entries (`data/exclude.json`),
-   and merges duplicates across sources (same name, same website, or an alias in `data/aliases.json`).
+   and merges duplicates across sources: the same or a near-identical name in the same town,
+   the same street address with a shared distinctive name word, the same website at the same
+   address, or an alias in `data/aliases.json`. Separate programs in one building (a church's
+   fridge vs. its breakfast) and one organization's separate sites stay apart.
 3. **Checks every website link.** An entry is only flagged once its link has failed 3 days in a row.
 4. **Renders** `site/index.html` (works without JavaScript and prints cleanly) plus
    `site/resources.csv` and `site/resources.json`, then deploys to GitHub Pages.

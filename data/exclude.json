@@ -34,5 +34,13 @@
  {
   "pattern": "durham rescue mission",
   "reason": "Requires chapel/prayer attendance (INDY Week reporting)"
+ },
+ {
+  "pattern": "carolina cupboard",
+  "reason": "UNC-Chapel Hill students, faculty and staff only"
+ },
+ {
+  "pattern": "^feed the pack",
+  "reason": "NC State students, faculty and staff only"
  }
 ]

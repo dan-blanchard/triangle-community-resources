@@ -28,13 +28,14 @@ from zoneinfo import ZoneInfo
 
 import requests
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from sources import common, cws, curated, dcia, opendata  # noqa: E402
+from sources import common, cws, curated, dcia, opendata, orange_ext  # noqa: E402
 
-SOURCES = [curated, dcia, cws, opendata.durham, opendata.wake, opendata.chatham]  # curated first: it wins when merging duplicates
+SOURCES = [curated, dcia, cws, orange_ext, opendata.durham, opendata.wake, opendata.chatham]  # curated first: it wins when merging duplicates
 TZ = ZoneInfo("America/New_York")
 STATE = ROOT / "data" / "state.json"
 EXCLUDE = ROOT / "data" / "exclude.json"
@@ -52,7 +53,7 @@ COST_LABEL = {
 _FAITH = (r"church|\bumc\b|\bame\b|\bmbc\b|\bucc\b|\bcme\b|\bsda\b|baptist|methodist|episcopal|presbyterian|lutheran|"
           r"catholic|adventist|pentecost|apostolic|holiness|\bholy\b|\bzion\b|tabernacle|cathedral|fellowship|"
           r"christian|christiano|cristian|iglesia|ministr|missionary|gospel|revival|congregation|parish|diocese|"
-          r"chapel(?! hill)|temple|synagogue|jewish|mosque|masjid|islamic|\bicna\b|word of god|faith center|"
+          r"chapel(?! hill)|unitarian|universalist|temple|synagogue|jewish|mosque|masjid|islamic|\bicna\b|word of god|faith center|"
           r"assembly of god|rescue mission|salvation army|concilio|guerreros")
 _PUBLIC = r"county|city of|town of|librar|housing authority|department|\bdss\b|durham tech|wake tech|\bnc |n\.c\. |public schools"
 
@@ -129,7 +130,45 @@ def similar_names(a: str, b: str) -> bool:
     ta, tb = a.replace("the ", ""), b.replace("the ", "")
     if min(len(ta), len(tb)) >= 8 and (ta in tb or tb in ta) and abs(len(ta) - len(tb)) <= 8:
         return True
-    return difflib.SequenceMatcher(None, ta, tb).ratio() >= 0.86
+    # Compare the distinctive words too, so "Cedar Grove UMC" != "Carr UMC" despite the shared suffix.
+    da = " ".join(w for w in ta.split() if w not in _GENERIC)
+    db = " ".join(w for w in tb.split() if w not in _GENERIC)
+    if not da or not db:
+        return ta == tb
+    return (difflib.SequenceMatcher(None, ta, tb).ratio() >= 0.86
+            and difflib.SequenceMatcher(None, da, db).ratio() >= 0.75)
+
+
+def street_key(addr: str) -> tuple[str, str] | None:
+    """(house number, first street word) of the first address line, e.g. ('5124', 'nc')."""
+    first = re.split(r"\n|\|", (addr or "").lower())[0]
+    first = re.sub(r"^[^0-9]*?(?=\d)", "", first)  # drop leading labels like "Community Kitchen:"
+    m = re.match(r"(\d{2,6})\s+(?:(?:n|s|e|w|north|south|east|west)\.?\s+)?([a-z0-9]+)", first)
+    return (m.group(1), m.group(2)) if m else None
+
+
+_GENERIC = set("""the of and for at in a an inc llc nc church churches community food foods pantry pantries center centre
+ministries ministry services service county united baptist methodist umc outreach program programs distribution
+distributions market mobile senior seniors library libraries public st saint new first health clinic family families
+care durham raleigh chapel hill carrboro hillsborough cary wake orange chatham town city department fund kitchen
+meal meals free box boxes main""".split())
+_DISTINCT_PROGRAM = [r"fridge", r"mobile (market|pantry)", r"syringe|harm reduction", r"repair caf", r"tech lab", r"\bkits\b"]
+
+
+def same_program_kind(a: str, b: str) -> bool:
+    """False when one name is a distinct kind of program the other isn't (a church's fridge vs its breakfast)."""
+    la, lb = a.lower(), b.lower()
+    return all(bool(re.search(p, la)) == bool(re.search(p, lb)) for p in _DISTINCT_PROGRAM)
+
+
+def same_site_names(a: str, b: str) -> bool:
+    """For two rows at the same street address: are they the same program, not just the same building?"""
+    la, lb = a.lower(), b.lower()
+    if not same_program_kind(a, b):
+        return False
+    ta = {w for w in re.findall(r"[a-z]{4,}", la) if w not in _GENERIC}
+    tb = {w for w in re.findall(r"[a-z]{4,}", lb) if w not in _GENERIC}
+    return bool(ta & tb) or difflib.SequenceMatcher(None, norm_name(a), norm_name(b)).ratio() >= 0.6
 
 
 def dedupe(entries: list[dict]) -> list[dict]:
@@ -147,16 +186,27 @@ def dedupe(entries: list[dict]) -> list[dict]:
             if o["city"] != e["city"] and "Triangle-wide" not in (o["city"], e["city"]):
                 continue
             ok = norm_name(o["name"])
-            if ok == key or (min(len(ok), len(key)) >= 14 and (ok.startswith(key) or key.startswith(ok))) \
+            both_curated = bool(o.get("curated_file") and e.get("curated_file"))
+            if not same_program_kind(o["name"], e["name"]):
+                continue
+            if ok == key or (not both_curated and min(len(ok), len(key)) >= 14 and (ok.startswith(key) or key.startswith(ok))) \
                     or (o["city"] == e["city"] and similar_names(ok, key)):
                 match = o
                 break
             # Shared website only implies "same org" when a scraped row is involved; curated
             # entries that share a site (e.g. one org's two distribution sites) are distinct on purpose.
+            sk_o, sk_e = street_key(o["address"]), street_key(e["address"])
             if (o["city"] == e["city"] and same_site(o["url"], e["url"])
-                    and not (o.get("curated_file") and e.get("curated_file"))):
+                    and not (o.get("curated_file") and e.get("curated_file"))
+                    and not (sk_o and sk_e and sk_o != sk_e)):  # one org's different sites stay apart
                 match = o
                 break
+        if not match and not e.get("curated_file"):
+            # Same street address in the same town = same site, even under a different name.
+            sk = street_key(e["address"])
+            if sk:
+                match = next((o for o in out if o["city"] == e["city"] and street_key(o["address"]) == sk
+                              and same_site_names(o["name"], e["name"])), None)
         if not match and not e.get("curated_file"):
             # Scraped rows often carry only a county-level town guess, so let them merge
             # into an entry in another town when the name or the exact page matches.
@@ -237,11 +287,66 @@ def maps_link(addr: str) -> str:
     return "https://www.google.com/maps/search/?api=1&query=" + requests.utils.quote(first + ", NC")
 
 
+_TLDS = r"org|com|net|gov|edu|coop|us|io|co|info|page|xyz|church|app|link|me"
+_LINK_RE = re.compile(
+    r"(?P<url>\bhttps?://[^\s<>()\"']+[^\s<>()\"'.,;:!?])"
+    r"|(?P<email>\b[\w.+-]+@[\w-]+(?:\.[\w-]+)*\.[a-z]{2,}\b)"
+    r"|(?P<domain>\b(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:" + _TLDS + r")(?:/[^\s<>()\"']*[^\s<>()\"'.,;:!?])?(?![\w@]))"
+    r"|(?P<handle>(?<![\w@/.])@(?P<h>[A-Za-z0-9_][A-Za-z0-9_.]{1,29}[A-Za-z0-9_]))"
+    r"|(?P<phone>(?<!\d)\(?\b\d{3}\)?[\s.-]?\d{3}[\s.-]\d{4}\b)",
+    re.I,
+)
+_SOCIAL = {"facebook": "https://www.facebook.com/", "fb": "https://www.facebook.com/",
+           "twitter": "https://x.com/", "x.com": "https://x.com/", "tiktok": "https://www.tiktok.com/@",
+           "threads": "https://www.threads.net/@", "bluesky": "https://bsky.app/profile/"}
+
+
+def linkify(text: str) -> Markup:
+    """Escape text, then turn URLs, bare domains, emails, @handles and phone numbers into links.
+
+    @handles go to Instagram unless the preceding words name another network
+    ("Facebook: @foo", "on TikTok @foo")."""
+    text = text or ""
+    out, pos = [], 0
+    for m in _LINK_RE.finditer(text):
+        out.append(escape(text[pos:m.start()]))
+        tok = m.group(0)
+        if m.group("url"):
+            href = tok
+        elif m.group("email"):
+            href = "mailto:" + tok
+        elif m.group("domain"):
+            href = tok if tok.lower().startswith("http") else "https://" + tok
+        elif m.group("handle"):
+            before = text[max(0, m.start() - 40):m.start()].lower()
+            net = next((v for k, v in _SOCIAL.items() if re.search(rf"\b{re.escape(k)}\b", before)), None)
+            href = (net or "https://www.instagram.com/") + m.group("h").rstrip(".")
+        else:
+            href = "tel:+1" + re.sub(r"\D", "", tok)
+        ext = "" if href.startswith(("mailto:", "tel:")) else ' rel="noopener"'
+        out.append(Markup(f'<a href="{escape(href)}"{ext}>{escape(tok)}</a>'))
+        pos = m.end()
+    out.append(escape(text[pos:]))
+    return Markup("").join(out)
+
+
+def display_domain(url: str) -> str:
+    p = urlparse(url)
+    host = p.netloc.removeprefix("www.")
+    if re.search(r"instagram\.com|facebook\.com|linktr\.ee|tiktok\.com|x\.com|twitter\.com", host):
+        handle = p.path.strip("/").split("/")[0]
+        net = host.split(".")[0].capitalize().replace("Linktr", "Linktree")
+        return f"{net}: @{handle}" if handle and net != "Linktree" else f"{net}: {handle}" if handle else host
+    return host
+
+
 def render(entries: list[dict], meta: dict) -> None:
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
     env.filters["maps"] = maps_link
     env.filters["slug"] = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     env.filters["tel"] = lambda s: re.sub(r"[^\d+]", "", s)
+    env.filters["linkify"] = linkify
+    env.filters["domain"] = display_domain
 
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
@@ -296,11 +401,13 @@ def main() -> int:
     entries = dedupe(entries)
 
     first_seen = state.setdefault("first_seen", {})
+    # Launch day = the earliest first-seen date. Nothing from launch day counts as "new".
+    launch = state.setdefault("initialized_on", min(first_seen.values(), default=today))
     for e in entries:
         k = f"{norm_name(e['name'])}|{e['city']}"
         first_seen.setdefault(k, today)
         e["first_seen"] = first_seen[k]
-        e["is_new"] = (now.date() - dt.date.fromisoformat(e["first_seen"])).days <= 7 and state.get("initialized")
+        e["is_new"] = e["first_seen"] > launch and (now.date() - dt.date.fromisoformat(e["first_seen"])).days <= 7
 
     if not args.no_links:
         check_links(entries, state)
