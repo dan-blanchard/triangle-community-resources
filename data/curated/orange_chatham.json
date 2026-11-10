@@ -23,7 +23,7 @@
   "name": "The ReCYCLEry (community bike co-op)",
   "city": "Carrboro",
   "categories": [
-   "Bikes & Getting Around",
+   "Transportation",
    "Make & Fix"
   ],
   "org_type": "community_org",
@@ -602,7 +602,7 @@
   "name": "Chapel Hill Transit (fare-free buses)",
   "city": "Chapel Hill",
   "categories": [
-   "Bikes & Getting Around"
+   "Transportation"
   ],
   "org_type": "public",
   "description": "Fare-free bus system serving Chapel Hill, Carrboro and UNC. Just get on and ride.",

@@ -190,7 +190,7 @@
   "name": "Durham Bike Co-op",
   "city": "Durham",
   "categories": [
-   "Bikes & Getting Around",
+   "Transportation",
    "Make & Fix"
   ],
   "org_type": "cooperative",
@@ -209,7 +209,7 @@
   "name": "Raleigh Community Kickstand",
   "city": "Raleigh",
   "categories": [
-   "Bikes & Getting Around",
+   "Transportation",
    "Make & Fix"
   ],
   "org_type": "cooperative",
@@ -228,7 +228,7 @@
   "name": "ReCYCLEry NC (with Triangle Free Bike Repair)",
   "city": "Carrboro",
   "categories": [
-   "Bikes & Getting Around",
+   "Transportation",
    "Make & Fix"
   ],
   "org_type": "cooperative",

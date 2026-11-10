@@ -62,6 +62,9 @@ article.r h4 a:hover{text-decoration:underline}
 .b-faith_based{background:#eee8f3;color:#5b3f78}
 .b-cost{background:var(--gold-bg);color:#6b4e00}
 .b-new{background:var(--accent);color:#fff}
+.b-pride{display:inline-flex;align-items:center;gap:.3rem;background:#fff;color:var(--ink);border:1px solid var(--line);text-decoration:none}
+.b-pride:hover{border-color:var(--ink)}
+svg.pride{border-radius:2px;flex:none}
 .desc{margin:0;font-size:.93rem;white-space:pre-line}
 dl.facts{margin:0;font-size:.88rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .55rem}
 dl.facts dt{color:var(--muted);font-weight:600}
@@ -162,12 +165,13 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
+        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
           <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
             <span class="b b-{{ e.org_type }}">{{ org_label[e.org_type] }}</span>
             {% if e.cost != "unknown" %}<span class="b b-cost">{{ cost_label[e.cost] }}</span>{% endif %}
+            {% if e.lgbtq %}<a class="b b-pride" href="{{ e.lgbtq.evidence_url }}" rel="noopener" title="Why: {{ e.lgbtq.evidence }}"><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</a>{% endif %}
           </div>
           <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
           {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
@@ -200,6 +204,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   </ul>
   <p>What's included: free or pay-what-you-can resources open to the community. Mutual aid and community-run groups are tagged green; use "Mutual aid &amp; community-run only" to see just those. Paid thrift stores, for-profit businesses and programs that require religious participation are left out.</p>
   <p>Something wrong, closed, or missing? <a href="{{ repo }}/issues/new?template=report-change.yml">Report a change</a> or <a href="{{ repo }}/issues/new?template=suggest-resource.yml">suggest a resource</a>. Reports are public on GitHub, so don't include personal details.</p>
+  <p><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> <strong>LGBTQIA+ affirming</strong> appears only when we found evidence: an LGBTQ+-focused group, an explicit LGBTQ+ welcome or affirming statement, a nondiscrimination policy covering both sexual orientation and gender identity, or a listing in an affirming-congregation directory. Hover or tap the badge to see the evidence. No badge means "not confirmed", not "unwelcoming".</p>
   <p>Share this page: <a href="flyer.html">printable flyer with QR code</a> · <a href="qr.png" download>QR code image</a></p>
   <p>Download the data: <a href="resources.csv">CSV</a> · <a href="resources.json">JSON</a></p>
   <p>Map: <a href="https://leafletjs.com">Leaflet</a>, tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors. Locations come from the source lists or the <a href="https://geocoding.geo.census.gov/">US Census geocoder</a> (some via OpenStreetMap Nominatim). Confidential locations are never mapped.</p>

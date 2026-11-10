@@ -21,14 +21,15 @@ CITIES = [
 # Need groups, in display order. Page sections and the "needs" filter follow this order.
 CATEGORY_GROUPS = [
     ("Basic needs", [("Food", "🍎"), ("Housing & Shelter", "🏠"), ("Clothing & Household", "👕"),
-                     ("Showers, Laundry & Hygiene", "🚿"), ("Money & Bills", "💵")]),
+                     ("Showers, Laundry & Hygiene", "🚿"), ("Money & Bills", "💵"),
+                     ("Transportation", "🚌")]),
     ("Health, safety & rights", [("Health Care & Harm Reduction", "🩺"), ("Mental Health & Crisis", "💬"),
                                  ("Domestic & Sexual Violence", "🛡️"), ("Legal & Immigration", "⚖️")]),
     ("Sharing & community", [("Mutual Aid & Organizing", "🤝"), ("Free Stuff", "🎁"),
                              ("Borrow Things", "🔧"), ("Make & Fix", "🛠️"),
-                             ("Gardens & Seeds", "🌱"), ("Bikes & Getting Around", "🚲"),
+                             ("Gardens & Seeds", "🌱"),
                              ("Community Centers", "🏛️")]),
-    ("Family & learning", [("Kids & Families", "👶"), ("Classes, Computers & Wi-Fi", "💻")]),
+    ("Family, pets & learning", [("Kids & Families", "👶"), ("Pet Care", "🐾"), ("Classes, Computers & Wi-Fi", "💻")]),
 ]
 CATEGORIES = [c for _, cats in CATEGORY_GROUPS for c, _ in cats]
 CATEGORY_HELP = {
@@ -46,9 +47,10 @@ CATEGORY_HELP = {
     "Borrow Things": "Borrow tools, equipment, kits and gear instead of buying them.",
     "Make & Fix": "Free or low-cost workshops and fab labs, and repair cafés to fix your stuff.",
     "Gardens & Seeds": "Seed libraries, community gardens, free produce and gleaning.",
-    "Bikes & Getting Around": "Bike co-ops, free bikes and repair help, fare-free buses.",
+    "Transportation": "Fare-free and reduced-fare buses, rides to medical appointments, senior and paratransit rides, bike co-ops and car help.",
     "Community Centers": "Drop-in community centers, such as LGBTQ+ centers.",
     "Kids & Families": "Diapers, baby gear, food for kids and family support.",
+    "Pet Care": "Pet food pantries, free or low-cost vet care and spay/neuter, and help keeping pets with you in a crisis.",
     "Classes, Computers & Wi-Fi": "Free computers, Wi-Fi hotspots, English classes and literacy help.",
 }
 CATEGORY_EMOJI = {c: e for _, cats in CATEGORY_GROUPS for c, e in cats}
@@ -153,6 +155,7 @@ _CATEGORY_KEYWORDS = {
     "Kids & Families": r"children|\bkids?\b|families|diaper|infant|baby|youth",
     "Classes, Computers & Wi-Fi": r"\besl\b|esol|english class|english as|literacy|computer|internet",
     "Community Centers": r"lgbt|community center|day center|drop-in",
+    "Transportation": r"transportation|bus pass|paratransit|\brides?\b to|medical rides?|\bshuttle\b",
 }
 
 

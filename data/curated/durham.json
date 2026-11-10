@@ -218,7 +218,7 @@
   "name": "Durham Bike Co-op",
   "city": "Durham",
   "categories": [
-   "Bikes & Getting Around",
+   "Transportation",
    "Make & Fix"
   ],
   "org_type": "cooperative",
@@ -237,7 +237,7 @@
   "name": "GoDurham – Fare-Free Buses",
   "city": "Durham",
   "categories": [
-   "Bikes & Getting Around"
+   "Transportation"
   ],
   "org_type": "public",
   "description": "All GoDurham city bus routes are fare-free. You don't need a pass, ID or payment to ride.",
@@ -736,5 +736,25 @@
   "source_url": "https://durhamliteracy.org/",
   "notes": "The homepage doesn't state fees or hours, so check the enrollment page or call. It posted a newsletter in Oct 2026.",
   "checked": "2026-11-10"
+ },
+ {
+  "name": "Book Harvest – Free Books & Family Space",
+  "city": "Durham",
+  "categories": [
+   "Kids & Families",
+   "Free Stuff",
+   "Classes, Computers & Wi-Fi"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free children's books to build home libraries. The Family Space has free books to take home, reading nooks, toys and free storytimes (kids keep the book). Also runs outdoor Book Hubs and Book Boxes around Durham.",
+  "address": "2501 University Drive, Durham, NC 27707",
+  "url": "https://www.bookharvest.org/",
+  "phone": "(252) 497-2665",
+  "hours": "Family Space: Tue–Sat 9am–5pm (office Mon–Fri 9am–5pm)",
+  "access": "Free and open to families; children must be with an adult 16+. If the Family Space is full, books are set out front to browse and take.",
+  "cost": "free",
+  "source_url": "https://www.bookharvest.org/familyspace",
+  "checked": "2026-11-10",
+  "notes": "Book Babies: free literacy coaching and 100+ books by kindergarten for families of Medicaid-eligible newborns (enroll at bookharvest.org/book-babies). Book Hub map: bookharvest.org/find-a-book-hub. Phone is (252) 497-BOOK."
  }
 ]

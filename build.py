@@ -41,6 +41,7 @@ TZ = ZoneInfo("America/New_York")
 STATE = ROOT / "data" / "state.json"
 EXCLUDE = ROOT / "data" / "exclude.json"
 ALIASES = ROOT / "data" / "aliases.json"
+LGBTQ = ROOT / "data" / "lgbtq_affirming.json"
 SITE = ROOT / "site"
 
 ORG_TYPE_LABEL = {
@@ -494,7 +495,7 @@ def render(entries: list[dict], meta: dict) -> None:
         needs=flyer_needs, total=len(entries)), encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
-                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen", "lat", "lon"]
+                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen", "lat", "lon", "lgbtq"]
     for e in entries:
         e["source_urls"] = [x["url"] for x in e["source_links"] if x["url"]]
     rows = [{k: e.get(k, "") for k in public_fields} for e in entries]
@@ -544,6 +545,13 @@ def main() -> int:
             f = logos.DIR / f"{logos.host_of(e.get('url', ''))}.png"
             if e.get("url") and f.exists():
                 e["logo"] = f"logos/{f.name}"
+
+    # LGBTQIA+ affirming flags: only with recorded evidence (data/lgbtq_affirming.json).
+    flags = json.loads(LGBTQ.read_text()) if LGBTQ.exists() else []
+    flag_by_key = {(norm_name(f["name"]), f["city"]): f for f in flags}
+    for e in entries:
+        f = flag_by_key.get((norm_name(e["name"]), e["city"]))
+        e["lgbtq"] = {k: f[k] for k in ("basis", "evidence", "evidence_url", "checked")} if f else None
 
     stale = []
     for e in entries:
