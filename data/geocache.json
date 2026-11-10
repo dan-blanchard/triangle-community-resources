@@ -239,6 +239,13 @@
 "lon": -78.659383,
 "checked": "2026-11-10"
 },
+"127 dr. martin luther king jr. dr|pittsboro|27312": {
+"lat": 35.720597,
+"lon": -79.165114,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
 "128 e cabarrus st|raleigh|27601": {
 "lat": 35.774135,
 "lon": -78.637934,
@@ -556,6 +563,11 @@
 "lon": -78.92508,
 "checked": "2026-11-10"
 },
+"1911 fay st|durham|27704": {
+"lat": 36.005085,
+"lon": -78.876133,
+"checked": "2026-11-10"
+},
 "192 torain st|hillsborough|27278": {
 "lat": 36.090623,
 "lon": -79.109184,
@@ -574,6 +586,11 @@
 "1951 booker drive|raleigh|27610": {
 "lat": 35.785957,
 "lon": -78.615408,
+"checked": "2026-11-10"
+},
+"200 e. main st|durham|27701": {
+"lat": 35.994314,
+"lon": -78.899501,
 "checked": "2026-11-10"
 },
 "200 high meadow drive|cary|27511": {
@@ -700,6 +717,11 @@
 "212 south salem st|apex|27502": {
 "lat": 35.729537,
 "lon": -78.852569,
+"checked": "2026-11-10"
+},
+"2121 umstead rd|durham|27712": {
+"lat": 36.075935,
+"lon": -78.952972,
 "checked": "2026-11-10"
 },
 "215 n. church st|durham|27701": {
@@ -871,6 +893,11 @@
 "lon": -79.069539,
 "checked": "2026-11-10"
 },
+"301 s. brooks st|wake forest|": {
+"lat": 35.976792,
+"lon": -78.508755,
+"checked": "2026-11-10"
+},
 "301 w main st|durham|": {
 "lat": 35.995961,
 "lon": -78.902451,
@@ -907,6 +934,11 @@
 "checked": "2026-11-10",
 "nominatim": "2026-11-10",
 "via": "osm"
+},
+"310 w. martin st|raleigh|": {
+"lat": 35.777175,
+"lon": -78.644845,
+"checked": "2026-11-10"
 },
 "3109 poplarwood ct|raleigh|27604": {
 "lat": 35.817729,
@@ -1122,6 +1154,11 @@
 "406 rigsbee ave|durham|27701": {
 "lat": 35.999256,
 "lon": -78.899867,
+"checked": "2026-11-10"
+},
+"411 e. durham rd|cary|27511": {
+"lat": 35.790365,
+"lon": -78.772137,
 "checked": "2026-11-10"
 },
 "411 w. chapel hill st|durham|27701": {
@@ -1375,6 +1412,11 @@
 "605 e young st|rolesville|27571": {
 "lat": 35.91683,
 "lon": -78.452515,
+"checked": "2026-11-10"
+},
+"606 nc 86|hillsborough|27278": {
+"lat": 36.094852,
+"lon": -79.10545,
 "checked": "2026-11-10"
 },
 "607 pine acres rd|chapel hill|27516": {

@@ -1,0 +1,7 @@
+{
+ "_comment": "Field corrections for scraped listings we can't edit at the source. Key: 'Name|Town' (final display name). Value: fields to replace.",
+ "Cedar Grove United Methodist Church|Hillsborough": {
+  "url": "",
+  "_why": "Source lists cgumc.org, which is Cedar Grove UMC in Deale, Maryland"
+ }
+}

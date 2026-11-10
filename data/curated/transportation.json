@@ -1,0 +1,548 @@
+[
+ {
+  "name": "Transit Assistance Pass (TAP) – free GoRaleigh & GoTriangle rides for low-income adults",
+  "city": "Triangle-wide",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Free GoPass for GoRaleigh and GoTriangle buses for adults with low incomes. Riders with GoRaleigh Access paratransit can also use TAP to ride Access for free.",
+  "address": "",
+  "url": "https://gotriangle.org/transit-assistance-pass",
+  "phone": "919-485-7433 (919-485-RIDE)",
+  "hours": "",
+  "access": "Adults 19–64 who qualify for Medicaid or SNAP/EBT, or whose household income is under $35,000. Needs a free Umo account (app) and an online sign-up form.",
+  "cost": "free",
+  "source_url": "https://gotriangle.org/transit-assistance-pass",
+  "checked": "2026-11-10",
+  "notes": "To sign up: download the Umo app and make an account, then fill out the TAP form on GoTriangle's site using the same email. Call 919-485-RIDE (7433) if you need help activating the pass. The page names GoRaleigh and GoTriangle buses only; GoDurham and GoCary are already fare-free. GoRaleigh's fare page lists the same program."
+ },
+ {
+  "name": "GoTriangle regional buses – free & discount GoPass (seniors, youth, disability)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "GoTriangle regional buses link Raleigh, Durham, Chapel Hill, Cary, RTP and RDU. Full fare is $2.50 (daily cap $5), and discount fare is $1.25 (daily cap $2.50). Seniors, youth and Transit Assistance Pass holders can ride free with a GoPass.",
+  "address": "",
+  "url": "https://gotriangle.org/fares",
+  "phone": "919-485-7433 (919-485-RIDE)",
+  "hours": "",
+  "access": "Free with GoPass: seniors 65+ and youth 13–18 (parent or guardian signs them up). Discount GoPass for riders with a disability. Each needs a free Umo account and an online form.",
+  "cost": "",
+  "source_url": "https://gotriangle.org/fares",
+  "checked": "2026-11-10",
+  "notes": "To sign up: make a Umo account, then fill out the Senior, Youth or Disability GoPass form on gotriangle.org. Senior and youth GoPasses also cover GoRaleigh buses. Low-income adults: see the Transit Assistance Pass. Call 919-485-RIDE (7433) for trip planning across all Triangle bus systems."
+ },
+ {
+  "name": "GoRaleigh buses – free & half-fare programs",
+  "city": "Raleigh",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Raleigh's city buses charge $1.25 a ride or $2.50 for a day pass; reduced fare is $0.60 a ride. Several groups ride free or at half fare.",
+  "address": "",
+  "url": "https://goraleigh.org/fares",
+  "phone": "919-485-7433 (919-485-RIDE)",
+  "hours": "",
+  "access": "Free: seniors 65+ with a valid ID; youth 13–18 enrolled in Youth GoPass; children 12 and under with an adult; adults 19–64 on Medicaid or SNAP/EBT or with household income under $35,000 (Transit Assistance Pass). Half fare: people with a disability (GoRaleigh RF ID card) and Medicare card holders.",
+  "cost": "",
+  "source_url": "https://goraleigh.org/fares",
+  "checked": "2026-11-10",
+  "notes": "Medicare card holders get a reduced-fare ID at the GoRaleigh Station information booth. Other passes are set up online through GoTriangle and the Umo app. Without a pass: one ride $1.25, day pass $2.50, 7-day pass $12, 31-day pass $40 (reduced: $0.60 / $1.25 / $6 / $20)."
+ },
+ {
+  "name": "GoCary – fare-free buses",
+  "city": "Cary",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "All GoCary fixed-route buses in Cary are fare-free through June 30, 2027.",
+  "address": "",
+  "url": "https://gocary.org/fares-passes-gocary",
+  "phone": "919-485-7433 (919-485-RIDE)",
+  "hours": "",
+  "access": "Open to everyone; no pass needed.",
+  "cost": "free",
+  "source_url": "https://gocary.org/fares-passes-gocary",
+  "checked": "2026-11-10",
+  "notes": "GoCary's Ticket Assistance Program helps Cary residents on Medicaid, SSI or SNAP with Door to Door fares; email BetterTransit@GoCary.org."
+ },
+ {
+  "name": "GoCary Door to Door (paratransit & senior rides, incl. Apex)",
+  "city": "Cary",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Shared-ride, reservation-based van service for people whose disability keeps them from using the bus, and for Cary residents 60 and older. Since April 18, 2026 it also provides ADA paratransit along GoApex Route 1 in Apex.",
+  "address": "",
+  "url": "https://gocary.org/about-gocary-door-door-service",
+  "phone": "919-481-2020 (reservations: option 3)",
+  "hours": "Reservations 7:30 a.m.–4:30 p.m. daily",
+  "access": "Must apply and be approved first; a professional must sign part of the application and decisions take up to 21 days. For people with a disability who can't use fixed-route buses, or Cary residents 60+. Book at least 1 day ahead. Apex riders: ADA trips within 3/4 mile of the GoCary routes and GoApex Route 1, booked 1–7 days ahead.",
+  "cost": "",
+  "source_url": "https://gocary.org/fares-passes-gocary",
+  "checked": "2026-11-10",
+  "notes": "Tier 1 trips (ADA and senior trips within 3/4 mile of GoCary bus routes) are free through June 30, 2027. Tier 2 trips elsewhere in Cary cost $4. Tier 3 medical, education and work trips outside Cary are $6 to Apex or Morrisville; other fares vary. Personal care attendants ride free. People living outside Cary should call GoWake Access at 919-212-7005. Apex details: https://apexnc.org/1703"
+ },
+ {
+  "name": "GoRaleigh Access (ADA paratransit)",
+  "city": "Raleigh",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Raleigh's door-to-door paratransit for people whose disability keeps them from using GoRaleigh buses. Trips must start and end within 3/4 mile of a GoRaleigh bus stop.",
+  "address": "310 W. Martin St., Suite 212, Raleigh, NC",
+  "url": "https://raleighnc.gov/go-raleigh-access",
+  "phone": "919-996-3459 (option 1); TTY via NC Relay 800-735-2962",
+  "hours": "Reservations 8:15 a.m.–4:45 p.m.; call center preferred hours Mon–Fri 9 a.m.–4 p.m.",
+  "access": "ADA-eligible people with a disability. Apply with Part A (you) and Part B (signed by a physician or agency official); an in-person interview follows and a decision comes within 21 business days. Eligibility lasts 2 years. Book 1 to 14 days ahead.",
+  "cost": "",
+  "source_url": "https://raleighnc.gov/go-raleigh-access",
+  "checked": "2026-11-10",
+  "notes": "A trip costs $2.50 one way, paid from an account you load at the call center or in person. Riders on Medicaid or SNAP/EBT, or with household income under $35,000, ride Access free with the Transit Assistance Pass. No service on Thanksgiving or Christmas."
+ },
+ {
+  "name": "GoTriangle Access (regional ADA paratransit)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "ADA paratransit for regional trips along GoTriangle's all-day bus routes in Wake, Durham and Orange counties. ADA certification from Raleigh, Cary, Durham or Chapel Hill is honored.",
+  "address": "",
+  "url": "https://gotriangle.org/access",
+  "phone": "919-485-7433 (919-485-RIDE); route questions 919-485-7468",
+  "hours": "",
+  "access": "Wake, Durham and Orange residents whose disability keeps them from using GoTriangle buses. Trips must start and end within 3/4 mile of an all-day GoTriangle route.",
+  "cost": "",
+  "source_url": "https://gotriangle.org/access",
+  "checked": "2026-11-10",
+  "notes": "$5 per one-way trip; a 10-ride punch pass is $50 and a monthly pass is $160. Cash must be exact. Children 12 and under ride free."
+ },
+ {
+  "name": "GoWake Access (Wake County van rides)",
+  "city": "Raleigh",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Wake County's door-to-door shared van rides, available countywide. It serves Medicaid medical trips, older adults and people with disabilities, work trips, people in rural areas, and Wake residents travelling outside Raleigh or Cary.",
+  "address": "220 Swinburne St., Raleigh, NC 27610",
+  "url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-access-transportation",
+  "phone": "919-212-7005 (reservations); TTY 800-735-2962; cancel 919-996-3444",
+  "hours": "Rides Mon–Sat 6 a.m.–6 p.m., excluding holidays",
+  "access": "Wake County residents who are 60+, have a disability, need rides to work or job interviews, live in or travel to a rural zone, or are on Medicaid. General-public riders call the day before. Medicaid riders book at least 3 business days ahead, or 5 for trips out of county. Have both addresses ready.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-access-transportation",
+  "checked": "2026-11-10",
+  "notes": "Medicaid rides to Medicaid-approved appointments are free; proof of the appointment is required. Gas cards are available for Medicaid trips of 5+ miles one way and must be picked up. Other trips cost $2 within one town or $4 between towns. Non-Medicaid trips depend on space and are first-come, first-served. Chemo and dialysis riders get rides on most holidays. Medicaid walk-in at 220 Swinburne St.: Mon–Thu 9–10:45 a.m. and 2–3:45 p.m., Fri 9–10:45 a.m."
+ },
+ {
+  "name": "GoWake SmartRide NE (free on-demand rides in eastern Wake)",
+  "city": "Wendell",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Fare-free, shared on-demand van rides in and around Zebulon, Wendell, Knightdale and the unincorporated areas between them.",
+  "address": "",
+  "url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-smartride-ne",
+  "phone": "919-212-7005",
+  "hours": "",
+  "access": "Open to the general public. Middle and high school students must register with a parent's or guardian's contact information.",
+  "cost": "free",
+  "source_url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-smartride-ne",
+  "checked": "2026-11-10",
+  "notes": "Book in the GoAccess! app or call the GoWake Access call center at 919-212-7005; you don't need a smartphone. You meet the van at a pickup spot and may share the ride. Vehicles are ADA-accessible."
+ },
+ {
+  "name": "GoRaleigh MicroLink – Fuquay-Varina (free on-demand rides)",
+  "city": "Fuquay-Varina",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "GoRaleigh's on-demand, curb-to-curb microtransit across Fuquay-Varina. It replaces the old FRX bus, and riders can connect at Wake Tech to the 40X bus to downtown Raleigh.",
+  "address": "",
+  "url": "https://www.fuquay-varina.org/508/MicroLinkBus",
+  "phone": "919-996-3459 (option 2)",
+  "hours": "Weekdays 6 a.m.–8 p.m.; Saturdays 7 a.m.–8 p.m.; no Sunday service",
+  "access": "Open to anyone in the zone. Children 12 and under ride with an adult. On-demand only, with no advance booking.",
+  "cost": "free",
+  "source_url": "https://www.fuquay-varina.org/508/MicroLinkBus",
+  "checked": "2026-11-10",
+  "notes": "The Town of Fuquay-Varina says it is fare-free through January 2027. Request rides in the MicroLink app or by phone. The service area includes Rex Hospital in Holly Springs. GoRaleigh info: https://goraleigh.org/MicroLink"
+ },
+ {
+  "name": "GoRaleigh MicroLink – Rolesville (on-demand rides)",
+  "city": "Rolesville",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "GoRaleigh's on-demand microtransit within Rolesville, with connections to key stops in Wake Forest and the WRX express bus to downtown Raleigh.",
+  "address": "",
+  "url": "https://goraleigh.org/MicroLink",
+  "phone": "919-996-3459 (option 2)",
+  "hours": "Mon–Fri 7 a.m.–6 p.m.; no weekend or holiday service",
+  "access": "Open to anyone in the zone. Children 12 and under ride with an adult. On-demand only, with no advance booking.",
+  "cost": "",
+  "source_url": "https://goraleigh.org/MicroLink",
+  "checked": "2026-11-10",
+  "notes": "Book in the MicroLink app or by phone. GoRaleigh's page still gives an outdated fare-free date (June 30, 2025), so call to confirm the current fare."
+ },
+ {
+  "name": "Morrisville Smart Shuttle (free on-demand shuttle)",
+  "city": "Morrisville",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Free on-demand shared shuttle with 17 stops across Morrisville, plus a stop at the Regional Transit Center near RTP to connect with GoTriangle buses. Run by GoCary for the Town.",
+  "address": "",
+  "url": "https://www.morrisvillenc.gov/Our-Community/Morrisville-Smart-Shuttle",
+  "phone": "919-485-7433 (GoTransit info line)",
+  "hours": "Mon–Fri 7 a.m.–9 p.m.; Sat 8 a.m.–8 p.m.; Sun 8 a.m.–7 p.m.",
+  "access": "Open to residents, commuters and visitors. Riders 13+; children 12 and under ride with someone 16 or older and need their own car seat. One companion per booking.",
+  "cost": "free",
+  "source_url": "https://www.morrisvillenc.gov/Our-Community/Morrisville-Smart-Shuttle",
+  "checked": "2026-11-10",
+  "notes": "Rides are booked only in the Morrisville Smart Shuttle app (phone or desktop). Since November 7, 2026, two wheelchair-accessible minivans run during all service hours. No pets."
+ },
+ {
+  "name": "Go Wake Forest microtransit & Reduced Fare Program",
+  "city": "Wake Forest",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "On-demand van rides within Wake Forest town limits and part of Wakefield. Since February 1, 2026 fares are $2.50 for 0–2 miles, $3.50 for 2–4 miles and $4.50 for 4+ miles. The Reduced Fare Program cuts these by 50%.",
+  "address": "301 S. Brooks St., Wake Forest, NC",
+  "url": "https://www.wakeforestnc.gov/node/6819",
+  "phone": "984-342-2319",
+  "hours": "Mon–Thu 6 a.m.–9:30 p.m.; Fri 6 a.m.–10:30 p.m.; Sat 8 a.m.–10:30 p.m.; Sun 7 a.m.–7 p.m.",
+  "access": "Open to the public. Reduced fare is for people 65+, people with a mobility-limiting disability, or those enrolled in certain income-based programs (households at or below 50% of the Wake County median income). Children 12 and under ride free. Rides can't be booked ahead.",
+  "cost": "",
+  "source_url": "https://www.wakeforestnc.gov/node/9405",
+  "checked": "2026-11-10",
+  "notes": "Book in the Go Wake Forest app or call 984-342-2319. Apply for reduced fare online or at Town Hall (301 S. Brooks St.); fares can also be paid there. An ADA-accessible van is always in service. The town's own paratransit ended in October 2024; eligible riders can book GoRaleigh Access (919-996-3459) for trips to Raleigh."
+ },
+ {
+  "name": "GoDurham Connect (free on-demand rides in North & East Durham)",
+  "city": "Durham",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Free same-day, door-to-door shared rides within and between the North Durham and East Durham zones. Riders coming from elsewhere can take a GoDurham bus to a transfer point and finish the trip on Connect.",
+  "address": "",
+  "url": "https://godurhamaccess.org/godurham-connect",
+  "phone": "919-560-1551",
+  "hours": "Daily 7 a.m.–8 p.m. (live agents 8 a.m.–4:30 p.m.)",
+  "access": "Open to anyone; no qualifications. The trip must start and end in a zone. Riders 12+ may ride alone; younger children need an adult and children under 8 need a car seat. Limit of 60 free rides a month.",
+  "cost": "free",
+  "source_url": "https://godurhamaccess.org/godurham-connect",
+  "checked": "2026-11-10",
+  "notes": "Book by phone, or in the GoDurham ACCESS app or web portal, for the next available ride or up to 3 days ahead. Be ready 15 minutes early. Five or more no-shows or late cancellations in a month can lead to a suspension. Transfer points: Olympic Ave. at Roxboro Rd. (North); Hardee St. at Benning St. and Taylor St. at Driver St. (East)."
+ },
+ {
+  "name": "GoDurham ACCESS (ADA paratransit)",
+  "city": "Durham",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Door-to-door ADA paratransit in Durham city limits for people whose disability keeps them from using GoDurham buses. Approved riders also qualify for regional trips around the Triangle.",
+  "address": "1911 Fay St., Durham, NC 27704",
+  "url": "https://godurhamaccess.org/godurham-access-ada-paratransit",
+  "phone": "919-560-1551",
+  "hours": "Live agents daily 8 a.m.–4:30 p.m. (AI assistant after hours)",
+  "access": "Durham city residents with a disability that keeps them from using fixed-route buses. Two-part application (you plus a doctor or health care provider) and an in-person assessment; review takes up to 21 days. Trips must be within 3/4 mile of a GoDurham stop. Book 1 to 14 days ahead.",
+  "cost": "free",
+  "source_url": "https://godurhamaccess.org/godurham-access-ada-paratransit",
+  "checked": "2026-11-10",
+  "notes": "Fare-free through June 2027. Apply online or call 919-560-1551 for a paper application. Book by phone, app or web portal; trips are first-come, first-served."
+ },
+ {
+  "name": "Durham County ACCESS (rides for seniors, people with disabilities, rural residents)",
+  "city": "Durham",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Durham County's van service for medical, work, grocery and other daily-living trips. It serves eligible county residents with mobility challenges, including those outside the bus network.",
+  "address": "1911 Fay St., Durham, NC 27704",
+  "url": "https://godurhamaccess.org/durham-county-access",
+  "phone": "919-560-1551",
+  "hours": "Live agents daily 8 a.m.–4:30 p.m.",
+  "access": "Durham County residents who have a disability, are 60+, are 'transportation disadvantaged', or live in a rural part of the county. You must apply first; reviews take about 3 business days. Book 1 to 14 days ahead.",
+  "cost": "",
+  "source_url": "https://godurhamaccess.org/durham-county-access",
+  "checked": "2026-11-10",
+  "notes": "Apply online, or call 919-560-1551 to get a paper application in English or Spanish. Book by phone, app or web portal; cancel at least 1 hour ahead (option 2). The site banner says 'GoDurham ACCESS remains fare-free until June 2027'; call to confirm whether that covers county ACCESS trips."
+ },
+ {
+  "name": "Durham County DSS – Medicaid transportation",
+  "city": "Durham",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Free rides for Durham County Medicaid members with no other way to get to medical appointments, including doctors, hospitals, dialysis and dental. Rides may be a bus ticket or a van.",
+  "address": "200 E. Main St., Durham, NC 27701",
+  "url": "https://dconc.gov/county-departments/departments-f-z/social-services/aging-and-adult-services/non-emergency-medicaid-transportation",
+  "phone": "919-560-8607 (after 5:30 p.m.: 919-560-8364)",
+  "hours": "",
+  "access": "Active Medicaid and a phone assessment by a DSS worker. Covers trips in Durham County, Brier Creek and Chapel Hill; other trips need special approval.",
+  "cost": "free",
+  "source_url": "https://dconc.gov/county-departments/departments-f-z/social-services/aging-and-adult-services/non-emergency-medicaid-transportation",
+  "checked": "2026-11-10",
+  "notes": "Call 919-560-8607 for the assessment and to schedule. Per NC Medicaid, the county DSS handles NC Medicaid Direct members; members of a health plan (such as Healthy Blue or Alliance) call their plan instead (see the NC Medicaid NEMT entry)."
+ },
+ {
+  "name": "Lincoln Community Health Center – patient transportation",
+  "city": "Durham",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Lincoln Community Health Center gives rides to registered patients who have no other way to reach the center or the places it refers them to.",
+  "address": "",
+  "url": "https://lincolnchc.org/supportive-service/",
+  "phone": "919-956-4000",
+  "hours": "",
+  "access": "Registered Lincoln patients who live in Durham County, have no transportation and can't afford public transit. Request at least 48 hours ahead.",
+  "cost": "",
+  "source_url": "https://lincolnchc.org/supportive-service/",
+  "checked": "2026-11-10",
+  "notes": "Call 919-956-4000 to request a ride 48 hours ahead."
+ },
+ {
+  "name": "Aging Forward Durham (free volunteer rides for seniors)",
+  "city": "Durham",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Interfaith nonprofit whose volunteer drivers give free door-through-door round trips to medical and dental appointments for seniors in northern Durham County. Drivers stay with the client.",
+  "address": "2121 Umstead Rd., Durham, NC 27712",
+  "url": "https://www.agingforwarddurham.org/",
+  "phone": "919-489-2217",
+  "hours": "Mon–Fri 8 a.m.–5 p.m., depending on volunteer availability",
+  "access": "Seniors living independently in Durham County north of I-85 who no longer drive or can't drive to an appointment. Must be able to walk; can't take wheelchair users or rides to procedures after which you can't walk. Up to two family members or caregivers may ride along.",
+  "cost": "free",
+  "source_url": "https://www.agingforwarddurham.org/faq",
+  "checked": "2026-11-10",
+  "notes": "Request a ride with the 'Sign Up to Ride' form on the website or call 919-489-2217. Health care trips only (no grocery or errand rides yet). Trips over 20 miles are harder to fill. English-only drivers."
+ },
+ {
+  "name": "Orange County Public Transportation – fare-free buses & ADA paratransit",
+  "city": "Hillsborough",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Orange County buses are fare-free. The Hillsborough Orange and Blue Loops run Mon–Fri 7 a.m.–5 p.m., every 45 minutes. The Orange–Chapel Hill Connector runs midday Mon–Fri, and the Orange–Alamance Connector runs Hillsborough–Efland–Mebane Mon–Fri 10 a.m.–2 p.m. ADA paratransit is also fare-free.",
+  "address": "606 NC 86, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/transportation",
+  "phone": "919-245-2008; TDD/TTY 919-644-3045",
+  "hours": "Mon–Fri",
+  "access": "Buses: open to all. ADA paratransit: people whose disability keeps them from using the buses, within 3/4 mile of an OCPT route. The application must be signed by a doctor, and registration takes about 21 business days.",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/261/Transportation",
+  "checked": "2026-11-10",
+  "notes": "Fixed routes are in a one-year fare-free pilot that began January 2, 2026. Older adults who need rides while an application is pending can call the Department on Aging at 919-717-1853. OCPT OnDemand app available."
+ },
+ {
+  "name": "Orange County Public Transportation – Demand Response (rural, senior, disability & work rides)",
+  "city": "Hillsborough",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Advance-reservation shared van rides from Orange County Public Transportation. They serve trips to or from rural Orange County, older adults and people with disabilities (EDTAP), and rides to work or job training.",
+  "address": "606 NC 86, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/1316/Demand-Response-Services",
+  "phone": "919-245-2008; TDD/TTY 919-644-3045",
+  "hours": "",
+  "access": "Residents travelling to or from a rural part of Orange County, older adults and people with disabilities, and DSS Work First / workforce clients or job seekers. You must first send in a Client Certification / Service Request form; processing takes about a month (21 business days).",
+  "cost": "",
+  "source_url": "https://orangecountync.gov/1316/Demand-Response-Services",
+  "checked": "2026-11-10",
+  "notes": "EDTAP and rural general public trips are $3 one way. Employment trips (job interviews, work, training, GED classes, child care drop-off for working parents) are $0. Older adults waiting on approval can call the Department on Aging at 919-717-1853."
+ },
+ {
+  "name": "Orange County DSS – Medicaid transportation",
+  "city": "Hillsborough",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Medicaid rides for Orange County residents, arranged by the Department of Social Services and driven by Orange County Public Transportation.",
+  "address": "",
+  "url": "https://orangecountync.gov/1316/Demand-Response-Services",
+  "phone": "919-245-2774 (leave a voicemail)",
+  "hours": "",
+  "access": "Orange County Medicaid members; DSS pre-qualifies riders.",
+  "cost": "",
+  "source_url": "https://orangecountync.gov/1316/Demand-Response-Services",
+  "checked": "2026-11-10",
+  "notes": "Leave a voicemail at 919-245-2774 to set up Medicaid rides. Per NC Medicaid, county DSS handles NC Medicaid Direct members; members of a health plan call their plan (see the NC Medicaid NEMT entry)."
+ },
+ {
+  "name": "Orange County Department on Aging – Volunteer Driver Program",
+  "city": "Hillsborough",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Volunteer drivers take older adults to important services and appointments. The department's Transportation Specialist also helps older non-drivers find and use other ride options in Orange County.",
+  "address": "",
+  "url": "https://orangecountync.gov/261/Transportation",
+  "phone": "919-717-1853",
+  "hours": "",
+  "access": "Older adults in Orange County; register for rides through the Transportation Specialist.",
+  "cost": "",
+  "source_url": "https://orangecountync.gov/261/Transportation",
+  "checked": "2026-11-10",
+  "notes": "Call Brandi Beeker, Transportation Specialist, at 919-717-1853 to register for a ride or get help with options. The department also offers free bus-riding classes and travel training."
+ },
+ {
+  "name": "Chapel Hill Transit EZ Rider (ADA paratransit)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Chapel Hill Transit's door-to-door shared-ride paratransit, using lift-equipped vehicles. It serves Chapel Hill, Carrboro and nearby areas within 3/4 mile of the bus routes.",
+  "address": "",
+  "url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider",
+  "phone": "Reservations 919-969-5544; applications 919-969-4920",
+  "hours": "Service Mon–Fri 5:15 a.m.–10:27 p.m., Sat–Sun 7:50 a.m.–7:57 p.m.",
+  "access": "People with a permanent or temporary impairment that keeps them from using the buses. The application must be completed by you and your medical provider. Temporary service may be possible; call 919-969-4920. Book 1 to 14 days ahead.",
+  "cost": "",
+  "source_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider",
+  "checked": "2026-11-10",
+  "notes": "The page doesn't list a fare; Chapel Hill Transit's buses are fare-free. Subscription trips are available for regular rides, and will-call returns are for medical trips only. Drivers help with up to 4 shopping bags."
+ },
+ {
+  "name": "Chapel Hill Transit Senior Shuttle",
+  "city": "Chapel Hill",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "public",
+  "description": "Free wheelchair-accessible shuttle from several assisted-living communities to local grocery stores, shopping centers and the Seymour Center. Runs hourly on weekdays.",
+  "address": "",
+  "url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider/Senior-Shuttle",
+  "phone": "919-969-5544",
+  "hours": "Mon–Fri, about 8 a.m.–5 p.m.; no service on weekends or CHT holidays",
+  "access": "Open to all seniors. No reservations; seats are first-come, first-served.",
+  "cost": "free",
+  "source_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider/Senior-Shuttle",
+  "checked": "2026-11-10",
+  "notes": "Curb-to-curb; up to 4 bags. A schedule PDF is on the page."
+ },
+ {
+  "name": "Chatham Transit Network (rides anywhere in Chatham County)",
+  "city": "Pittsboro",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "nonprofit",
+  "description": "Chatham County's community transportation provider. In-County Service gives curb-to-curb rides anywhere in the county, and since October 1, 2026 Transit On Demand gives same-day rides in Pittsboro. Vehicles are wheelchair-accessible, and non-emergency medical rides are available to every county resident.",
+  "address": "127 Dr. Martin Luther King Jr. Dr., Pittsboro, NC 27312",
+  "url": "https://chathamtransit.org/",
+  "phone": "919-542-5136; TTY 800-735-2962",
+  "hours": "Service 4 a.m.–6 p.m.; dispatch 7 a.m.–5 p.m.; Mon–Fri",
+  "access": "Anyone who lives in Chatham County; no referral or application needed. Book In-County rides 48 hours ahead (Monday trips by noon Thursday, Tuesday trips by noon Friday). Transit On Demand is same-day and booked only in the online Trip Portal.",
+  "cost": "",
+  "source_url": "https://chathamtransit.org/faqs/",
+  "checked": "2026-11-10",
+  "notes": "Fares go by distance, each way: $2 (0–3 mi), $3 (3.1–5), $4 (5.1–7), $5 (7.1–10), $7 (10.1–13), up to $13 (25.1–27 mi). Pay when boarding; drivers can't make change. Children under 13 ride free with a parent, and one aide or attendant rides free. Out-of-county medical trips are arranged case by case. Transit On Demand in Pittsboro runs Mon–Wed 6 a.m.–8 p.m., Thu 6 a.m.–9 p.m., Fri 6 a.m.–10 p.m., Sat 11 a.m.–10 p.m., Sun 1–6 p.m."
+ },
+ {
+  "name": "NC Medicaid – free rides to medical appointments (NEMT)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Medicaid members can get free rides to and from Medicaid medical and mental health visits, prescription pickups and substance use treatment. If you drive yourself or a friend drives you, you may be able to get travel costs paid back.",
+  "address": "",
+  "url": "https://medicaid.ncdhhs.gov/nemt",
+  "phone": "AmeriHealth Caritas 833-498-2262; Carolina Complete Health 855-397-3601; Healthy Blue 855-397-3602; UnitedHealthcare 800-349-1855; Alliance Health 855-759-9600; Trillium 877-685-2415; Vaya 855-397-3614",
+  "hours": "",
+  "access": "NC Medicaid Standard Plan, Tailored Plan, EBCI Tribal Option or NC Medicaid Direct members. Ask at least 2 days before the appointment (Medicaid Direct: at least 4 days). No advance notice needed for urgent trips such as hospital discharge or the pharmacy.",
+  "cost": "free",
+  "source_url": "https://medicaid.ncdhhs.gov/nemt",
+  "checked": "2026-11-10",
+  "notes": "Call the number for your health plan; it's on the back of your Medicaid ID card. NC Medicaid Direct members call their county DSS: Wake via GoWake Access 919-212-7005, Durham 919-560-8607, Orange 919-245-2774. Not sure of your plan? NC Medicaid Enrollment Broker: 1-833-870-5500. A caregiver can ride along, and riders under 18 need an adult. Report ride problems to your plan."
+ },
+ {
+  "name": "The Center for Volunteer Caregiving – volunteer rides",
+  "city": "Cary",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "nonprofit",
+  "description": "Volunteer drivers give free escorted round trips to medical and dental appointments, the grocery store or the pharmacy. Serves older adults and adults with disabilities in Wake County who live independently.",
+  "address": "",
+  "url": "https://volunteercaregiving.org/programs/",
+  "phone": "919-460-0567",
+  "hours": "",
+  "access": "Older adults and adults with disabilities in Wake County. Enroll first through a phone assessment with staff. Must be able to get in and out of a car on your own; canes, walkers and portable oxygen are OK, wheelchairs are not. Book at least 7 days ahead; 1 round trip per week.",
+  "cost": "free",
+  "source_url": "https://volunteercaregiving.org/programs/",
+  "checked": "2026-11-10",
+  "notes": "Call 919-460-0567 to ask for help and enroll. The Center says all its services are free. It is not a general transportation company, and volunteers vary from ride to ride."
+ },
+ {
+  "name": "American Cancer Society Road To Recovery (free rides to cancer treatment)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Transportation",
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Trained volunteer drivers give free rides to cancer-related medical appointments, picking patients up at home and taking them back.",
+  "address": "",
+  "url": "https://www.cancer.org/support-programs-and-services/road-to-recovery.html",
+  "phone": "1-800-227-2345",
+  "hours": "24/7 helpline",
+  "access": "Patients going to a cancer-related medical appointment. A caregiver may need to come along if the patient can't walk without help or is under 18. Call several business days ahead.",
+  "cost": "free",
+  "source_url": "https://www.cancer.org/support-programs-and-services/road-to-recovery.html",
+  "checked": "2026-11-10",
+  "notes": "Call 1-800-227-2345 to check whether rides are available in your area and to book. Availability depends on local volunteer drivers."
+ },
+ {
+  "name": "Wheels 4 Hope (low-cost cars through partner agencies)",
+  "city": "Cary",
+  "categories": [
+   "Transportation"
+  ],
+  "org_type": "nonprofit",
+  "description": "Faith-based nonprofit that repairs donated cars and provides them to low-income working people in the Triangle and Triad. Cars come with a 6-month / 6,000-mile limited warranty.",
+  "address": "411 E. Durham Rd., Cary, NC 27511",
+  "url": "https://wheels4hope.org/",
+  "phone": "(919) 832-1941",
+  "hours": "",
+  "access": "No direct applications: you must be referred by a partner agency after at least 4 months in one of its programs. Also need a valid NC driver's license, proof of a job, and no other vehicle in the household. Must attend an orientation and show proof of insurance.",
+  "cost": "",
+  "source_url": "https://wheels4hope.org/apply",
+  "checked": "2026-11-10",
+  "notes": "Cost to the recipient: $500 plus NC DMV title transfer fees and taxes, sent in with the agency's application. The title transfers to you one year after you get the car. Ask your case worker, or see the list of Triangle partner agencies at https://www.wheels4hope.org/triangleagencies"
+ }
+]

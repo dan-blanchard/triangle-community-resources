@@ -42,6 +42,7 @@ STATE = ROOT / "data" / "state.json"
 EXCLUDE = ROOT / "data" / "exclude.json"
 ALIASES = ROOT / "data" / "aliases.json"
 LGBTQ = ROOT / "data" / "lgbtq_affirming.json"
+OVERRIDES = ROOT / "data" / "overrides.json"
 SITE = ROOT / "site"
 
 ORG_TYPE_LABEL = {
@@ -531,6 +532,13 @@ def main() -> int:
     entries = [normalize(e) for e in raw if e.get("name")]
     entries, dropped = apply_exclusions(entries)
     entries = dedupe(entries)
+
+    # Field corrections for scraped listings (data/overrides.json).
+    overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    for e in entries:
+        for k, v in overrides.get(f"{e['name']}|{e['city']}", {}).items():
+            if not k.startswith("_"):
+                e[k] = v
 
     # Coordinates: from the source feed when it has them, else the Census geocoder (cached).
     for e in entries:

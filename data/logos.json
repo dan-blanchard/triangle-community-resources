@@ -9,6 +9,12 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"agingforwarddurham.org": {
+"file": "agingforwarddurham.org.png",
+"fp": "a1cfa66ee97231f5e710db5de93b5f7baf93cec0",
+"src": "https://images.squarespace-cdn.com/content/v1/68790a21f3cee4648e168351/3f9b5aac-6ff3-4dda-8946-a4fbf6318168/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
 "alliancehealthplan.org": {
 "file": "alliancehealthplan.org.png",
 "fp": "b0198de9e1e7a7b3f96f30d48c6814a29ce7c20f",
@@ -75,6 +81,12 @@
 "src": "https://res.cloudinary.com/thechurchcoproduction/image/fetch/f_auto/https://thechurchco-production.s3.amazonaws.com/uploads/sites/8830/2024/04/cropped-New-Project-21-180x180.jpg",
 "checked": "2026-11-10"
 },
+"cancer.org": {
+"file": "cancer.org.png",
+"fp": "b59cdb78df7a4fcea3206801e2050cb60f7fb6a1",
+"src": "https://www.cancer.org/content/dam/cancer-org/images/logos/acs/favicon.png",
+"checked": "2026-11-10"
+},
 "carrborofarmersmarket.com": {
 "file": "carrborofarmersmarket.com.png",
 "fp": "fea0c85f77e7d52920dd30029b46813ee52b6c8d",
@@ -125,6 +137,12 @@
 "file": "chathamcountync.gov.png",
 "fp": "e7170e72624e72679dfdf73d3878ef7564ad8853",
 "src": "https://www.chathamcountync.gov/favicon.ico",
+"checked": "2026-11-10"
+},
+"chathamtransit.org": {
+"file": "chathamtransit.org.png",
+"fp": "b1d5cab0bafa7bbeabd0cfdb9226476df8b5a9d1",
+"src": "https://chathamtransit.org/wp-content/uploads/2026/08/ctn-favicon-180x180.png",
 "checked": "2026-11-10"
 },
 "ciraleigh.org": {
@@ -331,16 +349,46 @@
 "src": "https://freedomhouserecovery.org/wp-content/uploads/2026/05/cropped-FHRC-Colors-and-Fonts-1-180x180.png",
 "checked": "2026-11-10"
 },
+"fuquay-varina.org": {
+"file": "fuquay-varina.org.png",
+"fp": "8110fe03c6bee0eee80e9ebed6e92a71cdbd2a61",
+"src": "https://www.fuquay-varina.org/favicon.ico",
+"checked": "2026-11-10"
+},
 "gethope.net": {
 "file": "gethope.net.png",
 "fp": "50abbc51557811cdcbf136fdfd224d11133b5f09",
 "src": "https://gethope.net/wp-content/uploads/2020/04/WEbsite-Identity-Icon-300x300.png",
 "checked": "2026-11-10"
 },
+"gocary.org": {
+"file": "gocary.org.png",
+"fp": "ccc8db66d039c5892229e3a7a7a7da2d7d3aa157",
+"src": "https://gocary.org/wp-content/uploads/cropped-GOCary-Mark_-FC-180x180.png",
+"checked": "2026-11-10"
+},
+"godurhamaccess.org": {
+"file": "godurhamaccess.org.png",
+"fp": "4747ed223acdb919b9681912e6ca71a6c2a40177",
+"src": "https://godurhamaccess.org/wp-content/uploads/cropped-godurhamaccess_logo_0-180x180.png",
+"checked": "2026-11-10"
+},
 "godurhamtransit.org": {
 "file": "godurhamtransit.org.png",
 "fp": "8126cdea919251ea86ba2810402413908ad77231",
 "src": "https://godurhamtransit.org/wp-content/uploads/cropped-GODurham-Mark_-FC-1-180x180.png",
+"checked": "2026-11-10"
+},
+"goraleigh.org": {
+"file": "goraleigh.org.png",
+"fp": "8278e6d8e277658fbbd56e4a15317f4ec3920fc1",
+"src": "https://goraleigh.org/wp-content/uploads/cropped-GORaleighMark_-FC-180x180.png",
+"checked": "2026-11-10"
+},
+"gotriangle.org": {
+"file": "gotriangle.org.png",
+"fp": "2f1d810a333a70e6295f314dd4e5d58812d41a5f",
+"src": "https://gotriangle.org/wp-content/uploads/2025/09/cropped-GOTriangle__Mark-FC-180x180.png",
 "checked": "2026-11-10"
 },
 "greaterwaltownuhc.org": {
@@ -505,7 +553,17 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"medicaid.ncdhhs.gov": {
+"file": "medicaid.ncdhhs.gov.png",
+"fp": "a8fb86264d964bc0987d76039455e79807802c5a",
+"src": "https://files.nc.gov/medicaid/FAVICON.png?VersionId=0.D4FUxHNoKgY_l0PeRQLWRzTvkGlyzN",
+"checked": "2026-11-10"
+},
 "morefood.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"morrisvillenc.gov": {
 "file": null,
 "checked": "2026-11-10"
 },
@@ -837,10 +895,20 @@
 "src": "https://www.voans.org/wp-content/uploads/2022/10/cropped-voa-favicon-180x180.png",
 "checked": "2026-11-10"
 },
+"volunteercaregiving.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "wake.gov": {
 "file": "wake.gov.png",
 "fp": "066c2882e87b7246d1e7d5dfe9a4c7b048175a69",
 "src": "https://www.wake.gov/themes/custom/paladin/images/favicon/favicon-180.png",
+"checked": "2026-11-10"
+},
+"wakeforestnc.gov": {
+"file": "wakeforestnc.gov.png",
+"fp": "8d7072a934f5583250854aeebfe0b000e79b2842",
+"src": "https://www.wakeforestnc.gov/sites/default/files/uploads/favicons/favicon-60x60.png",
 "checked": "2026-11-10"
 },
 "waketech.edu": {
@@ -859,6 +927,12 @@
 "file": "welcomebaby.org.png",
 "fp": "616d3eac411e8d852334466ded3ef19587b2764e",
 "src": "https://welcomebaby.org/images/favicon-180.png",
+"checked": "2026-11-10"
+},
+"wheels4hope.org": {
+"file": "wheels4hope.org.png",
+"fp": "3c003cc8800971a930495c9e7946849d731744cc",
+"src": "https://static.wixstatic.com/media/30d777_0c3a5b662b4843258f6baf55a4352c0f~mv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/30d777_0c3a5b662b4843258f6baf55a4352c0f~mv2.png",
 "checked": "2026-11-10"
 },
 "whiterockbaptistchurch.org": {
