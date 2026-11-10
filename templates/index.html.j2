@@ -68,6 +68,11 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.5rem 0 3rem;font-size:.9rem;color:var(--muted)}
 footer h2{font-size:1rem;color:var(--ink)}
 dl.facts dd.note{color:var(--muted);font-size:.84rem}
+.needs{display:flex;flex-wrap:wrap;gap:.3rem}
+.need{font-size:.78rem;text-decoration:none;color:var(--ink);background:#f3eee3;border:1px solid var(--line);border-radius:999px;padding:.05rem .5rem}
+.need:hover,.need.on{border-color:var(--accent);background:#fbe7df}
+.needhelp{font-size:.9rem;color:var(--muted);padding:0 1rem .55rem}
+.needhelp[hidden]{display:none}
 .hidden{display:none!important}
 @media (max-width:700px){
   html{scroll-padding-top:1rem}
@@ -104,33 +109,36 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 <div class="controls" id="controls" hidden><div class="wrap">
   <input type="search" id="q" placeholder="Search: e.g. showers, diapers, tools, no ID…" aria-label="Search resources">
   <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
-  <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
+  <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}" title="{{ cat_help[c] }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
   <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
-</div></div>
+</div>
+  <div class="wrap needhelp" id="needhelp" hidden></div>
+</div>
 
 <main class="wrap" id="top">
   <nav class="citynav" id="towns" aria-label="Filter by town">
     <a href="#top" data-city="" class="all" role="button" hidden>All towns</a>
     {% for c in by_city %}<a href="#{{ c|slug }}" data-city="{{ c }}" role="button" aria-pressed="false">{{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></a>{% endfor %}
   </nav>
-  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Green tags mark groups run by and for the community.</p>
+  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Each town lists community-run groups first. Tap a need on any card to see everything that meets it.</p>
 
   {% for city, cats in by_city.items() %}
   <section class="city" id="{{ city|slug }}" data-city="{{ city }}">
     <h2>{{ "Region-wide & mobile" if city == "Triangle-wide" else city }}</h2>
-    {% for cat, items in cats.items() %}
-    <section class="cat" data-cat="{{ cat }}">
-      <h3 id="{{ city|slug }}-{{ cat|slug }}"><span aria-hidden="true">{{ emoji[cat] }}</span> {{ cat }}</h3>
+    {% for group, items in cats.items() if items %}
+    <section class="cat" data-group="{{ group }}">
+      <h3>{{ group }}</h3>
       <div class="grid">
       {% for e in items %}
-        <article class="r" data-type="{{ e.org_type }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes)|lower }}">
+        <article class="r" data-type="{{ e.org_type }}" data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes)|lower }}">
           <h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
             <span class="b b-{{ e.org_type }}">{{ org_label[e.org_type] }}</span>
             {% if e.cost != "unknown" %}<span class="b b-cost">{{ cost_label[e.cost] }}</span>{% endif %}
           </div>
+          <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
           {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
           <dl class="facts">
             {% if e.hours %}<dt>When</dt><dd>{{ e.hours|truncate(220)|linkify }}</dd>{% endif %}
@@ -170,6 +178,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   const q = $('#q'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf');
   const city = { value: '' };  // selected town ('' = all), set by the town badges
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
+  const NEED_HELP = {{ cat_help|tojson }};
   const params = new URLSearchParams(location.search);
   q.value = params.get('q') || ''; city.value = params.get('city') || ''; cat.value = params.get('need') || '';
   ma.checked = params.has('community'); nf.checked = params.has('nofaith');
@@ -182,10 +191,10 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
       const cityOk = !city.value || sc.dataset.city === city.value || sc.dataset.city === 'Triangle-wide';
       sc.querySelectorAll('section.cat').forEach(sk => {
         let catShown = 0;
-        const catOk = cityOk && (!cat.value || sk.dataset.cat === cat.value);
         sk.querySelectorAll('article.r').forEach(a => {
           const t = a.dataset.type;
-          const ok = catOk && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based')
+          const ok = cityOk && (!cat.value || a.dataset.cats.split('|').includes(cat.value))
+            && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based')
             && words.every(w => a.dataset.text.includes(w));
           a.classList.toggle('hidden', !ok); if (ok) catShown++;
         });
@@ -201,6 +210,10 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     });
     $('.citynav a.all').hidden = !city.value;
     $('#townchip').hidden = !city.value;
+    document.querySelectorAll('.need').forEach(n => n.classList.toggle('on', n.dataset.need === cat.value));
+    const help = $('#needhelp');
+    help.hidden = !cat.value;
+    if (cat.value) help.textContent = (NEED_HELP[cat.value] || '');
     $('#townname').textContent = city.value === 'Triangle-wide' ? 'Region-wide' : city.value;
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value); if (city.value) p.set('city', city.value); if (cat.value) p.set('need', cat.value);
@@ -209,6 +222,11 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   }
   [q, cat, ma, nf].forEach(el => el.addEventListener('input', apply));
   $('#townclear').addEventListener('click', () => { city.value = ''; apply(); });
+  document.querySelectorAll('.need').forEach(n => n.addEventListener('click', ev => {
+    ev.preventDefault();
+    cat.value = cat.value === n.dataset.need ? '' : n.dataset.need;  // click again to clear
+    apply();
+  }));
   document.querySelectorAll('.citynav a').forEach(a => a.addEventListener('click', ev => {
     ev.preventDefault();
     city.value = (a.dataset.city && city.value !== a.dataset.city) ? a.dataset.city : '';  // click again to clear

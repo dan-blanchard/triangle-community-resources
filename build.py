@@ -414,19 +414,25 @@ def render(entries: list[dict], meta: dict) -> None:
     env.filters["sources"] = render_sources
     env.filters["report"] = report_link
 
+    community = ("mutual_aid", "cooperative", "community_org")
+    order = {c: i for i, c in enumerate(common.CATEGORIES)}
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
-        cats = {}
-        for cat in common.CATEGORIES:
-            items = [e for e in entries if e["city"] == c and cat in e["categories"]]
-            if items:
-                cats[cat] = sorted(items, key=lambda e: (e["org_type"] not in ("mutual_aid", "cooperative", "community_org"), e["name"].lower()))
-        if cats:
-            by_city[c] = cats
+        items = [e for e in entries if e["city"] == c]
+        if not items:
+            continue
+        for e in items:
+            e["categories"] = sorted(e["categories"], key=lambda x: order.get(x, 99))
+        items.sort(key=lambda e: e["name"].lower().removeprefix("the "))
+        by_city[c] = {
+            "Community-run & mutual aid": [e for e in items if e["org_type"] in community],
+            "Organizations & services": [e for e in items if e["org_type"] not in community],
+        }
     html = env.get_template("index.html.j2").render(
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
-        city_counts={c: len({id(e) for v in cats.values() for e in v}) for c, cats in by_city.items()},
+        city_counts={c: sum(len(v) for v in groups.values()) for c, groups in by_city.items()},
+        cat_help=common.CATEGORY_HELP,
         category_groups=common.CATEGORY_GROUPS, emoji=common.CATEGORY_EMOJI,
         cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},
     )

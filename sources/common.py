@@ -30,6 +30,26 @@ CATEGORY_GROUPS = [
     ("Family & learning", [("Kids & Families", "👶"), ("Learning & Tech Access", "💻")]),
 ]
 CATEGORIES = [c for _, cats in CATEGORY_GROUPS for c, _ in cats]
+CATEGORY_HELP = {
+    "Food": "Pantries, free meals, community fridges and grocery giveaways.",
+    "Housing & Shelter": "Shelters, housing help, tenant organizing and eviction help.",
+    "Clothing & Household": "Free clothes, coats, shoes, furniture and household goods.",
+    "Hygiene & Laundry": "Showers, laundry and free toiletries.",
+    "Money & Utilities": "Help paying rent or bills, cash assistance, financial coaching.",
+    "Health & Harm Reduction": "Free or sliding-scale clinics, medicine, naloxone and syringe services.",
+    "Mental Health & Crisis": "Counseling, crisis lines and walk-in crisis centers, recovery support.",
+    "Safety & Domestic Violence": "Help, hotlines and safe shelter for domestic or sexual violence.",
+    "Legal & Immigration": "Free legal help, immigration services, know-your-rights info.",
+    "Mutual Aid Networks": "Neighbor-to-neighbor groups you can ask for help from, or join.",
+    "Free Stores & Swaps": "Free markets, free stores, swaps and little free pantries. Take what you need.",
+    "Tools & Sharing": "Borrow tools, equipment, kits and gear instead of buying them.",
+    "Makerspaces & Repair": "Free or low-cost workshops and fab labs, and repair cafés to fix your stuff.",
+    "Gardens & Seeds": "Seed libraries, community gardens, free produce and gleaning.",
+    "Bikes & Transportation": "Bike co-ops, free bikes and repair help, fare-free buses.",
+    "Community Spaces": "Drop-in community centers, such as LGBTQ+ centers.",
+    "Kids & Families": "Diapers, baby gear, food for kids and family support.",
+    "Learning & Tech Access": "Free computers, Wi-Fi hotspots, English classes and literacy help.",
+}
 CATEGORY_EMOJI = {c: e for _, cats in CATEGORY_GROUPS for c, e in cats}
 
 # Address text -> city. Order matters: check multi-word names before substrings.
