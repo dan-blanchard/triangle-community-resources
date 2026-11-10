@@ -42,5 +42,9 @@
  {
   "pattern": "^feed the pack",
   "reason": "NC State students, faculty and staff only"
+ },
+ {
+  "pattern": "pregnancy (support|resource|care|help|medical|services|center|clinic)|crisis pregnancy|\\bcare ?net\\b|heartbeat (international|of)|birthright|gateway women|women'?s (care|resource|pregnancy) (center|clinic)|life ?choices|pregnancy center|abortion pill reversal|\\bpro-?life\\b|right to life",
+  "reason": "Anti-choice (crisis pregnancy center or anti-abortion org): the directory only lists resources that support reproductive rights"
  }
 ]
