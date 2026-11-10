@@ -10,7 +10,13 @@
  },
  "White Plains UMC|Cary": {
   "url": "https://wpumc.com/",
-  "_why": "Church's own site (313 SE Maynard Rd); feed has no URL. Audit 2026-11-10"
+  "_why": "Church's own site (313 SE Maynard Rd); feed has no URL. Audit 2026-11-10 Checked 2026-11-10: Church's pantry page lists 2026 dates (all 3rd Saturdays Feb–Dec, January closed), 10 am until supplies run out. https://wpumc.com/get-involved/serving-our-community/food-pantry-support/",
+  "_if": {
+   "hours": "3rd Saturdays, 10+ am",
+   "access": ""
+  },
+  "hours": "3rd Sat 10 am until supplies run out (no distribution in January)",
+  "access": "Open to anyone in need; held in the church's main parking lot, rain or shine"
  },
  "Duke Memorial UMC  Good Samaritan Fund|Durham": {
   "cost": "free",
@@ -294,5 +300,455 @@
   "url": "https://www.hispanicliaison.org/",
   "notes": "Offices are in Siler City and Sanford, not Chapel Hill. Serves Chatham County, including Pittsboro. Sanford office phone: (919) 292-0177.",
   "_why": "Checked 2026-11-10: The organization's site lists offices only in Siler City (404 N. Holly Ave, 919-742-1448) and Sanford (1225 N. Horner Blvd, 919-292-0177), and its programs center on Chatham County. Pittsboro is in Chatham County, so it serves a covered town. Both listed addresses and the phone number (1488) were wrong. https://www.hispanicliaison.org/"
+ },
+ "Christian Assembly|Durham": {
+  "_if": {
+   "hours": "2nd and 4th Thursdays, 3:00-5:00pm"
+  },
+  "hours": "2nd & 4th Thu 4–5 pm",
+  "_why": "Checked 2026-11-10: End Hunger Durham pantry directory (updated 02/25/2026) gives 2nd & 4th Thu 4-5 pm; same address/phone. ABC11/aggregators say 4-6 pm; none support 3 pm start. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Obedience to the Word Church|Durham": {
+  "_if": {
+   "hours": "Wednesday and every other Friday, 9:30-10:30am",
+   "phone": "(919) 928-7540",
+   "access": "No appointment needed. Early arrival is recommended as the give away may end early depending on the availability of food and number of clients. Stay in car and complete the intake sheet upon arrival. Box will be brought to car.",
+   "notes": ""
+  },
+  "hours": "Wed 10–11:30 am",
+  "phone": "(252) 675-1150",
+  "access": "Call for an appointment. Drive-thru; stay in your car.",
+  "notes": "Older listings give other days and phone (919) 282-7277; call to confirm before going.",
+  "_why": "Checked 2026-11-10: End Hunger Durham directory (02/25/2026) lists Wed 10-11:30 am, phone 252-675-1150, call for appointment, drive-thru. Contradicts our no-appointment/Fri data. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Focus Church Food Pantry|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "One directory lists this pantry as closed; call before going.",
+  "_why": "Checked 2026-11-10: FeedAM status shows closed; Plentiful and an undated WCPSS list still give Sun 12-1:30 pm. No church website or tier-1/2026 source found to confirm either way. https://feedam.org/resource/189025"
+ },
+ "Revelation Missionary Baptist Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 3rd Saturday 9:30 am–noon or 10:30 am–12:30 pm; call to confirm the time before going.",
+  "_why": "Checked 2026-11-10: Undated WCPSS/Wake list says 9:30-12; WhyHunger says 10:30-12:30; ours 10-11:30. No church site or dated 2025-26 list found. Address/phone agree. https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/11858/Food Panties_Wake County.pdf"
+ },
+ "Victory Gospel Chapel|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We could not confirm this church or its pantry in any other listing; call before going.",
+  "_why": "Checked 2026-11-10: Searches for the name, address 1118 S East St, and phone 919-743-0086 found no church site, directory, or pantry listing beyond our Wake map source."
+ },
+ "Gethsemane SDA Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give different days and times (Thursday afternoons, or the 2nd Saturday) and phone (919) 833-8526; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Aggregators give Thu 3-6/Thu 1-2 and 919-833-8526; IFFS 2023 guide gave 2nd Sat 12:30-2:30. No church site; not in IFFS 2026 guides. No clear winner. https://feedam.org/resource/8863"
+ },
+ "Emanuel Tabernacle Holiness|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "This pantry is not on End Hunger Durham's 2026 pantry directory and we found no recent confirmation of its hours; call before going.",
+  "_why": "Checked 2026-11-10: Only 2020-era sources (Durham County list, WhyHunger) list it; absent from EHD Feb 2026 and IFFS 2026 guides; Plentiful gives a different address. https://dconc.gov/Social-Services1/Documents/Durham-Pantry.pdf"
+ },
+ "St. Philip Lutheran Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this Saturday meal on the church's website, and the listed phone isn't the church's main line ((919) 846-2992); call before going.",
+  "_why": "Checked 2026-11-10: Church's current site (Sept 2026 newsletter) lists no Saturday meal; listed phone not found anywhere. Program may be run by a partner or have ended; not confirmed. https://www.st-philip.org/serve"
+ },
+ "Mount Calvary UCC Food Pantry|Durham": {
+  "_if": {
+   "address": "1715 Athens St.",
+   "hours": "Saturday at 1:00pm. (April to November) 1:00 p. m. (de abril noviembre)",
+   "access": "No appointment needed for Saturday giveaway. Can call and leave a message during the week.",
+   "notes": ""
+  },
+  "address": "1715 Athens Ave., Durham, NC 27707",
+  "hours": "Mon–Fri by appointment",
+  "access": "Call and leave a message to schedule an appointment.",
+  "notes": "Older listings also mention a Saturday 1 pm giveaway (April–November); call to confirm before going.",
+  "_why": "Checked 2026-11-10: End Hunger Durham directory (02/25/2026) gives 1715 Athens Ave and Mon-Fri call for appointment (leave message); no Saturday giveaway listed. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Emanuel Iglesia|Durham": {
+  "_if": {
+   "access": "offers a food pantry every wednesday from 2pm to 4pm. Also provides partial rental and/or utility assistance. Address: 2504 N Roxboro St Durham, NC 27704"
+  },
+  "url": "https://www.emanuelfoodpantry.org/",
+  "access": "Register online Wednesday mornings starting at 7 am for a drive-up time slot (slots can fill by 10 am). No ID required. Stay in your car; volunteers load food. Also provides partial rental and/or utility assistance.",
+  "_why": "Checked 2026-11-10: Pantry's own site gives Wed 2-4 pm (matches) with online registration from 7 am; old emanueldurham.org URL is dead (403/404). EHD 2026 agrees. https://www.emanuelfoodpantry.org/"
+ },
+ "Covenant Life Church|Cary": {
+  "_if": {
+   "hours": "Tuesday, Wednesday, and Thursday 4pm-5:45pm",
+   "access": ""
+  },
+  "hours": "Tue, Wed & Fri 4–5:45 pm",
+  "access": "Park in the lot at Lake Pine and Maynard and follow the path past the grey fence.",
+  "_why": "Checked 2026-11-10: Church's own Google Form (2025) says open Tuesday-Wednesday-Friday 4:00-5:45 pm at 555 SW Maynard Rd, phone 919-615-1122. https://docs.google.com/forms/d/e/1FAIpQLSerCT0QL_e961ChT-_3VWCHgWlhc_WIeftTKrGvgj3s4oLH4w/viewform"
+ },
+ "New Bethel Christian Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Another list gives phone (919) 231-6351 and Tuesdays & 2nd Saturday; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Undated WCPSS/Wake list gives 919-231-6351 and Tue & 2nd Sat (call for hours); church website is offline; no dated source settles it. https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/11858/Food Panties_Wake County.pdf"
+ },
+ "Upper Room Church of God|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Listings disagree on this pantry's days and times, and one directory shows it as closed; call before going.",
+  "_why": "Checked 2026-11-10: WhyHunger matches ours; undated Wake list gives 1st & 3rd Fri/2nd & 4th Sat; another gives Mondays; FeedAM showed closed. No church or 2026 source found. https://networks.whyhunger.org/organisation/39224"
+ },
+ "Pullen Memorial Baptist Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Pullen's calendar lists Round Table as 1:30–2:30 pm, while its ministries page says 1–2 pm; call to confirm the time.",
+  "_why": "Checked 2026-11-10: Church's own sources conflict: Connect page says Tue & Thu 1-2 pm snack lunches (ours); calendar events say 1:30-2:30 pm. https://pullen.org/connect"
+ },
+ "Southside Church of Christ|Durham": {
+  "_if": {
+   "hours": "Thursday: 6-8pm; Saturday: 11am-1pm",
+   "access": "drive thru",
+   "notes": ""
+  },
+  "hours": "1st, 3rd & 4th Wed 9:45–11 am; 1st Sat 9–11 am (produce only)",
+  "access": "Arrive early",
+  "notes": "Schedule is from End Hunger Durham's Feb 2026 pantry list; call to confirm before going.",
+  "_why": "Checked 2026-11-10: End Hunger Durham's dated 2/25/2026 list shows Wed/1st-Sat schedule, not Thu 6–8 / Sat 11–1. Church site silent; FeedAM 'closed' flag unconfirmed. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Grace Outreach Ministry|Durham": {
+  "_if": {
+   "hours": "Saturday - 10am-2pm; Mon-Fri - 10:30-12: pm"
+  },
+  "hours": "3rd Sat 10 am–2 pm; Mon–Fri 10:30 am–noon (emergencies only)",
+  "_why": "Checked 2026-11-10: End Hunger Durham 2/25/2026 list: Saturday is 3rd Sat only; weekday hours are emergency. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Burning Bush Ministries Food Pantry|Garner": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "One directory has flagged this pantry as closed, and another says walk-ins are accepted rather than appointments; call before going.",
+  "_why": "Checked 2026-11-10: Only aggregators (FeedAM/Plentiful, imported Apr 2026) found; no church site or 2026 guide listing. Closure unconfirmed. https://feedam.org/resource/181825"
+ },
+ "St. James Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give different days and times (some say Tue–Thu only); call to confirm before going.",
+  "_why": "Checked 2026-11-10: No church site or 2026 guide listing found; aggregators (foodpantries.org) conflict with each other and with ours. https://www.foodpantries.org/li/nc_27604_st-james-food-pantry"
+ },
+ "Rush Metropolitan Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this mobile pantry is still running (the church itself is listed at 558 E Cabarrus St); call before going.",
+  "_why": "Checked 2026-11-10: No pantry listing anywhere; church directories give 558 E Cabarrus St, 919-832-6270. Phone on ours matches River of Raleigh entry, possibly a Dream Center number. https://ebiblestories.com/church/listing_238791.shtml"
+ },
+ "Abundant Life Cathedral|Raleigh": {
+  "_if": {
+   "phone": "(919) 539-3420",
+   "hours": "4th Saturday of each month, 9am-10am; HOLIDAY CHANGES: November and December will be the 3rd Saturdays",
+   "notes": ""
+  },
+  "phone": "(919) 231-4388",
+  "hours": "4th Sat 8–9 am (drive-through); Mon & Wed 11 am–noon (indoor pantry, Building B)",
+  "notes": "Holiday changes: November's drive-through is the 3rd Saturday, 8–9 am; call about December. Indoor pantry closed Nov 11 and Jan 18.",
+  "_why": "Checked 2026-11-10: Food Shuttle guide (updated 10/23/26) lists 4th Sat 8–9am drive-through plus Mon/Wed 11–12 indoor, phone 919-231-4388. https://foodshuttle.org/Find%20Food/2026%20Holiday%20Food%20Resources%20Guide_Lynette%20DuCharme.pdf"
+ },
+ "Crabtree Valley Baptist Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give Wednesday 1–4 pm; call to confirm the time before going.",
+  "_why": "Checked 2026-11-10: No church site found. WhyHunger/pewsearch agree with our Wed 9–12; FeedAM and Plentiful give Wed 1–4. No clear winner. https://feedam.org/resource/207777"
+ },
+ "Hephzibah Baptist Church|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find a current listing confirming this pantry is still running; call before going.",
+  "_why": "Checked 2026-11-10: No church website, 2026 guide, or current aggregator listing for the pantry; only an old undated Wake list. Church directories give a different address. https://churcheslist.com/hephzibah-baptist-church-5"
+ },
+ "State St. Community Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "An older county list gives 2nd & 4th Mondays 6:30–7:30 pm; call to confirm before going.",
+  "_why": "Checked 2026-11-10: No church site or 2026 guide listing. Plentiful lists the pantry (no hours); an undated Wake list gives different days. https://directory.plentiful.org/north-carolina/raleigh"
+ },
+ "Extended Hands Mobile Market at St John United Holy Church|Zebulon": {
+  "_if": {
+   "hours": "2nd Tuesday of each month, 10-11 am",
+   "access": ""
+  },
+  "hours": "2nd Thu 10 am (December: 1st Thu)",
+  "access": "Drive-through",
+  "_why": "Checked 2026-11-10: Food Shuttle guide (updated 10/23/26) lists 2nd Thursday 10am, drive-through; December moves to 1st Thursday. https://foodshuttle.org/Find%20Food/2026%20Holiday%20Food%20Resources%20Guide_Lynette%20DuCharme.pdf"
+ },
+ "St Mark AME Zion Church|Durham": {
+  "_if": {
+   "access": "Clothes",
+   "notes": ""
+  },
+  "access": "Call for an appointment first; other requirements apply",
+  "notes": "End Hunger Durham's Feb 2026 list describes this as hot meals and clothes rather than a grocery pantry.",
+  "_why": "Checked 2026-11-10: End Hunger Durham 2/25/2026: 4th Sat 11–12:30 (matches), call for appointment, services hot meals and clothes. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Care Pantry - Apex The Point Church|Apex": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Another listing gives Saturday 3–4 pm and one directory has flagged it as closed; call before going.",
+  "_why": "Checked 2026-11-10: No church page found. Plentiful says Sat 3–4pm; FeedAM shows closed snapshot; The Point's Cary pantry is Sat 11–noon. Unresolved. https://directory.plentiful.org/north-carolina/apex/point-care-pantry-413faaf5"
+ },
+ "Wendell Baptist Church|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "One directory lists this pantry as closed and another gives Thu 11 am–3 pm and 2nd Sat 11 am–1 pm; call before going.",
+  "_why": "Checked 2026-11-10: No church site or 2026 guide listing. FeedAM shows closed (verified ~144 days ago); foodpantries.org gives other hours. Unconfirmed. https://feedam.org/resource/8936"
+ },
+ "Agape Christian Church|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "End Hunger Durham's Feb 2026 list describes this as a hot meal on the 4th Saturday, not a grocery pantry.",
+  "_why": "Checked 2026-11-10: End Hunger Durham 2/25/2026 lists 'Agape Christian Church (HOT MEALS)', 4th Sat 11–2 (hours match), service: hot meals. https://www.endhungerdurham.org/wp-content/uploads/2026/02/EHD-Pantry-Directory-English-02252026.pdf"
+ },
+ "Bethlehem Baptist Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 2nd & 4th Thursdays (one says 7–8 pm); call to confirm before going.",
+  "_why": "Checked 2026-11-10: No church site found. Plentiful and an undated WCPSS/Wake list agree on 2nd & 4th Thursdays, conflicting with our Tue/Thu 11–2. https://directory.plentiful.org/north-carolina/raleigh/bethlehem-baptist-church-ae5840e2"
+ },
+ "First Worldwide Ministries|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Another listing places this pantry at 320 Bledsoe Ave, and an older list gives 3rd Saturdays 10–11:45 am; call to confirm before going.",
+  "_why": "Checked 2026-11-10: No org site. Plentiful lists 320 Bledsoe Ave (312 phone); old Wake list gives 3201 New Bern Ave, 3rd Sat. Our Fri hours/phone match an old 'Hope Pantry' entry. https://directory.plentiful.org/north-carolina/raleigh"
+ },
+ "St. Bernadette Catholic Church|Fuquay-Varina": {
+  "_if": {},
+  "url": "https://www.stbnc.net/shepherds-bounty-ministry/",
+  "_why": "Checked 2026-11-10: Parish's Shepherd's Bounty Ministry page gives Mon–Wed 10 am–noon, matching ours; no boundary restriction stated there. Page URL could be added. https://www.stbnc.net/shepherds-bounty-ministry/"
+ },
+ "Wendell United Methodist|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Some listings give other hours (e.g., Tue & Thu 9 am–noon); call the church office at (919) 365-6266 to confirm before going.",
+  "_why": "Checked 2026-11-10: Church site (© 2026) gives office phone 919-365-6266 but no pantry hours. Two directories match our hours; others differ; FeedAM showed closed snapshot. https://www.wendellumc.org/"
+ },
+ "River of Raleigh Church|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this mobile pantry is still running; call before going.",
+  "_why": "Checked 2026-11-10: No listing for the church or pantry found. Phone matches the Rush Metropolitan entry and resembles Raleigh Dream Center's 919-867-4446."
+ },
+ "Iglesia El Buen Pastor|Durham": {
+  "_if": {
+   "address": "1852 Liberty Street, Durham NC 27703",
+   "phone": "(919) 669-4092",
+   "hours": "1st Saturday, 7:00am until no more food",
+   "access": "food: 1st sat. of every month, 9:30am - 10:30am."
+  },
+  "address": "St. Luke's Episcopal Church, 1737 Hillandale Rd, Durham NC 27705",
+  "phone": "(919) 282-6175",
+  "hours": "1st, 2nd & 5th Sat 8:30 am (10:30 am in winter months)",
+  "access": "Tickets handed out around 7 am for the 8:30 am start.",
+  "_why": "Checked 2026-11-10: Food Shuttle's 2026 guides (Mar and Jul 2026 updates) both list the distribution at St. Luke's Episcopal, 1st/2nd/5th Sat 8:30am, phone 919-282-6175. https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf"
+ },
+ "Church of the Apostolic Revival|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Another Durham list gives Fri 10–11 am and Sun 1:30 pm; call to confirm times before going.",
+  "_why": "Checked 2026-11-10: Only an undated community list found (Fri 10-11, Sun 1:30); differs slightly from ours; no church source. https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic"
+ },
+ "Mt Bethel United Methodist Church (Fish & Loaves)|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 2nd & 4th Wed 5:30–7 pm instead; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Plentiful and Durham community list say 2nd/4th Wed 5:30-7pm; 2020 county list ('Mt. Bethel UMC - Fish and Loaves') also Wed. No church source. https://directory.plentiful.org/north-carolina/bahama/mt-bethel-united-methodist-b37d360d"
+ },
+ "FEED Ministry: North Wake Church|Wake Forest": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give Sundays 8:45–10:30 am; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Town of Wake Forest Dec 2024 brochure and Wake lists show every Sunday 8:45-10:30 (ours ends 10:15); 2024 source too old to update; Wed slot unconfirmed. https://wakeforestnc.gov/sites/default/files/uploads/final_12.12.2024_nc_food_security_brochure_17x11.pdf"
+ },
+ "New Fellowship Ministry Food Pantry|Holly Springs": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this pantry online; directories list a New Life Community Church pantry on Crittenden Ln with Thu/Fri afternoon hours, and one lists it as closed. Call before going.",
+  "_why": "Checked 2026-11-10: No 'New Fellowship' found; New Life Community Church listings conflict on hours; FeedAM marks closed. Unconfirmed. https://feedam.org/resource/203036"
+ },
+ "The Stone Chapel|Wake Forest": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give Sun 12:15–1:15 pm and phone (919) 554-4151, and one lists it as closed; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Plentiful/FeedAM give Sun 12:15-1:15 pm and 919-554-4151; no church source found; nothing tier-1. https://directory.plentiful.org/north-carolina/wake-forest/the-stone-chapel-e158969f"
+ },
+ "Pleasant Grove Baptist Church|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings place this pantry at 948 Morphus Bridge Rd with 1st & 3rd Tue 10–11 am and 1st & 3rd Wed 5–6 pm; call to confirm before going.",
+  "_why": "Checked 2026-11-10: FeedAM/Plentiful/WhyHunger all use Morphus Bridge Rd; hours vary; no church source; likely same pantry as Pleasant Grove Missionary. https://networks.whyhunger.org/organisation/39313"
+ },
+ "St. Eugene Catholic Church|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "The parish says Saturday 9 am is when volunteers make the Brown Bag Ministry lunches; it doesn't say lunches are handed out at the church. Call (919) 539-4579 before going.",
+  "_why": "Checked 2026-11-10: Parish ministries page describes ~1000 lunches/week, volunteers Saturdays 9am; no recipient pickup location/time stated. https://www.catholicste.org/parish-ministries"
+ },
+ "Church of Philadelphia|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "A recently verified directory lists Mon, Wed & Fri 3–6 pm instead; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Plentiful/FeedAM record verified 2026-04-21 says M/W/F 3-6pm; Durham list says Tue/Thu 10-1. Aggregators only; no church source. https://directory.plentiful.org/north-carolina/durham/church-of-philadelphia-c8a91cff"
+ },
+ "First Cosmopolitan MBC|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give different days (2nd Wed & 4th Fri 10 am–1 pm, or Wed 8:15–11:30 am) and phone (919) 833-3283; call to confirm before going.",
+  "_why": "Checked 2026-11-10: WhyHunger and an undated Wake list conflict with ours and each other; no church website found. https://networks.whyhunger.org/organisation/39226"
+ },
+ "Pleasant Grove Missionary|Wendell": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 1st & 3rd Tue 10–11 am and 1st & 3rd Wed 5–6 pm (some at 952 Morphus Bridge Rd); the 3rd Tue 4–6 pm time isn't confirmed. Call before going.",
+  "_why": "Checked 2026-11-10: WhyHunger and undated Wake list give Tue mornings + Wed 5-6pm; no church site found; aggregators only. https://networks.whyhunger.org/organisation/39313"
+ },
+ "The Way Church|Garner": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this pantry online; the church at this address is also listed as Turner Memorial Baptist Church. Call before going.",
+  "_why": "Checked 2026-11-10: Only needhelppayingbills lists it ('The Way Church - Turner Memorial Baptist', 919-772-0761); no hours confirmed anywhere. https://www.needhelppayingbills.com/html/raleigh_food_banks_and_pantrie.html"
+ },
+ "Glory Cloud & Fire Ministries|Zebulon": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "One directory lists this pantry at 1424 Parks Village Rd, Zebulon, phone (919) 269-8870; call to confirm the location before going.",
+  "_why": "Checked 2026-11-10: Single aggregator (FeedAM via AmpleHarvest, record 2026-04-23, possibly import date) gives new address/phone; no church source. https://feedam.org/resource/220288"
+ },
+ "Wake Forest Community Table - Olive Branch Baptist Church|Wake Forest": {
+  "_if": {
+   "address": "350 Juniper St., Wake Forest, 27587",
+   "hours": "Wednesdays, 6-6:30 pm",
+   "access": ""
+  },
+  "address": "Olive Branch Baptist Church, 326 E. Juniper Ave., Wake Forest, NC 27587",
+  "hours": "Wed 6–7 pm",
+  "access": "Take-home meals, casseroles, produce and groceries.",
+  "_why": "Checked 2026-11-10: Town of Wake Forest NCFST page (current, 2026 items) lists Community Table Wednesdays at Olive Branch Baptist 6-7pm; church is at 326 E. Juniper Ave. https://www.wakeforestnc.gov/organizational-performance/northern-community-food-security-team"
+ },
+ "West End Mobile Market at Duke Memorial United Methodist Church (IFFS)|Durham": {
+  "_if": {
+   "hours": "3rd Saturdays, 10am-11am",
+   "access": ""
+  },
+  "hours": "3rd Sat 10:30 am",
+  "access": "Drive-through.",
+  "_why": "Checked 2026-11-10: Food Shuttle 2026 guides (Mar and Jul 2026 updates) list 3rd Saturday 10:30am, drive-through. https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf"
+ },
+ "Divine Grace Fellowship and Outreach Ministry|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 2nd & 4th Wed 5:30–6:45 pm instead; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Plentiful (undated, food-bank-sourced) says 2nd/4th Wed 5:30-6:45; 2020 county list said 2nd Wed 6pm; community list matches ours. https://directory.plentiful.org/north-carolina/durham/divine-grace-fellowship-77e353fe"
+ },
+ "Poplar Springs Christian|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 1st & 4th Mon 8–10:30 am and/or 1st & 3rd Tue 10:30 am–12:30 pm (drive-thru); call to confirm before going.",
+  "_why": "Checked 2026-11-10: Undated Wake County list and community spreadsheet conflict with ours and each other; no church website found. https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/12692/food pantry wake county.pdf"
+ },
+ "Faith Gospel Tabernacle|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 2nd & 4th Sat 10 am–noon (one also Fri 10 am–noon), and the Food Bank lists phone (919) 885-9444; call to confirm before going.",
+  "_why": "Checked 2026-11-10: Plentiful/WhyHunger say 2nd & 4th Sat 10-12; presbytery list (Jul 2025) adds Fri; Food Bank page phone differs; nothing tier-1. https://directory.plentiful.org/north-carolina/durham/faith-gospel-tabernacle-3b7ebaf7"
+ },
+ "Iglesia La Semilla: Where Possibilities are Born|Durham": {
+  "_if": {
+   "hours": "Tuesday - 6pm; Saturday - 11am",
+   "access": "La Semilla is a faith community that strives to be present in service with the Hispanic/Latinx community, along with the larger immigrant community in Durham and its surrounding areas.",
+   "notes": ""
+  },
+  "hours": "2nd Tue 6 pm",
+  "access": "Drive-through food distribution.",
+  "notes": "Food Shuttle's English guide lists 4 pm instead of 6 pm; call to confirm the time. A last-Saturday 11 am meal has been listed elsewhere but isn't confirmed.",
+  "_why": "Checked 2026-11-10: Food Shuttle 2026 guides (Mar and Jul 2026) list only a monthly 2nd-Tuesday drive-through at 806 Clarendon (Spanish: 6pm; English: 4pm); no weekly Tue/Sat. https://foodshuttle.org/Find%20Food/August-2026-Spanish-Food-Resources-Guide.pdf"
+ },
+ "Immanuel Temple Seventh Day Adventist Church|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give the 2nd Sunday (not Saturday), 12–1:30 pm, drive-thru; call to confirm the day before going.",
+  "_why": "Checked 2026-11-10: Durham community list and Plentiful say 2nd Sunday 12-1:30 drive-thru; both undated; no church source found. https://directory.plentiful.org/north-carolina/durham/immanuel-temple-sda-church-ee97fad7"
+ },
+ "Church Of God Of Prophecy|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give different times (e.g., Thu 12–4 pm, or weekday afternoons with referral and ID); call to confirm before going.",
+  "_why": "Checked 2026-11-10: Only aggregator listings (2023-era, undated) found; they conflict with ours and each other; no church website. https://www.homelessshelterdirectory.org/foodbank/nc_church-of-god-of-prophecy-raleigh"
+ },
+ "Kirk of Kildaire Presbyterian Church|Cary": {
+  "_if": {
+   "hours": "Wednesday 10am -11am, 6:30pm -7:30pm ; 1st & 3rd Saturday 10am - 11am",
+   "notes": ""
+  },
+  "hours": "Mon, Tue, Thu & Fri 9 am–noon",
+  "url": "https://www.kirkofkildaire.org/serving-our-neighbors/",
+  "notes": "The church's page also lists changed hours of Mon–Thu 9 am–noon and Sat 9–11 am; call to confirm which days apply.",
+  "_why": "Checked 2026-11-10: Church's own page says pantry open Mon/Tue/Thu/Fri 9am-noon year-round (plus seasonal Mon-Thu + Sat); no Wednesday-evening slot. https://www.kirkofkildaire.org/serving-our-neighbors/"
+ },
+ "Sure Promise Christian Church|Raleigh": {
+  "_if": {
+   "phone": "(919) 758-0843"
+  },
+  "phone": "(919) 890-5639",
+  "_why": "Checked 2026-11-10: Church's own contact page lists (919) 890-5639; directories give two other numbers (758-0843, 809-8862). Pantry hours unconfirmed. https://surepromisechristianchurch.snappages.site/contact"
+ },
+ "Brooks Avenue Church of Christ|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "Other listings give 2nd & 4th Sat 9–11:30 am or Thursday daytime hours, not Thu 6 pm; call (919) 821-2400 before going.",
+  "_why": "Checked 2026-11-10: WhyHunger/HSD give 2nd & 4th Sat mornings; other lists Thu/Tue daytime; none support weekly Thu 6pm; no church source. https://networks.whyhunger.org/organisation/6616"
+ },
+ "St. Catherine of Siena Catholic Church|Wake Forest": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't confirm this Saturday meal online; the parish office (520 W. Holding Ave., (919) 570-0070) can confirm. Call before going.",
+  "_why": "Checked 2026-11-10: Diocese/parish listings show 520 W. Holding Ave, 919-570-0070, no meal program; town brochure doesn't list it. https://dioceseofraleigh.org/parish/saint-catherine-siena-wake-forest"
  }
 }

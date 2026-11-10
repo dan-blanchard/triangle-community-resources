@@ -58,5 +58,17 @@
  {
   "pattern": "concilio pen[te]costal",
   "reason": "Maintainer decision 2026-11-10: listed food hours match worship service times; food appears to be given only during services"
+ },
+ {
+  "pattern": "^Praise\\ Temple\\ Multi\\-Cultural\\ Mobile\\ Market$",
+  "reason": "Program ended or out of area (checked 2026-11-10): Moved to 131 Guy Rd, Clayton (outside the towns this page covers). Church's own calendar (2025) and IFFS Aug & Oct 2026 guides place the 4th-Sat drive-thru market at 131 Guy Rd, Clayton. Same church (old Raleigh phone matches). City changes to Clayton. https://foodshuttle.org/Find%20Food/2026%20Holiday%20Food%20Resources%20Guide_Lynette%20DuCharme.pdf"
+ },
+ {
+  "pattern": "^Lincoln\\ Park\\ Food\\ Distribution\\ Ministry$",
+  "reason": "Duplicate of 'Lincoln Park Holiness Church Food Pantry' (same pantry; checked 2026-11-10)"
+ },
+ {
+  "pattern": "^Kings\\ Park\\ Church$",
+  "reason": "Duplicate of 'House of Mercy - Celebracion Cristiana' (same pantry; checked 2026-11-10)"
  }
 ]

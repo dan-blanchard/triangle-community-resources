@@ -773,11 +773,11 @@
   "address": "558 Village Ct, Garner, NC 27529",
   "url": "https://gam-nc.org/",
   "phone": "(919) 772-9100",
-  "hours": "Assistance office Mon–Fri 9 am–noon",
+  "hours": "Assistance office Mon, Wed & Fri 9 am–noon",
   "access": "Garner residents (zip 27529 and parts of 27603 and 27610)",
   "cost": "free",
   "source_url": "https://rhanc.gov/wp-content/uploads/2025/10/Resource-Guide-5.15.25-ENGLISH-1.pdf",
-  "notes": "The thrift shop at 560–564 Village Ct (919-772-9178; Mon/Wed/Sat 9 am–1 pm, Fri 9 am–3 pm) sells items and isn't free. The office address is from an undated Wake County pantry list, and the hours and eligibility are from the May 2025 guide.",
+  "notes": "The thrift shop at 560–564 Village Ct (919-772-9178; Mon/Wed/Sat 9 am–1 pm, Fri 9 am–3 pm) sells items and isn't free. Office hours are from GAM's website (checked Nov 2026); eligibility is from the May 2025 guide. GAM's site says pantry food is available once every three months, with emergency food any time.",
   "checked": "2026-11-10"
  },
  {
@@ -863,11 +863,11 @@
   "address": "1001 Steeple Square Ct, Knightdale, NC 27545",
   "url": "",
   "phone": "(919) 427-6677",
-  "hours": "1st Saturday of each month, 8 am",
+  "hours": "1st Sat 8 am (no distribution in January)",
   "access": "Drive-through",
   "cost": "free",
   "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
-  "notes": "A directory listing says this is an Inter-Faith Food Shuttle mobile market.",
+  "notes": "Listed as Cross Point Community Church in Inter-Faith Food Shuttle's Oct 2026 food resources guide.",
   "checked": "2026-11-10"
  },
  {
