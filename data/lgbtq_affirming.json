@@ -486,5 +486,41 @@
   "evidence": "\"Raleigh United Mutual Aid Hub does not discriminate on the basis of ... sex, gender identity, sexual orientation\"; library includes queer literature.",
   "evidence_url": "https://raleighunitedmutualaidhub.substack.com/about",
   "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Public Libraries – free card services",
+  "city": "Triangle-wide",
+  "basis": "affirming_statement",
+  "evidence": "Wake County Public Libraries ran LGBTQIA+ programs and booklists for Pride Month (June 2026).",
+  "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
+  "checked": "2026-11-10",
+  "decided_by": "maintainer (2026-11-10): include Wake County libraries"
+ },
+ {
+  "name": "Morrisville Community Library",
+  "city": "Morrisville",
+  "basis": "affirming_statement",
+  "evidence": "Wake County Public Libraries ran LGBTQIA+ programs and booklists for Pride Month (June 2026).",
+  "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
+  "checked": "2026-11-10",
+  "decided_by": "maintainer (2026-11-10): include Wake County libraries"
+ },
+ {
+  "name": "East Regional Library",
+  "city": "Knightdale",
+  "basis": "affirming_statement",
+  "evidence": "Wake County Public Libraries ran LGBTQIA+ programs and booklists for Pride Month (June 2026).",
+  "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
+  "checked": "2026-11-10",
+  "decided_by": "maintainer (2026-11-10): include Wake County libraries"
+ },
+ {
+  "name": "Wendell Community Library",
+  "city": "Wendell",
+  "basis": "affirming_statement",
+  "evidence": "Wake County Public Libraries ran LGBTQIA+ programs and booklists for Pride Month (June 2026).",
+  "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
+  "checked": "2026-11-10",
+  "decided_by": "maintainer (2026-11-10): include Wake County libraries"
  }
 ]
