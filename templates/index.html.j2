@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Triangle Community Resources – free, mutual aid &amp; shared</title>
-<meta name="description" content="Free and community-run resources in Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle: food, clothing, shelter, mutual aid, tool libraries, maker spaces and more. Updated daily.">
+<title>Triangle Community Resources – free and low-cost help near you</title>
+<meta name="description" content="Free and low-cost help in Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle, from mutual-aid groups, nonprofits, congregations and public agencies: food, clothing, shelter, mutual aid, tool libraries, maker spaces and more. Updated daily.">
 <link rel="stylesheet" href="vendor/leaflet.css">
 <link rel="stylesheet" href="vendor/MarkerCluster.css">
 <link rel="stylesheet" href="vendor/MarkerCluster.Default.css">
@@ -20,21 +20,20 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 ui-sans-serif,
 a{color:var(--blue)}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 .wrap{max-width:1100px;margin:0 auto;padding:0 1rem}
-header.top{background:linear-gradient(180deg,#e2ede6,#e9f1ec);color:var(--calm-ink);padding:1.6rem 0 1.2rem}
-header.top h1{margin:0;font:800 clamp(1.6rem,4vw,2.4rem)/1.1 Georgia,"Iowan Old Style",serif;letter-spacing:-.01em}
-header.top p{margin:.5rem 0 0;color:#3d5650;max-width:60ch}
-header.top .updated{font-size:.85rem;color:#5f7570;margin-top:.7rem}
-.crisis{background:var(--sand);color:#4a3f30;font-size:.95rem;border-top:1px solid #e8dcc6;border-bottom:1px solid #e8dcc6}
-.crisis .wrap{padding:.55rem 1rem;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem}
+header.top{background:linear-gradient(180deg,#e2ede6,#e9f1ec);color:var(--calm-ink);padding:.9rem 0 .75rem}
+header.top h1{margin:0;font:800 clamp(1.35rem,2.8vw,1.9rem)/1.15 Georgia,"Iowan Old Style",serif;letter-spacing:-.01em}
+header.top p{margin:.3rem 0 0;color:#3d5650}
+header.top .updated{font-size:.82rem;color:#5f7570;margin-top:.25rem}
+.crisis{background:var(--sand);color:#4a3f30;font-size:.9rem;border-top:1px solid #e8dcc6;border-bottom:1px solid #e8dcc6}
+.crisis .wrap{padding:.35rem 1rem;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem}
 .crisis a{color:var(--calm-ink);font-weight:700}
 .controls{position:sticky;top:0;z-index:5;background:rgba(248,247,242,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(4px)}
-.controls .wrap{display:flex;flex-wrap:wrap;gap:.5rem .75rem;align-items:center;padding:.6rem 1rem}
-.controls input[type=search]{flex:1 1 260px;padding:.55rem .7rem;font-size:1rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
-.controls select{padding:.5rem;font-size:.95rem;width:auto;max-width:13rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
+.controls .wrap{display:flex;flex-wrap:wrap;gap:.45rem .7rem;align-items:center;padding:.5rem 1rem}
+.controls input[type=search]{flex:1 1 170px;padding:.5rem .7rem;font-size:1rem;line-height:1.2;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
 .controls label.tog{font-size:.9rem;display:flex;gap:.35rem;align-items:center;white-space:nowrap}
 .headrow{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
 .dd{position:relative}
-.ddbtn{padding:.5rem .7rem;font-size:.95rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;white-space:nowrap;max-width:16rem;overflow:hidden;text-overflow:ellipsis}
+.ddbtn{padding:.5rem .7rem;font-size:.95rem;line-height:1.2;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;white-space:nowrap;max-width:16rem;overflow:hidden;text-overflow:ellipsis}
 .ddbtn.on{border-color:var(--accent);font-weight:600}
 .ddpanel{position:absolute;top:calc(100% + 4px);left:0;z-index:20;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:.4rem;min-width:15rem;max-height:60vh;overflow:auto}
 .ddpanel[hidden]{display:none}
@@ -43,10 +42,8 @@ header.top .updated{font-size:.85rem;color:#5f7570;margin-top:.7rem}
 .ddpanel small{margin-left:auto;color:var(--muted)}
 .ddfoot{display:flex;justify-content:space-between;border-top:1px solid var(--line);margin-top:.3rem;padding:.4rem .2rem 0}
 .ddfoot button{background:none;border:0;color:var(--blue);cursor:pointer;font-size:.9rem;padding:.2rem .4rem}
-.needbar{display:flex;flex-wrap:wrap;gap:.4rem 1rem;padding:1rem 0 .2rem}
-.ngroup{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
-.ngroup>span{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:.15rem}
-.needchip{font-size:.9rem;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:.25rem .7rem;cursor:pointer}
+.needbar{display:flex;flex-wrap:wrap;gap:.35rem .3rem;padding:.7rem 0 .1rem;align-items:center}
+.needchip{font-size:.85rem;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:.18rem .6rem;cursor:pointer}
 .needchip:hover{border-color:var(--accent)}
 .needchip[aria-pressed=true]{background:var(--calm-ink);color:#fff;border-color:var(--calm-ink)}
 .needchip small{color:var(--muted)}
@@ -55,7 +52,7 @@ header.top .updated{font-size:.85rem;color:#5f7570;margin-top:.7rem}
 .needsum[hidden]{display:none}
 .needsum span{padding:.4rem .2rem .4rem .8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .needsum button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
-.hint{color:var(--muted);font-size:.9rem;margin:.6rem 0 0}
+.hint{color:var(--muted);font-size:.85rem;margin:.45rem 0 0}
 section.city{margin:2rem 0 2.5rem}
 .rw{margin:.1rem 0 .35rem;font-size:.82rem;font-weight:600;color:var(--accent)}
 section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:2px solid #b9cfc7;color:var(--calm-ink)}
@@ -101,8 +98,8 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 .need:hover,.need.on{border-color:var(--accent);background:var(--calm)}
 .needhelp{font-size:.9rem;color:var(--muted);padding:0 1rem .55rem}
 .needhelp[hidden]{display:none}
-.viewtoggle{display:inline-flex;flex:none;border:1.5px solid #9dbbb2;background:#fff;border-radius:8px;overflow:hidden;margin-top:.3rem}
-.viewtoggle button{background:transparent;border:0;padding:.5rem .9rem;font-size:.95rem;cursor:pointer;color:var(--calm-ink)}
+.viewtoggle{display:inline-flex;flex:none;border:1.5px solid #9dbbb2;background:#fff;border-radius:8px;overflow:hidden;margin-left:auto}
+.viewtoggle button{background:transparent;border:0;padding:.5rem .8rem;font-size:.95rem;line-height:1.2;cursor:pointer;color:var(--calm-ink)}
 .viewtoggle button[aria-pressed=true]{background:var(--calm-ink);color:#fff;font-weight:600}
 #mapwrap{margin:1rem 0 2rem}
 #map{height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
@@ -120,14 +117,17 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 @media (max-width:700px){
   html{scroll-padding-top:1rem}
   .controls{position:static}
-  .controls .wrap{display:grid;grid-template-columns:1fr;gap:.45rem}
+  .controls .wrap{display:grid;grid-template-columns:1fr 1fr;gap:.45rem}
   .controls .wrap>*{min-width:0;width:100%}
+  .controls input[type=search],#towndd,.needsum{grid-column:1/-1}
+  .needbar{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.4rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+  .needchip{flex:none}
   .headrow{flex-direction:column}
-  .viewtoggle{align-self:stretch}
+  .viewtoggle{grid-column:1/-1;margin-left:0}
   .viewtoggle button{flex:1;white-space:nowrap}
-  .ddbtn,.controls select{max-width:none;width:100%;text-align:left}
+  .ddbtn{max-width:none;width:100%;text-align:left}
+  #costdd .ddpanel{left:auto;right:0}
   .needsum{max-width:none;justify-content:space-between}
-  .ngroup>span{flex-basis:100%}
   .controls label.tog{font-size:.9rem;white-space:normal;width:auto}
   #map{height:70vh}
   section.city>h2{font-size:1.6rem}
@@ -170,10 +170,9 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 <body>
 <header class="top"><div class="wrap headrow"><div>
   <h1>Triangle Community Resources</h1>
-  <p>Free, community-run and mutual-aid resources across Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle. <strong>Take what you need.</strong> Share what you can.</p>
+  <p>Free and low-cost help across the Triangle, from mutual-aid groups, nonprofits, congregations and public agencies. <strong>Take what you need.</strong> Share what you can.</p>
   <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources</div>
   </div>
-  <span class="viewtoggle" id="viewtoggle" role="group" aria-label="View" hidden><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
 </div></header>
 
 <div class="crisis" role="note"><div class="wrap">
@@ -185,27 +184,39 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 <div class="controls" id="controls" hidden><div class="wrap">
   <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
   <div class="dd" id="towndd">
-    <button type="button" class="ddbtn" id="townbtn" aria-haspopup="true" aria-expanded="false" aria-controls="townpanel">All towns ▾</button>
+    <button type="button" class="ddbtn" aria-haspopup="true" aria-expanded="false" aria-controls="townpanel" data-all="All towns" data-many="towns">All towns ▾</button>
     <div class="ddpanel" id="townpanel" role="group" aria-label="Towns" hidden>
-      {% for c in by_city %}<label><input type="checkbox" value="{{ c }}"> {{ c }} <small>{{ city_counts[c] }}</small></label>
-      {% endfor %}<div class="ddfoot"><button type="button" id="townclear">Clear</button><button type="button" id="towndone">Done</button></div>
+      {% for c in by_city %}<label><input type="checkbox" value="{{ c }}"> <span>{{ c }}</span> <small>{{ city_counts[c] }}</small></label>
+      {% endfor %}<div class="ddfoot"><button type="button" data-clear>Clear</button><button type="button" data-done>Done</button></div>
     </div>
   </div>
-  <select id="type" aria-label="Type of group"><option value="">Any type</option><option value="community" title="Mutual aid, co-ops and community groups">Community-run (all)</option>{% for k, v in org_label.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select>
-  <select id="cost" aria-label="Cost"><option value="">Any cost</option>{% for k, v in cost_label.items() if k != "unknown" %}<option value="{{ k }}">{{ v }}</option>{% endfor %}<option value="notfree" title="Sliding scale, pay what you can, or membership">Not free (any)</option></select>
+  <div class="dd" id="typedd">
+    <button type="button" class="ddbtn" aria-haspopup="true" aria-expanded="false" aria-controls="typepanel" data-all="Any type" data-many="types">Any type ▾</button>
+    <div class="ddpanel" id="typepanel" role="group" aria-label="Types" hidden>
+      {% for k, v in org_label.items()|sort(attribute="1") if type_counts[k] %}<label><input type="checkbox" value="{{ k }}"> <span>{{ v }}</span> <small>{{ type_counts[k] }}</small></label>
+      {% endfor %}<div class="ddfoot"><button type="button" data-clear>Clear</button><button type="button" data-done>Done</button></div>
+    </div>
+  </div>
+  <div class="dd" id="costdd">
+    <button type="button" class="ddbtn" aria-haspopup="true" aria-expanded="false" aria-controls="costpanel" data-all="Any cost" data-many="costs">Any cost ▾</button>
+    <div class="ddpanel" id="costpanel" role="group" aria-label="Costs" hidden>
+      {% for k, v in cost_label.items()|sort(attribute="1") if k != "unknown" and cost_counts[k] %}<label><input type="checkbox" value="{{ k }}"> <span>{{ v }}</span> <small>{{ cost_counts[k] }}</small></label>
+      {% endfor %}<div class="ddfoot"><button type="button" data-clear>Clear</button><button type="button" data-done>Done</button></div>
+    </div>
+  </div>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
   {% if any_new %}<label class="tog"><input type="checkbox" id="nw"> New this week</label>{% endif %}
-  <label class="tog"><input type="checkbox" id="lg"> <svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming only</label>
+  <label class="tog"><input type="checkbox" id="lg"> <svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</label>
   <span class="needsum" id="needsum" hidden><span id="needsumtext"></span><button type="button" id="needclear" aria-label="Clear needs">✕</button></span>
+  <span class="viewtoggle" id="viewtoggle" role="group" aria-label="View" hidden><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
 </div></div>
 
 <main class="wrap" id="top">
   <nav class="needbar" id="needbar" aria-label="Filter by need">
-    {% for group, cats in category_groups %}<div class="ngroup"><span>{{ group }}</span>{% for c, em in cats %}{% if cat_counts[c] %}<button type="button" class="needchip" data-need="{{ c }}" aria-pressed="false" title="{{ cat_help[c] }}">{{ em }} {{ c }} <small>{{ cat_counts[c] }}</small></button>{% endif %}{% endfor %}</div>
-    {% endfor %}
+    {% for c in categories_az if cat_counts[c] %}<button type="button" class="needchip" data-need="{{ c }}" aria-pressed="false" title="{{ cat_help[c] }}">{{ emoji[c] }} {{ c }} <small>{{ cat_counts[c] }}</small></button>{% endfor %}
   </nav>
   <p class="needhelp" id="needhelp" hidden></p>
-  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Pick one or more needs to see places that meet any of them. Each town is listed A–Z, including services that cover the whole region; green tags mark community-run groups. Tap any tag on a listing to see others like it.</p>
+  <p class="hint">Hours change, so call ahead when you can. Tap any tag to see places like it.</p>
 
   <div id="mapwrap" hidden>
     <div id="map" role="region" aria-label="Map of resources"></div>
@@ -236,6 +247,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 
 <footer><div class="wrap">
   <h2>About this page</h2>
+  <p>How to use it: pick one or more needs to see places that meet any of them. Each town is listed A–Z, including services that cover the whole region. Green tags mark community-run groups. If something looks off, check the source link or use "Report a change".</p>
   <p>Rebuilt every morning. Each day it re-pulls these live sources, merges them with a researched list of mutual aid, sharing and making spaces (found by web search and re-checked monthly), and tests every website link:</p>
   <ul>
     {% for s in meta.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}: {{ s.count }} entries{% if s.stale_parts %} <em>(source unreachable today; showing the last copy we got)</em>{% endif %}</li>{% endfor %}
@@ -255,12 +267,12 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => [...document.querySelectorAll(s)];
   $('#controls').hidden = false; $('#viewtoggle').hidden = false;
-  const q = $('#q'), type = $('#type'), nf = $('#nf'), lg = $('#lg'), cost = $('#cost');
+  const q = $('#q'), nf = $('#nf'), lg = $('#lg');
   const nw = $('#nw') || {checked: false, addEventListener() {}};
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
   const NEED_HELP = {{ cat_help|tojson }};
   const EMOJI = {{ emoji|tojson }};
-  const towns = new Set(), needs = new Set();
+  const towns = new Set(), needs = new Set(), types = new Set(), costs = new Set();
 
   // ---- region-wide listings serve every town: copy each into its A-Z spot in every town ----
   const pool = $('#rwpool');
@@ -277,11 +289,16 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   params.getAll('need').forEach(n => needs.add(n));
   q.value = params.get('q') || '';
   const pick = (sel, v) => [...sel.options].some(o => o.value === v) ? v : '';
-  cost.value = pick(cost, params.get('cost') || '');
-  type.value = pick(type, params.get('type') || (params.has('community') ? 'community' : ''));
+  // (older links used type=community and cost=notfree)
+  const OPTS = id => new Set($$(`#${id}panel input`).map(b => b.value));
+  const typeOpts = OPTS('type'), costOpts = OPTS('cost');
+  params.getAll('type').concat(params.has('community') ? ['community'] : []).forEach(t =>
+    (t === 'community' ? [...COMMUNITY] : [t]).forEach(v => typeOpts.has(v) && types.add(v)));
+  params.getAll('cost').forEach(c =>
+    (c === 'notfree' ? [...costOpts].filter(v => v !== 'free') : [c]).forEach(v => costOpts.has(v) && costs.add(v)));
   nf.checked = params.has('nofaith'); lg.checked = params.has('lgbtq'); nw.checked = params.has('new');
-  const costOk = c => !cost.value || (cost.value === 'notfree' ? c !== 'free' && c !== 'unknown' : c === cost.value);
-  const typeOk = t => !type.value || (type.value === 'community' ? COMMUNITY.has(t) : t === type.value);
+  const costOk = c => !costs.size || costs.has(c);
+  const typeOk = t => !types.size || types.has(t);
 
   // ---- search: words match at word starts; multi-word prefers the exact phrase ----
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -299,15 +316,26 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   }
 
   // ---- towns dropdown (multi-select) ----
-  const townBtn = $('#townbtn'), townPanel = $('#townpanel');
-  const townBoxes = $$('#townpanel input[type=checkbox]');
-  function openTowns(open) { townPanel.hidden = !open; townBtn.setAttribute('aria-expanded', open); }
-  townBtn.addEventListener('click', () => openTowns(townPanel.hidden));
-  $('#towndone').addEventListener('click', () => openTowns(false));
-  $('#townclear').addEventListener('click', () => { towns.clear(); apply(); });
-  townBoxes.forEach(b => b.addEventListener('change', () => { b.checked ? towns.add(b.value) : towns.delete(b.value); apply(); }));
-  document.addEventListener('click', ev => { if (!$('#towndd').contains(ev.target)) openTowns(false); });
-  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') openTowns(false); });
+  const dds = [];
+  function dropdown(id, set) {
+    const root = $(`#${id}dd`), btn = root.querySelector('.ddbtn'), panel = root.querySelector('.ddpanel');
+    const boxes = [...panel.querySelectorAll('input[type=checkbox]')];
+    const names = Object.fromEntries(boxes.map(b => [b.value, b.nextElementSibling.textContent]));
+    const open = o => { panel.hidden = !o; btn.setAttribute('aria-expanded', o); };
+    btn.addEventListener('click', () => { const o = panel.hidden; dds.forEach(d => d.open(false)); open(o); });
+    panel.querySelector('[data-done]').addEventListener('click', () => open(false));
+    panel.querySelector('[data-clear]').addEventListener('click', () => { set.clear(); apply(); });
+    boxes.forEach(b => b.addEventListener('change', () => { b.checked ? set.add(b.value) : set.delete(b.value); apply(); }));
+    dds.push({root, open, sync() {
+      boxes.forEach(b => b.checked = set.has(b.value));
+      const l = [...set].map(v => names[v] || v);
+      btn.textContent = (!l.length ? btn.dataset.all : l.length <= 2 ? l.join(', ') : `${l.length} ${btn.dataset.many}`) + ' ▾';
+      btn.classList.toggle('on', set.size > 0);
+    }});
+  }
+  dropdown('town', towns); dropdown('type', types); dropdown('cost', costs);
+  document.addEventListener('click', ev => dds.forEach(d => { if (!d.root.contains(ev.target)) d.open(false); }));
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') dds.forEach(d => d.open(false)); });
 
   // ---- needs (multi-select badges; a card shows if it meets ANY selected need) ----
   const toggleNeed = n => { needs.has(n) ? needs.delete(n) : needs.add(n); apply(); };
@@ -333,11 +361,8 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     });
     $('#empty').style.display = shown ? 'none' : 'block';
 
-    // towns button + checkboxes
-    townBoxes.forEach(b => b.checked = towns.has(b.value));
-    const tl = [...towns];
-    townBtn.textContent = (!tl.length ? 'All towns' : tl.length <= 2 ? tl.join(', ') : `${tl.length} towns`) + ' ▾';
-    townBtn.classList.toggle('on', towns.size > 0);
+    // dropdown buttons + checkboxes
+    dds.forEach(d => d.sync());
     // needs badges, card badges, sticky summary, descriptions
     $$('.needchip').forEach(c => c.setAttribute('aria-pressed', needs.has(c.dataset.need)));
     $$('article .need').forEach(n => n.classList.toggle('on', needs.has(n.dataset.need)));
@@ -349,15 +374,15 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 
     // show which card badges match the active filters
     $$('article button.b').forEach(b => b.classList.toggle('on',
-      (b.dataset.f === 'type' && type.value === b.dataset.v) || (b.dataset.f === 'cost' && cost.value === b.dataset.v) ||
+      (b.dataset.f === 'type' && types.has(b.dataset.v)) || (b.dataset.f === 'cost' && costs.has(b.dataset.v)) ||
       (b.dataset.f === 'lgbtq' && lg.checked) || (b.dataset.f === 'new' && nw.checked)));
     if (view === 'map') drawMarkers();
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value);
     towns.forEach(t => p.append('town', t));
     needs.forEach(n => p.append('need', n));
-    if (cost.value) p.set('cost', cost.value);
-    if (type.value) p.set('type', type.value);
+    types.forEach(t => p.append('type', t));
+    costs.forEach(c => p.append('cost', c));
     if (nf.checked) p.set('nofaith', ''); if (lg.checked) p.set('lgbtq', ''); if (nw.checked) p.set('new', '');
     if (view === 'map') p.set('view', 'map');
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
@@ -415,12 +440,13 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   }
   $('#vlist').addEventListener('click', () => setView('list'));
   $('#vmap').addEventListener('click', () => setView('map'));
-  [q, type, nf, lg, nw, cost].forEach(el => el.addEventListener('input', apply));
+  [q, nf, lg, nw].forEach(el => el.addEventListener('input', apply));
   // Any badge on a card filters to listings like it (click again to clear).
   $$('article button.b').forEach(b => b.addEventListener('click', () => {
     const f = b.dataset.f, v = b.dataset.v;
-    if (f === 'type') type.value = type.value === v ? '' : v;
-    if (f === 'cost') cost.value = cost.value === v ? '' : v;
+    const flip = (set, x) => set.has(x) ? set.delete(x) : set.add(x);
+    if (f === 'type') flip(types, v);
+    if (f === 'cost') flip(costs, v);
     if (f === 'lgbtq') lg.checked = !lg.checked;
     if (f === 'new') nw.checked = !nw.checked;
     apply();

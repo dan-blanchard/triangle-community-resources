@@ -24,9 +24,9 @@ li{border:1.5px solid #1f1d1a;border-radius:999px;padding:.15rem .7rem;font-size
 </head>
 <body>
 <div class="sheet">
-  <h1>Free help near you</h1>
-  <p class="lead">Food, clothing, shelter, showers, health care, mutual aid and more across the Triangle. Scan to see what's open in your town.</p>
-  <p class="lead es">Comida, ropa, refugio y ayuda gratis en el Triángulo. Escanee el código.</p>
+  <h1>Help near you</h1>
+  <p class="lead">Free and low-cost food, clothing, shelter, showers, health care, mutual aid and more across the Triangle. Scan to see what's open in your town.</p>
+  <p class="lead es">Comida, ropa, refugio y más, gratis o de bajo costo, en el Triángulo. Escanee el código.</p>
   <img class="qr" src="qr.svg" alt="QR code linking to {{ url }}">
   <div class="url">{{ url_short }}</div>
   <ul>{% for c, em in needs %}<li>{{ em }} {{ c }}</li>{% endfor %}</ul>

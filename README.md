@@ -1,8 +1,9 @@
 # Triangle Community Resources
 
-A daily-rebuilt directory of free, community-run, mutual-aid resources across the Research
-Triangle (Durham, Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, and nearby towns),
-grouped by **town → need**.
+A daily-rebuilt directory of free and low-cost help across the Research Triangle (Durham,
+Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, and nearby towns), from mutual-aid groups,
+nonprofits, congregations and public agencies. Towns are listed A–Z, and each town's listings
+are A–Z (including region-wide services).
 
 ## How it works
 
@@ -58,9 +59,9 @@ Pushing any of these to `main` triggers a rebuild right away.
 
 ## Filters
 
-Search; Towns (multi-select dropdown; region-wide listings appear under every town); Type; Cost; Hide
-faith-based; LGBTQIA+ affirming only; and need badges (multi-select, a listing shows if it
-meets any selected need). Every tag on a listing is clickable and filters to listings like it.
+Search; Towns, Type and Cost (multi-select dropdowns, all A–Z; region-wide listings appear under
+every town); Hide faith-based; LGBTQIA+ affirming only; and need badges (multi-select, a listing shows if it
+meets any selected need; A–Z). Every tag on a listing is clickable and filters to listings like it.
 All filters are reflected in the URL (`?town=Durham&need=Food&cost=free&lgbtq`), so filtered
 views can be shared.
 

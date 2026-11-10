@@ -51,7 +51,7 @@ ORG_TYPE_LABEL = {
 }
 COST_LABEL = {
     "free": "Free", "pay_what_you_can": "Pay what you can", "sliding_scale": "Sliding scale",
-    "low_cost_membership": "Low-cost membership", "unknown": "Ask about cost",
+    "low_cost_membership": "Low-cost membership", "some_free": "Some services free", "unknown": "Ask about cost",
 }
 _FAITH = (r"church|\bumc\b|\bame\b|\bmbc\b|\bucc\b|\bcme\b|\bsda\b|baptist|methodist|episcopal|presbyterian|lutheran|"
           r"catholic|adventist|pentecost|apostolic|holiness|\bholy\b|\bzion\b|tabernacle|cathedral|fellowship|"
@@ -459,16 +459,15 @@ def render(entries: list[dict], meta: dict) -> None:
 
     for i, e in enumerate(sorted(entries, key=lambda e: (e["city"], e["name"].lower()))):
         e["rid"] = i
-    order = {c: i for i, c in enumerate(common.CATEGORIES)}
     for e in entries:
-        e["categories"] = sorted(e["categories"], key=lambda x: order.get(x, 99))
+        e["categories"] = sorted(e["categories"])  # A-Z, same as the need filter
     az = lambda e: e["name"].lower().removeprefix("the ")
     # Region-wide listings serve every town, so each town's A-Z list includes them (as slots the
     # page's script fills from one copy, which keeps the page small).
     region = sorted((e for e in entries if e["city"] == "Triangle-wide"), key=az)
     by_city: dict[str, dict[str, list[dict]]] = {}
     city_counts: dict[str, int] = {}
-    for c in common.CITIES:
+    for c in sorted(common.CITIES):  # towns A-Z
         local = [e for e in entries if e["city"] == c]
         if not local or c == "Triangle-wide":
             continue
@@ -478,10 +477,12 @@ def render(entries: list[dict], meta: dict) -> None:
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
         city_counts=city_counts, region=region,
+        type_counts={k: sum(e["org_type"] == k for e in entries) for k in ORG_TYPE_LABEL},
+        cost_counts={k: sum(e["cost"] == k for e in entries) for k in COST_LABEL},
         cat_help=common.CATEGORY_HELP,
         any_new=any(e.get("is_new") for e in entries),
         unmapped=sum(1 for e in entries if e.get("lat") is None),
-        category_groups=common.CATEGORY_GROUPS, emoji=common.CATEGORY_EMOJI,
+        categories_az=sorted(common.CATEGORIES), emoji=common.CATEGORY_EMOJI,
         cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},
     )
     SITE.mkdir(exist_ok=True)

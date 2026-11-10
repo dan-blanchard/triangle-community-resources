@@ -34,5 +34,5 @@ categories (one or more):
   Domestic & Sexual Violence, Mutual Aid & Organizing, Kids & Families, Pet Care, Classes, Computers & Wi-Fi
 
 org_type: mutual_aid | cooperative | community_org | nonprofit | faith_based | public
-cost: free | pay_what_you_can | sliding_scale | low_cost_membership
+cost: free | some_free | pay_what_you_can | sliding_scale | low_cost_membership (some_free: several services, some free and some paid; say which in notes)
 checked: YYYY-MM-DD date the entry was last confirmed against a live 2025+ page (update it whenever you re-verify)
