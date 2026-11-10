@@ -472,6 +472,7 @@ def render(entries: list[dict], meta: dict) -> None:
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
         city_counts={c: sum(len(v) for v in groups.values()) for c, groups in by_city.items()},
         cat_help=common.CATEGORY_HELP,
+        any_new=any(e.get("is_new") for e in entries),
         unmapped=sum(1 for e in entries if e.get("lat") is None),
         category_groups=common.CATEGORY_GROUPS, emoji=common.CATEGORY_EMOJI,
         cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},

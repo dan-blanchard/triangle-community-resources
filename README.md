@@ -56,6 +56,27 @@ Pushing any of these to `main` triggers a rebuild right away.
 - **Anyone:** each card has a "Report a change" link, and the footer has "Suggest a
   resource". Both open GitHub issue forms (`.github/ISSUE_TEMPLATE/`).
 
+## Filters
+
+Search; Towns (multi-select dropdown; region-wide listings always stay); Type; Cost; Hide
+faith-based; LGBTQIA+ affirming only; and need badges (multi-select, a listing shows if it
+meets any selected need). Every tag on a listing is clickable and filters to listings like it.
+All filters are reflected in the URL (`?town=Durham&need=Food&cost=free&lgbtq`), so filtered
+views can be shared.
+
+## LGBTQIA+ affirming flags
+
+`data/lgbtq_affirming.json` lists flagged listings with their evidence (basis, quote, URL,
+date). A flag needs one of: an LGBTQ+-focused org; an explicit LGBTQ+ welcome/affirming
+statement or program on the org's own site; a nondiscrimination policy for people served that
+names both sexual orientation and gender identity; or a listing in an affirming-congregation
+directory. No flag means "not confirmed". Research notes: `data/research/lgbtq_*.json`.
+
+## Corrections
+
+`data/overrides.json` fixes individual fields on scraped listings (key `Name|Town`), and
+`data/logo_overrides.json` suppresses a site icon that isn't the org's logo.
+
 ## Map
 
 The page has a List / Map toggle (Leaflet + markercluster, vendored and checked against the

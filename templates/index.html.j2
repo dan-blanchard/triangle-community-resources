@@ -29,20 +29,32 @@ header.top .updated{font-size:.85rem;color:#bdb5a5;margin-top:.7rem}
 .crisis a{color:#fff;font-weight:700}
 .controls{position:sticky;top:0;z-index:5;background:rgba(251,248,241,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(4px)}
 .controls .wrap{display:flex;flex-wrap:wrap;gap:.5rem .75rem;align-items:center;padding:.6rem 1rem}
-.controls input[type=search]{flex:1 1 220px;padding:.55rem .7rem;font-size:1rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
-.controls select{padding:.5rem;font-size:.95rem;max-width:16rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;max-width:100%}
+.controls input[type=search]{flex:1 1 260px;padding:.55rem .7rem;font-size:1rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
+.controls select{padding:.5rem;font-size:.95rem;width:auto;max-width:13rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
 .controls label.tog{font-size:.9rem;display:flex;gap:.35rem;align-items:center;white-space:nowrap}
-.citynav{display:flex;flex-wrap:wrap;gap:.35rem;padding:.9rem 0 .2rem}
-.citynav a{font-size:.88rem;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:.2rem .7rem}
-.citynav a:hover{border-color:var(--ink)}
-.citynav a.active{background:var(--ink);color:#fff;border-color:var(--ink)}
-.citynav a.active small{color:#ddd6c8}
-.townchip{display:inline-flex;align-items:center;background:var(--ink);color:#fff;border-radius:999px;font-size:.92rem;overflow:hidden}
-.townchip[hidden]{display:none}
-.townchip a{color:#fff;text-decoration:none;padding:.4rem .2rem .4rem .8rem;font-weight:600}
-.townchip a::before{content:"Town: ";font-weight:400;color:#ddd6c8}
-.townchip button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
-.citynav small{color:var(--muted)}
+.headrow{display:flex;justify-content:space-between;align-items:flex-start;gap:1rem}
+.dd{position:relative}
+.ddbtn{padding:.5rem .7rem;font-size:.95rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;white-space:nowrap;max-width:16rem;overflow:hidden;text-overflow:ellipsis}
+.ddbtn.on{border-color:var(--ink);font-weight:600}
+.ddpanel{position:absolute;top:calc(100% + 4px);left:0;z-index:20;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:.4rem;min-width:15rem;max-height:60vh;overflow:auto}
+.ddpanel[hidden]{display:none}
+.ddpanel label{display:flex;gap:.5rem;align-items:center;padding:.3rem .45rem;border-radius:6px;cursor:pointer;font-size:.95rem}
+.ddpanel label:hover{background:#f3eee3}
+.ddpanel small{margin-left:auto;color:var(--muted)}
+.ddfoot{display:flex;justify-content:space-between;border-top:1px solid var(--line);margin-top:.3rem;padding:.4rem .2rem 0}
+.ddfoot button{background:none;border:0;color:var(--blue);cursor:pointer;font-size:.9rem;padding:.2rem .4rem}
+.needbar{display:flex;flex-wrap:wrap;gap:.4rem 1rem;padding:1rem 0 .2rem}
+.ngroup{display:flex;flex-wrap:wrap;gap:.35rem;align-items:center}
+.ngroup>span{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:.15rem}
+.needchip{font-size:.9rem;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:.25rem .7rem;cursor:pointer}
+.needchip:hover{border-color:var(--ink)}
+.needchip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.needchip small{color:var(--muted)}
+.needchip[aria-pressed=true] small{color:#ddd6c8}
+.needsum{display:inline-flex;align-items:center;background:var(--ink);color:#fff;border-radius:999px;font-size:.9rem;overflow:hidden;max-width:22rem}
+.needsum[hidden]{display:none}
+.needsum span{padding:.4rem .2rem .4rem .8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.needsum button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
 .hint{color:var(--muted);font-size:.9rem;margin:.6rem 0 0}
 section.city{margin:2rem 0 2.5rem}
 section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:3px solid var(--ink)}
@@ -62,6 +74,10 @@ article.r h4 a:hover{text-decoration:underline}
 .b-faith_based{background:#eee8f3;color:#5b3f78}
 .b-cost{background:var(--gold-bg);color:#6b4e00}
 .b-new{background:var(--accent);color:#fff}
+button.b{font-family:inherit;cursor:pointer;border:1px solid transparent;line-height:1.35}
+button.b:hover{border-color:currentColor}
+button.b.on{outline:2px solid var(--ink);outline-offset:1px}
+.why{font-size:.72rem;color:var(--muted);align-self:center}
 .b-pride{display:inline-flex;align-items:center;gap:.3rem;background:#fff;color:var(--ink);border:1px solid var(--line);text-decoration:none}
 .b-pride:hover{border-color:var(--ink)}
 svg.pride{border-radius:2px;flex:none}
@@ -80,12 +96,13 @@ footer h2{font-size:1rem;color:var(--ink)}
 dl.facts dd.note{color:var(--muted);font-size:.84rem}
 .needs{display:flex;flex-wrap:wrap;gap:.3rem}
 .need{font-size:.78rem;text-decoration:none;color:var(--ink);background:#f3eee3;border:1px solid var(--line);border-radius:999px;padding:.05rem .5rem}
+.need{cursor:pointer}
 .need:hover,.need.on{border-color:var(--accent);background:#fbe7df}
 .needhelp{font-size:.9rem;color:var(--muted);padding:0 1rem .55rem}
 .needhelp[hidden]{display:none}
-.viewtoggle{display:inline-flex;border:1.5px solid #cfc6b4;border-radius:8px;overflow:hidden}
-.viewtoggle button{background:#fff;border:0;padding:.5rem .8rem;font-size:.95rem;cursor:pointer;color:var(--ink)}
-.viewtoggle button[aria-pressed=true]{background:var(--ink);color:#fff}
+.viewtoggle{display:inline-flex;flex:none;border:1.5px solid #8d8574;border-radius:8px;overflow:hidden;margin-top:.3rem}
+.viewtoggle button{background:transparent;border:0;padding:.5rem .9rem;font-size:.95rem;cursor:pointer;color:#fff}
+.viewtoggle button[aria-pressed=true]{background:#fff;color:var(--ink);font-weight:600}
 #mapwrap{margin:1rem 0 2rem}
 #map{height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
 #mapnote{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
@@ -104,14 +121,18 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .controls{position:static}
   .controls .wrap{display:grid;grid-template-columns:1fr;gap:.45rem}
   .controls .wrap>*{min-width:0;width:100%}
+  .headrow{flex-direction:column}
+  .viewtoggle{align-self:stretch}
   .viewtoggle button{flex:1;white-space:nowrap}
-  .townchip{justify-content:space-between}
+  .ddbtn,.controls select{max-width:none;width:100%;text-align:left}
+  .needsum{max-width:none;justify-content:space-between}
+  .ngroup>span{flex-basis:100%}
   .controls label.tog{font-size:.9rem;white-space:normal;width:auto}
   #map{height:70vh}
   section.city>h2{font-size:1.6rem}
 }
 @media print{
-  .controls,.citynav,.crisis a[href^=http]::after{display:none}
+  .controls,.needbar,.viewtoggle,.crisis a[href^=http]::after{display:none}
   body{background:#fff;font-size:11pt}
   header.top{background:#fff;color:#000;padding:0}
   header.top p,header.top .updated{color:#333}
@@ -122,10 +143,12 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 <body>
-<header class="top"><div class="wrap">
+<header class="top"><div class="wrap headrow"><div>
   <h1>Triangle Community Resources</h1>
   <p>Free, community-run and mutual-aid resources across Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle. <strong>Take what you need.</strong> Share what you can.</p>
-  <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources · List or map, by town</div>
+  <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources</div>
+  </div>
+  <span class="viewtoggle" id="viewtoggle" role="group" aria-label="View" hidden><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
 </div></header>
 
 <div class="crisis" role="note"><div class="wrap">
@@ -135,23 +158,29 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 </div></div>
 
 <div class="controls" id="controls" hidden><div class="wrap">
-  <span class="viewtoggle" role="group" aria-label="View"><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
   <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
-  <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
-  <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}" title="{{ cat_help[c] }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
-  <select id="cost" aria-label="Cost"><option value="">Any cost</option><option value="free">Free</option><option value="notfree">Not free (sliding scale, pay what you can, membership)</option></select>
-  <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
+  <div class="dd" id="towndd">
+    <button type="button" class="ddbtn" id="townbtn" aria-haspopup="true" aria-expanded="false" aria-controls="townpanel">All towns ▾</button>
+    <div class="ddpanel" id="townpanel" role="group" aria-label="Towns" hidden>
+      {% for c in by_city %}<label><input type="checkbox" value="{{ c }}"> {{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></label>
+      {% endfor %}<div class="ddfoot"><button type="button" id="townclear">Clear</button><button type="button" id="towndone">Done</button></div>
+    </div>
+  </div>
+  <select id="type" aria-label="Type of group"><option value="">Any type</option><option value="community" title="Mutual aid, co-ops and community groups">Community-run (all)</option>{% for k, v in org_label.items() %}<option value="{{ k }}">{{ v }}</option>{% endfor %}</select>
+  <select id="cost" aria-label="Cost"><option value="">Any cost</option>{% for k, v in cost_label.items() if k != "unknown" %}<option value="{{ k }}">{{ v }}</option>{% endfor %}<option value="notfree" title="Sliding scale, pay what you can, or membership">Not free (any)</option></select>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
-</div>
-  <div class="wrap needhelp" id="needhelp" hidden></div>
-</div>
+  {% if any_new %}<label class="tog"><input type="checkbox" id="nw"> New this week</label>{% endif %}
+  <label class="tog"><input type="checkbox" id="lg"> <svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming only</label>
+  <span class="needsum" id="needsum" hidden><span id="needsumtext"></span><button type="button" id="needclear" aria-label="Clear needs">✕</button></span>
+</div></div>
 
 <main class="wrap" id="top">
-  <nav class="citynav" id="towns" aria-label="Filter by town">
-    <a href="#top" data-city="" class="all" role="button" hidden>All towns</a>
-    {% for c in by_city %}<a href="#{{ c|slug }}" data-city="{{ c }}" role="button" aria-pressed="false">{{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></a>{% endfor %}
+  <nav class="needbar" id="needbar" aria-label="Filter by need">
+    {% for group, cats in category_groups %}<div class="ngroup"><span>{{ group }}</span>{% for c, em in cats %}{% if cat_counts[c] %}<button type="button" class="needchip" data-need="{{ c }}" aria-pressed="false" title="{{ cat_help[c] }}">{{ em }} {{ c }} <small>{{ cat_counts[c] }}</small></button>{% endif %}{% endfor %}</div>
+    {% endfor %}
   </nav>
-  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Each town is listed A–Z; green tags mark community-run groups. Tap a need on any card to see everything that meets it.</p>
+  <p class="needhelp" id="needhelp" hidden></p>
+  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Pick one or more needs to see places that meet any of them. Each town is listed A–Z; green tags mark community-run groups. Tap any tag on a listing to see others like it.</p>
 
   <div id="mapwrap" hidden>
     <div id="map" role="region" aria-label="Map of resources"></div>
@@ -165,15 +194,15 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
+        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lgbtq %} data-lgbtq="1"{% endif %}{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
           <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
           <div class="badges">
-            {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
-            <span class="b b-{{ e.org_type }}">{{ org_label[e.org_type] }}</span>
-            {% if e.cost != "unknown" %}<span class="b b-cost">{{ cost_label[e.cost] }}</span>{% endif %}
-            {% if e.lgbtq %}<a class="b b-pride" href="{{ e.lgbtq.evidence_url }}" rel="noopener" title="Why: {{ e.lgbtq.evidence }}"><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</a>{% endif %}
+            {% if e.is_new %}<button type="button" class="b b-new" data-f="new" title="Show only new listings">New</button>{% endif %}
+            <button type="button" class="b b-{{ e.org_type }}" data-f="type" data-v="{{ e.org_type }}" title="Show only: {{ org_label[e.org_type] }}">{{ org_label[e.org_type] }}</button>
+            {% if e.cost != "unknown" %}<button type="button" class="b b-cost" data-f="cost" data-v="{{ e.cost }}" title="Show only: {{ cost_label[e.cost] }}">{{ cost_label[e.cost] }}</button>{% endif %}
+            {% if e.lgbtq %}<button type="button" class="b b-pride" data-f="lgbtq" title="Show only LGBTQIA+ affirming listings"><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</button><a class="why" href="{{ e.lgbtq.evidence_url }}" rel="noopener" title="{{ e.lgbtq.evidence }}">why?</a>{% endif %}
           </div>
-          <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
+          <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" role="button" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
           {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
           <dl class="facts">
             {% if e.hours %}<dt>When</dt><dd>{{ e.hours|truncate(220)|linkify }}</dd>{% endif %}
@@ -215,18 +244,29 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 <script>
 (() => {
   const $ = (s) => document.querySelector(s);
-  const ctl = $('#controls'); ctl.hidden = false;
-  const q = $('#q'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf'), cost = $('#cost');
-  const costOk = c => !cost.value || (cost.value === 'free' ? c === 'free' : c !== 'free' && c !== 'unknown');
-  const city = { value: '' };  // selected town ('' = all), set by the town badges
+  const $$ = (s) => [...document.querySelectorAll(s)];
+  $('#controls').hidden = false; $('#viewtoggle').hidden = false;
+  const q = $('#q'), type = $('#type'), nf = $('#nf'), lg = $('#lg'), cost = $('#cost');
+  const nw = $('#nw') || {checked: false, addEventListener() {}};
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
   const NEED_HELP = {{ cat_help|tojson }};
+  const EMOJI = {{ emoji|tojson }};
+  const towns = new Set(), needs = new Set();
+
+  // ---- state from the URL (?town=Durham&town=Raleigh&need=Food&need=Pet+Care…) ----
   const params = new URLSearchParams(location.search);
-  cost.value = ['free', 'notfree'].includes(params.get('cost')) ? params.get('cost') : '';
-  q.value = params.get('q') || ''; city.value = params.get('city') || ''; cat.value = params.get('need') || '';
-  ma.checked = params.has('community'); nf.checked = params.has('nofaith');
+  [...params.getAll('town'), ...params.getAll('city')].forEach(t => towns.add(t));
+  params.getAll('need').forEach(n => needs.add(n));
+  q.value = params.get('q') || '';
+  const pick = (sel, v) => [...sel.options].some(o => o.value === v) ? v : '';
+  cost.value = pick(cost, params.get('cost') || '');
+  type.value = pick(type, params.get('type') || (params.has('community') ? 'community' : ''));
+  nf.checked = params.has('nofaith'); lg.checked = params.has('lgbtq'); nw.checked = params.has('new');
+  const costOk = c => !cost.value || (cost.value === 'notfree' ? c !== 'free' && c !== 'unknown' : c === cost.value);
+  const typeOk = t => !type.value || (type.value === 'community' ? COMMUNITY.has(t) : t === type.value);
+
+  // ---- search: words match at word starts; multi-word prefers the exact phrase ----
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  // Words match at the start of a word ("id" won't match inside "aid").
   const wordRe = w => new RegExp('(^|[^a-z0-9])' + esc(w));
   let textOk = () => true;
   function buildSearch() {
@@ -235,54 +275,79 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     const all = words.map(wordRe);
     const byWords = t => all.every(r => r.test(t));
     if (words.length === 1) { textOk = byWords; return; }
-    // Multi-word: prefer the exact phrase ("no id", "sliding scale"); fall back to all words anywhere.
     const phrase = new RegExp('(^|[^a-z0-9])' + words.map(esc).join('[\\s,.;:/-]+'));
     const byPhrase = t => phrase.test(t);
-    const anyPhrase = [...document.querySelectorAll('article.r')].some(a => byPhrase(a.dataset.text));
-    textOk = anyPhrase ? byPhrase : byWords;
+    textOk = $$('article.r').some(a => byPhrase(a.dataset.text)) ? byPhrase : byWords;
   }
+
+  // ---- towns dropdown (multi-select) ----
+  const townBtn = $('#townbtn'), townPanel = $('#townpanel');
+  const townBoxes = $$('#townpanel input[type=checkbox]');
+  const townName = t => t === 'Triangle-wide' ? 'Region-wide' : t;
+  function openTowns(open) { townPanel.hidden = !open; townBtn.setAttribute('aria-expanded', open); }
+  townBtn.addEventListener('click', () => openTowns(townPanel.hidden));
+  $('#towndone').addEventListener('click', () => openTowns(false));
+  $('#townclear').addEventListener('click', () => { towns.clear(); apply(); });
+  townBoxes.forEach(b => b.addEventListener('change', () => { b.checked ? towns.add(b.value) : towns.delete(b.value); apply(); }));
+  document.addEventListener('click', ev => { if (!$('#towndd').contains(ev.target)) openTowns(false); });
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape') openTowns(false); });
+
+  // ---- needs (multi-select badges; a card shows if it meets ANY selected need) ----
+  const toggleNeed = n => { needs.has(n) ? needs.delete(n) : needs.add(n); apply(); };
+  $$('.needchip').forEach(c => c.addEventListener('click', () => toggleNeed(c.dataset.need)));
+  $$('article .need').forEach(n => n.addEventListener('click', ev => { ev.preventDefault(); toggleNeed(n.dataset.need); }));
+  $('#needclear').addEventListener('click', () => { needs.clear(); apply(); });
+
   function apply() {
     buildSearch();
     let shown = 0;
-    document.querySelectorAll('section.city').forEach(sc => {
+    $$('section.city').forEach(sc => {
+      // Selecting towns also keeps region-wide listings, which serve every town.
+      const cityOk = !towns.size || towns.has(sc.dataset.city) || sc.dataset.city === 'Triangle-wide';
       let cityShown = 0;
-      // A town shows its own listings plus region-wide ones, which serve every town.
-      const cityOk = !city.value || sc.dataset.city === city.value || sc.dataset.city === 'Triangle-wide';
-      sc.querySelectorAll('section.cat').forEach(sk => {
-        let catShown = 0;
-        sk.querySelectorAll('article.r').forEach(a => {
-          const t = a.dataset.type;
-          const ok = cityOk && (!cat.value || a.dataset.cats.split('|').includes(cat.value))
-            && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based') && costOk(a.dataset.cost)
-            && textOk(a.dataset.text);
-          a.classList.toggle('hidden', !ok); if (ok) catShown++;
-        });
-        sk.classList.toggle('hidden', !catShown); cityShown += catShown;
+      sc.querySelectorAll('article.r').forEach(a => {
+        const t = a.dataset.type;
+        const ok = cityOk && (!needs.size || a.dataset.cats.split('|').some(c => needs.has(c)))
+          && typeOk(t) && (!nf.checked || t !== 'faith_based') && costOk(a.dataset.cost)
+          && (!lg.checked || a.dataset.lgbtq) && (!nw.checked || a.querySelector('.b-new'))
+          && textOk(a.dataset.text);
+        a.classList.toggle('hidden', !ok); if (ok) cityShown++;
       });
       sc.classList.toggle('hidden', !cityShown); shown += cityShown;
     });
     $('#empty').style.display = shown ? 'none' : 'block';
-    if (view === 'map') drawMarkers();
-    document.querySelectorAll('.citynav a[data-city]').forEach(a => {
-      const on = !!city.value && a.dataset.city === city.value;
-      a.classList.toggle('active', on);
-      if (a.hasAttribute('aria-pressed')) a.setAttribute('aria-pressed', on);
-    });
-    $('.citynav a.all').hidden = !city.value;
-    $('#townchip').hidden = !city.value;
-    document.querySelectorAll('.need').forEach(n => n.classList.toggle('on', n.dataset.need === cat.value));
+
+    // towns button + checkboxes
+    townBoxes.forEach(b => b.checked = towns.has(b.value));
+    const tl = [...towns].map(townName);
+    townBtn.textContent = (!tl.length ? 'All towns' : tl.length <= 2 ? tl.join(', ') : `${tl.length} towns`) + ' ▾';
+    townBtn.classList.toggle('on', towns.size > 0);
+    // needs badges, card badges, sticky summary, descriptions
+    $$('.needchip').forEach(c => c.setAttribute('aria-pressed', needs.has(c.dataset.need)));
+    $$('article .need').forEach(n => n.classList.toggle('on', needs.has(n.dataset.need)));
+    $('#needsum').hidden = !needs.size;
+    $('#needsumtext').textContent = 'Needs: ' + [...needs].map(n => (EMOJI[n] || '') + ' ' + n).join(', ');
     const help = $('#needhelp');
-    help.hidden = !cat.value;
-    if (cat.value) help.textContent = (NEED_HELP[cat.value] || '');
-    $('#townname').textContent = city.value === 'Triangle-wide' ? 'Region-wide' : city.value;
+    help.hidden = !needs.size;
+    help.textContent = [...needs].map(n => `${EMOJI[n] || ''} ${n}: ${NEED_HELP[n] || ''}`).join('  ·  ');
+
+    // show which card badges match the active filters
+    $$('article button.b').forEach(b => b.classList.toggle('on',
+      (b.dataset.f === 'type' && type.value === b.dataset.v) || (b.dataset.f === 'cost' && cost.value === b.dataset.v) ||
+      (b.dataset.f === 'lgbtq' && lg.checked) || (b.dataset.f === 'new' && nw.checked)));
+    if (view === 'map') drawMarkers();
     const p = new URLSearchParams();
-    if (q.value) p.set('q', q.value); if (city.value) p.set('city', city.value); if (cat.value) p.set('need', cat.value);
-    if (ma.checked) p.set('community', ''); if (nf.checked) p.set('nofaith', '');
+    if (q.value) p.set('q', q.value);
+    towns.forEach(t => p.append('town', t));
+    needs.forEach(n => p.append('need', n));
     if (cost.value) p.set('cost', cost.value);
+    if (type.value) p.set('type', type.value);
+    if (nf.checked) p.set('nofaith', ''); if (lg.checked) p.set('lgbtq', ''); if (nw.checked) p.set('new', '');
     if (view === 'map') p.set('view', 'map');
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
   }
-  // ---- Map view ----
+
+  // ---- map view ----
   let view = params.get('view') === 'map' ? 'map' : 'list';
   let map = null, cluster = null;
   const COLORS = {mutual_aid: '#2f6b3a', cooperative: '#2f6b3a', community_org: '#2f6b3a', faith_based: '#5b3f78', public: '#2b4f7a', nonprofit: '#2b4f7a'};
@@ -303,7 +368,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     if (!map) return;
     cluster.clearLayers();
     const pts = [];
-    document.querySelectorAll('section.city:not(.hidden) article.r:not(.hidden)[data-lat]').forEach(a => {
+    $$('section.city:not(.hidden) article.r:not(.hidden)[data-lat]').forEach(a => {
       const ll = [+a.dataset.lat, +a.dataset.lon];
       pts.push(ll);
       const m = L.circleMarker(ll, {radius: 7, weight: 2, color: '#fff', fillColor: COLORS[a.dataset.type] || '#2b4f7a', fillOpacity: .95});
@@ -332,19 +397,16 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   }
   $('#vlist').addEventListener('click', () => setView('list'));
   $('#vmap').addEventListener('click', () => setView('map'));
-
-  [q, cat, ma, nf, cost].forEach(el => el.addEventListener('input', apply));
-  $('#townclear').addEventListener('click', () => { city.value = ''; apply(); });
-  document.querySelectorAll('.need').forEach(n => n.addEventListener('click', ev => {
-    ev.preventDefault();
-    cat.value = cat.value === n.dataset.need ? '' : n.dataset.need;  // click again to clear
+  [q, type, nf, lg, nw, cost].forEach(el => el.addEventListener('input', apply));
+  // Any badge on a card filters to listings like it (click again to clear).
+  $$('article button.b').forEach(b => b.addEventListener('click', () => {
+    const f = b.dataset.f, v = b.dataset.v;
+    if (f === 'type') type.value = type.value === v ? '' : v;
+    if (f === 'cost') cost.value = cost.value === v ? '' : v;
+    if (f === 'lgbtq') lg.checked = !lg.checked;
+    if (f === 'new') nw.checked = !nw.checked;
     apply();
-  }));
-  document.querySelectorAll('.citynav a').forEach(a => a.addEventListener('click', ev => {
-    ev.preventDefault();
-    city.value = (a.dataset.city && city.value !== a.dataset.city) ? a.dataset.city : '';  // click again to clear
-    apply();
-    document.querySelector('main').scrollIntoView({behavior: 'smooth'});
+    b.closest('article').scrollIntoView({block: 'center'});
   }));
   setView(view);
 })();
