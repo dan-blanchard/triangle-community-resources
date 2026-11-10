@@ -3,9 +3,9 @@
   "name": "Carrboro Really Really Free Market",
   "city": "Carrboro",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly leaderless free market running since the early 2000s: bring what you want to give, take what you can use. Nothing is bought, sold or bartered. Clothing, books, toys, household goods, food and music.",
@@ -23,8 +23,8 @@
   "name": "The ReCYCLEry (community bike co-op)",
   "city": "Carrboro",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Volunteer-run nonprofit bike co-op. At open workshops you can fix your own bike with free tools and help from volunteer mechanics, and earn a refurbished bike by working on it.",
@@ -42,7 +42,7 @@
   "name": "Triangle Mutual Aid",
   "city": "Triangle-wide",
   "categories": [
-   "Mutual Aid Networks",
+   "Mutual Aid & Organizing",
    "Food"
   ],
   "org_type": "mutual_aid",
@@ -61,7 +61,7 @@
   "name": "Refugee Community Partnership (RCP)",
   "city": "Carrboro",
   "categories": [
-   "Mutual Aid Networks",
+   "Mutual Aid & Organizing",
    "Legal & Immigration",
    "Kids & Families"
   ],
@@ -154,7 +154,7 @@
   "city": "Carrboro",
   "categories": [
    "Food",
-   "Hygiene & Laundry",
+   "Showers, Laundry & Hygiene",
    "Clothing & Household"
   ],
   "org_type": "nonprofit",
@@ -173,9 +173,9 @@
   "name": "IFC Community Navigation (drop-in day services)",
   "city": "Carrboro",
   "categories": [
-   "Hygiene & Laundry",
+   "Showers, Laundry & Hygiene",
    "Housing & Shelter",
-   "Learning & Tech Access",
+   "Classes, Computers & Wi-Fi",
    "Clothing & Household"
   ],
   "org_type": "nonprofit",
@@ -250,9 +250,9 @@
   "name": "Community Empowerment Fund (CEF)",
   "city": "Carrboro",
   "categories": [
-   "Money & Utilities",
+   "Money & Bills",
    "Housing & Shelter",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Relationship-based nonprofit where volunteer advocates work one-on-one with members facing homelessness or poverty on housing, jobs, savings and benefits. It also runs the OC Connect resource database and financial classes.",
@@ -270,7 +270,7 @@
   "name": "SHAC Free Medical Clinic (UNC student-run)",
   "city": "Carrboro",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "community_org",
   "description": "Free student-run clinic supervised by UNC clinicians. Offers acute care, physicals, vaccines, labs, an on-site pharmacy, STI testing, social work and interpreters (Spanish and Mandarin). Monthly specialty clinics include gender-affirming care, mental health, eye care, physical therapy and nutrition.",
@@ -288,7 +288,7 @@
   "name": "SHAC Dental Clinic (UNC student-run)",
   "city": "Chapel Hill",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "community_org",
   "description": "Free student-run dental clinic at the UNC School of Dentistry.",
@@ -306,7 +306,7 @@
   "name": "SHAC Syringe Services Program",
   "city": "Carrboro",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "community_org",
   "description": "Free, legal syringes and injection supplies, naloxone, fentanyl and xylazine test strips, and first-aid kits. Referrals to treatment and HIV/STI testing if you want them. Supplies can also be ordered online.",
@@ -324,7 +324,7 @@
   "name": "Piedmont Health – Carrboro Community Health Center",
   "city": "Carrboro",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Federally qualified community health center offering medical care, plus pharmacy, behavioral health and other services depending on site. Uninsured patients are welcome.",
@@ -342,7 +342,7 @@
   "name": "Piedmont Health – Chapel Hill Community Health Center",
   "city": "Chapel Hill",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Federally qualified community health center with sliding-fee medical care. A separate Piedmont dental center is next door at 105 Conner Dr, Suite 2100, (919) 951-7583.",
@@ -360,7 +360,7 @@
   "name": "Orange County Health Department – free naloxone and syringe access",
   "city": "Chapel Hill",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "public",
   "description": "Free naloxone kits (two nasal doses plus fentanyl and xylazine test strips) with training, and syringe exchange through the NC Safer Syringe Initiative. Replacement kits are available.",
@@ -379,7 +379,7 @@
   "city": "Chapel Hill",
   "categories": [
    "Mental Health & Crisis",
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "16-bed crisis unit for adults in an acute mental health or substance use crisis. Provides detox and withdrawal monitoring, medication stabilization, psychiatric evaluation and discharge planning, with stays of up to 7 days. Meals and hygiene supplies are provided.",
@@ -397,8 +397,8 @@
   "name": "Compass Center for Women and Families",
   "city": "Chapel Hill",
   "categories": [
-   "Safety & Domestic Violence",
-   "Money & Utilities"
+   "Domestic & Sexual Violence",
+   "Money & Bills"
   ],
   "org_type": "nonprofit",
   "description": "Domestic violence crisis services with a 24/7 crisis line, plus one-on-one career and financial coaching and connections to community resources.",
@@ -416,7 +416,7 @@
   "name": "Orange County Rape Crisis Center",
   "city": "Chapel Hill",
   "categories": [
-   "Safety & Domestic Violence",
+   "Domestic & Sexual Violence",
    "Mental Health & Crisis"
   ],
   "org_type": "nonprofit",
@@ -435,7 +435,7 @@
   "name": "Second Bloom of Chatham",
   "city": "Pittsboro",
   "categories": [
-   "Safety & Domestic Violence"
+   "Domestic & Sexual Violence"
   ],
   "org_type": "nonprofit",
   "description": "24/7/365 helpline, advocacy and support for survivors of intimate partner violence, sexual violence and human trafficking in Chatham County.",
@@ -565,7 +565,7 @@
   "city": "Carrboro",
   "categories": [
    "Legal & Immigration",
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "nonprofit",
   "description": "Latino community organization offering community assistance, legal information and education and workforce programs.",
@@ -602,7 +602,7 @@
   "name": "Chapel Hill Transit (fare-free buses)",
   "city": "Chapel Hill",
   "categories": [
-   "Bikes & Transportation"
+   "Bikes & Getting Around"
   ],
   "org_type": "public",
   "description": "Fare-free bus system serving Chapel Hill, Carrboro and UNC. Just get on and ride.",
@@ -620,7 +620,7 @@
   "name": "Orange County Repair Café",
   "city": "Hillsborough",
   "categories": [
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Free volunteer-run repair event. Bring broken clothing, small appliances, electronics, lamps, furniture, toys, jewelry or tools and fix them with volunteer repair coaches.",
@@ -638,9 +638,9 @@
   "name": "Chapel Hill Public Library",
   "city": "Chapel Hill",
   "categories": [
-   "Learning & Tech Access",
-   "Tools & Sharing",
-   "Makerspaces & Repair"
+   "Classes, Computers & Wi-Fi",
+   "Borrow Things",
+   "Make & Fix"
   ],
   "org_type": "public",
   "description": "Free computers, printing and study rooms. The Tech Lab has Macs, creative software and equipment to digitize tapes and records, with free one-on-one tech tutoring (Spanish available). You can borrow tech kits such as Chromebooks, cameras, microphones and projectors, plus kids' nature and sensory kits.",
@@ -658,9 +658,9 @@
   "name": "Orange County Public Library – Main Library (Seed Share and hotspots)",
   "city": "Hillsborough",
   "categories": [
-   "Learning & Tech Access",
+   "Classes, Computers & Wi-Fi",
    "Gardens & Seeds",
-   "Tools & Sharing"
+   "Borrow Things"
   ],
   "org_type": "public",
   "description": "Free library card lets you borrow books, computers, Wi-Fi hotspots (one per family), video games and board games. The yearly Seed Share gives out a free native wildflower seed packet each month from mid-February through May, ending with a plant swap.",
@@ -678,8 +678,8 @@
   "name": "Orange County Public Library – Southern Branch (Drakeford Library Complex)",
   "city": "Carrboro",
   "categories": [
-   "Learning & Tech Access",
-   "Tools & Sharing"
+   "Classes, Computers & Wi-Fi",
+   "Borrow Things"
   ],
   "org_type": "public",
   "description": "New downtown Carrboro branch with free computers, internet and study and meeting rooms. Card holders can borrow books, computers and Wi-Fi hotspots.",

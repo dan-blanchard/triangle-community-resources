@@ -35,7 +35,7 @@ WAKE_SOURCE = "Wake County Food Finder map"
 _WAKE_LAYERS = {
     "Food Pantry": ["Food"],
     "Mobile Pantry": ["Food"],
-    "Mini Pantry": ["Food", "Free Stores & Swaps"],
+    "Mini Pantry": ["Food", "Free Stuff"],
     "Prepared Meal": ["Food"],
     "Shelters": ["Housing & Shelter"],
 }

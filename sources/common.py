@@ -20,35 +20,35 @@ CITIES = [
 # Need groups, in display order. Page sections and the "needs" filter follow this order.
 CATEGORY_GROUPS = [
     ("Basic needs", [("Food", "🍎"), ("Housing & Shelter", "🏠"), ("Clothing & Household", "👕"),
-                     ("Hygiene & Laundry", "🚿"), ("Money & Utilities", "💵")]),
-    ("Health, safety & rights", [("Health & Harm Reduction", "🩺"), ("Mental Health & Crisis", "💬"),
-                                 ("Safety & Domestic Violence", "🛡️"), ("Legal & Immigration", "⚖️")]),
-    ("Sharing & community", [("Mutual Aid Networks", "🤝"), ("Free Stores & Swaps", "🎁"),
-                             ("Tools & Sharing", "🔧"), ("Makerspaces & Repair", "🛠️"),
-                             ("Gardens & Seeds", "🌱"), ("Bikes & Transportation", "🚲"),
-                             ("Community Spaces", "🏛️")]),
-    ("Family & learning", [("Kids & Families", "👶"), ("Learning & Tech Access", "💻")]),
+                     ("Showers, Laundry & Hygiene", "🚿"), ("Money & Bills", "💵")]),
+    ("Health, safety & rights", [("Health Care & Harm Reduction", "🩺"), ("Mental Health & Crisis", "💬"),
+                                 ("Domestic & Sexual Violence", "🛡️"), ("Legal & Immigration", "⚖️")]),
+    ("Sharing & community", [("Mutual Aid & Organizing", "🤝"), ("Free Stuff", "🎁"),
+                             ("Borrow Things", "🔧"), ("Make & Fix", "🛠️"),
+                             ("Gardens & Seeds", "🌱"), ("Bikes & Getting Around", "🚲"),
+                             ("Community Centers", "🏛️")]),
+    ("Family & learning", [("Kids & Families", "👶"), ("Classes, Computers & Wi-Fi", "💻")]),
 ]
 CATEGORIES = [c for _, cats in CATEGORY_GROUPS for c, _ in cats]
 CATEGORY_HELP = {
     "Food": "Pantries, free meals, community fridges and grocery giveaways.",
     "Housing & Shelter": "Shelters, housing help, tenant organizing and eviction help.",
     "Clothing & Household": "Free clothes, coats, shoes, furniture and household goods.",
-    "Hygiene & Laundry": "Showers, laundry and free toiletries.",
-    "Money & Utilities": "Help paying rent or bills, cash assistance, financial coaching.",
-    "Health & Harm Reduction": "Free or sliding-scale clinics, medicine, naloxone and syringe services.",
+    "Showers, Laundry & Hygiene": "Showers, laundry and free toiletries.",
+    "Money & Bills": "Help paying rent or bills, cash assistance, financial coaching.",
+    "Health Care & Harm Reduction": "Free or sliding-scale clinics, medicine, naloxone and syringe services.",
     "Mental Health & Crisis": "Counseling, crisis lines and walk-in crisis centers, recovery support.",
-    "Safety & Domestic Violence": "Help, hotlines and safe shelter for domestic or sexual violence.",
+    "Domestic & Sexual Violence": "Help, hotlines and safe shelter for domestic or sexual violence.",
     "Legal & Immigration": "Free legal help, immigration services, know-your-rights info.",
-    "Mutual Aid Networks": "Neighbor-to-neighbor groups you can ask for help from, or join.",
-    "Free Stores & Swaps": "Free markets, free stores, swaps and little free pantries. Take what you need.",
-    "Tools & Sharing": "Borrow tools, equipment, kits and gear instead of buying them.",
-    "Makerspaces & Repair": "Free or low-cost workshops and fab labs, and repair cafés to fix your stuff.",
+    "Mutual Aid & Organizing": "Neighbor-to-neighbor aid groups and community organizing (tenant unions, safety campaigns) you can ask for help or join.",
+    "Free Stuff": "Free markets, free stores, swaps and little free pantries. Take what you need.",
+    "Borrow Things": "Borrow tools, equipment, kits and gear instead of buying them.",
+    "Make & Fix": "Free or low-cost workshops and fab labs, and repair cafés to fix your stuff.",
     "Gardens & Seeds": "Seed libraries, community gardens, free produce and gleaning.",
-    "Bikes & Transportation": "Bike co-ops, free bikes and repair help, fare-free buses.",
-    "Community Spaces": "Drop-in community centers, such as LGBTQ+ centers.",
+    "Bikes & Getting Around": "Bike co-ops, free bikes and repair help, fare-free buses.",
+    "Community Centers": "Drop-in community centers, such as LGBTQ+ centers.",
     "Kids & Families": "Diapers, baby gear, food for kids and family support.",
-    "Learning & Tech Access": "Free computers, Wi-Fi hotspots, English classes and literacy help.",
+    "Classes, Computers & Wi-Fi": "Free computers, Wi-Fi hotspots, English classes and literacy help.",
 }
 CATEGORY_EMOJI = {c: e for _, cats in CATEGORY_GROUPS for c, e in cats}
 
@@ -125,15 +125,15 @@ _CATEGORY_KEYWORDS = {
     "Food": r"food|meal|pantry|kitchen|grocer|snap|food stamp|nutrition|soup|lunch|breakfast|dinner|fridge",
     "Clothing & Household": r"clothing|clothes|closet|furniture|household goods|coats?\b|shoes|attire",
     "Housing & Shelter": r"shelter|housing|homeless|transitional|rent(?!al assist)|eviction|tenant|recovery hous",
-    "Hygiene & Laundry": r"shower|laundry|hygiene|toiletr",
-    "Health & Harm Reduction": r"clinic|medical|health(?! insurance navigator)|pharmac|dental|harm reduction|syringe|naloxone|narcan",
+    "Showers, Laundry & Hygiene": r"shower|laundry|hygiene|toiletr",
+    "Health Care & Harm Reduction": r"clinic|medical|health(?! insurance navigator)|pharmac|dental|harm reduction|syringe|naloxone|narcan",
     "Mental Health & Crisis": r"mental|counsel|therap|crisis|suicide|psychiat",
-    "Safety & Domestic Violence": r"domestic|sexual (assault|violence)|rape|abuse(?! recovery)(?!\w)|violence",
-    "Money & Utilities": r"financial|rent(al)? assist|utilit|bill|cash|direct payment|tax",
+    "Domestic & Sexual Violence": r"domestic|sexual (assault|violence)|\brape\b|dating violence|(?<!substance )(?<!drug )\babuse\b(?! recovery)",
+    "Money & Bills": r"financial|rent(al)? assist|utilit|bill|cash|direct payment|tax",
     "Legal & Immigration": r"legal|immigra|asylum|refugee|daca|deport|lawyer|attorney|know your rights",
     "Kids & Families": r"children|\bkids?\b|families|diaper|infant|baby|youth",
-    "Learning & Tech Access": r"\besl\b|esol|english class|english as|literacy|computer|internet",
-    "Community Spaces": r"lgbt|community center|day center|drop-in",
+    "Classes, Computers & Wi-Fi": r"\besl\b|esol|english class|english as|literacy|computer|internet",
+    "Community Centers": r"lgbt|community center|day center|drop-in",
 }
 
 
@@ -143,7 +143,7 @@ def infer_categories(text: str, defaults: list[str] | None = None) -> list[str]:
     for d in defaults or []:
         if d not in cats:
             cats.insert(0, d)
-    return cats or ["Community Spaces"]
+    return cats or ["Community Centers"]
 
 
 def clean(s) -> str:

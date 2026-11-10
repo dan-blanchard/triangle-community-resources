@@ -17,10 +17,10 @@ _IMMIGRATION = "https://docs.google.com/spreadsheets/d/13G59PNS4aDede7CkOkssDlRi
 
 # gid -> (default category, groups to skip because they aren't free / community resources)
 TABS = {
-    "1569422183": ("Money & Utilities", []),
+    "1569422183": ("Money & Bills", []),
     "303268530": ("Food", []),
     "660025192": ("Housing & Shelter", []),
-    "1156328483": ("Safety & Domestic Violence", []),
+    "1156328483": ("Domestic & Sexual Violence", []),
     "1372061862": ("Clothing & Household", ["cost"]),
 }
 
@@ -86,7 +86,9 @@ def _parse_tab(text: str, default_cat: str, skip_groups: list[str], gid: str) ->
             hours = m.group(1).strip() if m else ""
         out.append({
             "name": name,
-            "city": infer_city(address, default="Durham"),
+            # National/statewide lines with no local address belong under region-wide.
+            "city": ("Triangle-wide" if not address and re.search(r"national|hotline|statewide", name, re.I)
+                     else infer_city(address, default="Durham")),
             # Infer extra categories from short fields only; long descriptions over-match.
             "categories": infer_categories(f"{group} {name}", [default_cat]),
             "org_type": "",

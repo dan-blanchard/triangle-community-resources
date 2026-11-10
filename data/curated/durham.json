@@ -4,7 +4,7 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor community fridge and pantry run by Durham Community Fridges, a volunteer mutual-aid project (\"solidarity, not charity\"). Take what you need, leave what you can. This was the group's first fridge, opened in 2022.",
@@ -23,7 +23,7 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor community fridge and pantry shelf at The Scrap Exchange in Lakewood, run by the volunteers of Durham Community Fridges. Free fresh food for anyone.",
@@ -42,7 +42,7 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor community fridge and pantry at Braggtown Baptist Church in north Durham, run by Durham Community Fridges. Take what you need, leave what you can.",
@@ -61,7 +61,7 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "All-volunteer chapter of the international Food Not Bombs movement. Shares free vegan and vegetarian meals and supplies. \"Solidarity, not charity.\"",
@@ -79,9 +79,9 @@
   "name": "Durham Really Really Free Market",
   "city": "Durham",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly open-air free market where everything is free: no buying, selling, trading or bartering. Bring what you don't need and take what you do. Skills and services such as haircuts and music are welcome too.",
@@ -100,9 +100,9 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Mutual Aid Networks",
+   "Mutual Aid & Organizing",
    "Gardens & Seeds",
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "mutual_aid",
   "description": "Grassroots mutual-aid collective that started during COVID. It runs free cookouts, produce and grocery giveaways (including a large Thanksgiving giveaway), neighborhood food-growing projects, and community repair clinics. Food also reaches people through dozens of partner groups.",
@@ -122,8 +122,8 @@
   "categories": [
    "Food",
    "Clothing & Household",
-   "Health & Harm Reduction",
-   "Mutual Aid Networks"
+   "Health Care & Harm Reduction",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "East Durham mutual-aid project. It cooks and hands out about 100 free hot meals a week, along with clothing, produce and harm reduction supplies.",
@@ -141,8 +141,8 @@
   "name": "Triangle Mask Bloc",
   "city": "Triangle-wide",
   "categories": [
-   "Health & Harm Reduction",
-   "Mutual Aid Networks"
+   "Health Care & Harm Reduction",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Volunteer mutual-aid group that gives out free masks and COVID-19 tests across Raleigh, Durham and Chapel Hill. Individuals, families and organizations can request them through an online form.",
@@ -160,7 +160,7 @@
   "name": "Fresh Start Durham – Mobile Showers",
   "city": "Durham",
   "categories": [
-   "Hygiene & Laundry",
+   "Showers, Laundry & Hygiene",
    "Clothing & Household"
   ],
   "org_type": "nonprofit",
@@ -179,9 +179,9 @@
   "name": "Open Table Ministry – Free Store",
   "city": "Durham",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Hygiene & Laundry"
+   "Showers, Laundry & Hygiene"
   ],
   "org_type": "faith_based",
   "description": "Weekly free store for unhoused and low-income neighbors: clothing, shoes, coats, thermals, backpacks, sleeping bags and toiletries, plus coffee and Fresh Start Durham showers. It also offers case management, and county street-medicine pop-up clinics have been held at the Free Store.",
@@ -218,8 +218,8 @@
   "name": "Durham Bike Co-op",
   "city": "Durham",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "cooperative",
   "description": "All-volunteer community bike shop. Fix your own bike with shop tools and recycled parts, get help from volunteer mechanics, or fix up a donated bike to keep (\"Need Repair or Need Bike\" Sunday sessions). Also runs mobile repair clinics.",
@@ -237,7 +237,7 @@
   "name": "GoDurham – Fare-Free Buses",
   "city": "Durham",
   "categories": [
-   "Bikes & Transportation"
+   "Bikes & Getting Around"
   ],
   "org_type": "public",
   "description": "All GoDurham city bus routes are fare-free. You don't need a pass, ID or payment to ride.",
@@ -255,9 +255,9 @@
   "name": "Splat Space (Hackerspace)",
   "city": "Durham",
   "categories": [
-   "Makerspaces & Repair",
-   "Tools & Sharing",
-   "Learning & Tech Access"
+   "Make & Fix",
+   "Borrow Things",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "community_org",
   "description": "Member-run nonprofit hackerspace with tools, machines, a woodshop and electronics space for hobby or freelance projects. A free public open house runs every Saturday, and free workshops are held from time to time.",
@@ -275,9 +275,9 @@
   "name": "Durham County Library – Innovation Lab (Makerspace)",
   "city": "Durham",
   "categories": [
-   "Makerspaces & Repair",
-   "Tools & Sharing",
-   "Learning & Tech Access"
+   "Make & Fix",
+   "Borrow Things",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Public makerspace at the Main Library with a 3D printer, Cricut/vinyl cutter, laser cutter, poster printer and craft supplies. STEAM tech and tool kits can be checked out for home or group projects.",
@@ -313,7 +313,7 @@
   "name": "Durham County Library – Free Computers, Wi-Fi & Hotspot Lending",
   "city": "Durham",
   "categories": [
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Public computers with internet and free password-free Wi-Fi at every Durham County Library branch. Printing is a small fee. Cardholders can borrow a mobile hotspot with unlimited data for 14 days. There is also monthly drop-in tech help.",
@@ -331,7 +331,7 @@
   "name": "Keep Durham Beautiful – Tool Lending Library",
   "city": "Durham",
   "categories": [
-   "Tools & Sharing"
+   "Borrow Things"
   ],
   "org_type": "nonprofit",
   "description": "Free loans of landscaping, cleanup and beautification tools for community service projects, such as neighborhood cleanups and community gardens.",
@@ -349,7 +349,7 @@
   "name": "Durham County Public Health – Safe Syringe Program",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "public",
   "description": "Confidential syringe services: sterile syringes, cookers, cottons, tourniquets, hygiene supplies, sharps disposal, naloxone kits, and fentanyl and xylazine test strips. Also offers HIV and hepatitis testing and referrals.",
@@ -367,7 +367,7 @@
   "name": "Free Naloxone Vending Machines (Durham County)",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "public",
   "description": "Free nasal naloxone (Narcan) from vending machines. Anyone can use them, no questions asked.",
@@ -385,7 +385,7 @@
   "name": "NC Harm Reduction Coalition – Durham Syringe Services",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Peer-based harm reduction: syringe exchange, naloxone and safer-use supplies, with deliveries, mobile outreach and a weekly fixed site. Nonjudgmental, and serves people regardless of immigration status.",
@@ -404,7 +404,7 @@
   "city": "Durham",
   "categories": [
    "Mental Health & Crisis",
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "24/7 walk-in mental health and substance use crisis center, run by RI International. Offers behavioral health urgent care, crisis stabilization, 23-hour observation, peer support and care coordination.",
@@ -440,7 +440,7 @@
   "name": "Lincoln Community Health Center – Health Care for the Homeless Clinic",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Primary care clinic for people experiencing homelessness, on the Urban Ministries of Durham campus. Run by Lincoln CHC, a federally qualified health center.",
@@ -458,7 +458,7 @@
   "name": "Lincoln Community Health Center – Main Site",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction",
+   "Health Care & Harm Reduction",
    "Kids & Families"
   ],
   "org_type": "nonprofit",
@@ -477,7 +477,7 @@
   "name": "Samaritan Health Center",
   "city": "Durham",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "faith_based",
   "description": "Free, charitable medical and vision clinic for uninsured and underserved people, regardless of ability to pay. Lab work is included.",
@@ -535,7 +535,7 @@
   "name": "Durham Crisis Response Center",
   "city": "Durham",
   "categories": [
-   "Safety & Domestic Violence"
+   "Domestic & Sexual Violence"
   ],
   "org_type": "nonprofit",
   "description": "Free, confidential help for survivors of domestic violence, sexual assault, stalking and human trafficking. Provides a 24-hour crisis line, emergency shelter, legal advocacy, support groups and counseling referrals.",
@@ -591,7 +591,7 @@
   "city": "Durham",
   "categories": [
    "Legal & Immigration",
-   "Learning & Tech Access",
+   "Classes, Computers & Wi-Fi",
    "Kids & Families"
   ],
   "org_type": "nonprofit",
@@ -629,7 +629,7 @@
   "city": "Triangle-wide",
   "categories": [
    "Legal & Immigration",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Grassroots immigrant organizing group. Its hotline takes reports of ICE or Border Patrol activity, verifies them, and sends alerts by text and social media. Also provides rapid response and safety support.",
@@ -649,7 +649,7 @@
   "categories": [
    "Housing & Shelter",
    "Legal & Immigration",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Grassroots tenant union that helps renters organize building-level unions to fight unsafe conditions, broken elevators, pests and retaliation. In 2025 it won Durham's tenant-defense ordinance (rent refunds when units are unlivable).",
@@ -667,8 +667,7 @@
   "name": "Durham Beyond Policing",
   "city": "Durham",
   "categories": [
-   "Safety & Domestic Violence",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Grassroots coalition working on community safety without policing. Runs popular-education workshops (#FreeOurFam), an East Durham community design process, and campaigns to expand the HEART crisis response. Mainly organizing, not direct services.",
@@ -686,7 +685,7 @@
   "name": "Community Empowerment Fund – Durham",
   "city": "Durham",
   "categories": [
-   "Money & Utilities",
+   "Money & Bills",
    "Housing & Shelter"
   ],
   "org_type": "nonprofit",
@@ -706,7 +705,7 @@
   "city": "Triangle-wide",
   "categories": [
    "Kids & Families",
-   "Hygiene & Laundry"
+   "Showers, Laundry & Hygiene"
   ],
   "org_type": "nonprofit",
   "description": "Gives out diapers, period supplies and adult incontinence products through partner agencies. Durham partners include Urban Ministries of Durham, Family Connects and Healthy Families Durham, Durham Early Head Start and Duke Outpatient Clinic.",
@@ -724,7 +723,7 @@
   "name": "Durham Literacy Center",
   "city": "Durham",
   "categories": [
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "nonprofit",
   "description": "Adult literacy and GED/high school equivalency tutoring, adult ESOL (English) classes, college and career readiness, and a youth HSE program for ages 16–24.",

@@ -3,7 +3,7 @@
   "name": "Keep Durham Beautiful Tool Lending Library",
   "city": "Durham",
   "categories": [
-   "Tools & Sharing",
+   "Borrow Things",
    "Gardens & Seeds"
   ],
   "org_type": "nonprofit",
@@ -22,7 +22,7 @@
   "name": "Raleigh Tool Share",
   "city": "Raleigh",
   "categories": [
-   "Tools & Sharing"
+   "Borrow Things"
   ],
   "org_type": "public",
   "description": "City program that lends battery-powered yard equipment for free: self-propelled mowers, string trimmers and leaf blowers (four of each).",
@@ -40,8 +40,8 @@
   "name": "Durham County Library – Maker + STEAM Kit Checkout",
   "city": "Durham",
   "categories": [
-   "Tools & Sharing",
-   "Learning & Tech Access"
+   "Borrow Things",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Public library 'library of things': you can borrow STEAM tech and tool kits from the Maker + STEAM department for home, hobby, classroom, group or family projects.",
@@ -59,8 +59,8 @@
   "name": "Chapel Hill Public Library – Kits & Tech Lending",
   "city": "Chapel Hill",
   "categories": [
-   "Tools & Sharing",
-   "Learning & Tech Access",
+   "Borrow Things",
+   "Classes, Computers & Wi-Fi",
    "Kids & Families"
   ],
   "org_type": "public",
@@ -79,8 +79,8 @@
   "name": "Splat Space (Durham hackerspace)",
   "city": "Durham",
   "categories": [
-   "Makerspaces & Repair",
-   "Learning & Tech Access"
+   "Make & Fix",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "community_org",
   "description": "Long-running member-run hackerspace with a woodshop, electronics and project space. Weekly open houses are free and open to the public, and members get 24/7 access.",
@@ -98,8 +98,8 @@
   "name": "Durham County Library – Innovation Lab (makerspace)",
   "city": "Durham",
   "categories": [
-   "Makerspaces & Repair",
-   "Learning & Tech Access"
+   "Make & Fix",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Public-library makerspace with 3D printers, a Cricut/light cutting machine (paper, vinyl, fabric), a laser/heavy cutting machine (wood, cardboard, some plastics) and a poster printer. Staff teach equipment basics, and self-paced trainings are online.",
@@ -117,8 +117,8 @@
   "name": "Chapel Hill Public Library – Tech Lab",
   "city": "Chapel Hill",
   "categories": [
-   "Makerspaces & Repair",
-   "Learning & Tech Access"
+   "Make & Fix",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Digital creation and media-digitizing lab. iMacs have Adobe Creative Suite, Blender, Unity, Python, GarageBand and iMovie. There are cassette, record and VHS/miniDV/Hi8 players and photo scanners for digitizing old media. Free tech tutoring and workshops.",
@@ -136,7 +136,7 @@
   "name": "Repair Café NC",
   "city": "Triangle-wide",
   "categories": [
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Free pop-up repair events where volunteer fixers help you repair small appliances, electronics, lamps, clocks, furniture, toys, jewelry, clothing and tools. It runs the Cary and Hillsborough events and others around NC.",
@@ -154,7 +154,7 @@
   "name": "Orange County Repair Café (Hillsborough)",
   "city": "Hillsborough",
   "categories": [
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "public",
   "description": "County-hosted Repair Café where volunteer repair coaches help mend clothing and fix damaged electronics, furniture, jewelry and small appliances.",
@@ -172,7 +172,7 @@
   "name": "Cary Repair Café",
   "city": "Cary",
   "categories": [
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Recurring Repair Café NC workshop in Cary (the group started here in 2017). Volunteers help fix household items, clothing, small appliances and electronics.",
@@ -190,8 +190,8 @@
   "name": "Durham Bike Co-op",
   "city": "Durham",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "cooperative",
   "description": "All-volunteer community bike shop. Offers DIY repair nights with shared tools and volunteer mechanics, guided 'Need Repair or Need Bike' sessions, beginner sessions, an earn-a-bike/earn-a-membership program, and mobile repair clinics around Durham.",
@@ -209,8 +209,8 @@
   "name": "Raleigh Community Kickstand",
   "city": "Raleigh",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "cooperative",
   "description": "All-volunteer bike co-op ('Fix, Teach, Give'). It repairs and gives away donated bikes, does free maintenance, and teaches repair. Holds a monthly repair-and-distribution event, community shop hours, and pop-ups at parks, shelters and resource centers.",
@@ -228,8 +228,8 @@
   "name": "ReCYCLEry NC (with Triangle Free Bike Repair)",
   "city": "Carrboro",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "cooperative",
   "description": "Volunteer-run nonprofit bike co-op. It refurbishes donated bikes, teaches bike mechanics, and lets kids and adults work toward earning a bike. Reopened in 2025 in a container workshop at MLK Jr. Park after losing its Graham St. lease, and merged with the Triangle Free Bike Repair pop-up clinic collective.",
@@ -450,9 +450,9 @@
   "name": "Durham Really Really Free Market",
   "city": "Durham",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly no-money market: bring what you don't need, take anything you do. Home goods, clothing, books, toys, furniture, food and instruments, plus offered skills and services like haircuts or music.",
@@ -470,9 +470,9 @@
   "name": "Raleigh Really Really Free Market",
   "city": "Raleigh",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market where neighbors share goods, skills, services and activities with no money exchanged.",
@@ -490,9 +490,9 @@
   "name": "Carrboro Really Really Free Market",
   "city": "Carrboro",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market on the Town Commons. Bring what you don't need and take what you do; no money involved.",
@@ -510,9 +510,9 @@
   "name": "Chapel Hill Really Really Free Market",
   "city": "Chapel Hill",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Newer monthly free market (launched June 2026) where neighbors give and take goods for free.",
@@ -530,9 +530,9 @@
   "name": "Cary Really Really Free Market",
   "city": "Cary",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market in a Cary park. Share goods you don't need and take what you do, no money exchanged.",
@@ -550,9 +550,9 @@
   "name": "Hillsborough Really Really Free Market",
   "city": "Hillsborough",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market in Gold Park (marked its first anniversary in Oct 2025).",
@@ -570,9 +570,9 @@
   "name": "Circular Triangle – Clothing Swaps & Mending Circles",
   "city": "Triangle-wide",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Circular-economy group running free clothing swaps and mending circles (supplies and guidance provided, no experience needed). Leftover clothing goes to local nonprofits or gets upcycled.",
@@ -591,8 +591,8 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Free Stores & Swaps",
-   "Mutual Aid Networks"
+   "Free Stuff",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor take-what-you-need, leave-what-you-can community fridge. It was the first site of the Durham Community Fridges mutual aid project, founded in 2022.",
@@ -611,8 +611,8 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Free Stores & Swaps",
-   "Mutual Aid Networks"
+   "Free Stuff",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor community fridge in the Durham Community Fridges network. Take what you need, leave what you can.",
@@ -631,8 +631,8 @@
   "city": "Durham",
   "categories": [
    "Food",
-   "Free Stores & Swaps",
-   "Mutual Aid Networks"
+   "Free Stuff",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Outdoor community fridge at The Scrap Exchange creative reuse center in Lakewood, part of the Durham Community Fridges network.",
@@ -651,7 +651,7 @@
   "city": "Triangle-wide",
   "categories": [
    "Food",
-   "Free Stores & Swaps"
+   "Free Stuff"
   ],
   "org_type": "community_org",
   "description": "Searchable, crowd-maintained map of mini pantries and blessing boxes (take what you need, leave what you can). It lists Triangle boxes at churches and homes in Durham, Chapel Hill, Hillsborough, Raleigh and elsewhere.",
@@ -669,8 +669,8 @@
   "name": "Raleigh United Mutual Aid Hub (RUMAH)",
   "city": "Raleigh",
   "categories": [
-   "Mutual Aid Networks",
-   "Free Stores & Swaps"
+   "Mutual Aid & Organizing",
+   "Free Stuff"
   ],
   "org_type": "mutual_aid",
   "description": "Community and social center (a sober space) for Raleigh-area mutual aid. Hosts skill-shares, workshops, clothing swaps and mending circles. Serves as a donation collection point, resource distribution center and home base for local collectives.",
@@ -688,7 +688,7 @@
   "name": "Triangle Mutual Aid",
   "city": "Triangle-wide",
   "categories": [
-   "Mutual Aid Networks",
+   "Mutual Aid & Organizing",
    "Food"
   ],
   "org_type": "mutual_aid",
@@ -707,9 +707,9 @@
   "name": "Feed Durham",
   "city": "Durham",
   "categories": [
-   "Mutual Aid Networks",
+   "Mutual Aid & Organizing",
    "Food",
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "mutual_aid",
   "description": "Durham mutual aid collective (since 2020). Runs big community cookouts, grocery and produce giveaways, and 'mutual aid ecosystems' in working-class neighborhoods: community gardens, neighborhood fridges, take-one/leave-one pantries, Little Libraries, and repair clinics teaching sewing, carpentry and electronics repair.",
@@ -727,8 +727,8 @@
   "name": "Buy Nothing Project (find your local group)",
   "city": "Triangle-wide",
   "categories": [
-   "Mutual Aid Networks",
-   "Free Stores & Swaps",
+   "Mutual Aid & Organizing",
+   "Free Stuff",
    "Clothing & Household"
   ],
   "org_type": "community_org",

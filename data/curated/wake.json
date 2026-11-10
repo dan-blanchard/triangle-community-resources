@@ -5,8 +5,8 @@
   "categories": [
    "Food",
    "Clothing & Household",
-   "Hygiene & Laundry",
-   "Mutual Aid Networks"
+   "Showers, Laundry & Hygiene",
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Volunteer collective sharing free vegan meals, groceries, toiletries and often clothing downtown. Also takes requests for grocery and diaper deliveries.",
@@ -24,8 +24,8 @@
   "name": "Raleigh United Mutual Aid Hub (RUMAH)",
   "city": "Raleigh",
   "categories": [
-   "Mutual Aid Networks",
-   "Learning & Tech Access",
+   "Mutual Aid & Organizing",
+   "Classes, Computers & Wi-Fi",
    "Gardens & Seeds"
   ],
   "org_type": "mutual_aid",
@@ -44,9 +44,9 @@
   "name": "Raleigh Really Really Free Market",
   "city": "Raleigh",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market where nothing is bought or sold: bring what you can, take what you need. Skill shares too (past markets had free haircuts and bike-repair lessons).",
@@ -64,8 +64,8 @@
   "name": "Raleigh Community Kickstand",
   "city": "Raleigh",
   "categories": [
-   "Bikes & Transportation",
-   "Makerspaces & Repair"
+   "Bikes & Getting Around",
+   "Make & Fix"
   ],
   "org_type": "cooperative",
   "description": "All-volunteer community bike co-op (since 2017). Free bike repairs and maintenance lessons, and gives away refurbished bikes, with a focus on people facing housing insecurity.",
@@ -84,7 +84,7 @@
   "city": "Triangle-wide",
   "categories": [
    "Housing & Shelter",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Member-run tenant union, part of the NC Tenants Union, covering Raleigh, Durham and Chapel Hill. Helps tenants form associations in their buildings and neighborhoods to fight rent hikes, displacement and unsafe conditions.",
@@ -102,11 +102,11 @@
   "name": "Oak City Cares",
   "city": "Raleigh",
   "categories": [
-   "Hygiene & Laundry",
+   "Showers, Laundry & Hygiene",
    "Food",
    "Housing & Shelter",
-   "Learning & Tech Access",
-   "Health & Harm Reduction"
+   "Classes, Computers & Wi-Fi",
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Multi-service center for people at risk of or experiencing homelessness. Free showers and laundry on weekdays, three meals a day on weekends and holidays, care coordinators, public computers, phones and lockable phone charging, plus an on-site clinic and HIV/STD/Hep C testing. Coordinated Entry access site for shelter referrals.",
@@ -125,10 +125,10 @@
   "city": "Raleigh",
   "categories": [
    "Housing & Shelter",
-   "Hygiene & Laundry",
+   "Showers, Laundry & Hygiene",
    "Food",
    "Clothing & Household",
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "nonprofit",
   "description": "Day shelter for single women experiencing homelessness. Breakfast and lunch, showers, laundry, hygiene supplies, a clothing closet, day storage, computers, phones and help getting IDs and other documents, plus on-site health care and housing navigators.",
@@ -183,7 +183,7 @@
   "city": "Raleigh",
   "categories": [
    "Housing & Shelter",
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Recovery community with an emergency drop-in shelter and non-medical detox. Serves people 'under the influence or not, and regardless of readiness for change.'",
@@ -311,7 +311,7 @@
   "name": "Open Door Clinic (Urban Ministries of Wake County)",
   "city": "Raleigh",
   "categories": [
-   "Health & Harm Reduction",
+   "Health Care & Harm Reduction",
    "Mental Health & Crisis"
   ],
   "org_type": "nonprofit",
@@ -330,7 +330,7 @@
   "name": "NC Harm Reduction Coalition – Raleigh",
   "city": "Raleigh",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Free naloxone (Narcan) kits and syringe services, prioritizing people who use drugs and their families. Mobile and peer exchange is available by call or text.",
@@ -348,7 +348,7 @@
   "name": "Wake County Public Health Pharmacy – Free Naloxone",
   "city": "Raleigh",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "public",
   "description": "Free naloxone kits from the county pharmacy while supplies last.",
@@ -366,7 +366,7 @@
   "name": "SouthLight Peer Drop-In Center – Naloxone Vending Machine",
   "city": "Raleigh",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Free naloxone vending machine inside SouthLight Healthcare's peer drop-in center.",
@@ -384,7 +384,7 @@
   "name": "Amplify Health – Southeast Raleigh Careplex (formerly Advance Community Health)",
   "city": "Raleigh",
   "categories": [
-   "Health & Harm Reduction",
+   "Health Care & Harm Reduction",
    "Mental Health & Crisis"
   ],
   "org_type": "nonprofit",
@@ -404,7 +404,7 @@
   "city": "Raleigh",
   "categories": [
    "Mental Health & Crisis",
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Behavioral health urgent care and crisis center for adults in a mental health or substance use crisis, run by RI International (Recovery Innovations). 'No wrong door': walk in alone, with a loved one, or be brought by a provider or first responder.",
@@ -458,7 +458,7 @@
   "name": "InterAct of Wake County",
   "city": "Raleigh",
   "categories": [
-   "Safety & Domestic Violence",
+   "Domestic & Sexual Violence",
    "Housing & Shelter"
   ],
   "org_type": "nonprofit",
@@ -496,8 +496,8 @@
   "city": "Raleigh",
   "categories": [
    "Legal & Immigration",
-   "Mutual Aid Networks",
-   "Learning & Tech Access"
+   "Mutual Aid & Organizing",
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "nonprofit",
   "description": "Latino-led community organization offering legal information and referrals, Know Your Rights workshops, community assistance and education and workforce programs.",
@@ -517,7 +517,7 @@
   "categories": [
    "Clothing & Household",
    "Food",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "community_org",
   "description": "Free Community Closet with everyday clothing, shoes and gender-affirming items (binders, makeup and wigs on request), plus a Community Pantry with shelf-stable food. Also a drop-in community center.",
@@ -553,7 +553,7 @@
   "name": "Raleigh Tool Share",
   "city": "Raleigh",
   "categories": [
-   "Tools & Sharing"
+   "Borrow Things"
   ],
   "org_type": "public",
   "description": "City program that lends battery-powered yard tools (mower, string trimmer, leaf blower) for free.",
@@ -571,7 +571,7 @@
   "name": "Wake County Human Services (Swinburne)",
   "city": "Raleigh",
   "categories": [
-   "Money & Utilities",
+   "Money & Bills",
    "Food",
    "Kids & Families",
    "Housing & Shelter"
@@ -594,7 +594,7 @@
   "categories": [
    "Housing & Shelter",
    "Food",
-   "Money & Utilities",
+   "Money & Bills",
    "Mental Health & Crisis"
   ],
   "org_type": "nonprofit",
@@ -613,9 +613,9 @@
   "name": "Wake County Public Libraries – free card services",
   "city": "Triangle-wide",
   "categories": [
-   "Learning & Tech Access",
+   "Classes, Computers & Wi-Fi",
    "Gardens & Seeds",
-   "Tools & Sharing"
+   "Borrow Things"
   ],
   "org_type": "public",
   "description": "23 free public libraries across Wake County. Cardholders can borrow laptops, Wi-Fi hotspots and blood pressure monitors, get free online tutoring (Tutor.com) and Udemy courses, book one-on-one job-search and tech help, and take seeds from seed libraries at some branches.",
@@ -633,9 +633,9 @@
   "name": "Cary Really Really Free Market",
   "city": "Cary",
   "categories": [
-   "Free Stores & Swaps",
+   "Free Stuff",
    "Clothing & Household",
-   "Mutual Aid Networks"
+   "Mutual Aid & Organizing"
   ],
   "org_type": "mutual_aid",
   "description": "Monthly free market where nothing is bought or sold. Bring what you can, take what you need.",
@@ -653,7 +653,7 @@
   "name": "Repair Café NC – Cary",
   "city": "Cary",
   "categories": [
-   "Makerspaces & Repair"
+   "Make & Fix"
   ],
   "org_type": "community_org",
   "description": "Volunteer fixers repair broken household items for free (small appliances, lamps, clothing, electronics and more) and teach you how.",
@@ -672,7 +672,7 @@
   "city": "Cary",
   "categories": [
    "Food",
-   "Money & Utilities",
+   "Money & Bills",
    "Clothing & Household"
   ],
   "org_type": "nonprofit",
@@ -691,7 +691,7 @@
   "name": "Mariam Clinic",
   "city": "Cary",
   "categories": [
-   "Health & Harm Reduction",
+   "Health Care & Harm Reduction",
    "Mental Health & Crisis"
   ],
   "org_type": "nonprofit",
@@ -711,7 +711,7 @@
   "city": "Apex",
   "categories": [
    "Food",
-   "Money & Utilities"
+   "Money & Bills"
   ],
   "org_type": "nonprofit",
   "description": "Client-choice food pantry and emergency financial help with housing and bills for western Wake County.",
@@ -729,7 +729,7 @@
   "name": "Amplify Health – Apex",
   "city": "Apex",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
@@ -747,7 +747,7 @@
   "name": "Morrisville Community Library",
   "city": "Morrisville",
   "categories": [
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Free Wake County public library branch with a warm indoor space. Cardholders can borrow laptops and Wi-Fi hotspots and get free tutoring and job-search help (see the countywide library entry).",
@@ -765,7 +765,7 @@
   "name": "Garner Area Ministries",
   "city": "Garner",
   "categories": [
-   "Money & Utilities",
+   "Money & Bills",
    "Clothing & Household"
   ],
   "org_type": "faith_based",
@@ -838,7 +838,7 @@
   "name": "Amplify Health – Wake Forest",
   "city": "Wake Forest",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
@@ -874,7 +874,7 @@
   "name": "East Regional Library",
   "city": "Knightdale",
   "categories": [
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Free Wake County public library branch serving eastern Wake. Cardholders can borrow laptops and hotspots and get free tutoring and job-search help (see the countywide library entry).",
@@ -947,7 +947,7 @@
   "name": "Amplify Health – Fuquay-Varina",
   "city": "Fuquay-Varina",
   "categories": [
-   "Health & Harm Reduction"
+   "Health Care & Harm Reduction"
   ],
   "org_type": "nonprofit",
   "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
@@ -983,7 +983,7 @@
   "name": "Wendell Community Library",
   "city": "Wendell",
   "categories": [
-   "Learning & Tech Access"
+   "Classes, Computers & Wi-Fi"
   ],
   "org_type": "public",
   "description": "Free Wake County public library branch. Cardholders can borrow laptops and hotspots and get free tutoring and job-search help (see the countywide library entry).",
@@ -1001,7 +1001,7 @@
   "name": "Shepherd's Care Medical Clinic",
   "city": "Zebulon",
   "categories": [
-   "Health & Harm Reduction",
+   "Health Care & Harm Reduction",
    "Food"
   ],
   "org_type": "nonprofit",

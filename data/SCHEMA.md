@@ -28,10 +28,10 @@ city (pick the one where it physically operates; use "Triangle-wide" for region-
   Wake Forest, Knightdale, Fuquay-Varina, Holly Springs, Wendell, Zebulon, Rolesville, Pittsboro, Triangle-wide
 
 categories (one or more):
-  Food, Clothing & Household, Housing & Shelter, Hygiene & Laundry, Health & Harm Reduction,
-  Mental Health & Crisis, Tools & Sharing, Makerspaces & Repair, Bikes & Transportation,
-  Free Stores & Swaps, Gardens & Seeds, Money & Utilities, Legal & Immigration, Community Spaces,
-  Safety & Domestic Violence, Mutual Aid Networks, Kids & Families, Learning & Tech Access
+  Food, Clothing & Household, Housing & Shelter, Showers, Laundry & Hygiene, Health Care & Harm Reduction,
+  Mental Health & Crisis, Borrow Things, Make & Fix, Bikes & Getting Around,
+  Free Stuff, Gardens & Seeds, Money & Bills, Legal & Immigration, Community Centers,
+  Domestic & Sexual Violence, Mutual Aid & Organizing, Kids & Families, Classes, Computers & Wi-Fi
 
 org_type: mutual_aid | cooperative | community_org | nonprofit | faith_based | public
 cost: free | pay_what_you_can | sliding_scale | low_cost_membership
