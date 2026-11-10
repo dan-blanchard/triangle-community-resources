@@ -350,12 +350,34 @@ def _a(url: str, text: str) -> Markup:
     return Markup(f'<a href="{escape(url)}" rel="noopener">{escape(text)}</a>') if url else escape(text)
 
 
-def render_sources(links: list[dict]) -> Markup:
-    """'Hand-checked: wunc.org, Instagram: @x · Durham Open Data food resources', each part its own link."""
+_SOCIAL_HOSTS = r"instagram\.com|facebook\.com|linktr\.ee|tiktok\.com|x\.com|twitter\.com"
+
+
+def _same_owner(a: str, b: str) -> bool:
+    """Is page a on the org's own site/account b? (Same domain, or same social account.)"""
+    if not a or not b:
+        return False
+    (da, pa), (db, pb) = _url_key(a), _url_key(b)
+    if da != db:
+        return False
+    if re.search(_SOCIAL_HOSTS, da):
+        return pa.strip("/").split("/")[0] == pb.strip("/").split("/")[0]
+    return True
+
+
+def render_sources(e: dict) -> Markup:
+    """'Hand-checked: wunc.org, its own site · Durham Open Data food resources', each part its own link.
+
+    Pages on the org's own website/account aren't linked again: the card's Web line already is."""
+    links = e["source_links"]
     checked = [x for x in links if x["name"] == curated.SOURCE]
     parts = []
     if checked:
-        pages = [_a(x["url"], display_domain(x["url"])) for x in checked if x["url"]]
+        own = any(_same_owner(x["url"], e["url"]) for x in checked)
+        pages = [_a(x["url"], display_domain(x["url"])) for x in checked
+                 if x["url"] and not _same_owner(x["url"], e["url"])]
+        if own:
+            pages.append(escape("its own site"))
         parts.append(Markup("Hand-checked: ") + Markup(", ").join(pages) if pages else Markup("Hand-checked"))
     seen = set()
     for x in links:

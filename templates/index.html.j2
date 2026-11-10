@@ -140,7 +140,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
             {% if e.notes %}<dt>Note</dt><dd class="note">{{ e.notes|truncate(260)|linkify }}</dd>{% endif %}
           </dl>
           {% if e.link_warning %}<span class="warn">Website hasn't loaded for several days; call before going.</span>{% endif %}
-          <div class="src">{{ e.source_links|sources }}</div>
+          <div class="src">{{ e|sources }}</div>
         </article>
       {% endfor %}
       </div>
