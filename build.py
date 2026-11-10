@@ -289,11 +289,23 @@ def check_links(entries: list[dict], state: dict) -> None:
 
 
 # ---------- render ----------
-def maps_link(addr: str) -> str:
+def maps_link(e: dict) -> str:
+    addr = e.get("address", "")
     if not addr or re.search(r"undisclosed|confidential", addr, re.I):
         return ""
-    first = addr.split("\n")[0]
-    return "https://www.google.com/maps/search/?api=1&query=" + requests.utils.quote(first + ", NC")
+    first = re.split(r"\n|\|", addr)[0].strip()
+    if re.search(r"\bP\.?\s*O\.?\s+Box\b", first, re.I):
+        return ""  # mailing address only
+    street = re.search(r"\b\d{1,6}[A-Za-z]?(?:-[A-Za-z0-9]+)?\s+[A-Za-z]", first) or \
+        re.search(r"\b(st|street|rd|road|ave|avenue|blvd|dr|drive|hwy|highway|ln|lane|way|pkwy|park)\b\.?", first, re.I)
+    if not street:
+        return ""  # not a street address
+    # Add the town when the address leaves it out ("1112 Fairview Street").
+    if e.get("city") and e["city"] != "Triangle-wide" and e["city"].lower() not in first.lower():
+        first += f", {e['city']}"
+    if not re.search(r"\bNC\b|North Carolina", first, re.I):
+        first += ", NC"
+    return "https://www.google.com/maps/search/?api=1&query=" + requests.utils.quote(first)
 
 
 _TLDS = r"org|com|net|gov|edu|coop|us|io|co|info|page|xyz|church|app|link|me"
@@ -416,7 +428,6 @@ def render(entries: list[dict], meta: dict) -> None:
     env.filters["sources"] = render_sources
     env.filters["report"] = report_link
 
-    community = ("mutual_aid", "cooperative", "community_org")
     order = {c: i for i, c in enumerate(common.CATEGORIES)}
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
@@ -426,10 +437,7 @@ def render(entries: list[dict], meta: dict) -> None:
         for e in items:
             e["categories"] = sorted(e["categories"], key=lambda x: order.get(x, 99))
         items.sort(key=lambda e: e["name"].lower().removeprefix("the "))
-        by_city[c] = {
-            "Community-run & mutual aid": [e for e in items if e["org_type"] in community],
-            "Organizations & services": [e for e in items if e["org_type"] not in community],
-        }
+        by_city[c] = {"": items}  # one A-Z list per town
     html = env.get_template("index.html.j2").render(
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,

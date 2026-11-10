@@ -42,7 +42,7 @@ header.top .updated{font-size:.85rem;color:#bdb5a5;margin-top:.7rem}
 .citynav small{color:var(--muted)}
 .hint{color:var(--muted);font-size:.9rem;margin:.6rem 0 0}
 section.city{margin:2rem 0 2.5rem}
-section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 .2rem;padding-bottom:.35rem;border-bottom:3px solid var(--ink)}
+section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:3px solid var(--ink)}
 section.cat h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;margin:1.4rem 0 .6rem;color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem}
 article.r{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem .95rem;display:flex;flex-direction:column;gap:.35rem}
@@ -121,14 +121,13 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     <a href="#top" data-city="" class="all" role="button" hidden>All towns</a>
     {% for c in by_city %}<a href="#{{ c|slug }}" data-city="{{ c }}" role="button" aria-pressed="false">{{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></a>{% endfor %}
   </nav>
-  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Each town lists community-run groups first. Tap a need on any card to see everything that meets it.</p>
+  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Each town is listed A–Z; green tags mark community-run groups. Tap a need on any card to see everything that meets it.</p>
 
   {% for city, cats in by_city.items() %}
   <section class="city" id="{{ city|slug }}" data-city="{{ city }}">
     <h2>{{ "Region-wide & mobile" if city == "Triangle-wide" else city }}</h2>
     {% for group, items in cats.items() if items %}
-    <section class="cat" data-group="{{ group }}">
-      <h3>{{ group }}</h3>
+    <section class="cat">
       <div class="grid">
       {% for e in items %}
         <article class="r" data-type="{{ e.org_type }}" data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
@@ -142,7 +141,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
           {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
           <dl class="facts">
             {% if e.hours %}<dt>When</dt><dd>{{ e.hours|truncate(220)|linkify }}</dd>{% endif %}
-            {% if e.address %}<dt>Where</dt><dd>{% set m = e.address|maps %}{% if m %}<a href="{{ m }}" rel="noopener">{{ e.address|truncate(160) }}</a>{% else %}{{ e.address|truncate(160) }}{% endif %}</dd>{% endif %}
+            {% if e.address %}<dt>Where</dt><dd>{% set m = e|maps %}{% if m %}<a href="{{ m }}" rel="noopener">{{ e.address|truncate(160) }}</a>{% else %}{{ e.address|truncate(160) }}{% endif %}</dd>{% endif %}
             {% if e.phone %}<dt>Call</dt><dd><a href="tel:{{ e.phone|tel }}">{{ e.phone }}</a></dd>{% endif %}
             {% if e.url %}<dt>Web</dt><dd><a href="{{ e.url }}" rel="noopener">{{ e.url|domain }}</a></dd>{% endif %}
             {% if e.access %}<dt>Access</dt><dd>{{ e.access|truncate(240)|linkify }}</dd>{% endif %}

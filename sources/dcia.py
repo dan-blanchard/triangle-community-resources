@@ -71,6 +71,11 @@ def _parse_tab(text: str, default_cat: str, skip_groups: list[str], gid: str) ->
         if any(group.lower().startswith(s) for s in skip_groups):
             continue
         address = _get(r, cols.get("address", []))
+        contact_note = ""
+        # Some contact cells hold only phone lines ("Member Services: 800-..."), not a street address.
+        no_phones = re.sub(r"\(?\d{3}\)?[\s.\-]*\d{3}[\s.\-]*\d{4}", "", address)
+        if address and not re.search(r"\b\d{1,6}\s+[A-Za-z]", no_phones) and "undisclosed" not in address.lower():
+            contact_note, address = address, ""
         desc = _get(r, cols.get("description", []))
         elig = _get(r, cols.get("eligibility", []))
         req = _get(r, cols.get("requirements", []))
@@ -98,6 +103,7 @@ def _parse_tab(text: str, default_cat: str, skip_groups: list[str], gid: str) ->
             "phone": phone,
             "hours": hours,
             "access": access,
+            "notes": contact_note,
             "cost": "free",
             "subgroup": group,
             "source": SOURCE,
