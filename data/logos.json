@@ -481,6 +481,12 @@
 "src": "https://www.fuquay-varina.org/favicon.ico",
 "checked": "2026-11-10"
 },
+"gam-nc.org": {
+"file": "gam-nc.org.png",
+"fp": "b9f2833914148bef6f67ac2fe991f1e000612257",
+"src": "https://gam-nc.org/wp-content/uploads/2022/10/cropped-cropped-cropped-cropped-gamnew-180x180.png",
+"checked": "2026-11-10"
+},
 "genesis-umc.org": {
 "file": "genesis-umc.org.png",
 "fp": "6ed084f526ea87b604fa1f5eca8b973c906a9ba9",
@@ -1275,6 +1281,10 @@
 "file": "whiterockbaptistchurch.org.png",
 "fp": "adcfedd52a390749770904082285f19ad38eae07",
 "src": "https://whiterockbaptistchurch.org/wp-content/uploads/2023/10/cropped-WRBC-180x180.png",
+"checked": "2026-11-10"
+},
+"wpumc.com": {
+"file": null,
 "checked": "2026-11-10"
 }
 }
