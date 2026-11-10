@@ -427,6 +427,8 @@ def render(entries: list[dict], meta: dict) -> None:
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
         city_counts={c: len({id(e) for v in cats.values() for e in v}) for c, cats in by_city.items()},
+        category_groups=common.CATEGORY_GROUPS, emoji=common.CATEGORY_EMOJI,
+        cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},
     )
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")

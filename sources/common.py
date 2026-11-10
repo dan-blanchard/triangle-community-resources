@@ -17,13 +17,20 @@ CITIES = [
     "Wendell", "Zebulon", "Rolesville", "Pittsboro", "Triangle-wide",
 ]
 
-CATEGORIES = [
-    "Mutual Aid Networks", "Food", "Clothing & Household", "Housing & Shelter",
-    "Hygiene & Laundry", "Health & Harm Reduction", "Mental Health & Crisis",
-    "Safety & Domestic Violence", "Money & Utilities", "Legal & Immigration",
-    "Kids & Families", "Tools & Sharing", "Makerspaces & Repair", "Free Stores & Swaps",
-    "Gardens & Seeds", "Bikes & Transportation", "Learning & Tech Access", "Community Spaces",
+# Need groups, in display order. Page sections and the "needs" filter follow this order.
+CATEGORY_GROUPS = [
+    ("Basic needs", [("Food", "🍎"), ("Housing & Shelter", "🏠"), ("Clothing & Household", "👕"),
+                     ("Hygiene & Laundry", "🚿"), ("Money & Utilities", "💵")]),
+    ("Health, safety & rights", [("Health & Harm Reduction", "🩺"), ("Mental Health & Crisis", "💬"),
+                                 ("Safety & Domestic Violence", "🛡️"), ("Legal & Immigration", "⚖️")]),
+    ("Sharing & community", [("Mutual Aid Networks", "🤝"), ("Free Stores & Swaps", "🎁"),
+                             ("Tools & Sharing", "🔧"), ("Makerspaces & Repair", "🛠️"),
+                             ("Gardens & Seeds", "🌱"), ("Bikes & Transportation", "🚲"),
+                             ("Community Spaces", "🏛️")]),
+    ("Family & learning", [("Kids & Families", "👶"), ("Learning & Tech Access", "💻")]),
 ]
+CATEGORIES = [c for _, cats in CATEGORY_GROUPS for c, _ in cats]
+CATEGORY_EMOJI = {c: e for _, cats in CATEGORY_GROUPS for c, e in cats}
 
 # Address text -> city. Order matters: check multi-word names before substrings.
 _CITY_PATTERNS = [

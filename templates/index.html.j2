@@ -104,7 +104,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 <div class="controls" id="controls" hidden><div class="wrap">
   <input type="search" id="q" placeholder="Search: e.g. showers, diapers, tools, no ID…" aria-label="Search resources">
   <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
-  <select id="cat" aria-label="Need"><option value="">All needs</option>{% for c in categories %}<option>{{ c }}</option>{% endfor %}</select>
+  <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
   <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
 </div></div>
@@ -121,7 +121,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     <h2>{{ "Region-wide & mobile" if city == "Triangle-wide" else city }}</h2>
     {% for cat, items in cats.items() %}
     <section class="cat" data-cat="{{ cat }}">
-      <h3 id="{{ city|slug }}-{{ cat|slug }}">{{ cat }}</h3>
+      <h3 id="{{ city|slug }}-{{ cat|slug }}"><span aria-hidden="true">{{ emoji[cat] }}</span> {{ cat }}</h3>
       <div class="grid">
       {% for e in items %}
         <article class="r" data-type="{{ e.org_type }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes)|lower }}">
