@@ -23,7 +23,7 @@ import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlencode, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
@@ -100,6 +100,8 @@ def _merge(a: dict, b: dict) -> None:
     for k in ("description", "address", "url", "phone", "hours", "access"):
         if not a.get(k) and b.get(k):
             a[k] = b[k]
+    if b.get("checked") and b["checked"] > a.get("checked", ""):
+        a["checked"] = b["checked"]
     for s in b["sources"]:
         if s not in a["sources"]:
             a["sources"].append(s)
@@ -365,27 +367,41 @@ def _same_owner(a: str, b: str) -> bool:
     return True
 
 
-def render_sources(e: dict) -> Markup:
-    """'Hand-checked: wunc.org, its own site · Durham Open Data food resources', each part its own link.
+STALE_DAYS = 90
+REPO = "https://github.com/dan-blanchard/triangle-community-resources"
 
-    Pages on the org's own website/account aren't linked again: the card's Web line already is."""
+
+def checked_age_days(e: dict, today: dt.date) -> int | None:
+    return (today - dt.date.fromisoformat(e["checked"])).days if e.get("checked") else None
+
+
+def render_sources(e: dict) -> Markup:
+    """'Sources: Web search, checked Nov 2026 · Durham Open Data food resources'.
+
+    Web-search entries aren't linked (the agent found them by searching; the org's own site is
+    already on the Web line). Scraped sources link to the list they came from."""
     links = e["source_links"]
-    checked = [x for x in links if x["name"] == curated.SOURCE]
     parts = []
-    if checked:
-        own = any(_same_owner(x["url"], e["url"]) for x in checked)
-        pages = [_a(x["url"], display_domain(x["url"])) for x in checked
-                 if x["url"] and not _same_owner(x["url"], e["url"])]
-        if own:
-            pages.append(escape("its own site"))
-        parts.append(Markup("Hand-checked: ") + Markup(", ").join(pages) if pages else Markup("Hand-checked"))
+    if any(x["name"] == curated.SOURCE for x in links):
+        part = escape(curated.SOURCE)
+        if e.get("checked"):
+            part += escape(", checked " + dt.date.fromisoformat(e["checked"]).strftime("%b %Y"))
+            if e.get("stale"):
+                part += Markup(' <span class="stale">(may be out of date)</span>')
+        parts.append(part)
     seen = set()
     for x in links:
         if x["name"] != curated.SOURCE and x["name"] not in seen:
             seen.add(x["name"])
             parts.append(_a(x["url"], x["name"]))
-    label = "Sources" if len(checked) + len(seen) > 1 else "Source"
+    label = "Sources" if len(parts) > 1 else "Source"
     return Markup(f"{label}: ") + Markup(" · ").join(parts)
+
+
+def report_link(e: dict) -> str:
+    q = urlencode({"template": "report-change.yml", "title": f"Change: {e['name']} ({e['city']})",
+                   "resource": f"{e['name']} ({e['city']})"})
+    return f"{REPO}/issues/new?{q}"
 
 
 def render(entries: list[dict], meta: dict) -> None:
@@ -396,6 +412,7 @@ def render(entries: list[dict], meta: dict) -> None:
     env.filters["linkify"] = linkify
     env.filters["domain"] = display_domain
     env.filters["sources"] = render_sources
+    env.filters["report"] = report_link
 
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
@@ -407,7 +424,7 @@ def render(entries: list[dict], meta: dict) -> None:
         if cats:
             by_city[c] = cats
     html = env.get_template("index.html.j2").render(
-        by_city=by_city, categories=common.CATEGORIES, meta=meta,
+        repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
         city_counts={c: len({id(e) for v in cats.values() for e in v}) for c, cats in by_city.items()},
     )
@@ -415,7 +432,7 @@ def render(entries: list[dict], meta: dict) -> None:
     (SITE / "index.html").write_text(html, encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
-                     "url", "hours", "access", "notes", "sources", "source_urls", "first_seen"]
+                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen"]
     for e in entries:
         e["source_urls"] = [x["url"] for x in e["source_links"] if x["url"]]
     rows = [{k: e.get(k, "") for k in public_fields} for e in entries]
@@ -450,6 +467,13 @@ def main() -> int:
     entries = [normalize(e) for e in raw if e.get("name")]
     entries, dropped = apply_exclusions(entries)
     entries = dedupe(entries)
+
+    stale = []
+    for e in entries:
+        age = checked_age_days(e, now.date())
+        e["stale"] = age is not None and age > STALE_DAYS
+        if e["stale"]:
+            stale.append(e)
 
     first_seen = state.setdefault("first_seen", {})
     # Launch day = the earliest first-seen date. Nothing from launch day counts as "new".
@@ -493,6 +517,11 @@ def main() -> int:
         flag = " (STALE: using cached copy)" if m.get("stale_parts") else ""
         print(f"  {m['name']}: {m['count']}{flag}")
     gha = os.environ.get("GITHUB_ACTIONS") == "true"
+    if stale:
+        msg = f"{len(stale)} web-search entries not re-checked in {STALE_DAYS}+ days (oldest first):"
+        print(f"::warning::{msg}" if gha else f"  {msg}")
+        for e in sorted(stale, key=lambda e: e["checked"])[:40]:
+            print(f"    {e['checked']}  {e['name']} ({e['city']})")
     for err in errors:
         print(f"::warning::Source failed: {err}" if gha else f"  ERROR {err}", file=sys.stderr)
     broken = [e for e in entries if e.get("link_status") == "broken"]

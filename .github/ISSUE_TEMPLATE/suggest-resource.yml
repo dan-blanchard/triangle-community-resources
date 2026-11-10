@@ -1,0 +1,35 @@
+name: Suggest a resource
+description: A free, community-run, or mutual-aid resource in the Triangle that should be listed.
+title: "Suggest: "
+labels: ["suggest-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We list free, pay-what-you-can, or sliding-scale resources open to the community: mutual aid,
+        community fridges, pantries, clothing closets, free stores, tool libraries, maker spaces, and similar.
+        We don't list for-profit businesses, paid thrift stores, or programs that require religious participation.
+        **This suggestion is public.** Please don't include personal details.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: town
+    attributes:
+      label: Town
+      description: e.g. Durham, Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, Pittsboro…
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Website or social account
+  - type: textarea
+    id: details
+    attributes:
+      label: What it offers, when, and who can use it
+    validations:
+      required: true

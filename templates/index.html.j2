@@ -63,6 +63,7 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 .warn{font-size:.8rem;background:var(--warn-bg);color:var(--warn);border-radius:4px;padding:.15rem .45rem}
 .src{font-size:.75rem;color:var(--muted);margin-top:auto;padding-top:.2rem}
 .src a{color:var(--muted)}
+.src .stale{color:var(--warn);font-weight:600}
 .empty{display:none;padding:2rem;text-align:center;color:var(--muted)}
 footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.5rem 0 3rem;font-size:.9rem;color:var(--muted)}
 footer h2{font-size:1rem;color:var(--ink)}
@@ -140,7 +141,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
             {% if e.notes %}<dt>Note</dt><dd class="note">{{ e.notes|truncate(260)|linkify }}</dd>{% endif %}
           </dl>
           {% if e.link_warning %}<span class="warn">Website hasn't loaded for several days; call before going.</span>{% endif %}
-          <div class="src">{{ e|sources }}</div>
+          <div class="src">{{ e|sources }} · <a href="{{ e|report }}" rel="noopener">Report a change</a></div>
         </article>
       {% endfor %}
       </div>
@@ -153,11 +154,12 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 
 <footer><div class="wrap">
   <h2>About this page</h2>
-  <p>Rebuilt every morning. Each day it re-pulls these live sources, merges them with a hand-checked list of mutual aid, sharing and making spaces, and tests every website link:</p>
+  <p>Rebuilt every morning. Each day it re-pulls these live sources, merges them with a researched list of mutual aid, sharing and making spaces (found by web search and re-checked monthly), and tests every website link:</p>
   <ul>
     {% for s in meta.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}: {{ s.count }} entries{% if s.stale_parts %} <em>(source unreachable today; showing the last copy we got)</em>{% endif %}</li>{% endfor %}
   </ul>
   <p>What's included: free or pay-what-you-can resources open to the community. Mutual aid and community-run groups are listed first in each section. Paid thrift stores, for-profit businesses and programs that require religious participation are left out.</p>
+  <p>Something wrong, closed, or missing? <a href="{{ repo }}/issues/new?template=report-change.yml">Report a change</a> or <a href="{{ repo }}/issues/new?template=suggest-resource.yml">suggest a resource</a>. Reports are public on GitHub, so don't include personal details.</p>
   <p>Download the data: <a href="resources.csv">CSV</a> · <a href="resources.json">JSON</a></p>
 </div></footer>
 

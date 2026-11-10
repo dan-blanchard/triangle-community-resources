@@ -1,11 +1,14 @@
-"""Hand-verified entries (mutual aid, sharing/making, etc.) kept in data/curated/*.json."""
+"""Entries found by web research (mutual aid, sharing/making, etc.), kept in data/curated/*.json.
+
+Each has a `checked` date (YYYY-MM-DD) for when it was last confirmed against a live page;
+the monthly re-check routine refreshes these."""
 from __future__ import annotations
 
 import json
 
 from .common import ROOT
 
-SOURCE = "Curated & verified"
+SOURCE = "Web search"
 DIR = ROOT / "data" / "curated"
 
 

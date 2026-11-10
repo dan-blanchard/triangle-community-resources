@@ -1,240 +1,254 @@
 [
-  {
-    "name": "PORCH Hillsborough – Fairview Park Food Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "nonprofit",
-    "description": "Monthly drive-thru food box distribution run by PORCH Hillsborough. PORCH adds fresh eggs, cheese, protein and sometimes grocery gift cards.",
-    "address": "Fairview Park, 192 Torain St (at Torain St & Rainey Ave), Hillsborough, NC 27278",
-    "url": "https://porchcommunities.org/hillsborough",
-    "phone": "(919) 213-0492",
-    "hours": "3rd Thursday of each month, 9:15 AM",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://porchcommunities.org/hillsborough",
-    "notes": "PORCH's events calendar lists Nov 19 and Dec 17, 2026 at 9:15 AM and gives the location as the intersection of Torain St & Rainey Ave. The N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) gives 192 Torain St, 9:30 AM, drive-thru, and the phone number. Get there for the earlier time."
-  },
-  {
-    "name": "PORCH Hillsborough – Cedar Grove Community Center Food Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "nonprofit",
-    "description": "Monthly drive-thru food box distribution in northern Orange County, run by PORCH Hillsborough.",
-    "address": "Cedar Grove Community Center, 5800 NC Hwy 86 N, Hillsborough, NC 27278",
-    "url": "https://porchcommunities.org/hillsborough",
-    "phone": "(919) 213-0492",
-    "hours": "2nd Friday of each month, 8:15 AM (drive-thru)",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://porchcommunities.org/hillsborough",
-    "notes": "PORCH's events calendar lists Nov 13 and Dec 11, 2026 (2nd Fridays) at 8:15 AM, and the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) agrees. PORCH's Local Resources page still says 4th Friday, so that page looks out of date. PORCH says the date can change around holidays: check facebook.com/porch.hillsborough or email porchcg@gmail.com."
-  },
-  {
-    "name": "Orange County DSS – TEFAP Monthly Food Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "public",
-    "description": "Monthly USDA Emergency Food Assistance Program (TEFAP) food distribution held at the Orange County Social Services office.",
-    "address": "Orange County DSS Office, 113 Mayo St, Hillsborough, NC 27278",
-    "url": "https://www.orangecountync.gov/3110/The-Emergency-Food-Assistance-Program-TE",
-    "phone": "(919) 245-2800",
-    "hours": "4th Thursday of each month, starting 9:00 AM; first-come, first-served while supplies last",
-    "access": "Must receive Food and Nutrition Services (FNS/SNAP) benefits or meet TEFAP income guidelines",
-    "cost": "free",
-    "source_url": "https://www.orangecountync.gov/3110/The-Emergency-Food-Assistance-Program-TE",
-    "notes": "Dates may change if the agency is closed. This is a monthly distribution, not a walk-in pantry."
-  },
-  {
-    "name": "Mt. Zion AME Church (Cedar Grove) – Food Pantry",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food pantry with a monthly food box distribution.",
-    "address": "5124 NC Hwy 86 N, Hillsborough, NC 27278",
-    "url": "https://www.mtzionamehillsborough.org/",
-    "phone": "(919) 732-5450",
-    "hours": "3rd Friday of each month, 9:30–11:00 AM; appointments available on request",
-    "access": "Call (919) 732-5450 to request an appointment outside the distribution",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "Schedule from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's own website confirms the address and phone but doesn't describe the pantry."
-  },
-  {
-    "name": "Hillsborough Church of God – Food Pantry",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food pantry plus monthly drive-thru food box distributions on Thursdays.",
-    "address": "2412 NC Hwy 86 S, Hillsborough, NC 27278",
-    "url": "",
-    "phone": "(919) 923-0812",
-    "hours": "Thursdays 10:00 AM–12:00 PM: pantry on 1st, 4th and 5th Thursdays; drive-thru on 2nd Thursday (TEFAP only) and 3rd Thursday",
-    "access": "The 2nd-Thursday drive-thru is TEFAP only, which normally means meeting federal income guidelines",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found."
-  },
-  {
-    "name": "Hillsborough Seventh-day Adventist Church – Monthly Food Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Monthly drive-thru food box distribution. A sign is posted at the road on distribution days.",
-    "address": "1808 NC Hwy 86 N, Hillsborough, NC 27278",
-    "url": "https://hillsboroughadventist.org/ministries/community-services",
-    "phone": "(919) 259-1735",
-    "hours": "3rd Monday of each month (church site: 11:30 AM–2:00 PM; county Extension list: 1:00–3:00 PM drive-thru)",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://hillsboroughadventist.org/ministries/community-services",
-    "notes": "The two sources give different times, so call to confirm. The phone number is from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026)."
-  },
-  {
-    "name": "Jones Grove Missionary Baptist Church – Food Pantry & Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Monthly food boxes: an appointment-only pantry day plus a drive-thru distribution.",
-    "address": "2713 Coleman Loop Rd, Hillsborough, NC 27278",
-    "url": "",
-    "phone": "(336) 214-9273",
-    "hours": "3rd Friday (by appointment only); 3rd Saturday drive-thru 8:00–10:00 AM",
-    "access": "Appointment required for the 3rd-Friday pantry",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found."
-  },
-  {
-    "name": "Life Point Church – The Storehouse",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food pantry that collects donated food from local grocery stores and hands it out to families on Saturdays.",
-    "address": "121 Orange High School Rd, Hillsborough, NC 27278 (behind Hillsborough Christian Academy)",
-    "url": "https://www.lifepointnc.org/outreach",
-    "phone": "(919) 638-9700",
-    "hours": "1st, 2nd and 4th Saturdays, 12:00–1:00 PM",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "Days and times from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's outreach page (lifepointchurch1.snappages.site/outreach) confirms the Storehouse gives out food on Saturday mornings and says it works with Orange County Social Services on non-food needs. Contact: office@lifepointnc.org."
-  },
-  {
-    "name": "Mebane's Chapel United Holy Church – Food Distribution & Pantry",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Monthly food box distribution, plus a food pantry by reservation.",
-    "address": "421 W Union St, Hillsborough, NC 27278",
-    "url": "",
-    "phone": "(919) 225-1228",
-    "hours": "1st Friday of each month, 11:00 AM–12:00 PM (food boxes); pantry by reservation",
-    "access": "Call to reserve a pantry visit",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found."
-  },
-  {
-    "name": "Piney Grove Baptist Church – Food Distribution",
-    "city": "Hillsborough",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Monthly drive-thru food box distribution.",
-    "address": "1929 Piney Grove Rd, Hillsborough, NC 27278",
-    "url": "",
-    "phone": "(919) 939-3186",
-    "hours": "1st Friday of each month, 1:00–2:00 PM (drive-thru)",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found."
-  },
-  {
-    "name": "Amity United Methodist Church – Food Pantry",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food pantry open twice a month.",
-    "address": "825 N Estes Dr, Chapel Hill, NC 27514",
-    "url": "https://amityumc.org/",
-    "phone": "(919) 967-7546",
-    "hours": "2nd and 4th Thursdays, 10:00 AM–12:00 PM",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://amityumc.org/",
-    "notes": "The church website's events list gives the 2nd/4th Thursday 10 AM–12 PM schedule, and the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) agrees. That list gives a pantry phone of 984-234-0055; the church office is (919) 967-7546. Chapel Hill Transit G stops on Estes Dr."
-  },
-  {
-    "name": "Hillside Church – Food Pantry",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food pantry giving out food boxes twice a month in the church's lower level.",
-    "address": "201 Culbreth Rd, Chapel Hill, NC 27516",
-    "url": "https://hillsidenc.org/",
-    "phone": "(919) 967-3056",
-    "hours": "1st and 3rd Saturdays, 11:00 AM–12:00 PM",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "Schedule from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's own site (hillsidenc.org/food-distribution-now-weekly/) also gives 1st and 3rd Saturdays at 11 AM in the lower level. Email: info@hillsidenc.org."
-  },
-  {
-    "name": "Rogers-Eubanks Neighborhood Association (RENA) – Food Pantry & Distribution",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "community_org",
-    "description": "Community center food bank serving about 100 families: in-person food box pickup plus a monthly drive-thru distribution.",
-    "address": "RENA Community Center, 101 Edgar St, Chapel Hill, NC 27516",
-    "url": "https://www.renacommunitycenter.com/esl",
-    "phone": "(919) 918-2822",
-    "hours": "2nd Tuesday 11:00 AM–3:30 PM (in person); 3rd Saturday 10:30 AM–3:30 PM drive-thru, or until supplies run out",
-    "access": "You must turn in a food assistance application before pickup. Download it from RENA's website or get one at the center, then email it to jameshacannonphillips@gmail.com",
-    "cost": "free",
-    "source_url": "https://www.renacommunitycenter.com/esl",
-    "notes": "RENA's own page requires the application and says to call if you are in serious need of food. Hours come from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) and a Nov 2025 Chapelboro food guide. Chapel Hill Transit HS stops nearby on weekdays."
-  },
-  {
-    "name": "St. John United Holy Church – Food Distribution",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "faith_based",
-    "description": "Church food box distribution twice a month.",
-    "address": "607 Pine Acres Rd, Chapel Hill, NC 27516",
-    "url": "",
-    "phone": "(919) 967-2318",
-    "hours": "2nd and 4th Saturdays, 10:00 AM–12:00 PM",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
-    "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found."
-  }
+ {
+  "name": "PORCH Hillsborough – Fairview Park Food Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Monthly drive-thru food box distribution run by PORCH Hillsborough. PORCH adds fresh eggs, cheese, protein and sometimes grocery gift cards.",
+  "address": "Fairview Park, 192 Torain St (at Torain St & Rainey Ave), Hillsborough, NC 27278",
+  "url": "https://porchcommunities.org/hillsborough",
+  "phone": "(919) 213-0492",
+  "hours": "3rd Thursday of each month, 9:15 AM",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://porchcommunities.org/hillsborough",
+  "notes": "PORCH's events calendar lists Nov 19 and Dec 17, 2026 at 9:15 AM and gives the location as the intersection of Torain St & Rainey Ave. The N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) gives 192 Torain St, 9:30 AM, drive-thru, and the phone number. Get there for the earlier time.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "PORCH Hillsborough – Cedar Grove Community Center Food Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Monthly drive-thru food box distribution in northern Orange County, run by PORCH Hillsborough.",
+  "address": "Cedar Grove Community Center, 5800 NC Hwy 86 N, Hillsborough, NC 27278",
+  "url": "https://porchcommunities.org/hillsborough",
+  "phone": "(919) 213-0492",
+  "hours": "2nd Friday of each month, 8:15 AM (drive-thru)",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://porchcommunities.org/hillsborough",
+  "notes": "PORCH's events calendar lists Nov 13 and Dec 11, 2026 (2nd Fridays) at 8:15 AM, and the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) agrees. PORCH's Local Resources page still says 4th Friday, so that page looks out of date. PORCH says the date can change around holidays: check facebook.com/porch.hillsborough or email porchcg@gmail.com.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County DSS – TEFAP Monthly Food Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "public",
+  "description": "Monthly USDA Emergency Food Assistance Program (TEFAP) food distribution held at the Orange County Social Services office.",
+  "address": "Orange County DSS Office, 113 Mayo St, Hillsborough, NC 27278",
+  "url": "https://www.orangecountync.gov/3110/The-Emergency-Food-Assistance-Program-TE",
+  "phone": "(919) 245-2800",
+  "hours": "4th Thursday of each month, starting 9:00 AM; first-come, first-served while supplies last",
+  "access": "Must receive Food and Nutrition Services (FNS/SNAP) benefits or meet TEFAP income guidelines",
+  "cost": "free",
+  "source_url": "https://www.orangecountync.gov/3110/The-Emergency-Food-Assistance-Program-TE",
+  "notes": "Dates may change if the agency is closed. This is a monthly distribution, not a walk-in pantry.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mt. Zion AME Church (Cedar Grove) – Food Pantry",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food pantry with a monthly food box distribution.",
+  "address": "5124 NC Hwy 86 N, Hillsborough, NC 27278",
+  "url": "https://www.mtzionamehillsborough.org/",
+  "phone": "(919) 732-5450",
+  "hours": "3rd Friday of each month, 9:30–11:00 AM; appointments available on request",
+  "access": "Call (919) 732-5450 to request an appointment outside the distribution",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "Schedule from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's own website confirms the address and phone but doesn't describe the pantry.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillsborough Church of God – Food Pantry",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food pantry plus monthly drive-thru food box distributions on Thursdays.",
+  "address": "2412 NC Hwy 86 S, Hillsborough, NC 27278",
+  "url": "",
+  "phone": "(919) 923-0812",
+  "hours": "Thursdays 10:00 AM–12:00 PM: pantry on 1st, 4th and 5th Thursdays; drive-thru on 2nd Thursday (TEFAP only) and 3rd Thursday",
+  "access": "The 2nd-Thursday drive-thru is TEFAP only, which normally means meeting federal income guidelines",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillsborough Seventh-day Adventist Church – Monthly Food Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Monthly drive-thru food box distribution. A sign is posted at the road on distribution days.",
+  "address": "1808 NC Hwy 86 N, Hillsborough, NC 27278",
+  "url": "https://hillsboroughadventist.org/ministries/community-services",
+  "phone": "(919) 259-1735",
+  "hours": "3rd Monday of each month (church site: 11:30 AM–2:00 PM; county Extension list: 1:00–3:00 PM drive-thru)",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://hillsboroughadventist.org/ministries/community-services",
+  "notes": "The two sources give different times, so call to confirm. The phone number is from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026).",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Jones Grove Missionary Baptist Church – Food Pantry & Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Monthly food boxes: an appointment-only pantry day plus a drive-thru distribution.",
+  "address": "2713 Coleman Loop Rd, Hillsborough, NC 27278",
+  "url": "",
+  "phone": "(336) 214-9273",
+  "hours": "3rd Friday (by appointment only); 3rd Saturday drive-thru 8:00–10:00 AM",
+  "access": "Appointment required for the 3rd-Friday pantry",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Life Point Church – The Storehouse",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food pantry that collects donated food from local grocery stores and hands it out to families on Saturdays.",
+  "address": "121 Orange High School Rd, Hillsborough, NC 27278 (behind Hillsborough Christian Academy)",
+  "url": "https://www.lifepointnc.org/outreach",
+  "phone": "(919) 638-9700",
+  "hours": "1st, 2nd and 4th Saturdays, 12:00–1:00 PM",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "Days and times from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's outreach page (lifepointchurch1.snappages.site/outreach) confirms the Storehouse gives out food on Saturday mornings and says it works with Orange County Social Services on non-food needs. Contact: office@lifepointnc.org.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mebane's Chapel United Holy Church – Food Distribution & Pantry",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Monthly food box distribution, plus a food pantry by reservation.",
+  "address": "421 W Union St, Hillsborough, NC 27278",
+  "url": "",
+  "phone": "(919) 225-1228",
+  "hours": "1st Friday of each month, 11:00 AM–12:00 PM (food boxes); pantry by reservation",
+  "access": "Call to reserve a pantry visit",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Piney Grove Baptist Church – Food Distribution",
+  "city": "Hillsborough",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Monthly drive-thru food box distribution.",
+  "address": "1929 Piney Grove Rd, Hillsborough, NC 27278",
+  "url": "",
+  "phone": "(919) 939-3186",
+  "hours": "1st Friday of each month, 1:00–2:00 PM (drive-thru)",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Amity United Methodist Church – Food Pantry",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food pantry open twice a month.",
+  "address": "825 N Estes Dr, Chapel Hill, NC 27514",
+  "url": "https://amityumc.org/",
+  "phone": "(919) 967-7546",
+  "hours": "2nd and 4th Thursdays, 10:00 AM–12:00 PM",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://amityumc.org/",
+  "notes": "The church website's events list gives the 2nd/4th Thursday 10 AM–12 PM schedule, and the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) agrees. That list gives a pantry phone of 984-234-0055; the church office is (919) 967-7546. Chapel Hill Transit G stops on Estes Dr.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillside Church – Food Pantry",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food pantry giving out food boxes twice a month in the church's lower level.",
+  "address": "201 Culbreth Rd, Chapel Hill, NC 27516",
+  "url": "https://hillsidenc.org/",
+  "phone": "(919) 967-3056",
+  "hours": "1st and 3rd Saturdays, 11:00 AM–12:00 PM",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "Schedule from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). The church's own site (hillsidenc.org/food-distribution-now-weekly/) also gives 1st and 3rd Saturdays at 11 AM in the lower level. Email: info@hillsidenc.org.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Rogers-Eubanks Neighborhood Association (RENA) – Food Pantry & Distribution",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "community_org",
+  "description": "Community center food bank serving about 100 families: in-person food box pickup plus a monthly drive-thru distribution.",
+  "address": "RENA Community Center, 101 Edgar St, Chapel Hill, NC 27516",
+  "url": "https://www.renacommunitycenter.com/esl",
+  "phone": "(919) 918-2822",
+  "hours": "2nd Tuesday 11:00 AM–3:30 PM (in person); 3rd Saturday 10:30 AM–3:30 PM drive-thru, or until supplies run out",
+  "access": "You must turn in a food assistance application before pickup. Download it from RENA's website or get one at the center, then email it to jameshacannonphillips@gmail.com",
+  "cost": "free",
+  "source_url": "https://www.renacommunitycenter.com/esl",
+  "notes": "RENA's own page requires the application and says to call if you are in serious need of food. Hours come from the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026) and a Nov 2025 Chapelboro food guide. Chapel Hill Transit HS stops nearby on weekdays.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. John United Holy Church – Food Distribution",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Church food box distribution twice a month.",
+  "address": "607 Pine Acres Rd, Chapel Hill, NC 27516",
+  "url": "",
+  "phone": "(919) 967-2318",
+  "hours": "2nd and 4th Saturdays, 10:00 AM–12:00 PM",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/foodsecurity/find-food-in-orange-county/",
+  "notes": "From the N.C. Cooperative Extension Orange County food resource list (updated Aug 18, 2026). No church website was found.",
+  "checked": "2026-11-10"
+ }
 ]

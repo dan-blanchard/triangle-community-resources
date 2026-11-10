@@ -1,0 +1,39 @@
+name: Report a change
+description: Something on the resources page is wrong, outdated, or closed.
+title: "Change: "
+labels: ["report-change"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Triangle Community Resources page accurate.
+        **This report is public.** Please don't include personal details (yours or anyone else's).
+  - type: input
+    id: resource
+    attributes:
+      label: Which resource?
+      description: Name and town, as shown on the page.
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What changed?
+      options:
+        - Hours or schedule
+        - Address or location
+        - Phone, website, or social account
+        - Who can use it / requirements
+        - It has closed or stopped running
+        - It requires religious participation
+        - It isn't free / is a business
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What's wrong, and what's correct now? A link to where you saw the new info helps a lot.
+    validations:
+      required: true

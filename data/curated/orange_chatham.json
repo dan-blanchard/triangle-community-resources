@@ -1,659 +1,696 @@
 [
-  {
-    "name": "Carrboro Really Really Free Market",
-    "city": "Carrboro",
-    "categories": [
-      "Free Stores & Swaps",
-      "Clothing & Household",
-      "Mutual Aid Networks"
-    ],
-    "org_type": "mutual_aid",
-    "description": "Monthly leaderless free market running since the early 2000s: bring what you want to give, take what you can use. Nothing is bought, sold or bartered. Clothing, books, toys, household goods, food and music.",
-    "address": "Carrboro Town Commons, 301 W. Main St, Carrboro, NC 27510",
-    "url": "https://triangleonthecheap.com/carrboro-really-really-free-market/",
-    "phone": "",
-    "hours": "First Saturday of each month, 2–4 pm",
-    "access": "Open to everyone; no need to bring anything to take something",
-    "cost": "free",
-    "source_url": "https://triangleonthecheap.com/carrboro-really-really-free-market/",
-    "notes": "Listing updated Nov 2026. Organizers post updates on Instagram (Carrboro Really Really Free Market); the exact handle was not confirmed."
-  },
-  {
-    "name": "The ReCYCLEry (community bike co-op)",
-    "city": "Carrboro",
-    "categories": [
-      "Bikes & Transportation",
-      "Makerspaces & Repair"
-    ],
-    "org_type": "community_org",
-    "description": "Volunteer-run nonprofit bike co-op. At open workshops you can fix your own bike with free tools and help from volunteer mechanics, and earn a refurbished bike by working on it.",
-    "address": "Dr. Martin Luther King Jr. Park, 1120 Hillsborough Rd, Carrboro, NC 27510 (between the pump track and the community gardens)",
-    "url": "https://www.recyclery.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Drop in during open workshop hours",
-    "cost": "free",
-    "source_url": "https://www.recyclery.org/",
-    "notes": "Moved to MLK Park in 2025 and says it is restarting workshop hours in a limited capacity. Its website gives no current schedule, so check Instagram @recyclerync or the site's Events page. The free-parts and earn-a-bike details come from a 2022 Local Reporter column."
-  },
-  {
-    "name": "Triangle Mutual Aid",
-    "city": "Triangle-wide",
-    "categories": [
-      "Mutual Aid Networks",
-      "Food"
-    ],
-    "org_type": "mutual_aid",
-    "description": "Volunteer mutual-aid network that organized flood and disaster relief, including after Tropical Storm Chantal in Chapel Hill and Orange County. It runs food and supply drives with partner groups and immigrant-led collectives.",
-    "address": "",
-    "url": "https://trianglemutualaid.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Join through their Signal chats or contact form. No public distribution hub; food is routed through partner groups.",
-    "cost": "free",
-    "source_url": "https://trianglemutualaid.org/",
-    "notes": "The site says TMA cannot respond directly to individual food requests. Current drop-off points and needs lists are posted on its Instagram."
-  },
-  {
-    "name": "Refugee Community Partnership (RCP)",
-    "city": "Carrboro",
-    "categories": [
-      "Mutual Aid Networks",
-      "Legal & Immigration",
-      "Kids & Families"
-    ],
-    "org_type": "community_org",
-    "description": "Grassroots group that builds mutual aid and collective care with refugee and migrant families in Orange County. Work includes language justice and interpretation access, health access organizing, neighborhood pods and help through crises such as SNAP disruptions.",
-    "address": "PO Box 461, Carrboro, NC 27510 (mailing)",
-    "url": "https://refugeecommunitypartnership.org/",
-    "phone": "(919) 590-5910",
-    "hours": "",
-    "access": "Contact by phone or info@refugeecommunitypartnership.org",
-    "cost": "free",
-    "source_url": "https://refugeecommunitypartnership.org/",
-    "notes": "Active in 2026. The site does not describe a walk-in intake process."
-  },
-  {
-    "name": "Feed-Well Fridge – Cedar Grove United Methodist Church",
-    "city": "Pittsboro",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "community_org",
-    "description": "Free community fridge stocked with rescued food and chef-prepared meals by Feed-Well Fridges. Take any food you want and leave what you don't.",
-    "address": "2791 Jones Ferry Rd, Pittsboro, NC 27312",
-    "url": "https://feedwellfridges.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Free and publicly accessible; no questions asked",
-    "cost": "free",
-    "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
-    "notes": "The address comes from the map link on the locations page. Hours aren't posted. The fridge is hosted at a church, with no participation required. Contact feedwellfridges@gmail.com or Instagram @feed_well_fridges."
-  },
-  {
-    "name": "Feed-Well Fridge – CORA Food Pantry",
-    "city": "Pittsboro",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "community_org",
-    "description": "Free community fridge from Feed-Well Fridges at the CORA food pantry, stocked with rescued food and prepared meals.",
-    "address": "40 Camp Dr, Pittsboro, NC 27312",
-    "url": "https://feedwellfridges.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Free and publicly accessible",
-    "cost": "free",
-    "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
-    "notes": "Listed on Feed-Well's locations page as 'CORA Food Pantry' without a street address; the CORA address is from corafoodpantry.org. Hours aren't posted."
-  },
-  {
-    "name": "Feed-Well Fridge – Evergreen United Methodist Church",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "community_org",
-    "description": "Free community fridge from Feed-Well Fridges, stocked with rescued groceries and chef-prepared meals. Take what you need.",
-    "address": "11098 US Hwy 15-501 N, Chapel Hill, NC 27517",
-    "url": "https://feedwellfridges.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Free and publicly accessible",
-    "cost": "free",
-    "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
-    "notes": "This site is in the Chatham County part of Chapel Hill. The address comes from the map link and hours aren't posted. A Chapelboro story from Aug 2026 confirms the fridge network is active."
-  },
-  {
-    "name": "IFC Community Kitchen",
-    "city": "Carrboro",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "nonprofit",
-    "description": "Free hot meals every day of the year for anyone who is hungry, no questions asked. Dine in or take out.",
-    "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
-    "url": "https://www.ifcweb.org/programs/community-kitchen/",
-    "phone": "(919) 929-6380 x2000",
-    "hours": "Lunch Mon–Fri 11:15 am–12:30 pm and Sat, Sun & holidays 11:15 am–noon; dinner Mon–Fri 5–5:45 pm",
-    "access": "No questions asked; open to anyone",
-    "cost": "free",
-    "source_url": "https://www.ifcweb.org/programs/community-kitchen/",
-    "notes": "Inter-Faith Council for Social Service is a secular-service nonprofit with no religious requirement. Served by the J bus."
-  },
-  {
-    "name": "IFC Community Market (free grocery pantry)",
-    "city": "Carrboro",
-    "categories": [
-      "Food",
-      "Hygiene & Laundry",
-      "Clothing & Household"
-    ],
-    "org_type": "nonprofit",
-    "description": "No-cost food market with groceries, fresh produce, pantry staples, hygiene items and household essentials.",
-    "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
-    "url": "https://www.ifcweb.org/programs/community-market/",
-    "phone": "(919) 929-6380 (press 0 to book)",
-    "hours": "Shopping by appointment, Mon–Fri",
-    "access": "Serves Chapel Hill and Carrboro households; call to schedule a shopping appointment",
-    "cost": "free",
-    "source_url": "https://www.ifcweb.org/programs/community-market/",
-    "notes": "IFC's page does not list ID or proof-of-residency requirements. Ask when you call."
-  },
-  {
-    "name": "IFC Community Navigation (drop-in day services)",
-    "city": "Carrboro",
-    "categories": [
-      "Hygiene & Laundry",
-      "Housing & Shelter",
-      "Learning & Tech Access",
-      "Clothing & Household"
-    ],
-    "org_type": "nonprofit",
-    "description": "No-charge drop-in center with showers, lockers, phones, internet, free Wi-Fi, printers, blankets and clothing vouchers. You can use it as a mailing address. Staff help with getting ID, jobs, housing and medical referrals.",
-    "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
-    "url": "https://www.ifcweb.org/programs/community-navigation/",
-    "phone": "(919) 929-6380 x2025",
-    "hours": "Mon–Fri 10 am–6 pm (Thursday hours unclear on IFC's page; call to check). Closed IFC holidays.",
-    "access": "Drop-in, no charge",
-    "cost": "free",
-    "source_url": "https://www.ifcweb.org/programs/community-navigation/",
-    "notes": "Laundry is not listed. The Orange County Housing Helpline holds drop-in hours here on Mondays, and SHAC distributes syringe-services supplies here."
-  },
-  {
-    "name": "IFC Community House (men's shelter)",
-    "city": "Chapel Hill",
-    "categories": [
-      "Housing & Shelter"
-    ],
-    "org_type": "nonprofit",
-    "description": "Year-round shelter for men experiencing homelessness, with help finding permanent housing. From November through March it adds cold-weather beds for 17 more men.",
-    "address": "1315 Martin Luther King Jr. Blvd, Chapel Hill, NC 27514",
-    "url": "https://www.ifcweb.org/programs/community-house/",
-    "phone": "(919) 929-6380 x3000 (cold-weather beds); Housing Helpline (919) 245-2655 (regular beds)",
-    "hours": "Mon–Fri 4 pm–8 am; open 24 hours Sat, Sun and holidays",
-    "access": "Regular beds are by referral through the Orange County Housing Helpline. For cold-weather beds, call IFC directly.",
-    "cost": "free",
-    "source_url": "https://www.ifcweb.org/programs/community-house/",
-    "notes": "Open to admitted residents only. Orange County has no same-day shelter, so call the Helpline early."
-  },
-  {
-    "name": "IFC HomeStart (women and families shelter)",
-    "city": "Chapel Hill",
-    "categories": [
-      "Housing & Shelter",
-      "Kids & Families"
-    ],
-    "org_type": "nonprofit",
-    "description": "Year-round shelter for women and families experiencing homelessness. From November through March it adds three cold-weather beds for women.",
-    "address": "2505 Homestead Rd, Chapel Hill, NC 27516",
-    "url": "https://www.ifcweb.org/programs/homestart/",
-    "phone": "(919) 929-6380 x4000 (cold-weather beds); Housing Helpline (919) 245-2655 (regular beds)",
-    "hours": "",
-    "access": "Regular beds are by referral through the Orange County Housing Helpline. For cold-weather beds, call IFC.",
-    "cost": "free",
-    "source_url": "https://www.ifcweb.org/programs/homestart/",
-    "notes": ""
-  },
-  {
-    "name": "Orange County Housing Helpline",
-    "city": "Chapel Hill",
-    "categories": [
-      "Housing & Shelter",
-      "Legal & Immigration"
-    ],
-    "org_type": "public",
-    "description": "Single entry point for shelter referrals (Coordinated Entry), eviction diversion with free legal help for people with a court summons, affordable-rental listings and referrals. It also runs cold-weather cots from Nov 1 to Mar 31 on nights forecast below 32°F.",
-    "address": "Southern Human Services Center, 2501 Homestead Rd, Chapel Hill, NC 27516",
-    "url": "https://orangecountync.gov/3706/Housing-Helpline",
-    "phone": "(919) 245-2655",
-    "hours": "Phone Mon–Fri 10 am–4 pm. In person: Southern Human Services Mon–Fri 8:30 am–4 pm; Hillsborough Commons (113 Mayo St) Wed 8:30 am–4 pm; IFC Commons Carrboro Mon 11 am–2 pm",
-    "access": "Free. Interpretation in 200+ languages. Email housinghelp@orangecountync.gov anytime.",
-    "cost": "free",
-    "source_url": "https://orangecountync.gov/3706/Housing-Helpline",
-    "notes": "Orange County has no same-day shelter. The shelter-list interview takes about 45 minutes, in person or by phone. The Helpline does not do housing searches. Cold-weather cots are first-come, first-served."
-  },
-  {
-    "name": "Community Empowerment Fund (CEF)",
-    "city": "Carrboro",
-    "categories": [
-      "Money & Utilities",
-      "Housing & Shelter",
-      "Mutual Aid Networks"
-    ],
-    "org_type": "community_org",
-    "description": "Relationship-based nonprofit where volunteer advocates work one-on-one with members facing homelessness or poverty on housing, jobs, savings and benefits. It also runs the OC Connect resource database and financial classes.",
-    "address": "125 W. Main St, Suite 200, Carrboro, NC 27510",
-    "url": "https://communityempowermentfund.org/",
-    "phone": "(919) 200-0233",
-    "hours": "",
-    "access": "Free membership. Contact info@communityempowermentfund.org.",
-    "cost": "free",
-    "source_url": "https://communityempowermentfund.org/",
-    "notes": "The Chapel Hill office moved to Carrboro in July 2025. Office hours are posted only as an image on the site. The first-time homebuyer program is paused."
-  },
-  {
-    "name": "SHAC Free Medical Clinic (UNC student-run)",
-    "city": "Carrboro",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "community_org",
-    "description": "Free student-run clinic supervised by UNC clinicians. Offers acute care, physicals, vaccines, labs, an on-site pharmacy, STI testing, social work and interpreters (Spanish and Mandarin). Monthly specialty clinics include gender-affirming care, mental health, eye care, physical therapy and nutrition.",
-    "address": "Carrboro Community Health Center, 301 Lloyd St, Carrboro, NC 27510",
-    "url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
-    "phone": "(984) 538-1031",
-    "hours": "Wednesdays 6–10 pm (check in by 8:30 pm)",
-    "access": "Free. Call and leave your name, number and reason for visit, or use the online form. Telehealth available.",
-    "cost": "free",
-    "source_url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
-    "notes": "Serves people who can't access the health care system. No insurance, ID or income requirements are listed. Acute needs only (no x-rays). Medication refill line: (919) 442-8207."
-  },
-  {
-    "name": "SHAC Dental Clinic (UNC student-run)",
-    "city": "Chapel Hill",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "community_org",
-    "description": "Free student-run dental clinic at the UNC School of Dentistry.",
-    "address": "UNC School of Dentistry, 101 Manning Dr, Chapel Hill, NC 27514",
-    "url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
-    "phone": "",
-    "hours": "Select Wednesdays, 6–9 pm",
-    "access": "Walk-in lottery; appointments can't be booked through the medical clinic form",
-    "cost": "free",
-    "source_url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
-    "notes": "SHAC's site gives two addresses for the dental school: 101 Manning Dr and 120 Dental Cir (Tarrson Hall). Confirm before going."
-  },
-  {
-    "name": "SHAC Syringe Services Program",
-    "city": "Carrboro",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "community_org",
-    "description": "Free, legal syringes and injection supplies, naloxone, fentanyl and xylazine test strips, and first-aid kits. Referrals to treatment and HIV/STI testing if you want them. Supplies can also be ordered online.",
-    "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
-    "url": "https://med.unc.edu/shac/programs/syringe-services-program",
-    "phone": "",
-    "hours": "IFC Carrboro: Mon & Wed 4–5:45 pm. SHAC Dental Clinic (Tarrson Hall, 120 Dental Cir, Chapel Hill): Wed 5:30–8 pm",
-    "access": "Free, no questions asked",
-    "cost": "free",
-    "source_url": "https://med.unc.edu/shac/programs/syringe-services-program",
-    "notes": "Updates are posted on Instagram @unc.shac.ssp. Email shac_ssp@med.unc.edu; online ordering at linktr.ee/shacssp."
-  },
-  {
-    "name": "Piedmont Health – Carrboro Community Health Center",
-    "city": "Carrboro",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "nonprofit",
-    "description": "Federally qualified community health center offering medical care, plus pharmacy, behavioral health and other services depending on site. Uninsured patients are welcome.",
-    "address": "301 Lloyd St, Carrboro, NC 27510",
-    "url": "https://piedmonthealth.org/chc-locations-overview",
-    "phone": "(919) 942-8741",
-    "hours": "",
-    "access": "Accepts all patients regardless of insurance; sliding-fee discount based on household income and family size",
-    "cost": "sliding_scale",
-    "source_url": "https://piedmonthealth.org/faqs/",
-    "notes": "Piedmont says it does not provide free services; the discount is applied to fees. Hours vary by department, so call. Main line (888) 200-7001; text (704) 471-6008."
-  },
-  {
-    "name": "Piedmont Health – Chapel Hill Community Health Center",
-    "city": "Chapel Hill",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "nonprofit",
-    "description": "Federally qualified community health center with sliding-fee medical care. A separate Piedmont dental center is next door at 105 Conner Dr, Suite 2100, (919) 951-7583.",
-    "address": "107 Conner Dr, Chapel Hill, NC 27514",
-    "url": "https://piedmonthealth.org/chc-locations-overview",
-    "phone": "(919) 951-7600",
-    "hours": "",
-    "access": "Accepts all patients regardless of insurance; sliding-fee discount based on household income and family size",
-    "cost": "sliding_scale",
-    "source_url": "https://piedmonthealth.org/faqs/",
-    "notes": ""
-  },
-  {
-    "name": "Orange County Health Department – free naloxone and syringe access",
-    "city": "Chapel Hill",
-    "categories": [
-      "Health & Harm Reduction"
-    ],
-    "org_type": "public",
-    "description": "Free naloxone kits (two nasal doses plus fentanyl and xylazine test strips) with training, and syringe exchange through the NC Safer Syringe Initiative. Replacement kits are available.",
-    "address": "Southern Human Services Center, 2501 Homestead Rd, Chapel Hill, NC 27516",
-    "url": "https://orangecountync.gov/1780/Overdose-Prevention",
-    "phone": "(919) 245-2400 (press 2)",
-    "hours": "",
-    "access": "Free. The county's 2024 flyer says to call ahead for an appointment.",
-    "cost": "free",
-    "source_url": "https://orangecountync.gov/1780/Overdose-Prevention",
-    "notes": "Per the county's July 2024 harm-reduction flyer, also available at the Whitted Building, 300 W. Tryon St, Hillsborough. That flyer also lists free Narcan vending machines in the lobbies of Southern Human Services and the Orange County Detention Center (1200 US 70 W, Hillsborough). Vending locations were not reconfirmed in 2025–26."
-  },
-  {
-    "name": "Freedom House Recovery Center – Facility-Based Crisis Center",
-    "city": "Chapel Hill",
-    "categories": [
-      "Mental Health & Crisis",
-      "Health & Harm Reduction"
-    ],
-    "org_type": "nonprofit",
-    "description": "16-bed crisis unit for adults in an acute mental health or substance use crisis. Provides detox and withdrawal monitoring, medication stabilization, psychiatric evaluation and discharge planning, with stays of up to 7 days. Meals and hygiene supplies are provided.",
-    "address": "110 New Stateside Dr, Chapel Hill, NC 27516",
-    "url": "https://freedomhouserecovery.org/services/facility-based-crisis/",
-    "phone": "(919) 967-8844",
-    "hours": "24/7/365",
-    "access": "Adults 18+. Accepts Medicaid Standard and Tailored Plans and uninsured NC residents. Call for bed availability.",
-    "cost": "sliding_scale",
-    "source_url": "https://freedomhouserecovery.org/services/facility-based-crisis/",
-    "notes": "Freedom House Mobile Crisis Team: (866) 275-9552. Outpatient clinic and admin offices are at 104 New Stateside Dr, Bldg 102 (Mon–Fri 8:30 am–5 pm, (919) 942-2803). Cost for uninsured clients isn't stated, so cost is recorded as sliding scale."
-  },
-  {
-    "name": "Compass Center for Women and Families",
-    "city": "Chapel Hill",
-    "categories": [
-      "Safety & Domestic Violence",
-      "Money & Utilities"
-    ],
-    "org_type": "nonprofit",
-    "description": "Domestic violence crisis services with a 24/7 crisis line, plus one-on-one career and financial coaching and connections to community resources.",
-    "address": "210 Henderson St, Chapel Hill, NC 27514",
-    "url": "https://compassctr.org/",
-    "phone": "24/7 DV crisis line (919) 929-7122; office (919) 968-4610",
-    "hours": "Office Mon–Fri 9 am–5 pm; crisis line 24/7",
-    "access": "Free and voluntary; many services in Spanish",
-    "cost": "free",
-    "source_url": "https://compassctr.org/",
-    "notes": "No shelter on site; the crisis line can help connect callers with emergency shelter."
-  },
-  {
-    "name": "Orange County Rape Crisis Center",
-    "city": "Chapel Hill",
-    "categories": [
-      "Safety & Domestic Violence",
-      "Mental Health & Crisis"
-    ],
-    "org_type": "nonprofit",
-    "description": "24/7 free, confidential helpline by call, text or online chat for survivors of sexual violence. Also offers advocacy, support groups, therapy and legal resources, with services in Spanish.",
-    "address": "1229 E. Franklin St, Chapel Hill, NC 27514",
-    "url": "https://ocrcc.org/get-help/helpline/",
-    "phone": "24/7 call or text (919) 967-7273; office (919) 968-4647",
-    "hours": "Helpline 24/7",
-    "access": "Free and confidential. Ages 13–17 served, but ongoing services need parental consent.",
-    "cost": "free",
-    "source_url": "https://ocrcc.org/get-help/helpline/",
-    "notes": "Second office at 210 Cornelius St, Hillsborough. The site still shows an old COVID office-closure notice; call before visiting in person."
-  },
-  {
-    "name": "Second Bloom of Chatham",
-    "city": "Pittsboro",
-    "categories": [
-      "Safety & Domestic Violence"
-    ],
-    "org_type": "nonprofit",
-    "description": "24/7/365 helpline, advocacy and support for survivors of intimate partner violence, sexual violence and human trafficking in Chatham County.",
-    "address": "136 West St, Pittsboro, NC 27312",
-    "url": "https://www.secondbloomofchatham.org/",
-    "phone": "24/7 helpline (919) 545-0055; office (919) 533-6864",
-    "hours": "Helpline 24/7/365",
-    "access": "Free",
-    "cost": "free",
-    "source_url": "https://www.secondbloomofchatham.org/",
-    "notes": "It also runs a thrift shop (paid, not free) at 630 East St, Pittsboro, open Tue–Sun 10 am–5 pm, (919) 545-0005."
-  },
-  {
-    "name": "CORA Food Pantry (Chatham Outreach Alliance)",
-    "city": "Pittsboro",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "nonprofit",
-    "description": "Choice-style pantry that works like a grocery store: free groceries, fresh produce, frozen foods and proteins, about a week of food per visit. Friday is drive-through, and grocery delivery is available.",
-    "address": "40 Camp Dr, Pittsboro, NC 27312",
-    "url": "https://www.corafoodpantry.org/",
-    "phone": "(919) 542-5020",
-    "hours": "Pittsboro pantry Mon–Thu 10 am–2 pm, Fri 10 am–noon (drive-through)",
-    "access": "Free groceries for anyone in need of food; up to two visits a month",
-    "cost": "free",
-    "source_url": "https://www.corafoodpantry.org/how-we-serve/choice-food-pantries/",
-    "notes": "Check-in requirements aren't spelled out on the site, so call ahead. It also runs a Siler City pantry, a Mobile Market and kids' programs (SNACK!, CORApacks). A Feed-Well community fridge is on site."
-  },
-  {
-    "name": "Chapel Hill Town Food Distribution",
-    "city": "Chapel Hill",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "public",
-    "description": "Town-run giveaway of fresh produce and non-perishable food, twice a month.",
-    "address": "Eubanks Park-and-Ride Lot, 2000 Eubanks Rd, Chapel Hill, NC 27514",
-    "url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
-    "phone": "",
-    "hours": "2nd and 4th Wednesday of each month, 9:30 am",
-    "access": "No income, residency or ID requirements; all are welcome",
-    "cost": "free",
-    "source_url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
-    "notes": "Check the Town calendar for cancellations. The event listing gives ZIP 27516, while the main page says 27514."
-  },
-  {
-    "name": "TABLE (home food delivery for kids)",
-    "city": "Carrboro",
-    "categories": [
-      "Food",
-      "Kids & Families"
-    ],
-    "org_type": "nonprofit",
-    "description": "Weekly home delivery of free healthy food (about 60% fresh) to local children and their families, plus a monthly cooking and nutrition kit. Delivery comes regardless of transportation.",
-    "address": "311 E. Main St, Carrboro, NC 27510",
-    "url": "https://www.tablenc.org/request-food/",
-    "phone": "(919) 636-4860",
-    "hours": "Deliveries Tue, Wed or Thu depending on neighborhood",
-    "access": "Request food through the simple, confidential online form",
-    "cost": "free",
-    "source_url": "https://www.tablenc.org/request-food/",
-    "notes": "Eligibility isn't spelled out on the site. A Town of Chapel Hill flyer describes TABLE as serving families with children in Chapel Hill-Carrboro City Schools. Email info@tablenc.org."
-  },
-  {
-    "name": "PORCH Chapel Hill-Carrboro – Food for Families",
-    "city": "Carrboro",
-    "categories": [
-      "Food",
-      "Kids & Families"
-    ],
-    "org_type": "community_org",
-    "description": "Neighborhood-powered food drive group running a monthly client-choice pantry with fresh food and produce for families with kids. It also stocks about 15 community pantries a month and provides school snacks.",
-    "address": "",
-    "url": "https://chapelhill.porchcommunities.org/",
-    "phone": "",
-    "hours": "",
-    "access": "Families are mostly referred by Chapel Hill-Carrboro City Schools social workers",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/2025/09/porchchapelhillcarrboro/",
-    "notes": "The facility is in Carrboro, but no public street address is posted (mailing address PO Box 16363, Chapel Hill 27516). Email chc@porchcommunities.org. Self-referral isn't confirmed; ask a school social worker."
-  },
-  {
-    "name": "Orange Congregations in Mission (OCIM)",
-    "city": "Hillsborough",
-    "categories": [
-      "Food",
-      "Clothing & Household"
-    ],
-    "org_type": "faith_based",
-    "description": "Interfaith nonprofit serving northern Orange County with a food pantry (no income limits per the 2025 county Extension profile), federal TEFAP commodities and Meals on Wheels. Also runs a thrift shop.",
-    "address": "300 Millstone Dr, Hillsborough, NC 27278",
-    "url": "https://www.ocimnc.org/",
-    "phone": "(919) 732-6194",
-    "hours": "Office Mon–Fri 9 am–5 pm; thrift shop Tue–Sat 9 am–2 pm",
-    "access": "Call ahead about pantry access. No religious participation required per available sources.",
-    "cost": "free",
-    "source_url": "https://orange.ces.ncsu.edu/2025/09/ocim",
-    "notes": "A 2023 county guide said the pantry was by DSS referral (ext. 18), so confirm by phone. The thrift shop sells goods; it is not free."
-  },
-  {
-    "name": "Carrboro Farmers' Market – SNAP/EBT Double Bucks",
-    "city": "Carrboro",
-    "categories": [
-      "Food"
-    ],
-    "org_type": "community_org",
-    "description": "Dollar-for-dollar match on SNAP/EBT and NC Farmers Market Nutrition Program benefits (WIC and Senior FMNP) for fresh local food. NC eWIC is accepted.",
-    "address": "301 W. Main St, Carrboro, NC 27510",
-    "url": "https://www.carrborofarmersmarket.com/",
-    "phone": "(919) 280-3326",
-    "hours": "Saturdays 9 am–noon year-round; Wednesdays 3–5 pm in season",
-    "access": "Bring your EBT/WIC card to the market info booth",
-    "cost": "free",
-    "source_url": "https://www.carrborofarmersmarket.com/",
-    "notes": "The match itself is free; you spend benefits to receive it. Free alternatives are listed above."
-  },
-  {
-    "name": "El Centro Hispano – Carrboro office",
-    "city": "Carrboro",
-    "categories": [
-      "Legal & Immigration",
-      "Learning & Tech Access"
-    ],
-    "org_type": "nonprofit",
-    "description": "Latino community organization offering community assistance, legal information and education and workforce programs.",
-    "address": "201 W. Weaver St, Carrboro, NC 27510",
-    "url": "https://elcentronc.org/",
-    "phone": "(919) 945-0132",
-    "hours": "",
-    "access": "",
-    "cost": "free",
-    "source_url": "https://elcentronc.org/",
-    "notes": "The homepage lists Education & Workforce, Community Assistance and Legal Information but not current Carrboro hours or which immigration services are offered. A 2024 brochure mentions immigration help and know-your-rights workshops. Call first."
-  },
-  {
-    "name": "Legal Aid of North Carolina",
-    "city": "Triangle-wide",
-    "categories": [
-      "Legal & Immigration",
-      "Housing & Shelter"
-    ],
-    "org_type": "nonprofit",
-    "description": "Free civil legal help for people with low incomes, including housing issues.",
-    "address": "",
-    "url": "https://www.legalaidnc.org/",
-    "phone": "1-866-219-5262 (1-866-219-LANC)",
-    "hours": "Helpline Mon–Fri 8:30 am–4 pm",
-    "access": "Apply by phone; online intake (JusticeHub) was down for maintenance when checked",
-    "cost": "free",
-    "source_url": "https://www.legalaidnc.org/",
-    "notes": "Statewide. Eligibility isn't stated on the homepage, so the helpline screens callers. For eviction court help in Orange County, also try the Orange County Housing Helpline."
-  },
-  {
-    "name": "Chapel Hill Transit (fare-free buses)",
-    "city": "Chapel Hill",
-    "categories": [
-      "Bikes & Transportation"
-    ],
-    "org_type": "public",
-    "description": "Fare-free bus system serving Chapel Hill, Carrboro and UNC. Just get on and ride.",
-    "address": "",
-    "url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
-    "phone": "",
-    "hours": "",
-    "access": "Free; no pass needed",
-    "cost": "free",
-    "source_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
-    "notes": "Use the Transit app for real-time tracking. The J route serves IFC Commons in Carrboro. Route 420 moved to GoTriangle in Aug 2026."
-  },
-  {
-    "name": "Orange County Repair Café",
-    "city": "Hillsborough",
-    "categories": [
-      "Makerspaces & Repair"
-    ],
-    "org_type": "community_org",
-    "description": "Free volunteer-run repair event. Bring broken clothing, small appliances, electronics, lamps, furniture, toys, jewelry or tools and fix them with volunteer repair coaches.",
-    "address": "Whitted Human Services Center, Donna S. Baker Meeting Room, 300 W. Tryon St, Hillsborough, NC 27278",
-    "url": "https://www.repaircafenc.org/",
-    "phone": "",
-    "hours": "Next: Sat Nov 14, 2026, 1–5 pm (last check-in 3:30 pm)",
-    "access": "Free; register at RepairCafeNC.org",
-    "cost": "free",
-    "source_url": "https://www.orangecountync.gov/3816/Repair-Caf",
-    "notes": "Recurring a few times a year. Past sessions were at the Seymour Center in Chapel Hill (2025, Apr 2026). Check RepairCafeNC.org for future dates."
-  },
-  {
-    "name": "Chapel Hill Public Library",
-    "city": "Chapel Hill",
-    "categories": [
-      "Learning & Tech Access",
-      "Tools & Sharing",
-      "Makerspaces & Repair"
-    ],
-    "org_type": "public",
-    "description": "Free computers, printing and study rooms. The Tech Lab has Macs, creative software and equipment to digitize tapes and records, with free one-on-one tech tutoring (Spanish available). You can borrow tech kits such as Chromebooks, cameras, microphones and projectors, plus kids' nature and sensory kits.",
-    "address": "100 Library Dr, Chapel Hill, NC 27514",
-    "url": "https://www.chapelhillpubliclibrary.org/",
-    "phone": "(919) 968-2777",
-    "hours": "Mon–Thu 10 am–8 pm; Fri–Sun 10 am–6 pm (holiday closures vary)",
-    "access": "Open to all; borrowing requires a library card",
-    "cost": "free",
-    "source_url": "https://www.chapelhillpubliclibrary.org/visit-us",
-    "notes": "Served by Chapel Hill Transit routes CL and D. Kit list: chapelhillpubliclibrary.org/kits-tech. Card eligibility rules were not checked."
-  },
-  {
-    "name": "Orange County Public Library – Main Library (Seed Share and hotspots)",
-    "city": "Hillsborough",
-    "categories": [
-      "Learning & Tech Access",
-      "Gardens & Seeds",
-      "Tools & Sharing"
-    ],
-    "org_type": "public",
-    "description": "Free library card lets you borrow books, computers, Wi-Fi hotspots (one per family), video games and board games. The yearly Seed Share gives out a free native wildflower seed packet each month from mid-February through May, ending with a plant swap.",
-    "address": "137 W. Margaret Ln, Hillsborough, NC 27278",
-    "url": "https://orangecountync.gov/3009/Library",
-    "phone": "(919) 245-2525",
-    "hours": "Mon–Thu 9 am–7 pm; Fri–Sat 9 am–6 pm; Sun noon–6 pm",
-    "access": "Library card needed to borrow; Seed Share is free while supplies last",
-    "cost": "free",
-    "source_url": "https://orangecountync.gov/1145/Books-DVDs-Hotspots-and-More",
-    "notes": "Seed Share 2026 details: orangecountync.librarycalendar.com/event/main-library-seed-share-29415. Fees apply only to damaged or misused hotspots."
-  },
-  {
-    "name": "Orange County Public Library – Southern Branch (Drakeford Library Complex)",
-    "city": "Carrboro",
-    "categories": [
-      "Learning & Tech Access",
-      "Tools & Sharing"
-    ],
-    "org_type": "public",
-    "description": "New downtown Carrboro branch with free computers, internet and study and meeting rooms. Card holders can borrow books, computers and Wi-Fi hotspots.",
-    "address": "203 S. Greensboro St, Carrboro, NC 27510",
-    "url": "https://orangecountync.gov/3009/Library",
-    "phone": "(919) 245-2525",
-    "hours": "Mon–Thu 9 am–7 pm; Fri–Sat 9 am–6 pm; Sun noon–6 pm",
-    "access": "Open to all; library card needed to borrow",
-    "cost": "free",
-    "source_url": "https://orangecountync.gov/3009/Library",
-    "notes": "Opened 2025. Free public parking on levels 1–3 of the deck."
-  }
+ {
+  "name": "Carrboro Really Really Free Market",
+  "city": "Carrboro",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly leaderless free market running since the early 2000s: bring what you want to give, take what you can use. Nothing is bought, sold or bartered. Clothing, books, toys, household goods, food and music.",
+  "address": "Carrboro Town Commons, 301 W. Main St, Carrboro, NC 27510",
+  "url": "https://triangleonthecheap.com/carrboro-really-really-free-market/",
+  "phone": "",
+  "hours": "First Saturday of each month, 2–4 pm",
+  "access": "Open to everyone; no need to bring anything to take something",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/carrboro-really-really-free-market/",
+  "notes": "Listing updated Nov 2026. Organizers post updates on Instagram (Carrboro Really Really Free Market); the exact handle was not confirmed.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "The ReCYCLEry (community bike co-op)",
+  "city": "Carrboro",
+  "categories": [
+   "Bikes & Transportation",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "community_org",
+  "description": "Volunteer-run nonprofit bike co-op. At open workshops you can fix your own bike with free tools and help from volunteer mechanics, and earn a refurbished bike by working on it.",
+  "address": "Dr. Martin Luther King Jr. Park, 1120 Hillsborough Rd, Carrboro, NC 27510 (between the pump track and the community gardens)",
+  "url": "https://www.recyclery.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Drop in during open workshop hours",
+  "cost": "free",
+  "source_url": "https://www.recyclery.org/",
+  "notes": "Moved to MLK Park in 2025 and says it is restarting workshop hours in a limited capacity. Its website gives no current schedule, so check Instagram @recyclerync or the site's Events page. The free-parts and earn-a-bike details come from a 2022 Local Reporter column.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Triangle Mutual Aid",
+  "city": "Triangle-wide",
+  "categories": [
+   "Mutual Aid Networks",
+   "Food"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Volunteer mutual-aid network that organized flood and disaster relief, including after Tropical Storm Chantal in Chapel Hill and Orange County. It runs food and supply drives with partner groups and immigrant-led collectives.",
+  "address": "",
+  "url": "https://trianglemutualaid.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Join through their Signal chats or contact form. No public distribution hub; food is routed through partner groups.",
+  "cost": "free",
+  "source_url": "https://trianglemutualaid.org/",
+  "notes": "The site says TMA cannot respond directly to individual food requests. Current drop-off points and needs lists are posted on its Instagram.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Refugee Community Partnership (RCP)",
+  "city": "Carrboro",
+  "categories": [
+   "Mutual Aid Networks",
+   "Legal & Immigration",
+   "Kids & Families"
+  ],
+  "org_type": "community_org",
+  "description": "Grassroots group that builds mutual aid and collective care with refugee and migrant families in Orange County. Work includes language justice and interpretation access, health access organizing, neighborhood pods and help through crises such as SNAP disruptions.",
+  "address": "PO Box 461, Carrboro, NC 27510 (mailing)",
+  "url": "https://refugeecommunitypartnership.org/",
+  "phone": "(919) 590-5910",
+  "hours": "",
+  "access": "Contact by phone or info@refugeecommunitypartnership.org",
+  "cost": "free",
+  "source_url": "https://refugeecommunitypartnership.org/",
+  "notes": "Active in 2026. The site does not describe a walk-in intake process.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Feed-Well Fridge – Cedar Grove United Methodist Church",
+  "city": "Pittsboro",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "community_org",
+  "description": "Free community fridge stocked with rescued food and chef-prepared meals by Feed-Well Fridges. Take any food you want and leave what you don't.",
+  "address": "2791 Jones Ferry Rd, Pittsboro, NC 27312",
+  "url": "https://feedwellfridges.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Free and publicly accessible; no questions asked",
+  "cost": "free",
+  "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
+  "notes": "The address comes from the map link on the locations page. Hours aren't posted. The fridge is hosted at a church, with no participation required. Contact feedwellfridges@gmail.com or Instagram @feed_well_fridges.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Feed-Well Fridge – CORA Food Pantry",
+  "city": "Pittsboro",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "community_org",
+  "description": "Free community fridge from Feed-Well Fridges at the CORA food pantry, stocked with rescued food and prepared meals.",
+  "address": "40 Camp Dr, Pittsboro, NC 27312",
+  "url": "https://feedwellfridges.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Free and publicly accessible",
+  "cost": "free",
+  "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
+  "notes": "Listed on Feed-Well's locations page as 'CORA Food Pantry' without a street address; the CORA address is from corafoodpantry.org. Hours aren't posted.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Feed-Well Fridge – Evergreen United Methodist Church",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "community_org",
+  "description": "Free community fridge from Feed-Well Fridges, stocked with rescued groceries and chef-prepared meals. Take what you need.",
+  "address": "11098 US Hwy 15-501 N, Chapel Hill, NC 27517",
+  "url": "https://feedwellfridges.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Free and publicly accessible",
+  "cost": "free",
+  "source_url": "https://feedwellfridges.org/feedwell-fridge-locations",
+  "notes": "This site is in the Chatham County part of Chapel Hill. The address comes from the map link and hours aren't posted. A Chapelboro story from Aug 2026 confirms the fridge network is active.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "IFC Community Kitchen",
+  "city": "Carrboro",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free hot meals every day of the year for anyone who is hungry, no questions asked. Dine in or take out.",
+  "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
+  "url": "https://www.ifcweb.org/programs/community-kitchen/",
+  "phone": "(919) 929-6380 x2000",
+  "hours": "Lunch Mon–Fri 11:15 am–12:30 pm and Sat, Sun & holidays 11:15 am–noon; dinner Mon–Fri 5–5:45 pm",
+  "access": "No questions asked; open to anyone",
+  "cost": "free",
+  "source_url": "https://www.ifcweb.org/programs/community-kitchen/",
+  "notes": "Inter-Faith Council for Social Service is a secular-service nonprofit with no religious requirement. Served by the J bus.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "IFC Community Market (free grocery pantry)",
+  "city": "Carrboro",
+  "categories": [
+   "Food",
+   "Hygiene & Laundry",
+   "Clothing & Household"
+  ],
+  "org_type": "nonprofit",
+  "description": "No-cost food market with groceries, fresh produce, pantry staples, hygiene items and household essentials.",
+  "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
+  "url": "https://www.ifcweb.org/programs/community-market/",
+  "phone": "(919) 929-6380 (press 0 to book)",
+  "hours": "Shopping by appointment, Mon–Fri",
+  "access": "Serves Chapel Hill and Carrboro households; call to schedule a shopping appointment",
+  "cost": "free",
+  "source_url": "https://www.ifcweb.org/programs/community-market/",
+  "notes": "IFC's page does not list ID or proof-of-residency requirements. Ask when you call.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "IFC Community Navigation (drop-in day services)",
+  "city": "Carrboro",
+  "categories": [
+   "Hygiene & Laundry",
+   "Housing & Shelter",
+   "Learning & Tech Access",
+   "Clothing & Household"
+  ],
+  "org_type": "nonprofit",
+  "description": "No-charge drop-in center with showers, lockers, phones, internet, free Wi-Fi, printers, blankets and clothing vouchers. You can use it as a mailing address. Staff help with getting ID, jobs, housing and medical referrals.",
+  "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
+  "url": "https://www.ifcweb.org/programs/community-navigation/",
+  "phone": "(919) 929-6380 x2025",
+  "hours": "Mon–Fri 10 am–6 pm (Thursday hours unclear on IFC's page; call to check). Closed IFC holidays.",
+  "access": "Drop-in, no charge",
+  "cost": "free",
+  "source_url": "https://www.ifcweb.org/programs/community-navigation/",
+  "notes": "Laundry is not listed. The Orange County Housing Helpline holds drop-in hours here on Mondays, and SHAC distributes syringe-services supplies here.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "IFC Community House (men's shelter)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Housing & Shelter"
+  ],
+  "org_type": "nonprofit",
+  "description": "Year-round shelter for men experiencing homelessness, with help finding permanent housing. From November through March it adds cold-weather beds for 17 more men.",
+  "address": "1315 Martin Luther King Jr. Blvd, Chapel Hill, NC 27514",
+  "url": "https://www.ifcweb.org/programs/community-house/",
+  "phone": "(919) 929-6380 x3000 (cold-weather beds); Housing Helpline (919) 245-2655 (regular beds)",
+  "hours": "Mon–Fri 4 pm–8 am; open 24 hours Sat, Sun and holidays",
+  "access": "Regular beds are by referral through the Orange County Housing Helpline. For cold-weather beds, call IFC directly.",
+  "cost": "free",
+  "source_url": "https://www.ifcweb.org/programs/community-house/",
+  "notes": "Open to admitted residents only. Orange County has no same-day shelter, so call the Helpline early.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "IFC HomeStart (women and families shelter)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Housing & Shelter",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Year-round shelter for women and families experiencing homelessness. From November through March it adds three cold-weather beds for women.",
+  "address": "2505 Homestead Rd, Chapel Hill, NC 27516",
+  "url": "https://www.ifcweb.org/programs/homestart/",
+  "phone": "(919) 929-6380 x4000 (cold-weather beds); Housing Helpline (919) 245-2655 (regular beds)",
+  "hours": "",
+  "access": "Regular beds are by referral through the Orange County Housing Helpline. For cold-weather beds, call IFC.",
+  "cost": "free",
+  "source_url": "https://www.ifcweb.org/programs/homestart/",
+  "notes": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Housing Helpline",
+  "city": "Chapel Hill",
+  "categories": [
+   "Housing & Shelter",
+   "Legal & Immigration"
+  ],
+  "org_type": "public",
+  "description": "Single entry point for shelter referrals (Coordinated Entry), eviction diversion with free legal help for people with a court summons, affordable-rental listings and referrals. It also runs cold-weather cots from Nov 1 to Mar 31 on nights forecast below 32°F.",
+  "address": "Southern Human Services Center, 2501 Homestead Rd, Chapel Hill, NC 27516",
+  "url": "https://orangecountync.gov/3706/Housing-Helpline",
+  "phone": "(919) 245-2655",
+  "hours": "Phone Mon–Fri 10 am–4 pm. In person: Southern Human Services Mon–Fri 8:30 am–4 pm; Hillsborough Commons (113 Mayo St) Wed 8:30 am–4 pm; IFC Commons Carrboro Mon 11 am–2 pm",
+  "access": "Free. Interpretation in 200+ languages. Email housinghelp@orangecountync.gov anytime.",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/3706/Housing-Helpline",
+  "notes": "Orange County has no same-day shelter. The shelter-list interview takes about 45 minutes, in person or by phone. The Helpline does not do housing searches. Cold-weather cots are first-come, first-served.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Community Empowerment Fund (CEF)",
+  "city": "Carrboro",
+  "categories": [
+   "Money & Utilities",
+   "Housing & Shelter",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "community_org",
+  "description": "Relationship-based nonprofit where volunteer advocates work one-on-one with members facing homelessness or poverty on housing, jobs, savings and benefits. It also runs the OC Connect resource database and financial classes.",
+  "address": "125 W. Main St, Suite 200, Carrboro, NC 27510",
+  "url": "https://communityempowermentfund.org/",
+  "phone": "(919) 200-0233",
+  "hours": "",
+  "access": "Free membership. Contact info@communityempowermentfund.org.",
+  "cost": "free",
+  "source_url": "https://communityempowermentfund.org/",
+  "notes": "The Chapel Hill office moved to Carrboro in July 2025. Office hours are posted only as an image on the site. The first-time homebuyer program is paused.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SHAC Free Medical Clinic (UNC student-run)",
+  "city": "Carrboro",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "community_org",
+  "description": "Free student-run clinic supervised by UNC clinicians. Offers acute care, physicals, vaccines, labs, an on-site pharmacy, STI testing, social work and interpreters (Spanish and Mandarin). Monthly specialty clinics include gender-affirming care, mental health, eye care, physical therapy and nutrition.",
+  "address": "Carrboro Community Health Center, 301 Lloyd St, Carrboro, NC 27510",
+  "url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
+  "phone": "(984) 538-1031",
+  "hours": "Wednesdays 6–10 pm (check in by 8:30 pm)",
+  "access": "Free. Call and leave your name, number and reason for visit, or use the online form. Telehealth available.",
+  "cost": "free",
+  "source_url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
+  "notes": "Serves people who can't access the health care system. No insurance, ID or income requirements are listed. Acute needs only (no x-rays). Medication refill line: (919) 442-8207.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SHAC Dental Clinic (UNC student-run)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "community_org",
+  "description": "Free student-run dental clinic at the UNC School of Dentistry.",
+  "address": "UNC School of Dentistry, 101 Manning Dr, Chapel Hill, NC 27514",
+  "url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
+  "phone": "",
+  "hours": "Select Wednesdays, 6–9 pm",
+  "access": "Walk-in lottery; appointments can't be booked through the medical clinic form",
+  "cost": "free",
+  "source_url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
+  "notes": "SHAC's site gives two addresses for the dental school: 101 Manning Dr and 120 Dental Cir (Tarrson Hall). Confirm before going.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SHAC Syringe Services Program",
+  "city": "Carrboro",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "community_org",
+  "description": "Free, legal syringes and injection supplies, naloxone, fentanyl and xylazine test strips, and first-aid kits. Referrals to treatment and HIV/STI testing if you want them. Supplies can also be ordered online.",
+  "address": "IFC Commons, 110 W. Main St, Carrboro, NC 27510",
+  "url": "https://med.unc.edu/shac/programs/syringe-services-program",
+  "phone": "",
+  "hours": "IFC Carrboro: Mon & Wed 4–5:45 pm. SHAC Dental Clinic (Tarrson Hall, 120 Dental Cir, Chapel Hill): Wed 5:30–8 pm",
+  "access": "Free, no questions asked",
+  "cost": "free",
+  "source_url": "https://med.unc.edu/shac/programs/syringe-services-program",
+  "notes": "Updates are posted on Instagram @unc.shac.ssp. Email shac_ssp@med.unc.edu; online ordering at linktr.ee/shacssp.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Piedmont Health – Carrboro Community Health Center",
+  "city": "Carrboro",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Federally qualified community health center offering medical care, plus pharmacy, behavioral health and other services depending on site. Uninsured patients are welcome.",
+  "address": "301 Lloyd St, Carrboro, NC 27510",
+  "url": "https://piedmonthealth.org/chc-locations-overview",
+  "phone": "(919) 942-8741",
+  "hours": "",
+  "access": "Accepts all patients regardless of insurance; sliding-fee discount based on household income and family size",
+  "cost": "sliding_scale",
+  "source_url": "https://piedmonthealth.org/faqs/",
+  "notes": "Piedmont says it does not provide free services; the discount is applied to fees. Hours vary by department, so call. Main line (888) 200-7001; text (704) 471-6008.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Piedmont Health – Chapel Hill Community Health Center",
+  "city": "Chapel Hill",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Federally qualified community health center with sliding-fee medical care. A separate Piedmont dental center is next door at 105 Conner Dr, Suite 2100, (919) 951-7583.",
+  "address": "107 Conner Dr, Chapel Hill, NC 27514",
+  "url": "https://piedmonthealth.org/chc-locations-overview",
+  "phone": "(919) 951-7600",
+  "hours": "",
+  "access": "Accepts all patients regardless of insurance; sliding-fee discount based on household income and family size",
+  "cost": "sliding_scale",
+  "source_url": "https://piedmonthealth.org/faqs/",
+  "notes": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – free naloxone and syringe access",
+  "city": "Chapel Hill",
+  "categories": [
+   "Health & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Free naloxone kits (two nasal doses plus fentanyl and xylazine test strips) with training, and syringe exchange through the NC Safer Syringe Initiative. Replacement kits are available.",
+  "address": "Southern Human Services Center, 2501 Homestead Rd, Chapel Hill, NC 27516",
+  "url": "https://orangecountync.gov/1780/Overdose-Prevention",
+  "phone": "(919) 245-2400 (press 2)",
+  "hours": "",
+  "access": "Free. The county's 2024 flyer says to call ahead for an appointment.",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/1780/Overdose-Prevention",
+  "notes": "Per the county's July 2024 harm-reduction flyer, also available at the Whitted Building, 300 W. Tryon St, Hillsborough. That flyer also lists free Narcan vending machines in the lobbies of Southern Human Services and the Orange County Detention Center (1200 US 70 W, Hillsborough). Vending locations were not reconfirmed in 2025–26.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Freedom House Recovery Center – Facility-Based Crisis Center",
+  "city": "Chapel Hill",
+  "categories": [
+   "Mental Health & Crisis",
+   "Health & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "16-bed crisis unit for adults in an acute mental health or substance use crisis. Provides detox and withdrawal monitoring, medication stabilization, psychiatric evaluation and discharge planning, with stays of up to 7 days. Meals and hygiene supplies are provided.",
+  "address": "110 New Stateside Dr, Chapel Hill, NC 27516",
+  "url": "https://freedomhouserecovery.org/services/facility-based-crisis/",
+  "phone": "(919) 967-8844",
+  "hours": "24/7/365",
+  "access": "Adults 18+. Accepts Medicaid Standard and Tailored Plans and uninsured NC residents. Call for bed availability.",
+  "cost": "sliding_scale",
+  "source_url": "https://freedomhouserecovery.org/services/facility-based-crisis/",
+  "notes": "Freedom House Mobile Crisis Team: (866) 275-9552. Outpatient clinic and admin offices are at 104 New Stateside Dr, Bldg 102 (Mon–Fri 8:30 am–5 pm, (919) 942-2803). Cost for uninsured clients isn't stated, so cost is recorded as sliding scale.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Compass Center for Women and Families",
+  "city": "Chapel Hill",
+  "categories": [
+   "Safety & Domestic Violence",
+   "Money & Utilities"
+  ],
+  "org_type": "nonprofit",
+  "description": "Domestic violence crisis services with a 24/7 crisis line, plus one-on-one career and financial coaching and connections to community resources.",
+  "address": "210 Henderson St, Chapel Hill, NC 27514",
+  "url": "https://compassctr.org/",
+  "phone": "24/7 DV crisis line (919) 929-7122; office (919) 968-4610",
+  "hours": "Office Mon–Fri 9 am–5 pm; crisis line 24/7",
+  "access": "Free and voluntary; many services in Spanish",
+  "cost": "free",
+  "source_url": "https://compassctr.org/",
+  "notes": "No shelter on site; the crisis line can help connect callers with emergency shelter.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Rape Crisis Center",
+  "city": "Chapel Hill",
+  "categories": [
+   "Safety & Domestic Violence",
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "24/7 free, confidential helpline by call, text or online chat for survivors of sexual violence. Also offers advocacy, support groups, therapy and legal resources, with services in Spanish.",
+  "address": "1229 E. Franklin St, Chapel Hill, NC 27514",
+  "url": "https://ocrcc.org/get-help/helpline/",
+  "phone": "24/7 call or text (919) 967-7273; office (919) 968-4647",
+  "hours": "Helpline 24/7",
+  "access": "Free and confidential. Ages 13–17 served, but ongoing services need parental consent.",
+  "cost": "free",
+  "source_url": "https://ocrcc.org/get-help/helpline/",
+  "notes": "Second office at 210 Cornelius St, Hillsborough. The site still shows an old COVID office-closure notice; call before visiting in person.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Second Bloom of Chatham",
+  "city": "Pittsboro",
+  "categories": [
+   "Safety & Domestic Violence"
+  ],
+  "org_type": "nonprofit",
+  "description": "24/7/365 helpline, advocacy and support for survivors of intimate partner violence, sexual violence and human trafficking in Chatham County.",
+  "address": "136 West St, Pittsboro, NC 27312",
+  "url": "https://www.secondbloomofchatham.org/",
+  "phone": "24/7 helpline (919) 545-0055; office (919) 533-6864",
+  "hours": "Helpline 24/7/365",
+  "access": "Free",
+  "cost": "free",
+  "source_url": "https://www.secondbloomofchatham.org/",
+  "notes": "It also runs a thrift shop (paid, not free) at 630 East St, Pittsboro, open Tue–Sun 10 am–5 pm, (919) 545-0005.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "CORA Food Pantry (Chatham Outreach Alliance)",
+  "city": "Pittsboro",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Choice-style pantry that works like a grocery store: free groceries, fresh produce, frozen foods and proteins, about a week of food per visit. Friday is drive-through, and grocery delivery is available.",
+  "address": "40 Camp Dr, Pittsboro, NC 27312",
+  "url": "https://www.corafoodpantry.org/",
+  "phone": "(919) 542-5020",
+  "hours": "Pittsboro pantry Mon–Thu 10 am–2 pm, Fri 10 am–noon (drive-through)",
+  "access": "Free groceries for anyone in need of food; up to two visits a month",
+  "cost": "free",
+  "source_url": "https://www.corafoodpantry.org/how-we-serve/choice-food-pantries/",
+  "notes": "Check-in requirements aren't spelled out on the site, so call ahead. It also runs a Siler City pantry, a Mobile Market and kids' programs (SNACK!, CORApacks). A Feed-Well community fridge is on site.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Town Food Distribution",
+  "city": "Chapel Hill",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "public",
+  "description": "Town-run giveaway of fresh produce and non-perishable food, twice a month.",
+  "address": "Eubanks Park-and-Ride Lot, 2000 Eubanks Rd, Chapel Hill, NC 27514",
+  "url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
+  "phone": "",
+  "hours": "2nd and 4th Wednesday of each month, 9:30 am",
+  "access": "No income, residency or ID requirements; all are welcome",
+  "cost": "free",
+  "source_url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
+  "notes": "Check the Town calendar for cancellations. The event listing gives ZIP 27516, while the main page says 27514.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "TABLE (home food delivery for kids)",
+  "city": "Carrboro",
+  "categories": [
+   "Food",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Weekly home delivery of free healthy food (about 60% fresh) to local children and their families, plus a monthly cooking and nutrition kit. Delivery comes regardless of transportation.",
+  "address": "311 E. Main St, Carrboro, NC 27510",
+  "url": "https://www.tablenc.org/request-food/",
+  "phone": "(919) 636-4860",
+  "hours": "Deliveries Tue, Wed or Thu depending on neighborhood",
+  "access": "Request food through the simple, confidential online form",
+  "cost": "free",
+  "source_url": "https://www.tablenc.org/request-food/",
+  "notes": "Eligibility isn't spelled out on the site. A Town of Chapel Hill flyer describes TABLE as serving families with children in Chapel Hill-Carrboro City Schools. Email info@tablenc.org.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "PORCH Chapel Hill-Carrboro – Food for Families",
+  "city": "Carrboro",
+  "categories": [
+   "Food",
+   "Kids & Families"
+  ],
+  "org_type": "community_org",
+  "description": "Neighborhood-powered food drive group running a monthly client-choice pantry with fresh food and produce for families with kids. It also stocks about 15 community pantries a month and provides school snacks.",
+  "address": "",
+  "url": "https://chapelhill.porchcommunities.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Families are mostly referred by Chapel Hill-Carrboro City Schools social workers",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/2025/09/porchchapelhillcarrboro/",
+  "notes": "The facility is in Carrboro, but no public street address is posted (mailing address PO Box 16363, Chapel Hill 27516). Email chc@porchcommunities.org. Self-referral isn't confirmed; ask a school social worker.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange Congregations in Mission (OCIM)",
+  "city": "Hillsborough",
+  "categories": [
+   "Food",
+   "Clothing & Household"
+  ],
+  "org_type": "faith_based",
+  "description": "Interfaith nonprofit serving northern Orange County with a food pantry (no income limits per the 2025 county Extension profile), federal TEFAP commodities and Meals on Wheels. Also runs a thrift shop.",
+  "address": "300 Millstone Dr, Hillsborough, NC 27278",
+  "url": "https://www.ocimnc.org/",
+  "phone": "(919) 732-6194",
+  "hours": "Office Mon–Fri 9 am–5 pm; thrift shop Tue–Sat 9 am–2 pm",
+  "access": "Call ahead about pantry access. No religious participation required per available sources.",
+  "cost": "free",
+  "source_url": "https://orange.ces.ncsu.edu/2025/09/ocim",
+  "notes": "A 2023 county guide said the pantry was by DSS referral (ext. 18), so confirm by phone. The thrift shop sells goods; it is not free.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Carrboro Farmers' Market – SNAP/EBT Double Bucks",
+  "city": "Carrboro",
+  "categories": [
+   "Food"
+  ],
+  "org_type": "community_org",
+  "description": "Dollar-for-dollar match on SNAP/EBT and NC Farmers Market Nutrition Program benefits (WIC and Senior FMNP) for fresh local food. NC eWIC is accepted.",
+  "address": "301 W. Main St, Carrboro, NC 27510",
+  "url": "https://www.carrborofarmersmarket.com/",
+  "phone": "(919) 280-3326",
+  "hours": "Saturdays 9 am–noon year-round; Wednesdays 3–5 pm in season",
+  "access": "Bring your EBT/WIC card to the market info booth",
+  "cost": "free",
+  "source_url": "https://www.carrborofarmersmarket.com/",
+  "notes": "The match itself is free; you spend benefits to receive it. Free alternatives are listed above.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "El Centro Hispano – Carrboro office",
+  "city": "Carrboro",
+  "categories": [
+   "Legal & Immigration",
+   "Learning & Tech Access"
+  ],
+  "org_type": "nonprofit",
+  "description": "Latino community organization offering community assistance, legal information and education and workforce programs.",
+  "address": "201 W. Weaver St, Carrboro, NC 27510",
+  "url": "https://elcentronc.org/",
+  "phone": "(919) 945-0132",
+  "hours": "",
+  "access": "",
+  "cost": "free",
+  "source_url": "https://elcentronc.org/",
+  "notes": "The homepage lists Education & Workforce, Community Assistance and Legal Information but not current Carrboro hours or which immigration services are offered. A 2024 brochure mentions immigration help and know-your-rights workshops. Call first.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Legal Aid of North Carolina",
+  "city": "Triangle-wide",
+  "categories": [
+   "Legal & Immigration",
+   "Housing & Shelter"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free civil legal help for people with low incomes, including housing issues.",
+  "address": "",
+  "url": "https://www.legalaidnc.org/",
+  "phone": "1-866-219-5262 (1-866-219-LANC)",
+  "hours": "Helpline Mon–Fri 8:30 am–4 pm",
+  "access": "Apply by phone; online intake (JusticeHub) was down for maintenance when checked",
+  "cost": "free",
+  "source_url": "https://www.legalaidnc.org/",
+  "notes": "Statewide. Eligibility isn't stated on the homepage, so the helpline screens callers. For eviction court help in Orange County, also try the Orange County Housing Helpline.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Transit (fare-free buses)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Bikes & Transportation"
+  ],
+  "org_type": "public",
+  "description": "Fare-free bus system serving Chapel Hill, Carrboro and UNC. Just get on and ride.",
+  "address": "",
+  "url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
+  "phone": "",
+  "hours": "",
+  "access": "Free; no pass needed",
+  "cost": "free",
+  "source_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
+  "notes": "Use the Transit app for real-time tracking. The J route serves IFC Commons in Carrboro. Route 420 moved to GoTriangle in Aug 2026.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Repair Café",
+  "city": "Hillsborough",
+  "categories": [
+   "Makerspaces & Repair"
+  ],
+  "org_type": "community_org",
+  "description": "Free volunteer-run repair event. Bring broken clothing, small appliances, electronics, lamps, furniture, toys, jewelry or tools and fix them with volunteer repair coaches.",
+  "address": "Whitted Human Services Center, Donna S. Baker Meeting Room, 300 W. Tryon St, Hillsborough, NC 27278",
+  "url": "https://www.repaircafenc.org/",
+  "phone": "",
+  "hours": "Next: Sat Nov 14, 2026, 1–5 pm (last check-in 3:30 pm)",
+  "access": "Free; register at RepairCafeNC.org",
+  "cost": "free",
+  "source_url": "https://www.orangecountync.gov/3816/Repair-Caf",
+  "notes": "Recurring a few times a year. Past sessions were at the Seymour Center in Chapel Hill (2025, Apr 2026). Check RepairCafeNC.org for future dates.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Public Library",
+  "city": "Chapel Hill",
+  "categories": [
+   "Learning & Tech Access",
+   "Tools & Sharing",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "public",
+  "description": "Free computers, printing and study rooms. The Tech Lab has Macs, creative software and equipment to digitize tapes and records, with free one-on-one tech tutoring (Spanish available). You can borrow tech kits such as Chromebooks, cameras, microphones and projectors, plus kids' nature and sensory kits.",
+  "address": "100 Library Dr, Chapel Hill, NC 27514",
+  "url": "https://www.chapelhillpubliclibrary.org/",
+  "phone": "(919) 968-2777",
+  "hours": "Mon–Thu 10 am–8 pm; Fri–Sun 10 am–6 pm (holiday closures vary)",
+  "access": "Open to all; borrowing requires a library card",
+  "cost": "free",
+  "source_url": "https://www.chapelhillpubliclibrary.org/visit-us",
+  "notes": "Served by Chapel Hill Transit routes CL and D. Kit list: chapelhillpubliclibrary.org/kits-tech. Card eligibility rules were not checked.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Public Library – Main Library (Seed Share and hotspots)",
+  "city": "Hillsborough",
+  "categories": [
+   "Learning & Tech Access",
+   "Gardens & Seeds",
+   "Tools & Sharing"
+  ],
+  "org_type": "public",
+  "description": "Free library card lets you borrow books, computers, Wi-Fi hotspots (one per family), video games and board games. The yearly Seed Share gives out a free native wildflower seed packet each month from mid-February through May, ending with a plant swap.",
+  "address": "137 W. Margaret Ln, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/3009/Library",
+  "phone": "(919) 245-2525",
+  "hours": "Mon–Thu 9 am–7 pm; Fri–Sat 9 am–6 pm; Sun noon–6 pm",
+  "access": "Library card needed to borrow; Seed Share is free while supplies last",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/1145/Books-DVDs-Hotspots-and-More",
+  "notes": "Seed Share 2026 details: orangecountync.librarycalendar.com/event/main-library-seed-share-29415. Fees apply only to damaged or misused hotspots.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Public Library – Southern Branch (Drakeford Library Complex)",
+  "city": "Carrboro",
+  "categories": [
+   "Learning & Tech Access",
+   "Tools & Sharing"
+  ],
+  "org_type": "public",
+  "description": "New downtown Carrboro branch with free computers, internet and study and meeting rooms. Card holders can borrow books, computers and Wi-Fi hotspots.",
+  "address": "203 S. Greensboro St, Carrboro, NC 27510",
+  "url": "https://orangecountync.gov/3009/Library",
+  "phone": "(919) 245-2525",
+  "hours": "Mon–Thu 9 am–7 pm; Fri–Sat 9 am–6 pm; Sun noon–6 pm",
+  "access": "Open to all; library card needed to borrow",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/3009/Library",
+  "notes": "Opened 2025. Free public parking on levels 1–3 of the deck.",
+  "checked": "2026-11-10"
+ }
 ]

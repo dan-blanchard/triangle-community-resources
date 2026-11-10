@@ -17,8 +17,10 @@ grouped by **town → need**.
      transit directions for each site.
    - `opendata.py`: Wake County Food Finder map, Durham Open Data food resources, and
      Chatham County Public Health food assistance (government open data).
-   - `curated.py`: hand-verified entries in `data/curated/*.json`: mutual aid, community
-     fridges, tool libraries, maker spaces, repair cafés, harm reduction, and so on.
+   - `curated.py`: entries found by web research, in `data/curated/*.json`: mutual aid,
+     community fridges, tool libraries, maker spaces, repair cafés, harm reduction, and so on.
+     Each has a `checked` date. Cards show it, and entries older than 90 days are marked
+     "may be out of date" and listed in the build log.
 2. **Cleans up**: normalizes town and category, drops excluded entries (`data/exclude.json`),
    and merges duplicates across sources: the same or a near-identical name in the same town,
    the same street address with a shared distinctive name word, the same website at the same
@@ -36,12 +38,23 @@ and the previous page stays up.
 
 | To… | Edit |
 |---|---|
-| Add or fix a mutual-aid / sharing resource | `data/curated/*.json` (schema in `data/SCHEMA.md`) |
+| Add or fix a mutual-aid / sharing resource | `data/curated/*.json` (schema in `data/SCHEMA.md`); set `checked` to today |
 | Hide something from a scraped source | add a regex to `data/exclude.json` with a reason |
 | Merge a duplicate or fix a misspelled name | add `"source spelling": "Canonical Name"` to `data/aliases.json` |
 | Change the page design | `templates/index.html.j2` |
 
 Pushing any of these to `main` triggers a rebuild right away.
+
+## Keeping it current
+
+- **Daily (GitHub Actions):** re-pulls every scraped source, checks links, and flags
+  web-search entries not re-checked in 90+ days.
+- **Monthly (scheduled Claude agent):** re-verifies the web-search entries (oldest `checked`
+  first), works through open `report-change` and `suggest-resource` issues, looks for new
+  groups, and opens a **pull request** for review. Nothing reaches the live page until the PR
+  is merged.
+- **Anyone:** each card has a "Report a change" link, and the footer has "Suggest a
+  resource". Both open GitHub issue forms (`.github/ISSUE_TEMPLATE/`).
 
 ## Run locally
 

@@ -16,6 +16,7 @@ Each research file is a JSON array of objects:
   "access": "No ID, no questions asked",
   "cost": "free",
   "source_url": "https://page-where-you-verified-this/",
+  "checked": "2026-11-10",
   "notes": ""
 }
 ```
@@ -34,3 +35,4 @@ categories (one or more):
 
 org_type: mutual_aid | cooperative | community_org | nonprofit | faith_based | public
 cost: free | pay_what_you_can | sliding_scale | low_cost_membership
+checked: YYYY-MM-DD date the entry was last confirmed against a live 2025+ page (update it whenever you re-verify)

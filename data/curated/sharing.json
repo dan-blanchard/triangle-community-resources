@@ -15,7 +15,8 @@
   "access": "Any Durham-based community group or organization; first come, first served. Submit the request form at least one week ahead. You need the property owner's permission for the project site.",
   "cost": "free",
   "source_url": "https://www.keepdurhambeautiful.org/tool-lending-library",
-  "notes": "The page lists no fee. It lends to groups, not individuals. Return tools within one week after the project."
+  "notes": "The page lists no fee. It lends to groups, not individuals. Return tools within one week after the project.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh Tool Share",
@@ -32,7 +33,8 @@
   "access": "Raleigh city-limits residents, non-commercial use only. Submit the online lending request form. Bring an NC-issued ID and proof of Raleigh residency (such as a utility bill), and sign a loan agreement at pickup.",
   "cost": "free",
   "source_url": "https://raleighnc.gov/community/services/raleigh-tool-share",
-  "notes": "Run by the Housing & Neighborhoods and Community Engagement departments."
+  "notes": "Run by the Housing & Neighborhoods and Community Engagement departments.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham County Library – Maker + STEAM Kit Checkout",
@@ -50,7 +52,8 @@
   "access": "Library card holders (check with the Maker + STEAM desk)",
   "cost": "free",
   "source_url": "https://durhamcountylibrary.org/steam-services",
-  "notes": "The kit list wasn't spelled out on the page. Ask Maker + STEAM staff (Maker_STEAM@dconc.gov) what's available. A 2023 WRAL story also covered the library's tool lending and home-repair classes."
+  "notes": "The kit list wasn't spelled out on the page. Ask Maker + STEAM staff (Maker_STEAM@dconc.gov) what's available. A 2023 WRAL story also covered the library's tool lending and home-repair classes.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Chapel Hill Public Library – Kits & Tech Lending",
@@ -69,7 +72,8 @@
   "access": "Check out through the library catalog with a library card",
   "cost": "free",
   "source_url": "https://chapelhillpubliclibrary.org/kits-tech",
-  "notes": "The page doesn't spell out eligibility. Call to ask about cards for non-residents."
+  "notes": "The page doesn't spell out eligibility. Call to ask about cards for non-residents.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Splat Space (Durham hackerspace)",
@@ -87,7 +91,8 @@
   "access": "Anyone can come to open house; no membership needed. To join, attend two events, then apply with two member sponsors.",
   "cost": "low_cost_membership",
   "source_url": "https://www.meetup.com/splatspace/",
-  "notes": "Active as of Nov 2026, with Saturday open houses and members-only Woodshop Wednesdays on Meetup. Meetup lists memberships at $60/mo full (24/7), $35/mo student and $25/mo associate (event access only)."
+  "notes": "Active as of Nov 2026, with Saturday open houses and members-only Woodshop Wednesdays on Meetup. Meetup lists memberships at $60/mo full (24/7), $35/mo student and $25/mo associate (event access only).",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham County Library – Innovation Lab (makerspace)",
@@ -105,7 +110,8 @@
   "access": "Walk in during lab hours; some equipment needs a reservation. Staff help with basics but won't design your project.",
   "cost": "free",
   "source_url": "https://durhamcountylibrary.org/steam-services",
-  "notes": "Using the space is free, but some equipment and materials have fees (non-refundable). Fees are listed per piece of equipment."
+  "notes": "Using the space is free, but some equipment and materials have fees (non-refundable). Fees are listed per piece of equipment.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Chapel Hill Public Library – Tech Lab",
@@ -123,7 +129,8 @@
   "access": "Book one-on-one tech tutoring online (Spanish sessions available). Help with digitizing media needs a tutoring appointment.",
   "cost": "free",
   "source_url": "https://chapelhillpubliclibrary.org/tech-lab",
-  "notes": "Email techlab@chapelhillnc.gov. The phone number is the tech tutoring line."
+  "notes": "Email techlab@chapelhillnc.gov. The phone number is the tech tutoring line.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Repair Café NC",
@@ -140,7 +147,8 @@
   "access": "Open to the public; bring your broken item",
   "cost": "free",
   "source_url": "https://repaircafenc.org/upcoming-events/",
-  "notes": "Upcoming Triangle events: Hillsborough Nov 14, 2026 and Cary Jan 9, 2027. Past events in Chapel Hill (Jan 2026, Jul 2025) and Durham (Oct 2024). Contact info@repaircafenc.org. Some locations don't take items such as gas engines or microwaves."
+  "notes": "Upcoming Triangle events: Hillsborough Nov 14, 2026 and Cary Jan 9, 2027. Past events in Chapel Hill (Jan 2026, Jul 2025) and Durham (Oct 2024). Contact info@repaircafenc.org. Some locations don't take items such as gas engines or microwaves.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Orange County Repair Café (Hillsborough)",
@@ -157,7 +165,8 @@
   "access": "Open to the public; register via RepairCafeNC.org",
   "cost": "free",
   "source_url": "https://www.orangecountync.gov/3816/Repair-Caf",
-  "notes": "Run with Repair Café NC under Orange County's sustainability program. Repair Café events are free."
+  "notes": "Run with Repair Café NC under Orange County's sustainability program. Repair Café events are free.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Cary Repair Café",
@@ -174,7 +183,8 @@
   "access": "Open to the public",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/repair-cafe-can-help-fix-stuff-free",
-  "notes": "2025–2026 dates included Aug 16 and Oct 25, 2025 and Mar 14 and Jun 13, 2026."
+  "notes": "2025–2026 dates included Aug 16 and Oct 25, 2025 and Mar 14 and Jun 13, 2026.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham Bike Co-op",
@@ -192,7 +202,8 @@
   "access": "Mostly scheduled sessions; sign up on the co-op's Corsizio calendar. Some sessions fill up or have waitlists.",
   "cost": "low_cost_membership",
   "source_url": "https://durhambikecoop.corsizio.com/",
-  "notes": "Membership is $30/year and includes shop and tool access plus volunteer mechanic help. Calendar is active through Jan 2027. Contact support@durhambikecoop.org."
+  "notes": "Membership is $30/year and includes shop and tool access plus volunteer mechanic help. Calendar is active through Jan 2027. Contact support@durhambikecoop.org.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh Community Kickstand",
@@ -210,7 +221,8 @@
   "access": "Monthly event is first come, first served. For shop hours, email volunteer@raleighcommunitykickstand.org ahead for the gate code.",
   "cost": "free",
   "source_url": "https://raleighcommunitykickstand.org/",
-  "notes": "Fiscally sponsored by Oaks & Spokes. Optional donations (~$5 for parts, $20 for a light, $25 for a lock) via Venmo @communitykickstand. Shop storage space address isn't published."
+  "notes": "Fiscally sponsored by Oaks & Spokes. Optional donations (~$5 for parts, $20 for a light, $25 for a lock) via Venmo @communitykickstand. Shop storage space address isn't published.",
+  "checked": "2026-11-10"
  },
  {
   "name": "ReCYCLEry NC (with Triangle Free Bike Repair)",
@@ -228,7 +240,8 @@
   "access": "Drop in during open hours. Donate bikes and parts only when volunteers are present, or email to arrange.",
   "cost": "free",
   "source_url": "https://triangleblogblog.com/?p=15950",
-  "notes": "Hours come from a Sept 22, 2025 Triangle Blog Blog report. The org's own site says it is 'restarting workshop hours in a limited capacity.' Confirm on Instagram @recyclerync before going. Free pop-up repair clinics have run at Carrboro Town Commons."
+  "notes": "Hours come from a Sept 22, 2025 Triangle Blog Blog report. The org's own site says it is 'restarting workshop hours in a limited capacity.' Confirm on Instagram @recyclerync before going. Free pop-up repair clinics have run at Carrboro Town Commons.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Digging Durham Seed Library",
@@ -245,7 +258,8 @@
   "access": "No library card needed; up to 4 packets per season",
   "cost": "free",
   "source_url": "https://durhamcountylibrary.org/digging-durham-seed-library",
-  "notes": "Sponsored by the Durham Library Foundation. Seed donations (open-pollinated/heirloom preferred) accepted year-round at all locations."
+  "notes": "Sponsored by the Durham Library Foundation. Seed donations (open-pollinated/heirloom preferred) accepted year-round at all locations.",
+  "checked": "2026-11-10"
  },
  {
   "name": "State Library of NC – Native Seed Library",
@@ -262,7 +276,8 @@
   "access": "Up to 2 packets per person; sign out your selections. First come, first served.",
   "cost": "free",
   "source_url": "https://library.nc.gov/seed-library",
-  "notes": "Seed list updated May 12, 2026. See the State Library contact page for onsite hours."
+  "notes": "Seed list updated May 12, 2026. See the State Library contact page for onsite hours.",
+  "checked": "2026-11-10"
  },
  {
   "name": "UNC Libraries Seed Library",
@@ -279,7 +294,8 @@
   "access": "Any community member; no UNC affiliation or OneCard required. Up to 5 envelopes.",
   "cost": "free",
   "source_url": "https://guides.lib.unc.edu/library-makerspace/seed-library",
-  "notes": "Guide last updated Jan 30, 2026. The page doesn't give the MakerSpace's building, so check before going."
+  "notes": "Guide last updated Jan 30, 2026. The page doesn't give the MakerSpace's building, so check before going.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Orange County Public Library – Main Library Seed Share",
@@ -296,7 +312,8 @@
   "access": "Walk in; one packet per month",
   "cost": "free",
   "source_url": "https://orangecountync.librarycalendar.com/event/main-library-seed-share-29415",
-  "notes": "Supported by a Hillsborough Garden Club grant. Seasonal; check for the 2027 season."
+  "notes": "Supported by a Hillsborough Garden Club grant. Seasonal; check for the 2027 season.",
+  "checked": "2026-11-10"
  },
  {
   "name": "SEEDS Durham – Community Garden & Rent-a-Bed",
@@ -314,7 +331,8 @@
   "access": "Contact info@seedsnc.org about bed rentals",
   "cost": "sliding_scale",
   "source_url": "https://www.seedsnc.org/",
-  "notes": "A Sept 2026 WUNC story says community members rent garden beds at a sliding scale. The SEEDS site doesn't list the rates."
+  "notes": "A Sept 2026 WUNC story says community members rent garden beds at a sliding scale. The SEEDS site doesn't list the rates.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Briggs Avenue Community Garden",
@@ -331,7 +349,8 @@
   "access": "Contact garden manager Cheralyn Berry (cberry@dconc.gov) about plots. There is a waitlist as of April 2026.",
   "cost": "",
   "source_url": "https://abc11.com/post/high-produce-prices-fuel-demand-durham-community-garden-plots/18886239/",
-  "notes": "Plot fees aren't published, so cost is left blank. The Extension page was last updated in 2022, but ABC11 (Apr 15, 2026) confirms the garden is active with a plot waitlist."
+  "notes": "Plot fees aren't published, so cost is left blank. The Extension page was last updated in 2022, but ABC11 (Apr 15, 2026) confirms the garden is active with a plot waitlist.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh Parks Community Garden Program",
@@ -348,7 +367,8 @@
   "access": "Email CommunityGardens@raleighnc.gov about plot availability",
   "cost": "",
   "source_url": "https://raleighnc.gov/parks-and-recreation/services/gardens-and-urban-agriculture/raleigh-parks-community-garden-program",
-  "notes": "Plot fees aren't listed, so cost is left blank. Barwell Road held a plot open house on April 11, 2026 ahead of launching a rental system. The program partners with Inter-Faith Food Shuttle."
+  "notes": "Plot fees aren't listed, so cost is left blank. Barwell Road held a plot open house on April 11, 2026 ahead of launching a rental system. The program partners with Inter-Faith Food Shuttle.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Simple Gifts Community Garden",
@@ -366,7 +386,8 @@
   "access": "Sign up for workdays through the garden's SignUpGenius; drop-ins during Saturday hours",
   "cost": "free",
   "source_url": "https://simplegiftsgarden.org/",
-  "notes": "Email info@simplegiftsgarden.org. Annual spring open house (Apr 18, 2026). Memberships exist, but fees aren't listed."
+  "notes": "Email info@simplegiftsgarden.org. Annual spring open house (Apr 18, 2026). Memberships exist, but fees aren't listed.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh City Farm – Pay-What-You-Can Farmstand",
@@ -384,7 +405,8 @@
   "access": "Pay the listed price, pay less, or pay more to cover a neighbor. SNAP/EBT accepted and can be combined with pay-what-you-can.",
   "cost": "pay_what_you_can",
   "source_url": "https://www.raleighcityfarm.org/farmstand",
-  "notes": "There's a second site at Marsh Creek Park, 3050 N. New Hope Rd. No on-site parking at Blount St. The weekly harvest menu is posted on Instagram stories."
+  "notes": "There's a second site at Marsh Creek Park, 3050 N. New Hope Rd. No on-site parking at Blount St. The weekly harvest menu is posted on Instagram stories.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Inter-Faith Food Shuttle – Gardens for Everyone & Learning Gardens",
@@ -402,7 +424,8 @@
   "access": "Join the waitlist, then a site visit checks sun, water and space. Renters need a landlord permission letter.",
   "cost": "pay_what_you_can",
   "source_url": "https://foodshuttle.org/grow",
-  "notes": "Individuals pay what they can for the first box ($25 minimum; full cost $200/bed). Nonprofits and schools pay $150/bed."
+  "notes": "Individuals pay what they can for the first box ($25 minimum; full cost $200/bed). Nonprofits and schools pay $150/bed.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Society of St. Andrew – Triangle Gleaning Network",
@@ -420,7 +443,8 @@
   "access": "Volunteers of any faith, age or background. Contact the Triangle gleaning coordinator to get on event lists.",
   "cost": "free",
   "source_url": "https://endhunger.org/north-carolina/",
-  "notes": "Triangle coordinator: gleantriangle@endhunger.org. Eastern NC coordinator: nc-glean@endhunger.org, (919) 309-5261. The phone above is the Carolinas regional director's line."
+  "notes": "Triangle coordinator: gleantriangle@endhunger.org. Eastern NC coordinator: nc-glean@endhunger.org, (919) 309-5261. The phone above is the Carolinas regional director's line.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham Really Really Free Market",
@@ -439,7 +463,8 @@
   "access": "Open to all; no buying, selling, trading or bartering. Take home what you bring if nobody takes it.",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/durham-really-really-free-market/",
-  "notes": "Check Instagram for cancellations and time changes."
+  "notes": "Check Instagram for cancellations and time changes.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh Really Really Free Market",
@@ -458,7 +483,8 @@
   "access": "Open to all. Masking is requested to protect immunocompromised and disabled attendees; masks provided.",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/raleigh-really-really-free-market/",
-  "notes": "Instagram @raleighrrfm_."
+  "notes": "Instagram @raleighrrfm_.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Carrboro Really Really Free Market",
@@ -477,7 +503,8 @@
   "access": "Open to all",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
-  "notes": "From Triangle on the Cheap's roundup (updated Sept 30, 2026). Check Instagram for weather cancellations."
+  "notes": "From Triangle on the Cheap's roundup (updated Sept 30, 2026). Check Instagram for weather cancellations.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Chapel Hill Really Really Free Market",
@@ -496,7 +523,8 @@
   "access": "Open to all",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
-  "notes": "The Monday schedule is unusual but matches its June 15, 2026 (a Monday) launch listing. Confirm on Instagram."
+  "notes": "The Monday schedule is unusual but matches its June 15, 2026 (a Monday) launch listing. Confirm on Instagram.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Cary Really Really Free Market",
@@ -515,7 +543,8 @@
   "access": "Open to all",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
-  "notes": "No organizer social account was listed, so the URL is the roundup page."
+  "notes": "No organizer social account was listed, so the URL is the roundup page.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Hillsborough Really Really Free Market",
@@ -534,7 +563,8 @@
   "access": "Open to all",
   "cost": "free",
   "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
-  "notes": "No organizer social account was listed, so the URL is the roundup page."
+  "notes": "No organizer social account was listed, so the URL is the roundup page.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Circular Triangle – Clothing Swaps & Mending Circles",
@@ -553,7 +583,8 @@
   "access": "Open to all; you don't have to bring anything to take something",
   "cost": "free",
   "source_url": "https://circulartriangle.org/events",
-  "notes": "2026 events in Durham, Raleigh, Hillsborough and Chapel Hill, including a teen swap at Chapel Hill Public Library on Nov 21, 2026. Its bimonthly Raleigh swaps at RUMAH ended in Aug 2026 because RUMAH is moving."
+  "notes": "2026 events in Durham, Raleigh, Hillsborough and Chapel Hill, including a teen swap at Chapel Hill Public Library on Nov 21, 2026. Its bimonthly Raleigh swaps at RUMAH ended in Aug 2026 because RUMAH is moving.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham Community Fridge – St. Joseph's Episcopal Church",
@@ -572,7 +603,8 @@
   "access": "No questions asked",
   "cost": "free",
   "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
-  "notes": "WUNC (May 2025) lists this as a current site. The address comes from INDY Week coverage. Durham Community Fridges posts fridge contents and location updates on Instagram."
+  "notes": "WUNC (May 2025) lists this as a current site. The address comes from INDY Week coverage. Durham Community Fridges posts fridge contents and location updates on Instagram.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham Community Fridge – Braggtown Baptist Church",
@@ -591,7 +623,8 @@
   "access": "No questions asked",
   "cost": "free",
   "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
-  "notes": "WUNC (May 2025) lists this as a current site. The address and 24/7 access come from the Durham Community Food Resources list."
+  "notes": "WUNC (May 2025) lists this as a current site. The address and 24/7 access come from the Durham Community Food Resources list.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Durham Community Fridge – The Scrap Exchange (Lakewood)",
@@ -610,7 +643,8 @@
   "access": "No questions asked",
   "cost": "free",
   "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
-  "notes": "The Scrap Exchange itself is a nonprofit creative reuse center (reuse store and thrift, Tue–Sun 10:30am–6pm, (919) 200-0151) that sells low-cost craft and building materials. It isn't free, so it has no separate entry."
+  "notes": "The Scrap Exchange itself is a nonprofit creative reuse center (reuse store and thrift, Tue–Sun 10:30am–6pm, (919) 200-0151) that sells low-cost craft and building materials. It isn't free, so it has no separate entry.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Little Free Pantry / Mini Pantry Map",
@@ -628,7 +662,8 @@
   "access": "No questions asked",
   "cost": "free",
   "source_url": "https://mapping.littlefreepantry.org/",
-  "notes": "Anyone can add listings, and individual boxes may be gone or empty, so treat the map as a starting point. Example listings: Fletcher's Chapel UMC (1919 Fletchers Chapel Rd, Durham), Holy Trinity Anglican 'Left-Hand Blessing Box' (119 Hwy 15-501 S, Chapel Hill), UUCH (1710 Old NC 10, Hillsborough), St. Giles Presbyterian (5101 Oak Park Rd, Raleigh)."
+  "notes": "Anyone can add listings, and individual boxes may be gone or empty, so treat the map as a starting point. Example listings: Fletcher's Chapel UMC (1919 Fletchers Chapel Rd, Durham), Holy Trinity Anglican 'Left-Hand Blessing Box' (119 Hwy 15-501 S, Chapel Hill), UUCH (1710 Old NC 10, Hillsborough), St. Giles Presbyterian (5101 Oak Park Rd, Raleigh).",
+  "checked": "2026-11-10"
  },
  {
   "name": "Raleigh United Mutual Aid Hub (RUMAH)",
@@ -646,7 +681,8 @@
   "access": "Open to all; check social media for events",
   "cost": "free",
   "source_url": "https://www.visitraleigh.com/listing/raleigh-united-mutual-aid-hub/78229/",
-  "notes": "Email contact.rumah@gmail.com; Instagram/Facebook @raleighunitedmutualaidhub. VisitRaleigh lists a Nov 13–15, 2026 event at this address, but Circular Triangle said in Aug 2026 that RUMAH is moving. Confirm the location before visiting."
+  "notes": "Email contact.rumah@gmail.com; Instagram/Facebook @raleighunitedmutualaidhub. VisitRaleigh lists a Nov 13–15, 2026 event at this address, but Circular Triangle said in Aug 2026 that RUMAH is moving. Confirm the location before visiting.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Triangle Mutual Aid",
@@ -664,7 +700,8 @@
   "access": "Join their Signal chats; current drop-off spots are posted on Instagram (@triangle.mutual.aid)",
   "cost": "free",
   "source_url": "https://www.trianglemutualaid.org",
-  "notes": "Email info@TriangleMutualAid.org. Does not run a public distribution hub. It routes aid through partner groups."
+  "notes": "Email info@TriangleMutualAid.org. Does not run a public distribution hub. It routes aid through partner groups.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Feed Durham",
@@ -683,7 +720,8 @@
   "access": "Open to all",
   "cost": "free",
   "source_url": "https://www.gofundme.com/f/feeddurhamnc",
-  "notes": "Email feeddurhamnc@gmail.com; Patreon patreon.com/feeddurhamnc. 2026 plans include seed and raised-bed support for home gardens. No fixed site or schedule is published."
+  "notes": "Email feeddurhamnc@gmail.com; Patreon patreon.com/feeddurhamnc. 2026 plans include seed and raised-bed support for home gardens. No fixed site or schedule is published.",
+  "checked": "2026-11-10"
  },
  {
   "name": "Buy Nothing Project (find your local group)",
@@ -702,6 +740,7 @@
   "access": "Make a Buy Nothing account; in Settings, open 'Registered Buy Nothing Groups' to find official Facebook groups near you",
   "cost": "free",
   "source_url": "https://help.buynothingproject.org/article/37-how-do-i-join-a-buy-nothing-group",
-  "notes": "This is the hub page, not individual groups. Triangle groups are neighborhood-sized."
+  "notes": "This is the hub page, not individual groups. Triangle groups are neighborhood-sized.",
+  "checked": "2026-11-10"
  }
 ]
