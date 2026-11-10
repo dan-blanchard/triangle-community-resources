@@ -76,6 +76,23 @@ def infer_org_type(e: dict) -> str:
     return "nonprofit"
 
 
+_FREE_BY_NATURE = {"Food", "Clothing & Household", "Showers, Laundry & Hygiene", "Domestic & Sexual Violence", "Free Stuff"}
+
+
+def infer_cost(e: dict) -> str:
+    """Scraped lists don't state cost, so only claim 'free' when it's clear."""
+    text = " ".join(str(e.get(k, "")) for k in ("name", "description", "access", "notes", "hours")).lower()
+    if re.search(r"sliding[- ](scale|fee)|income[- ]based fee", text):
+        return "sliding_scale"
+    if re.search(r"\$\d|pay by the pound|for sale|fee\b|fees\b|purchase", text) and not re.search(r"\bfree\b|no fee|no cost", text):
+        return "unknown"
+    if set(e.get("categories", [])) and set(e["categories"]) <= _FREE_BY_NATURE:
+        return "free"
+    if re.search(r"\bfree\b|no cost|at no charge|pro bono", text):
+        return "free"
+    return "unknown"
+
+
 def normalize(e: dict) -> dict:
     e = {k: (v.strip() if isinstance(v, str) else v) for k, v in e.items()}
     e["city"] = e.get("city") if e.get("city") in common.CITIES else (common.infer_city(e.get("address", "")) or "Triangle-wide")
@@ -83,9 +100,11 @@ def normalize(e: dict) -> dict:
     e["categories"] = cats or common.infer_categories(f"{e['name']} {e.get('description', '')}")
     if e.get("org_type") not in ORG_TYPE_LABEL:
         e["org_type"] = infer_org_type(e)
-    if e.get("cost") not in COST_LABEL:
-        # Scraped guides list free services; curated entries leave cost blank when it isn't published.
-        e["cost"] = "unknown" if e.get("curated_file") else "free"
+    if e.get("curated_file"):
+        if e.get("cost") not in COST_LABEL:
+            e["cost"] = "unknown"  # researchers leave cost blank when it isn't published
+    else:
+        e["cost"] = infer_cost(e)
     for k in ("description", "address", "url", "phone", "hours", "access", "notes", "source_url"):
         e.setdefault(k, "")
     e.setdefault("lat", None)
@@ -103,6 +122,8 @@ def _merge(a: dict, b: dict) -> None:
     for k in ("description", "address", "url", "phone", "hours", "access"):
         if not a.get(k) and b.get(k):
             a[k] = b[k]
+    if a.get("cost") == "unknown" and b.get("cost") not in (None, "unknown"):
+        a["cost"] = b["cost"]
     if a.get("lat") is None and b.get("lat") is not None:
         a["lat"], a["lon"] = b["lat"], b["lon"]
     if b.get("checked") and b["checked"] > a.get("checked", ""):

@@ -30,7 +30,7 @@ header.top .updated{font-size:.85rem;color:#bdb5a5;margin-top:.7rem}
 .controls{position:sticky;top:0;z-index:5;background:rgba(251,248,241,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(4px)}
 .controls .wrap{display:flex;flex-wrap:wrap;gap:.5rem .75rem;align-items:center;padding:.6rem 1rem}
 .controls input[type=search]{flex:1 1 220px;padding:.55rem .7rem;font-size:1rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
-.controls select{padding:.5rem;font-size:.95rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;max-width:100%}
+.controls select{padding:.5rem;font-size:.95rem;max-width:16rem;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;max-width:100%}
 .controls label.tog{font-size:.9rem;display:flex;gap:.35rem;align-items:center;white-space:nowrap}
 .citynav{display:flex;flex-wrap:wrap;gap:.35rem;padding:.9rem 0 .2rem}
 .citynav a{font-size:.88rem;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--line);border-radius:999px;padding:.2rem .7rem}
@@ -132,6 +132,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
   <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
   <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}" title="{{ cat_help[c] }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
+  <select id="cost" aria-label="Cost"><option value="">Any cost</option><option value="free">Free</option><option value="notfree">Not free (sliding scale, pay what you can, membership)</option></select>
   <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
 </div>
@@ -157,7 +158,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
+        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
           <h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
@@ -206,11 +207,13 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 (() => {
   const $ = (s) => document.querySelector(s);
   const ctl = $('#controls'); ctl.hidden = false;
-  const q = $('#q'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf');
+  const q = $('#q'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf'), cost = $('#cost');
+  const costOk = c => !cost.value || (cost.value === 'free' ? c === 'free' : c !== 'free' && c !== 'unknown');
   const city = { value: '' };  // selected town ('' = all), set by the town badges
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
   const NEED_HELP = {{ cat_help|tojson }};
   const params = new URLSearchParams(location.search);
+  cost.value = ['free', 'notfree'].includes(params.get('cost')) ? params.get('cost') : '';
   q.value = params.get('q') || ''; city.value = params.get('city') || ''; cat.value = params.get('need') || '';
   ma.checked = params.has('community'); nf.checked = params.has('nofaith');
   const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -241,7 +244,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
         sk.querySelectorAll('article.r').forEach(a => {
           const t = a.dataset.type;
           const ok = cityOk && (!cat.value || a.dataset.cats.split('|').includes(cat.value))
-            && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based')
+            && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based') && costOk(a.dataset.cost)
             && textOk(a.dataset.text);
           a.classList.toggle('hidden', !ok); if (ok) catShown++;
         });
@@ -266,6 +269,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value); if (city.value) p.set('city', city.value); if (cat.value) p.set('need', cat.value);
     if (ma.checked) p.set('community', ''); if (nf.checked) p.set('nofaith', '');
+    if (cost.value) p.set('cost', cost.value);
     if (view === 'map') p.set('view', 'map');
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
   }
@@ -320,7 +324,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   $('#vlist').addEventListener('click', () => setView('list'));
   $('#vmap').addEventListener('click', () => setView('map'));
 
-  [q, cat, ma, nf].forEach(el => el.addEventListener('input', apply));
+  [q, cat, ma, nf, cost].forEach(el => el.addEventListener('input', apply));
   $('#townclear').addEventListener('click', () => { city.value = ''; apply(); });
   document.querySelectorAll('.need').forEach(n => n.addEventListener('click', ev => {
     ev.preventDefault();
