@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Durham Community Fridges – St. Joseph's Episcopal Church",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Outdoor community fridge and pantry run by Durham Community Fridges, a volunteer mutual-aid project (\"solidarity, not charity\"). Take what you need, leave what you can. This was the group's first fridge, opened in 2022.",
+    "address": "1902 W. Main St., Durham, NC 27705",
+    "url": "https://durhamcommunityfridges.com/",
+    "phone": "",
+    "hours": "24/7",
+    "access": "No ID, no questions asked, no limits",
+    "cost": "free",
+    "source_url": "https://www.instagram.com/durmcommunityfridges/",
+    "notes": "Fridge addresses come from the group's Instagram bio (checked Nov 2026). WUNC (May 2025) also lists this site. The same church hosts a free 24/7 naloxone vending machine. Fresh Start Durham's shower trailer also came here on Wednesday mornings as of Feb 2025."
+  },
+  {
+    "name": "Durham Community Fridges – Scrap Exchange (Lakewood)",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Outdoor community fridge and pantry shelf at The Scrap Exchange in Lakewood, run by the volunteers of Durham Community Fridges. Free fresh food for anyone.",
+    "address": "2050 Chapel Hill Rd., Durham, NC 27707",
+    "url": "https://durhamcommunityfridges.com/",
+    "phone": "",
+    "hours": "24/7",
+    "access": "No ID, no questions asked",
+    "cost": "free",
+    "source_url": "https://www.instagram.com/durmcommunityfridges/",
+    "notes": "Durham Food Not Bombs also shares food outside the Scrap Exchange on the first Saturday of each month."
+  },
+  {
+    "name": "Durham Community Fridges – Braggtown",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Outdoor community fridge and pantry at Braggtown Baptist Church in north Durham, run by Durham Community Fridges. Take what you need, leave what you can.",
+    "address": "3218 N. Roxboro St., Durham, NC 27704",
+    "url": "https://durhamcommunityfridges.com/",
+    "phone": "",
+    "hours": "24/7",
+    "access": "No ID, no questions asked",
+    "cost": "free",
+    "source_url": "https://www.instagram.com/durmcommunityfridges/",
+    "notes": "Listed in the group's Instagram bio and in its Linktree (linktr.ee/durmco), which has a fridge check-in form for this site."
+  },
+  {
+    "name": "Durham Food Not Bombs",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "All-volunteer chapter of the international Food Not Bombs movement. Shares free vegan and vegetarian meals and supplies. \"Solidarity, not charity.\"",
+    "address": "Outside The Scrap Exchange, 2050 Chapel Hill Rd., Durham, NC 27707",
+    "url": "https://linktr.ee/durhamfnb",
+    "phone": "",
+    "hours": "First Saturday of each month (plus pop-ups at events around town)",
+    "access": "Open to anyone, no ID or questions",
+    "cost": "free",
+    "source_url": "https://linktr.ee/durhamfnb",
+    "notes": "Its Linktree said \"All planned food/supply distros are ON\" (checked Nov 2026). The start time isn't posted; check Instagram @durhamfnb. Email durhamfnb@proton.me."
+  },
+  {
+    "name": "Durham Really Really Free Market",
+    "city": "Durham",
+    "categories": [
+      "Free Stores & Swaps",
+      "Clothing & Household",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Monthly open-air free market where everything is free: no buying, selling, trading or bartering. Bring what you don't need and take what you do. Skills and services such as haircuts and music are welcome too.",
+    "address": "Orchard Park, 1000 S. Duke St., Durham, NC",
+    "url": "https://www.instagram.com/durham.rrfm/",
+    "phone": "",
+    "hours": "3rd Saturday of each month, 12–2 pm",
+    "access": "Open to all; you don't have to bring anything to take something",
+    "cost": "free",
+    "source_url": "https://triangleonthecheap.com/durham-really-really-free-market/",
+    "notes": "The Instagram bio (checked Nov 2026) listed Sat. Oct 17, 2026, 12–2 pm at Orchard Park. Check @durham.rrfm for weather cancellations."
+  },
+  {
+    "name": "Feed Durham",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Mutual Aid Networks",
+      "Gardens & Seeds",
+      "Makerspaces & Repair"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Grassroots mutual-aid collective that started during COVID. It runs free cookouts, produce and grocery giveaways (including a large Thanksgiving giveaway), neighborhood food-growing projects, and community repair clinics. Food also reaches people through dozens of partner groups.",
+    "address": "",
+    "url": "https://www.feeddurham.com",
+    "phone": "",
+    "hours": "Events vary; announced on Instagram/Facebook @feeddurhamnc",
+    "access": "Free, no eligibility screening",
+    "cost": "free",
+    "source_url": "https://civileats.com/?p=61730",
+    "notes": "Source is Civil Eats, March 2025. There is no fixed distribution site or schedule, so follow @feeddurhamnc for upcoming giveaways and repair clinics."
+  },
+  {
+    "name": "Changed Paths Durham",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Clothing & Household",
+      "Health & Harm Reduction",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "East Durham mutual-aid project. It cooks and hands out about 100 free hot meals a week, along with clothing, produce and harm reduction supplies.",
+    "address": "",
+    "url": "https://linktr.ee/changedpathsdurham",
+    "phone": "",
+    "hours": "",
+    "access": "Free, no ID",
+    "cost": "free",
+    "source_url": "https://givebutter.com/changedpathsdurham",
+    "notes": "Active Nov 2026 (it was running a winter supply drive). An undated community food list puts the hot meal on Sundays at 4:30 pm at Long Meadow Park, but parts of that park are closing for renovation. Confirm the current spot on Instagram @changedpathsdurham."
+  },
+  {
+    "name": "Triangle Mask Bloc",
+    "city": "Triangle-wide",
+    "categories": [
+      "Health & Harm Reduction",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Volunteer mutual-aid group that gives out free masks and COVID-19 tests across Raleigh, Durham and Chapel Hill. Individuals, families and organizations can request them through an online form.",
+    "address": "",
+    "url": "https://trianglemaskbloc.carrd.co/",
+    "phone": "",
+    "hours": "Request online anytime",
+    "access": "Online request form; no eligibility requirements stated",
+    "cost": "free",
+    "source_url": "https://trianglemaskbloc.carrd.co/",
+    "notes": "Linked from Durham Community Fridges' active Linktree (Nov 2026)."
+  },
+  {
+    "name": "Fresh Start Durham – Mobile Showers",
+    "city": "Durham",
+    "categories": [
+      "Hygiene & Laundry",
+      "Clothing & Household"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free mobile shower trailer with private stalls for people experiencing homelessness. Also hands out clean socks, underwear, shirts and towels, and a barber is often on site.",
+    "address": "Behind Trinity United Methodist Church, 215 N. Church St., Durham, NC 27701 (Tuesdays)",
+    "url": "",
+    "phone": "",
+    "hours": "Tuesdays, about 7:30–11 am at Trinity UMC; Wednesdays 7–10 am at St. Joseph's Episcopal, 1902 W. Main St. (per Feb 2025 report)",
+    "access": "Sign-up sheet on site. It often fills before 8:30 am on Tuesdays, so come early.",
+    "cost": "free",
+    "source_url": "https://9thstreetjournal.org/2025/02/07/serving-the-homeless-with-showers-on-wheels/",
+    "notes": "Open Table Ministry's Nov 2026 calendar confirms the Tuesday showers alongside its Free Store. The Wednesday St. Joseph's site is from Feb 2025 and is unconfirmed for 2026."
+  },
+  {
+    "name": "Open Table Ministry – Free Store",
+    "city": "Durham",
+    "categories": [
+      "Free Stores & Swaps",
+      "Clothing & Household",
+      "Hygiene & Laundry"
+    ],
+    "org_type": "nonprofit",
+    "description": "Weekly free store for unhoused and low-income neighbors: clothing, shoes, coats, thermals, backpacks, sleeping bags and toiletries, plus coffee and Fresh Start Durham showers. It also offers case management, and county street-medicine pop-up clinics have been held at the Free Store.",
+    "address": "215 N. Church St., Durham, NC 27701",
+    "url": "https://www.opentableministry.org/",
+    "phone": "(919) 412-7011",
+    "hours": "Tuesdays 9:30–10:30 am",
+    "access": "Walk-in; no religious participation or ID requirement stated",
+    "cost": "free",
+    "source_url": "https://www.opentableministry.org/events",
+    "notes": "Free Store dates were listed weekly through Dec 29, 2026. It operates out of Trinity UMC but is a separate 501(c)(3)."
+  },
+  {
+    "name": "Urban Ministries of Durham – Community Café, Pantry & Clothing Closet",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Clothing & Household"
+    ],
+    "org_type": "nonprofit",
+    "description": "Durham's main anchor for free meals: the Community Café serves 3 free meals a day, every day of the year. Also runs a food pantry and clothing closet for low-resource households and shelter residents.",
+    "address": "410 Liberty St., Durham, NC 27701",
+    "url": "https://umdurham.org/",
+    "phone": "(919) 682-0538",
+    "hours": "Café: 3 meals daily, 365 days/year (call for pantry and closet hours)",
+    "access": "Serves all \"regardless of race, ethnicity, religious beliefs or non-faith\"",
+    "cost": "free",
+    "source_url": "https://umdurham.org/",
+    "notes": "Anchor listing. Specific meal times aren't posted on its site, and third-party lists disagree, so call to confirm. Lincoln CHC's Health Care for the Homeless clinic is next door at 412 Liberty St."
+  },
+  {
+    "name": "Durham Bike Co-op",
+    "city": "Durham",
+    "categories": [
+      "Bikes & Transportation",
+      "Makerspaces & Repair"
+    ],
+    "org_type": "cooperative",
+    "description": "All-volunteer community bike shop. Fix your own bike with shop tools and recycled parts, get help from volunteer mechanics, or fix up a donated bike to keep (\"Need Repair or Need Bike\" Sunday sessions). Also runs mobile repair clinics.",
+    "address": "1612 Acadia St., Durham, NC",
+    "url": "https://www.durhambikecoop.org/",
+    "phone": "(919) 675-2453",
+    "hours": "DIY walk-ins Thursdays 6:30–8:30 pm (no sign-up); Need Repair/Need Bike Sundays 3–5 pm (waitlist); other DIY nights vary; see calendar",
+    "access": "Membership required: $30/year OR 3 volunteer hours",
+    "cost": "low_cost_membership",
+    "source_url": "https://durhambikecoop.corsizio.com/event/6ac3cdbb30d5810ea602762c",
+    "notes": "The calendar (durhambikecoop.corsizio.com) is active through Jan 2027. For Sunday sessions, join the waitlist; claim-a-spot links go out Fridays at 1 pm."
+  },
+  {
+    "name": "GoDurham – Fare-Free Buses",
+    "city": "Durham",
+    "categories": [
+      "Bikes & Transportation"
+    ],
+    "org_type": "public",
+    "description": "All GoDurham city bus routes are fare-free. You don't need a pass, ID or payment to ride.",
+    "address": "",
+    "url": "https://godurhamtransit.org/",
+    "phone": "",
+    "hours": "Route schedules vary",
+    "access": "No fare, no ID",
+    "cost": "free",
+    "source_url": "https://godurhamtransit.org/news/",
+    "notes": "GoDurham news headline: \"GoDurham is fare-free through June 2027!\" The city budget (May 2026) kept fares free, but long-term funding is uncertain."
+  },
+  {
+    "name": "Splat Space (Hackerspace)",
+    "city": "Durham",
+    "categories": [
+      "Makerspaces & Repair",
+      "Tools & Sharing",
+      "Learning & Tech Access"
+    ],
+    "org_type": "community_org",
+    "description": "Member-run nonprofit hackerspace with tools, machines, a woodshop and electronics space for hobby or freelance projects. A free public open house runs every Saturday, and free workshops are held from time to time.",
+    "address": "800 N. Mangum St., Durham, NC",
+    "url": "https://splatspace.org/",
+    "phone": "",
+    "hours": "Public open house Saturdays 1–4 pm; members 24/7",
+    "access": "Open house free to the public; kids welcome with an adult",
+    "cost": "low_cost_membership",
+    "source_url": "https://www.meetup.com/splatspace/",
+    "notes": "Membership is $25/mo (associate), $35/mo (student) or $60/mo (full, 24/7 key). The door is hard to find, so see splatspace.org/location."
+  },
+  {
+    "name": "Durham County Library – Innovation Lab (Makerspace)",
+    "city": "Durham",
+    "categories": [
+      "Makerspaces & Repair",
+      "Tools & Sharing",
+      "Learning & Tech Access"
+    ],
+    "org_type": "public",
+    "description": "Public makerspace at the Main Library with a 3D printer, Cricut/vinyl cutter, laser cutter, poster printer and craft supplies. STEAM tech and tool kits can be checked out for home or group projects.",
+    "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701",
+    "url": "https://durhamcountylibrary.org/steam-services",
+    "phone": "(919) 560-9321",
+    "hours": "Tue 1–5 pm, Thu 10 am–2 pm, Fri 1–5 pm, Sat 11 am–1 pm & 3–5 pm",
+    "access": "Drop-in during lab hours; some equipment has material fees",
+    "cost": "",
+    "source_url": "https://durhamcountylibrary.org/steam-services",
+    "notes": "Hours change, so call ahead. Per-item pricing is on each equipment page. Kit checkout likely needs a library card."
+  },
+  {
+    "name": "Digging Durham Seed Library",
+    "city": "Durham",
+    "categories": [
+      "Gardens & Seeds"
+    ],
+    "org_type": "public",
+    "description": "Free seed-borrowing library from Durham County Library. Take up to 4 seed packets per season, and return saved seeds from your harvest if you can.",
+    "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701 (also East, North, South, Southwest Regional, Bragtown and Stanford L. Warren branches)",
+    "url": "https://durhamcountylibrary.org/digging-durham-seed-library",
+    "phone": "",
+    "hours": "Library hours; seeds usually stocked mid-February through October",
+    "access": "No library card needed",
+    "cost": "free",
+    "source_url": "https://durhamcountylibrary.org/digging-durham-seed-library",
+    "notes": "First come, first served while supplies last."
+  },
+  {
+    "name": "Durham County Library – Free Computers, Wi-Fi & Hotspot Lending",
+    "city": "Durham",
+    "categories": [
+      "Learning & Tech Access"
+    ],
+    "org_type": "public",
+    "description": "Public computers with internet and free password-free Wi-Fi at every Durham County Library branch. Printing is a small fee. Cardholders can borrow a mobile hotspot with unlimited data for 14 days. There is also monthly drop-in tech help.",
+    "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701 (all branches)",
+    "url": "https://durhamcountylibrary.org/computer-services/",
+    "phone": "(919) 560-0100",
+    "hours": "Library hours",
+    "access": "Wi-Fi open to all. Hotspots need a library card (free for county residents; photo ID plus proof of address required).",
+    "cost": "free",
+    "source_url": "https://durhamcountylibrary.org/computer-services/",
+    "notes": "The card policy doesn't address people without a permanent address, so ask staff. Hotspot rules: durhamcountylibrary.org/services/hotspot-checkout/."
+  },
+  {
+    "name": "Keep Durham Beautiful – Tool Lending Library",
+    "city": "Durham",
+    "categories": [
+      "Tools & Sharing"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free loans of landscaping, cleanup and beautification tools for community service projects, such as neighborhood cleanups and community gardens.",
+    "address": "2011 Fay St., Durham, NC 27704",
+    "url": "https://keepdurhambeautiful.squarespace.com/tool-lending-library",
+    "phone": "(919) 354-2729",
+    "hours": "Mon–Fri by appointment",
+    "access": "For Durham-based community groups and organizations; request at least one week ahead",
+    "cost": "free",
+    "source_url": "https://keepdurhambeautiful.squarespace.com/tool-lending-library",
+    "notes": "Not for personal home projects. Return tools within a week of the project. Email info@keepdurhambeautiful.org."
+  },
+  {
+    "name": "Durham County Public Health – Safe Syringe Program",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "public",
+    "description": "Confidential syringe services: sterile syringes, cookers, cottons, tourniquets, hygiene supplies, sharps disposal, naloxone kits, and fentanyl and xylazine test strips. Also offers HIV and hepatitis testing and referrals.",
+    "address": "Human Services Building, 414 E. Main St., 1st floor, Lobby 3 (Pharmacy), Durham, NC 27701",
+    "url": "https://dconc.gov/Public-Health/Community-Programming/Substance-Use-and-Addiction/Safe-Syringe-Program",
+    "phone": "(919) 560-7632",
+    "hours": "Tue & Thu 9 am–12 pm; Wed & Fri 1–4 pm",
+    "access": "Confidential; ID requirement not stated",
+    "cost": "free",
+    "source_url": "https://dconc.gov/Public-Health/Community-Programming/Substance-Use-and-Addiction/Safe-Syringe-Program",
+    "notes": "For mobile SSP, text (919) 998-8152. The county notes the pharmacy closes at 12:30 pm on Fridays from Sept 18, 2026 to Jan 1, 2027, which may cancel the Friday afternoon SSP window. Call first."
+  },
+  {
+    "name": "Free Naloxone Vending Machines (Durham County)",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "public",
+    "description": "Free nasal naloxone (Narcan) from vending machines. Anyone can use them, no questions asked.",
+    "address": "24/7 machines: Durham County Detention Center lobby, 219 S. Mangum St.; St. Joseph's Episcopal Church, 1902 W. Main St.; Morse Clinic, 4119 Capitol St. Weekday machine: Human Services Building lobby, 414 E. Main St.",
+    "url": "https://dconc.gov/Public-Health/Community-Programming/Substance-Use-and-Addiction/Safe-Syringe-Program",
+    "phone": "(919) 560-7632",
+    "hours": "24/7 at three sites; 414 E. Main St. Mon–Fri 8 am–5 pm",
+    "access": "Anyone, no ID",
+    "cost": "free",
+    "source_url": "https://dconc.gov/Public-Health/Community-Programming/Substance-Use-and-Addiction/Safe-Syringe-Program",
+    "notes": ""
+  },
+  {
+    "name": "NC Harm Reduction Coalition – Durham Syringe Services",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Peer-based harm reduction: syringe exchange, naloxone and safer-use supplies, with deliveries, mobile outreach and a weekly fixed site. Nonjudgmental, and serves people regardless of immigration status.",
+    "address": "Recovery Community of Durham office, Elizabeth St. UMC, 1209 N. Elizabeth St., Durham, NC 27701 (Fridays)",
+    "url": "https://www.nchrc.org/syringe-services-programs/",
+    "phone": "(919) 370-0671",
+    "hours": "Deliveries Mon 1–6 pm; mobile outreach Wed 1–6 pm; fixed site Fri 3–6 pm",
+    "access": "Call, text or Signal to set up a delivery or find the mobile location. At the fixed site, knock at the Elizabeth St. door by the back lot.",
+    "cost": "free",
+    "source_url": "https://www.nchrc.org/syringe-services-programs/",
+    "notes": "Contact: Loftin Wilson, loftin@nchrc.org. NCHRC was active on Durham's opioid task force in Nov 2025."
+  },
+  {
+    "name": "Durham Recovery Response Center (Crisis Receiving Center)",
+    "city": "Durham",
+    "categories": [
+      "Mental Health & Crisis",
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "24/7 walk-in mental health and substance use crisis center, run by RI International. Offers behavioral health urgent care, crisis stabilization, 23-hour observation, peer support and care coordination.",
+    "address": "309 Crutchfield St., Durham, NC 27704",
+    "url": "https://recoveryinnovations.org/location/durham-crisis-receiving-center/",
+    "phone": "(919) 560-7305",
+    "hours": "24/7",
+    "access": "Walk-ins welcome, no appointment",
+    "cost": "free",
+    "source_url": "https://recoveryinnovations.org/location/durham-crisis-receiving-center/",
+    "notes": "The site says there is no charge to guests. Its outpatient MOUD program closed in June 2025, but crisis services continue."
+  },
+  {
+    "name": "Durham HEART – 911 Crisis Response",
+    "city": "Durham",
+    "categories": [
+      "Mental Health & Crisis"
+    ],
+    "org_type": "public",
+    "description": "City of Durham's alternative crisis response. Unarmed community response teams handle non-violent mental health, behavioral health and quality-of-life calls, including calls involving unsheltered people. Clinicians in the 911 center and follow-up care navigation are part of the program. Higher-risk calls get a clinician plus a CIT-trained officer.",
+    "address": "",
+    "url": "https://www.durhamnc.gov/HEART",
+    "phone": "911 (or non-emergency (919) 560-4600)",
+    "hours": "",
+    "access": "Call 911. You can ask for a HEART response, but dispatch decides.",
+    "cost": "free",
+    "source_url": "https://nc-durham.civicplus.com/5461/911-Crisis-Response-HEART",
+    "notes": "Covers the City of Durham. HEART is not always unarmed: the co-response unit includes police. Current hours aren't posted."
+  },
+  {
+    "name": "Lincoln Community Health Center – Health Care for the Homeless Clinic",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Primary care clinic for people experiencing homelessness, on the Urban Ministries of Durham campus. Run by Lincoln CHC, a federally qualified health center.",
+    "address": "412 Liberty St., Durham, NC 27701",
+    "url": "https://www.lincolnchc.org/locations/",
+    "phone": "(919) 808-5640",
+    "hours": "Mon–Fri 1–5 pm; walk-ins 12:30–1 pm",
+    "access": "Walk-ins accepted; care regardless of insurance or ability to pay",
+    "cost": "sliding_scale",
+    "source_url": "https://www.lincolnchc.org/locations/",
+    "notes": ""
+  },
+  {
+    "name": "Lincoln Community Health Center – Main Site",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction",
+      "Kids & Families"
+    ],
+    "org_type": "nonprofit",
+    "description": "Federally qualified health center offering primary care, WIC and other services. Sees everyone regardless of income, insurance status or ability to pay, with a sliding fee scale. Has several satellite clinics around Durham.",
+    "address": "1301 Fayetteville St., Durham, NC 27707",
+    "url": "https://www.lincolnchc.org/",
+    "phone": "(919) 956-4000",
+    "hours": "Mon–Thu 8 am–8 pm; Fri 8 am–5 pm; Sat 8 am–12 pm",
+    "access": "Uninsured welcome",
+    "cost": "sliding_scale",
+    "source_url": "https://www.lincolnchc.org/locations/",
+    "notes": "For appointments, call (919) 956-4034. Other sites include Lakewood, Holton (401 N. Driver St.), Lyon Park and Walltown."
+  },
+  {
+    "name": "Samaritan Health Center",
+    "city": "Durham",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "faith_based",
+    "description": "Free, charitable medical and vision clinic for uninsured and underserved people, regardless of ability to pay. Lab work is included.",
+    "address": "3205 University Dr., Suite 107, Durham, NC 27707",
+    "url": "https://www.samaritanhealthcenter.org/",
+    "phone": "(919) 407-8223",
+    "hours": "Mon 12–5 pm; Tue 10 am–8 pm; Wed 9 am–5 pm; Thu 9 am–2 pm & 5:30–8:30 pm; Fri 9 am–1 pm",
+    "access": "Apply to become a patient; no religious participation required (clinicians offer prayer only if you ask)",
+    "cost": "free",
+    "source_url": "https://www.samaritanhealthcenter.org/become-a-patient",
+    "notes": "Faith-based. Eligibility isn't on the site; an older report said uninsured Durham County residents under 200% of the poverty line, reviewed yearly. Call to confirm."
+  },
+  {
+    "name": "El Futuro",
+    "city": "Durham",
+    "categories": [
+      "Mental Health & Crisis",
+      "Kids & Families"
+    ],
+    "org_type": "nonprofit",
+    "description": "Bilingual (Spanish/English) outpatient mental health and substance use clinic for Latino families. Offers therapy, psychiatry, case management, support groups, parent education and peer support.",
+    "address": "2020 Chapel Hill Rd., Suite 23, Durham, NC 27707",
+    "url": "https://elfuturo-nc.org/",
+    "phone": "(919) 688-7101",
+    "hours": "",
+    "access": "Spanish-speaking clinicians",
+    "cost": "",
+    "source_url": "https://elfuturo-nc.org/",
+    "notes": "The site doesn't state fees or a sliding scale, so call. It posted news regularly through Oct 2026."
+  },
+  {
+    "name": "LGBTQ Center of Durham",
+    "city": "Durham",
+    "categories": [
+      "Food",
+      "Clothing & Household",
+      "Legal & Immigration",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "community_org",
+    "description": "Community center with drop-in hours, drop-in case management, the Joifull Bellies food pantry, the Queer Giving Closet (free clothing), name-change navigation help, a youth drop-in and support groups.",
+    "address": "118 Hunt St., Durham, NC 27701",
+    "url": "https://www.lgbtqcenterofdurham.org/",
+    "phone": "",
+    "hours": "Drop-in public hours most weekdays, typically 11:30 am–1:30 pm, plus some evenings; see the calendar",
+    "access": "Drop in anytime during open hours, no appointment needed",
+    "cost": "free",
+    "source_url": "https://www.lgbtqcenterofdurham.org/events/",
+    "notes": "The Nov 2026 calendar lists name-change drop-in and case management hours. Food pantry distributions were listed through mid-2026; check the full calendar for current pantry dates. Older lists show 1007 Broad St., which looks outdated."
+  },
+  {
+    "name": "Durham Crisis Response Center",
+    "city": "Durham",
+    "categories": [
+      "Safety & Domestic Violence"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free, confidential help for survivors of domestic violence, sexual assault, stalking and human trafficking. Provides a 24-hour crisis line, emergency shelter, legal advocacy, support groups and counseling referrals.",
+    "address": "Durham Family Justice Center, 101 E. Morgan St., Durham, NC 27701",
+    "url": "https://www.thedcrc.org/",
+    "phone": "24-hr help line (919) 403-6562",
+    "hours": "Help line 24/7; office Mon–Fri 8:30 am–5 pm",
+    "access": "Confidential",
+    "cost": "free",
+    "source_url": "https://www.thedcrc.org/",
+    "notes": "Third-party directories list a Spanish-language line, (919) 519-3735, but it isn't on the DCRC homepage."
+  },
+  {
+    "name": "DEAR – Durham Expunction & Restoration Program",
+    "city": "Durham",
+    "categories": [
+      "Legal & Immigration"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free legal help to expunge (clear) criminal records, get certificates of relief, and restore suspended NC driver's licenses for Durham residents. Funded by the City of Durham and run from Legal Aid NC's Durham office.",
+    "address": "411 W. Chapel Hill St., Suite 1A, Durham, NC 27701",
+    "url": "https://chartreuse-contrabass-k4xf.squarespace.com/how-to-apply",
+    "phone": "(866) 219-5262",
+    "hours": "Apply during the first full week of each month (online or by phone). Expungement workshop and in-person intake on the 4th Tuesday, 5:30–7 pm, at Orange Grove Missionary Baptist Church.",
+    "access": "Durham residents who can't afford a private attorney",
+    "cost": "free",
+    "source_url": "https://chartreuse-contrabass-k4xf.squarespace.com/how-to-apply",
+    "notes": "The program's site runs on a Squarespace placeholder domain. Older city pages list a walk-in office at the courthouse that may be outdated."
+  },
+  {
+    "name": "Legal Aid NC – Durham Eviction Diversion Clinic",
+    "city": "Durham",
+    "categories": [
+      "Legal & Immigration",
+      "Housing & Shelter"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free legal help for low-income Durham renters facing eviction, run with the City of Durham. Walk-in clinic at the courthouse.",
+    "address": "Durham County Courthouse, 510 S. Dillard St., 3rd floor, Room 3200, Durham, NC 27701",
+    "url": "https://legalaidnc.org/project/durham-eviction-diversion-program/",
+    "phone": "(984) 212-4404",
+    "hours": "Mon–Fri 9 am–12 pm",
+    "access": "Walk in or call; bring your court papers, lease and rent ledger",
+    "cost": "free",
+    "source_url": "https://legalaidnc.org/project/durham-eviction-diversion-program/",
+    "notes": "Legal Aid NC's general helpline is 1-866-219-5262. The courthouse street address comes from a City of Durham announcement. The Legal Aid page gives only the room number."
+  },
+  {
+    "name": "El Centro Hispano – Durham",
+    "city": "Durham",
+    "categories": [
+      "Legal & Immigration",
+      "Learning & Tech Access",
+      "Kids & Families"
+    ],
+    "org_type": "nonprofit",
+    "description": "Latino-led community organization offering legal information and referrals, community assistance, and education and workforce programs.",
+    "address": "2000 Chapel Hill Rd., Suite 26A, Durham, NC 27707",
+    "url": "https://elcentronc.org/",
+    "phone": "(919) 687-4635",
+    "hours": "",
+    "access": "Spanish spoken",
+    "cost": "",
+    "source_url": "https://elcentronc.org/",
+    "notes": "The site doesn't list program hours or fees, so call. A Lincoln CHC WIC clinic is in the same shopping center."
+  },
+  {
+    "name": "World Relief Durham – Immigration Legal Services",
+    "city": "Durham",
+    "categories": [
+      "Legal & Immigration"
+    ],
+    "org_type": "faith_based",
+    "description": "DOJ-recognized immigration legal services for low-income immigrants in Durham and Wake counties. Handles citizenship, DACA/TPS, family petitions, green cards and victim-based cases.",
+    "address": "801 Gilbert St., Suite 102, Durham, NC 27701",
+    "url": "https://www.immigrationlawhelp.org/organization.708021-World_Relief_Durham",
+    "phone": "(919) 251-8624",
+    "hours": "By appointment",
+    "access": "Consultation required before starting a case; English and Spanish",
+    "cost": "",
+    "source_url": "https://www.immigrationadvocates.org/legaldirectory/organization.708021-World_Relief_Durham",
+    "notes": "The directory lists a $50 consultation fee (money order or card), so this is low-cost rather than free. Faith-based, but no religious participation is required for services. A job posting from July 2026 suggests the office is active."
+  },
+  {
+    "name": "Siembra NC – ICE Activity Hotline & Rapid Response",
+    "city": "Triangle-wide",
+    "categories": [
+      "Legal & Immigration",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "community_org",
+    "description": "Grassroots immigrant organizing group. Its hotline takes reports of ICE or Border Patrol activity, verifies them, and sends alerts by text and social media. Also provides rapid response and safety support.",
+    "address": "",
+    "url": "https://siembranc.org/",
+    "phone": "(336) 543-0353",
+    "hours": "",
+    "access": "Anyone can call; Spanish spoken",
+    "cost": "free",
+    "source_url": "https://stphilipsdurham.org/?p=13931",
+    "notes": "The number comes from a Durham church's Nov 2025 resource post and a Duke rapid-response page. The siembranc.org hotline page returned 404, so confirm the number on Siembra's channels."
+  },
+  {
+    "name": "Triangle Tenant Union (NC Tenants Union)",
+    "city": "Durham",
+    "categories": [
+      "Housing & Shelter",
+      "Legal & Immigration",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "community_org",
+    "description": "Grassroots tenant union that helps renters organize building-level unions to fight unsafe conditions, broken elevators, pests and retaliation. In 2025 it won Durham's tenant-defense ordinance (rent refunds when units are unlivable).",
+    "address": "",
+    "url": "https://nctenantsunion.org/",
+    "phone": "",
+    "hours": "",
+    "access": "Open to tenants; join online",
+    "cost": "",
+    "source_url": "https://nctenantsunion.org/2026/03/27/willard-street-united-ashton-seniors-in-action-launch/",
+    "notes": "Two new Durham building unions launched in March 2026. Dues info isn't published. Contact through nctenantsunion.org or Instagram @nctenantsunion."
+  },
+  {
+    "name": "Durham Beyond Policing",
+    "city": "Durham",
+    "categories": [
+      "Safety & Domestic Violence",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "community_org",
+    "description": "Grassroots coalition working on community safety without policing. Runs popular-education workshops (#FreeOurFam), an East Durham community design process, and campaigns to expand the HEART crisis response. Mainly organizing, not direct services.",
+    "address": "",
+    "url": "https://durhambeyondpolicing.org/",
+    "phone": "",
+    "hours": "",
+    "access": "Open membership",
+    "cost": "free",
+    "source_url": "https://www.triangletribune.com/news/2026/07/13/local/youth-engagement-a-necessity-durham-beyond-policing-say/",
+    "notes": "Active July 2026 (East Durham community design kickoff). Contact via the form on its site or Instagram @DurhamBeyondPolicing."
+  },
+  {
+    "name": "Community Empowerment Fund – Durham",
+    "city": "Durham",
+    "categories": [
+      "Money & Utilities",
+      "Housing & Shelter"
+    ],
+    "org_type": "nonprofit",
+    "description": "Relationship-based financial support and advocacy for people facing poverty and homelessness. Offers one-on-one support with savings, budgeting and housing goals, a resource database, and free community classes such as fraud prevention.",
+    "address": "2634 Durham-Chapel Hill Blvd., Suite 6, Durham, NC 27707",
+    "url": "https://communityempowermentfund.org/",
+    "phone": "(919) 797-9233",
+    "hours": "",
+    "access": "Universally accessible",
+    "cost": "",
+    "source_url": "https://communityempowermentfund.org/",
+    "notes": "The Durham office hours are posted only as a flyer image, so call. A Durham Community Class was scheduled for Nov 18, 2026. A third-party list mentions a CEF community fridge inside the Durham office, but I couldn't confirm it."
+  },
+  {
+    "name": "Diaper Bank of North Carolina",
+    "city": "Triangle-wide",
+    "categories": [
+      "Kids & Families",
+      "Hygiene & Laundry"
+    ],
+    "org_type": "nonprofit",
+    "description": "Gives out diapers, period supplies and adult incontinence products through partner agencies. Durham partners include Urban Ministries of Durham, Family Connects and Healthy Families Durham, Durham Early Head Start and Duke Outpatient Clinic.",
+    "address": "",
+    "url": "https://www.ncdiaperbank.org/need-help",
+    "phone": "(919) 886-8085",
+    "hours": "",
+    "access": "Not given directly to families; get supplies through a partner agency (some offer walk-in emergency diapers)",
+    "cost": "free",
+    "source_url": "https://www.ncdiaperbank.org/need-help",
+    "notes": "The partner list comes from the logos on its distribution-network page, so call the bank or a partner to confirm. Email info@ncdiaperbank.org."
+  },
+  {
+    "name": "Durham Literacy Center",
+    "city": "Durham",
+    "categories": [
+      "Learning & Tech Access"
+    ],
+    "org_type": "nonprofit",
+    "description": "Adult literacy and GED/high school equivalency tutoring, adult ESOL (English) classes, college and career readiness, and a youth HSE program for ages 16–24.",
+    "address": "1905 Chapel Hill Rd., Durham, NC 27707",
+    "url": "https://durhamliteracy.org/",
+    "phone": "(919) 489-8383",
+    "hours": "",
+    "access": "Adults; youth program for ages 16–24",
+    "cost": "",
+    "source_url": "https://durhamliteracy.org/",
+    "notes": "The homepage doesn't state fees or hours, so check the enrollment page or call. It posted a newsletter in Oct 2026."
+  }
+]

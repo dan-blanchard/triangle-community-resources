@@ -1,0 +1,22 @@
+{
+ "_comment": "Map a source's spelling of a name (case-insensitive, exact) to the canonical display name. Merges duplicates and fixes typos.",
+ "Durhan Crisis Response Center": "Durham Crisis Response Center",
+ "Durham LGBTQ+ Center": "LGBTQ Center of Durham",
+ "Believers for Progress": "Believers United for Progress (Community Kitchen)",
+ "Greystone Church": "Grey Stone Baptist Church Second Mile Ministry",
+ "World Relief Durham": "World Relief Durham – Immigration Legal Services",
+ "NC Med Assist": "MedAssist",
+ "N.C. Justice Center (immigrant rights project)": "North Carolina Justice Center, Raleigh",
+ "CIR, Raleigh": "Council on Immigrant Relations (CIR)",
+ "Wake Tech": "WakeTech Community College (ESL)",
+ "Catholic Charites": "Durham Community Food Pantry",
+ "Martin Street Bapist Church": "Martin Street Baptist Church",
+ "Igleisa El Buen Pastor": "Iglesia El Buen Pastor",
+ "Interfaith Council": "Inter-Faith Council for Social Service (IFC)",
+ "Housing DPT: Emergency Housing Assistance": "Orange County Emergency Housing Assistance",
+ "Durham Libraries": "Durham County Library",
+ "Durham Community Fridges – St. Joseph's Episcopal Church": "Durham Community Fridge – St. Joseph's Episcopal Church",
+ "Community Market (Food Bank)": "IFC Community Market (free grocery pantry)",
+ "World Relief- Immigration Legal Services": "World Relief Durham – Immigration Legal Services",
+ "Orange Congregations in Mission": "Orange Congregations in Mission (OCIM)"
+}

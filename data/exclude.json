@@ -1,0 +1,38 @@
+[
+ {
+  "pattern": "goodwill",
+  "reason": "Retail thrift store (not free)"
+ },
+ {
+  "pattern": "thrift|outlet",
+  "reason": "Retail resale (not free)"
+ },
+ {
+  "pattern": "law firm",
+  "reason": "Private for-profit legal practice"
+ },
+ {
+  "pattern": "^federally subsidized housing|l\\.w\\. reid|lynnhaven",
+  "reason": "Individual subsidized apartment complexes, not a community resource"
+ },
+ {
+  "pattern": "executive office for immigration review|innovation law lab",
+  "reason": "National/federal information link, not a local resource"
+ },
+ {
+  "pattern": "nc childcare association|nc homeowners assistance",
+  "reason": "Statewide program, outside the scope of local community resources"
+ },
+ {
+  "pattern": "restore\\b",
+  "reason": "Retail resale store (not free)"
+ },
+ {
+  "pattern": "pachayaku|a new life service",
+  "reason": "Private therapy practice (fee-based)"
+ },
+ {
+  "pattern": "durham rescue mission",
+  "reason": "Requires chapel/prayer attendance (INDY Week reporting)"
+ }
+]

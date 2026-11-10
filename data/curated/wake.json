@@ -1,0 +1,982 @@
+[
+  {
+    "name": "Food Not Bombs Raleigh",
+    "city": "Raleigh",
+    "categories": [
+      "Food",
+      "Clothing & Household",
+      "Hygiene & Laundry",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Volunteer collective sharing free vegan meals, groceries, toiletries and often clothing downtown. Also takes requests for grocery and diaper deliveries.",
+    "address": "Moore Square, 201 S Blount St, Raleigh, NC 27601",
+    "url": "https://fnbraleigh.neocities.org/",
+    "phone": "(919) 346-6028",
+    "hours": "Saturdays 3–5 pm; Tuesdays 7:30–9 pm",
+    "access": "Anyone; no ID, no sign-up",
+    "cost": "free",
+    "source_url": "https://linktr.ee/FNBRaleigh",
+    "notes": "Saturday sharing is at the Martin St side across from Moore Square, around 4 E Martin St. In extreme weather it may run only 3–4 pm, and it ends early when food runs out. Clothing usually goes in the first hour. Contact: fnbraleigh@gmail.com, or text the number above."
+  },
+  {
+    "name": "Raleigh United Mutual Aid Hub (RUMAH)",
+    "city": "Raleigh",
+    "categories": [
+      "Mutual Aid Networks",
+      "Learning & Tech Access",
+      "Gardens & Seeds"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Volunteer-run, community-funded social center (since 2023). Collects and distributes donations for local groups and hosts free community dinners, clothing swaps, mending circles, workshops, a community garden and a coworking space. Keeps a public Triangle resource directory.",
+    "address": "415 Hillsborough St, Suite 101, Raleigh, NC 27603",
+    "url": "https://raleighmutualaid.info/",
+    "phone": "",
+    "hours": "See public calendar on website",
+    "access": "Open to all; sober space",
+    "cost": "free",
+    "source_url": "https://raleighmutualaid.info/",
+    "notes": "The site says 'We're moving! We'll have a new location in late 2026,' so check the site or Instagram (@raleighunitedmutualaidhub) for the current address. Address is from its Visit Raleigh listing. Email: contact.rumah@gmail.com."
+  },
+  {
+    "name": "Raleigh Really Really Free Market",
+    "city": "Raleigh",
+    "categories": [
+      "Free Stores & Swaps",
+      "Clothing & Household",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Monthly free market where nothing is bought or sold: bring what you can, take what you need. Skill shares too (past markets had free haircuts and bike-repair lessons).",
+    "address": "Eliza Pool Park, 1600 Fayetteville St, Raleigh, NC 27603",
+    "url": "https://raleighrrfm.straw.page",
+    "phone": "",
+    "hours": "2nd Sunday of each month, 11 am–1 pm (rain date: following Sunday)",
+    "access": "No sign-up needed, just show up",
+    "cost": "free",
+    "source_url": "https://raleighrrfm.straw.page",
+    "notes": "Upcoming dates listed on its site: Nov 8 and Dec 13, 2026. Masks encouraged and provided. Please take unclaimed items home. Instagram: @raleighrrfm_; email raleighrrfm0@gmail.com."
+  },
+  {
+    "name": "Raleigh Community Kickstand",
+    "city": "Raleigh",
+    "categories": [
+      "Bikes & Transportation",
+      "Makerspaces & Repair"
+    ],
+    "org_type": "cooperative",
+    "description": "All-volunteer community bike co-op (since 2017). Free bike repairs and maintenance lessons, and gives away refurbished bikes, with a focus on people facing housing insecurity.",
+    "address": "Oak City Cares, 1430 S Wilmington St, Raleigh, NC 27603",
+    "url": "https://raleighcommunitykickstand.org/",
+    "phone": "",
+    "hours": "Monthly repair and bike giveaway: 2nd Saturday, 1–3 pm",
+    "access": "Walk up; first come, first served",
+    "cost": "free",
+    "source_url": "https://raleighcommunitykickstand.org/",
+    "notes": "Also runs pop-up repair events around Raleigh (see calendar on site) and community shop hours at its storage space. Email volunteer@raleighcommunitykickstand.org for the gate code. General contact: info@raleighcommunitykickstand.org."
+  },
+  {
+    "name": "Triangle Tenant Union",
+    "city": "Triangle-wide",
+    "categories": [
+      "Housing & Shelter",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "community_org",
+    "description": "Member-run tenant union, part of the NC Tenants Union, covering Raleigh, Durham and Chapel Hill. Helps tenants form associations in their buildings and neighborhoods to fight rent hikes, displacement and unsafe conditions.",
+    "address": "",
+    "url": "https://triangletenantunion.org",
+    "phone": "",
+    "hours": "",
+    "access": "Any tenant; join through the website",
+    "cost": "low_cost_membership",
+    "source_url": "https://triangletenantunion.org",
+    "notes": "This is organizing, not a service agency, and members pay dues. Email: triangletenantunion@gmail.com; Instagram: @triangletenants."
+  },
+  {
+    "name": "Oak City Cares",
+    "city": "Raleigh",
+    "categories": [
+      "Hygiene & Laundry",
+      "Food",
+      "Housing & Shelter",
+      "Learning & Tech Access",
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Multi-service center for people at risk of or experiencing homelessness. Free showers and laundry on weekdays, three meals a day on weekends and holidays, care coordinators, public computers, phones and lockable phone charging, plus an on-site clinic and HIV/STD/Hep C testing. Coordinated Entry access site for shelter referrals.",
+    "address": "1430 S Wilmington St, Raleigh, NC 27603",
+    "url": "https://oakcitycares.org/",
+    "phone": "",
+    "hours": "Mon–Fri 9 am–5 pm (last shower 4:30, last laundry 3:30); Sat, Sun and holidays meals at 9 am, 12:30 pm and 3 pm",
+    "access": "Walk-in; no appointment; no fees",
+    "cost": "free",
+    "source_url": "https://oakcitycares.org/services/",
+    "notes": "GoRaleigh route 21 from downtown. Care Coordinators see people Mon–Fri 9 am–3 pm (until 1 pm on Wednesdays). Shelter referrals are in person only. Amplify Health (formerly Advance Community Health) runs walk-in primary care here Mon, Tue and Thu 9 am–1 pm."
+  },
+  {
+    "name": "Women's Center of Wake County – Day Shelter",
+    "city": "Raleigh",
+    "categories": [
+      "Housing & Shelter",
+      "Hygiene & Laundry",
+      "Food",
+      "Clothing & Household",
+      "Learning & Tech Access"
+    ],
+    "org_type": "nonprofit",
+    "description": "Day shelter for single women experiencing homelessness. Breakfast and lunch, showers, laundry, hygiene supplies, a clothing closet, day storage, computers, phones and help getting IDs and other documents, plus on-site health care and housing navigators.",
+    "address": "3211 Bramer Dr, Raleigh, NC 27604",
+    "url": "https://wcwc.org/",
+    "phone": "(919) 829-3711",
+    "hours": "Day shelter intake 8–11 am; breakfast 8:30–9:30 am; lunch 11:30 am–12:30 pm",
+    "access": "Unaccompanied women; same-day intake",
+    "cost": "free",
+    "source_url": "https://wcwc.org/gethelp/",
+    "notes": "Its Recuperative Respite program for women leaving the hospital is by referral, at 2200 New Bern Ave."
+  },
+  {
+    "name": "Wake County Drop-In Overnight Shelter (Second Street Place / temporary Bramer Dr site)",
+    "city": "Raleigh",
+    "categories": [
+      "Housing & Shelter"
+    ],
+    "org_type": "public",
+    "description": "Wake County's low-barrier emergency shelter for men and women. No referral is needed for emergency access, and it doesn't require sobriety or background checks.",
+    "address": "3211 Bramer Dr, Raleigh, NC 27604",
+    "url": "https://www.wake.gov/departments-government/housing-affordability-community-revitalization/find-services/second-street-place",
+    "phone": "",
+    "hours": "Temporary site: 7 pm–7 am (overnight intake 6–8 pm)",
+    "access": "Walk-in; adults experiencing homelessness",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/housing-affordability-community-revitalization/find-services/second-street-place",
+    "notes": "Second Street Place (5010 Second St, Raleigh 27609, normally 24/7) closed for renovation in 2026, and the county expects to reopen it in late 2026. Until then, the Women's Center runs the drop-in shelter at 3211 Bramer Dr (hours are from wcwc.org/gethelp). Call 211 to check which site is open."
+  },
+  {
+    "name": "South Wilmington Street Center (men's shelter)",
+    "city": "Raleigh",
+    "categories": [
+      "Housing & Shelter"
+    ],
+    "org_type": "public",
+    "description": "Wake County shelter for men experiencing homelessness. Short-term emergency overnight dorms, plus longer-term beds for men working with case management, budgeting help and mental health and substance use referrals.",
+    "address": "1420 S Wilmington St, Raleigh, NC 27603",
+    "url": "https://www.wake.gov/departments-government/housing-affordability-community-revitalization/find-services/south-wilmington-street-center",
+    "phone": "(919) 857-9428",
+    "hours": "24/7, 365 days",
+    "access": "Adult men; call about bed availability",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/housing-affordability-community-revitalization/find-services/south-wilmington-street-center",
+    "notes": "A May 2025 local resource guide lists it as for Wake County residents only. The county page doesn't state requirements, so confirm by phone."
+  },
+  {
+    "name": "Healing Transitions",
+    "city": "Raleigh",
+    "categories": [
+      "Housing & Shelter",
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Recovery community with an emergency drop-in shelter and non-medical detox. Serves people 'under the influence or not, and regardless of readiness for change.'",
+    "address": "1251 Goode St, Raleigh, NC 27603 (men); 3304 Glen Royal Rd, Raleigh, NC 27617 (women)",
+    "url": "https://www.healing-transitions.org/",
+    "phone": "(919) 838-9800",
+    "hours": "",
+    "access": "Adults; call first (see notes)",
+    "cost": "free",
+    "source_url": "https://www.healing-transitions.org/",
+    "notes": "Local guides from 2023–2025 say to call ahead to be screened or considered for the night, and the process differs for men and women. Wake County lists detox lines: men ext. 135, women ext. 222."
+  },
+  {
+    "name": "Wrenn House (Haven House youth shelter)",
+    "city": "Raleigh",
+    "categories": [
+      "Housing & Shelter",
+      "Kids & Families",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Crisis line and emergency shelter for youth who have run away, are unhoused, or are in crisis.",
+    "address": "",
+    "url": "",
+    "phone": "(919) 832-7866",
+    "hours": "24/7",
+    "access": "Youth (a 2025 guide lists ages 10–17; a guardian must start screening)",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/living-visiting/having-crisis",
+    "notes": "You can also text SAFE to 4HELP (44357). Call for intake."
+  },
+  {
+    "name": "Urban Ministries of Wake County – Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Weekly curbside grocery box with produce (much of it from on-site community gardens), meat, eggs and pantry staples.",
+    "address": "1390 Capital Blvd, Raleigh, NC 27603",
+    "url": "https://urbanmin.org/services/food-pantry",
+    "phone": "(919) 746-0088",
+    "hours": "Mon–Thu from 8:30 am until capacity is reached",
+    "access": "Any Wake County resident; no referral needed",
+    "cost": "free",
+    "source_url": "https://urbanmin.org/services/food-pantry",
+    "notes": "One box per household per week. The 919-746-0088 info line has closings and news. The July 2026 Food Shuttle guide says to show ID and arrive early."
+  },
+  {
+    "name": "Shepherd's Table Soup Kitchen",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free, no-questions-asked hot lunch on weekdays.",
+    "address": "121 W Morgan St, Raleigh, NC 27603",
+    "url": "https://shepherds-table.org/",
+    "phone": "(919) 831-2010",
+    "hours": "Mon–Fri, serving 11 am–noon",
+    "access": "No referral required",
+    "cost": "free",
+    "source_url": "https://shepherds-table.org/",
+    "notes": "It's in the basement of the Church of the Good Shepherd, entered from the back at Morgan and McDowell Sts. Address and phone are from a May 2025 local resource guide."
+  },
+  {
+    "name": "Catholic Parish Outreach Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Large walk-in food pantry run by Catholic Charities of the Diocese of Raleigh. No religious participation is required.",
+    "address": "2013 Raleigh Blvd, Raleigh, NC 27604",
+    "url": "",
+    "phone": "(919) 873-0245",
+    "hours": "Mon, Wed, Thu, Fri, Sat 9 am–noon",
+    "access": "No referral or ID needed (2025 guide); residents of Wake, Johnston or Franklin counties",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food once a month, served indoors. Spanish line: (919) 873-0094. The 'no referral or ID' detail is from the May 2025 local resource guide (rhanc.gov)."
+  },
+  {
+    "name": "Wake Relief Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Downtown indoor food pantry.",
+    "address": "4 N Blount St, 1st Floor, Raleigh, NC 27601",
+    "url": "",
+    "phone": "(919) 307-8748",
+    "hours": "Mon & Tue 1–3 pm; Wed 10 am–noon; 4th Saturday 10 am–noon",
+    "access": "Wake County residents",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food once every 30 days."
+  },
+  {
+    "name": "Lincoln Park Holiness Church Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Walk-up window food pantry in Southeast Raleigh.",
+    "address": "1409 Cross St, Raleigh, NC 27610",
+    "url": "",
+    "phone": "(984) 200-4427",
+    "hours": "Tue & Thu 2–4 pm; Sat 2–4 pm",
+    "access": "Short intake process; walk up to the window",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "The source lists no ID or religious requirement. Confirm by phone."
+  },
+  {
+    "name": "Open Door Clinic (Urban Ministries of Wake County)",
+    "city": "Raleigh",
+    "categories": [
+      "Health & Harm Reduction",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free medical home for uninsured adults: primary care, behavioral health, some specialty care, diabetes education, telehealth and an on-site pharmacy.",
+    "address": "1390 Capital Blvd, Raleigh, NC 27603",
+    "url": "https://urbanmin.org/services/clinic-pharmacy",
+    "phone": "(919) 746-0101",
+    "hours": "Mon & Thu 9 am–5 pm; Tue & Wed 9 am–6:30 pm; Fri closed. Pharmacy Mon–Thu 10 am–noon and 1–4 pm",
+    "access": "Uninsured adults",
+    "cost": "free",
+    "source_url": "https://urbanmin.org/services/clinic-pharmacy",
+    "notes": "Spanish line: (919) 746-0102. A May 2025 guide adds: 18+, not Medicaid-eligible, and not pregnant (no prenatal care). No urgent care or dental. Call about becoming a new patient."
+  },
+  {
+    "name": "NC Harm Reduction Coalition – Raleigh",
+    "city": "Raleigh",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free naloxone (Narcan) kits and syringe services, prioritizing people who use drugs and their families. Mobile and peer exchange is available by call or text.",
+    "address": "804 E Edenton St, Raleigh, NC",
+    "url": "https://www.nchrc.org/",
+    "phone": "(919) 523-4303",
+    "hours": "Wed–Fri noon–5 pm",
+    "access": "No ID; call or text before visiting",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/health-human-services/public-health-and-medical-services/health-promotion-and-chronic-disease-prevention/drug-use-and-overdose-prevention/wake-county-drug-overdose-prevention-coalition/access-naloxone-and-syringe-exchange",
+    "notes": "NCHRC says staff are mostly in the field, so call or text first. Its contact page lists its main office at 4024 Barrett Dr, Suite 101."
+  },
+  {
+    "name": "Wake County Public Health Pharmacy – Free Naloxone",
+    "city": "Raleigh",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "public",
+    "description": "Free naloxone kits from the county pharmacy while supplies last.",
+    "address": "200 Swinburne St, Raleigh, NC 27610",
+    "url": "https://www.wake.gov/",
+    "phone": "",
+    "hours": "Mon–Fri 8:30 am–5 pm (closed 12:30–1:30 pm)",
+    "access": "",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/health-human-services/public-health-and-medical-services/health-promotion-and-chronic-disease-prevention/drug-use-and-overdose-prevention/wake-county-drug-overdose-prevention-coalition/access-naloxone-and-syringe-exchange",
+    "notes": "The county also has naloxone vending machines at SouthLight (2101 Garner Rd) and the Wake County Detention Center (3301 Hammond Rd), and newspaper boxes with naloxone around the county through Illuminate NC."
+  },
+  {
+    "name": "SouthLight Peer Drop-In Center – Naloxone Vending Machine",
+    "city": "Raleigh",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free naloxone vending machine inside SouthLight Healthcare's peer drop-in center.",
+    "address": "2101 Garner Rd, Raleigh, NC",
+    "url": "",
+    "phone": "",
+    "hours": "",
+    "access": "",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/health-human-services/public-health-and-medical-services/health-promotion-and-chronic-disease-prevention/drug-use-and-overdose-prevention/wake-county-drug-overdose-prevention-coalition/access-naloxone-and-syringe-exchange",
+    "notes": "Hours aren't listed on the county page."
+  },
+  {
+    "name": "Amplify Health – Southeast Raleigh Careplex (formerly Advance Community Health)",
+    "city": "Raleigh",
+    "categories": [
+      "Health & Harm Reduction",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Federally funded community health center with primary care, behavioral health and pharmacy. Also runs an urgent care at 3509 Capital Blvd (Mon–Sat 8 am–5 pm).",
+    "address": "1011 Rock Quarry Rd, Raleigh, NC 27610",
+    "url": "https://amplifyhealth.org/",
+    "phone": "(919) 833-3111",
+    "hours": "Mon–Thu 7 am–7 pm; Fri 7 am–5 pm",
+    "access": "Insured and uninsured patients",
+    "cost": "sliding_scale",
+    "source_url": "https://amplifyhealth.org/locations/",
+    "notes": "It rebranded from Advance Community Health; the old advancechc.org redirects. The site says it is a federal Health Center Program grantee (these offer income-based sliding fees), but I didn't see its sliding-fee details. Confirm when you call."
+  },
+  {
+    "name": "Wake Recovery Response Center (WakeBrook campus)",
+    "city": "Raleigh",
+    "categories": [
+      "Mental Health & Crisis",
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Behavioral health urgent care and crisis center for adults in a mental health or substance use crisis, run by RI International (Recovery Innovations). 'No wrong door': walk in alone, with a loved one, or be brought by a provider or first responder.",
+    "address": "107 Sunnybrook Rd, Raleigh, NC 27610",
+    "url": "",
+    "phone": "(919) 975-5396",
+    "hours": "",
+    "access": "Adults 18+; walk-ins accepted",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/living-visiting/having-crisis",
+    "notes": "Cost and hours aren't stated on the county pages. A 2024 county FAQ described it as 24/7. Also see the WakeBrook campus page on wake.gov."
+  },
+  {
+    "name": "Monarch Behavioral Health Urgent Care",
+    "city": "Raleigh",
+    "categories": [
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Walk-in behavioral health urgent care for mental health and substance use needs, ages 4 and up.",
+    "address": "319 Chapanoke Rd, Suite 120, Raleigh, NC 27603",
+    "url": "",
+    "phone": "(919) 703-2845",
+    "hours": "Mon–Thu 8 am–10 pm; Fri 8 am–8 pm; Sat–Sun 8 am–5 pm",
+    "access": "Walk-in; ages 4+",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/living-visiting/having-crisis",
+    "notes": "Cost isn't stated on the county page. Ask about fees and insurance."
+  },
+  {
+    "name": "Therapeutic Alternatives Mobile Crisis (Wake)",
+    "city": "Triangle-wide",
+    "categories": [
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Mobile crisis team that sends a mental health professional to you instead of EMS or police.",
+    "address": "",
+    "url": "",
+    "phone": "(877) 626-1772",
+    "hours": "24/7",
+    "access": "Call anytime",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/living-visiting/having-crisis",
+    "notes": "Wake County also lists the Alliance Health crisis line (877-223-4617) and 988 (call or text; text AYUDA for Spanish)."
+  },
+  {
+    "name": "InterAct of Wake County",
+    "city": "Raleigh",
+    "categories": [
+      "Safety & Domestic Violence",
+      "Housing & Shelter"
+    ],
+    "org_type": "nonprofit",
+    "description": "Domestic violence and sexual assault services: 24-hour crisis line, emergency shelter, the Solace Center (24/7 sexual assault forensic exams), court advocacy for protective orders, counseling and housing case management.",
+    "address": "1012 Oberlin Rd, Raleigh, NC 27605",
+    "url": "https://interactofwake.org/",
+    "phone": "(919) 828-7740",
+    "hours": "Crisis line 24/7; walk-in Mon–Fri 9 am–5 pm",
+    "access": "Confidential; walk-ins welcome during office hours",
+    "cost": "free",
+    "source_url": "https://interactofwake.org/immediate-support/",
+    "notes": "Spanish line: 844-203-8896. Email gethelp@interactofwake.org (answered weekdays). Solace Center services are free whatever the circumstances."
+  },
+  {
+    "name": "Legal Aid of North Carolina – Raleigh Office",
+    "city": "Raleigh",
+    "categories": [
+      "Legal & Immigration"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free civil legal help for low-income people, including housing and eviction, domestic violence, consumer, public benefits and health care issues.",
+    "address": "1425 Promise Beacon Circle, Suite 201, Raleigh, NC 27610",
+    "url": "https://www.legalaidnc.org/",
+    "phone": "(919) 828-4647",
+    "hours": "Mon–Fri 8:30 am–4:30 pm",
+    "access": "Income-eligible residents of Wake and Johnston counties",
+    "cost": "free",
+    "source_url": "https://www.legalaidnc.org/offices/",
+    "notes": "Statewide intake helpline: 1-866-219-5262 (Mon–Fri 8:30 am–4 pm)."
+  },
+  {
+    "name": "El Centro Hispano – Raleigh Office",
+    "city": "Raleigh",
+    "categories": [
+      "Legal & Immigration",
+      "Mutual Aid Networks",
+      "Learning & Tech Access"
+    ],
+    "org_type": "nonprofit",
+    "description": "Latino-led community organization offering legal information and referrals, Know Your Rights workshops, community assistance and education and workforce programs.",
+    "address": "421 Chapanoke Rd, Suite 156, Raleigh, NC 27603",
+    "url": "https://elcentronc.org/",
+    "phone": "(984) 208-2158",
+    "hours": "",
+    "access": "Spanish and English",
+    "cost": "free",
+    "source_url": "https://elcentronc.org/",
+    "notes": "The 2024 brochure lists 'Immigration and Legal Assistance' among its programs. Call to confirm current services and hours."
+  },
+  {
+    "name": "LGBT Center of Raleigh – Community Closet & Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Clothing & Household",
+      "Food",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "community_org",
+    "description": "Free Community Closet with everyday clothing, shoes and gender-affirming items (binders, makeup and wigs on request), plus a Community Pantry with shelf-stable food. Also a drop-in community center.",
+    "address": "128 E Cabarrus St, Raleigh, NC 27601",
+    "url": "https://www.lgbtcenterofraleigh.com/",
+    "phone": "(919) 832-4484",
+    "hours": "Wed & Thu noon–6 pm; Fri noon–4 pm; Sat 11 am–2 pm",
+    "access": "Drop in during open hours",
+    "cost": "free",
+    "source_url": "https://www.lgbtcenterofraleigh.com/plan-your-visit",
+    "notes": "Hours can change around programs and holidays, so check the center's calendar."
+  },
+  {
+    "name": "Diaper Train",
+    "city": "Raleigh",
+    "categories": [
+      "Kids & Families"
+    ],
+    "org_type": "nonprofit",
+    "description": "Diaper bank serving only Wake County. Free diapers and youth and adult incontinence supplies.",
+    "address": "1812 Tillery Place, Suite 100, Raleigh, NC 27604",
+    "url": "https://diapertrain.org/",
+    "phone": "(919) 833-6400",
+    "hours": "Tue 9 am–noon; Wed 3–5:30 pm; Thu 9 am–noon; 2nd Saturday 9 am–noon",
+    "access": "Needs an online referral from a community partner (e.g. Wake County social workers, schools, pediatricians); proof of Wake County residency",
+    "cost": "free",
+    "source_url": "https://diapertrain.org/get-help/",
+    "notes": "Once every four weeks. If you can't get a referral, Food Not Bombs Raleigh takes diaper delivery requests through its Linktree."
+  },
+  {
+    "name": "Raleigh Tool Share",
+    "city": "Raleigh",
+    "categories": [
+      "Tools & Sharing"
+    ],
+    "org_type": "public",
+    "description": "City program that lends battery-powered yard tools (mower, string trimmer, leaf blower) for free.",
+    "address": "Raleigh Pathways Center, 900 S Wilmington St, Raleigh, NC 27601",
+    "url": "https://raleighnc.gov/housing/services/raleigh-tool-share",
+    "phone": "(919) 996-6100",
+    "hours": "Pickup Wed or Fri 9 am–noon; return the following Monday 9 am–noon",
+    "access": "Raleigh city-limits residents; NC ID and proof of residency; online request form",
+    "cost": "free",
+    "source_url": "https://raleighnc.gov/housing/services/raleigh-tool-share",
+    "notes": "Non-commercial use only. You sign a liability release at pickup. Not low-barrier: needs ID and an address."
+  },
+  {
+    "name": "Wake County Human Services (Swinburne)",
+    "city": "Raleigh",
+    "categories": [
+      "Money & Utilities",
+      "Food",
+      "Kids & Families",
+      "Housing & Shelter"
+    ],
+    "org_type": "public",
+    "description": "County office for food and nutrition benefits (SNAP), Medicaid, emergency assistance, child welfare, and veteran and homeless services. NCWorks Career Center is in the same building.",
+    "address": "220 Swinburne St, Raleigh, NC 27610",
+    "url": "https://www.wake.gov/",
+    "phone": "(919) 212-7000",
+    "hours": "",
+    "access": "",
+    "cost": "free",
+    "source_url": "https://rhanc.gov/wp-content/uploads/2025/10/Resource-Guide-5.15.25-ENGLISH-1.pdf",
+    "notes": "Listed in the May 2025 local resource guide. Call for current lobby hours."
+  },
+  {
+    "name": "NC 211 (United Way)",
+    "city": "Triangle-wide",
+    "categories": [
+      "Housing & Shelter",
+      "Food",
+      "Money & Utilities",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free 24-hour information and referral line for shelter, food, utilities and other help, including White Flag shelter info.",
+    "address": "",
+    "url": "https://nc211.org/",
+    "phone": "211",
+    "hours": "24/7",
+    "access": "Anyone; phone call",
+    "cost": "free",
+    "source_url": "https://rhanc.gov/wp-content/uploads/2025/10/Resource-Guide-5.15.25-ENGLISH-1.pdf",
+    "notes": "The May 2025 guide also lists 1-800-831-1754. Wake County's crisis page says to dial 211."
+  },
+  {
+    "name": "Wake County Public Libraries – free card services",
+    "city": "Triangle-wide",
+    "categories": [
+      "Learning & Tech Access",
+      "Gardens & Seeds",
+      "Tools & Sharing"
+    ],
+    "org_type": "public",
+    "description": "23 free public libraries across Wake County. Cardholders can borrow laptops, Wi-Fi hotspots and blood pressure monitors, get free online tutoring (Tutor.com) and Udemy courses, book one-on-one job-search and tech help, and take seeds from seed libraries at some branches.",
+    "address": "",
+    "url": "https://www.wake.gov/departments-government/libraries",
+    "phone": "(919) 250-1200",
+    "hours": "Varies by branch",
+    "access": "Library card is free for Wake County residents",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/news/wake-library-cards-unlock-opportunities-beyond-books",
+    "notes": "The card page doesn't say how people without a permanent address can register, so ask at a branch. The system has a mobile library card option and new STEAM Labs."
+  },
+  {
+    "name": "Cary Really Really Free Market",
+    "city": "Cary",
+    "categories": [
+      "Free Stores & Swaps",
+      "Clothing & Household",
+      "Mutual Aid Networks"
+    ],
+    "org_type": "mutual_aid",
+    "description": "Monthly free market where nothing is bought or sold. Bring what you can, take what you need.",
+    "address": "Walnut Street Park, 1420 Walnut St, Cary, NC",
+    "url": "",
+    "phone": "",
+    "hours": "4th Saturday of each month, 2–4 pm",
+    "access": "Open to all",
+    "cost": "free",
+    "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+    "notes": "From Triangle on the Cheap's free-markets roundup (updated Sept 2026). I couldn't find an organizer page, so check before going."
+  },
+  {
+    "name": "Repair Café NC – Cary",
+    "city": "Cary",
+    "categories": [
+      "Makerspaces & Repair"
+    ],
+    "org_type": "community_org",
+    "description": "Volunteer fixers repair broken household items for free (small appliances, lamps, clothing, electronics and more) and teach you how.",
+    "address": "Kirk of Kildaire Presbyterian Church, 200 High Meadow Dr, Cary, NC",
+    "url": "https://repaircafenc.org",
+    "phone": "",
+    "hours": "Next listed: Sat, Jan 9, 2027, 1–5 pm (last check-in 3:30 pm)",
+    "access": "Walk in with your item",
+    "cost": "free",
+    "source_url": "https://triangleonthecheap.com/repair-cafe-can-help-fix-stuff-free",
+    "notes": "Events are held a few times a year (2026 Cary dates included March 14 and June 13). They won't take CRT TVs, weapons or compressed-gas items. Facebook: /RepairCafeNC."
+  },
+  {
+    "name": "NeighborUp – Cary (formerly Dorcas Ministries)",
+    "city": "Cary",
+    "categories": [
+      "Food",
+      "Money & Utilities",
+      "Clothing & Household"
+    ],
+    "org_type": "nonprofit",
+    "description": "Client-choice food pantry (nonperishables, frozen meat, produce, dairy), emergency financial help with housing and bills, free career coaching, and the low-cost Dorcas Thrift Shop.",
+    "address": "193 High House Rd, Cary, NC 27511",
+    "url": "https://neighborup.org/get-help/",
+    "phone": "(919) 469-9861",
+    "hours": "Pantry by appointment (apply online)",
+    "access": "Residents of Cary, Morrisville, Apex, Holly Springs, Fuquay-Varina, Willow Spring, New Hill or Friendship, or a child in public school there, or unhoused with a last address there",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food once every 30 days. The campus is at 187 High House Rd. The thrift shop sells items and isn't free."
+  },
+  {
+    "name": "Mariam Clinic",
+    "city": "Cary",
+    "categories": [
+      "Health & Harm Reduction",
+      "Mental Health & Crisis"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free volunteer clinic for uninsured, low-income adults: acute and chronic care, women's health, mental health and psychiatry, free labs, eye exams and dental referrals. Interpreters for Arabic, Hindi, Urdu and Bengali.",
+    "address": "1100 NW Maynard Rd, Suite 110, Cary, NC 27513",
+    "url": "https://mariamclinic.org/",
+    "phone": "(919) 824-4672",
+    "hours": "Sundays 11 am–5 pm, by appointment only",
+    "access": "Adults 18+, uninsured, at or below 200% of the federal poverty level; no walk-ins",
+    "cost": "free",
+    "source_url": "https://mariamclinic.org/",
+    "notes": "No emergency, walk-in or prenatal care."
+  },
+  {
+    "name": "NeighborUp – Apex (formerly Western Wake Crisis Ministry)",
+    "city": "Apex",
+    "categories": [
+      "Food",
+      "Money & Utilities"
+    ],
+    "org_type": "nonprofit",
+    "description": "Client-choice food pantry and emergency financial help with housing and bills for western Wake County.",
+    "address": "1600 Olive Chapel Rd, Suite 408, Apex, NC 27502",
+    "url": "https://neighborup.org/get-help/",
+    "phone": "(919) 362-0657",
+    "hours": "Pantry by appointment (apply online)",
+    "access": "Residents of Cary, Morrisville, Apex, Holly Springs, Fuquay-Varina, Willow Spring, New Hill or Friendship, or unhoused with a last address there",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food once every 30 days."
+  },
+  {
+    "name": "Amplify Health – Apex",
+    "city": "Apex",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
+    "address": "212 South Salem St, Apex, NC 27502",
+    "url": "https://amplifyhealth.org/",
+    "phone": "(919) 833-3111",
+    "hours": "Mon–Fri 8 am–5 pm (closed 1–2 pm)",
+    "access": "",
+    "cost": "sliding_scale",
+    "source_url": "https://amplifyhealth.org/locations/",
+    "notes": "See the Southeast Raleigh entry for the note on sliding fees. Confirm by phone."
+  },
+  {
+    "name": "Morrisville Community Library",
+    "city": "Morrisville",
+    "categories": [
+      "Learning & Tech Access"
+    ],
+    "org_type": "public",
+    "description": "Free Wake County public library branch with a warm indoor space. Cardholders can borrow laptops and Wi-Fi hotspots and get free tutoring and job-search help (see the countywide library entry).",
+    "address": "310 Town Hall Dr, Morrisville, NC 27560",
+    "url": "https://www.wake.gov/departments-government/libraries/locations",
+    "phone": "(919) 250-1200",
+    "hours": "See branch page",
+    "access": "Open to the public; free card for Wake residents",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/libraries/locations",
+    "notes": ""
+  },
+  {
+    "name": "Garner Area Ministries",
+    "city": "Garner",
+    "categories": [
+      "Money & Utilities",
+      "Clothing & Household"
+    ],
+    "org_type": "nonprofit",
+    "description": "Long-running local nonprofit (since 1981) offering emergency help with rent, water bills and prescriptions, plus a thrift shop.",
+    "address": "558 Village Ct, Garner, NC 27529",
+    "url": "",
+    "phone": "(919) 772-9100",
+    "hours": "Assistance office Mon–Fri 9 am–noon",
+    "access": "Garner residents (zip 27529 and parts of 27603 and 27610)",
+    "cost": "free",
+    "source_url": "https://rhanc.gov/wp-content/uploads/2025/10/Resource-Guide-5.15.25-ENGLISH-1.pdf",
+    "notes": "The thrift shop at 560–564 Village Ct (919-772-9178; Mon/Wed/Sat 9 am–1 pm, Fri 9 am–3 pm) sells items and isn't free. The office address is from an undated Wake County pantry list, and the hours and eligibility are from the May 2025 guide."
+  },
+  {
+    "name": "Community of Hope Ministries Food Pantry",
+    "city": "Garner",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Church food pantry with weekday indoor hours and a monthly evening drive-through.",
+    "address": "601 St. Mary's St, Garner, NC 27529",
+    "url": "",
+    "phone": "(919) 779-6679 x231",
+    "hours": "Tue & Thu 11 am–noon; 1st Thu 5:30–7 pm (drive-through); 3rd Thu 6–7 pm (indoor)",
+    "access": "ID required for every family member",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food up to twice a month. Not low-barrier because of the ID requirement."
+  },
+  {
+    "name": "Tri-Area Ministry Food Pantry",
+    "city": "Wake Forest",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Drive-through food pantry for the Wake Forest / Rolesville / Youngsville area.",
+    "address": "149 E Holding Ave, Wake Forest, NC 27587",
+    "url": "",
+    "phone": "(919) 556-7144",
+    "hours": "Mon & Wed 10 am–1 pm; 2nd and 3rd Saturday 10 am–1 pm",
+    "access": "Drive-through",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "Food once a month. The source lists no religious requirement."
+  },
+  {
+    "name": "Richland Creek Community Church Food Pantry",
+    "city": "Wake Forest",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Indoor food distribution twice a month.",
+    "address": "3229 Burlington Mills Rd, Wake Forest, NC 27587",
+    "url": "",
+    "phone": "(919) 556-9292",
+    "hours": "2nd and 4th Saturday, 9–11 am",
+    "access": "Arrive early",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "The source lists no religious requirement."
+  },
+  {
+    "name": "Amplify Health – Wake Forest",
+    "city": "Wake Forest",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
+    "address": "110 Capcom Ave, Wake Forest, NC 27587",
+    "url": "https://amplifyhealth.org/",
+    "phone": "(919) 833-3111",
+    "hours": "Mon–Fri 8 am–5 pm (closed 1–2 pm)",
+    "access": "",
+    "cost": "sliding_scale",
+    "source_url": "https://amplifyhealth.org/locations/",
+    "notes": "See the Southeast Raleigh entry for the note on sliding fees."
+  },
+  {
+    "name": "CrossPoint Community Church Mobile Food Distribution",
+    "city": "Knightdale",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Monthly drive-through food distribution.",
+    "address": "1001 Steeple Square Ct, Knightdale, NC 27545",
+    "url": "",
+    "phone": "(919) 427-6677",
+    "hours": "1st Saturday of each month, 8 am",
+    "access": "Drive-through",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "A directory listing says this is an Inter-Faith Food Shuttle mobile market."
+  },
+  {
+    "name": "East Regional Library",
+    "city": "Knightdale",
+    "categories": [
+      "Learning & Tech Access"
+    ],
+    "org_type": "public",
+    "description": "Free Wake County public library branch serving eastern Wake. Cardholders can borrow laptops and hotspots and get free tutoring and job-search help (see the countywide library entry).",
+    "address": "946 Steeple Square Ct, Knightdale, NC 27545",
+    "url": "https://www.wake.gov/departments-government/libraries/locations",
+    "phone": "(919) 250-1200",
+    "hours": "See branch page",
+    "access": "Open to the public; free card for Wake residents",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/libraries/locations",
+    "notes": ""
+  },
+  {
+    "name": "Fuquay-Varina Emergency Food Pantry",
+    "city": "Fuquay-Varina",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Drive-through emergency food pantry. Also connects patrons with financial-assistance and clothing resources.",
+    "address": "216 W Academy St, Fuquay-Varina, NC 27526",
+    "url": "",
+    "phone": "(919) 552-7720",
+    "hours": "Tue 9–11:45 am; Thu 3–5:45 pm",
+    "access": "Drive-through; clear your trunk or back seat",
+    "cost": "free",
+    "source_url": "https://www.harnett.org/dss/downloads/harnett-county-food-pantry-list-11-25.pdf",
+    "notes": "Once every 28 days. Hours are from the Harnett County DSS pantry list updated 1/21/2026."
+  },
+  {
+    "name": "Operation Nahyelle",
+    "city": "Fuquay-Varina",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Curbside food distribution in downtown Fuquay-Varina.",
+    "address": "800 S Main St, Fuquay-Varina, NC 27526",
+    "url": "",
+    "phone": "(919) 432-2423",
+    "hours": "1st and 3rd Saturday 10 am–noon; 2nd and 4th Thursday 3:30–5:30 pm",
+    "access": "Curbside",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": ""
+  },
+  {
+    "name": "The Hope Center for Youth and Family Crisis",
+    "city": "Fuquay-Varina",
+    "categories": [
+      "Mental Health & Crisis",
+      "Kids & Families"
+    ],
+    "org_type": "nonprofit",
+    "description": "Crisis center for children, teens and young adults (ages 5–20) and their families.",
+    "address": "400 W Ransom St, Fuquay-Varina, NC 27526",
+    "url": "",
+    "phone": "(877) 888-7849",
+    "hours": "",
+    "access": "Ages 5–20",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/living-visiting/having-crisis",
+    "notes": "Listed by Wake County as a 24/7 crisis resource. Confirm hours and cost by phone."
+  },
+  {
+    "name": "Amplify Health – Fuquay-Varina",
+    "city": "Fuquay-Varina",
+    "categories": [
+      "Health & Harm Reduction"
+    ],
+    "org_type": "nonprofit",
+    "description": "Federally funded community health center (formerly Advance Community Health) with primary care.",
+    "address": "130 N Judd Pkwy NE, Fuquay-Varina, NC 27526",
+    "url": "https://amplifyhealth.org/",
+    "phone": "(919) 833-3111",
+    "hours": "Mon–Fri 8:30 am–5 pm (closed 1–2 pm)",
+    "access": "",
+    "cost": "sliding_scale",
+    "source_url": "https://amplifyhealth.org/locations/",
+    "notes": "See the Southeast Raleigh entry for the note on sliding fees."
+  },
+  {
+    "name": "Holly Springs Food Cupboard",
+    "city": "Holly Springs",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Local food pantry with a weekly drive-through.",
+    "address": "621 W Holly Springs Rd, Holly Springs, NC 27540",
+    "url": "",
+    "phone": "(919) 577-2210",
+    "hours": "Mon 1–4 pm (appointment only); Thu 2–5 pm (drive-through)",
+    "access": "Book Monday visits in advance; empty your trunk for the drive-through",
+    "cost": "free",
+    "source_url": "https://www.harnett.org/dss/downloads/harnett-county-food-pantry-list-11-25.pdf",
+    "notes": "An older county list says food once every 30 days. Hours are from the Harnett County DSS list updated 1/21/2026."
+  },
+  {
+    "name": "Wendell Community Library",
+    "city": "Wendell",
+    "categories": [
+      "Learning & Tech Access"
+    ],
+    "org_type": "public",
+    "description": "Free Wake County public library branch. Cardholders can borrow laptops and hotspots and get free tutoring and job-search help (see the countywide library entry).",
+    "address": "207 S Hollybrook Rd, Wendell, NC 27591",
+    "url": "https://www.wake.gov/departments-government/libraries/locations",
+    "phone": "(919) 250-1200",
+    "hours": "See branch page",
+    "access": "Open to the public; free card for Wake residents",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/libraries/locations",
+    "notes": ""
+  },
+  {
+    "name": "Shepherd's Care Medical Clinic",
+    "city": "Zebulon",
+    "categories": [
+      "Health & Harm Reduction",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free rural clinic for uninsured adults in eastern Wake and nearby counties. Also runs a monthly drive-through food distribution.",
+    "address": "1303 Water Plant Rd, Zebulon, NC 27597",
+    "url": "",
+    "phone": "(919) 404-2474",
+    "hours": "Food distribution: 3rd Wednesday of each month, 1 pm (drive-through)",
+    "access": "Uninsured adults (clinic); drive-through (food)",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": "The food schedule is from the July 2026 Food Shuttle guide. Clinic details (primary care, behavioral health, free) are from older directory listings. Call to check clinic hours and whether it's taking new patients."
+  },
+  {
+    "name": "Bread for Life of America – Zebulon Distribution",
+    "city": "Zebulon",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Monthly drive-through food distribution at the Boys and Girls Club.",
+    "address": "1320 Shephard School Rd, Zebulon, NC 27597",
+    "url": "",
+    "phone": "(919) 492-0783",
+    "hours": "3rd Saturday of each month, 8:30 am",
+    "access": "Drive-through",
+    "cost": "free",
+    "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+    "notes": ""
+  }
+]

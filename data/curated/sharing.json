@@ -1,0 +1,707 @@
+[
+ {
+  "name": "Keep Durham Beautiful Tool Lending Library",
+  "city": "Durham",
+  "categories": [
+   "Tools & Sharing",
+   "Gardens & Seeds"
+  ],
+  "org_type": "nonprofit",
+  "description": "Lends garden, cleanup and yard tools to community groups doing beautification or cleanup projects. Stock includes shovels, rakes, pruners, loppers, wheelbarrows, an electric mower, weed eater and hedge trimmer, waders, litter grabbers, safety vests and cones.",
+  "address": "2011 Fay Street, Durham, NC 27704",
+  "url": "https://www.keepdurhambeautiful.org/tool-lending-library",
+  "phone": "(919) 354-2729",
+  "hours": "Mon–Fri, pickup and drop-off by appointment only",
+  "access": "Any Durham-based community group or organization; first come, first served. Submit the request form at least one week ahead. You need the property owner's permission for the project site.",
+  "cost": "free",
+  "source_url": "https://www.keepdurhambeautiful.org/tool-lending-library",
+  "notes": "The page lists no fee. It lends to groups, not individuals. Return tools within one week after the project."
+ },
+ {
+  "name": "Raleigh Tool Share",
+  "city": "Raleigh",
+  "categories": [
+   "Tools & Sharing"
+  ],
+  "org_type": "public",
+  "description": "City program that lends battery-powered yard equipment for free: self-propelled mowers, string trimmers and leaf blowers (four of each).",
+  "address": "Raleigh Pathways Center, 900 S. Wilmington Street, Raleigh, NC 27601",
+  "url": "https://raleighnc.gov/community/services/raleigh-tool-share",
+  "phone": "(919) 996-6100",
+  "hours": "Pickup Wed and Fri 9am–12pm; return the following Monday 9am–12pm",
+  "access": "Raleigh city-limits residents, non-commercial use only. Submit the online lending request form. Bring an NC-issued ID and proof of Raleigh residency (such as a utility bill), and sign a loan agreement at pickup.",
+  "cost": "free",
+  "source_url": "https://raleighnc.gov/community/services/raleigh-tool-share",
+  "notes": "Run by the Housing & Neighborhoods and Community Engagement departments."
+ },
+ {
+  "name": "Durham County Library – Maker + STEAM Kit Checkout",
+  "city": "Durham",
+  "categories": [
+   "Tools & Sharing",
+   "Learning & Tech Access"
+  ],
+  "org_type": "public",
+  "description": "Public library 'library of things': you can borrow STEAM tech and tool kits from the Maker + STEAM department for home, hobby, classroom, group or family projects.",
+  "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701",
+  "url": "https://durhamcountylibrary.org/steam-services",
+  "phone": "(919) 560-9321",
+  "hours": "",
+  "access": "Library card holders (check with the Maker + STEAM desk)",
+  "cost": "free",
+  "source_url": "https://durhamcountylibrary.org/steam-services",
+  "notes": "The kit list wasn't spelled out on the page. Ask Maker + STEAM staff (Maker_STEAM@dconc.gov) what's available. A 2023 WRAL story also covered the library's tool lending and home-repair classes."
+ },
+ {
+  "name": "Chapel Hill Public Library – Kits & Tech Lending",
+  "city": "Chapel Hill",
+  "categories": [
+   "Tools & Sharing",
+   "Learning & Tech Access",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "Lending collection beyond books: audio recorders, Chromebooks, DSLR camera, camcorder, projector and screen, tripod, microphones, kids' nature backpacks, sensory kits, outdoor science kits, memory care kits and 100+ book club kits.",
+  "address": "100 Library Dr., Chapel Hill, NC 27514",
+  "url": "https://chapelhillpubliclibrary.org/kits-tech",
+  "phone": "(919) 968-2777",
+  "hours": "",
+  "access": "Check out through the library catalog with a library card",
+  "cost": "free",
+  "source_url": "https://chapelhillpubliclibrary.org/kits-tech",
+  "notes": "The page doesn't spell out eligibility. Call to ask about cards for non-residents."
+ },
+ {
+  "name": "Splat Space (Durham hackerspace)",
+  "city": "Durham",
+  "categories": [
+   "Makerspaces & Repair",
+   "Learning & Tech Access"
+  ],
+  "org_type": "community_org",
+  "description": "Long-running member-run hackerspace with a woodshop, electronics and project space. Weekly open houses are free and open to the public, and members get 24/7 access.",
+  "address": "800 N Mangum St., Suite 500, Durham, NC",
+  "url": "https://splatspace.org/",
+  "phone": "",
+  "hours": "Free public open house every Saturday 1–4pm",
+  "access": "Anyone can come to open house; no membership needed. To join, attend two events, then apply with two member sponsors.",
+  "cost": "low_cost_membership",
+  "source_url": "https://www.meetup.com/splatspace/",
+  "notes": "Active as of Nov 2026, with Saturday open houses and members-only Woodshop Wednesdays on Meetup. Meetup lists memberships at $60/mo full (24/7), $35/mo student and $25/mo associate (event access only)."
+ },
+ {
+  "name": "Durham County Library – Innovation Lab (makerspace)",
+  "city": "Durham",
+  "categories": [
+   "Makerspaces & Repair",
+   "Learning & Tech Access"
+  ],
+  "org_type": "public",
+  "description": "Public-library makerspace with 3D printers, a Cricut/light cutting machine (paper, vinyl, fabric), a laser/heavy cutting machine (wood, cardboard, some plastics) and a poster printer. Staff teach equipment basics, and self-paced trainings are online.",
+  "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701",
+  "url": "https://durhamcountylibrary.org/steam-services",
+  "phone": "(919) 560-9321",
+  "hours": "Typically Tue 1–5pm, Thu 10am–2pm, Fri 1–5pm, Sat 11am–1pm & 3–5pm (depends on staffing; call to confirm)",
+  "access": "Walk in during lab hours; some equipment needs a reservation. Staff help with basics but won't design your project.",
+  "cost": "free",
+  "source_url": "https://durhamcountylibrary.org/steam-services",
+  "notes": "Using the space is free, but some equipment and materials have fees (non-refundable). Fees are listed per piece of equipment."
+ },
+ {
+  "name": "Chapel Hill Public Library – Tech Lab",
+  "city": "Chapel Hill",
+  "categories": [
+   "Makerspaces & Repair",
+   "Learning & Tech Access"
+  ],
+  "org_type": "public",
+  "description": "Digital creation and media-digitizing lab. iMacs have Adobe Creative Suite, Blender, Unity, Python, GarageBand and iMovie. There are cassette, record and VHS/miniDV/Hi8 players and photo scanners for digitizing old media. Free tech tutoring and workshops.",
+  "address": "100 Library Dr. (lower level), Chapel Hill, NC 27514",
+  "url": "https://chapelhillpubliclibrary.org/tech-lab",
+  "phone": "(919) 969-5105",
+  "hours": "During library hours (Mon, Tue, Thu 10am–8pm; Fri–Sun 10am–6pm; check site for Wednesday)",
+  "access": "Book one-on-one tech tutoring online (Spanish sessions available). Help with digitizing media needs a tutoring appointment.",
+  "cost": "free",
+  "source_url": "https://chapelhillpubliclibrary.org/tech-lab",
+  "notes": "Email techlab@chapelhillnc.gov. The phone number is the tech tutoring line."
+ },
+ {
+  "name": "Repair Café NC",
+  "city": "Triangle-wide",
+  "categories": [
+   "Makerspaces & Repair"
+  ],
+  "org_type": "community_org",
+  "description": "Free pop-up repair events where volunteer fixers help you repair small appliances, electronics, lamps, clocks, furniture, toys, jewelry, clothing and tools. It runs the Cary and Hillsborough events and others around NC.",
+  "address": "",
+  "url": "https://repaircafenc.org/",
+  "phone": "",
+  "hours": "Event-based; see upcoming events page",
+  "access": "Open to the public; bring your broken item",
+  "cost": "free",
+  "source_url": "https://repaircafenc.org/upcoming-events/",
+  "notes": "Upcoming Triangle events: Hillsborough Nov 14, 2026 and Cary Jan 9, 2027. Past events in Chapel Hill (Jan 2026, Jul 2025) and Durham (Oct 2024). Contact info@repaircafenc.org. Some locations don't take items such as gas engines or microwaves."
+ },
+ {
+  "name": "Orange County Repair Café (Hillsborough)",
+  "city": "Hillsborough",
+  "categories": [
+   "Makerspaces & Repair"
+  ],
+  "org_type": "public",
+  "description": "County-hosted Repair Café where volunteer repair coaches help mend clothing and fix damaged electronics, furniture, jewelry and small appliances.",
+  "address": "Whitted Human Services Center, Donna S. Baker Meeting Room, 300 W. Tryon St., Hillsborough, NC 27278",
+  "url": "https://www.orangecountync.gov/3816/Repair-Caf",
+  "phone": "",
+  "hours": "Next event Sat Nov 14, 2026, 1–5pm (last check-in 3:30pm)",
+  "access": "Open to the public; register via RepairCafeNC.org",
+  "cost": "free",
+  "source_url": "https://www.orangecountync.gov/3816/Repair-Caf",
+  "notes": "Run with Repair Café NC under Orange County's sustainability program. Repair Café events are free."
+ },
+ {
+  "name": "Cary Repair Café",
+  "city": "Cary",
+  "categories": [
+   "Makerspaces & Repair"
+  ],
+  "org_type": "community_org",
+  "description": "Recurring Repair Café NC workshop in Cary (the group started here in 2017). Volunteers help fix household items, clothing, small appliances and electronics.",
+  "address": "Kirk of Kildaire Presbyterian Church, 200 High Meadow Drive, Cary, NC 27511",
+  "url": "https://repaircafenc.org/",
+  "phone": "",
+  "hours": "Next event Sat Jan 9, 2027, 1–5pm (last check-in 3:30pm); held several times a year",
+  "access": "Open to the public",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/repair-cafe-can-help-fix-stuff-free",
+  "notes": "2025–2026 dates included Aug 16 and Oct 25, 2025 and Mar 14 and Jun 13, 2026."
+ },
+ {
+  "name": "Durham Bike Co-op",
+  "city": "Durham",
+  "categories": [
+   "Bikes & Transportation",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "cooperative",
+  "description": "All-volunteer community bike shop. Offers DIY repair nights with shared tools and volunteer mechanics, guided 'Need Repair or Need Bike' sessions, beginner sessions, an earn-a-bike/earn-a-membership program, and mobile repair clinics around Durham.",
+  "address": "1612 Acadia St., Durham, NC",
+  "url": "https://durhambikecoop.org/",
+  "phone": "",
+  "hours": "Per calendar: DIY walk-ins Thu 6:30–8:30pm; 'Need Repair or Need Bike' Sun 3–5pm; other DIY nights and Saturday sessions vary",
+  "access": "Mostly scheduled sessions; sign up on the co-op's Corsizio calendar. Some sessions fill up or have waitlists.",
+  "cost": "low_cost_membership",
+  "source_url": "https://durhambikecoop.corsizio.com/",
+  "notes": "Membership is $30/year and includes shop and tool access plus volunteer mechanic help. Calendar is active through Jan 2027. Contact support@durhambikecoop.org."
+ },
+ {
+  "name": "Raleigh Community Kickstand",
+  "city": "Raleigh",
+  "categories": [
+   "Bikes & Transportation",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "cooperative",
+  "description": "All-volunteer bike co-op ('Fix, Teach, Give'). It repairs and gives away donated bikes, does free maintenance, and teaches repair. Holds a monthly repair-and-distribution event, community shop hours, and pop-ups at parks, shelters and resource centers.",
+  "address": "Oak City Cares, 1430 South Wilmington Street, Raleigh, NC (monthly event)",
+  "url": "https://raleighcommunitykickstand.org/",
+  "phone": "",
+  "hours": "Monthly repair and bike distribution: 2nd Saturday, 1–3pm. Shop hours by arrangement.",
+  "access": "Monthly event is first come, first served. For shop hours, email volunteer@raleighcommunitykickstand.org ahead for the gate code.",
+  "cost": "free",
+  "source_url": "https://raleighcommunitykickstand.org/",
+  "notes": "Fiscally sponsored by Oaks & Spokes. Optional donations (~$5 for parts, $20 for a light, $25 for a lock) via Venmo @communitykickstand. Shop storage space address isn't published."
+ },
+ {
+  "name": "ReCYCLEry NC (with Triangle Free Bike Repair)",
+  "city": "Carrboro",
+  "categories": [
+   "Bikes & Transportation",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "cooperative",
+  "description": "Volunteer-run nonprofit bike co-op. It refurbishes donated bikes, teaches bike mechanics, and lets kids and adults work toward earning a bike. Reopened in 2025 in a container workshop at MLK Jr. Park after losing its Graham St. lease, and merged with the Triangle Free Bike Repair pop-up clinic collective.",
+  "address": "Dr. Martin Luther King Jr. Park, 1120 Hillsborough Road, Carrboro, NC 27510 (between the pump track and community gardens)",
+  "url": "https://www.recyclery.org/",
+  "phone": "",
+  "hours": "Saturdays 10am–2pm, weather permitting (limited hours)",
+  "access": "Drop in during open hours. Donate bikes and parts only when volunteers are present, or email to arrange.",
+  "cost": "free",
+  "source_url": "https://triangleblogblog.com/?p=15950",
+  "notes": "Hours come from a Sept 22, 2025 Triangle Blog Blog report. The org's own site says it is 'restarting workshop hours in a limited capacity.' Confirm on Instagram @recyclerync before going. Free pop-up repair clinics have run at Carrboro Town Commons."
+ },
+ {
+  "name": "Digging Durham Seed Library",
+  "city": "Durham",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "Free vegetable, herb and flower seed packets to take home and plant. Gardeners are encouraged to save seed from open-pollinated plants and bring some back.",
+  "address": "Main Library, 300 N. Roxboro St., Durham, NC 27701 (also East, North, South and Southwest Regional, Bragtown and Stanford L. Warren branches)",
+  "url": "https://durhamcountylibrary.org/digging-durham-seed-library",
+  "phone": "",
+  "hours": "Seeds typically stocked mid-February through October, while supplies last",
+  "access": "No library card needed; up to 4 packets per season",
+  "cost": "free",
+  "source_url": "https://durhamcountylibrary.org/digging-durham-seed-library",
+  "notes": "Sponsored by the Durham Library Foundation. Seed donations (open-pollinated/heirloom preferred) accepted year-round at all locations."
+ },
+ {
+  "name": "State Library of NC – Native Seed Library",
+  "city": "Raleigh",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "Free native-plant seed library (e.g., columbine, beardtongue, golden alexanders, pollinator mixes). Take packets and donate native seeds you've saved.",
+  "address": "Government and Heritage Library, DNCR Building 1st floor, 109 East Jones St., Raleigh, NC 27601",
+  "url": "https://library.nc.gov/seed-library",
+  "phone": "(919) 814-6780",
+  "hours": "",
+  "access": "Up to 2 packets per person; sign out your selections. First come, first served.",
+  "cost": "free",
+  "source_url": "https://library.nc.gov/seed-library",
+  "notes": "Seed list updated May 12, 2026. See the State Library contact page for onsite hours."
+ },
+ {
+  "name": "UNC Libraries Seed Library",
+  "city": "Chapel Hill",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "Free seed library in the UNC Library MakerSpace, kept in a repurposed card catalog. Open to the whole community, not just UNC.",
+  "address": "",
+  "url": "https://guides.lib.unc.edu/library-makerspace/seed-library",
+  "phone": "",
+  "hours": "During Library MakerSpace hours (see UNC Libraries hours page)",
+  "access": "Any community member; no UNC affiliation or OneCard required. Up to 5 envelopes.",
+  "cost": "free",
+  "source_url": "https://guides.lib.unc.edu/library-makerspace/seed-library",
+  "notes": "Guide last updated Jan 30, 2026. The page doesn't give the MakerSpace's building, so check before going."
+ },
+ {
+  "name": "Orange County Public Library – Main Library Seed Share",
+  "city": "Hillsborough",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "Seasonal seed share giving one free packet a month of native or naturalized pollinator wildflower seed, with sowing instructions. Paired with a spring plant swap.",
+  "address": "Main Library, 137 West Margaret Lane, Hillsborough, NC 27278",
+  "url": "https://orangecountync.librarycalendar.com/event/main-library-seed-share-29415",
+  "phone": "(919) 245-2525",
+  "hours": "Mid-February through May (2026 season), while supplies last",
+  "access": "Walk in; one packet per month",
+  "cost": "free",
+  "source_url": "https://orangecountync.librarycalendar.com/event/main-library-seed-share-29415",
+  "notes": "Supported by a Hillsborough Garden Club grant. Seasonal; check for the 2027 season."
+ },
+ {
+  "name": "SEEDS Durham – Community Garden & Rent-a-Bed",
+  "city": "Durham",
+  "categories": [
+   "Gardens & Seeds",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Two-acre urban teaching garden and kitchen classroom (since 1994) focused on growing, cooking and sharing food. Community members can rent garden beds to grow their own food.",
+  "address": "706 Gilbert St., Durham, NC 27701",
+  "url": "https://www.seedsnc.org/",
+  "phone": "(919) 683-1197",
+  "hours": "Garden open to the public Tue–Fri 9am–2pm; some weekend openings (see calendar)",
+  "access": "Contact info@seedsnc.org about bed rentals",
+  "cost": "sliding_scale",
+  "source_url": "https://www.seedsnc.org/",
+  "notes": "A Sept 2026 WUNC story says community members rent garden beds at a sliding scale. The SEEDS site doesn't list the rates."
+ },
+ {
+  "name": "Briggs Avenue Community Garden",
+  "city": "Durham",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "Large East Durham community garden run by NC Cooperative Extension–Durham County with Extension Master Gardeners. Dozens of plots, including raised and double-height accessible plots, plus free hands-on growing education aimed at resource-limited residents.",
+  "address": "S. Briggs Ave. between E. Lawson St. and Riddle Rd., Durham, NC",
+  "url": "https://durham.ces.ncsu.edu/home-and-community-gardens/briggs-avenue-community-garden/",
+  "phone": "(919) 406-4606",
+  "hours": "",
+  "access": "Contact garden manager Cheralyn Berry (cberry@dconc.gov) about plots. There is a waitlist as of April 2026.",
+  "cost": "",
+  "source_url": "https://abc11.com/post/high-produce-prices-fuel-demand-durham-community-garden-plots/18886239/",
+  "notes": "Plot fees aren't published, so cost is left blank. The Extension page was last updated in 2022, but ABC11 (Apr 15, 2026) confirms the garden is active with a plot waitlist."
+ },
+ {
+  "name": "Raleigh Parks Community Garden Program",
+  "city": "Raleigh",
+  "categories": [
+   "Gardens & Seeds"
+  ],
+  "org_type": "public",
+  "description": "City community gardens with individual plots, shared growing space and water at Barwell Road Park and Eastgate Park, plus garden boxes at several community centers (Marsh Creek, Ralph Campbell/Apollo Heights, Peach Road, Abbotts Creek, Sanderford Road, Mordecai).",
+  "address": "",
+  "url": "https://raleighnc.gov/parks-and-recreation/services/gardens-and-urban-agriculture/raleigh-parks-community-garden-program",
+  "phone": "(919) 996-2767",
+  "hours": "",
+  "access": "Email CommunityGardens@raleighnc.gov about plot availability",
+  "cost": "",
+  "source_url": "https://raleighnc.gov/parks-and-recreation/services/gardens-and-urban-agriculture/raleigh-parks-community-garden-program",
+  "notes": "Plot fees aren't listed, so cost is left blank. Barwell Road held a plot open house on April 11, 2026 ahead of launching a rental system. The program partners with Inter-Faith Food Shuttle."
+ },
+ {
+  "name": "Simple Gifts Community Garden",
+  "city": "Apex",
+  "categories": [
+   "Gardens & Seeds",
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Volunteer-run organic garden at Apex UMC that grows produce for local food banks (4,800+ lbs donated in a recent year), with pollinator gardens and hands-on sustainability education. Volunteers and teens earning service hours are welcome.",
+  "address": "3109 Tingen Rd., Apex, NC 27502",
+  "url": "https://simplegiftsgarden.org/",
+  "phone": "(919) 616-6659",
+  "hours": "Saturdays 9am–12pm, early March through late November",
+  "access": "Sign up for workdays through the garden's SignUpGenius; drop-ins during Saturday hours",
+  "cost": "free",
+  "source_url": "https://simplegiftsgarden.org/",
+  "notes": "Email info@simplegiftsgarden.org. Annual spring open house (Apr 18, 2026). Memberships exist, but fees aren't listed."
+ },
+ {
+  "name": "Raleigh City Farm – Pay-What-You-Can Farmstand",
+  "city": "Raleigh",
+  "categories": [
+   "Gardens & Seeds",
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Downtown nonprofit urban farm that makes about 95% of its harvest affordable through a pay-what-you-can farmstand and a Farmshare program. Also runs all-ages volunteer farm days and workshops.",
+  "address": "800 N. Blount Street, Raleigh, NC 27604",
+  "url": "https://www.raleighcityfarm.org/farmstand",
+  "phone": "",
+  "hours": "Farmstand Wednesdays 4–7pm, April–October (4–6pm in October)",
+  "access": "Pay the listed price, pay less, or pay more to cover a neighbor. SNAP/EBT accepted and can be combined with pay-what-you-can.",
+  "cost": "pay_what_you_can",
+  "source_url": "https://www.raleighcityfarm.org/farmstand",
+  "notes": "There's a second site at Marsh Creek Park, 3050 N. New Hope Rd. No on-site parking at Blount St. The weekly harvest menu is posted on Instagram stories."
+ },
+ {
+  "name": "Inter-Faith Food Shuttle – Gardens for Everyone & Learning Gardens",
+  "city": "Triangle-wide",
+  "categories": [
+   "Gardens & Seeds",
+   "Food"
+  ],
+  "org_type": "nonprofit",
+  "description": "Installs raised-bed home garden boxes with support from seed to harvest, and runs garden-building and growing workshops. Also runs community Learning Gardens on Geer St. (Durham) and Camden St. (Raleigh).",
+  "address": "1001 Blair Drive, Suite 120, Raleigh, NC 27603 (office)",
+  "url": "https://foodshuttle.org/grow",
+  "phone": "",
+  "hours": "Garden boxes scheduled year-round, first come, first served",
+  "access": "Join the waitlist, then a site visit checks sun, water and space. Renters need a landlord permission letter.",
+  "cost": "pay_what_you_can",
+  "source_url": "https://foodshuttle.org/grow",
+  "notes": "Individuals pay what they can for the first box ($25 minimum; full cost $200/bed). Nonprofits and schools pay $150/bed."
+ },
+ {
+  "name": "Society of St. Andrew – Triangle Gleaning Network",
+  "city": "Triangle-wide",
+  "categories": [
+   "Gardens & Seeds",
+   "Food"
+  ],
+  "org_type": "faith_based",
+  "description": "Gleaning network that sends volunteers to pick surplus produce from farms and gardens and delivers it to food pantries and agencies. Its Carolinas regional office is in Durham.",
+  "address": "",
+  "url": "https://endhunger.org/north-carolina/",
+  "phone": "(919) 309-5402",
+  "hours": "Gleaning events scheduled as crops are available",
+  "access": "Volunteers of any faith, age or background. Contact the Triangle gleaning coordinator to get on event lists.",
+  "cost": "free",
+  "source_url": "https://endhunger.org/north-carolina/",
+  "notes": "Triangle coordinator: gleantriangle@endhunger.org. Eastern NC coordinator: nc-glean@endhunger.org, (919) 309-5261. The phone above is the Carolinas regional director's line."
+ },
+ {
+  "name": "Durham Really Really Free Market",
+  "city": "Durham",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly no-money market: bring what you don't need, take anything you do. Home goods, clothing, books, toys, furniture, food and instruments, plus offered skills and services like haircuts or music.",
+  "address": "Orchard Park, 1000 S Duke Street, Durham, NC",
+  "url": "https://www.instagram.com/durham.rrfm",
+  "phone": "",
+  "hours": "3rd Saturday of the month, 12–2pm",
+  "access": "Open to all; no buying, selling, trading or bartering. Take home what you bring if nobody takes it.",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/durham-really-really-free-market/",
+  "notes": "Check Instagram for cancellations and time changes."
+ },
+ {
+  "name": "Raleigh Really Really Free Market",
+  "city": "Raleigh",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly free market where neighbors share goods, skills, services and activities with no money exchanged.",
+  "address": "Eliza Pool Park, 1600 Fayetteville Street, Raleigh, NC",
+  "url": "https://raleighrrfm.straw.page",
+  "phone": "",
+  "hours": "2nd Sunday of the month, 11am–1pm (rain date one week later)",
+  "access": "Open to all. Masking is requested to protect immunocompromised and disabled attendees; masks provided.",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/raleigh-really-really-free-market/",
+  "notes": "Instagram @raleighrrfm_."
+ },
+ {
+  "name": "Carrboro Really Really Free Market",
+  "city": "Carrboro",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly free market on the Town Commons. Bring what you don't need and take what you do; no money involved.",
+  "address": "Carrboro Town Commons, 301 West Main Street, Carrboro, NC",
+  "url": "https://www.instagram.com/carrborofreemarket",
+  "phone": "",
+  "hours": "1st Saturday of the month, 2–4pm",
+  "access": "Open to all",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "notes": "From Triangle on the Cheap's roundup (updated Sept 30, 2026). Check Instagram for weather cancellations."
+ },
+ {
+  "name": "Chapel Hill Really Really Free Market",
+  "city": "Chapel Hill",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Newer monthly free market (launched June 2026) where neighbors give and take goods for free.",
+  "address": "Southern Village Green, 401 Market Street, Chapel Hill, NC",
+  "url": "https://www.instagram.com/chapelhillrrfm",
+  "phone": "",
+  "hours": "3rd Monday of the month, 11am–1pm",
+  "access": "Open to all",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "notes": "The Monday schedule is unusual but matches its June 15, 2026 (a Monday) launch listing. Confirm on Instagram."
+ },
+ {
+  "name": "Cary Really Really Free Market",
+  "city": "Cary",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly free market in a Cary park. Share goods you don't need and take what you do, no money exchanged.",
+  "address": "Walnut Street Park, 1420 Walnut Street, Cary, NC",
+  "url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "phone": "",
+  "hours": "4th Saturday of the month, 2–4pm",
+  "access": "Open to all",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "notes": "No organizer social account was listed, so the URL is the roundup page."
+ },
+ {
+  "name": "Hillsborough Really Really Free Market",
+  "city": "Hillsborough",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Monthly free market in Gold Park (marked its first anniversary in Oct 2025).",
+  "address": "Gold Park, 415 Dimmocks Mill Road, Hillsborough, NC",
+  "url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "phone": "",
+  "hours": "3rd Sunday of the month, 12–2pm",
+  "access": "Open to all",
+  "cost": "free",
+  "source_url": "https://triangleonthecheap.com/free-markets-in-the-triangle/",
+  "notes": "No organizer social account was listed, so the URL is the roundup page."
+ },
+ {
+  "name": "Circular Triangle – Clothing Swaps & Mending Circles",
+  "city": "Triangle-wide",
+  "categories": [
+   "Free Stores & Swaps",
+   "Clothing & Household",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "community_org",
+  "description": "Circular-economy group running free clothing swaps and mending circles (supplies and guidance provided, no experience needed). Leftover clothing goes to local nonprofits or gets upcycled.",
+  "address": "",
+  "url": "https://circulartriangle.org/events",
+  "phone": "",
+  "hours": "Recurring: Durham swaps about monthly at DSSOLVR, 630 Rigsbee Ave. (Sundays 2–4pm). Hillsborough mending circles at Thread Your Path, 220 S. Churton St. Other swaps at Durham and Chapel Hill libraries.",
+  "access": "Open to all; you don't have to bring anything to take something",
+  "cost": "free",
+  "source_url": "https://circulartriangle.org/events",
+  "notes": "2026 events in Durham, Raleigh, Hillsborough and Chapel Hill, including a teen swap at Chapel Hill Public Library on Nov 21, 2026. Its bimonthly Raleigh swaps at RUMAH ended in Aug 2026 because RUMAH is moving."
+ },
+ {
+  "name": "Durham Community Fridge – St. Joseph's Episcopal Church",
+  "city": "Durham",
+  "categories": [
+   "Food",
+   "Free Stores & Swaps",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Outdoor take-what-you-need, leave-what-you-can community fridge. It was the first site of the Durham Community Fridges mutual aid project, founded in 2022.",
+  "address": "St. Joseph's Episcopal Church, 1902 West Main Street, Durham, NC",
+  "url": "https://stjosephsdurham.org/community",
+  "phone": "",
+  "hours": "24/7",
+  "access": "No questions asked",
+  "cost": "free",
+  "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
+  "notes": "WUNC (May 2025) lists this as a current site. The address comes from INDY Week coverage. Durham Community Fridges posts fridge contents and location updates on Instagram."
+ },
+ {
+  "name": "Durham Community Fridge – Braggtown Baptist Church",
+  "city": "Durham",
+  "categories": [
+   "Food",
+   "Free Stores & Swaps",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Outdoor community fridge in the Durham Community Fridges network. Take what you need, leave what you can.",
+  "address": "Braggtown Baptist Church, 3218 N Roxboro St., Durham, NC",
+  "url": "",
+  "phone": "",
+  "hours": "24/7",
+  "access": "No questions asked",
+  "cost": "free",
+  "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
+  "notes": "WUNC (May 2025) lists this as a current site. The address and 24/7 access come from the Durham Community Food Resources list."
+ },
+ {
+  "name": "Durham Community Fridge – The Scrap Exchange (Lakewood)",
+  "city": "Durham",
+  "categories": [
+   "Food",
+   "Free Stores & Swaps",
+   "Mutual Aid Networks"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Outdoor community fridge at The Scrap Exchange creative reuse center in Lakewood, part of the Durham Community Fridges network.",
+  "address": "The Scrap Exchange, 2050 Chapel Hill Rd., Durham, NC 27707",
+  "url": "https://scrapexchange.org/",
+  "phone": "",
+  "hours": "24/7",
+  "access": "No questions asked",
+  "cost": "free",
+  "source_url": "https://www.wunc.org/show/due-south/2025-05-22/durham-community-fridges",
+  "notes": "The Scrap Exchange itself is a nonprofit creative reuse center (reuse store and thrift, Tue–Sun 10:30am–6pm, (919) 200-0151) that sells low-cost craft and building materials. It isn't free, so it has no separate entry."
+ },
+ {
+  "name": "Little Free Pantry / Mini Pantry Map",
+  "city": "Triangle-wide",
+  "categories": [
+   "Food",
+   "Free Stores & Swaps"
+  ],
+  "org_type": "community_org",
+  "description": "Searchable, crowd-maintained map of mini pantries and blessing boxes (take what you need, leave what you can). It lists Triangle boxes at churches and homes in Durham, Chapel Hill, Hillsborough, Raleigh and elsewhere.",
+  "address": "",
+  "url": "https://mapping.littlefreepantry.org/",
+  "phone": "",
+  "hours": "Varies by box; most are always open",
+  "access": "No questions asked",
+  "cost": "free",
+  "source_url": "https://mapping.littlefreepantry.org/",
+  "notes": "Anyone can add listings, and individual boxes may be gone or empty, so treat the map as a starting point. Example listings: Fletcher's Chapel UMC (1919 Fletchers Chapel Rd, Durham), Holy Trinity Anglican 'Left-Hand Blessing Box' (119 Hwy 15-501 S, Chapel Hill), UUCH (1710 Old NC 10, Hillsborough), St. Giles Presbyterian (5101 Oak Park Rd, Raleigh)."
+ },
+ {
+  "name": "Raleigh United Mutual Aid Hub (RUMAH)",
+  "city": "Raleigh",
+  "categories": [
+   "Mutual Aid Networks",
+   "Free Stores & Swaps"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Community and social center (a sober space) for Raleigh-area mutual aid. Hosts skill-shares, workshops, clothing swaps and mending circles. Serves as a donation collection point, resource distribution center and home base for local collectives.",
+  "address": "415 Hillsborough St, Suite 101, Raleigh, NC 27603",
+  "url": "https://raleighunitedmutualaidhub.substack.com",
+  "phone": "",
+  "hours": "",
+  "access": "Open to all; check social media for events",
+  "cost": "free",
+  "source_url": "https://www.visitraleigh.com/listing/raleigh-united-mutual-aid-hub/78229/",
+  "notes": "Email contact.rumah@gmail.com; Instagram/Facebook @raleighunitedmutualaidhub. VisitRaleigh lists a Nov 13–15, 2026 event at this address, but Circular Triangle said in Aug 2026 that RUMAH is moving. Confirm the location before visiting."
+ },
+ {
+  "name": "Triangle Mutual Aid",
+  "city": "Triangle-wide",
+  "categories": [
+   "Mutual Aid Networks",
+   "Food"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Region-wide mutual aid network. It works with volunteers, partner businesses and small trusted groups on food and supply drop-offs, and on disaster relief such as the 2024 Helene and July 2025 Tropical Storm Chantal flood responses. It also connects people to partner groups in Durham, Raleigh, Chapel Hill, Carrboro and Siler City.",
+  "address": "",
+  "url": "https://www.trianglemutualaid.org",
+  "phone": "",
+  "hours": "",
+  "access": "Join their Signal chats; current drop-off spots are posted on Instagram (@triangle.mutual.aid)",
+  "cost": "free",
+  "source_url": "https://www.trianglemutualaid.org",
+  "notes": "Email info@TriangleMutualAid.org. Does not run a public distribution hub. It routes aid through partner groups."
+ },
+ {
+  "name": "Feed Durham",
+  "city": "Durham",
+  "categories": [
+   "Mutual Aid Networks",
+   "Food",
+   "Makerspaces & Repair"
+  ],
+  "org_type": "mutual_aid",
+  "description": "Durham mutual aid collective (since 2020). Runs big community cookouts, grocery and produce giveaways, and 'mutual aid ecosystems' in working-class neighborhoods: community gardens, neighborhood fridges, take-one/leave-one pantries, Little Libraries, and repair clinics teaching sewing, carpentry and electronics repair.",
+  "address": "",
+  "url": "https://www.gofundme.com/f/feeddurhamnc",
+  "phone": "",
+  "hours": "",
+  "access": "Open to all",
+  "cost": "free",
+  "source_url": "https://www.gofundme.com/f/feeddurhamnc",
+  "notes": "Email feeddurhamnc@gmail.com; Patreon patreon.com/feeddurhamnc. 2026 plans include seed and raised-bed support for home gardens. No fixed site or schedule is published."
+ },
+ {
+  "name": "Buy Nothing Project (find your local group)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Mutual Aid Networks",
+   "Free Stores & Swaps",
+   "Clothing & Household"
+  ],
+  "org_type": "community_org",
+  "description": "Hyperlocal gift economy: neighbors give, ask for and lend items for free. Use the Buy Nothing app to share with people nearby, or find your neighborhood's official Facebook group.",
+  "address": "",
+  "url": "https://buynothingproject.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Make a Buy Nothing account; in Settings, open 'Registered Buy Nothing Groups' to find official Facebook groups near you",
+  "cost": "free",
+  "source_url": "https://help.buynothingproject.org/article/37-how-do-i-join-a-buy-nothing-group",
+  "notes": "This is the hub page, not individual groups. Triangle groups are neighborhood-sized."
+ }
+]
