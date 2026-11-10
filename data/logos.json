@@ -1,4 +1,8 @@
 {
+"5520.sites.ecatholic.com": {
+"file": null,
+"checked": "2026-11-10"
+},
 "acluofnorthcarolina.org": {
 "file": "acluofnorthcarolina.org.png",
 "fp": "a98b8d4cd4bc1ca1c21ded8fee1a03273f26636e",
@@ -55,6 +59,12 @@
 },
 "apsofdurham.org": {
 "file": null,
+"checked": "2026-11-10"
+},
+"asaptogether.org": {
+"file": "asaptogether.org.png",
+"fp": "c985cd7ef63ed57df9089a1b4c669757260d0305",
+"src": "https://asaptogether.org/favicon.ico?favicon.137b4b50.ico",
 "checked": "2026-11-10"
 },
 "asylumadvocacy.org": {
@@ -557,6 +567,12 @@
 "src": "https://www.habitatraleigh.org/apple-touch-icon.png",
 "checked": "2026-11-10"
 },
+"havenhousenc.org": {
+"file": "havenhousenc.org.png",
+"fp": "87a62b095a167fe4bf8e19a1120d2c7bd95a1d2d",
+"src": "https://www.havenhousenc.org/wp-content/uploads/cropped-favicon-180x180.png",
+"checked": "2026-11-10"
+},
 "hawriverbaptistchurch.org": {
 "file": null,
 "checked": "2026-11-10"
@@ -575,6 +591,10 @@
 "file": "hillsidenc.org.png",
 "fp": "e7914014f36d18dbcf60e62e9e34fbcb8cf6eda8",
 "src": "https://hillsidenc.org/wp-content/uploads/2019/12/cropped-hillside-logo-favicon-180x180.png",
+"checked": "2026-11-10"
+},
+"hispanicliaison.org": {
+"file": null,
 "checked": "2026-11-10"
 },
 "hopehousewf.org": {
