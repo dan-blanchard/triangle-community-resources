@@ -1,0 +1,1639 @@
+{
+"100 library dr|chapel hill|27514": {
+"lat": 35.930791,
+"lon": -79.036305,
+"checked": "2026-11-10"
+},
+"100 professional ct|garner|27529": {
+"lat": 35.607637,
+"lon": -78.568906,
+"checked": "2026-11-10"
+},
+"1000 s. duke st|durham|": {
+"lat": 35.98906,
+"lon": -78.909124,
+"checked": "2026-11-10"
+},
+"1001 e martin st|raleigh|27601": {
+"lat": 35.776454,
+"lon": -78.623835,
+"checked": "2026-11-10"
+},
+"1001 square court|knightdale|27545": {
+"lat": 35.802583,
+"lon": -78.488541,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1001 square ct|knightdale|27545": {
+"lat": 35.802585,
+"lon": -78.488556,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1005 wilbon rd|fuquay-varina|27526": {
+"lat": 35.597125,
+"lon": -78.826282,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1008 bullard ct|raleigh|27615": {
+"lat": 35.869412,
+"lon": -78.62018,
+"checked": "2026-11-10"
+},
+"101 donald ross dr|raleigh|27610": {
+"lat": 35.782954,
+"lon": -78.592386,
+"checked": "2026-11-10"
+},
+"101 e. morgan st|durham|27701": {
+"lat": 35.997564,
+"lon": -78.898386,
+"checked": "2026-11-10"
+},
+"101 edgar st|chapel hill|27516": {
+"lat": 35.959727,
+"lon": -79.081401,
+"checked": "2026-11-10"
+},
+"101 manning dr|chapel hill|27514": {
+"lat": 35.903082,
+"lon": -79.050307,
+"checked": "2026-11-10"
+},
+"101 s driver st|durham|": {
+"lat": 35.985777,
+"lon": -78.877884,
+"checked": "2026-11-10"
+},
+"1011 rock quarry rd|raleigh|27610": {
+"lat": 35.766908,
+"lon": -78.616003,
+"checked": "2026-11-10"
+},
+"1012 oberlin rd|raleigh|27605": {
+"lat": 35.796742,
+"lon": -78.660312,
+"checked": "2026-11-10"
+},
+"1017 cook rd|durham|27713": {
+"lat": 35.948373,
+"lon": -78.919716,
+"checked": "2026-11-10"
+},
+"1023 oberlin rd|raleigh|27605": {
+"lat": 35.797145,
+"lon": -78.660336,
+"checked": "2026-11-10"
+},
+"10520 star rd|wake forest|27587": {
+"lat": 35.932305,
+"lon": -78.542648,
+"checked": "2026-11-10"
+},
+"107 conner dr|chapel hill|27514": {
+"lat": 35.929279,
+"lon": -79.029145,
+"checked": "2026-11-10"
+},
+"107 quade drive|cary|27513": {
+"lat": 35.81711,
+"lon": -78.804696,
+"checked": "2026-11-10"
+},
+"107 sunnybrook rd|raleigh|27610": {
+"lat": 35.782768,
+"lon": -78.583275,
+"checked": "2026-11-10"
+},
+"109 east jones st|raleigh|27601": {
+"lat": 35.782568,
+"lon": -78.637853,
+"checked": "2026-11-10"
+},
+"110 capcom ave|wake forest|27587": {
+"lat": 35.950601,
+"lon": -78.529174,
+"checked": "2026-11-10"
+},
+"110 new stateside dr|chapel hill|27516": {
+"lat": 35.956434,
+"lon": -79.060434,
+"checked": "2026-11-10"
+},
+"110 w. main st|carrboro|27510": {
+"lat": 35.910318,
+"lon": -79.072616,
+"checked": "2026-11-10"
+},
+"1100 nw maynard rd|cary|27513": {
+"lat": 35.781498,
+"lon": -78.809101,
+"checked": "2026-11-10"
+},
+"1101 n mangum st|durham|27701": {
+"lat": 36.006402,
+"lon": -78.893987,
+"checked": "2026-11-10"
+},
+"111-b n first ave|knightdale|27545": {
+"lat": 35.787896,
+"lon": -78.481363,
+"checked": "2026-11-10"
+},
+"1118 s east st|raleigh|27610": {
+"lat": 35.766353,
+"lon": -78.632983,
+"checked": "2026-11-10"
+},
+"112 s. salisbury street|raleigh|27601": {
+"lat": 35.779405,
+"lon": -78.640189,
+"checked": "2026-11-10"
+},
+"1120 hillsborough rd|carrboro|27510": {
+"lat": 35.926121,
+"lon": -79.091489,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"113 mayo st|hillsborough|27278": {
+"lat": 36.060055,
+"lon": -79.104255,
+"checked": "2026-11-10"
+},
+"114 w sycamore st|zebulon|27597": {
+"lat": 35.823102,
+"lon": -78.314238,
+"checked": "2026-11-10"
+},
+"117 s. academy st|cary|27511": {
+"lat": 35.78716,
+"lon": -78.781149,
+"checked": "2026-11-10"
+},
+"1200 s state st|raleigh|27610": {
+"lat": 35.770184,
+"lon": -78.624576,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1201 cross link rd|raleigh|27610": {
+"lat": 35.747544,
+"lon": -78.620891,
+"checked": "2026-11-10"
+},
+"1205 n smithfield rd|knightdale|27545": {
+"lat": 35.808725,
+"lon": -78.484725,
+"checked": "2026-11-10"
+},
+"1209 n. elizabeth st|durham|27701": {
+"lat": 36.004307,
+"lon": -78.890948,
+"checked": "2026-11-10"
+},
+"121 orange high school rd|hillsborough|27278": {
+"lat": 36.086342,
+"lon": -79.09248,
+"checked": "2026-11-10"
+},
+"121 w morgan st|raleigh|27603": {
+"lat": 35.779565,
+"lon": -78.640486,
+"checked": "2026-11-10"
+},
+"1212 south main street|wake forest|": {
+"lat": 35.963404,
+"lon": -78.518099,
+"checked": "2026-11-10"
+},
+"1229 e. franklin st|chapel hill|27514": {
+"lat": 35.924954,
+"lon": -79.037817,
+"checked": "2026-11-10"
+},
+"125 w. main st|carrboro|27510": {
+"lat": 35.910158,
+"lon": -79.072977,
+"checked": "2026-11-10"
+},
+"1251 goode st|raleigh|27603": {
+"lat": 35.764449,
+"lon": -78.659383,
+"checked": "2026-11-10"
+},
+"128 e cabarrus st|raleigh|27601": {
+"lat": 35.774135,
+"lon": -78.637934,
+"checked": "2026-11-10"
+},
+"129 n main st|wendell|27591": {
+"lat": 35.783217,
+"lon": -78.369848,
+"checked": "2026-11-10"
+},
+"13 heath st|raleigh|27610": {
+"lat": 35.779433,
+"lon": -78.617088,
+"checked": "2026-11-10"
+},
+"130 n judd pkwy ne|fuquay-varina|27526": {
+"lat": 35.582857,
+"lon": -78.782701,
+"checked": "2026-11-10"
+},
+"1300 mack todd rd|zebulon|27597": {
+"lat": 35.808065,
+"lon": -78.335088,
+"checked": "2026-11-10"
+},
+"1301 fayetteville st|durham|27707": {
+"lat": 35.981118,
+"lon": -78.899258,
+"checked": "2026-11-10"
+},
+"1303 water plant rd|zebulon|27597": {
+"lat": 35.822644,
+"lon": -78.349982,
+"checked": "2026-11-10"
+},
+"1305 odyssey dr|durham|": {
+"lat": 35.929236,
+"lon": -78.895318,
+"checked": "2026-11-10"
+},
+"1307 knox st|durham|27701": {
+"lat": 36.01328,
+"lon": -78.914004,
+"checked": "2026-11-10"
+},
+"1308 us 70 w|garner|27529": {
+"lat": 35.696379,
+"lon": -78.583644,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1315 horton rd|durham|": {
+"lat": 36.057488,
+"lon": -78.922402,
+"checked": "2026-11-10"
+},
+"1315 martin luther king jr. blvd|chapel hill|27514": {
+"lat": 35.953282,
+"lon": -79.057735,
+"checked": "2026-11-10"
+},
+"1315 oakwood avenue|raleigh|27610": {
+"lat": 35.78455,
+"lon": -78.622632,
+"checked": "2026-11-10"
+},
+"1320 shephard school rd|zebulon|27597": {
+"lat": 35.837194,
+"lon": -78.314435,
+"checked": "2026-11-10"
+},
+"1321 mlk jr. blvd|chapel hill|": {
+"lat": 35.95341,
+"lon": -79.057756,
+"checked": "2026-11-10"
+},
+"1328 dr|raleigh|27609": {
+"lat": 35.825887,
+"lon": -78.620186,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"133 n. allen st|wake forest|27587": {
+"lat": 35.977142,
+"lon": -78.501042,
+"checked": "2026-11-10"
+},
+"136 e. morgan st|raleigh|27601": {
+"lat": 35.779466,
+"lon": -78.637519,
+"checked": "2026-11-10"
+},
+"136 west st|pittsboro|27312": {
+"lat": 35.72045,
+"lon": -79.179867,
+"checked": "2026-11-10"
+},
+"137 w. margaret ln|hillsborough|27278": {
+"lat": 36.074439,
+"lon": -79.100219,
+"checked": "2026-11-10"
+},
+"1390 capital blvd|raleigh|27603": {
+"lat": 35.799978,
+"lon": -78.634362,
+"checked": "2026-11-10"
+},
+"1401 boyer st|raleigh|27603": {
+"lat": 35.781144,
+"lon": -78.617546,
+"checked": "2026-11-10"
+},
+"1402 e williams st|apex|27539": {
+"lat": 35.713425,
+"lon": -78.839957,
+"checked": "2026-11-10"
+},
+"1408 hillsborough st|raleigh|27605": {
+"lat": 35.783686,
+"lon": -78.65668,
+"checked": "2026-11-10"
+},
+"1409 cross st|raleigh|27610": {
+"lat": 35.779575,
+"lon": -78.616935,
+"checked": "2026-11-10"
+},
+"1411-1 diggs dr|raleigh|27603": {
+"lat": 35.755406,
+"lon": -78.66235,
+"checked": "2026-11-10"
+},
+"1420 s wilmington st|raleigh|27603": {
+"lat": 35.759053,
+"lon": -78.640097,
+"checked": "2026-11-10"
+},
+"1420 walnut street|cary|": {
+"lat": 35.765698,
+"lon": -78.754729,
+"checked": "2026-11-10"
+},
+"1424 sawyer rd|raleigh|27610": {
+"lat": 35.763109,
+"lon": -78.630082,
+"checked": "2026-11-10"
+},
+"1425 promise beacon circle|raleigh|27610": {
+"lat": 35.760785,
+"lon": -78.613711,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1426 wake forest rd|raleigh|27604": {
+"lat": 35.798643,
+"lon": -78.626993,
+"checked": "2026-11-10"
+},
+"1430 s wilmington st|raleigh|27603": {
+"lat": 35.759034,
+"lon": -78.640102,
+"checked": "2026-11-10"
+},
+"1430 south wilmington street|raleigh|": {
+"lat": 35.761581,
+"lon": -78.640319,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"14705 new light rd|wake forest|27587": {
+"lat": 36.003401,
+"lon": -78.664553,
+"checked": "2026-11-10"
+},
+"149 e holding ave|wake forest|27587": {
+"lat": 35.971996,
+"lon": -78.513517,
+"checked": "2026-11-10"
+},
+"1498 hodge road|knightdale|27545": {
+"lat": 35.783376,
+"lon": -78.527792,
+"checked": "2026-11-10"
+},
+"1500 raleigh blvd|raleigh|27610": {
+"lat": 35.796527,
+"lon": -78.610627,
+"checked": "2026-11-10"
+},
+"1503 walnut st|cary|27511": {
+"lat": 35.765006,
+"lon": -78.752022,
+"checked": "2026-11-10"
+},
+"1515 cross link rd|raleigh|27610": {
+"lat": 35.751724,
+"lon": -78.616944,
+"checked": "2026-11-10"
+},
+"1600 fayetteville street|raleigh|": {
+"lat": 35.760826,
+"lon": -78.643566,
+"checked": "2026-11-10"
+},
+"1600 olive chapel rd|apex|27502": {
+"lat": 35.736831,
+"lon": -78.88976,
+"checked": "2026-11-10"
+},
+"1612 acadia st|durham|": {
+"lat": 36.014692,
+"lon": -78.894321,
+"checked": "2026-11-10"
+},
+"1621 white oak church rd|apex|27523": {
+"lat": 35.780483,
+"lon": -78.919438,
+"checked": "2026-11-10"
+},
+"1637 east lawson st|durham|27703": {
+"lat": 35.974378,
+"lon": -78.880073,
+"checked": "2026-11-10"
+},
+"1710 old nc 10|hillsborough|": {
+"lat": 36.04998,
+"lon": -79.069985,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1712 e millbrook rd|raleigh|27609": {
+"lat": 35.850085,
+"lon": -78.607513,
+"checked": "2026-11-10"
+},
+"1712 willow dr|chapel hill|": {
+"lat": 35.929137,
+"lon": -79.025169,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"1794 wendell blvd|wendell|27591": {
+"lat": 35.802024,
+"lon": -78.401515,
+"checked": "2026-11-10"
+},
+"18 w. colony place|durham|27705": {
+"lat": 35.975938,
+"lon": -78.960533,
+"checked": "2026-11-10"
+},
+"1801 hillsborogh st|raleigh|27605": {
+"lat": 35.785375,
+"lon": -78.66074,
+"checked": "2026-11-10"
+},
+"1802 james st|durham|27707": {
+"lat": 35.979398,
+"lon": -78.926311,
+"checked": "2026-11-10"
+},
+"1808 nc hwy 86 n|hillsborough|27278": {
+"lat": 36.114276,
+"lon": -79.112457,
+"checked": "2026-11-10"
+},
+"1809 garner station blvd|raleigh|27603": {
+"lat": 35.723864,
+"lon": -78.66211,
+"checked": "2026-11-10"
+},
+"1812 tillery place|raleigh|27604": {
+"lat": 35.803751,
+"lon": -78.62106,
+"checked": "2026-11-10"
+},
+"1815 glen school road|durham|": {
+"lat": 36.035316,
+"lon": -78.845272,
+"checked": "2026-11-10"
+},
+"1823 chapel hill rd|durham|27707": {
+"lat": 35.989527,
+"lon": -78.924489,
+"checked": "2026-11-10"
+},
+"1863 capital blvd|raleigh|27604": {
+"lat": 35.803965,
+"lon": -78.618176,
+"checked": "2026-11-10"
+},
+"1902 w. main st|durham|": {
+"lat": 36.006413,
+"lon": -78.921113,
+"checked": "2026-11-10"
+},
+"1904 s. wilmington st|raleigh|27603": {
+"lat": 35.756254,
+"lon": -78.640829,
+"checked": "2026-11-10"
+},
+"1905 chapel hill rd|durham|27707": {
+"lat": 35.988681,
+"lon": -78.92508,
+"checked": "2026-11-10"
+},
+"192 torain st|hillsborough|27278": {
+"lat": 36.090623,
+"lon": -79.109184,
+"checked": "2026-11-10"
+},
+"1929 piney grove rd|hillsborough|27278": {
+"lat": 36.053598,
+"lon": -79.053329,
+"checked": "2026-11-10"
+},
+"193 high house rd|cary|27511": {
+"lat": 35.78338,
+"lon": -78.798793,
+"checked": "2026-11-10"
+},
+"1951 booker drive|raleigh|27610": {
+"lat": 35.785957,
+"lon": -78.615408,
+"checked": "2026-11-10"
+},
+"200 high meadow drive|cary|27511": {
+"lat": 35.761912,
+"lon": -78.78349,
+"checked": "2026-11-10"
+},
+"200 high meadow dr|cary|": {
+"lat": 35.761912,
+"lon": -78.78349,
+"checked": "2026-11-10"
+},
+"200 high meadow dr|cary|27511": {
+"lat": 35.761912,
+"lon": -78.78349,
+"checked": "2026-11-10"
+},
+"200 n chatham ave|chapel hill|27344": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
+"200 swinburne st|raleigh|27610": {
+"lat": 35.781629,
+"lon": -78.585769,
+"checked": "2026-11-10"
+},
+"2000 chapel hill rd|durham|27707": {
+"lat": 35.987196,
+"lon": -78.926602,
+"checked": "2026-11-10"
+},
+"2000 eubanks rd|chapel hill|27514": {
+"lat": 35.969529,
+"lon": -79.068114,
+"checked": "2026-11-10"
+},
+"2004 rock quarry rd|raleigh|27610": {
+"lat": 35.753624,
+"lon": -78.612655,
+"checked": "2026-11-10"
+},
+"201 culbreth rd|chapel hill|27516": {
+"lat": 35.892403,
+"lon": -79.062202,
+"checked": "2026-11-10"
+},
+"201 s blount st|raleigh|27601": {
+"lat": 35.782545,
+"lon": -78.6364,
+"checked": "2026-11-10"
+},
+"201 w. weaver st|carrboro|27510": {
+"lat": 35.911117,
+"lon": -79.073916,
+"checked": "2026-11-10"
+},
+"2011 fay st|durham|27704": {
+"lat": 36.006437,
+"lon": -78.875405,
+"checked": "2026-11-10"
+},
+"2013 raleigh blvd|raleigh|27604": {
+"lat": 35.808386,
+"lon": -78.603365,
+"checked": "2026-11-10"
+},
+"202 s. greensboro st|carrboro|": {
+"lat": 35.90957,
+"lon": -79.072357,
+"checked": "2026-11-10"
+},
+"2020 chapel hill rd|durham|27707": {
+"lat": 35.986989,
+"lon": -78.926955,
+"checked": "2026-11-10"
+},
+"2021 orchard hollow lane|raleigh|27603": {
+"lat": 35.751831,
+"lon": -78.681987,
+"checked": "2026-11-10"
+},
+"203 e moore st|apex|27502": {
+"lat": 35.728177,
+"lon": -78.851691,
+"checked": "2026-11-10"
+},
+"203 s. greensboro st|carrboro|27510": {
+"lat": 35.909567,
+"lon": -79.072216,
+"checked": "2026-11-10"
+},
+"204 shelden dr|raleigh|27610": {
+"lat": 35.741835,
+"lon": -78.637154,
+"checked": "2026-11-10"
+},
+"2050 chapel hill rd|durham|27707": {
+"lat": 35.986733,
+"lon": -78.927537,
+"checked": "2026-11-10"
+},
+"207 commons blvd|durham|27704": {
+"lat": 36.041194,
+"lon": -78.894742,
+"checked": "2026-11-10"
+},
+"207 s hollybrook rd|wendell|27591": {
+"lat": 35.779427,
+"lon": -78.36632,
+"checked": "2026-11-10"
+},
+"210 henderson st|chapel hill|27514": {
+"lat": 35.915373,
+"lon": -79.05341,
+"checked": "2026-11-10"
+},
+"2101 garner rd|raleigh|": {
+"lat": 35.752259,
+"lon": -78.63113,
+"checked": "2026-11-10"
+},
+"212 south salem st|apex|27502": {
+"lat": 35.729537,
+"lon": -78.852569,
+"checked": "2026-11-10"
+},
+"215 n. church st|durham|27701": {
+"lat": 35.995106,
+"lon": -78.898992,
+"checked": "2026-11-10"
+},
+"216 w academy st|fuquay-varina|27526": {
+"lat": 35.584416,
+"lon": -78.801001,
+"checked": "2026-11-10"
+},
+"217 n. allen rd|wake forest|27587": {
+"lat": 35.978506,
+"lon": -78.500766,
+"checked": "2026-11-10"
+},
+"220 swinburne st|raleigh|27610": {
+"lat": 35.781062,
+"lon": -78.585411,
+"checked": "2026-11-10"
+},
+"224 light breeze st|rolesville|27571": {
+"lat": 35.931224,
+"lon": -78.459601,
+"checked": "2026-11-10"
+},
+"224 s dawson st|raleigh|27601": {
+"lat": 35.778056,
+"lon": -78.643549,
+"checked": "2026-11-10"
+},
+"225 shady acres loop|knightdale|27545": {
+"lat": 35.776624,
+"lon": -78.499725,
+"checked": "2026-11-10"
+},
+"230 e martin st|raleigh|27601": {
+"lat": 35.776734,
+"lon": -78.635613,
+"checked": "2026-11-10"
+},
+"2331 new bern ave|raleigh|27610": {
+"lat": 35.780161,
+"lon": -78.599926,
+"checked": "2026-11-10"
+},
+"2412 nc hwy 86 s|hillsborough|27278": {
+"lat": 36.044478,
+"lon": -79.082191,
+"checked": "2026-11-10"
+},
+"2501 clark ave|raleigh|27617": {
+"lat": 35.789476,
+"lon": -78.666735,
+"checked": "2026-11-10"
+},
+"2501 homestead rd|chapel hill|27516": {
+"lat": 35.95116,
+"lon": -79.063094,
+"checked": "2026-11-10"
+},
+"2505 homestead rd|chapel hill|27516": {
+"lat": 35.951147,
+"lon": -79.063013,
+"checked": "2026-11-10"
+},
+"251 commons blvd|durham|27704": {
+"lat": 36.040293,
+"lon": -78.894453,
+"checked": "2026-11-10"
+},
+"2522 ross rd|durham|": {
+"lat": 35.992511,
+"lon": -78.854532,
+"checked": "2026-11-10"
+},
+"2525 atlantic st|durham|": {
+"lat": 35.969388,
+"lon": -78.903477,
+"checked": "2026-11-10"
+},
+"2525 sanderford rd|raleigh|27610": {
+"lat": 35.745139,
+"lon": -78.613853,
+"checked": "2026-11-10"
+},
+"2551 homestead rd|chapel hill|": {
+"lat": 35.950989,
+"lon": -79.062099,
+"checked": "2026-11-10"
+},
+"2611 torquay crossing|raleigh|27616": {
+"lat": 35.866445,
+"lon": -78.592951,
+"checked": "2026-11-10"
+},
+"2634 durham-chapel hill blvd|durham|27707": {
+"lat": 35.974321,
+"lon": -78.929727,
+"checked": "2026-11-10"
+},
+"2635 s saunders st|raleigh|27603": {
+"lat": 35.747668,
+"lon": -78.648768,
+"checked": "2026-11-10"
+},
+"2713 coleman loop rd|hillsborough|27278": {
+"lat": 36.128901,
+"lon": -79.120015,
+"checked": "2026-11-10"
+},
+"2809 spring forest rd #5|raleigh|27616": {
+"lat": 35.85736,
+"lon": -78.593997,
+"checked": "2026-11-10"
+},
+"2901 holston ln|raleigh|27610": {
+"lat": 35.7844,
+"lon": -78.584868,
+"checked": "2026-11-10"
+},
+"300 aquatic dr|chapel hill|": {
+"lat": 35.955908,
+"lon": -79.064024,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"300 millstone dr|hillsborough|27278": {
+"lat": 36.051243,
+"lon": -79.097803,
+"checked": "2026-11-10"
+},
+"300 n. queen st|durham|27701": {
+"lat": 35.995017,
+"lon": -78.895109,
+"checked": "2026-11-10"
+},
+"300 n. roxboro st|durham|27701": {
+"lat": 35.994988,
+"lon": -78.89725,
+"checked": "2026-11-10"
+},
+"300 w. tryon st|hillsborough|27278": {
+"lat": 36.077073,
+"lon": -79.105419,
+"checked": "2026-11-10"
+},
+"3000 rock quarry rd|raleigh|27610": {
+"lat": 35.747316,
+"lon": -78.597078,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"3009 rosinburg rd|zebulon|27597": {
+"lat": 35.860745,
+"lon": -78.295279,
+"checked": "2026-11-10"
+},
+"301 lloyd st|carrboro|27510": {
+"lat": 35.913368,
+"lon": -79.069539,
+"checked": "2026-11-10"
+},
+"301 w main st|durham|": {
+"lat": 35.995961,
+"lon": -78.902451,
+"checked": "2026-11-10"
+},
+"301 w. main st|carrboro|27510": {
+"lat": 35.911647,
+"lon": -79.077131,
+"checked": "2026-11-10"
+},
+"3029 stoneybrook dr|raleigh|27604": {
+"lat": 35.817845,
+"lon": -78.591506,
+"checked": "2026-11-10"
+},
+"3032 ligon street|raleigh|27607": {
+"lat": 35.789188,
+"lon": -78.691613,
+"checked": "2026-11-10"
+},
+"304 e. trinity ave|durham|": {
+"lat": 36.00546,
+"lon": -78.891083,
+"checked": "2026-11-10"
+},
+"309 crutchfield st|durham|27704": {
+"lat": 36.03879,
+"lon": -78.902547,
+"checked": "2026-11-10"
+},
+"310 town hall dr|morrisville|27560": {
+"lat": 35.824728,
+"lon": -78.833304,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"3109 poplarwood ct|raleigh|27604": {
+"lat": 35.817729,
+"lon": -78.604066,
+"checked": "2026-11-10"
+},
+"3109 tingen rd|apex|27502": {
+"lat": 35.703586,
+"lon": -78.869049,
+"checked": "2026-11-10"
+},
+"311 e. main st|carrboro|27510": {
+"lat": 35.91077,
+"lon": -79.068869,
+"checked": "2026-11-10"
+},
+"313 se maynard rd|cary|27511": {
+"lat": 35.768357,
+"lon": -78.775952,
+"checked": "2026-11-10"
+},
+"314 bashford rd|raleigh|27606": {
+"lat": 35.782681,
+"lon": -78.738646,
+"checked": "2026-11-10"
+},
+"314 e hargett st|raleigh|27601": {
+"lat": 35.778035,
+"lon": -78.634637,
+"checked": "2026-11-10"
+},
+"319 chapanoke rd|raleigh|27603": {
+"lat": 35.735911,
+"lon": -78.643932,
+"checked": "2026-11-10"
+},
+"3200 bush street|raleigh|27609": {
+"lat": 35.82329,
+"lon": -78.615637,
+"checked": "2026-11-10"
+},
+"3201 jack mitchell rd|zebulon|27597": {
+"lat": 35.866765,
+"lon": -78.352979,
+"checked": "2026-11-10"
+},
+"3201 new bern avenue|raleigh|27610": {
+"lat": 35.790034,
+"lon": -78.586953,
+"checked": "2026-11-10"
+},
+"3205 university dr|durham|27707": {
+"lat": 35.967817,
+"lon": -78.941283,
+"checked": "2026-11-10"
+},
+"3209 gresham lake road|raleigh|27615": {
+"lat": 35.88484,
+"lon": -78.582344,
+"checked": "2026-11-10"
+},
+"3211 bramer dr|raleigh|27604": {
+"lat": 35.826933,
+"lon": -78.606435,
+"checked": "2026-11-10"
+},
+"3218 n. roxboro st|durham|27704": {
+"lat": 36.031947,
+"lon": -78.890766,
+"checked": "2026-11-10"
+},
+"3229 burlington mills rd|wake forest|27587": {
+"lat": 35.920088,
+"lon": -78.522041,
+"checked": "2026-11-10"
+},
+"330 e. main st|durham|27703": {
+"lat": 35.993412,
+"lon": -78.897947,
+"checked": "2026-11-10"
+},
+"3300 idlewood village dr|raleigh|27610": {
+"lat": 35.736339,
+"lon": -78.616789,
+"checked": "2026-11-10"
+},
+"3328 forestville road|raleigh|27616": {
+"lat": 35.883646,
+"lon": -78.510154,
+"checked": "2026-11-10"
+},
+"334 n allen rd|wake forest|27587": {
+"lat": 35.980554,
+"lon": -78.50043,
+"checked": "2026-11-10"
+},
+"350 e. holding st|wake forest|27587": {
+"lat": 35.970829,
+"lon": -78.511137,
+"checked": "2026-11-10"
+},
+"350 juniper st|wake forest|27587": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
+"3511 shannon rd|durham|27707": {
+"lat": 35.960721,
+"lon": -78.955347,
+"checked": "2026-11-10"
+},
+"3515 crittenden lane|holly springs|27540": {
+"lat": 35.681699,
+"lon": -78.834066,
+"checked": "2026-11-10"
+},
+"3540 maitland dr|raleigh|27610": {
+"lat": 35.797059,
+"lon": -78.584003,
+"checked": "2026-11-10"
+},
+"3603 bastion ln|raleigh|27604": {
+"lat": 35.797789,
+"lon": -78.584892,
+"checked": "2026-11-10"
+},
+"3651 wendell boulevard|wendell|27591": {
+"lat": 35.784303,
+"lon": -78.368999,
+"checked": "2026-11-10"
+},
+"3700 bastion lane raleigh|raleigh|27604": {
+"lat": 35.799265,
+"lon": -78.581934,
+"checked": "2026-11-10"
+},
+"3700 lake wheeler rd|raleigh|27603": {
+"lat": 35.730509,
+"lon": -78.682918,
+"checked": "2026-11-10"
+},
+"3704 benson rd|garner|27529": {
+"lat": 35.628983,
+"lon": -78.609739,
+"checked": "2026-11-10"
+},
+"3717-b university dr|durham|27707": {
+"lat": 35.966887,
+"lon": -78.949733,
+"checked": "2026-11-10"
+},
+"3741 garrett rd|durham|27707": {
+"lat": 35.970564,
+"lon": -78.976847,
+"checked": "2026-11-10"
+},
+"3805 tarheel club rd|raleigh|27604": {
+"lat": 35.827456,
+"lon": -78.522556,
+"checked": "2026-11-10"
+},
+"3808 st. james church rd|raleigh|27604": {
+"lat": 35.833045,
+"lon": -78.569748,
+"checked": "2026-11-10"
+},
+"3819 bonneville ct|raleigh|27604": {
+"lat": 35.835807,
+"lon": -78.596882,
+"checked": "2026-11-10"
+},
+"3982 hare snipe ct|raleigh|27613": {
+"lat": 35.868765,
+"lon": -78.70178,
+"checked": "2026-11-10"
+},
+"4 n blount st|raleigh|27601": {
+"lat": 35.780369,
+"lon": -78.63637,
+"checked": "2026-11-10"
+},
+"4 n. blount st|raleigh|27601": {
+"lat": 35.780369,
+"lon": -78.63637,
+"checked": "2026-11-10"
+},
+"400 n. arendell ave|zebulon|27597": {
+"lat": 35.824371,
+"lon": -78.314581,
+"checked": "2026-11-10"
+},
+"400 w ransom st|fuquay-varina|27526": {
+"lat": 35.577722,
+"lon": -78.803558,
+"checked": "2026-11-10"
+},
+"401 creech rd|garner|27529": {
+"lat": 35.713508,
+"lon": -78.602597,
+"checked": "2026-11-10"
+},
+"401 market street|chapel hill|": {
+"lat": 35.881855,
+"lon": -79.066143,
+"checked": "2026-11-10"
+},
+"405 n. allen st|wake forest|27587": {
+"lat": 35.981313,
+"lon": -78.500632,
+"checked": "2026-11-10"
+},
+"406 rigsbee ave|durham|27701": {
+"lat": 35.999256,
+"lon": -78.899867,
+"checked": "2026-11-10"
+},
+"411 w. chapel hill st|durham|27701": {
+"lat": 35.996926,
+"lon": -78.907739,
+"checked": "2026-11-10"
+},
+"4119 rock quarry rd|raleigh|27610": {
+"lat": 35.743963,
+"lon": -78.579512,
+"checked": "2026-11-10"
+},
+"412 liberty st|durham|27701": {
+"lat": 35.993779,
+"lon": -78.895795,
+"checked": "2026-11-10"
+},
+"414 e. main street|durham|": {
+"lat": 35.992677,
+"lon": -78.896699,
+"checked": "2026-11-10"
+},
+"414 e. main st|durham|27701": {
+"lat": 35.992677,
+"lon": -78.896699,
+"checked": "2026-11-10"
+},
+"414 rose ln|raleigh|27610": {
+"lat": 35.771225,
+"lon": -78.598534,
+"checked": "2026-11-10"
+},
+"415 dimmocks mill road|hillsborough|": {
+"lat": 36.071239,
+"lon": -79.111489,
+"checked": "2026-11-10"
+},
+"415 hillsborough st|raleigh|27603": {
+"lat": 35.780566,
+"lon": -78.645176,
+"checked": "2026-11-10"
+},
+"416 walton st|durham|": {
+"lat": 35.982743,
+"lon": -78.847117,
+"checked": "2026-11-10"
+},
+"421 chapanoke rd|raleigh|27603": {
+"lat": 35.735439,
+"lon": -78.649369,
+"checked": "2026-11-10"
+},
+"421 w union st|hillsborough|27278": {
+"lat": 36.080128,
+"lon": -79.109383,
+"checked": "2026-11-10"
+},
+"4301 louisburg rd|raleigh|27604": {
+"lat": 35.841975,
+"lon": -78.576001,
+"checked": "2026-11-10"
+},
+"4301 pearl rd|raleigh|27610": {
+"lat": 35.722313,
+"lon": -78.560109,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"4307 old poole rd|raleigh|27610": {
+"lat": 35.764587,
+"lon": -78.567158,
+"checked": "2026-11-10"
+},
+"4309 auburn knightdale rd|raleigh|27610": {
+"lat": 35.697482,
+"lon": -78.543245,
+"checked": "2026-11-10"
+},
+"4400 old poole rd|raleigh|27610": {
+"lat": 35.763708,
+"lon": -78.566237,
+"checked": "2026-11-10"
+},
+"4408 lead mine rd|raleigh|27612": {
+"lat": 35.840394,
+"lon": -78.673689,
+"checked": "2026-11-10"
+},
+"4720 forestville rd.raleigh|raleigh|27616": {
+"lat": 35.853606,
+"lon": -78.512753,
+"checked": "2026-11-10"
+},
+"4730 archean way|raleigh|27616": {
+"lat": 35.882432,
+"lon": -78.56052,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"4813 hilltop needmore rd|fuquay-varina|27526": {
+"lat": 35.631788,
+"lon": -78.744523,
+"checked": "2026-11-10"
+},
+"4825 rolesville rd|wendell|27591": {
+"lat": 35.813755,
+"lon": -78.427862,
+"checked": "2026-11-10"
+},
+"4913 universal dr|wake forest|27587": {
+"lat": 35.88832,
+"lon": -78.48071,
+"checked": "2026-11-10"
+},
+"500 richardson rd|zebulon|27597": {
+"lat": 35.743219,
+"lon": -78.279737,
+"checked": "2026-11-10"
+},
+"5005 western blvd|raleigh|27606": {
+"lat": 35.786516,
+"lon": -78.709284,
+"checked": "2026-11-10"
+},
+"502 lula place|raleigh|27610": {
+"lat": 35.786311,
+"lon": -78.615398,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"503 culpepper hill ct|cary|27513": {
+"lat": 35.794523,
+"lon": -78.7883,
+"checked": "2026-11-10"
+},
+"503 us hwy 70 e|garner|27529": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
+"504 w chapel hill st|durham|27701": {
+"lat": 35.99704,
+"lon": -78.908927,
+"checked": "2026-11-10"
+},
+"504 w. chapel hill street|durham|27701": {
+"lat": 35.99704,
+"lon": -78.908927,
+"checked": "2026-11-10"
+},
+"510 s. dillard st|durham|27701": {
+"lat": 35.991281,
+"lon": -78.900498,
+"checked": "2026-11-10"
+},
+"510 w rosemary st|chapel hill|": {
+"lat": 35.911186,
+"lon": -79.064481,
+"checked": "2026-11-10"
+},
+"5124 nc hwy 86 n|hillsborough|27278": {
+"lat": 36.168581,
+"lon": -79.131068,
+"checked": "2026-11-10"
+},
+"5218 efland cedar grove rd|hillsborough|": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
+"522 damascus church rd|chapel hill|": {
+"lat": 35.879872,
+"lon": -79.124972,
+"checked": "2026-11-10"
+},
+"5309 umstead rd|fuquay-varina|27526": {
+"lat": 35.630282,
+"lon": -78.720235,
+"checked": "2026-11-10"
+},
+"544 lipscomb ct|raleigh|27609": {
+"lat": 35.858621,
+"lon": -78.647839,
+"checked": "2026-11-10"
+},
+"55 kipling church rd|fuquay-varina|27526": {
+"lat": 35.479778,
+"lon": -78.821669,
+"checked": "2026-11-10"
+},
+"555 sw maynard rd|cary|27511": {
+"lat": 35.77161,
+"lon": -78.794137,
+"checked": "2026-11-10"
+},
+"558 village ct|garner|27529": {
+"lat": 35.707878,
+"lon": -78.619295,
+"checked": "2026-11-10"
+},
+"5800 nc hwy 86 n|hillsborough|27278": {
+"lat": 36.178621,
+"lon": -79.135992,
+"checked": "2026-11-10"
+},
+"588 e. carabrrus st|raleigh|27601": {
+"lat": 35.773905,
+"lon": -78.628649,
+"checked": "2026-11-10"
+},
+"5909 foxhall village rd|raleigh|27616": {
+"lat": 35.839934,
+"lon": -78.544287,
+"checked": "2026-11-10"
+},
+"600 homestead rd|chapel hill|": {
+"lat": 35.943555,
+"lon": -79.099066,
+"checked": "2026-11-10"
+},
+"600 tucker street|raleigh|27603": {
+"lat": 35.786328,
+"lon": -78.647335,
+"checked": "2026-11-10"
+},
+"600 w. holding ave|wake forest|27587": {
+"lat": 35.973366,
+"lon": -78.523754,
+"checked": "2026-11-10"
+},
+"601 st. mary's st|garner|27529": {
+"lat": 35.704032,
+"lon": -78.613854,
+"checked": "2026-11-10"
+},
+"601 w. 3rd st|wendell|": {
+"lat": 35.780543,
+"lon": -78.361031,
+"checked": "2026-11-10"
+},
+"605 bridge st|fuquay-varina|27526": {
+"lat": 35.59178,
+"lon": -78.808828,
+"checked": "2026-11-10"
+},
+"605 e young st|rolesville|27571": {
+"lat": 35.91683,
+"lon": -78.452515,
+"checked": "2026-11-10"
+},
+"607 pine acres rd|chapel hill|27516": {
+"lat": 35.915542,
+"lon": -79.115342,
+"checked": "2026-11-10"
+},
+"608 lions club rd|wendell|27591": {
+"lat": 35.774147,
+"lon": -78.359292,
+"checked": "2026-11-10"
+},
+"6105 fayetteville rd|raleigh|27603": {
+"lat": 35.694515,
+"lon": -78.67392,
+"checked": "2026-11-10"
+},
+"6109 buffaloe rd|raleigh|27616": {
+"lat": 35.843859,
+"lon": -78.540616,
+"checked": "2026-11-10"
+},
+"6109 riley hill rd|wendell|27591": {
+"lat": 35.855434,
+"lon": -78.410202,
+"checked": "2026-11-10"
+},
+"6115 old stage rd|raleigh|27603": {
+"lat": 35.696023,
+"lon": -78.653117,
+"checked": "2026-11-10"
+},
+"621 w holly springs rd|holly springs|27540": {
+"lat": 35.655584,
+"lon": -78.842721,
+"checked": "2026-11-10"
+},
+"623 rock quarry rd|raleigh|27610": {
+"lat": 35.771214,
+"lon": -78.620896,
+"checked": "2026-11-10"
+},
+"632 laurel hill rd|chapel hill|": {
+"lat": 35.901436,
+"lon": -79.033899,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"6556 lake hill dr|raleigh|27609": {
+"lat": 35.869305,
+"lon": -78.625639,
+"checked": "2026-11-10"
+},
+"6600 louisburg rd|raleigh|27616": {
+"lat": 35.864882,
+"lon": -78.546783,
+"checked": "2026-11-10"
+},
+"6620 six forks rd|raleigh|27615": {
+"lat": 35.870434,
+"lon": -78.640647,
+"checked": "2026-11-10"
+},
+"663 troy st|durham|": {
+"lat": 35.977244,
+"lon": -78.882846,
+"checked": "2026-11-10"
+},
+"700 brooks ave|raleigh|27607": {
+"lat": 35.796932,
+"lon": -78.67278,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"7000 destiny dr|raleigh|27604": {
+"lat": 35.827325,
+"lon": -78.533096,
+"checked": "2026-11-10"
+},
+"7001 poole rd|raleigh|27610": {
+"lat": 35.754611,
+"lon": -78.531904,
+"checked": "2026-11-10"
+},
+"701 s main st|wake forest|27587": {
+"lat": 35.972653,
+"lon": -78.515281,
+"checked": "2026-11-10"
+},
+"701 william vickers ave 286-2128|durham|": {
+"lat": 35.995446,
+"lon": -78.910268,
+"checked": "2026-11-10"
+},
+"706 gilbert st|durham|27701": {
+"lat": 35.995804,
+"lon": -78.890642,
+"checked": "2026-11-10"
+},
+"7109 leesville rd|raleigh|27613": {
+"lat": 35.872293,
+"lon": -78.701001,
+"checked": "2026-11-10"
+},
+"721 foster st|durham|27701": {
+"lat": 36.004041,
+"lon": -78.901466,
+"checked": "2026-11-10"
+},
+"7215 six forks rd|raleigh|27615": {
+"lat": 35.87813,
+"lon": -78.645748,
+"checked": "2026-11-10"
+},
+"726 method rd|raleigh|27607": {
+"lat": 35.790055,
+"lon": -78.69387,
+"checked": "2026-11-10"
+},
+"7304 falls of neuse rd|raleigh|27615": {
+"lat": 35.883846,
+"lon": -78.626662,
+"checked": "2026-11-10"
+},
+"735 rock quarry rd|raleigh|27610": {
+"lat": 35.770126,
+"lon": -78.619334,
+"checked": "2026-11-10"
+},
+"7604 rock quarry rd|raleigh|27610": {
+"lat": 35.691041,
+"lon": -78.527162,
+"checked": "2026-11-10"
+},
+"7715 louisburg rd|raleigh|27616": {
+"lat": 35.876506,
+"lon": -78.53989,
+"checked": "2026-11-10"
+},
+"800 n. blount street|raleigh|27604": {
+"lat": 35.790191,
+"lon": -78.635801,
+"checked": "2026-11-10"
+},
+"800 n. mangum st|durham|": {
+"lat": 36.001475,
+"lon": -78.894928,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"800 s main st|fuquay-varina|27526": {
+"lat": 35.574762,
+"lon": -78.800665,
+"checked": "2026-11-10"
+},
+"801 gilbert st|durham|27701": {
+"lat": 35.995914,
+"lon": -78.889513,
+"checked": "2026-11-10"
+},
+"804 e edenton st|raleigh|": {
+"lat": 35.780751,
+"lon": -78.62721,
+"checked": "2026-11-10"
+},
+"805 e davie st|raleigh|27601": {
+"lat": 35.775311,
+"lon": -78.62617,
+"checked": "2026-11-10"
+},
+"815 broad street|durham|27705": {
+"lat": 36.010231,
+"lon": -78.919649,
+"checked": "2026-11-10"
+},
+"8200 nc 49 n|hillsborough|": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
+"821 buck jones rd|raleigh|27606": {
+"lat": 35.772339,
+"lon": -78.737642,
+"checked": "2026-11-10"
+},
+"8225 mitchell mill rd|zebulon|27597": {
+"lat": 35.909899,
+"lon": -78.394584,
+"checked": "2026-11-10"
+},
+"824 bloodworth st|raleigh|27604": {
+"lat": 35.790925,
+"lon": -78.632318,
+"checked": "2026-11-10"
+},
+"825 n estes dr|chapel hill|27514": {
+"lat": 35.935127,
+"lon": -79.052767,
+"checked": "2026-11-10"
+},
+"8700 capital blvd|raleigh|27616": {
+"lat": 35.89419,
+"lon": -78.558847,
+"checked": "2026-11-10"
+},
+"874 pine ridge rd|zebulon|": {
+"lat": 35.911689,
+"lon": -78.241098,
+"checked": "2026-11-10"
+},
+"8800 hwy 39 s|zebulon|": {
+"lat": 35.865268,
+"lon": -78.267461,
+"checked": "2026-11-10"
+},
+"8924 buffaloe rd|raleigh|27545": {
+"lat": 35.831277,
+"lon": -78.462668,
+"checked": "2026-11-10"
+},
+"900 s. wilmington street|raleigh|27601": {
+"lat": 35.769297,
+"lon": -78.639003,
+"checked": "2026-11-10"
+},
+"904 ramseur st|durham|27701": {
+"lat": 35.987284,
+"lon": -78.894016,
+"checked": "2026-11-10"
+},
+"908 suffolk blvd|raleigh|27603": {
+"lat": 35.745064,
+"lon": -78.658177,
+"checked": "2026-11-10"
+},
+"9101 fayetteville rd|raleigh|27603": {
+"lat": 35.652005,
+"lon": -78.70659,
+"checked": "2026-11-10"
+},
+"9104 sauls rd|raleigh|27603": {
+"lat": 35.631824,
+"lon": -78.641528,
+"checked": "2026-11-10"
+},
+"911 barringer dr|raleigh|27606": {
+"lat": 35.775435,
+"lon": -78.723353,
+"checked": "2026-11-10"
+},
+"918 malby's church|knightdale|27545": {
+"lat": 35.800459,
+"lon": -78.488264,
+"checked": "2026-11-10"
+},
+"946 square ct|knightdale|27545": {
+"lat": 35.802948,
+"lon": -78.486977,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10",
+"via": "osm"
+},
+"948 morphus bridge rd|wendell|27591": {
+"lat": 35.781311,
+"lon": -78.35239,
+"checked": "2026-11-10"
+},
+"9650 strickland rd|raleigh|27615": {
+"lat": 35.901801,
+"lon": -78.656671,
+"checked": "2026-11-10"
+},
+"9801 durant road|raleigh|27614": {
+"lat": 35.900423,
+"lon": -78.577772,
+"checked": "2026-11-10"
+}
+}

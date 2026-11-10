@@ -34,7 +34,7 @@ from markupsafe import Markup, escape
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from sources import common, cws, curated, dcia, opendata, orange_ext  # noqa: E402
+from sources import common, cws, curated, dcia, geocode, opendata, orange_ext  # noqa: E402
 
 SOURCES = [curated, dcia, cws, orange_ext, opendata.durham, opendata.wake, opendata.chatham]  # curated first: it wins when merging duplicates
 TZ = ZoneInfo("America/New_York")
@@ -88,6 +88,8 @@ def normalize(e: dict) -> dict:
         e["cost"] = "unknown" if e.get("curated_file") else "free"
     for k in ("description", "address", "url", "phone", "hours", "access", "notes", "source_url"):
         e.setdefault(k, "")
+    e.setdefault("lat", None)
+    e.setdefault("lon", None)
     e["sources"] = [e.get("source", "")]
     e["source_links"] = [{"name": e.get("source", ""), "url": e.get("source_url", "")}]
     return e
@@ -101,6 +103,8 @@ def _merge(a: dict, b: dict) -> None:
     for k in ("description", "address", "url", "phone", "hours", "access"):
         if not a.get(k) and b.get(k):
             a[k] = b[k]
+    if a.get("lat") is None and b.get("lat") is not None:
+        a["lat"], a["lon"] = b["lat"], b["lon"]
     if b.get("checked") and b["checked"] > a.get("checked", ""):
         a["checked"] = b["checked"]
     for s in b["sources"]:
@@ -428,6 +432,8 @@ def render(entries: list[dict], meta: dict) -> None:
     env.filters["sources"] = render_sources
     env.filters["report"] = report_link
 
+    for i, e in enumerate(sorted(entries, key=lambda e: (e["city"], e["name"].lower()))):
+        e["rid"] = i
     order = {c: i for i, c in enumerate(common.CATEGORIES)}
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
@@ -443,6 +449,7 @@ def render(entries: list[dict], meta: dict) -> None:
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
         city_counts={c: sum(len(v) for v in groups.values()) for c, groups in by_city.items()},
         cat_help=common.CATEGORY_HELP,
+        unmapped=sum(1 for e in entries if e.get("lat") is None),
         category_groups=common.CATEGORY_GROUPS, emoji=common.CATEGORY_EMOJI,
         cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},
     )
@@ -451,7 +458,10 @@ def render(entries: list[dict], meta: dict) -> None:
 
     # Static assets (QR code) and the printable flyer.
     for f in (ROOT / "static").glob("*"):
-        shutil.copy2(f, SITE / f.name)
+        if f.is_dir():
+            shutil.copytree(f, SITE / f.name, dirs_exist_ok=True)
+        else:
+            shutil.copy2(f, SITE / f.name)
     shown = {c for e in entries for c in e["categories"]}
     flyer_needs = [(c, common.CATEGORY_EMOJI[c]) for c in ("Food", "Clothing & Household", "Housing & Shelter",
                    "Showers, Laundry & Hygiene", "Health Care & Harm Reduction", "Mutual Aid & Organizing",
@@ -461,7 +471,7 @@ def render(entries: list[dict], meta: dict) -> None:
         needs=flyer_needs, total=len(entries)), encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
-                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen"]
+                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen", "lat", "lon"]
     for e in entries:
         e["source_urls"] = [x["url"] for x in e["source_links"] if x["url"]]
     rows = [{k: e.get(k, "") for k in public_fields} for e in entries]
@@ -496,6 +506,14 @@ def main() -> int:
     entries = [normalize(e) for e in raw if e.get("name")]
     entries, dropped = apply_exclusions(entries)
     entries = dedupe(entries)
+
+    # Coordinates: from the source feed when it has them, else the Census geocoder (cached).
+    for e in entries:
+        if geocode.query_for(e) is None:
+            e["lat"] = e["lon"] = None  # undisclosed / PO box / region-wide: never mapped
+        elif e.get("lat") is not None and (common.km_from_town(e["city"], e["lat"], e["lon"]) or 0) > 30:
+            e["lat"] = e["lon"] = None  # feed pin far from its town: re-geocode the street address
+    geo = geocode.geocode(entries, today)
 
     stale = []
     for e in entries:
@@ -542,6 +560,7 @@ def main() -> int:
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))
 
     print(f"{len(entries)} resources ({len(raw)} raw, {len(dropped)} excluded) -> {SITE / 'index.html'}")
+    print(f"  map: {geo['mapped']} located ({geo['looked_up']} new lookups), {geo['unmapped_with_address']} addresses not found")
     for m in source_meta:
         flag = " (STALE: using cached copy)" if m.get("stale_parts") else ""
         print(f"  {m['name']}: {m['count']}{flag}")

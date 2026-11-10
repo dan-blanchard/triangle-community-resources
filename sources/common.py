@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import hashlib
+import math
 import re
 from pathlib import Path
 
@@ -51,6 +52,24 @@ CATEGORY_HELP = {
     "Classes, Computers & Wi-Fi": "Free computers, Wi-Fi hotspots, English classes and literacy help.",
 }
 CATEGORY_EMOJI = {c: e for _, cats in CATEGORY_GROUPS for c, e in cats}
+
+# Approximate town centers (lat, lon), used to sanity-check coordinates from source feeds.
+CITY_CENTER = {
+    "Durham": (35.994, -78.899), "Raleigh": (35.780, -78.639), "Chapel Hill": (35.913, -79.056),
+    "Carrboro": (35.910, -79.075), "Hillsborough": (36.075, -79.100), "Cary": (35.792, -78.781),
+    "Apex": (35.733, -78.850), "Morrisville": (35.824, -78.826), "Garner": (35.711, -78.614),
+    "Wake Forest": (35.980, -78.510), "Knightdale": (35.788, -78.481), "Fuquay-Varina": (35.584, -78.800),
+    "Holly Springs": (35.651, -78.834), "Wendell": (35.781, -78.370), "Zebulon": (35.824, -78.315),
+    "Rolesville": (35.923, -78.457), "Pittsboro": (35.720, -79.177),
+}
+
+
+def km_from_town(city: str, lat: float, lon: float) -> float | None:
+    c = CITY_CENTER.get(city)
+    if not c:
+        return None
+    return 111 * math.hypot(lat - c[0], (lon - c[1]) * math.cos(math.radians(lat)))
+
 
 # Address text -> city. Order matters: check multi-word names before substrings.
 _CITY_PATTERNS = [

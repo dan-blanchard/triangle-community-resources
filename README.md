@@ -56,6 +56,16 @@ Pushing any of these to `main` triggers a rebuild right away.
 - **Anyone:** each card has a "Report a change" link, and the footer has "Suggest a
   resource". Both open GitHub issue forms (`.github/ISSUE_TEMPLATE/`).
 
+## Map
+
+The page has a List / Map toggle (Leaflet + markercluster, vendored and checked against the
+npm releases in `static/vendor/`, tiles from OpenStreetMap). Coordinates come from the source
+feed when it has them (Wake KML, Durham and Chatham ArcGIS), otherwise from `sources/geocode.py`:
+the US Census batch geocoder, with a capped OpenStreetMap Nominatim fallback, cached in
+`data/geocache.json` so each daily build only looks up new addresses. Feed pins more than 30 km
+from their town are ignored and re-geocoded. Undisclosed or confidential locations (e.g. DV
+shelters), PO boxes and region-wide entries are never mapped.
+
 ## Sharing
 
 `static/qr.svg` / `static/qr.png` are a QR code for the live URL (regenerate with

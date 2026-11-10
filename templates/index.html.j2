@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Triangle Community Resources – free, mutual aid &amp; shared</title>
 <meta name="description" content="Free and community-run resources in Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle: food, clothing, shelter, mutual aid, tool libraries, maker spaces and more. Updated daily.">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.css">
+<link rel="stylesheet" href="vendor/MarkerCluster.Default.css">
 <style>
 :root{
   --bg:#fbf8f1; --ink:#1f1d1a; --muted:#5d5850; --line:#e4ddcf; --card:#fff;
@@ -74,13 +77,30 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 .need:hover,.need.on{border-color:var(--accent);background:#fbe7df}
 .needhelp{font-size:.9rem;color:var(--muted);padding:0 1rem .55rem}
 .needhelp[hidden]{display:none}
+.viewtoggle{display:inline-flex;border:1.5px solid #cfc6b4;border-radius:8px;overflow:hidden}
+.viewtoggle button{background:#fff;border:0;padding:.5rem .8rem;font-size:.95rem;cursor:pointer;color:var(--ink)}
+.viewtoggle button[aria-pressed=true]{background:var(--ink);color:#fff}
+#mapwrap{margin:1rem 0 2rem}
+#map{height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
+#mapnote{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
+.leaflet-popup-content{font:14px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:.7rem .9rem}
+.pop h4{margin:0 0 .3rem;font-size:1rem}
+.pop h4 a{color:var(--ink)}
+.pop .needs{margin:.2rem 0 .35rem}
+.pop .need{pointer-events:none}
+.pop dl.facts{font-size:.84rem}
+.pop .more{display:inline-block;margin-top:.4rem;font-weight:600}
+article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 .hidden{display:none!important}
 @media (max-width:700px){
   html{scroll-padding-top:1rem}
   .controls{position:static}
-  .controls .wrap{display:grid;grid-template-columns:1fr 1fr;gap:.45rem}
-  .controls input[type=search]{grid-column:1/-1}
-  .controls label.tog{font-size:.85rem;white-space:normal}
+  .controls .wrap{display:grid;grid-template-columns:1fr;gap:.45rem}
+  .controls .wrap>*{min-width:0;width:100%}
+  .viewtoggle button{flex:1;white-space:nowrap}
+  .townchip{justify-content:space-between}
+  .controls label.tog{font-size:.9rem;white-space:normal;width:auto}
+  #map{height:70vh}
   section.city>h2{font-size:1.6rem}
 }
 @media print{
@@ -98,7 +118,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 <header class="top"><div class="wrap">
   <h1>Triangle Community Resources</h1>
   <p>Free, community-run and mutual-aid resources across Durham, Raleigh, Chapel Hill, Carrboro and the rest of the Triangle. <strong>Take what you need.</strong> Share what you can.</p>
-  <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources · Grouped by town, then by need</div>
+  <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources · List or map, by town</div>
 </div></header>
 
 <div class="crisis" role="note"><div class="wrap">
@@ -108,6 +128,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 </div></div>
 
 <div class="controls" id="controls" hidden><div class="wrap">
+  <span class="viewtoggle" role="group" aria-label="View"><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
   <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
   <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
   <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}" title="{{ cat_help[c] }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
@@ -124,6 +145,11 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   </nav>
   <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Each town is listed A–Z; green tags mark community-run groups. Tap a need on any card to see everything that meets it.</p>
 
+  <div id="mapwrap" hidden>
+    <div id="map" role="region" aria-label="Map of resources"></div>
+    <p id="mapnote">{{ unmapped }} resources aren't on the map because they serve the whole region, keep their location confidential, or list no street address. Switch to List to see everything.</p>
+  </div>
+  <div id="listview">
   {% for city, cats in by_city.items() %}
   <section class="city" id="{{ city|slug }}" data-city="{{ city }}">
     <h2>{{ "Region-wide & mobile" if city == "Triangle-wide" else city }}</h2>
@@ -131,7 +157,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        <article class="r" data-type="{{ e.org_type }}" data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
+        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
           <h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
@@ -157,6 +183,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     {% endfor %}
   </section>
   {% endfor %}
+  </div>
   <p class="empty" id="empty">Nothing matches. Try fewer words or clear the filters.</p>
 </main>
 
@@ -170,8 +197,11 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   <p>Something wrong, closed, or missing? <a href="{{ repo }}/issues/new?template=report-change.yml">Report a change</a> or <a href="{{ repo }}/issues/new?template=suggest-resource.yml">suggest a resource</a>. Reports are public on GitHub, so don't include personal details.</p>
   <p>Share this page: <a href="flyer.html">printable flyer with QR code</a> · <a href="qr.png" download>QR code image</a></p>
   <p>Download the data: <a href="resources.csv">CSV</a> · <a href="resources.json">JSON</a></p>
+  <p>Map: <a href="https://leafletjs.com">Leaflet</a>, tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors. Locations come from the source lists or the <a href="https://geocoding.geo.census.gov/">US Census geocoder</a> (some via OpenStreetMap Nominatim). Confidential locations are never mapped.</p>
 </div></footer>
 
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/leaflet.markercluster.js"></script>
 <script>
 (() => {
   const $ = (s) => document.querySelector(s);
@@ -220,6 +250,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
       sc.classList.toggle('hidden', !cityShown); shown += cityShown;
     });
     $('#empty').style.display = shown ? 'none' : 'block';
+    if (view === 'map') drawMarkers();
     document.querySelectorAll('.citynav a[data-city]').forEach(a => {
       const on = !!city.value && a.dataset.city === city.value;
       a.classList.toggle('active', on);
@@ -235,8 +266,60 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value); if (city.value) p.set('city', city.value); if (cat.value) p.set('need', cat.value);
     if (ma.checked) p.set('community', ''); if (nf.checked) p.set('nofaith', '');
+    if (view === 'map') p.set('view', 'map');
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
   }
+  // ---- Map view ----
+  let view = params.get('view') === 'map' ? 'map' : 'list';
+  let map = null, cluster = null;
+  const COLORS = {mutual_aid: '#2f6b3a', cooperative: '#2f6b3a', community_org: '#2f6b3a', faith_based: '#5b3f78', public: '#2b4f7a', nonprofit: '#2b4f7a'};
+  function popupFor(a) {
+    const div = document.createElement('div');
+    div.className = 'pop';
+    div.append(a.querySelector('h4').cloneNode(true), a.querySelector('.needs').cloneNode(true));
+    const facts = a.querySelector('dl.facts').cloneNode(true);
+    facts.querySelectorAll('dt').forEach(dt => { if (!['When', 'Where', 'Call'].includes(dt.textContent)) { dt.nextElementSibling.remove(); dt.remove(); } });
+    div.append(facts);
+    const more = document.createElement('a');
+    more.href = '#' + a.id; more.className = 'more'; more.textContent = 'Full details →';
+    more.addEventListener('click', ev => { ev.preventDefault(); setView('list'); a.scrollIntoView({behavior: 'smooth', block: 'center'}); a.classList.add('flash'); setTimeout(() => a.classList.remove('flash'), 2000); });
+    div.append(more);
+    return div;
+  }
+  function drawMarkers() {
+    if (!map) return;
+    cluster.clearLayers();
+    const pts = [];
+    document.querySelectorAll('section.city:not(.hidden) article.r:not(.hidden)[data-lat]').forEach(a => {
+      const ll = [+a.dataset.lat, +a.dataset.lon];
+      pts.push(ll);
+      const m = L.circleMarker(ll, {radius: 7, weight: 2, color: '#fff', fillColor: COLORS[a.dataset.type] || '#2b4f7a', fillOpacity: .95});
+      m.bindPopup(() => popupFor(a), {maxWidth: 300});
+      cluster.addLayer(m);
+    });
+    if (pts.length) map.fitBounds(pts, {padding: [30, 30], maxZoom: 15});
+  }
+  function setView(v) {
+    view = v;
+    $('#vlist').setAttribute('aria-pressed', v === 'list');
+    $('#vmap').setAttribute('aria-pressed', v === 'map');
+    $('#listview').hidden = v === 'map';
+    $('#mapwrap').hidden = v !== 'map';
+    if (v === 'map' && !map && window.L) {
+      map = L.map('map', {scrollWheelZoom: true});
+      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+      cluster = L.markerClusterGroup({showCoverageOnHover: false, maxClusterRadius: 45});
+      map.addLayer(cluster);
+      map.setView([35.87, -78.85], 10);
+    }
+    apply();
+    // The map was hidden (zero size) until now: measure it, then fit the markers.
+    if (map) setTimeout(() => { map.invalidateSize(); drawMarkers(); }, 0);
+  }
+  $('#vlist').addEventListener('click', () => setView('list'));
+  $('#vmap').addEventListener('click', () => setView('map'));
+
   [q, cat, ma, nf].forEach(el => el.addEventListener('input', apply));
   $('#townclear').addEventListener('click', () => { city.value = ''; apply(); });
   document.querySelectorAll('.need').forEach(n => n.addEventListener('click', ev => {
@@ -250,7 +333,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
     apply();
     document.querySelector('main').scrollIntoView({behavior: 'smooth'});
   }));
-  apply();
+  setView(view);
 })();
 </script>
 </body>

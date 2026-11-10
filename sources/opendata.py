@@ -60,6 +60,8 @@ def _wake_collect():
                 skipped += 1  # outside the towns this page covers
                 continue
             services = data.get("Services Offered", "")
+            coords = (pm.findtext(".//k:coordinates", default="", namespaces=KML_NS) or "").strip().split(",")
+            lat, lon = (round(float(coords[1]), 6), round(float(coords[0]), 6)) if len(coords) >= 2 else (None, None)
             desc = layer if layer != "Mini Pantry" else "Mini pantry: take what you need, leave what you can"
             out.append(_entry(
                 name=name, city=city, categories=list(cats),
@@ -68,9 +70,17 @@ def _wake_collect():
                 url=clean_url(data.get("Details", "")),
                 hours=data.get("Operating Hours", ""),
                 access=data.get("Requirements/Comments", ""),
-                subgroup=layer, source=WAKE_SOURCE, source_url=WAKE_PAGE,
+                subgroup=layer, source=WAKE_SOURCE, source_url=WAKE_PAGE, lat=lat, lon=lon,
             ))
     return out, {"name": WAKE_SOURCE, "url": WAKE_PAGE, "count": len(out), "stale_parts": [] if fresh else ["all"]}
+
+
+def _point(f: dict) -> tuple[float | None, float | None]:
+    g = f.get("geometry") or {}
+    if g.get("type") == "Point" and len(g.get("coordinates") or []) >= 2:
+        lon, lat = g["coordinates"][:2]
+        return round(lat, 6), round(lon, 6)
+    return None, None
 
 
 # ---------- Durham Open Data ----------
@@ -95,7 +105,7 @@ def _durham_collect():
             description="Food pantry", address=addr,
             phone=first_phone(clean(p.get("phone")) or clean(p.get("pocphone"))),
             url=clean_url(clean(p.get("agencyurl"))), hours=hours, access=clean(p.get("comments")),
-            source=DURHAM_SOURCE, source_url=DURHAM_PAGE,
+            source=DURHAM_SOURCE, source_url=DURHAM_PAGE, lat=_point(f)[0], lon=_point(f)[1],
         ))
     return out, {"name": DURHAM_SOURCE, "url": DURHAM_PAGE, "count": len(out), "stale_parts": [] if fresh else ["all"]}
 
@@ -128,6 +138,7 @@ def _chatham_collect():
             address=addr, phone=first_phone(clean(p.get("USER_Contact__Phone_number"))),
             url=clean_url(clean(p.get("USER_Contact__Website"))), hours=clean(p.get("USER_Time")),
             access="; ".join(access), source=CHATHAM_SOURCE, source_url=CHATHAM_URL.split("/query")[0],
+            lat=_point(f)[0], lon=_point(f)[1],
         ))
     return out, {"name": CHATHAM_SOURCE, "url": "", "count": len(out), "stale_parts": [] if fresh else ["all"]}
 

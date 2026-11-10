@@ -36,11 +36,11 @@ jobs:
       - name: Scrape, check links, render
         run: uv run build.py
 
-      - name: Save history (first-seen dates, link-failure streaks)
+      - name: Save history (first-seen dates, link-failure streaks, geocode cache)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/state.json
+          git add data/state.json data/geocache.json
           git diff --cached --quiet || git commit -m "Daily rebuild $(date -u +%F)" && git push
 
       - uses: actions/upload-pages-artifact@v3
