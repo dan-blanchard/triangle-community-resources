@@ -1,0 +1,4 @@
+{
+ "_comment": "Hosts whose website icon isn't the organization's logo. Value = reason.",
+ "whiterockbaptistchurch.org": "Site icon is the WordPress logo"
+}

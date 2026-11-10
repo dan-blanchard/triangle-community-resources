@@ -1,6 +1,6 @@
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["requests", "openpyxl", "jinja2"]
+# dependencies = ["requests", "openpyxl", "jinja2", "pillow"]
 # ///
 """Build the Triangle community resources page.
 
@@ -34,7 +34,7 @@ from markupsafe import Markup, escape
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from sources import common, cws, curated, dcia, geocode, opendata, orange_ext  # noqa: E402
+from sources import common, cws, curated, dcia, geocode, logos, opendata, orange_ext  # noqa: E402
 
 SOURCES = [curated, dcia, cws, orange_ext, opendata.durham, opendata.wake, opendata.chatham]  # curated first: it wins when merging duplicates
 TZ = ZoneInfo("America/New_York")
@@ -477,6 +477,8 @@ def render(entries: list[dict], meta: dict) -> None:
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")
 
+    if logos.DIR.exists():
+        shutil.copytree(logos.DIR, SITE / "logos", dirs_exist_ok=True)
     # Static assets (QR code) and the printable flyer.
     for f in (ROOT / "static").glob("*"):
         if f.is_dir():
@@ -508,6 +510,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--no-links", action="store_true", help="skip link checking")
     ap.add_argument("--force", action="store_true", help="publish even if the resource count dropped sharply")
+    ap.add_argument("--no-logos", action="store_true", help="don't fetch new logos (use cached ones)")
     args = ap.parse_args()
 
     state = json.loads(STATE.read_text()) if STATE.exists() else {}
@@ -535,6 +538,12 @@ def main() -> int:
         elif e.get("lat") is not None and (common.km_from_town(e["city"], e["lat"], e["lon"]) or 0) > 30:
             e["lat"] = e["lon"] = None  # feed pin far from its town: re-geocode the street address
     geo = geocode.geocode(entries, today)
+    logo_stats = logos.attach_logos(entries, today) if not args.no_logos else {"entries_with_logo": 0, "fetched": 0}
+    if args.no_logos:  # still use logos already cached
+        for e in entries:
+            f = logos.DIR / f"{logos.host_of(e.get('url', ''))}.png"
+            if e.get("url") and f.exists():
+                e["logo"] = f"logos/{f.name}"
 
     stale = []
     for e in entries:
@@ -581,6 +590,7 @@ def main() -> int:
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))
 
     print(f"{len(entries)} resources ({len(raw)} raw, {len(dropped)} excluded) -> {SITE / 'index.html'}")
+    print(f"  logos: {logo_stats['entries_with_logo']} listings ({logo_stats['fetched']} sites checked)")
     print(f"  map: {geo['mapped']} located ({geo['looked_up']} new lookups), {geo['unmapped_with_address']} addresses not found")
     for m in source_meta:
         flag = " (STALE: using cached copy)" if m.get("stale_parts") else ""

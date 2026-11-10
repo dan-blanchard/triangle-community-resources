@@ -50,6 +50,9 @@ section.cat h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;m
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem}
 article.r{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem .95rem;display:flex;flex-direction:column;gap:.35rem}
 article.r h4{margin:0;font-size:1.05rem;line-height:1.3}
+.rhead{display:flex;gap:.6rem;align-items:center}
+img.logo{width:40px;height:40px;flex:none;object-fit:contain;border-radius:8px;background:#fff;border:1px solid var(--line);padding:2px}
+.pop img.logo{width:32px;height:32px}
 article.r h4 a{color:var(--ink);text-decoration:none}
 article.r h4 a:hover{text-decoration:underline}
 .badges{display:flex;flex-wrap:wrap;gap:.3rem}
@@ -84,7 +87,8 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 #map{height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
 #mapnote{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
 .leaflet-popup-content{font:14px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:.7rem .9rem}
-.pop h4{margin:0 0 .3rem;font-size:1rem}
+.pop h4{margin:0;font-size:1rem}
+.pop .rhead{margin-bottom:.3rem}
 .pop h4 a{color:var(--ink)}
 .pop .needs{margin:.2rem 0 .35rem}
 .pop .need{pointer-events:none}
@@ -159,7 +163,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
       <div class="grid">
       {% for e in items %}
         <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
-          <h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4>
+          <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
             <span class="b b-{{ e.org_type }}">{{ org_label[e.org_type] }}</span>
@@ -280,7 +284,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   function popupFor(a) {
     const div = document.createElement('div');
     div.className = 'pop';
-    div.append(a.querySelector('h4').cloneNode(true), a.querySelector('.needs').cloneNode(true));
+    div.append(a.querySelector('.rhead').cloneNode(true), a.querySelector('.needs').cloneNode(true));
     const facts = a.querySelector('dl.facts').cloneNode(true);
     facts.querySelectorAll('dt').forEach(dt => { if (!['When', 'Where', 'Call'].includes(dt.textContent)) { dt.nextElementSibling.remove(); dt.remove(); } });
     div.append(facts);
