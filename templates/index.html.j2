@@ -63,6 +63,7 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 .warn{font-size:.8rem;background:var(--warn-bg);color:var(--warn);border-radius:4px;padding:.15rem .45rem}
 .src{font-size:.75rem;color:var(--muted);margin-top:auto;padding-top:.2rem}
 .src a{color:var(--muted)}
+.src a.report{display:inline-block;margin-bottom:.15rem}
 .src .stale{color:var(--warn);font-weight:600}
 .empty{display:none;padding:2rem;text-align:center;color:var(--muted)}
 footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.5rem 0 3rem;font-size:.9rem;color:var(--muted)}
@@ -148,7 +149,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
             {% if e.notes %}<dt>Note</dt><dd class="note">{{ e.notes|truncate(260)|linkify }}</dd>{% endif %}
           </dl>
           {% if e.link_warning %}<span class="warn">Website hasn't loaded for several days; call before going.</span>{% endif %}
-          <div class="src">{{ e|sources }} · <a href="{{ e|report }}" rel="noopener">Report a change</a></div>
+          <div class="src"><a class="report" href="{{ e|report }}" rel="noopener">Report a change</a><br>{{ e|sources }}</div>
         </article>
       {% endfor %}
       </div>
