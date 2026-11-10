@@ -88,6 +88,7 @@ def normalize(e: dict) -> dict:
     for k in ("description", "address", "url", "phone", "hours", "access", "notes", "source_url"):
         e.setdefault(k, "")
     e["sources"] = [e.get("source", "")]
+    e["source_links"] = [{"name": e.get("source", ""), "url": e.get("source_url", "")}]
     return e
 
 
@@ -102,6 +103,11 @@ def _merge(a: dict, b: dict) -> None:
     for s in b["sources"]:
         if s not in a["sources"]:
             a["sources"].append(s)
+    seen = {(x["name"], x["url"]) for x in a["source_links"]}
+    for x in b["source_links"]:
+        if (x["name"], x["url"]) not in seen and not any(y["name"] == x["name"] and not x["url"] for y in a["source_links"]):
+            a["source_links"].append(x)
+            seen.add((x["name"], x["url"]))
 
 
 _GENERIC_HOSTS = r"facebook|instagram|google|linktr|square|wix|wordpress|sites\.|canva|handsontriangle"
@@ -340,6 +346,26 @@ def display_domain(url: str) -> str:
     return host
 
 
+def _a(url: str, text: str) -> Markup:
+    return Markup(f'<a href="{escape(url)}" rel="noopener">{escape(text)}</a>') if url else escape(text)
+
+
+def render_sources(links: list[dict]) -> Markup:
+    """'Hand-checked: wunc.org, Instagram: @x · Durham Open Data food resources', each part its own link."""
+    checked = [x for x in links if x["name"] == curated.SOURCE]
+    parts = []
+    if checked:
+        pages = [_a(x["url"], display_domain(x["url"])) for x in checked if x["url"]]
+        parts.append(Markup("Hand-checked: ") + Markup(", ").join(pages) if pages else Markup("Hand-checked"))
+    seen = set()
+    for x in links:
+        if x["name"] != curated.SOURCE and x["name"] not in seen:
+            seen.add(x["name"])
+            parts.append(_a(x["url"], x["name"]))
+    label = "Sources" if len(checked) + len(seen) > 1 else "Source"
+    return Markup(f"{label}: ") + Markup(" · ").join(parts)
+
+
 def render(entries: list[dict], meta: dict) -> None:
     env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
     env.filters["maps"] = maps_link
@@ -347,6 +373,7 @@ def render(entries: list[dict], meta: dict) -> None:
     env.filters["tel"] = lambda s: re.sub(r"[^\d+]", "", s)
     env.filters["linkify"] = linkify
     env.filters["domain"] = display_domain
+    env.filters["sources"] = render_sources
 
     by_city: dict[str, dict[str, list[dict]]] = {}
     for c in common.CITIES:
@@ -366,7 +393,9 @@ def render(entries: list[dict], meta: dict) -> None:
     (SITE / "index.html").write_text(html, encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
-                     "url", "hours", "access", "notes", "sources", "source_url", "first_seen"]
+                     "url", "hours", "access", "notes", "sources", "source_urls", "first_seen"]
+    for e in entries:
+        e["source_urls"] = [x["url"] for x in e["source_links"] if x["url"]]
     rows = [{k: e.get(k, "") for k in public_fields} for e in entries]
     (SITE / "resources.json").write_text(json.dumps({"generated": meta["generated_iso"], "resources": rows}, indent=1, ensure_ascii=False), encoding="utf-8")
     with open(SITE / "resources.csv", "w", newline="", encoding="utf-8") as f:
