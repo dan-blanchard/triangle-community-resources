@@ -188,7 +188,8 @@ ministries ministry services service county united baptist methodist umc outreac
 distributions market mobile senior seniors library libraries public st saint new first health clinic family families
 care durham raleigh chapel hill carrboro hillsborough cary wake orange chatham town city department fund kitchen
 meal meals free box boxes main""".split())
-_DISTINCT_PROGRAM = [r"fridge", r"mobile (market|pantry)", r"syringe|harm reduction", r"repair caf", r"tech lab", r"\bkits\b"]
+_DISTINCT_PROGRAM = [r"fridge", r"mobile (market|pantry)", r"syringe|harm reduction", r"repair caf", r"tech lab", r"\bkits\b",
+                     r"\bpets?\b|animal|spay|neuter|vet\b"]
 
 
 def same_program_kind(a: str, b: str) -> bool:
