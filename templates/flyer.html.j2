@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Triangle Community Resources – printable flyer</title>
+<style>
+@page{size:letter;margin:.5in}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#1f1d1a;background:#fff}
+.sheet{max-width:7.5in;margin:0 auto;padding:.4in 0;text-align:center}
+h1{font:800 2.6rem/1.05 Georgia,"Iowan Old Style",serif;margin:0 0 .4rem}
+.lead{font-size:1.35rem;margin:0 0 1.2rem}
+.lead.es{font-size:1.1rem;color:#5d5850;margin-top:-.8rem}
+img.qr{width:4.2in;height:4.2in;display:block;margin:0 auto}
+.url{font:600 1.05rem/1.3 ui-monospace,Menlo,monospace;margin:.6rem 0 1.2rem;word-break:break-all}
+ul{list-style:none;padding:0;margin:0 auto 1.2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:.4rem .6rem;max-width:6.8in}
+li{border:1.5px solid #1f1d1a;border-radius:999px;padding:.15rem .7rem;font-size:1rem}
+.foot{font-size:.95rem;color:#5d5850}
+.crisis{margin-top:1rem;font-weight:700;font-size:1.05rem}
+.noprint{margin:1rem 0}
+@media print{.noprint{display:none}}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <h1>Free help near you</h1>
+  <p class="lead">Food, clothing, shelter, showers, health care, mutual aid and more across the Triangle. Scan to see what's open in your town.</p>
+  <p class="lead es">Comida, ropa, refugio y ayuda gratis en el Triángulo. Escanee el código.</p>
+  <img class="qr" src="qr.svg" alt="QR code linking to {{ url }}">
+  <div class="url">{{ url_short }}</div>
+  <ul>{% for c, em in needs %}<li>{{ em }} {{ c }}</li>{% endfor %}</ul>
+  <p class="foot">{{ total }} free and community-run resources in Durham, Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, Pittsboro and nearby towns. Updated every day.</p>
+  <p class="crisis">In crisis? Call or text 988 · Find services: dial 2-1-1</p>
+  <p class="noprint"><button onclick="window.print()">Print this flyer</button></p>
+</div>
+</body>
+</html>

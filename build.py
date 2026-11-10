@@ -19,6 +19,7 @@ import difflib
 import json
 import os
 import re
+import shutil
 import sys
 import traceback
 from concurrent.futures import ThreadPoolExecutor
@@ -369,6 +370,7 @@ def _same_owner(a: str, b: str) -> bool:
 
 STALE_DAYS = 90
 REPO = "https://github.com/dan-blanchard/triangle-community-resources"
+SITE_URL = "https://dan-blanchard.github.io/triangle-community-resources/"
 
 
 def checked_age_days(e: dict, today: dt.date) -> int | None:
@@ -438,6 +440,17 @@ def render(entries: list[dict], meta: dict) -> None:
     )
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(html, encoding="utf-8")
+
+    # Static assets (QR code) and the printable flyer.
+    for f in (ROOT / "static").glob("*"):
+        shutil.copy2(f, SITE / f.name)
+    shown = {c for e in entries for c in e["categories"]}
+    flyer_needs = [(c, common.CATEGORY_EMOJI[c]) for c in ("Food", "Clothing & Household", "Housing & Shelter",
+                   "Showers, Laundry & Hygiene", "Health Care & Harm Reduction", "Mutual Aid & Organizing",
+                   "Free Stuff", "Borrow Things", "Make & Fix", "Legal & Immigration") if c in shown]
+    (SITE / "flyer.html").write_text(env.get_template("flyer.html.j2").render(
+        url=SITE_URL, url_short=SITE_URL.removeprefix("https://").rstrip("/"),
+        needs=flyer_needs, total=len(entries)), encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
                      "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen"]

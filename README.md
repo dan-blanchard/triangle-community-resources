@@ -56,6 +56,12 @@ Pushing any of these to `main` triggers a rebuild right away.
 - **Anyone:** each card has a "Report a change" link, and the footer has "Suggest a
   resource". Both open GitHub issue forms (`.github/ISSUE_TEMPLATE/`).
 
+## Sharing
+
+`static/qr.svg` / `static/qr.png` are a QR code for the live URL (regenerate with
+`uv run make_qr.py` if the URL changes). The build copies them to the site and renders
+`flyer.html`, a one-page printable flyer with the QR code, linked from the page footer.
+
 ## Run locally
 
 ```sh
