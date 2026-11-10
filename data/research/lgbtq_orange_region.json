@@ -1,0 +1,282 @@
+[
+  {
+    "name": "Planned Parenthood – Chapel Hill Health Center",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "This health center supports and welcomes all people regardless of sexual orientation, gender identity or biological sex; also lists Gender-Affirming Care.",
+    "evidence_url": "https://www.plannedparenthood.org/health-center/north-carolina/chapel-hill/27514/chapel-hill-health-center-4169-90860",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "The ReCYCLEry (community bike co-op)",
+    "city": "Carrboro",
+    "basis": "affirming_statement",
+    "evidence": "Hosts women-trans-femme mechanic nights \"for anyone who identifies as women, trans, femme, non-binary, or gender non-conforming.\"",
+    "evidence_url": "https://www.recyclery.org/what-we-do.html",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Feed-Well Fridge – Cedar Grove United Methodist Church",
+    "city": "Pittsboro",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Feed-Well Fridges does not and shall not discriminate on the basis of ... gender expression, sexual orientation ... in any of its activities or operations.",
+    "evidence_url": "https://feedwellfridges.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Feed-Well Fridge – CORA Food Pantry",
+    "city": "Pittsboro",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Feed-Well Fridges does not and shall not discriminate on the basis of ... gender expression, sexual orientation ... in any of its activities or operations.",
+    "evidence_url": "https://feedwellfridges.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Feed-Well Fridge – Evergreen United Methodist Church",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Feed-Well Fridges does not and shall not discriminate on the basis of ... gender expression, sexual orientation ... in any of its activities or operations.",
+    "evidence_url": "https://feedwellfridges.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Housing Helpline",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "SHAC Free Medical Clinic (UNC student-run)",
+    "city": "Carrboro",
+    "basis": "affirming_statement",
+    "evidence": "Medical Clinic lists a free monthly Gender Affirming Care Clinic among its specialty services.",
+    "evidence_url": "https://www.med.unc.edu/shac/programs/medical-clinic/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "SHAC Dental Clinic (UNC student-run)",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "SHAC lists a free monthly Gender Affirming Care Clinic (hormone therapy, letters of support for surgery) among its services.",
+    "evidence_url": "https://www.med.unc.edu/shac/programs/gender-affirming-care/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "SHAC Syringe Services Program",
+    "city": "Carrboro",
+    "basis": "affirming_statement",
+    "evidence": "SHAC lists a free monthly Gender Affirming Care Clinic (hormone therapy, letters of support for surgery) among its services.",
+    "evidence_url": "https://www.med.unc.edu/shac/programs/gender-affirming-care/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Health Department – free naloxone and syringe access",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Does not exclude persons from services, deny benefits or discriminate ... based on ... sexual orientation, gender identity, sex characteristics, or marital status.",
+    "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Compass Center for Women and Families",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Services are provided to people of all races, classes, religions, ethnic groups, sexual orientations and gender identities.",
+    "evidence_url": "https://www.compassctr.org/domestic-violence",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Rape Crisis Center",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Services available to all regardless of ... gender identity and expression, sexual orientation; runs a QTBIPOC Healing Network.",
+    "evidence_url": "https://ocrcc.org/get-help/helpline/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Second Bloom of Chatham",
+    "city": "Pittsboro",
+    "basis": "affirming_statement",
+    "evidence": "Second Bloom of Chatham serves people of all ages, genders, sexual orientations, gender identities, races, ethnicities ...",
+    "evidence_url": "https://www.secondbloomofchatham.org/secondbloomservices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "El Centro Hispano – Carrboro office",
+    "city": "Carrboro",
+    "basis": "affirming_statement",
+    "evidence": "Annual report: \"El Centro Hispano supporting the dignity of the LGBTQ+ community\"; mobile outreach offered LGBTQ+ community resources.",
+    "evidence_url": "https://elcentronc.org/annual-report/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Legal Aid of North Carolina",
+    "city": "Triangle-wide",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Policy not to discriminate based on ... sexual orientation, gender identity or expression ... in the provision of any of its services to clients.",
+    "evidence_url": "https://legalaidnc.org/non-discrimination-policy/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Chapel Hill Transit (fare-free buses)",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "No person shall, on the grounds of ... sexual orientation, gender identity, or gender expression be excluded from ... programs, activities, or services.",
+    "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules/Transit-Accessibility",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Chapel Hill Public Library",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Queer Comics Club: \"a monthly graphic novel book club that centers queer stories and voices\" for teens who love LGBTQIA+ graphic novels.",
+    "evidence_url": "https://www.chapelhillpubliclibrary.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Chapel Hill Public Library – Kits & Tech Lending",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Queer Comics Club: \"a monthly graphic novel book club that centers queer stories and voices\" for teens who love LGBTQIA+ graphic novels.",
+    "evidence_url": "https://www.chapelhillpubliclibrary.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Chapel Hill Public Library – Tech Lab",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Queer Comics Club: \"a monthly graphic novel book club that centers queer stories and voices\" for teens who love LGBTQIA+ graphic novels.",
+    "evidence_url": "https://www.chapelhillpubliclibrary.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Public Library – Main Library (Seed Share and hotspots)",
+    "city": "Hillsborough",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Public Library – Southern Branch (Drakeford Library Complex)",
+    "city": "Carrboro",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "PORCH Hillsborough – Fairview Park Food Distribution",
+    "city": "Hillsborough",
+    "basis": "nondiscrimination_policy",
+    "evidence": "PC prohibits discrimination based on ... gender identity ... sexual orientation ... This policy applies to all employees, volunteers, clients, partners, and visitors.",
+    "evidence_url": "https://porchcommunities.org/non-discrimination",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "PORCH Hillsborough – Cedar Grove Community Center Food Distribution",
+    "city": "Hillsborough",
+    "basis": "nondiscrimination_policy",
+    "evidence": "PC prohibits discrimination based on ... gender identity ... sexual orientation ... This policy applies to all employees, volunteers, clients, partners, and visitors.",
+    "evidence_url": "https://porchcommunities.org/non-discrimination",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County DSS – TEFAP Monthly Food Distribution",
+    "city": "Hillsborough",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Amity United Methodist Church – Food Pantry",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "Regardless of age, race, gender, gender identity, national origin, sexual orientation ... all are actively invited to visit, participate in, and join.",
+    "evidence_url": "https://amityumc.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "UNC Libraries Seed Library",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "UNC prohibits discrimination based on ... gender expression, gender identity ... sexual orientation ... under any University program or activity.",
+    "evidence_url": "https://compliance.unc.edu/policies/non-discrimination/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Society of St. Andrew – Triangle Gleaning Network",
+    "city": "Triangle-wide",
+    "basis": "affirming_statement",
+    "evidence": "We welcome volunteers of any age ... religion, sexual orientation, gender identity/expression, and language.",
+    "evidence_url": "https://endhunger.org/get-involved/volunteer/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Wake County Public Libraries – free card services",
+    "city": "Triangle-wide",
+    "basis": "affirming_statement",
+    "evidence": "June 2026: libraries \"will recognize Pride Month with a variety of free events\", including LGBTQIA+ programs and booklists.",
+    "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "ACLU -NC",
+    "city": "Triangle-wide",
+    "basis": "affirming_statement",
+    "evidence": "LGBTQIA+ Equality issue area: works to protect LGBTQIA+ people from discrimination in housing, public accommodations, government services, and other areas.",
+    "evidence_url": "https://www.acluofnorthcarolina.org/issues/lgbtqia-equality/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "El Pueblo- Familias Seguras",
+    "city": "Triangle-wide",
+    "basis": "affirming_statement",
+    "evidence": "\"We recognize the importance of being welcoming and affirming to the LGBTQ+ members of our community and their families.\"",
+    "evidence_url": "https://elpueblo.org/policy-change/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "More in my Basket Food Program (NC State University",
+    "city": "Triangle-wide",
+    "basis": "nondiscrimination_policy",
+    "evidence": "NC State University prohibits discrimination and harassment based upon ... gender identity ... sexual orientation (shown on program pages).",
+    "evidence_url": "https://morefood.org/our-programs/more-in-my-basket/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Blinkley Baptist Church",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "\"We are a welcoming and affirming Baptist church committed to racial justice, LGBTQ inclusion ...\"",
+    "evidence_url": "https://www.binkleychurch.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Department on Aging- Seymour Center",
+    "city": "Chapel Hill",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "United Church of Chapel Hill",
+    "city": "Chapel Hill",
+    "basis": "affirming_statement",
+    "evidence": "\"Our church has special gifts to welcome queer or LGBTQ identifying people ... who seek an affirming and empowering spiritual home.\"",
+    "evidence_url": "https://unitedchurch.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Unitarian Universalist Congregation of Hillsborough",
+    "city": "Hillsborough",
+    "basis": "affirming_statement",
+    "evidence": "UUA-recognized Welcoming Congregation: \"we affirm and include people who are lesbian, gay, bisexual, transgender, and queer at every level.\"",
+    "evidence_url": "https://uuchnc.org/about-us/our-beliefs/an-lgbtq-welcome-congregation/",
+    "checked": "2026-11-10"
+  }
+]

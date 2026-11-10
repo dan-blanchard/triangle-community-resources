@@ -15,6 +15,12 @@
 "src": "https://images.squarespace-cdn.com/content/v1/68790a21f3cee4648e168351/3f9b5aac-6ff3-4dda-8946-a4fbf6318168/favicon.ico?format=100w",
 "checked": "2026-11-10"
 },
+"alleycatsandangels.org": {
+"file": "alleycatsandangels.org.png",
+"fp": "1626718db865e566f38bb7a9d017e36c12be6f4b",
+"src": "https://alleycatsandangels.org/wp-content/uploads/2024/03/cropped-ACAA-Logo-Rebrand_2024_Logomark-Color-180x180.png",
+"checked": "2026-11-10"
+},
 "alliancehealthplan.org": {
 "file": "alliancehealthplan.org.png",
 "fp": "b0198de9e1e7a7b3f96f30d48c6814a29ce7c20f",
@@ -43,6 +49,10 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"apsofdurham.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "asylumadvocacy.org": {
 "file": "asylumadvocacy.org.png",
 "fp": "c985cd7ef63ed57df9089a1b4c669757260d0305",
@@ -51,6 +61,12 @@
 },
 "believersunitedforprogress.org": {
 "file": null,
+"checked": "2026-11-10"
+},
+"beyondfences.org": {
+"file": "beyondfences.org.png",
+"fp": "ba433ac830fc108416270ecffc7411730e388e71",
+"src": "https://www.beyondfences.org/wp-content/uploads/cropped-Horizontal-with-tag-line-1-180x180.png",
 "checked": "2026-11-10"
 },
 "binkleychurch.org": {
@@ -131,6 +147,12 @@
 "file": "chathamalliance.org.png",
 "fp": "4cc86c183a0419c02aa5bace725c324dc6ff4607",
 "src": "https://images.squarespace-cdn.com/content/v1/648ccfb77e5f8167b6b94622/1711f276-997c-439d-b700-1b741880588d/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
+"chathamanimalrescue.org": {
+"file": "chathamanimalrescue.org.png",
+"fp": "4937bb7d80255c8031c7e93342ff36957651ac66",
+"src": "https://www.chathamanimalrescue.org/wp-content/uploads/2019/07/logo_big_gray-1.png",
 "checked": "2026-11-10"
 },
 "chathamcountync.gov": {
@@ -325,6 +347,10 @@
 "src": "https://images.squarespace-cdn.com/content/v1/64a84d1b549d226a46e2f876/9c8b127c-4b04-4029-8156-677f1e35fc7d/favicon.ico",
 "checked": "2026-11-10"
 },
+"fivecountyspayneuter.com": {
+"file": null,
+"checked": "2026-11-10"
+},
 "fmfnc.org": {
 "file": "fmfnc.org.png",
 "fp": "7d2cf7cce241f904b1c22ef6fecbe0b074241a8a",
@@ -347,6 +373,12 @@
 "file": "freedomhouserecovery.org.png",
 "fp": "1e935dca17e69043847c669cf695d3c2106f672e",
 "src": "https://freedomhouserecovery.org/wp-content/uploads/2026/05/cropped-FHRC-Colors-and-Fonts-1-180x180.png",
+"checked": "2026-11-10"
+},
+"friendsofwakeanimals.org": {
+"file": "friendsofwakeanimals.org.png",
+"fp": "6e062342a99bf783e03622482eb6feacc1c46d83",
+"src": "https://images.squarespace-cdn.com/content/v1/5b9bd35785ede16eae125c1c/1536938897481-5BN7KQOHQX7A2ICEY27N/favicon.ico?format=100w",
 "checked": "2026-11-10"
 },
 "fuquay-varina.org": {
@@ -747,6 +779,18 @@
 "src": "https://www.russellmemorialcme.org/wp-content/uploads/churchdev/favicon.ico",
 "checked": "2026-11-10"
 },
+"safecareclinic.org": {
+"file": "safecareclinic.org.png",
+"fp": "b38607d8cf5a84c2b66f8906cc8a0c1b481d11be",
+"src": "https://www.safecareclinic.org/wp-content/uploads/2020/05/cropped-SAFE-CARE-Clinic-site-icon-180x180.jpg",
+"checked": "2026-11-10"
+},
+"safehavenforcats.org": {
+"file": "safehavenforcats.org.png",
+"fp": "81e30fdd173cca695106eed3baa419250f84d1d8",
+"src": "https://www.safehavenforcats.org/wp-content/uploads/2018/05/cropped-favicon1-180x180.jpg",
+"checked": "2026-11-10"
+},
 "samaritanhealthcenter.org": {
 "file": "samaritanhealthcenter.org.png",
 "fp": "fcaeadcbbdd2e30b501c7a5e26dbed0f4433f147",
@@ -811,6 +855,12 @@
 "file": "southernusa.salvationarmy.org.png",
 "fp": "4d0bf1e9e644334176822acfdedb0def7d5ac070",
 "src": "https://8hxvw8tw.media.zestyio.com/The-Salvation-Army-Favicon.png",
+"checked": "2026-11-10"
+},
+"spcawake.org": {
+"file": "spcawake.org.png",
+"fp": "59815236a9637a3ad94fbc2937d6460883e74fa7",
+"src": "https://spcawake.org/wp-content/uploads/2015/08/spca-logo.png",
 "checked": "2026-11-10"
 },
 "splatspace.org": {

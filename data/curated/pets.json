@@ -1,0 +1,427 @@
+[
+  {
+    "name": "SPCA Wake – Pet Food Assistance",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free pet food and basic supplies for pet owners facing financial hardship, so pets can stay at home.",
+    "address": "200 Petfinder Lane, Raleigh, NC 27603",
+    "url": "https://spcawake.org/services/pet-food-assistance/",
+    "phone": "(919) 772-2326",
+    "hours": "",
+    "access": "For people in temporary financial hardship. Request through the SPCA Wake Pet Helpline online form. Given while supplies last.",
+    "cost": "free",
+    "source_url": "https://spcawake.org/services/pet-food-assistance/",
+    "checked": "2026-11-10",
+    "notes": "SPCA Wake also delivers pet food to homebound seniors through Meals on Wheels of Wake County and gives food to about 40 partner agencies. The Helpline can also help with vet care, behavior and temporary pet housing."
+  },
+  {
+    "name": "SPCA Wake – Pet Helpline & Temporary Pet Housing (crisis foster)",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care",
+      "Domestic & Sexual Violence"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free Pet Helpline for any pet problem. Its Temporary Pet Housing program places pets in volunteer foster homes during a housing crisis or domestic violence so owners can get them back later.",
+    "address": "200 Petfinder Lane, Raleigh, NC 27603",
+    "url": "https://spcawake.org/helpline/",
+    "phone": "(919) 772-2326",
+    "hours": "",
+    "access": "Start with the online Helpline form and choose 'Temporary Pet Housing'. Placement depends on foster availability.",
+    "cost": "free",
+    "source_url": "https://spcawake.org/temporarypethousing/",
+    "checked": "2026-11-10",
+    "notes": "The Helpline form also covers pet food, vet care, behavior and rehoming. Spanish is available on the website."
+  },
+  {
+    "name": "SPCA Wake – Saving Lives Spay/Neuter Clinic",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Low-cost spay/neuter clinic for cats and dogs. Rabies and distemper vaccines and pain medicine are included with each surgery.",
+    "address": "300 Petfinder Lane, Raleigh, NC 27603",
+    "url": "https://spcawake.org/saving-lives-spay-neuter-clinic/",
+    "phone": "(919) 772-0211",
+    "hours": "Surgery Mon–Fri (limited availability). Drop off cats 8–8:30am and dogs 8:30–9am. Pick up 3–4pm.",
+    "access": "Appointment only. Book online, or by phone (voicemail, call returned). You must pay when you book. No vouchers, checks or CareCredit.",
+    "cost": "",
+    "source_url": "https://spcawake.org/saving-lives-spay-neuter-clinic/",
+    "checked": "2026-11-10",
+    "notes": "Cats: male $90, female $120, community cat $60. Dogs up to 59 lb: male $200, female $230. Dogs 60–99 lb: male $240, female $270. Add-ons: microchip $25, FeLV/FIV test $40, heartworm test $25. SPCA also sells spay/neuter vouchers for participating vets (cats $80–90, dogs $100–150), but the clinic is cheaper."
+  },
+  {
+    "name": "SPCA Wake – Microchip & Vaccine Wellness Clinics",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Pop-up clinics for owned cats and dogs with microchips, rabies and distemper vaccines, and ID tags for $10 or less.",
+    "address": "300 Petfinder Lane, Raleigh, NC 27603 (SPCA Wake Resource Center, Learning Center entrance)",
+    "url": "https://spcawake.org/wellness",
+    "phone": "(919) 772-2326",
+    "hours": "Periodic Saturday clinics. Next clinic: Saturday, Nov 21, 2026.",
+    "access": "Register online for a time slot (one form per pet). Owned pets only, up to 4 pets per household. Cats must be in a carrier and dogs on a leash.",
+    "cost": "",
+    "source_url": "https://spcawake.org/wellness",
+    "checked": "2026-11-10",
+    "notes": "Microchip $5, 1-year rabies $10, FVRCP (cats) $5, DAPP (dogs) $5, collar and engraved tag $5. Fees count as donations and are not refunded."
+  },
+  {
+    "name": "SAFE Haven for Cats – Pet Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free supplemental cat and dog food, up to about a month's supply for up to 3 pets. Open to people who are unemployed, disabled, on a fixed income, or experiencing homelessness or housing instability.",
+    "address": "8431-137 Garvey Drive, Raleigh, NC 27616",
+    "url": "https://www.safehavenforcats.org/programs-and-services/pet-food-pantry/",
+    "phone": "(919) 872-7233",
+    "hours": "Pickup by appointment: Mon, Thu, Fri 10am–2pm; first Saturday of the month 9am–12pm.",
+    "access": "Must be 18 or older and under the income limits. Must live in Wake, Durham, Chatham, Johnston, Franklin, Harnett or Granville County. Apply online or by mail, and reapply every 6 months. Pick up in person once a month (no delivery). Pets 40 lb and under must be spayed/neutered, or you agree to schedule it at SAFE Care. Personal pets only (no colonies or rescues).",
+    "cost": "free",
+    "source_url": "https://www.safehavenforcats.org/programs-and-services/pet-food-pantry/how-to-apply/",
+    "checked": "2026-11-10",
+    "notes": "No prescription food or medicines. You can't choose the brand. Food is not guaranteed every month."
+  },
+  {
+    "name": "SAFE Care Spay/Neuter Clinic (cats)",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Low-cost spay/neuter clinic for cats run by SAFE Haven for Cats. Exam, rabies and distemper vaccines, and pain injection are included.",
+    "address": "8411-133A Garvey Drive, Raleigh, NC 27616",
+    "url": "https://www.safecareclinic.org/",
+    "phone": "(919) 872-7730",
+    "hours": "By appointment only",
+    "access": "Appointment required (schedule online). Pay at check-in with cash or card (3% card fee).",
+    "cost": "",
+    "source_url": "https://www.safecareclinic.org/spay-neuter-services/pricing/",
+    "checked": "2026-11-10",
+    "notes": "Female cat $100, male cat $90, feral/community cat $60. With surgery: microchip $20, FeLV/FIV test $35. No emergency or wellness-only visits."
+  },
+  {
+    "name": "Friends of Wake County Animal Center – No Empty Bowl Pet Food",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free supplemental pet food for Wake County residents in severe financial need, plus one-time emergency pet food after a sudden crisis.",
+    "address": "",
+    "url": "https://www.friendsofwakeanimals.org/no-empty-bowl-project",
+    "phone": "",
+    "hours": "",
+    "access": "Wake County residents who show severe financial need. Email fwcacpetfood@gmail.com to see if you qualify.",
+    "cost": "free",
+    "source_url": "https://www.friendsofwakeanimals.org/no-empty-bowl-project",
+    "checked": "2026-11-10",
+    "notes": "The monthly distribution at Open Door Church ended June 21, 2025. Food now goes to individual families by email request."
+  },
+  {
+    "name": "Friends of Wake County Animal Center – Kitty Clip & Pit Stop Spay/Neuter Vouchers",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Vouchers for spay/neuter at participating Wake clinics: $15 for cats (Kitty Clip) and $40 for pit bulls and pit mixes (Pit Stop). Each voucher includes the exam, surgery, and rabies and distemper vaccines.",
+    "address": "",
+    "url": "https://www.friendsofwakeanimals.org/cat-spayneuter",
+    "phone": "",
+    "hours": "",
+    "access": "Wake County residents. Apply online, one application per pet. Kitty Clip is for people who can't afford spay/neuter (up to 5 vouchers at a time). Pit Stop requires household income under $125,000, a photo of the dog, and allows 2 vouchers a year. Vouchers expire after 6 months. Applications open when funds allow.",
+    "cost": "",
+    "source_url": "https://www.friendsofwakeanimals.org/cat-spayneuter",
+    "checked": "2026-11-10",
+    "notes": "Pay the $15 or $40 to the clinic at drop-off. Extra charges apply if the pet is in heat, pregnant or cryptorchid. Pit Stop details: https://www.friendsofwakeanimals.org/pit-spayneuter"
+  },
+  {
+    "name": "Five County Spay Neuter Clinic",
+    "city": "Zebulon",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "",
+    "description": "High-volume, low-cost spay/neuter clinic for cats and dogs. Every pet gets a rabies and distemper combo vaccine.",
+    "address": "1403 N. Arendell Avenue, Zebulon, NC 27597",
+    "url": "http://fivecountyspayneuter.com/",
+    "phone": "(919) 269-4564",
+    "hours": "By appointment only",
+    "access": "Call to schedule an appointment. Spay/neuter only; not for sick or injured pets.",
+    "cost": "",
+    "source_url": "http://fivecountyspayneuter.com/",
+    "checked": "2026-11-10",
+    "notes": "Wake County's April 2025 spay/neuter list gives prices starting at $185 for dogs and $105 for cats. Nonprofit status not confirmed."
+  },
+  {
+    "name": "Alley Cats and Angels – Cat Spay/Neuter Vouchers",
+    "city": "Triangle-wide",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Spay/neuter vouchers for owned and feral cats, usable at participating Triangle vets. Each voucher covers surgery, FVRCP and rabies vaccines, and pain treatment.",
+    "address": "",
+    "url": "https://alleycatsandangels.org/spay-neuter-assistance/",
+    "phone": "(919) 303-3500",
+    "hours": "",
+    "access": "No income requirement to buy a voucher. Subsidized vouchers are available to lower-income owners and caregivers, including people on government assistance. Request online or by mailed application. Cats must weigh at least 3 lb. Vouchers expire after 60 days.",
+    "cost": "sliding_scale",
+    "source_url": "https://alleycatsandangels.org/spay-neuter-assistance/",
+    "checked": "2026-11-10",
+    "notes": "Full-price voucher $85. Mailing address: PO Box 785, Apex, NC 27502. Leave a voicemail at the phone number."
+  },
+  {
+    "name": "Wake County Animal Center – Pet Owner Resources",
+    "city": "Raleigh",
+    "categories": [
+      "Pet Care",
+      "Housing & Shelter"
+    ],
+    "org_type": "public",
+    "description": "County page with lists of all-breed dog-friendly apartments, low-cost spay/neuter clinics, pet food pantries and emergency vets. Also offers no-cost owner-requested euthanasia.",
+    "address": "820 Beacon Lake Dr, Raleigh, NC 27610",
+    "url": "https://www.wake.gov/departments-government/animal-services/pet-owners",
+    "phone": "(919) 212-7387",
+    "hours": "",
+    "access": "Euthanasia is for Wake County residents by appointment. Staff need details about the pet first.",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/animal-services/pet-owners",
+    "checked": "2026-11-10",
+    "notes": "The dog-friendly housing list (April 2025, English and Spanish) names apartments with no breed restrictions. The county's free rabies/microchip clinics had no 2026 dates announced."
+  },
+  {
+    "name": "APS of Durham – Community Pet Pantry at The Salvation Army",
+    "city": "Durham",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free pet food for Durham County residents facing financial hardship. The Animal Protection Society of Durham runs it with The Salvation Army.",
+    "address": "909 Liberty Street, Durham, NC 27701",
+    "url": "https://www.apsofdurham.org/pet-owner-resources/assistance-for-pet-owners/",
+    "phone": "(919) 688-7306 ext. 67101",
+    "hours": "",
+    "access": "Must live in Durham County. Food is given out as available. Call The Salvation Army number for pickup details.",
+    "cost": "free",
+    "source_url": "https://www.apsofdurham.org/pet-owner-resources/assistance-for-pet-owners/",
+    "checked": "2026-11-10",
+    "notes": ""
+  },
+  {
+    "name": "APS of Durham – Spay & Neuter Community Assistance Program",
+    "city": "Durham",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Discounted spay/neuter for cats and dogs at monthly community clinics, funded in part by the Petrie Foundation.",
+    "address": "2117 E. Club Blvd., Durham, NC 27704",
+    "url": "https://www.apsofdurham.org/pet-owner-resources/spay-neuter/",
+    "phone": "(919) 560-0640",
+    "hours": "Shelter: Mon–Tue 11am–5pm, Wed 11am–6pm, Thu–Fri 11am–5pm, Sat 10am–4pm, Sun closed",
+    "access": "Durham County residents only; other restrictions apply. Fill out the online application. APS contacts you with a date if one is available, and appointments each month are limited.",
+    "cost": "",
+    "source_url": "https://www.apsofdurham.org/pet-owner-resources/spay-neuter/",
+    "checked": "2026-11-10",
+    "notes": "The price is not listed online. APS also runs a free Animal Behavior Helpline at (919) 257-8667."
+  },
+  {
+    "name": "Durham County Sheriff's Office Animal Services – $10 Rabies Vaccinations",
+    "city": "Durham",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "public",
+    "description": "Low-cost rabies shots for cats and dogs at the Sheriff's Animal Services office.",
+    "address": "Animal Services office, Glenn Rd, Durham, NC",
+    "url": "https://dconc.gov/DurhamCo-News/rabies-foxes.htm",
+    "phone": "(919) 560-0630",
+    "hours": "Tuesdays, Wednesdays and Thursdays, by appointment",
+    "access": "Appointment only. Call to schedule.",
+    "cost": "",
+    "source_url": "https://dconc.gov/DurhamCo-News/rabies-foxes.htm",
+    "checked": "2026-11-10",
+    "notes": "$10 per pet (county notice dated Aug 2025). Rabies vaccination is required by NC law."
+  },
+  {
+    "name": "Beyond Fences",
+    "city": "Durham",
+    "categories": [
+      "Pet Care",
+      "Money & Bills"
+    ],
+    "org_type": "nonprofit",
+    "description": "Door-to-door outreach in underserved Durham neighborhoods. Offers free spay/neuter with vaccines and rides to appointments, vet care, pet food and supplies, and free fences and doghouses for chained dogs. It also pays vet bills, pet deposits and shelter reclaim fees so pets aren't surrendered.",
+    "address": "PO Box 3259, Durham, NC 27715 (mailing)",
+    "url": "https://www.beyondfences.org/",
+    "phone": "",
+    "hours": "",
+    "access": "Serves people living in poverty in underserved Durham neighborhoods. Email info@beyondfences.org.",
+    "cost": "free",
+    "source_url": "https://www.beyondfences.org/",
+    "checked": "2026-11-10",
+    "notes": "Formerly Coalition to Unchain Dogs. APS of Durham's Safety Net page lists the service area as ZIP codes 27701, 27703 and 27707."
+  },
+  {
+    "name": "Orange County Animal Services – Pet Food Pantry",
+    "city": "Chapel Hill",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "public",
+    "description": "Free donated pet food for Orange County pet owners facing financial hardship.",
+    "address": "1601 Eubanks Road, Chapel Hill, NC 27516",
+    "url": "https://www.orangecountync.gov/2414/Pet-Food-Assistance",
+    "phone": "(919) 942-7387 (option 2 or 3)",
+    "hours": "Mon–Fri 10am–6pm, Sat 10am–5pm",
+    "access": "Orange County residents only. Ask at the front desk, or call first to check whether food is available. Given while supplies last.",
+    "cost": "free",
+    "source_url": "https://www.orangecountync.gov/2414/Pet-Food-Assistance",
+    "checked": "2026-11-10",
+    "notes": ""
+  },
+  {
+    "name": "Orange County Animal Services – Spay/Neuter Assistance",
+    "city": "Chapel Hill",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "public",
+    "description": "Vouchers for free spay/neuter at partner vets for qualifying Orange County residents. Free spay/neuter is also available for free-roaming cats on Orange County property.",
+    "address": "1601 Eubanks Road, Chapel Hill, NC 27516",
+    "url": "https://www.orangecountync.gov/360/Spay-Neuter",
+    "phone": "(919) 942-7387",
+    "hours": "",
+    "access": "Orange County residents who get DSS/public assistance or have household income up to 400% of the federal poverty level. Apply with the online Spay/Neuter Assistance Form (also in Spanish). Vouchers can take up to 2 months.",
+    "cost": "free",
+    "source_url": "https://www.orangecountync.gov/360/Spay-Neuter",
+    "checked": "2026-11-10",
+    "notes": "If you don't qualify, ask about low-cost options. Rabbit spay/neuter events need a reservation: spay $150, neuter $120 (email petclinic@orangecountync.gov). 2026 dates: Nov 13, Dec 23. Income rule source: https://orangecountync.gov/3578/Spay-Neuter-OverviewStatistics"
+  },
+  {
+    "name": "Orange County Animal Services – Low-Cost Vaccine & Microchip Clinic (Chapel Hill)",
+    "city": "Chapel Hill",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "public",
+    "description": "Walk-in clinics with free distemper vaccines (DA2PPV for dogs, FVRCP for cats), $10 rabies shots and $35 microchips.",
+    "address": "1601 Eubanks Road, Chapel Hill, NC 27516",
+    "url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+    "phone": "(919) 942-7387",
+    "hours": "Saturday mornings 9am–12pm, several times a year (2026: Feb 21, Jun 27, Nov 14)",
+    "access": "Orange County residency not required. No appointment is mentioned; expect a wait. Dogs on a leash, cats in carriers (one per carrier). Cash or card.",
+    "cost": "",
+    "source_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+    "checked": "2026-11-10",
+    "notes": "Free distemper vaccines are provided by Petco Love. A 3-year rabies shot requires a previous rabies certificate (a tag alone isn't enough). Dates may change, so check the page."
+  },
+  {
+    "name": "Orange County Animal Services – Rabies & Microchip Clinic (Hillsborough)",
+    "city": "Hillsborough",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "public",
+    "description": "Weekday evening pop-up clinics with $10 rabies vaccines and $35 microchips.",
+    "address": "Fairview Park, 195 Torian St, Hillsborough, NC",
+    "url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+    "phone": "(919) 942-7387",
+    "hours": "Wednesdays 3–6pm on set dates (2026: Apr 15, Aug 5, Oct 7)",
+    "access": "Orange County residency not required. Dogs on a leash, cats in carriers. Cash or card.",
+    "cost": "",
+    "source_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+    "checked": "2026-11-10",
+    "notes": "Rabies and microchips only; free distemper vaccines are offered only at the Chapel Hill clinics. Check the page for 2027 dates."
+  },
+  {
+    "name": "Orange County Animal Services – Pet Support (housing & keeping pets)",
+    "city": "Chapel Hill",
+    "categories": [
+      "Pet Care",
+      "Housing & Shelter"
+    ],
+    "org_type": "public",
+    "description": "Help for people facing housing loss, a move or another crisis who want to keep their pet. The county promises to do what it can to keep people and pets together.",
+    "address": "1601 Eubanks Road, Chapel Hill, NC 27516",
+    "url": "https://www.orangecountync.gov/3647/Housing-Assistance",
+    "phone": "(919) 942-7387",
+    "hours": "",
+    "access": "Email petsupport@orangecountync.gov or call.",
+    "cost": "free",
+    "source_url": "https://www.orangecountync.gov/3647/Housing-Assistance",
+    "checked": "2026-11-10",
+    "notes": "The page also lists pet-friendly rental searches and national emergency pet-boarding programs for domestic violence survivors and people experiencing homelessness (RedRover Safe Escape, Safe Havens for Pets). The county's Veterinary Care Assistance Program is paused."
+  },
+  {
+    "name": "Orange Congregations in Mission (OCIM) – Food Pantry for People and Pets",
+    "city": "Hillsborough",
+    "categories": [
+      "Food",
+      "Pet Care"
+    ],
+    "org_type": "faith_based",
+    "description": "Hillsborough food pantry that Orange County Animal Services lists as giving out food for both people and pets.",
+    "address": "300 Millstone Drive, Hillsborough, NC 27278",
+    "url": "https://www.ocimnc.org/",
+    "phone": "(919) 732-6194",
+    "hours": "Office Mon–Fri 9am–5pm",
+    "access": "Call to ask about pet food availability and pantry requirements.",
+    "cost": "free",
+    "source_url": "https://www.orangecountync.gov/2414/Pet-Food-Assistance",
+    "checked": "2026-11-10",
+    "notes": "OCIM's own website doesn't describe the pet food, so call first."
+  },
+  {
+    "name": "Meals on Wheels Orange County – Kibble & Care",
+    "city": "Chapel Hill",
+    "categories": [
+      "Pet Care",
+      "Food"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free pet food and supplies delivered to Meals on Wheels clients, plus free or discounted vet care and rabies shots through partner vets and Orange County Animal Services.",
+    "address": "",
+    "url": "https://www.mowocnc.org/mowocnc-loves-pets",
+    "phone": "(919) 942-2958 ext. 4",
+    "hours": "",
+    "access": "For Meals on Wheels Orange County clients (older, homebound or recovering adults). Call the Client Services Coordinator.",
+    "cost": "free",
+    "source_url": "https://www.mowocnc.org/mowocnc-loves-pets",
+    "checked": "2026-11-10",
+    "notes": "Partners are Paws4Ever, Feeders, Paws at the Corner, DEGA Mobile Veterinary Care and Kindred Heart Animal Hospital."
+  },
+  {
+    "name": "CARE (Chatham Animal Rescue & Education) – Lillie's Fund Spay/Neuter",
+    "city": "Pittsboro",
+    "categories": [
+      "Pet Care"
+    ],
+    "org_type": "nonprofit",
+    "description": "Spay/neuter vouchers with a $20 co-pay per pet for lower-income Chatham County residents. The voucher covers surgery, all needed vaccines, pain medicine and an optional microchip.",
+    "address": "PO Box 610, Pittsboro, NC 27312 (mailing)",
+    "url": "https://www.chathamanimalrescue.org/spay-neuter-resources/",
+    "phone": "(919) 542-5757",
+    "hours": "",
+    "access": "Chatham County residents with household income of $50,000 or less. Mail the application (English or Spanish) with proof of income and the $20 co-pay. Vouchers are mailed within about 7 days. Up to 10 owned pets per household.",
+    "cost": "",
+    "source_url": "https://www.chathamanimalrescue.org/spay-neuter-resources/",
+    "checked": "2026-11-10",
+    "notes": "Use the voucher at participating Chatham County vets. CARE covers extra costs for pets in heat or pregnant. When funding allows, it runs no-co-pay campaigns ('3 for FREE'). In 2025, 379 surgeries were done through Lillie's Fund."
+  }
+]

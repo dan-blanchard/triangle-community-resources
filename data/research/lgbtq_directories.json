@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Duke Memorial UMC  Good Samaritan Fund",
+    "city": "Durham",
+    "basis": "affirming_statement",
+    "evidence": "Church welcome page: \"Duke Memorial is committed to the full inclusion of LGBTQIA identified persons.\"",
+    "evidence_url": "https://www.dukememorial.org/welcome.html",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Elizabeth Street UMC",
+    "city": "Durham",
+    "basis": "affirming_directory",
+    "evidence": "Reconciling Ministries Network map: \"Elizabeth Street UMC – Durham, NC\". Church site also calls itself \"a reconciling congregation\".",
+    "evidence_url": "https://rmnetwork.org/find-a-reconciling-ministry/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Calvary UMC",
+    "city": "Durham",
+    "basis": "affirming_directory",
+    "evidence": "Reconciling Ministries Network map: \"Elizabeth Street UMC – Durham, NC, 304 E Trinity Ave\" (Calvary UMC merged into Elizabeth St. UMC).",
+    "evidence_url": "https://rmnetwork.org/find-a-reconciling-ministry/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Fairmont UMC",
+    "city": "Raleigh",
+    "basis": "affirming_directory",
+    "evidence": "Reconciling Ministries Network map: \"Fairmont UMC – Raleigh, NC, 2501 Clark Ave\".",
+    "evidence_url": "https://rmnetwork.org/find-a-reconciling-ministry/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "St. Philip Lutheran Church",
+    "city": "Raleigh",
+    "basis": "affirming_directory",
+    "evidence": "ReconcilingWorks Reconciling in Christ finder: \"St. Philip Lutheran Church, 7304 Falls of Neuse Road, Raleigh NC\".",
+    "evidence_url": "https://www.reconcilingworks.org/ric/findric/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Pullen Memorial Baptist Church",
+    "city": "Raleigh",
+    "basis": "affirming_directory",
+    "evidence": "AWAB \"Find a Church\" member map lists \"Pullen Memorial Baptist Church\" (Hillsborough St., Raleigh).",
+    "evidence_url": "https://awab.org/find-a-church/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Amity United Methodist Church – Food Pantry",
+    "city": "Chapel Hill",
+    "basis": "affirming_directory",
+    "evidence": "Reconciling Ministries Network map: \"Amity UMC – Chapel Hill, NC, 825 N Estes Dr\".",
+    "evidence_url": "https://rmnetwork.org/find-a-reconciling-ministry/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Blinkley Baptist Church",
+    "city": "Chapel Hill",
+    "basis": "affirming_directory",
+    "evidence": "AWAB member map lists \"The Olin T. Binkley Memorial Baptist Church\" (Chapel Hill); church site: \"welcoming and affirming... LGBTQ inclusion\".",
+    "evidence_url": "https://awab.org/find-a-church/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "United Church of Chapel Hill",
+    "city": "Chapel Hill",
+    "basis": "affirming_directory",
+    "evidence": "UCC Open and Affirming Coalition ONA list: \"United Church of Chapel Hill (110), 1321 Martin Luther King Jr Blvd, Chapel Hill NC\".",
+    "evidence_url": "https://openandaffirming.org/stores/united-church-of-chapel-hill-110/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Unitarian Universalist Congregation of Hillsborough",
+    "city": "Hillsborough",
+    "basis": "affirming_directory",
+    "evidence": "UUA congregation directory: \"UU Congregation of Hillsborough, Hillsborough, NC ... LGBTQ Welcoming Congregation\".",
+    "evidence_url": "https://www.uua.org/offices/organizations/uu-congregation-hillsborough",
+    "checked": "2026-11-10"
+  }
+]

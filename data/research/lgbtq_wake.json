@@ -1,0 +1,90 @@
+[
+  {
+    "name": "LGBT Center of Raleigh – Community Closet & Pantry",
+    "city": "Raleigh",
+    "basis": "lgbtq_org",
+    "evidence": "LGBTQ+ community center offering Trans & Gender Expansive and Queer Life programs, Transgender Discussion Group, LGBTQ+ Health Fair.",
+    "evidence_url": "https://www.lgbtcenterofraleigh.com/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Planned Parenthood – Raleigh Health Center",
+    "city": "Raleigh",
+    "basis": "affirming_statement",
+    "evidence": "\"This health center supports and welcomes all people regardless of sexual orientation, gender identity or biological sex\"; offers gender-affirming care.",
+    "evidence_url": "https://www.plannedparenthood.org/health-center/north-carolina/raleigh/27603/raleigh-health-center-3338-90860",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Healing Transitions",
+    "city": "Raleigh",
+    "basis": "affirming_statement",
+    "evidence": "Runs \"Healing Transitions' LGBTQ+ recovery meeting, The Rainbow Warriors\" - weekly meeting begun as a dedicated space for LGBTQ+ participants.",
+    "evidence_url": "https://healing-transitions.org/rainbow-warriors-2026/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "NC Harm Reduction Coalition – Raleigh",
+    "city": "Raleigh",
+    "basis": "affirming_statement",
+    "evidence": "Hosts peer support groups for trans and gender-nonconforming people; states \"all harm reduction services should be trans-inclusive.\"",
+    "evidence_url": "https://www.nchrc.org/about-2/harm-reduction/transgender-services/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "El Centro Hispano – Raleigh Office",
+    "city": "Raleigh",
+    "basis": "affirming_statement",
+    "evidence": "Advocacy department works to \"uphold the rights, dignity, and safety of Hispanic/Latino, immigrant, and LGBTQ communities\"; hosts annual Orgullo/Pride event.",
+    "evidence_url": "https://elcentronc.org/programs/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Legal Aid of North Carolina – Raleigh Office",
+    "city": "Raleigh",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Shall not discriminate \"in the provision of any of its services to clients\" based on sexual orientation, gender identity or expression, among others.",
+    "evidence_url": "https://legalaidnc.org/non-discrimination-policy/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "North Carolina Justice Center, Raleigh",
+    "city": "Raleigh",
+    "basis": "affirming_statement",
+    "evidence": "\"We stand in solidarity with the LGBTQIA+ community\"; mission seeks fair treatment regardless of gender identity or sexual orientation.",
+    "evidence_url": "https://www.ncjustice.org/fighting-for-equality-lgbtqia-equal-pay-awareness-day/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Simple Gifts Community Garden",
+    "city": "Apex",
+    "basis": "affirming_statement",
+    "evidence": "Statement of Inclusion responding to UMC exclusion of LGBTQIA persons: all welcomed \"no matter how we identify or whom we love.\"",
+    "evidence_url": "https://simplegiftsgarden.org/2019/03/01/statement-of-inclusion-of-simple-gifts-community-garden/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Raleigh United Mutual Aid Hub (RUMAH)",
+    "city": "Raleigh",
+    "basis": "nondiscrimination_policy",
+    "evidence": "\"Raleigh United Mutual Aid Hub does not discriminate on the basis of ... sex, gender identity, sexual orientation\"; library includes queer literature.",
+    "evidence_url": "https://raleighunitedmutualaidhub.substack.com/about",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Raleigh Tool Share",
+    "city": "Raleigh",
+    "basis": "nondiscrimination_policy",
+    "evidence": "City of Raleigh policy: oppose any discrimination based on sexual orientation, gender identity or expression \"in any aspect of modern life.\"",
+    "evidence_url": "https://raleighnc.gov/arts/services/artist-calls/artist-call-reflecting-raleigh",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Raleigh Parks Community Garden Program",
+    "city": "Raleigh",
+    "basis": "nondiscrimination_policy",
+    "evidence": "City of Raleigh policy opposes discrimination based on sexual orientation, gender identity or expression; Parks volunteers must not discriminate on these bases.",
+    "evidence_url": "https://raleighnc.gov/arts/services/artist-calls/artist-call-reflecting-raleigh",
+    "checked": "2026-11-10"
+  }
+]

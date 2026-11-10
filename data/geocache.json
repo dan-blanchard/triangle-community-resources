@@ -365,6 +365,11 @@
 "lon": -78.839957,
 "checked": "2026-11-10"
 },
+"1403 n. arendell avenue|zebulon|27597": {
+"lat": 35.83867,
+"lon": -78.324808,
+"checked": "2026-11-10"
+},
 "1408 hillsborough st|raleigh|27605": {
 "lat": 35.783686,
 "lon": -78.65668,
@@ -457,6 +462,11 @@
 "1600 olive chapel rd|apex|27502": {
 "lat": 35.736831,
 "lon": -78.88976,
+"checked": "2026-11-10"
+},
+"1601 eubanks road|chapel hill|27516": {
+"lat": 35.969686,
+"lon": -79.075146,
 "checked": "2026-11-10"
 },
 "1612 acadia st|durham|": {
@@ -583,6 +593,11 @@
 "lon": -78.798793,
 "checked": "2026-11-10"
 },
+"195 torian st|hillsborough|": {
+"lat": 36.090751,
+"lon": -79.109304,
+"checked": "2026-11-10"
+},
 "1951 booker drive|raleigh|27610": {
 "lat": 35.785957,
 "lon": -78.615408,
@@ -613,6 +628,11 @@
 "lon": null,
 "checked": "2026-11-10",
 "nominatim": "2026-11-10"
+},
+"200 petfinder lane|raleigh|27603": {
+"lat": 35.730226,
+"lon": -78.66099,
+"checked": "2026-11-10"
 },
 "200 swinburne st|raleigh|27610": {
 "lat": 35.781629,
@@ -712,6 +732,11 @@
 "2101 garner rd|raleigh|": {
 "lat": 35.752259,
 "lon": -78.63113,
+"checked": "2026-11-10"
+},
+"2117 e. club blvd|durham|27704": {
+"lat": 36.026073,
+"lon": -78.857128,
 "checked": "2026-11-10"
 },
 "212 south salem st|apex|27502": {
@@ -856,6 +881,11 @@
 "nominatim": "2026-11-10",
 "via": "osm"
 },
+"300 millstone drive|hillsborough|27278": {
+"lat": 36.051243,
+"lon": -79.097803,
+"checked": "2026-11-10"
+},
 "300 millstone dr|hillsborough|27278": {
 "lat": 36.051243,
 "lon": -79.097803,
@@ -869,6 +899,11 @@
 "300 n. roxboro st|durham|27701": {
 "lat": 35.994988,
 "lon": -78.89725,
+"checked": "2026-11-10"
+},
+"300 petfinder lane|raleigh|27603": {
+"lat": 35.729611,
+"lon": -78.660988,
 "checked": "2026-11-10"
 },
 "300 w. tryon st|hillsborough|27278": {
@@ -1595,6 +1630,11 @@
 "lon": -78.919649,
 "checked": "2026-11-10"
 },
+"820 beacon lake dr|raleigh|27610": {
+"lat": 35.791279,
+"lon": -78.573059,
+"checked": "2026-11-10"
+},
 "8200 nc 49 n|hillsborough|": {
 "lat": null,
 "lon": null,
@@ -1619,6 +1659,16 @@
 "825 n estes dr|chapel hill|27514": {
 "lat": 35.935127,
 "lon": -79.052767,
+"checked": "2026-11-10"
+},
+"8411-133a garvey drive|raleigh|27616": {
+"lat": 35.893922,
+"lon": -78.56883,
+"checked": "2026-11-10"
+},
+"8431-137 garvey drive|raleigh|27616": {
+"lat": 35.89453,
+"lon": -78.568696,
 "checked": "2026-11-10"
 },
 "8700 capital blvd|raleigh|27616": {

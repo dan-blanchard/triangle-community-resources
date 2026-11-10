@@ -12,6 +12,7 @@ feeds (calendar.google.com robots.txt disallows).
 from __future__ import annotations
 
 import json
+import re
 import xml.etree.ElementTree as ET
 from types import SimpleNamespace
 
@@ -83,6 +84,66 @@ def _point(f: dict) -> tuple[float | None, float | None]:
     return None, None
 
 
+# The Durham feed is bilingual: "Thursday/ jueves: 6-8pm; Fresh produce/ frutas y verduras".
+# The page is in English, so keep the English and any times, and drop the Spanish words.
+_ES = set("""a abastecido al alimentaria alimentos almuerzo antes artículos asistencia atiende autos ayuda años
+boleta cada calientes celebracion cena cita comida comidas completar con confirmar cristiana cuarto de debe del
+desayuno desde diariamente dias disponible disponibles disponsible distribucion distribución domingo domingos dos
+día días edad el elegibilidad emergencia en entre entrega es este fin financiero finanzas formulario frescas
+frutas gratis h hacer hasta hay higiene horas identificación inglés inscripcion jueves la las llama llamar llame
+llega llegar llegue llenar los lunes martes mas mascarilla mayores mes meses miércoles miercoles máscara necesita
+no nos obtener obtiene once panales para pañales peatones personas por previa primer productos programa programar
+puede pueden que quede quedemos recibir refrigerador registrese requerida requisitos ropa sabado se segundo semana
+servicio servido siglas sin sitio solicitud soporte su suministros sus sábado sábados temprano tercer tercera
+tercero todos traiga ultimo una usar utilizando veces vehículo venir verduras vez viernes web y último únicamente
+habla español espanol fila comienzan empieza acabe ofrecen caja entregan entrega contamos un voluntario
+autoservicio bienvenidos son tome lo necesite frescos preparadas preparados las""".split())
+_DAY = re.compile(r"\b(mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?|\bdaily\b|\beveryday\b|\bweekday", re.I)
+
+
+_TIME = re.compile(r"\d{1,2}(:\d\d)?\s*(am|pm|a\.m|p\.m|noon)\b|\b\d{1,2}:\d\d\b|\b\d{1,2}\s*-\s*\d{1,2}\b", re.I)
+_EN_DAY = re.compile(r"\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)s?\b", re.I)
+# Unambiguous Spanish words (safe to drop even from the English side).
+_ES_STRONG = _ES - {"a", "no", "once", "h", "es", "en", "se", "mas", "dos", "este", "sin", "web", "sitio", "fin",
+                    "programa", "personal", "entre", "con", "la", "de", "el", "y", "su", "sus", "hay"}
+
+
+def _is_es(tok: str, strong: bool = False) -> bool:
+    t = tok.lower()
+    return bool(re.fullmatch(r"[a-záéíóúñü]+", t)) and (t in (_ES_STRONG if strong else _ES) or bool(re.search(r"[áéíóúñü]", t)))
+
+
+def _drop_words(text: str, strong: bool) -> str:
+    return "".join(t for t in re.split(r"(\s+|[,:;.\-])", text) if not _is_es(t, strong))
+
+
+def english_only(text: str) -> str:
+    """'Thursday/ jueves: 6-8pm; Fresh produce/ frutas y verduras' -> 'Thursday: 6-8pm; Fresh produce'."""
+    text = clean(text)
+    parts = text.split("/")
+    out = _drop_words(parts[0], strong=True)
+    for part in parts[1:]:
+        rest = _drop_words(part, strong=False).strip()
+        last_clause = next((c for c in reversed(re.split(r"[;.&]", out)) if c.strip()), "")
+        # After a slash is the Spanish translation. Keep only what it adds: a time the English
+        # clause lacked ("Thursday/ jueves: 6-8pm"), or an English day that starts the next pair.
+        if (_TIME.search(rest) and not _TIME.search(last_clause)) or _EN_DAY.search(rest):
+            out = out.rstrip(" -,") + ("" if rest[:1] in ":;," else " ") + rest
+    out = re.sub(r"\s+", " ", out)
+    out = re.sub(r"\s+([:;,.])", r"\1", out)
+    out = re.sub(r"([;,.])(?:\s*[;,.])+", r"\1", out)
+    out = re.sub(r";(?=\S)", "; ", out)
+    out = re.sub(r":(?=[A-Za-z])", ": ", out)
+    return out.strip(" ;,-")
+
+
+def _durham_hours(days: str, hours: str) -> str:
+    d, h = english_only(days), english_only(hours)
+    if h and _DAY.search(h):
+        return h  # the hours field already names the days ("Tuesday 4pm-6:30pm; Saturday 10am-12pm")
+    return ", ".join(x for x in (d, h) if x)
+
+
 # ---------- Durham Open Data ----------
 DURHAM_URL = ("https://services2.arcgis.com/G5vR3cOjh6g2Ed8E/arcgis/rest/services/Food_Resources/"
               "FeatureServer/2/query?where=1%3D1&outFields=*&f=geojson")
@@ -99,12 +160,12 @@ def _durham_collect():
         if not name:
             continue
         addr = clean(p.get("fulladdr"))
-        hours = " ".join(x for x in [clean(p.get("operdays")), clean(p.get("operhours"))] if x)
+        hours = _durham_hours(clean(p.get("operdays")), clean(p.get("operhours")))
         out.append(_entry(
             name=name, city=infer_city(addr, default="Durham"), categories=["Food"],
             description="Food pantry", address=addr,
             phone=first_phone(clean(p.get("phone")) or clean(p.get("pocphone"))),
-            url=clean_url(clean(p.get("agencyurl"))), hours=hours, access=clean(p.get("comments")),
+            url=clean_url(clean(p.get("agencyurl"))), hours=hours, access=english_only(clean(p.get("comments"))),
             source=DURHAM_SOURCE, source_url=DURHAM_PAGE, lat=_point(f)[0], lon=_point(f)[1],
         ))
     return out, {"name": DURHAM_SOURCE, "url": DURHAM_PAGE, "count": len(out), "stale_parts": [] if fresh else ["all"]}
