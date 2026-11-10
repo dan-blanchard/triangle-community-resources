@@ -73,7 +73,7 @@ open site/index.html
 ## Inclusion criteria
 
 Free, pay-what-you-can, or sliding-scale resources open to the community. Mutual aid,
-co-ops, and grassroots groups are listed first in each section and tagged green. Excluded:
+co-ops, and grassroots groups are tagged green and have their own filter. Each town is listed A–Z. Excluded:
 paid thrift and retail stores, for-profit businesses, and programs that require religious
 participation.
 

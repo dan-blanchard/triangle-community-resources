@@ -165,7 +165,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   <ul>
     {% for s in meta.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}: {{ s.count }} entries{% if s.stale_parts %} <em>(source unreachable today; showing the last copy we got)</em>{% endif %}</li>{% endfor %}
   </ul>
-  <p>What's included: free or pay-what-you-can resources open to the community. Mutual aid and community-run groups are listed first in each section. Paid thrift stores, for-profit businesses and programs that require religious participation are left out.</p>
+  <p>What's included: free or pay-what-you-can resources open to the community. Mutual aid and community-run groups are tagged green; use "Mutual aid &amp; community-run only" to see just those. Paid thrift stores, for-profit businesses and programs that require religious participation are left out.</p>
   <p>Something wrong, closed, or missing? <a href="{{ repo }}/issues/new?template=report-change.yml">Report a change</a> or <a href="{{ repo }}/issues/new?template=suggest-resource.yml">suggest a resource</a>. Reports are public on GitHub, so don't include personal details.</p>
   <p>Share this page: <a href="flyer.html">printable flyer with QR code</a> · <a href="qr.png" download>QR code image</a></p>
   <p>Download the data: <a href="resources.csv">CSV</a> · <a href="resources.json">JSON</a></p>
