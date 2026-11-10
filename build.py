@@ -259,6 +259,13 @@ def dedupe(entries: list[dict]) -> list[dict]:
     return out
 
 
+def _norm_val(v) -> str:
+    """Compare field values loosely: whitespace and list order don't count as a change."""
+    if isinstance(v, list):
+        return "|".join(sorted(map(str, v)))
+    return re.sub(r"\s+", " ", str(v or "")).strip()
+
+
 def apply_exclusions(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     rules = json.loads(EXCLUDE.read_text()) if EXCLUDE.exists() else []
     kept, dropped = [], []
@@ -543,11 +550,30 @@ def main() -> int:
     entries = dedupe(entries)
 
     # Field corrections for scraped listings (data/overrides.json).
+    # An override with "_if" applies only while the source still shows those old values, so a
+    # fix made at the source wins over ours.
     overrides = json.loads(OVERRIDES.read_text()) if OVERRIDES.exists() else {}
+    used, outdated = set(), []
     for e in entries:
-        for k, v in overrides.get(f"{e['name']}|{e['city']}", {}).items():
+        key = f"{e['name']}|{e['city']}"
+        o = overrides.get(key)
+        if not o:
+            continue
+        used.add(key)
+        changed = [f for f, old in o.get("_if", {}).items() if _norm_val(e.get(f, "")) != _norm_val(old)]
+        if changed:
+            outdated.append(f"{key} ({', '.join(changed)})")
+            continue
+        if "name" in o or "city" in o:
+            e["_was"] = f"{norm_name(e['name'])}|{e['city']}"  # a rename isn't a new listing
+        for k, v in o.items():
             if not k.startswith("_"):
                 e[k] = v
+    if outdated:
+        print(f"  {len(outdated)} overrides skipped because the source changed (review them): " + "; ".join(outdated[:10]))
+    unused = [k for k in overrides if not k.startswith("_") and k not in used]
+    if unused:
+        print(f"  {len(unused)} overrides match no listing (renamed or gone?): " + "; ".join(unused[:10]))
 
     # Coordinates: from the source feed when it has them, else the Census geocoder (cached).
     for e in entries:
@@ -582,7 +608,7 @@ def main() -> int:
     launch = state.setdefault("initialized_on", min(first_seen.values(), default=today))
     for e in entries:
         k = f"{norm_name(e['name'])}|{e['city']}"
-        first_seen.setdefault(k, today)
+        first_seen.setdefault(k, first_seen.get(e.get("_was", ""), today))
         e["first_seen"] = first_seen[k]
         e["is_new"] = e["first_seen"] > launch and (now.date() - dt.date.fromisoformat(e["first_seen"])).days <= 7
 

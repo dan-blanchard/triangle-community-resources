@@ -14,7 +14,24 @@
  },
  "Duke Memorial UMC  Good Samaritan Fund|Durham": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://www.dukememorial.org/goodsam.html"
+  "_why": "Cost checked 2026-11-10: https://www.dukememorial.org/goodsam.html Checked 2026-11-10: The fund's page now says it provides 'financial assistance for utilities and food'; housing and transportation are no longer mentioned. It also says 'Applications are closed, and will open again December 1.' Utility requests are taken by online application, not by phone or in person on first Mondays. https://www.dukememorial.org/goodsam.html",
+  "_if": {
+   "categories": [
+    "Housing & Shelter",
+    "Money & Bills"
+   ],
+   "description": "Offers Direct Payments: Providing discretionary spending aimed at granting financial assistance for housing, utilities, transportation, and food",
+   "address": "504 W. Chapel Hill Street\nDurham, NC 27701 (919) 683-3467",
+   "access": "Those seeking assistance must be Durham County residents and have not received financial assistance from Duke Memorial in the past twelve months.; Requests are taken by phone, (919) 683-3467, or in-person on the first Monday of the month. If the first Monday is a holiday, requests will be taken the following week. Call (919) 683-3467 for the most up-to-date information."
+  },
+  "name": "Duke Memorial UMC Good Samaritan Fund",
+  "categories": [
+   "Money & Bills",
+   "Food"
+  ],
+  "description": "Help paying utility bills for Durham County residents, plus free food at a Mobile Market on the third Saturday of each month.",
+  "address": "504 W. Chapel Hill St, Durham, NC 27701",
+  "access": "Utility help: apply online through the website. Applications are closed until Dec 1 (as of Nov 2026). Must live in Durham County and not have received financial help from Duke Memorial in the past 12 months. Mobile Market: the line usually forms at 7:30am and food is given out at 10am. Call (919) 683-3467 for the latest information."
  },
  "Senior PharmAssist|Durham": {
   "cost": "free",
@@ -44,7 +61,17 @@
  },
  "El Pueblo- Familias Seguras|Triangle-wide": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://elpueblo.org/wp-content/uploads/2025/01/Guia-de-Emergencia-web.pdf"
+  "_why": "Cost checked 2026-11-10: https://elpueblo.org/wp-content/uploads/2025/01/Guia-de-Emergencia-web.pdf Checked 2026-11-10: The Familias Seguras page describes it as a guide 'designed to help immigrant families in North Carolina prepare for emergencies', available as English and Spanish PDFs. It is not a service. The listed URL pointed straight to the Spanish PDF with tracking parameters. I kept it as a free resource but relabeled it as a guide. https://elpueblo.org/familias-seguras/",
+  "_if": {
+   "description": "Know Your Rights Information – NC Resources",
+   "access": "",
+   "notes": ""
+  },
+  "name": "El Pueblo – Familias Seguras (Safe Families) Emergency Guide",
+  "description": "Free guide to help immigrant families in NC prepare for emergencies: know your rights, making a family plan, powers of attorney, getting an ID, and finding legal help. In English and Spanish. This is a guide, not a direct service.",
+  "url": "https://elpueblo.org/familias-seguras/",
+  "access": "Read online or download the PDF from the website. Questions: call El Pueblo at (919) 835-1525.",
+  "notes": "El Pueblo also posts recorded know-your-rights webinars on YouTube."
  },
  "U.S. Committee for Refugees and Immigrants, Raleigh|Triangle-wide": {
   "cost": "low_cost_membership",
@@ -63,7 +90,15 @@
  },
  "Immigrant Solidarity Fund - CWS Durham|Durham": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://cwsdurham.org/isf/"
+  "_why": "Cost checked 2026-11-10: https://cwsdurham.org/isf/ Checked 2026-11-10: cwsrdu.org/immigrantsolidarityfund/ redirects to cwsdurham.org and the redirect target 404s. The current page is at cwsdurham.org/isf/. It says average waits are 'currently several months' and lists the Triangle group as covering Durham, Orange, and Wake. https://cwsdurham.org/isf/",
+  "_if": {
+   "description": "financial assistace, referrals,",
+   "access": "Cash assistance fund for undocumented immigrants in eligible counties impacted by ICE procedures and/or emergency and disaster situations. (assistance is issued based on eligiblity and availibility of funds). Contact Madison Burke for additional information. 919. 641.7825 or immigrantsolidarityfund@cwsglobal.org"
+  },
+  "name": "NC Immigrant Solidarity Fund – CWS Durham",
+  "description": "One-time cash grants for immigrant families, regardless of status, to pay for a lawyer or household costs after a family member is arrested by ICE, or when they are otherwise affected by ICE activity.",
+  "url": "https://cwsdurham.org/isf/",
+  "access": "For Durham, Orange, and Wake counties (other NC regions have their own groups). Apply with the English or Spanish application on the website, or call or text 919-641-7825. Waitlist is several months as of Nov 2026; applicants are contacted in the order they joined. CWS offices are by appointment only."
  },
  "JusticeMatters Inc|Durham": {
   "cost": "sliding_scale",
@@ -71,7 +106,15 @@
  },
  "WakeTech Community College (ESL)|Raleigh": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://www.waketech.edu/programs-courses/non-credit/strengthen-basic-skills/esl"
+  "_why": "Cost checked 2026-11-10: https://www.waketech.edu/programs-courses/non-credit/strengthen-basic-skills/esl Checked 2026-11-10: The flag was wrong. The official ESL page (checked Nov 10, 2026) shows an active 'ESL interest form' button and no closed notice; the 'closed' wording appears only in old search snippets. I replaced the named contact (Tyler Richie, 919-307-9304), which I couldn't find anywhere on Wake Tech's site, with the college's main number, and updated the enrollment steps. https://www.waketech.edu/programs-courses/non-credit/strengthen-basic-skills/esl/esl",
+  "_if": {
+   "description": "ESL classes",
+   "phone": "(919) 307-9304",
+   "access": "Contact: Tyler Richie | ELT Instructional Coordinator | tarichie@waketech.edu | 919.307.9304"
+  },
+  "description": "English (ESL) classes for adult non-native English speakers who live in Wake County, focused on job readiness. In person and online (online only for students who place at Level 2 or higher).",
+  "phone": "(919) 866-5000",
+  "access": "Fill out the ESL Interest Form on the website. It is the required first step but does not enroll you. Seats are limited and in high demand, and your English level is assessed at registration. Not for F-1 or J-1 visa holders. Ages 16–17 need extra paperwork."
  },
  "First Presbyterian Church|Raleigh": {
   "cost": "free",
@@ -79,7 +122,21 @@
  },
  "St Thomas Moore Church|Chapel Hill": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry"
+  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-10: The parish's Financial Assistance Ministry page says it helps Chapel Hill/Carrboro residents with a utility disconnect notice once every 12 months, and 'We do not provide rental assistance.' The ministry line is 919-942-6216, Monday 8:30–11:30am. 919-942-1040 is the parish office. stmchapelhill.org returns 403. I read the ministry page through search results because a direct fetch also returned 403. https://5520.sites.ecatholic.com/financial-assistance-ministry",
+  "_if": {
+   "description": "Rental assistance",
+   "address": "",
+   "phone": "(919) 942-1040",
+   "hours": "",
+   "access": ""
+  },
+  "name": "St. Thomas More Catholic Church – Financial Assistance Ministry",
+  "description": "Help paying a utility bill for Chapel Hill and Carrboro residents who have a disconnect notice, once every 12 months. Does not provide rental assistance.",
+  "address": "940 Carmichael St, Chapel Hill, NC 27514",
+  "phone": "(919) 942-6216",
+  "url": "https://5520.sites.ecatholic.com/financial-assistance-ministry",
+  "hours": "Mondays 8:30–11:30am (phone only)",
+  "access": "Call Monday mornings 8:30–11:30am and leave a message; messages left at other times are not returned. No walk-ins or email requests."
  },
  "Self-Help|Durham": {
   "cost": "some_free",
@@ -106,7 +163,15 @@
  },
  "North Carolina Justice Center, Raleigh|Raleigh": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://www.ncjustice.org/getting-legal-assistance/"
+  "_why": "Cost checked 2026-11-10: https://www.ncjustice.org/getting-legal-assistance/ Checked 2026-11-10: The intake page says: 'At this time, we are not accepting new cases. We anticipate reopening our intake process in September.' No year is given. https://www.ncjustice.org/getting-legal-assistance/",
+  "_if": {
+   "description": "Legal Services for Immigrants",
+   "access": "",
+   "notes": ""
+  },
+  "description": "Free civil and immigration legal help for people with low incomes. Immigration help (asylum, family-based immigration, deportation defense) is available regardless of status. Civil help covers housing, consumer, workers' rights, and public benefits. Does not take criminal, family law, personal injury, or workers' comp cases. Interpreters are available.",
+  "access": "Not taking new cases as of Nov 2026; the website says intake should reopen in September. No walk-ins. Legal intake line: 919-856-2162. Spanish immigration line: 1-888-251-2776 (Tue 9am–1pm).",
+  "notes": "Check the website or call before applying. Other free legal aid options are listed on its Getting Legal Assistance page."
  },
  "Durham Tech|Durham": {
   "cost": "free",
@@ -114,7 +179,15 @@
  },
  "Asylum Seekers Advocacy Project|Triangle-wide": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://asaptogether.org/en/members/"
+  "_why": "Cost checked 2026-11-10: https://asaptogether.org/en/members/ Checked 2026-11-10: asylumadvocacy.org now redirects (301) to asaptogether.org/en/. ASAP is a national online membership organization with no local office. https://asaptogether.org/en/",
+  "_if": {
+   "description": "bi-lingual legal resources for migrants",
+   "access": "Digital community, legal resources, member-led advocacy, work permit assistance for ASAP members"
+  },
+  "name": "Asylum Seeker Advocacy Project (ASAP)",
+  "description": "National online membership group for asylum seekers. Offers immigration news and alerts, plus guides and videos on asylum applications, immigration court, USCIS, and work permits. Available in English, Spanish, Haitian Creole, Russian, and Chinese.",
+  "url": "https://asaptogether.org/en/",
+  "access": "Online only. Join through the website. Its 'Find Help' page lists legal help referrals."
  },
  "InStepp Inc|Durham": {
   "cost": "low_cost_membership",
@@ -133,6 +206,93 @@
  },
  "Haven House Outreach Center|Raleigh": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://www.hillsboroughstreet.org/go/wrenn-house"
+  "_why": "Cost checked 2026-11-10: https://www.hillsboroughstreet.org/go/wrenn-house Checked 2026-11-10: Haven House's site lists no Outreach Center or drop-in center, and no shelter for ages 18+. It lists Street Outreach, Coordinated Entry intake for ages 18–24 (919-980-2015), Transition in Place, and Wrenn House (already a separate listing). 1008 Bullard Ct and 919-833-3312 are the main office. https://www.havenhousenc.org/help/",
+  "_if": {
+   "categories": [
+    "Housing & Shelter"
+   ],
+   "description": "Shelters",
+   "address": "1008 Bullard Ct., Raleigh, NC, 27615",
+   "phone": "(919) 833-3312",
+   "hours": "Monday-Friday, 9:30 am - 5:30 pm",
+   "access": "",
+   "notes": ""
+  },
+  "name": "Haven House – Youth Street Outreach & Young Adult Intake",
+  "categories": [
+   "Housing & Shelter",
+   "Kids & Families"
+  ],
+  "description": "Help for young people facing homelessness. Street Outreach (ages 16–24) brings basic needs items, case management, safety planning, and 24/7 crisis support, and connects youth to shelter and housing. Haven House is also the Wake County Coordinated Entry site for young adults ages 18–24 experiencing homelessness. It has no shelter for anyone 18 or older; the youth shelter for ages 10–17 is Wrenn House.",
+  "address": "1008 Bullard Ct, Raleigh, NC 27615 (main office)",
+  "phone": "(919) 980-2015",
+  "url": "https://www.havenhousenc.org/help/",
+  "hours": "Main office: Mon–Thu 8:30am–5pm, Fri 8:30am–3pm",
+  "access": "Ages 18–24: call the intake line (919) 980-2015 and leave a message; calls are returned within 48 hours. Main office: (919) 833-3312, info@havenhousenc.org. Transition in Place housing (ages 18–23) is by referral through Street Outreach.",
+  "notes": "The old Haven House Outreach Center drop-in (Wake Forest Rd) is not listed on Haven House's current website."
+ },
+ "Housing for New Hope -Rapid Rehousing|Durham": {
+  "_if": {
+   "description": "Emergency Shelter: Works in deep partnership with our community’s emergency shelters and our own Street Outreach team to support households preparing to move to permanent housing.\nConnects families to supportive services, including employment assistance and other resources.",
+   "address": "Admin office: 18 W. Colony Place,\nSuite 250\nDurham, NC 27705",
+   "access": "",
+   "notes": ""
+  },
+  "name": "Housing for New Hope – Supportive Housing",
+  "description": "Supportive and affordable housing for people leaving homelessness in Durham, Orange, Wake, and Alamance counties. Helps people find apartments with partner landlords and move in, pays move-in costs such as deposits, application fees, and utilities, and provides a case manager and a Home Essentials Kit. Also runs housing on its own campuses.",
+  "address": "Admin office: 18 W. Colony Place, Suite 250, Durham, NC 27705",
+  "access": "The website lists no direct application. Call (919) 489-6282 or email info@housingfornewhope.org to ask how to get referred.",
+  "notes": "Its website no longer lists a Rapid Rehousing program (as of Nov 2026). Its Street Outreach program ended June 30, 2025.",
+  "_why": "Checked 2026-11-10: The HNH website lists Affordable Housing plus Campus-based and Community-based Supportive Housing. It does not mention Rapid Rehousing, and Street Outreach ended 6/30/2025. The website gives no intake process, only general contact info. https://housingfornewhope.org/community-based-supportive-housing/"
+ },
+ "Volunteers of America and of the Carolinas, Maple Court Veterans Transitional Housing Program|Durham": {
+  "_if": {
+   "description": "Other Affordable Housing: Provides housing and case management services to homeless veterans",
+   "address": "207 Commons Blvd, Durham, NC 27704 Monday-Friday 8am-4pm",
+   "phone": "(919) 477-0571",
+   "hours": "207 Commons Blvd, Durham, NC 27704 Monday-Friday 8am-4pm",
+   "access": "No referral is required to apply, but the completion of an application is needed prior to admission interviews with VA and Maple Court staff.\nEligibility:\n• A veteran\n• Household income does not exceed 50% of area median income\n• Homeless or at risk of becoming homeless"
+  },
+  "name": "Volunteers of America Chesapeake & Carolinas – Maple Court Veteran Apartments",
+  "description": "24 apartments with case management for veterans who are homeless or at risk of homelessness, run in partnership with the VA. VOA now lists it as permanent housing, not transitional.",
+  "address": "207 Commons Blvd, Durham, NC 27704",
+  "phone": "(919) 477-0571 ext. 0",
+  "url": "https://www.voachesapeake.org/locations/maple-court/",
+  "hours": "Mon–Fri 8am–4pm",
+  "access": "No referral needed, but you must complete an application before admission interviews with VA and Maple Court staff. Eligibility: a veteran; household income at or below 50% of area median income; homeless or at risk of becoming homeless; enrolled in the HUD-VASH voucher program.",
+  "_why": "Checked 2026-11-10: The program still exists. VOA Chesapeake & Carolinas (the affiliate that now covers NC) has a current location page: Maple Court Veteran Apartments, same address and phone, ext. 0. It is described as permanent housing and now requires HUD-VASH enrollment. https://www.voachesapeake.org/locations/maple-court/"
+ },
+ "Troy House|Durham": {
+  "_if": {
+   "description": "Transitional &  Recovery Housing: Transitional home provides temporary housing and program assistance for up to 21 justice-involved men.\nLife skills, financial literacy, technology awareness, and employability skills (Wellness Re-Entry), Individual and group peer support (SWIT), Mediation to help reconnect family and loved ones\nWork based learning (Community Based Landscapers), Yoke Fellowship, NA/AA",
+   "address": "1101 N Mangum St\nDurham, NC 27701",
+   "phone": "(984) 219-1001",
+   "access": "Only accepts referrals from reentry programs and correctional institutions. STSG Transitional House is unable to accept individuals with arson or any sexual offenses.",
+   "notes": ""
+  },
+  "name": "STSG Transitional House (Straight Talk Support Group)",
+  "description": "Transitional housing (usually up to 90 days) for up to 21 justice-involved adult men leaving prison. Offers life skills, financial literacy, technology and job-readiness training, individual and group peer support, family mediation, work-based learning, and NA/AA.",
+  "address": "",
+  "phone": "(919) 623-9914",
+  "access": "Accepts referrals only from reentry programs and correctional institutions, through the referral page on its website. Cannot accept people with arson or sexual offenses. Program manager: (984) 219-1001. Crisis line: (919) 599-5125.",
+  "notes": "Formerly called The Troy House at 1101 N Mangum St. The group says it now runs from a new site, with no address published (mailing address: PO Box 51654, Durham, NC 27717). Its state funding was cut in March 2024 and it relies on donations, so call to confirm it has space.",
+  "_why": "Checked 2026-11-10: The STSG site calls the program 'STSG Transitional House'. Its homepage says the original house at 1101 N Mangum St 'later became known as The Troy House' and that STSG 'operates from a new site, continuing its mission of providing transitional housing'. ABC11 (Aug 2024) reported the state funding cut and that it might close, but I found no closure notice. The site's newest date is 2023. https://www.straighttalksupportgroup.org/"
+ },
+ "El Vinculo Hispano|Chapel Hill": {
+  "_if": {
+   "city": "Chapel Hill",
+   "description": "education, community engagement, Know your rights, youth groups, etc",
+   "address": "Silter City: 200 N Chatham Ave, Silter City NC 27344 ; Sanford: 215 Bracken St, Sanford NC 27330",
+   "phone": "(919) 742-1488",
+   "notes": ""
+  },
+  "name": "El Vínculo Hispano / Hispanic Liaison",
+  "city": "Pittsboro",
+  "description": "Advocacy and services for Latino and immigrant families in Chatham County and nearby counties. Helps families connect to services, and runs community defense and know-your-rights work, the Orgullo Latinx youth program, civic engagement, and a community garden.",
+  "address": "404 N. Holly Ave, Siler City, NC 27344 (also 1225 N. Horner Blvd, Sanford, NC 27330)",
+  "phone": "(919) 742-1448",
+  "url": "https://www.hispanicliaison.org/",
+  "notes": "Offices are in Siler City and Sanford, not Chapel Hill. Serves Chatham County, including Pittsboro. Sanford office phone: (919) 292-0177.",
+  "_why": "Checked 2026-11-10: The organization's site lists offices only in Siler City (404 N. Holly Ave, 919-742-1448) and Sanford (1225 N. Horner Blvd, 919-292-0177), and its programs center on Chatham County. Pittsboro is in Chatham County, so it serves a covered town. Both listed addresses and the phone number (1488) were wrong. https://www.hispanicliaison.org/"
  }
 }
