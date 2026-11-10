@@ -341,6 +341,9 @@
   "piedmont health chapel hill community health center|Chapel Hill": "2026-11-10",
   "pine ridge baptist church|Zebulon": "2026-11-10",
   "piney grove baptist church food distribution|Hillsborough": "2026-11-10",
+  "planned parenthood chapel hill health center|Chapel Hill": "2026-11-10",
+  "planned parenthood durham health center|Durham": "2026-11-10",
+  "planned parenthood raleigh health center|Raleigh": "2026-11-10",
   "pleasant grove baptist church|Wendell": "2026-11-10",
   "pleasant grove missionary|Wendell": "2026-11-10",
   "point care center|Cary": "2026-11-10",
@@ -491,21 +494,21 @@
   "Durham Open Data food resources": 65,
   "Orange County Extension food resource list": 37,
   "Wake County Food Finder map": 255,
-  "Web search": 186
+  "Web search": 189
  },
- "last_run": "2026-11-10T13:00:33-05:00",
- "last_total": 449,
+ "last_run": "2026-11-10T13:02:12-05:00",
+ "last_total": 452,
  "link_fail_streak": {
-  "https://celebracioncristiana.org/house-of-mercy/": 18,
-  "https://dfstrianglenc.org/services#signup": 18,
-  "https://fpcraleigh.org/missions/": 18,
-  "https://lincolnchc.org/?page_id=6453": 17,
-  "https://northraleighministries.com/foodassistance/": 18,
-  "https://richlandcreek.com/event/2019179-2022-06-25-community-food-pantry/": 18,
-  "https://soduco.org/parktown-food-hub": 18,
-  "https://www.caare-inc.org/": 18,
-  "https://www.chathamcountync.gov/government/departments-programs-a-h/aging-services/aging-services-home": 18,
-  "https://www.dpi.nc.gov/districts-schools/district-operations/school-nutrition/how-find-nc-summer-meals": 18,
-  "https://www.voachesapeake.org/locations/maple-court-veterans-apartments/": 18
+  "https://celebracioncristiana.org/house-of-mercy/": 19,
+  "https://dfstrianglenc.org/services#signup": 19,
+  "https://fpcraleigh.org/missions/": 19,
+  "https://lincolnchc.org/?page_id=6453": 18,
+  "https://northraleighministries.com/foodassistance/": 19,
+  "https://richlandcreek.com/event/2019179-2022-06-25-community-food-pantry/": 19,
+  "https://soduco.org/parktown-food-hub": 19,
+  "https://www.caare-inc.org/": 19,
+  "https://www.chathamcountync.gov/government/departments-programs-a-h/aging-services/aging-services-home": 19,
+  "https://www.dpi.nc.gov/districts-schools/district-operations/school-nutrition/how-find-nc-summer-meals": 19,
+  "https://www.voachesapeake.org/locations/maple-court-veterans-apartments/": 19
  }
 }
