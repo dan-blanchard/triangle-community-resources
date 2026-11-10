@@ -9,6 +9,11 @@
 "lon": -78.568906,
 "checked": "2026-11-10"
 },
+"100 s boylan ave|raleigh|27603": {
+"lat": 35.77988,
+"lon": -78.649176,
+"checked": "2026-11-10"
+},
 "1000 s. duke st|durham|": {
 "lat": 35.98906,
 "lon": -78.909124,
@@ -88,6 +93,11 @@
 "1023 oberlin rd|raleigh|27605": {
 "lat": 35.797145,
 "lon": -78.660336,
+"checked": "2026-11-10"
+},
+"105 newsom street|durham|27704": {
+"lat": 36.04132,
+"lon": -78.900142,
 "checked": "2026-11-10"
 },
 "10520 star rd|wake forest|27587": {
@@ -475,6 +485,11 @@
 "checked": "2026-11-10",
 "nominatim": "2026-11-10",
 "via": "osm"
+},
+"1765 dobbins drive|chapel hill|27514": {
+"lat": 35.944663,
+"lon": -79.013397,
+"checked": "2026-11-10"
 },
 "1794 wendell blvd|wendell|27591": {
 "lat": 35.802024,

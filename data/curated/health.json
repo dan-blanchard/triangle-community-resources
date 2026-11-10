@@ -1,0 +1,56 @@
+[
+ {
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "checked": "2026-11-10",
+  "name": "Planned Parenthood – Durham Health Center",
+  "city": "Durham",
+  "description": "Birth control, emergency contraception, STI/HIV testing and treatment, pregnancy testing, cancer screenings, vaccines and abortion. In person or telehealth.",
+  "address": "105 Newsom Street, Ste. 101, Durham, NC 27704",
+  "url": "https://www.plannedparenthood.org/health-center/north-carolina/durham/27704/durham-health-center-4171-90860",
+  "phone": "(919) 286-2872",
+  "hours": "Mon 9am–5pm; Tue 9am–3pm; Wed 10am–5pm; Thu 11am–6pm; Fri 9am–3pm",
+  "access": "Insurance not required. Walk-ins welcome (including for emergency contraception). Se habla español.",
+  "cost": "sliding_scale",
+  "source_url": "https://www.plannedparenthood.org/health-center/north-carolina/durham/27704/durham-health-center-4171-90860",
+  "notes": "Low- or no-cost birth control, STI/HIV testing and treatment, pregnancy tests and cancer screenings for those who qualify under Title X, through at least March 31, 2027 (call 1-800-230-7526 to check)."
+ },
+ {
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "checked": "2026-11-10",
+  "name": "Planned Parenthood – Chapel Hill Health Center",
+  "city": "Chapel Hill",
+  "description": "Birth control, emergency contraception, STI testing and treatment, vaccines and abortion. In person or telehealth.",
+  "address": "1765 Dobbins Drive, Chapel Hill, NC 27514",
+  "url": "https://www.plannedparenthood.org/health-center/north-carolina/chapel-hill/27514/chapel-hill-health-center-4169-90860",
+  "phone": "(919) 942-7762",
+  "hours": "Tue 9am–4pm; Wed 9am–3pm; Thu–Sat 8am–2pm",
+  "access": "Insurance not required. Walk-ins welcome (including for emergency contraception). Se habla español.",
+  "cost": "",
+  "source_url": "https://www.plannedparenthood.org/health-center/north-carolina/chapel-hill/27514/chapel-hill-health-center-4169-90860",
+  "notes": "Payment is due at the visit unless arranged ahead; ask about lower-cost options."
+ },
+ {
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "checked": "2026-11-10",
+  "name": "Planned Parenthood – Raleigh Health Center",
+  "city": "Raleigh",
+  "description": "Birth control, emergency contraception, STI testing and treatment and vaccines. In person or telehealth. This center does not provide abortion.",
+  "address": "100 S Boylan Ave., Raleigh, NC 27603",
+  "url": "https://www.plannedparenthood.org/health-center/north-carolina/raleigh/27603/raleigh-health-center-3338-90860",
+  "phone": "(919) 833-7526",
+  "hours": "Mon 9am–5pm; Tue 10am–6pm; Wed 9am–5pm; Thu 10am–6pm; Fri 9am–3pm",
+  "access": "Insurance not required. Walk-ins welcome (including for emergency contraception). Se habla español.",
+  "cost": "",
+  "source_url": "https://www.plannedparenthood.org/health-center/north-carolina/raleigh/27603/raleigh-health-center-3338-90860",
+  "notes": "Payment is due at the visit unless arranged ahead; ask about lower-cost options."
+ }
+]
