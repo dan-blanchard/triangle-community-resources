@@ -1421,6 +1421,12 @@
 "lon": -79.096488,
 "checked": "2026-11-10"
 },
+"404 n. holly ave|pittsboro|27344": {
+"lat": null,
+"lon": null,
+"checked": "2026-11-10",
+"nominatim": "2026-11-10"
+},
 "405 n. allen st|wake forest|27587": {
 "lat": 35.981313,
 "lon": -78.500632,
@@ -1616,6 +1622,11 @@
 "checked": "2026-11-10"
 },
 "504 w. chapel hill street|durham|27701": {
+"lat": 35.99704,
+"lon": -78.908927,
+"checked": "2026-11-10"
+},
+"504 w. chapel hill st|durham|27701": {
 "lat": 35.99704,
 "lon": -78.908927,
 "checked": "2026-11-10"
@@ -2038,6 +2049,11 @@
 "918 malby's church|knightdale|27545": {
 "lat": 35.800459,
 "lon": -78.488264,
+"checked": "2026-11-10"
+},
+"940 carmichael st|chapel hill|27514": {
+"lat": 35.904775,
+"lon": -79.03039,
 "checked": "2026-11-10"
 },
 "946 square ct|knightdale|27545": {
