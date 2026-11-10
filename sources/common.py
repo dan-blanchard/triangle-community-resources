@@ -181,6 +181,7 @@ def clean_url(u: str) -> str:
     m = re.search(r"https?://[^\s\"'<>|]+", u)
     if m:
         return m.group(0).rstrip(".,);")
+    u = re.sub(r"\S+@\S+", " ", u)  # an email address isn't a website
     m = re.search(r"\b(www\.[^\s|]+|[a-z0-9\-]+\.(org|com|net|gov|edu)(/[^\s|]*)?)", u, re.I)
     return ("https://" + m.group(0)) if m else ""
 

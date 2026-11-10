@@ -1,0 +1,34 @@
+[
+ {
+  "name": "Carolina Abortion Fund",
+  "city": "Triangle-wide",
+  "basis": "nondiscrimination_policy",
+  "evidence": "\"We serve all of our callers regardless of gender identity, race, age, socioeconomic status, sexual orientation, religion...\"",
+  "evidence_url": "https://www.carolinaabortionfund.org/about",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Hillsborough Clinic (Whitted)",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Chapel Hill Clinic (Southern Human Services)",
+  "city": "Chapel Hill",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Dental Clinic",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ }
+]

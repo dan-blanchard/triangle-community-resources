@@ -1,0 +1,573 @@
+[
+ {
+  "name": "Durham County Public Health – STI/HIV, Family Planning, Vaccine & TB Clinics",
+  "city": "Durham",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "County health department clinics in the Human Services Building: free STI and HIV testing, PrEP start-up, birth control and family planning, vasectomy, childhood and adult vaccines, and TB testing and treatment.",
+  "address": "Human Services Building, 414 E Main St, Durham, NC 27701",
+  "url": "https://dconc.gov/Public-Health/Clinical-Services",
+  "phone": "(919) 560-7600",
+  "hours": "Mon–Fri 8:30 am–5 pm (main office). Vaccine clinic Mon–Thu 8:30 am–4 pm, Fri 8:30–11 am. STI, family planning and vaccine clinics open until 6 pm on the 2nd Tuesday of each month.",
+  "access": "Appointments preferred; STI walk-ins taken first-come as space allows; vaccine walk-ins 8:30–10:30 am and 1–3:30 pm. No one is denied STI/HIV testing for lack of documents. Minors can consent to STI/HIV testing; family planning needs no parental consent.",
+  "cost": "",
+  "source_url": "https://dconc.gov/Public-Health/Clinical-Services/STD-HIV-Testing/STD-STI-Testing-and-Treatment",
+  "checked": "2026-11-10",
+  "notes": "STI/HIV testing is free (STI line 919-560-7601); some STI medicines are free and others are reduced by income. Free PrEP screening, labs and a 90-day PrEP supply, then referral to a prescriber. Vasectomy (919-560-7631) is on a sliding fee scale. Family planning fees aren't posted. Vaccines (919-560-7608) are free for eligible children through VFC; some families pay. TB skin test is a flat $25 (919-560-7633). Free community HIV/STI testing (ITTS): 919-560-8835."
+ },
+ {
+  "name": "Durham County Public Health – Dental Clinic (children and pregnant people)",
+  "city": "Durham",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "Cleanings, exams, x-rays, sealants, fillings, extractions and small crowns for children from first tooth to age 21, youth with special needs, and pregnant people.",
+  "address": "Human Services Building, 414 E Main St, 2nd Floor, Durham, NC 27701",
+  "url": "https://dconc.gov/Public-Health/Clinical-Services/Dental-Services/Dental-Clinic",
+  "phone": "(919) 560-7680",
+  "hours": "Mon–Thu 8 am–4:30 pm; Fri 8 am–noon",
+  "access": "Accepts Medicaid and uninsured patients. New child patients come to the first visit with a parent or legal guardian. Interpretation available, including for people with hearing loss.",
+  "cost": "sliding_scale",
+  "source_url": "https://dconc.gov/Public-Health/Clinical-Services/Dental-Services/Dental-Clinic",
+  "checked": "2026-11-10",
+  "notes": "Uninsured fees are on a sliding scale by income and family size. Other adults are referred to Lincoln Community Health Center. The county's Tooth Ferry mobile unit visits schools."
+ },
+ {
+  "name": "Wake County Public Health Center – STI/HIV, Family Planning, Vaccine & TB Clinics",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Main county health clinics: free STI and HIV testing and treatment, PrEP, hepatitis C treatment, birth control and family planning, cancer screening, vaccines, and TB evaluation and treatment.",
+  "address": "200 Swinburne St, Raleigh, NC 27610",
+  "url": "https://www.wake.gov/departments-government/public-health/health-clinics",
+  "phone": "(919) 250-1120",
+  "hours": "STI clinic Mon, Tue, Thu, Fri 8:15 am–4:15 pm; Wed 9:30 am–4:15 pm. Free walk-in evening HIV/STI testing Tue & Thu 5:30–7:30 pm. Family planning Mon–Fri 8 am–5:15 pm; vaccines Mon–Fri 8:15 am–5 pm; TB Mon–Fri 8 am–5 pm.",
+  "access": "Same-day and scheduled STI appointments; walk-ins accepted for testing (9 am–noon) but appointments encouraged. Family planning, vaccines and TB care need an appointment.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
+  "checked": "2026-11-10",
+  "notes": "STI services are free except HPV treatment; insurance is billed if you have it. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up at the Public Health Center pharmacy Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning (IUDs, implant, shot, pill, patch, ring, condoms) and vaccines offer self-pay discounts by income; vaccines are priced per shot (flu $30) and free for eligible kids through VFC. TB medicines free; $25 chest interview."
+ },
+ {
+  "name": "Wake County Public Health Center – Children's Dental Clinic & Smiles for Wake",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "County dental clinic for children: exams, cleanings, fluoride, sealants, fillings, extractions, baby-tooth root canals and crowns. Smiles for Wake offers free cleanings to uninsured kids.",
+  "address": "Clinic 6, 200 Swinburne St, Raleigh, NC 27610",
+  "url": "https://www.wake.gov/departments-government/public-health/health-clinics/dental-clinic",
+  "phone": "(919) 250-1120",
+  "hours": "Mon–Fri 8 am–5 pm",
+  "access": "Appointments required for all visits.",
+  "cost": "sliding_scale",
+  "source_url": "https://www.wake.gov/departments-government/public-health/health-clinics/dental-clinic",
+  "checked": "2026-11-10",
+  "notes": "Fees based on family income; Medicaid and NC Health Choice accepted. Smiles for Wake: FREE cleanings for uninsured Wake County children ages 0–20, by appointment."
+ },
+ {
+  "name": "Wake County Departure Regional Center – Public Health Clinic",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "North Raleigh county regional center offering STI testing and treatment, family planning and vaccines, plus free at-home STI test kits and a monthly free HIV/STI testing day.",
+  "address": "5809 Departure Dr, Raleigh, NC 27616",
+  "url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/departure-regional-center",
+  "phone": "(919) 431-4000",
+  "hours": "Building Mon–Fri 8:30 am–5:15 pm; clinic hours vary, call. Free community HIV/STI testing 2nd Monday of each month, 2–4 pm.",
+  "access": "Call to confirm clinic hours and book.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
+  "checked": "2026-11-10",
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. Medicaid applications also handled here."
+ },
+ {
+  "name": "Wake County Eastern Regional Center – Public Health Clinic",
+  "city": "Zebulon",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "County regional center for eastern Wake (Knightdale, Wendell, Zebulon) offering STI testing and treatment, family planning and vaccines, plus free at-home STI test kits.",
+  "address": "1002 Dogwood Dr, Zebulon, NC 27597",
+  "url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/eastern-regional-center",
+  "phone": "(919) 404-3900",
+  "hours": "Clinic Mon, Wed, Fri 8:30 am–5 pm (by appointment). Building Mon–Fri 8:30 am–5:15 pm.",
+  "access": "Clinic by appointment only.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/eastern-regional-center",
+  "checked": "2026-11-10",
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+ },
+ {
+  "name": "Wake County Northern Regional Center – Public Health Clinic",
+  "city": "Wake Forest",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "County regional center for north Raleigh, Wake Forest and Rolesville offering STI testing and treatment, family planning and vaccines, free at-home STI kits and a monthly free testing day.",
+  "address": "350 E Holding Ave, Wake Forest, NC 27587",
+  "url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/northern-regional-center",
+  "phone": "(919) 562-6300",
+  "hours": "Clinic Tue & Thu 8:30 am–5 pm (by appointment). Free community HIV/STI testing 4th Tuesday, 9–11 am.",
+  "access": "Clinic by appointment only.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/northern-regional-center",
+  "checked": "2026-11-10",
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+ },
+ {
+  "name": "Wake County Southern Regional Center – Public Health Clinic",
+  "city": "Fuquay-Varina",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "County regional clinic for southern Wake: prenatal care, pediatrics (0–20), HIV/STI testing and treatment, vaccines, and family planning and birth control, plus free at-home STI kits.",
+  "address": "130 N Judd Pkwy NE, Fuquay-Varina, NC 27526",
+  "url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/southern-regional-center",
+  "phone": "(919) 557-2501",
+  "hours": "Clinic Mon, Wed, Thu 8:30 am–5 pm. Free community HIV/STI testing 4th Monday, 9–11 am.",
+  "access": "Call to make an appointment.",
+  "cost": "",
+  "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/southern-regional-center",
+  "checked": "2026-11-10",
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+ },
+ {
+  "name": "Wake County free HIV/STI testing – Western Human Services Center (monthly)",
+  "city": "Cary",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Free, confidential HIV and STI testing once a month at the county's western Wake human services center.",
+  "address": "111 James Jackson Ave, Suite 219, Cary, NC",
+  "url": "https://www.wake.gov/departments-government/health-human-services/public-health-and-medical-services/hiv-hepatitis-c-and-sexually-transmitted-disease-std-information/wake-county-hiv-std-hep-c-community-program/testing-locations-and-condom-sites",
+  "phone": "(919) 461-4600",
+  "hours": "1st Wednesday of each month, 9–11 am",
+  "access": "Open to the public.",
+  "cost": "free",
+  "source_url": "https://www.wake.gov/departments-government/health-human-services/public-health-and-medical-services/hiv-hepatitis-c-and-sexually-transmitted-disease-std-information/wake-county-hiv-std-hep-c-community-program/testing-locations-and-condom-sites",
+  "checked": "2026-11-10",
+  "notes": "Wake also offers free testing at Dorcas Ministries, 187 High House Rd, Cary, 1st Tuesday 10 am–noon. Questions: HIV.STDoutreach@wake.gov. The county lists the center's ZIP as both 27511 and 27513."
+ },
+ {
+  "name": "Orange County Health Department – Hillsborough Clinic (Whitted)",
+  "city": "Hillsborough",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "County health clinic: free STI testing and treatment, PrEP/PEP, birth control and family planning, emergency contraception, cancer screening, vaccines, prenatal and child health.",
+  "address": "Whitted Human Services Center, 300 W Tryon St, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/919/Clinic---Medical",
+  "phone": "(919) 245-2400",
+  "hours": "Mon 8 am–5 pm; Tue 9:30 am–6:30 pm; Wed 10 am–5 pm; Thu 8 am–5 pm; Fri 8 am–noon",
+  "access": "Call for an appointment (press 2). Family planning is confidential.",
+  "cost": "sliding_scale",
+  "source_url": "https://orangecountync.gov/919/Clinic---Medical",
+  "checked": "2026-11-10",
+  "notes": "STI tests, counseling and treatment are free (except HIV treatment); ask about PrEP and PEP. Family planning fees are based on income; Medicaid and Family Planning Medicaid accepted. Free or low-cost breast and cervical cancer screening for uninsured people under 250% of poverty. Primary care is only for family planning, prenatal and child health patients ($20 minimum, then sliding fee). Free vaccines for eligible children (VFC); no travel vaccines. Free interpreters."
+ },
+ {
+  "name": "Orange County Health Department – Chapel Hill Clinic (Southern Human Services)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "County health clinic: free STI testing and treatment, PrEP/PEP, birth control and family planning, emergency contraception, cancer screening, vaccines, prenatal and child health.",
+  "address": "Southern Human Services Center, 2501 Homestead Rd, Chapel Hill, NC 27516",
+  "url": "https://orangecountync.gov/919/Clinic---Medical",
+  "phone": "(919) 245-2400",
+  "hours": "Mon 8 am–5 pm; Tue 9:30 am–6:30 pm; Wed 10 am–5 pm; Thu 8 am–5 pm; Fri 8 am–noon",
+  "access": "Call for an appointment (press 2). Family planning is confidential.",
+  "cost": "sliding_scale",
+  "source_url": "https://orangecountync.gov/919/Clinic---Medical",
+  "checked": "2026-11-10",
+  "notes": "STI tests, counseling and treatment are free (except HIV treatment); ask about PrEP and PEP. Family planning fees are based on income; Medicaid and Family Planning Medicaid accepted. Free or low-cost breast and cervical cancer screening for uninsured people under 250% of poverty. Primary care is only for family planning, prenatal and child health patients ($20 minimum, then sliding fee). Free vaccines for eligible children (VFC); no travel vaccines. Free interpreters."
+ },
+ {
+  "name": "Orange County Health Department – Dental Clinic",
+  "city": "Hillsborough",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "public",
+  "description": "Dental care for Orange County residents of all ages: cleanings, exams, fillings, sealants, simple extractions, infant oral care and prenatal cleanings.",
+  "address": "Whitted Human Services Center, 300 W Tryon St, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/818",
+  "phone": "(919) 245-2435",
+  "hours": "Mon–Thu 8 am–5 pm; Fri 8 am–noon",
+  "access": "By appointment only; no walk-ins. Spanish interpreters on staff.",
+  "cost": "sliding_scale",
+  "source_url": "https://orangecountync.gov/818",
+  "checked": "2026-11-10",
+  "notes": "Fees based on income; minimum $40 per visit. Accepts Medicaid and private dental insurance. A mobile dental clinic is at Southern Human Services Center (2501 Homestead Rd, Chapel Hill) some days; call to book."
+ },
+ {
+  "name": "Carolina Abortion Fund",
+  "city": "Triangle-wide",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Money & Bills"
+  ],
+  "org_type": "nonprofit",
+  "description": "Abortion fund with a confidential helpline offering financial, practical and emotional support. Funding pledges are paid straight to the clinic and never have to be repaid.",
+  "address": "",
+  "url": "https://www.carolinaabortionfund.org/",
+  "phone": "(855) 518-4603",
+  "hours": "Funding line: first three Mondays of each month, 9 am–2 pm (next day if Monday is a holiday)",
+  "access": "You need a scheduled appointment. For people who live in NC or SC or have an appointment there; no income requirements. Call the Monday before your appointment and leave one message.",
+  "cost": "free",
+  "source_url": "https://www.carolinaabortionfund.org/funding",
+  "checked": "2026-11-10",
+  "notes": "Usually can't cover the full cost but helps find other funding. Doesn't fund every clinic. Minors seeking judicial bypass: If/When/How Repro Legal Helpline 844-868-2812. Email hello@carolinaabortionfund.org. Spanish page available."
+ },
+ {
+  "name": "The Brigid Alliance (abortion travel and practical support)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Transportation"
+  ],
+  "org_type": "nonprofit",
+  "description": "Books and pays for travel and lodging, gives meal and childcare stipends, and helps with other logistics for people traveling for an abortion.",
+  "address": "",
+  "url": "https://brigidalliance.org/",
+  "phone": "",
+  "hours": "",
+  "access": "Referral-based: ask your clinic or abortion fund to refer you; a coordinator contacts you within 24–48 hours.",
+  "cost": "free",
+  "source_url": "https://brigidalliance.org/need-support/",
+  "checked": "2026-11-10",
+  "notes": "National organization; helpful when care past North Carolina's limits means traveling out of state."
+ },
+ {
+  "name": "Project Access of Durham County – Donated Specialty Care Network",
+  "city": "Durham",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Connects low-income, uninsured Durham residents with donated specialist care, tests and hospital care from local doctors, labs and hospitals.",
+  "address": "4206 N Roxboro St, Suite 100, Durham, NC 27704",
+  "url": "https://projectaccessdurham.org/",
+  "phone": "(919) 213-4077",
+  "hours": "",
+  "access": "Referral from a primary care provider at Lincoln Community Health Center (or other free clinics by arrangement). Must have lived in Durham 6 months, income under 200% of poverty, uninsured and not eligible for affordable coverage.",
+  "cost": "free",
+  "source_url": "https://projectaccessdurham.org/projects/donated-specialty-care-network/",
+  "checked": "2026-11-10",
+  "notes": "Prescriptions from specialty visits can be filled at Lincoln Pharmacy for a small copay."
+ },
+ {
+  "name": "Project Access of Durham County – Health Equipment Loan Program (HELP)",
+  "city": "Durham",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Borrow Things"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free loans of wheelchairs, walkers, rollators, canes, crutches, shower chairs, commodes, raised toilet seats and other medical equipment.",
+  "address": "4206 N Roxboro St, Suite 100, Durham, NC 27704",
+  "url": "https://projectaccessdurham.org/projects/health-equipment-loan-program/",
+  "phone": "(919) 748-1022",
+  "hours": "Tue 10 am–2 pm; Fri 1–5 pm",
+  "access": "For Durham County residents; bring proof of Durham address (ID, bill, shelter letter, lease, etc.). No prescription or appointment needed; someone can pick up for you.",
+  "cost": "free",
+  "source_url": "https://projectaccessdurham.org/projects/health-equipment-loan-program/",
+  "checked": "2026-11-10",
+  "notes": "Loans last 90 days and can be renewed. Ring the doorbell once. Closed some holidays in 2026 (Nov 27, Dec 25). Email help@projectaccessdurham.org."
+ },
+ {
+  "name": "Wake Smiles",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Dental clinic for under-resourced, uninsured Wake County adults: prevention, education and restorative care.",
+  "address": "Salvation Army Center of Hope, 1863 Capital Blvd, Raleigh, NC 27604",
+  "url": "https://www.wakesmiles.org/",
+  "phone": "(919) 390-6497",
+  "hours": "",
+  "access": "Must be an uninsured, low-income Wake County resident (no Medicaid, Medicare or other insurance) and referred by Alliance Medical Ministry, Mariam Clinic, NeighborHealth Center or Urban Ministries of Wake County.",
+  "cost": "",
+  "source_url": "https://www.wakesmiles.org/become-a-patient/",
+  "checked": "2026-11-10",
+  "notes": "$40 administrative fee per appointment; cards accepted. Spanish information available."
+ },
+ {
+  "name": "Piedmont Health – Carrboro Dental",
+  "city": "Carrboro",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Community health center dental office at the Carrboro Piedmont Health site.",
+  "address": "301 Lloyd St, Carrboro, NC 27510",
+  "url": "https://piedmonthealth.org/chc-locations-overview#carrboro",
+  "phone": "(919) 933-9087",
+  "hours": "Mon–Thu 8 am–6 pm; Fri 8 am–5 pm",
+  "access": "Insurance not required; ask about the Sliding Scale Discount Program when you call.",
+  "cost": "sliding_scale",
+  "source_url": "https://piedmonthealth.org/chc-locations-overview",
+  "checked": "2026-11-10",
+  "notes": "Cost depends on your sliding-scale tier, insurance and services. Same building as the Piedmont Health Carrboro medical center."
+ },
+ {
+  "name": "Piedmont Health – Chapel Hill Dental (ages 17 and under)",
+  "city": "Chapel Hill",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Community health center dental office for children and teens 17 and younger; WIC is in the same office.",
+  "address": "105 Conner Dr, Suite 2100, Chapel Hill, NC 27514",
+  "url": "https://piedmonthealth.org/chc-locations-overview#ChapelHillDental",
+  "phone": "(919) 951-7583",
+  "hours": "Mon–Fri 8 am–5 pm (closed 1–2 pm)",
+  "access": "Insurance not required; ask about the Sliding Scale Discount Program when you call.",
+  "cost": "sliding_scale",
+  "source_url": "https://piedmonthealth.org/chc-locations-overview",
+  "checked": "2026-11-10",
+  "notes": ""
+ },
+ {
+  "name": "NAMI Durham – support groups and classes",
+  "city": "Durham",
+  "categories": [
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free mental health support groups and classes, including NAMI Connection recovery groups, an anxiety and stress group for African Americans, Peer-to-Peer and Family-to-Family.",
+  "address": "PO Box 967, Durham, NC 27702",
+  "url": "https://namidurham.org/",
+  "phone": "(919) 231-5016",
+  "hours": "Groups and classes mostly virtual, 7–8:30 pm; see calendar",
+  "access": "Open to the public; register through the calendar.",
+  "cost": "free",
+  "source_url": "https://namidurham.org/support-and-education/support-groups/",
+  "checked": "2026-11-10",
+  "notes": "Call or text the number above. NAMI HelpLine 1-800-950-6264 (Mon–Fri 10 am–8 pm). In crisis, call or text 988."
+ },
+ {
+  "name": "NAMI Wake County – support groups and classes",
+  "city": "Raleigh",
+  "categories": [
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free, confidential support groups (Connections recovery group, Family Support group, Stress & Anxiety group) plus classes such as NAMI Basics, Family-to-Family and Peer-to-Peer.",
+  "address": "PO Box 12562, Raleigh, NC 27605",
+  "url": "https://nami-wake.org/",
+  "phone": "(919) 848-4490",
+  "hours": "Connections: Wed 7–8:30 pm; Family Support: Tue 7–8:30 pm; Stress & Anxiety: Mon 6–7:30 pm (all virtual)",
+  "access": "Open to the public.",
+  "cost": "free",
+  "source_url": "https://nami-wake.org/support-and-education/support-groups/",
+  "checked": "2026-11-10",
+  "notes": "Phone is the main office and helpline. In crisis, call or text 988."
+ },
+ {
+  "name": "NAMI Orange County – support groups and classes",
+  "city": "Chapel Hill",
+  "categories": [
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free family support group (in person and virtual), NAMI Connection, Peer-to-Peer and Family-to-Family classes for people with mental illness and their families.",
+  "address": "Christ United Methodist Church, Building 105, 800 Market St, Chapel Hill, NC 27516",
+  "url": "https://namiorangenc.org/",
+  "phone": "(919) 929-7822",
+  "hours": "Family Support Group: 1st Wednesday noon–1:30 pm (in person); 3rd Wednesday 7–8:30 pm (virtual)",
+  "access": "Virtual groups require registration at least 30 minutes ahead through the online calendar.",
+  "cost": "free",
+  "source_url": "https://namiorangenc.org/support-and-education/support-groups/nami-family-support-group/",
+  "checked": "2026-11-10",
+  "notes": "Address is for the in-person family support group only. NAMI NC Helpline 800-451-9682. In crisis, call or text 988."
+ },
+ {
+  "name": "NC Peer Warm Line (Promise Resource Network)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free, confidential 24/7 phone, text and chat line staffed by peers with lived experience of mental health challenges, for anyone in NC who wants to talk.",
+  "address": "",
+  "url": "https://promiseresourcenetwork.org/our-programs/nc-peer-warm-line",
+  "phone": "(855) 733-7762",
+  "hours": "24/7",
+  "access": "Call or text 1-855-PEERS-NC. No insurance, referral, appointment or documents needed.",
+  "cost": "free",
+  "source_url": "https://promiseresourcenetwork.org/our-programs/nc-peer-warm-line",
+  "checked": "2026-11-10",
+  "notes": "Calls last up to 15 minutes; you can call back every two hours. Not a crisis line; in crisis call or text 988."
+ },
+ {
+  "name": "Promise Resource Network – Raleigh Recovery Hub & Recovery Café",
+  "city": "Raleigh",
+  "categories": [
+   "Mental Health & Crisis",
+   "Community Centers"
+  ],
+  "org_type": "nonprofit",
+  "description": "Peer-run drop-in center with support groups, classes, one-on-one peer support, resource help, wellness activities and computers; the Recovery Café adds shared meals and peer circles.",
+  "address": "310 N Harrington St, Raleigh, NC 27601",
+  "url": "https://promiseresourcenetwork.org/our-programs/recovery-hub-raleigh",
+  "phone": "(919) 296-1580",
+  "hours": "Hub: Mon–Wed 8:30 am–1 pm, Thu 8:30 am–4 pm, Fri 8:30 am–1 pm. Café: Mon–Wed 1–3:30 pm, Thu 4–7:30 pm, Fri 1–3:30 pm.",
+  "access": "Hub is walk-in; no referral or appointment. Café is a free membership; guests may visit up to 3 times before joining, with weekly orientations.",
+  "cost": "free",
+  "source_url": "https://promiseresourcenetwork.org/our-programs/recovery-cafe-raleigh",
+  "checked": "2026-11-10",
+  "notes": "Café has a Narcan mailbox. Monthly calendars are on PRN's site."
+ },
+ {
+  "name": "The Retreat @ Fernwood (peer-run respite)",
+  "city": "Raleigh",
+  "categories": [
+   "Mental Health & Crisis"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free, voluntary peer-run respite house where adults in emotional distress can stay in a private room instead of going to an ER or hospital: no locks, no coercion.",
+  "address": "",
+  "url": "https://promiseresourcenetwork.org/our-programs/the-retreat-at-fernwood/",
+  "phone": "(919) 307-8149",
+  "hours": "Open 24/7",
+  "access": "Adults 18+. Stays are voluntary; not a clinical facility (no medication changes).",
+  "cost": "free",
+  "source_url": "https://promiseresourcenetwork.org/get-support/",
+  "checked": "2026-11-10",
+  "notes": "Stays of up to about a week; daily rides to PRN's Raleigh Recovery Hub. Address not published; call."
+ },
+ {
+  "name": "NC Navigator Consortium (free health insurance enrollment help)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free, unbiased help from certified navigators choosing a HealthCare.gov Marketplace plan, and year-round help applying for Medicaid.",
+  "address": "",
+  "url": "https://ncnavigator.org/",
+  "phone": "(855) 733-3711",
+  "hours": "",
+  "access": "Schedule online or by phone. Open Enrollment for 2027 coverage ends January 15, 2027.",
+  "cost": "free",
+  "source_url": "https://ncnavigator.org/get-help/",
+  "checked": "2026-11-10",
+  "notes": "Statewide network led by Legal Aid of North Carolina."
+ },
+ {
+  "name": "Durham County DSS – Medicaid applications",
+  "city": "Durham",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Apply for Medicaid in person, pick up or drop off paper applications, renew, or report changes.",
+  "address": "Human Services Building, 414 E Main St, Durham, NC 27701",
+  "url": "https://dconc.gov/Social-Services/Medicaid",
+  "phone": "",
+  "hours": "7:30 am–5:30 pm",
+  "access": "Walk in, or apply online at epass.nc.gov. Drop boxes inside and outside the building; Lobby 28 on the 2nd floor.",
+  "cost": "free",
+  "source_url": "https://dconc.gov/Social-Services/Medicaid",
+  "checked": "2026-11-10",
+  "notes": "Fax applications to 919-560-8501; report changes to DCoMedicaid@dconc.gov. NC Medicaid Contact Center: 1-888-245-0179."
+ },
+ {
+  "name": "Orange County DSS – Medicaid applications",
+  "city": "Hillsborough",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "County social services office where you can apply for adult and family Medicaid, along with food assistance and emergency help.",
+  "address": "Hillsborough Commons, 113 Mayo St, Hillsborough, NC 27278",
+  "url": "https://orangecountync.gov/378/Social-Services",
+  "phone": "(919) 245-2800",
+  "hours": "Mon–Fri 8 am–5 pm",
+  "access": "Walk in, call, or apply online at epass.nc.gov.",
+  "cost": "free",
+  "source_url": "https://orangecountync.gov/378/Social-Services",
+  "checked": "2026-11-10",
+  "notes": "Also at Southern Human Services Center, 2501 Homestead Rd, Chapel Hill. Email dssinfo@orangecountync.gov."
+ },
+ {
+  "name": "NeighborHealth Center",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Mental Health & Crisis",
+   "Kids & Families"
+  ],
+  "org_type": "faith_based",
+  "description": "Nonprofit primary care practice: adult care, pediatrics, OB/GYN and prenatal care, birth control and family planning, behavioral health, nutrition, lab and pharmacy.",
+  "address": "2605 Blue Ridge Rd, Suite 225, Raleigh, NC 27607",
+  "url": "https://neighborhealthcenter.org/",
+  "phone": "(984) 222-8000",
+  "hours": "Mon–Fri 8 am–5 pm; Sat 8 am–noon",
+  "access": "Uninsured patients welcome; same-day and next-day visits for established patients. Staff speak Spanish, Mandarin and Arabic.",
+  "cost": "sliding_scale",
+  "source_url": "https://neighborhealthcenter.org/payment-policies/",
+  "checked": "2026-11-10",
+  "notes": "Sliding fee $25–$75 per visit by income and family size; others pay a $150 same-day self-pay rate. A Christian faith-based practice that says it serves patients of any faith without discrimination. Pharmacy: (984) 222-8008."
+ },
+ {
+  "name": "NC Division of Services for the Deaf and Hard of Hearing – Raleigh Regional Center",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "Free information and help for Deaf, hard of hearing and DeafBlind people, their families and agencies, including interpreting and accessibility support, a lending library, and amplified or captioned phones and weather alert radios for those who qualify.",
+  "address": "3060 Hammond Business Place, Suite 141, Raleigh, NC 27603",
+  "url": "https://www.ncdhhs.gov/divisions/services-deaf-and-hard-hearing-dsdhh/dsdhh-regional-centers",
+  "phone": "(984) 247-8510",
+  "hours": "",
+  "access": "Serves Durham, Orange, Wake, Chatham and other nearby counties. Toll-free 800-999-5737; video phone 919-890-0858; TTY 919-839-6120.",
+  "cost": "free",
+  "source_url": "https://www.ncdhhs.gov/divisions/services-deaf-and-hard-hearing-dsdhh/dsdhh-regional-centers",
+  "checked": "2026-11-10",
+  "notes": "Telephone equipment requires NC residency, a certificate of disability and income up to 250% of poverty; weather alert radios need only NC residency and proof of hearing loss."
+ },
+ {
+  "name": "NC Services for the Blind – Medical Eye Care Program",
+  "city": "Triangle-wide",
+  "categories": [
+   "Health Care & Harm Reduction"
+  ],
+  "org_type": "public",
+  "description": "State program that may help low-income NC residents without Medicaid pay for eye surgery, treatment and eye medicines to prevent blindness or restore vision (cataracts, glaucoma, retinal problems).",
+  "address": "",
+  "url": "https://www.ncdhhs.gov/assistance/vision-loss/medical-eye-care-program",
+  "phone": "(866) 222-1546",
+  "hours": "",
+  "access": "Income-based. Apply through your county's Social Worker for the Blind or local DSB district office. Spanish: 1-800-662-7030.",
+  "cost": "",
+  "source_url": "https://www.ncdhhs.gov/assistance/vision-loss/medical-eye-care-program",
+  "checked": "2026-11-10",
+  "notes": "Help depends on available funds; eligibility is decided by a Social Worker for the Blind."
+ }
+]

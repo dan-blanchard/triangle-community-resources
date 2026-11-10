@@ -243,7 +243,8 @@ def dedupe(entries: list[dict]) -> list[dict]:
             sk = street_key(e["address"])
             if sk:
                 match = next((o for o in out if o["city"] == e["city"] and street_key(o["address"]) == sk
-                              and same_site_names(o["name"], e["name"])), None)
+                              and same_site_names(o["name"], e["name"])
+                              and set(o["categories"]) & set(e["categories"])), None)  # same building, same kind of help
         if not match and not e.get("curated_file"):
             # Scraped rows often carry only a county-level town guess, so let them merge
             # into an entry in another town when the name or the exact page matches.

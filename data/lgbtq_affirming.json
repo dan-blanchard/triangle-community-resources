@@ -168,14 +168,6 @@
   "checked": "2026-11-10"
  },
  {
-  "name": "NCCU Food Pantry- FOR NCCU STUDENTS & STAFF ONLY",
-  "city": "Durham",
-  "basis": "nondiscrimination_policy",
-  "evidence": "NCCU prohibits discrimination on the basis of \"gender identity or gender expression, and sexual orientation\" in education programs and student admission.",
-  "evidence_url": "https://www.nccu.edu/node/8701/",
-  "checked": "2026-11-10"
- },
- {
   "name": "Planned Parenthood – Chapel Hill Health Center",
   "city": "Chapel Hill",
   "basis": "affirming_statement",
@@ -522,5 +514,101 @@
   "evidence_url": "https://www.wake.gov/news/wake-county-libraries-and-parks-celebrate-pride-month-special-events-june-0",
   "checked": "2026-11-10",
   "decided_by": "maintainer (2026-11-10): include Wake County libraries"
+ },
+ {
+  "name": "Carolina Abortion Fund",
+  "city": "Triangle-wide",
+  "basis": "nondiscrimination_policy",
+  "evidence": "\"We serve all of our callers regardless of gender identity, race, age, socioeconomic status, sexual orientation, religion...\"",
+  "evidence_url": "https://www.carolinaabortionfund.org/about",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Hillsborough Clinic (Whitted)",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Chapel Hill Clinic (Southern Human Services)",
+  "city": "Chapel Hill",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Health Department – Dental Clinic",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Health Department non-discrimination policy names sexual orientation, gender identity and sex characteristics among bases it won't exclude or discriminate on.",
+  "evidence_url": "https://www.orangecountync.gov/204/Health-Department",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "OWASA Care to Share – Water Bill Assistance",
+  "city": "Carrboro",
+  "basis": "nondiscrimination_policy",
+  "evidence": "OWASA \"does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.\"",
+  "evidence_url": "https://www.owasa.org/non-employee-discrimination-complaints/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hope Renovations – Aging-in-Place Repairs & Construction Trades Training",
+  "city": "Carrboro",
+  "basis": "affirming_statement",
+  "evidence": "Trades training program \"designed for women and gender-expansive folks\"; \"We prepare women and gender-expansive people for careers in construction.\"",
+  "evidence_url": "https://hoperenovations.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Veteran Services",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+  "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LGBT Center of Raleigh – Trans, Youth & Family Support Groups",
+  "city": "Raleigh",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ community center running Transgender Discussion Group, Nonbinary Tea Time, SOFFA, Youth Coffee House, TransGens and Parents of Queer Youth Alliance.",
+  "evidence_url": "https://www.lgbtcenterofraleigh.com/trans-gender-expansive",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LGBT Center of Raleigh – Free HIV/STI Testing & LGBTQ+ Mental Health Support Group",
+  "city": "Raleigh",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ community center; hosts free HIV/STI testing and a peer-led LGBT+ Mental Health Support Group with NAMI Wake County.",
+  "evidence_url": "https://www.lgbtcenterofraleigh.com/health-wellness",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LGBTQ+ Youth Center (LGBTQ Center of Durham)",
+  "city": "Durham",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ Youth Center within the LGBTQ Center of Durham serving youth ages 12-24 through programming, drop-in space and events.",
+  "evidence_url": "https://www.lgbtqcenterofdurham.org/program/youthcenter/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Carolina Literacy",
+  "city": "Carrboro",
+  "basis": "nondiscrimination_policy",
+  "evidence": "\"We proudly welcome all learners, volunteers and employees regardless of ... gender identity, sexual orientation...\"",
+  "evidence_url": "https://www.carolinaliteracy.org/mission-vision-values",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Office of Civil Rights & Civic Life",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Enforces Orange County Civil Rights Ordinance; protected characteristics include Gender Identity and Sexual Orientation in housing, employment, public accommodations and county services.",
+  "evidence_url": "https://orangecountync.gov/3383/Protected-Classes-Covered-Areas",
+  "checked": "2026-11-10"
  }
 ]

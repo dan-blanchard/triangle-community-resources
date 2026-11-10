@@ -1,0 +1,382 @@
+[
+ {
+  "name": "Disability Rights North Carolina (DRNC)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Legal & Immigration"
+  ],
+  "org_type": "nonprofit",
+  "description": "North Carolina's federally designated protection and advocacy agency. Gives free legal help and advocacy to people with disabilities on community living, access to services, employment, housing, education, guardianship, abuse and neglect, and accessible voting.",
+  "address": "801 Corporate Center Dr, Suite 118, Raleigh, NC 27607",
+  "url": "https://disabilityrightsnc.org/",
+  "phone": "(919) 856-2195",
+  "hours": "",
+  "access": "NC residents with a disability. Apply online or call for an attorney appointment. Family members and professionals can get information.",
+  "cost": "free",
+  "source_url": "https://disabilityrightsnc.org/",
+  "checked": "2026-11-10",
+  "notes": "Toll-free in NC: 1-877-235-4210. TTY: Relay 711. The site warns of a very high volume of requests, so responses may be slow. Online intake: disabilityrightsnc.org/get-help/apply-for-legal-help/"
+ },
+ {
+  "name": "Alliance of Disability Advocates (Center for Independent Living)",
+  "city": "Raleigh",
+  "categories": [
+   "Legal & Immigration",
+   "Classes, Computers & Wi-Fi",
+   "Clothing & Household"
+  ],
+  "org_type": "nonprofit",
+  "description": "The Raleigh-area center for independent living. Offers information and referral, advocacy, peer support, independent-living skills training, transition help for youth, reentry support after incarceration, employment information for SSDI recipients, and a suit closet for job seekers with disabilities.",
+  "address": "3725 National Dr, Suite 105, Raleigh, NC 27612",
+  "url": "https://adanc.org/",
+  "phone": "(919) 833-1117",
+  "hours": "By appointment only, Mon–Fri 9 am–5 pm",
+  "access": "Anyone who self-identifies as having a disability, in Raleigh-Durham and the surrounding area. If you can't get through by phone, use the online referral form.",
+  "cost": "free",
+  "source_url": "https://adanc.org/",
+  "checked": "2026-11-10",
+  "notes": "The site says all services are free to people who self-identify as having a disability. Referral form: adanc.org/referral/. The old adacil.org domain now belongs to an unrelated New Jersey group."
+ },
+ {
+  "name": "NC Assistive Technology Program (NCATP) – Raleigh Center",
+  "city": "Raleigh",
+  "categories": [
+   "Borrow Things"
+  ],
+  "org_type": "public",
+  "description": "State and federally funded NCDHHS program. Lets you try assistive technology through device demonstrations and short-term loans before buying, and gives out reused equipment. Also runs AAC and AT assessments and free weekly online 'Accessibility for All' sessions.",
+  "address": "3080 Hammond Business Pl, Suite 101, Raleigh, NC 27606",
+  "url": "https://www.ncdhhs.gov/divisions/employment-and-independence-people-disabilities/north-carolina-assistive-technology-program",
+  "phone": "(919) 664-1242",
+  "hours": "",
+  "access": "Statewide, for people of all ages and abilities. Contact the Raleigh Center or email ATIntake@dhhs.nc.gov.",
+  "cost": "free",
+  "source_url": "https://www.ncdhhs.gov/ncatp-centers",
+  "checked": "2026-11-10",
+  "notes": "NCDHHS pages don't state loan fees. NCATP's 2025 federal AT Act report shows reused devices given out at $0, so confirm terms when you call. Intake line: (919) 855-3564. Equipment exchange and reuse contact: (919) 664-1254. An online lending catalog (AT4ALL) has been announced."
+ },
+ {
+  "name": "Triangle Self-Advocacy Network (Triangle Disability & Autism Services)",
+  "city": "Raleigh",
+  "categories": [
+   "Mutual Aid & Organizing",
+   "Classes, Computers & Wi-Fi"
+  ],
+  "org_type": "nonprofit",
+  "description": "Self-advocacy group for adults with intellectual and developmental disabilities (IDD) or autism, run by Triangle Disability & Autism Services (formerly The Arc of the Triangle). Members pick the topics, such as voting rights, transportation, money management and independent living, and also hold social outings.",
+  "address": "Hillyer Memorial Christian Church, 718 Hillsborough St, Raleigh, NC 27603",
+  "url": "https://triangledisability.org/services-programs/commprog/",
+  "phone": "(919) 942-5119",
+  "hours": "2nd Tuesday 6–7:30 pm (in person); 1st Friday 1–2 pm (Zoom only). Both meetings cover the same topic.",
+  "access": "Adults 18+ with IDD or autism",
+  "cost": "low_cost_membership",
+  "source_url": "https://triangledisability.org/services-programs/commprog/",
+  "checked": "2026-11-10",
+  "notes": "Dues are $25 a year. Scholarships may be available for financial need: call (919) 816-7388. TDAS also runs a free Supported Retirement program for adults 50+ with IDD (must qualify, limited space). The Arc of NC lists no Arc chapter in Wake, Durham, Orange or Chatham."
+ },
+ {
+  "name": "Refugee Hope Partners",
+  "city": "Raleigh",
+  "categories": [
+   "Classes, Computers & Wi-Fi",
+   "Kids & Families",
+   "Legal & Immigration"
+  ],
+  "org_type": "faith_based",
+  "description": "Christian nonprofit serving refugee families in Wake County. Runs multi-level adult ESL classes year-round at its North Raleigh Welcome Center, an ESL Kids' Club for learners' children, homework help from kindergarten through college, an early-learning club for ages 3 to pre-K, teen mentoring, and help coordinating medical appointments.",
+  "address": "6625 Falls of Neuse Rd, Suite 015, Raleigh, NC 27615",
+  "url": "https://refugeehopepartners.org/",
+  "phone": "(919) 390-2462",
+  "hours": "Three ESL cohort schedules a week; see the calendar",
+  "access": "Refugees in the Raleigh area. The group says none of its services depend on joining its faith-based programs (Bible studies are optional).",
+  "cost": "free",
+  "source_url": "https://refugeehopepartners.org/education-and-enrichment/",
+  "checked": "2026-11-10",
+  "notes": "Its own site doesn't state fees. The National Literacy Directory lists its English classes as free (listing last updated Feb 2024). Email: info@refugeehopepartners.org."
+ },
+ {
+  "name": "Refugee Support Center",
+  "city": "Carrboro",
+  "categories": [
+   "Legal & Immigration",
+   "Classes, Computers & Wi-Fi",
+   "Food",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Volunteer-based nonprofit giving long-term help to refugees after resettlement. Offers citizenship and English classes, after-school tutoring, monthly food and diaper distributions, and help with jobs, taxes, leases and health insurance. Has a DOJ-accredited representative for green cards, naturalization and family reunification.",
+  "address": "401 Highway 54 Bypass, E-15, Carrboro, NC 27510",
+  "url": "https://refugeesupportcenter.org/",
+  "phone": "(919) 423-1478",
+  "hours": "",
+  "access": "Refugees, mainly in Orange County. Refugees from nearby counties are served case by case. Interpreters for Arabic, Burmese, French, Karen, Kinyarwanda and Swahili; call ahead.",
+  "cost": "sliding_scale",
+  "source_url": "https://refugeesupportcenter.org/immigration-legal-assistance/",
+  "checked": "2026-11-10",
+  "notes": "The site doesn't list fees. For immigration legal work it says it has a written policy to accommodate people unable to pay, and it can help with USCIS fee waivers. Hours aren't posted, so call. Some links on the site point to other domains; use refugeesupportcenter.org."
+ },
+ {
+  "name": "Carolina Literacy",
+  "city": "Carrboro",
+  "categories": [
+   "Classes, Computers & Wi-Fi",
+   "Legal & Immigration",
+   "Kids & Families"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free English (ESOL) classes for adults from beginner to advanced, taught by trained volunteers. Small-group classes meet twice a week, with daytime, evening and virtual options. Also offers one-on-one tutoring for the U.S. citizenship test and academic English, plus childcare for ages 1–5 during morning classes.",
+  "address": "307 W. Weaver St, Carrboro, NC 27510",
+  "url": "https://www.carolinaliteracy.org/",
+  "phone": "(919) 590-0727",
+  "hours": "Office Mon–Fri 9 am–4 pm. Classes run in fall and spring semesters on the Chapel Hill-Carrboro schools calendar.",
+  "access": "Adults at any English level. Sign up through the 'Free Classes' form on the website.",
+  "cost": "free",
+  "source_url": "https://www.carolinaliteracy.org/programs",
+  "checked": "2026-11-10",
+  "notes": "The site says 'All Programs are Free.' Email: info@carolinaliteracy.org."
+ },
+ {
+  "name": "Genesis ESL (Genesis United Methodist Church)",
+  "city": "Cary",
+  "categories": [
+   "Classes, Computers & Wi-Fi"
+  ],
+  "org_type": "faith_based",
+  "description": "Free church-hosted English classes for adults (beginner, intermediate, conversation and advanced), followed by tutoring. Also offers sessions on job-seeking skills and on medical and insurance vocabulary.",
+  "address": "850 High House Rd, Cary, NC 27513",
+  "url": "https://www.genesis-umc.org/esl",
+  "phone": "(919) 467-2128",
+  "hours": "Classes Mon & Thu 9:30–11:30 am; tutoring after class until 12:30 pm",
+  "access": "Adults of any background. No church membership needed. The program says it doesn't proselytize, and Bible study is offered separately.",
+  "cost": "free",
+  "source_url": "https://www.genesis-umc.org/esl",
+  "checked": "2026-11-10",
+  "notes": "The fall roster is full, so new students join a waiting list on the web page. Email: esl@genesis-umc.org. The National Literacy Directory listing was updated Aug 2026."
+ },
+ {
+  "name": "City of Raleigh Parks – Free English Classes for Adults",
+  "city": "Raleigh",
+  "categories": [
+   "Classes, Computers & Wi-Fi"
+  ],
+  "org_type": "public",
+  "description": "Free English classes run by Raleigh Parks' Cultural Outreach & Enrichment program at community centers around the city. Most classes are beginner to intermediate. There are also conversation groups.",
+  "address": "",
+  "url": "https://raleighnc.gov/services/parks/cultural-program",
+  "phone": "(919) 996-6844",
+  "hours": "Fall 2026 (from week of Sept 14): Powell Drive Neighborhood Center Mon & Wed 10:30 am–12 pm (beginner) and Thu 6:30–8 pm (conversation); Green Road Community Center Mon 6:30–8 pm; Peach Road Park Tue & Thu 10:30 am–12 pm; Walnut Creek Wetland Center Tue 10:30 am–12 pm; Five Points Center for Active Adults Thu 10:30 am–12 pm",
+  "access": "All English levels and backgrounds welcome. Register through RecLink (search 'esl').",
+  "cost": "free",
+  "source_url": "https://raleighnc.gov/services/parks/cultural-program",
+  "checked": "2026-11-10",
+  "notes": "Email: coeprogram@raleighnc.gov. The program office (2401 Wade Ave) doesn't hold classes."
+ },
+ {
+  "name": "Chatham Literacy",
+  "city": "Pittsboro",
+  "categories": [
+   "Classes, Computers & Wi-Fi",
+   "Legal & Immigration",
+   "Money & Bills"
+  ],
+  "org_type": "nonprofit",
+  "description": "Free adult education for people who live or work in Chatham County. Volunteer tutors teach one-on-one or in small groups. Programs: ESOL (English), U.S. citizenship test prep, adult basic education, Spanish literacy, financial literacy and digital literacy.",
+  "address": "",
+  "url": "https://www.chathamliteracy.org/",
+  "phone": "(919) 742-0578",
+  "hours": "",
+  "access": "Adults living or working in Chatham County. Register online, call or email admin@chathamliteracy.org. Spanish spoken.",
+  "cost": "free",
+  "source_url": "https://chathamliteracy.org/our-programs/",
+  "checked": "2026-11-10",
+  "notes": "The office is in Siler City (110 Village Lake Rd). The mailing address is PO Box 1696, Pittsboro. Call to find out where classes and tutoring meet."
+ },
+ {
+  "name": "LGBT Center of Raleigh – Trans, Youth & Family Support Groups",
+  "city": "Raleigh",
+  "categories": [
+   "Mental Health & Crisis",
+   "Community Centers",
+   "Kids & Families"
+  ],
+  "org_type": "community_org",
+  "description": "Peer support groups at the LGBT Center of Raleigh. Adults: the Transgender Discussion Group, Nonbinary Tea Time socials, and SOFFA for partners, family and friends of trans people. Teens 13–18: Youth Coffee House peer support. Families: TransGens one-on-one support and the Parents of Queer Youth Alliance.",
+  "address": "128 E Cabarrus St, Raleigh, NC 27601",
+  "url": "https://www.lgbtcenterofraleigh.com/youth-and-family",
+  "phone": "(919) 832-4484",
+  "hours": "Transgender Discussion Group: 2nd Monday 7 pm. SOFFA: 3rd Saturday 9 am on Zoom. Youth Coffee House meets in Raleigh and Fuquay-Varina. Check the Center calendar for other dates.",
+  "access": "Transgender Discussion Group is a closed group for trans and gender-questioning adults 18+ and their supporters. Email info@lgbtcenterofraleigh.com to join SOFFA. Book TransGens at transgens@lgbtcenterofraleigh.com.",
+  "cost": "free",
+  "source_url": "https://www.lgbtcenterofraleigh.com/trans-gender-expansive",
+  "checked": "2026-11-10",
+  "notes": "The Center doesn't list fees for these peer groups. Its Drop-In Sundays, TpartE trans youth group and youth book club are paused as of Nov 2026. Center hours: Wed–Thu 12–6 pm, Fri 12–4 pm, Sat 11 am–2 pm."
+ },
+ {
+  "name": "LGBT Center of Raleigh – Free HIV/STI Testing & LGBTQ+ Mental Health Support Group",
+  "city": "Raleigh",
+  "categories": [
+   "Health Care & Harm Reduction",
+   "Mental Health & Crisis"
+  ],
+  "org_type": "community_org",
+  "description": "Free, confidential walk-in HIV/STI testing with Alliance of AIDS Services–Carolina, including counseling and links to care. There is also a free peer-led LGBTQ+ mental health support group with NAMI Wake County, and free monthly Pride Flow yoga.",
+  "address": "128 E Cabarrus St, Raleigh, NC 27601",
+  "url": "https://www.lgbtcenterofraleigh.com/health-wellness",
+  "phone": "(919) 832-4484",
+  "hours": "Testing every other Monday 5–7 pm; check the calendar for testing nights",
+  "access": "No appointment needed for testing. The support group is virtual for now and is due to return in person in 2026.",
+  "cost": "free",
+  "source_url": "https://www.lgbtcenterofraleigh.com/health-wellness",
+  "checked": "2026-11-10",
+  "notes": ""
+ },
+ {
+  "name": "LGBTQ+ Youth Center (LGBTQ Center of Durham)",
+  "city": "Durham",
+  "categories": [
+   "Community Centers",
+   "Kids & Families",
+   "Mental Health & Crisis"
+  ],
+  "org_type": "community_org",
+  "description": "Youth center inside the LGBTQ Center of Durham for ages 12–24, with a drop-in space, programs and events. Staff also meet with middle and high school Gender & Sexuality Alliances.",
+  "address": "118 Hunt St, Durham, NC 27701",
+  "url": "https://www.lgbtqcenterofdurham.org/program/youthcenter/",
+  "phone": "",
+  "hours": "Youth drop-in on the Center calendar (e.g. Wed Nov 11, 2026, 4:30–7 pm)",
+  "access": "LGBTQ+ youth ages 12–24. Drop in during listed hours.",
+  "cost": "free",
+  "source_url": "https://www.lgbtqcenterofdurham.org/events/",
+  "checked": "2026-11-10",
+  "notes": "Email: youthcenter@lgbtqcenterofdurham.org. The main LGBTQ Center of Durham listing covers its other services."
+ },
+ {
+  "name": "NAACP Durham Branch – Legal Redress Committee",
+  "city": "Durham",
+  "categories": [
+   "Legal & Immigration"
+  ],
+  "org_type": "community_org",
+  "description": "Takes civil rights and discrimination complaints. The Legal Redress Committee reviews each complaint form and tells you whether and how the branch can help.",
+  "address": "2726 Croasdaile Dr, Suite 205, Durham, NC 27705",
+  "url": "https://www.durhamnaacp.org/",
+  "phone": "(919) 294-6143",
+  "hours": "",
+  "access": "Download the complaint form from the website and return it by email or mail. Review takes at least 2 weeks.",
+  "cost": "free",
+  "source_url": "https://www.durhamnaacp.org/compliant-form",
+  "checked": "2026-11-10",
+  "notes": "No filing fee is mentioned. The branch is not a law firm and doesn't give legal advice or representation. It generally won't take criminal, divorce, custody or domestic violence matters, or cases that already have a lawyer. For urgent matters, contact an attorney. Mailing address: PO Box 3312, Durham, NC 27702."
+ },
+ {
+  "name": "Raleigh-Apex NAACP – Legal Redress Committee",
+  "city": "Raleigh",
+  "categories": [
+   "Legal & Immigration"
+  ],
+  "org_type": "community_org",
+  "description": "Local NAACP branch serving Raleigh, Apex, Cary, Fuquay-Varina, Garner, Holly Springs and Morrisville. Its Legal Redress Committee investigates reported discrimination cases.",
+  "address": "144 Annaron Ct, Raleigh, NC 27603",
+  "url": "https://raleighapexnaacp.org/",
+  "phone": "(919) 662-5006",
+  "hours": "",
+  "access": "Call the branch or use the Join/Contact page.",
+  "cost": "free",
+  "source_url": "https://raleighapexnaacp.org/branch-committees/",
+  "checked": "2026-11-10",
+  "notes": "The site doesn't describe an intake process or fees, so call first. Mailing address: #5436 PO Box 25427, Raleigh, NC 27611."
+ },
+ {
+  "name": "NC NAACP – Legal Redress Complaint Form",
+  "city": "Triangle-wide",
+  "categories": [
+   "Legal & Immigration"
+  ],
+  "org_type": "community_org",
+  "description": "The NAACP North Carolina State Conference takes civil rights complaints through a legal redress form on its website. Useful where there's no local branch with its own intake, such as Orange and Chatham counties.",
+  "address": "",
+  "url": "https://ncnaacp.org/",
+  "phone": "(984) 266-2227",
+  "hours": "",
+  "access": "Download the form from the website, or call or email info@ncnaacp.org.",
+  "cost": "free",
+  "source_url": "https://ncnaacp.org/nc-state-legal-redress-form-1/",
+  "checked": "2026-11-10",
+  "notes": "The form page (posted June 2025) doesn't describe the process. Local branch forms say this is not a lawsuit or government complaint and not legal representation. Mailing address: PO Box 27392, Raleigh, NC 27611."
+ },
+ {
+  "name": "Fair Housing Project of Legal Aid of NC – Housing Discrimination Helpline",
+  "city": "Triangle-wide",
+  "categories": [
+   "Legal & Immigration",
+   "Housing & Shelter"
+  ],
+  "org_type": "nonprofit",
+  "description": "Statewide project of Legal Aid of North Carolina. Gives free help to renters and home seekers facing housing discrimination, through education, advocacy and enforcement.",
+  "address": "",
+  "url": "https://www.fairhousingnc.org/",
+  "phone": "1-855-797-3247 (1-855-797-FAIR)",
+  "hours": "Helpline Tue 9 am–1 pm, Thu 1–5 pm",
+  "access": "Anyone in NC who thinks they faced housing discrimination. Call the helpline. It doesn't give legal help by email.",
+  "cost": "free",
+  "source_url": "https://legalaidnc.org/topic/housing/fair-housing/",
+  "checked": "2026-11-10",
+  "notes": "This is separate from Legal Aid's general helpline (1-866-219-5262) and its eviction clinics."
+ },
+ {
+  "name": "City of Durham Human Relations – Fair Housing Complaints",
+  "city": "Durham",
+  "categories": [
+   "Legal & Immigration",
+   "Housing & Shelter"
+  ],
+  "org_type": "public",
+  "description": "City office that enforces the federal Fair Housing Act and Durham's Fair Housing Ordinance. Takes housing discrimination and harassment complaints, including those based on sexual orientation, and provides fair housing education.",
+  "address": "",
+  "url": "https://www.durhamnc.gov/4811/Fair-Housing",
+  "phone": "(919) 560-4570",
+  "hours": "",
+  "access": "Use the online complaint form, or call or email FairHousing@durhamnc.gov.",
+  "cost": "free",
+  "source_url": "https://www.durhamnc.gov/4811/Fair-Housing",
+  "checked": "2026-11-10",
+  "notes": "Covers race, color, national origin, religion, sex, disability, familial status, military status, protected hairstyles, sexual orientation and 'sexual identity.' The page doesn't state a fee."
+ },
+ {
+  "name": "Orange County Office of Civil Rights & Civic Life",
+  "city": "Hillsborough",
+  "categories": [
+   "Legal & Immigration",
+   "Housing & Shelter"
+  ],
+  "org_type": "public",
+  "description": "County office that takes discrimination complaints about housing, employment, public accommodations and county services under the Orange County Civil Rights Ordinance. Also gives Know Your Rights and immigration and refugee protection information and community workshops.",
+  "address": "306 Revere Rd, Suite B, Hillsborough, NC",
+  "url": "https://orangecountync.gov/3376/Civil-Rights-Protections-Enforcement",
+  "phone": "(919) 245-2594",
+  "hours": "",
+  "access": "Anyone who faced discrimination in Orange County. Start a complaint online, or call or email civilrights@orangecountync.gov. Language help available.",
+  "cost": "free",
+  "source_url": "https://www.orangecountync.gov/2155/File-a-Complaint",
+  "checked": "2026-11-10",
+  "notes": "The county says the process is 'free and confidential.' Protected classes include gender identity and sexual orientation."
+ },
+ {
+  "name": "North Carolina Free Legal Answers (ABA)",
+  "city": "Triangle-wide",
+  "categories": [
+   "Legal & Immigration"
+  ],
+  "org_type": "nonprofit",
+  "description": "Online legal advice clinic. Qualifying users post civil legal questions for free, and volunteer NC-licensed attorneys answer them. Topics include housing and eviction, family, consumer, employment, health and disability, civil rights and education.",
+  "address": "",
+  "url": "https://nc.freelegalanswers.org/",
+  "phone": "",
+  "hours": "Online, any time",
+  "access": "Answer a short screening to see if you qualify, then post a question. You get an email when an attorney answers.",
+  "cost": "free",
+  "source_url": "https://nc.freelegalanswers.org/",
+  "checked": "2026-11-10",
+  "notes": "A project of the American Bar Association. Civil questions only; immigration questions go to the federal Free Legal Answers site."
+ }
+]

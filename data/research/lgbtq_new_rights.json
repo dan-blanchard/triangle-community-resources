@@ -1,0 +1,42 @@
+[
+ {
+  "name": "LGBT Center of Raleigh – Trans, Youth & Family Support Groups",
+  "city": "Raleigh",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ community center running Transgender Discussion Group, Nonbinary Tea Time, SOFFA, Youth Coffee House, TransGens and Parents of Queer Youth Alliance.",
+  "evidence_url": "https://www.lgbtcenterofraleigh.com/trans-gender-expansive",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LGBT Center of Raleigh – Free HIV/STI Testing & LGBTQ+ Mental Health Support Group",
+  "city": "Raleigh",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ community center; hosts free HIV/STI testing and a peer-led LGBT+ Mental Health Support Group with NAMI Wake County.",
+  "evidence_url": "https://www.lgbtcenterofraleigh.com/health-wellness",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LGBTQ+ Youth Center (LGBTQ Center of Durham)",
+  "city": "Durham",
+  "basis": "lgbtq_org",
+  "evidence": "LGBTQ+ Youth Center within the LGBTQ Center of Durham serving youth ages 12-24 through programming, drop-in space and events.",
+  "evidence_url": "https://www.lgbtqcenterofdurham.org/program/youthcenter/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Carolina Literacy",
+  "city": "Carrboro",
+  "basis": "nondiscrimination_policy",
+  "evidence": "\"We proudly welcome all learners, volunteers and employees regardless of ... gender identity, sexual orientation...\"",
+  "evidence_url": "https://www.carolinaliteracy.org/mission-vision-values",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Office of Civil Rights & Civic Life",
+  "city": "Hillsborough",
+  "basis": "nondiscrimination_policy",
+  "evidence": "Enforces Orange County Civil Rights Ordinance; protected characteristics include Gender Identity and Sexual Orientation in housing, employment, public accommodations and county services.",
+  "evidence_url": "https://orangecountync.gov/3383/Protected-Classes-Covered-Areas",
+  "checked": "2026-11-10"
+ }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "OWASA Care to Share – Water Bill Assistance",
+    "city": "Carrboro",
+    "basis": "nondiscrimination_policy",
+    "evidence": "OWASA \"does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.\"",
+    "evidence_url": "https://www.owasa.org/non-employee-discrimination-complaints/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Hope Renovations – Aging-in-Place Repairs & Construction Trades Training",
+    "city": "Carrboro",
+    "basis": "affirming_statement",
+    "evidence": "Trades training program \"designed for women and gender-expansive folks\"; \"We prepare women and gender-expansive people for careers in construction.\"",
+    "evidence_url": "https://hoperenovations.org/",
+    "checked": "2026-11-10"
+  },
+  {
+    "name": "Orange County Veteran Services",
+    "city": "Hillsborough",
+    "basis": "nondiscrimination_policy",
+    "evidence": "Orange County does not discriminate on the basis of ... sexual orientation, gender identity and expression ... in the administration of its programs or activities.",
+    "evidence_url": "https://www.orangecountync.gov/1757/Legal-Notices",
+    "checked": "2026-11-10"
+  }
+]

@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Samaritan Health Center",
+  "city": "Durham",
+  "finding": "no_stance_found",
+  "evidence": "Mission: \"show the love of Christ\" through healthcare. Services list primary care, STI testing, vaccines, vision; no contraception mentioned and no pro-life or anti-contraception statement found.",
+  "evidence_url": "https://www.samaritanhealthcenter.org/services"
+ },
+ {
+  "name": "Alliance Medical Ministry",
+  "city": "Raleigh",
+  "finding": "no_stance_found",
+  "evidence": "Secular-worded mission (health equity); faith-based partners. Offers volunteer gynecology and well-woman exams (45+); contraception not mentioned; no pro-life statement found.",
+  "evidence_url": "https://www.alliancemedicalministry.org/comprehensive-care"
+ },
+ {
+  "name": "Open Door Clinic (Urban Ministries of Wake County)",
+  "city": "Raleigh",
+  "finding": "no_stance_found",
+  "evidence": "Clinic page lists primary care, behavioral health and gynecological specialty services; contraception not mentioned; no pro-life or faith statement found.",
+  "evidence_url": "https://urbanmin.org/services/clinic-pharmacy"
+ },
+ {
+  "name": "Mariam Clinic",
+  "city": "Cary",
+  "finding": "no_stance_found",
+  "evidence": "Vision rooted in \"traditional Islamic principles of service\"; lists Women's Health Services without detail; no contraception or abortion stance found.",
+  "evidence_url": "https://www.mariamclinic.org/about-us"
+ },
+ {
+  "name": "Shepherd's Care Medical Clinic",
+  "city": "Zebulon",
+  "finding": "no_stance_found",
+  "evidence": "No live official website found (shepherdscareclinic.com is a parked/spam domain), so no stance could be checked; listed on Wake County's free clinic page.",
+  "evidence_url": "https://www.wake.gov/departments-government/public-health/health-clinics"
+ },
+ {
+  "name": "NeighborHealth Center",
+  "city": "Raleigh",
+  "finding": "provides_contraception",
+  "evidence": "Christian faith-based practice (\"serve Christ\") whose OB/GYN and women's health services list \"Birth control and family planning\"; no pro-life statement found.",
+  "evidence_url": "https://neighborhealthcenter.org/womens-health/"
+ }
+]

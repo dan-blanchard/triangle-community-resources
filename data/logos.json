@@ -9,6 +9,10 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"adanc.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "agingforwarddurham.org": {
 "file": "agingforwarddurham.org.png",
 "fp": "a1cfa66ee97231f5e710db5de93b5f7baf93cec0",
@@ -69,6 +73,12 @@
 "src": "https://www.beyondfences.org/wp-content/uploads/cropped-Horizontal-with-tag-line-1-180x180.png",
 "checked": "2026-11-10"
 },
+"bgcdoc.org": {
+"file": "bgcdoc.org.png",
+"fp": "8bd0f9dce2b4d492fd9e2d9ab67376129ddbe5ee",
+"src": "https://bgcdoc.org/wp-content/uploads/2021/08/Favicon-180.png",
+"checked": "2026-11-10"
+},
 "binkleychurch.org": {
 "file": "binkleychurch.org.png",
 "fp": "2b5f33678a35129828d765a7f139c5a9c4c78a29",
@@ -79,6 +89,12 @@
 "file": "bookharvest.org.png",
 "fp": "a9c2a0691836a261ecb0cd58039737ba0a654b4c",
 "src": "https://static.wixstatic.com/media/b9ef69_cadc00bf84464b188409077cfa8754a2~mv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/b9ef69_cadc00bf84464b188409077cfa8754a2~mv2.jpg",
+"checked": "2026-11-10"
+},
+"brigidalliance.org": {
+"file": "brigidalliance.org.png",
+"fp": "69528554d616dd0396993730333f17ed33653852",
+"src": "https://brigidalliance.org/wp-content/uploads/2022/09/brij_icon.png",
 "checked": "2026-11-10"
 },
 "buynothingproject.org": {
@@ -103,16 +119,38 @@
 "src": "https://www.cancer.org/content/dam/cancer-org/images/logos/acs/favicon.png",
 "checked": "2026-11-10"
 },
+"capitalareancworks.com": {
+"file": null,
+"checked": "2026-11-10"
+},
+"carolinaabortionfund.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"carolinaliteracy.org": {
+"file": "carolinaliteracy.org.png",
+"fp": "0411d8c5ae45611da83a4f41f0ad8e09e38601dd",
+"src": "https://images.squarespace-cdn.com/content/v1/68cc587ae4f18f6d0354252f/d89254fd-81bd-48b4-a46e-cf06ca4df308/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
 "carrborofarmersmarket.com": {
 "file": "carrborofarmersmarket.com.png",
 "fp": "fea0c85f77e7d52920dd30029b46813ee52b6c8d",
 "src": "https://images.squarespace-cdn.com/content/v1/67bf79cd7b2c2633eaeb8512/1740601886061-4W15RRN6HIR4GTP8NMJ3/favicon.ico?format=100w",
 "checked": "2026-11-10"
 },
+"carrboronc.gov": {
+"file": null,
+"checked": "2026-11-10"
+},
 "catholiccharitiesraleigh.org": {
 "file": "catholiccharitiesraleigh.org.png",
 "fp": "5daf4d45eb166396a3ffd1094b5cec7ebebbb413",
 "src": "https://www.catholiccharitiesraleigh.org/wp-content/uploads/2017/03/cropped-favicon-chapel-512-180x180.png",
+"checked": "2026-11-10"
+},
+"ccfhnc.org": {
+"file": null,
 "checked": "2026-11-10"
 },
 "celebracioncristiana.org": {
@@ -161,6 +199,18 @@
 "src": "https://www.chathamcountync.gov/favicon.ico",
 "checked": "2026-11-10"
 },
+"chathamkids.org": {
+"file": "chathamkids.org.png",
+"fp": "d255a9fea8661e6696ab740d2e0f0f94a306ae43",
+"src": "https://chathamkids.org/wp-content/uploads/2023/11/cropped-cropped-favicon-180x180.png",
+"checked": "2026-11-10"
+},
+"chathamliteracy.org": {
+"file": "chathamliteracy.org.png",
+"fp": "231ff22c7876d208e1e89de8655a2f3a70d9306c",
+"src": "https://chathamliteracy.org/wp-content/uploads/2014/11/LC_art-only-200x200.jpg",
+"checked": "2026-11-10"
+},
 "chathamtransit.org": {
 "file": "chathamtransit.org.png",
 "fp": "b1d5cab0bafa7bbeabd0cfdb9226476df8b5a9d1",
@@ -203,6 +253,12 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"dac.nc.gov": {
+"file": "dac.nc.gov.png",
+"fp": "a8fb86264d964bc0987d76039455e79807802c5a",
+"src": "https://files.nc.gov/dac/nc-favicon-32x32_0.png?VersionId=dCJe8BwURCDvjl_jVZQ2ltnvvdfMdTeX",
+"checked": "2026-11-10"
+},
 "damascuschurchnc.org": {
 "file": "damascuschurchnc.org.png",
 "fp": "e09f8c799b2e5fdf3fd6242d2c3e9f40b545fe25",
@@ -225,10 +281,26 @@
 "src": "https://diapertrain.org/wp-content/uploads/2024/08/favicon.png",
 "checked": "2026-11-10"
 },
+"disabilityrightsnc.org": {
+"file": "disabilityrightsnc.org.png",
+"fp": "c514593ee7bb555ca024b69bf8638b153a2a378c",
+"src": "https://disabilityrightsnc.org/wp-content/uploads/2025/08/Favicon-300x300.png",
+"checked": "2026-11-10"
+},
+"dpfc.net": {
+"file": null,
+"checked": "2026-11-10"
+},
 "dpi.nc.gov": {
 "file": "dpi.nc.gov.png",
 "fp": "754c2023368d99b9ff2caae69b4e0b832771016f",
 "src": "https://files.nc.gov/nc-dpi/favicon.png?VersionId=QGy2GAvz56Q.2EwPegSPszBkxkkO_tYC",
+"checked": "2026-11-10"
+},
+"duke-energy.com": {
+"file": "duke-energy.com.png",
+"fp": "157395ef41982f41c9a4be900e6c9f9c169189a4",
+"src": "https://www.duke-energy.com/dist/jsspublic/apple-touch-icon.png",
 "checked": "2026-11-10"
 },
 "dukememorial.org": {
@@ -279,6 +351,12 @@
 "src": "https://static.wixstatic.com/media/6f58ed_993f9001d0064533a0516d389632ca24.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/6f58ed_993f9001d0064533a0516d389632ca24.png",
 "checked": "2026-11-10"
 },
+"durhamnaacp.org": {
+"file": "durhamnaacp.org.png",
+"fp": "fb13947e22c76df55b8ecc5e649f7856eb07cd7f",
+"src": "https://static.wixstatic.com/media/eecc65_fcd8f49eb5d14703803c371dde151d1a~mv2.jpg/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/eecc65_fcd8f49eb5d14703803c371dde151d1a~mv2.jpg",
+"checked": "2026-11-10"
+},
 "durhamnc.gov": {
 "file": null,
 "checked": "2026-11-10"
@@ -290,6 +368,10 @@
 "checked": "2026-11-10"
 },
 "durhamtech.edu": {
+"file": null,
+"checked": "2026-11-10"
+},
+"earlyyearsnc.org": {
 "file": null,
 "checked": "2026-11-10"
 },
@@ -321,12 +403,24 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"empowermentinc.org": {
+"file": "empowermentinc.org.png",
+"fp": "048d817af158dbefe1bffec10a37ef3b8945baca",
+"src": "https://images.squarespace-cdn.com/content/v1/57c9b1a3ff7c5047495b61cc/b1d3fca8-9332-4a9f-ab2d-19f62a1b5d50/favicon.ico",
+"checked": "2026-11-10"
+},
 "endhunger.org": {
 "file": null,
 "checked": "2026-11-10"
 },
 "endhungerdurham.org": {
 "file": null,
+"checked": "2026-11-10"
+},
+"fairhousingnc.org": {
+"file": "fairhousingnc.org.png",
+"fp": "6db7aa90fdbe1c2a73a9651d099a4701269c4284",
+"src": "https://www.fairhousingnc.org/wp-content/uploads/2014/05/cropped-logo-180x180.jpg",
 "checked": "2026-11-10"
 },
 "fcbcdurham.org": {
@@ -387,6 +481,12 @@
 "src": "https://www.fuquay-varina.org/favicon.ico",
 "checked": "2026-11-10"
 },
+"genesis-umc.org": {
+"file": "genesis-umc.org.png",
+"fp": "6ed084f526ea87b604fa1f5eca8b973c906a9ba9",
+"src": "https://images.squarespace-cdn.com/content/v1/65c10e3b1ec4493e8f88d0f4/09452578-5256-4a25-9fb8-ec6300138ba8/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
 "gethope.net": {
 "file": "gethope.net.png",
 "fp": "50abbc51557811cdcbf136fdfd224d11133b5f09",
@@ -445,6 +545,12 @@
 "src": "https://d2jv02qf7xgjwx.cloudfront.net/apps/common/favicon/apple-touch-icon.png",
 "checked": "2026-11-10"
 },
+"habitatraleigh.org": {
+"file": "habitatraleigh.org.png",
+"fp": "b376885ac8452b6cbf9ced81b1080bfd570d9b91",
+"src": "https://www.habitatraleigh.org/apple-touch-icon.png",
+"checked": "2026-11-10"
+},
 "hawriverbaptistchurch.org": {
 "file": null,
 "checked": "2026-11-10"
@@ -467,6 +573,18 @@
 },
 "hopehousewf.org": {
 "file": null,
+"checked": "2026-11-10"
+},
+"hoperenovations.org": {
+"file": "hoperenovations.org.png",
+"fp": "3524c3a45145ebca128477025ea189db181e7b15",
+"src": "https://hoperenovations.org/assets/apple-touch-icon.png",
+"checked": "2026-11-10"
+},
+"housing.carync.gov": {
+"file": "housing.carync.gov.png",
+"fp": "9abd7dd9e856d4174b4fbbb1c791ebd02f696b15",
+"src": "https://housing.carync.gov/wp-content/uploads/2024/04/cropped-favicon2-180x180.png",
 "checked": "2026-11-10"
 },
 "housingfornewhope.org": {
@@ -529,6 +647,26 @@
 "src": "https://storage.googleapis.com/production-constantcontact-v1-0-7/077/1614077/KaVDcUhK/eaec36b6a9d44a7aab79c17cba5329f7",
 "checked": "2026-11-10"
 },
+"kidznotes.org": {
+"file": "kidznotes.org.png",
+"fp": "37ddc9d291f4f7dee9b04ac49640edc28e18d90f",
+"src": "https://images.squarespace-cdn.com/content/v1/62d997549bd2e03b382eb1fe/fb375095-917b-46f8-bad7-08f9f4d7d0a6/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
+"kramden.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"law.campbell.edu": {
+"file": null,
+"checked": "2026-11-10"
+},
+"law.unc.edu": {
+"file": "law.unc.edu.png",
+"fp": "13027067604e7e0329ffba82109bffcbfa8b01c9",
+"src": "https://law.unc.edu/wp-content/uploads/2020/08/unc_favicon.ico",
+"checked": "2026-11-10"
+},
 "legalaidnc.org": {
 "file": "legalaidnc.org.png",
 "fp": "6b0d3c8c5d442d306165b2828fc27dc68c095d84",
@@ -551,6 +689,12 @@
 "file": "library.nc.gov.png",
 "fp": "a8fb86264d964bc0987d76039455e79807802c5a",
 "src": "https://files.nc.gov/statelibrary/nc-favicon-32x32.png?VersionId=ilowQmWe3rzc8oeJhN5RQRkeEy.0ySr2",
+"checked": "2026-11-10"
+},
+"lifeandscience.org": {
+"file": "lifeandscience.org.png",
+"fp": "454f0f38f269e8a4f64e778006fcbcca7f6b606c",
+"src": "https://i0.wp.com/www.lifeandscience.org/wp-content/uploads/2025/12/cropped-MLSgreylogo.png?fit=180%2C180&ssl=1",
 "checked": "2026-11-10"
 },
 "lifepointnc.org": {
@@ -615,6 +759,28 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"nami-wake.org": {
+"file": "nami-wake.org.png",
+"fp": "6acfece700f8e82faa99036ec9b3a14a8cadd92f",
+"src": "https://nami-wake.org/wp-content/uploads/sites/204/2020/06/nami-blue-grassroots-logo-75x75-1.png",
+"checked": "2026-11-10"
+},
+"namidurham.org": {
+"file": "namidurham.org.png",
+"fp": "3ce471c770eaf90e736cb9898759c25d2f97e4d1",
+"src": "https://namidurham.org/wp-content/uploads/sites/166/2020/06/nami-blue-grassroots-logo-75x75-1.png",
+"checked": "2026-11-10"
+},
+"namiorangenc.org": {
+"file": "namiorangenc.org.png",
+"fp": "3ce471c770eaf90e736cb9898759c25d2f97e4d1",
+"src": "https://namiorangenc.org/wp-content/uploads/sites/267/2020/06/nami-blue-grassroots-logo-75x75-1.png",
+"checked": "2026-11-10"
+},
+"nc.freelegalanswers.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "nc211.org": {
 "file": "nc211.org.png",
 "fp": "289621e4cbeea970ce56a3a2395a99e7a636104e",
@@ -625,6 +791,12 @@
 "file": "nccu.edu.png",
 "fp": "cdf6e1aa925e311bc95291fb906b8d05a0a64a9c",
 "src": "https://www.nccu.edu/sites/default/files/favicons/apple-touch-icon.png",
+"checked": "2026-11-10"
+},
+"ncdhhs.gov": {
+"file": "ncdhhs.gov.png",
+"fp": "a8fb86264d964bc0987d76039455e79807802c5a",
+"src": "https://files.nc.gov/dhhs/FAVICON.png?VersionId=zVneQ14tIdUFZNilAuN9wuTKiD_7QyUl",
 "checked": "2026-11-10"
 },
 "ncdiaperbank.org": {
@@ -651,10 +823,26 @@
 "src": "https://www.ncjustice.org/wp-content/uploads/2018/12/cropped-ncjc-favicon-e1672854649466-180x180.png",
 "checked": "2026-11-10"
 },
+"ncnaacp.org": {
+"file": "ncnaacp.org.png",
+"fp": "ad93bd66be25df5680edaf5abe1ae656018ac9d8",
+"src": "https://ncnaacp.org/wp-content/uploads/2023/03/NCNAACP_favicon-300x300.png",
+"checked": "2026-11-10"
+},
+"ncnavigator.org": {
+"file": "ncnavigator.org.png",
+"fp": "d2fa98025bf012152c55f198f2c330bdcab9b866",
+"src": "https://ncnavigator.org/wp-content/uploads/2022/11/cropped-favicon-180x180.png",
+"checked": "2026-11-10"
+},
 "nctenantsunion.org": {
 "file": "nctenantsunion.org.png",
 "fp": "995ce50ae27a4281740cbe6fc20455c3e276024b",
 "src": "https://nctenantsunion.org/wp-content/uploads/2026/03/cropped-NCTU-Logo-Square-180x180.png",
+"checked": "2026-11-10"
+},
+"neighborhealthcenter.org": {
+"file": null,
 "checked": "2026-11-10"
 },
 "neighborup.org": {
@@ -691,6 +879,22 @@
 "src": "https://orangecountync.gov/images/favicon.ico",
 "checked": "2026-11-10"
 },
+"orangehabitat.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"orangesmartstart.org": {
+"file": "orangesmartstart.org.png",
+"fp": "81de9db477b2d95c18689fa67a3ac2824807bc63",
+"src": "https://www.orangesmartstart.org/wp-content/uploads/2020/07/logo-leaf-closeup-72-x-72.jpg",
+"checked": "2026-11-10"
+},
+"owasa.org": {
+"file": "owasa.org.png",
+"fp": "05f161704d951695fa702596ccc992523b72b187",
+"src": "https://www.owasa.org/wp-content/uploads/2019/11/favicon.png",
+"checked": "2026-11-10"
+},
 "oxfordhousenc.com": {
 "file": null,
 "checked": "2026-11-10"
@@ -711,6 +915,26 @@
 "file": "porchcommunities.org.png",
 "fp": "ef77bee32c09c0afe49425043e4bdf0b13b1de81",
 "src": "https://framerusercontent.com/images/WkX8EyEk4WDVM96NGAUFjP7Tz3A.png",
+"checked": "2026-11-10"
+},
+"preservehome.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"projectaccessdurham.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"promiseresourcenetwork.org": {
+"file": "promiseresourcenetwork.org.png",
+"fp": "f6e4cb3e360e3979ae4864aa3384341c5f05df0c",
+"src": "https://promiseresourcenetwork.org/wp-content/uploads/cropped-PRN_favicon-1-180x180.png",
+"checked": "2026-11-10"
+},
+"raleighapexnaacp.org": {
+"file": "raleighapexnaacp.org.png",
+"fp": "af6e6d3a79697bed47a157dc0052e479147cdb2b",
+"src": "https://raleighapexnaacp.org/wp-content/uploads/2025/10/NAACP_seal_2-color_LG.webp",
 "checked": "2026-11-10"
 },
 "raleighcityfarm.org": {
@@ -751,10 +975,20 @@
 "src": "https://refugeecommunitypartnership.org/wp-content/uploads/2024/08/RCPLogo.png",
 "checked": "2026-11-10"
 },
+"refugeehopepartners.org": {
+"file": "refugeehopepartners.org.png",
+"fp": "f4c2591597ad0eb1af68d7d58bb116c8e94552c2",
+"src": "https://refugeehopepartners.org/wp-content/uploads/2024/08/favicon.png",
+"checked": "2026-11-10"
+},
 "refugees.org": {
 "file": "refugees.org.png",
 "fp": "1aa132f489a4856a44d341b4227c49650ba0e321",
 "src": "https://refugees.org/wp-content/uploads/2025/12/cropped-Social-Icon-Round-180x180.png",
+"checked": "2026-11-10"
+},
+"refugeesupportcenter.org": {
+"file": null,
 "checked": "2026-11-10"
 },
 "renacommunitycenter.com": {
@@ -869,6 +1103,18 @@
 "src": "https://www.splatspace.org/wp-content/uploads/2023/11/cropped-splatlogo2-180x180.png",
 "checked": "2026-11-10"
 },
+"stepupdurham.org": {
+"file": "stepupdurham.org.png",
+"fp": "1c4f23db68783176830c86e452e694eabdc33ec9",
+"src": "https://images.squarespace-cdn.com/content/v1/654e7a66151c9f7f8d6faab1/5b0c0406-3ad7-4ced-b3a3-8e08d75218c7/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
+"stepupministry.org": {
+"file": "stepupministry.org.png",
+"fp": "7512473c69ae42e016cdaf40f4d927827e43acca",
+"src": "https://images.squarespace-cdn.com/content/v1/64aed7763fd84666887c08f8/6b8a6ab1-ee43-4ac8-9b3f-800dd632df57/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
 "stjosephsdurham.org": {
 "file": "stjosephsdurham.org.png",
 "fp": "b4a8d242734b7d9bcbf61ccefe557f2c2a7a534d",
@@ -887,11 +1133,23 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"taxaide.aarpfoundation.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"tfsnc.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "thedcrc.org": {
 "file": null,
 "checked": "2026-11-10"
 },
 "thehotline.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"triangledisability.org": {
 "file": null,
 "checked": "2026-11-10"
 },
@@ -933,6 +1191,12 @@
 "src": "https://i0.wp.com/uuchnc.org/wp-content/uploads/2025/09/cropped-Screenshot-2024-03-09-210238.png?fit=180%2C180&ssl=1",
 "checked": "2026-11-10"
 },
+"veteransbridgehome.org": {
+"file": "veteransbridgehome.org.png",
+"fp": "8327343c199c45f280b25654c1c689dee4152bbd",
+"src": "https://veteransbridgehome.org/wp-content/uploads/2026/04/cropped-Screenshot-2026-04-15-at-00.57.35-180x180.png",
+"checked": "2026-11-10"
+},
 "voachesapeake.org": {
 "file": "voachesapeake.org.png",
 "fp": "861dbd5b4b4754e2c02ac06bd52a5d29ec7f3347",
@@ -959,6 +1223,28 @@
 "file": "wakeforestnc.gov.png",
 "fp": "8d7072a934f5583250854aeebfe0b000e79b2842",
 "src": "https://www.wakeforestnc.gov/sites/default/files/uploads/favicons/favicon-60x60.png",
+"checked": "2026-11-10"
+},
+"wakejohnstonbgc.org": {
+"file": "wakejohnstonbgc.org.png",
+"fp": "fbf52c015f939053925c1aa682e41d453f084da8",
+"src": "https://wakejohnstonbgc.org/wp-content/uploads/2026/06/fav-57.png",
+"checked": "2026-11-10"
+},
+"wakelrc.org": {
+"file": "wakelrc.org.png",
+"fp": "b92f7b7b53ee203fbe16ddaea84f869eed03c534",
+"src": "https://static.wixstatic.com/media/b9cf79_5030cb48feb8422ea777eeca8347fa10~mv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/b9cf79_5030cb48feb8422ea777eeca8347fa10~mv2.png",
+"checked": "2026-11-10"
+},
+"wakesmartstart.org": {
+"file": null,
+"checked": "2026-11-10"
+},
+"wakesmiles.org": {
+"file": "wakesmiles.org.png",
+"fp": "0d76e8746b3e6765a3b8b875d9c97629e8ec4910",
+"src": "https://wakesmiles.org/wp-content/uploads/2021/01/cropped-WakeSmiles_Favicon-180x180.png",
 "checked": "2026-11-10"
 },
 "waketech.edu": {
