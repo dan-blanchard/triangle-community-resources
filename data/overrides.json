@@ -11,5 +11,128 @@
  "White Plains UMC|Cary": {
   "url": "https://wpumc.com/",
   "_why": "Church's own site (313 SE Maynard Rd); feed has no URL. Audit 2026-11-10"
+ },
+ "Duke Memorial UMC  Good Samaritan Fund|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.dukememorial.org/goodsam.html"
+ },
+ "Senior PharmAssist|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.seniorpharmassist.org/"
+ },
+ "Families Moving Forward|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://dconc.gov/Public-Health1/Documents/SubstanceUseandAddiction/Housing-Options-for-People-with-SUD-12125.pdf"
+ },
+ "AIDS Community Residence Association, Inc.|Durham": {
+  "cost": "sliding_scale",
+  "notes": "Rent is 30% of adjusted gross income.",
+  "_why": "Cost checked 2026-11-10: https://www.acradurham.org/our-housing.html"
+ },
+ "Durham Housing Authority (DHA)|Durham": {
+  "cost": "sliding_scale",
+  "notes": "Rent is usually set at about 30% of household income.",
+  "_why": "Cost checked 2026-11-10: https://www.durhamhousingauthority.org/public-housing"
+ },
+ "TROSA|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://trosainc.org/"
+ },
+ "Welcome Baby Durham County Cooperative Extension|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://welcomebaby.org/giving-closet/"
+ },
+ "El Pueblo- Familias Seguras|Triangle-wide": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://elpueblo.org/wp-content/uploads/2025/01/Guia-de-Emergencia-web.pdf"
+ },
+ "U.S. Committee for Refugees and Immigrants, Raleigh|Triangle-wide": {
+  "cost": "low_cost_membership",
+  "notes": "Nominal fees apply; ask about the consultation fee when you contact the hotline.",
+  "_why": "Cost checked 2026-11-10: https://www.immigrationlawhelp.org/organization.397057-US_Committee_for_Refugees_and_Immigrants_Raleigh_Office"
+ },
+ "Council on Immigrant Relations (CIR)|Raleigh": {
+  "cost": "low_cost_membership",
+  "notes": "Low-cost legal help with a nominal consultation fee; payment plans available for representation.",
+  "_why": "Cost checked 2026-11-10: https://www.immigrationlawhelp.org/organization.545890-Council_on_Immigrant_Relations_CIR"
+ },
+ "Centro para familias Hispanas|Raleigh": {
+  "cost": "some_free",
+  "notes": "Tax preparation is free; immigration legal consultations cost $50.",
+  "_why": "Cost checked 2026-11-10: https://www.catholiccharitiesraleigh.org/cpfh/"
+ },
+ "Immigrant Solidarity Fund - CWS Durham|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://cwsdurham.org/isf/"
+ },
+ "JusticeMatters Inc|Durham": {
+  "cost": "sliding_scale",
+  "_why": "Cost checked 2026-11-10: https://www.christianlegalsociety.org/clinic/justice-matters/"
+ },
+ "WakeTech Community College (ESL)|Raleigh": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.waketech.edu/programs-courses/non-credit/strengthen-basic-skills/esl"
+ },
+ "First Presbyterian Church|Raleigh": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://fpcraleigh.org/friendship-fund/"
+ },
+ "St Thomas Moore Church|Chapel Hill": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry"
+ },
+ "Self-Help|Durham": {
+  "cost": "some_free",
+  "notes": "Financial coaching is free for members; loans and credit-builder products charge interest.",
+  "_why": "Cost checked 2026-11-10: https://self-helpfcu.org/greenpath"
+ },
+ "Freedom House Recovery Center|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://freedomhouserecovery.org/services/residential-services/"
+ },
+ "LIFE House of Durham|Durham": {
+  "cost": "sliding_scale",
+  "notes": "Rent is based on income through project-based Section 8.",
+  "_why": "Cost checked 2026-11-10: https://www.voans.org/locations/life-house-of-durham/"
+ },
+ "ACLU -NC|Triangle-wide": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.acluofnorthcarolina.org/en/know-your-rights/know-your-rights-immigrants-rights"
+ },
+ "CWS Immigration Legal Services Center, Durham|Durham": {
+  "cost": "low_cost_membership",
+  "notes": "Legal services are free or low cost; call 919-680-3585 for fees.",
+  "_why": "Cost checked 2026-11-10: https://cwsdurham.org/immigration-legal-services/"
+ },
+ "North Carolina Justice Center, Raleigh|Raleigh": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.ncjustice.org/getting-legal-assistance/"
+ },
+ "Durham Tech|Durham": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.durhamtech.edu/continuing-education/english-second-language-esl"
+ },
+ "Asylum Seekers Advocacy Project|Triangle-wide": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://asaptogether.org/en/members/"
+ },
+ "InStepp Inc|Durham": {
+  "cost": "low_cost_membership",
+  "notes": "Low-cost fees for immigration and naturalization help; call 919-680-8000 for prices.",
+  "_why": "Cost checked 2026-11-10: https://www.instepp.org/immigration-services"
+ },
+ "Apex Immigration Services|Apex": {
+  "cost": "sliding_scale",
+  "notes": "Low legal fees on a sliding scale based on ability to pay.",
+  "_why": "Cost checked 2026-11-10: https://www.apeximm.org/our-services/"
+ },
+ "Alliance Medical Ministry|Raleigh": {
+  "cost": "sliding_scale",
+  "notes": "Annual membership of $40–$160 based on household size and income.",
+  "_why": "Cost checked 2026-11-10: https://alliancemedicalministry.org/patient-fees"
+ },
+ "Haven House Outreach Center|Raleigh": {
+  "cost": "free",
+  "_why": "Cost checked 2026-11-10: https://www.hillsboroughstreet.org/go/wrenn-house"
  }
 }

@@ -1,0 +1,686 @@
+[
+ {
+  "name": "El Futuro",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Site posts no fees; appointments page only says \"If you have Medicaid, or Medicare, bring your most recent insurance card\" and \"We also serve individuals without insurance.\"",
+  "evidence_url": "https://elfuturo-nc.org/appointments-and-referrals/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "World Relief Durham – Immigration Legal Services",
+  "city": "Durham",
+  "cost": "low_cost_membership",
+  "evidence": "\"The cost of the consultation is $50 and must be paid by money order, credit card, or debit card.\" Directory also answers \"Nominal fee charged?\" Yes.",
+  "evidence_url": "https://www.immigrationlawhelp.org/organization.708021-World_Relief_Durham",
+  "cost_note": "Consultation costs $50 (money order or card; no cash or checks). Case fees are nominal; ask when you book.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Planned Parenthood – Chapel Hill Health Center",
+  "city": "Chapel Hill",
+  "cost": "unknown",
+  "evidence": "Clinic page blocked (403). PPSAT says only that at \"many locations\" patients \"may be eligible for low to no-cost birth control\"; no Chapel Hill fee or sliding-scale details found.",
+  "evidence_url": "https://www.plannedparenthood.org/planned-parenthood-south-atlantic/patients/insurance-and-payment-information-title-x",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham County Public Health – STI/HIV, Family Planning, Vaccine & TB Clinics",
+  "city": "Durham",
+  "cost": "some_free",
+  "evidence": "\"STI and HIV testing are provided free of charge.\" \"The DCoDPH provides certain STI medications free of charge. Other medications may be available at a reduced rate based on your income.\"",
+  "evidence_url": "https://dconc.gov/Public-Health/Clinical-Services/STD-HIV-Testing/STD-STI-Testing-and-Treatment",
+  "cost_note": "STI/HIV testing is free; some STI medicines are free, others cost less by income. Other services, like TB tests and vasectomy, have fees.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Departure Regional Center – Public Health Clinic",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "County says HIV/STI tests are free (\"All tests are free and confidential\") and offers no-cost home test kits; regional center clinic pages say \"Charges for services are based on income.\"",
+  "evidence_url": "https://www.wake.gov/news/wake-county-public-health-expand-access-sti-testing-free-home-test-kits",
+  "cost_note": "STI testing and at-home test kits are free; family planning and vaccines are charged based on income.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Northern Regional Center – Public Health Clinic",
+  "city": "Wake Forest",
+  "cost": "some_free",
+  "evidence": "County says HIV/STI tests are free (\"All tests are free and confidential\") and offers no-cost home test kits; regional center clinic pages say \"Charges for services are based on income.\"",
+  "evidence_url": "https://www.wake.gov/news/wake-county-public-health-expand-access-sti-testing-free-home-test-kits",
+  "cost_note": "STI testing and at-home test kits are free; family planning and vaccines are charged based on income.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake Smiles",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "\"There is a $40 administrative fee for each appointment.\"",
+  "evidence_url": "https://wakesmiles.org/become-a-patient/",
+  "cost_note": "Dental care costs a $40 administrative fee per appointment.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SPCA Wake – Saving Lives Spay/Neuter Clinic",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "\"The Saving Lives Spay/Neuter Clinic is a low-cost clinic.\" Cats $60-120; dogs up to 59 lbs $200-230, 60-99 lbs $240-270.",
+  "evidence_url": "https://spcawake.org/saving-lives-spay-neuter-clinic/",
+  "cost_note": "Cats $60-120; dogs $200-270 depending on size and sex. Rabies and distemper vaccines and pain medicine included.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SAFE Care Spay/Neuter Clinic (cats)",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "Pricing page: \"Female Cats – $100\", \"Male Cats – $90\", \"Feral / Community Cats – $60\"; fee includes exam, rabies and distemper vaccines, pain injections.",
+  "evidence_url": "https://www.safecareclinic.org/spay-neuter-services/pricing/",
+  "cost_note": "Female cat $100, male cat $90, community cat $60, including exam, rabies and distemper vaccines and pain shots.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Five County Spay Neuter Clinic",
+  "city": "Zebulon",
+  "cost": "low_cost_membership",
+  "evidence": "Clinic aims to \"Offer a low-cost option for spays / neuters\". Fees: dogs \"Up to 59 lbs: $215\" to \"$330 and up\"; cats \"Any weight: $105\".",
+  "evidence_url": "https://fivecountyspayneuter.com/services-and-fees/",
+  "cost_note": "Cats $105; dogs $215-330+ by weight. Extra fee if pet is in heat or pregnant.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham County Sheriff's Office Animal Services – $10 Rabies Vaccinations",
+  "city": "Durham",
+  "cost": "low_cost_membership",
+  "evidence": "\"Vaccinations are by appointment only and cost $10 per pet.\" (county notice, Aug 2025)",
+  "evidence_url": "https://dconc.gov/DurhamCo-News/rabies-foxes.htm",
+  "cost_note": "Rabies shots are $10 per pet, by appointment.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Animal Services – Rabies & Microchip Clinic (Hillsborough)",
+  "city": "Hillsborough",
+  "cost": "low_cost_membership",
+  "evidence": "\"Clinics will typically offer 1-year and 3-year vaccinations for $10.\" \"Microchips will also be offered at these clinics for $35 each.\"",
+  "evidence_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+  "cost_note": "Rabies vaccine $10; microchip $35.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Briggs Avenue Community Garden",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Extension page mentions \"free hands-on agriculture education\" but no plot fee; no current Briggs Avenue plot fee found.",
+  "evidence_url": "https://durham.ces.ncsu.edu/home-and-community-gardens/briggs-avenue-community-garden/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoTriangle regional buses – free & discount GoPass (seniors, youth, disability)",
+  "city": "Triangle-wide",
+  "cost": "some_free",
+  "evidence": "Full fare $2.50, discount $1.25; Youth (13-18), Seniors (65+) and Transit Assistance Pass holders \"Qualify for Free Fare\".",
+  "evidence_url": "https://gotriangle.org/fares",
+  "cost_note": "Free with a GoPass for seniors 65+, youth 13-18 and Transit Assistance Pass holders; others pay $2.50 ($1.25 discount fare).",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoCary Door to Door (paratransit & senior rides, incl. Apex)",
+  "city": "Cary",
+  "cost": "some_free",
+  "evidence": "Tier 1: \"Cost: $2.50 Currently Free\"; Tier 2 within Cary $4; Tier 3 medical trips: Apex/Morrisville $6, Raleigh $7, Durham $8, Chapel Hill $9. \"PCAs ride for free.\"",
+  "evidence_url": "http://gocary.org/about-gocary-door-to-door-service/",
+  "cost_note": "Trips near bus routes are free for now; other Cary trips $4; medical trips to other towns $6-9.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoTriangle Access (regional ADA paratransit)",
+  "city": "Triangle-wide",
+  "cost": "low_cost_membership",
+  "evidence": "Trips are \"at a cost of $5.00 per trip\"; 10 Punch Pass $50, Monthly Pass $160; \"Children 12 and under ride free.\"",
+  "evidence_url": "https://gotriangle.org/access",
+  "cost_note": "$5 per one-way trip; 10-ride pass $50; monthly pass $160. Children 12 and under ride free.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoRaleigh MicroLink – Rolesville (on-demand rides)",
+  "city": "Rolesville",
+  "cost": "unknown",
+  "evidence": "GoRaleigh FAQ still says \"MicroLink is a fare-free service through June 30, 2025\"; no current fare found.",
+  "evidence_url": "https://goraleigh.org/MicroLink",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham County ACCESS (rides for seniors, people with disabilities, rural residents)",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "\"GoDurham ACCESS and Durham County ACCESS are free to ride until June 30, 2027.\"",
+  "evidence_url": "https://godurhamaccess.org/resources/access-policies",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Public Transportation – Demand Response (rural, senior, disability & work rides)",
+  "city": "Hillsborough",
+  "cost": "some_free",
+  "evidence": "EDTAP: \"FARE COST: $3.00 One-Way\"; Rural General Public: \"$3.00 One-Way\"; Employment and Transportation Assistance Program: \"FARE COST: $0\".",
+  "evidence_url": "https://orangecountync.gov/1316/Demand-Response-Services",
+  "cost_note": "Work and job-training rides are free; senior, disability and rural rides are $3 each way.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Department on Aging – Volunteer Driver Program",
+  "city": "Hillsborough",
+  "cost": "unknown",
+  "evidence": "County transportation page and older-adult transportation guide describe the Volunteer Driver Program but state no cost to riders.",
+  "evidence_url": "https://orangecountync.gov/261/Transportation",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chatham Transit Network (rides anywhere in Chatham County)",
+  "city": "Pittsboro",
+  "cost": "low_cost_membership",
+  "evidence": "In-County fares by distance: \"fares from $2.00\" up to $13 (25.1-27 mi); \"Fares must be paid upon boarding.\"",
+  "evidence_url": "https://chathamtransit.org/fares/",
+  "cost_note": "Fares by distance, $2 to $13 each way; children under 13 with a parent and one aide ride free.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Duke Memorial UMC  Good Samaritan Fund",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "Fund provides \"discretionary spending aimed at granting financial assistance for utilities and food\"; no fee to recipients. Utility applications currently closed, \"will open again December 1.\"",
+  "evidence_url": "https://www.dukememorial.org/goodsam.html",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Senior PharmAssist",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "No fees posted on site. Program materials: medication therapy management \"free of charge if income <300% FPL\"; Medicare counseling offered \"at no charge\"; copay help via secondary pharmacy card.",
+  "evidence_url": "https://www.seniorpharmassist.org/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Families Moving Forward",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "Durham County housing guide (updated Nov 2026) lists Families Moving Forward emergency shelter cost as \"No cost\".",
+  "evidence_url": "https://dconc.gov/Public-Health1/Documents/SubstanceUseandAddiction/Housing-Options-for-People-with-SUD-12125.pdf",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "AIDS Community Residence Association, Inc.",
+  "city": "Durham",
+  "cost": "sliding_scale",
+  "evidence": "\"Rent is based on 30% of gross adjusted income.\"",
+  "evidence_url": "https://www.acradurham.org/our-housing.html",
+  "cost_note": "Rent is 30% of adjusted gross income.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Just A Clean House, Inc.",
+  "city": "Durham",
+  "cost": "low_cost_membership",
+  "evidence": "Durham County housing guide (Nov 2026): \"$146-171 per week; Varies by location; Based on if it is a single or shared room\".",
+  "evidence_url": "https://dconc.gov/Public-Health1/Documents/SubstanceUseandAddiction/Housing-Options-for-People-with-SUD-12125.pdf",
+  "cost_note": "Rent is about $146-171 per week, depending on the house and single or shared room.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham Housing Authority (DHA)",
+  "city": "Durham",
+  "cost": "sliding_scale",
+  "evidence": "Public housing: \"Rent is based on 30% of an individual's income, which includes utilities.\" \"Rent is set to be no more than affordable percentage (usually 30%) of your income.\"",
+  "evidence_url": "https://www.durhamhousingauthority.org/public-housing",
+  "cost_note": "Rent is usually set at about 30% of household income.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "TROSA",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "\"Cost-free residential treatment for substance use disorders\"; TROSA provides \"free housing, meals, clothing, vocational and life skills training.\"",
+  "evidence_url": "https://trosainc.org/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Welcome Baby Durham County Cooperative Extension",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "The Giving Closet is \"a free family resource.\"",
+  "evidence_url": "https://welcomebaby.org/giving-closet/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "El Pueblo- Familias Seguras",
+  "city": "Triangle-wide",
+  "cost": "free",
+  "evidence": "PDF cover: \"Guía de emergencia para inmigrantes – Gratuita\" (free Spanish-language family emergency planning guide).",
+  "evidence_url": "https://elpueblo.org/wp-content/uploads/2025/01/Guia-de-Emergencia-web.pdf",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "U.S. Committee for Refugees and Immigrants, Raleigh",
+  "city": "Triangle-wide",
+  "cost": "low_cost_membership",
+  "evidence": "USCRI offers \"low- to no-cost professional legal representation\"; Raleigh office directory listing: \"Nominal fee charged?\" Yes. No consultation fee amount found.",
+  "evidence_url": "https://www.immigrationlawhelp.org/organization.397057-US_Committee_for_Refugees_and_Immigrants_Raleigh_Office",
+  "cost_note": "Nominal fees apply; ask about the consultation fee when you contact the hotline.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Council on Immigrant Relations (CIR)",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "Site describes \"low Cost immigration services\"; directory: \"Nominal fee charged?\" Yes, and \"low-cost legal defense.\" Amount not posted.",
+  "evidence_url": "https://www.immigrationlawhelp.org/organization.545890-Council_on_Immigrant_Relations_CIR",
+  "cost_note": "Low-cost legal help with a nominal consultation fee; payment plans available for representation.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Centro para familias Hispanas",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "CPFH \"offers tax preparation services free of charge\"; Catholic Charities Raleigh (same address, 2013 Raleigh Blvd) immigration listing: \"Consultation fees $50\".",
+  "evidence_url": "https://www.catholiccharitiesraleigh.org/cpfh/",
+  "cost_note": "Tax preparation is free; immigration legal consultations cost $50.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Immigrant Solidarity Fund - CWS Durham",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "\"Eligible applicants can receive a one-time cash assistance grant\"; waitlist active, \"average wait times for support from the ISF are currently several months.\"",
+  "evidence_url": "https://cwsdurham.org/isf/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "JusticeMatters Inc",
+  "city": "Durham",
+  "cost": "sliding_scale",
+  "evidence": "Own site posts no fees. Christian Legal Society clinic listing: provides legal services \"on a sliding scale basis to Durham, Wake, and Orange residents who meet its case acceptance criteria.\"",
+  "evidence_url": "https://www.christianlegalsociety.org/clinic/justice-matters/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "WakeTech Community College (ESL)",
+  "city": "Raleigh",
+  "cost": "free",
+  "evidence": "Wake Tech ESL course listing: \"classes are free for students with no English to students with high-level English skills.\" (EFL and Beyond the Basics carry fees.)",
+  "evidence_url": "https://www.waketech.edu/programs-courses/non-credit/strengthen-basic-skills/esl",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First Presbyterian Church",
+  "city": "Raleigh",
+  "cost": "free",
+  "evidence": "Friendship Fund offers \"emergency assistance with rent, mortgages, and household utilities\"; payments go to vendors; \"The ministry is funded entirely by donations.\"",
+  "evidence_url": "https://fpcraleigh.org/friendship-fund/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St Thomas Moore Church",
+  "city": "Chapel Hill",
+  "cost": "free",
+  "evidence": "Parish ministry gives utility help to residents with a disconnect notice once every 12 months; page states it does not provide rental assistance. No fee to recipients.",
+  "evidence_url": "https://5520.sites.ecatholic.com/financial-assistance-ministry",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "El Centro Hispano – Durham",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Website and services checklist list programs (legal info, ESL, financial assistance) but give no fees; an older Durham VOICE article said services are free but ESL classes cost $20.",
+  "evidence_url": "https://elcentronc.org/legal-information/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham Literacy Center",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "ESOL program page: \"provides free English classes for adult learners.\" No fees mentioned for tutoring or classes.",
+  "evidence_url": "https://www.durhamliteracy.org/esol-program",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Planned Parenthood – Raleigh Health Center",
+  "city": "Raleigh",
+  "cost": "unknown",
+  "evidence": "Site blocks fetch; PPSAT says insurance accepted, co-pays due at visit; Raleigh offers a 25% teen discount but isn't listed for the Title X sliding-scale program.",
+  "evidence_url": "https://plannedparenthood.org/planned-parenthood-south-atlantic/teen-discount",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Public Health Center – STI/HIV, Family Planning, Vaccine & TB Clinics",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "\"STI services are provided at no charge to you except for HPV ... treatment.\" Family planning: \"discounts may be available based on income and family size.\"",
+  "evidence_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
+  "cost_note": "STI/HIV testing and treatment and home test kits are free; family planning and vaccines have fees with income-based discounts.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Eastern Regional Center – Public Health Clinic",
+  "city": "Zebulon",
+  "cost": "some_free",
+  "evidence": "County STI services \"are provided at no charge ... except for HPV treatment\"; family planning \"discounts may be available based on income and family size.\"",
+  "evidence_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
+  "cost_note": "STI testing and treatment and home test kits are free; family planning and vaccines have fees with income-based discounts.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake County Southern Regional Center – Public Health Clinic",
+  "city": "Fuquay-Varina",
+  "cost": "some_free",
+  "evidence": "County STI services \"are provided at no charge ... except for HPV treatment\"; family planning \"discounts may be available based on income and family size.\"",
+  "evidence_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
+  "cost_note": "STI testing and treatment and home test kits are free; other visits and vaccines have fees, with income-based discounts.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "NC Services for the Blind – Medical Eye Care Program",
+  "city": "Triangle-wide",
+  "cost": "low_cost_membership",
+  "evidence": "DSB desk reference: \"There is a $5 co-payment on the exam which is due to the eye care provider\"; the state-funded program pays for approved care for income-eligible people.",
+  "evidence_url": "https://policies.ncdhhs.gov/wp-content/uploads/APPENDIX-D-DESK-REFERENCE-FOR-MEDICAL-EYE-CARE-PROGRAM.pdf",
+  "cost_note": "$5 co-pay on eye exams; the program pays for approved surgery, treatment and medicine for those who qualify.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "SPCA Wake – Microchip & Vaccine Wellness Clinics",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "Microchip $5.00, rabies 1-year $10.00, FVRCP/DAPP $5.00, collar and tag $5.00; \"All fees are donations to SPCA Wake and are non-refundable.\"",
+  "evidence_url": "https://spcawake.org/wellness",
+  "cost_note": "Microchips and distemper vaccines $5, rabies shots $10, collar with ID tag $5.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Friends of Wake County Animal Center – Kitty Clip & Pit Stop Spay/Neuter Vouchers",
+  "city": "Raleigh",
+  "cost": "low_cost_membership",
+  "evidence": "\"The voucher fee is $15, paid directly to the clinic at drop-off\"; Pit Stop voucher is $40. For Wake residents unable to afford surgery.",
+  "evidence_url": "https://www.friendsofwakeanimals.org/cat-spayneuter",
+  "cost_note": "$15 for cats, $40 for pit bulls; covers exam, surgery and rabies/distemper shots.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "APS of Durham – Spay & Neuter Community Assistance Program",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Page offers \"Reduced cost spay and neuter vouchers\" for Durham County residents but lists no price.",
+  "evidence_url": "https://www.apsofdurham.org/pet-owner-resources/spay-neuter/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Animal Services – Low-Cost Vaccine & Microchip Clinic (Chapel Hill)",
+  "city": "Chapel Hill",
+  "cost": "low_cost_membership",
+  "evidence": "Rabies \"$10 for 1-year or 3-year\"; \"Microchips ... for $35 each\"; DA2PPV/FVRCP vaccines free at the Chapel Hill clinics.",
+  "evidence_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+  "cost_note": "Distemper vaccines are free; rabies shots $10; microchips $35.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "CARE (Chatham Animal Rescue & Education) – Lillie's Fund Spay/Neuter",
+  "city": "Pittsboro",
+  "cost": "low_cost_membership",
+  "evidence": "\"$20 co-pay per pet\" for Chatham County households with income \"$50,000 or less\"; covers surgery, vaccines, pain meds, optional microchip.",
+  "evidence_url": "https://www.chathamanimalrescue.org/spay-neuter-resources/",
+  "cost_note": "$20 co-pay per pet covers surgery, vaccines, pain medicine and an optional microchip.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Raleigh Parks Community Garden Program",
+  "city": "Raleigh",
+  "cost": "unknown",
+  "evidence": "Program page and search show no plot fees; contact CommunityGardens@raleighnc.gov.",
+  "evidence_url": "https://raleighnc.gov/parks-and-recreation/services/gardens-and-urban-agriculture/raleigh-parks-community-garden-program",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoRaleigh buses – free & half-fare programs",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "Seniors 65+, youth 13–18, kids 12 and under, and TAP adults (Medicaid/SNAP or income under $35,000) ride free; full fare $1.25, reduced $0.60.",
+  "evidence_url": "https://goraleigh.org/fares",
+  "cost_note": "Free for seniors, youth, kids and income-qualified adults (TAP card); others pay $1.25 a ride or $0.60 reduced.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoRaleigh Access (ADA paratransit)",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "\"the cost for an eligible ADA trip is $2.50 one way\"; riders on Medicaid or SNAP/EBT or with income below $35,000 \"can ride GoRaleigh Access for free.\"",
+  "evidence_url": "https://raleighnc.gov/go-raleigh-access",
+  "cost_note": "Free with a Transit Assistance Pass (Medicaid, SNAP or income under $35,000); otherwise $2.50 each way.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "GoWake Access (Wake County van rides)",
+  "city": "Raleigh",
+  "cost": "some_free",
+  "evidence": "Medicaid transportation: no fare for Medicaid-approved appointments; all other categories cost \"$2 same city, $4 different town or city.\"",
+  "evidence_url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-access-transportation",
+  "cost_note": "Medicaid medical rides are free; other trips cost $2 within a town or $4 between towns.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Go Wake Forest microtransit & Reduced Fare Program",
+  "city": "Wake Forest",
+  "cost": "some_free",
+  "evidence": "Fares $2.50–$4.50 by distance; reduced fare \"discounted fare rates of 50 percent\"; \"Children 12 and under ride at no cost.\"",
+  "evidence_url": "https://www.wakeforestnc.gov/node/9405",
+  "cost_note": "Kids 12 and under ride free; reduced fare is half price ($1.25–$2.25) for seniors, people with disabilities and income-qualified riders.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Lincoln Community Health Center – patient transportation",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Rides are for registered patients \"unable to afford public transportation\"; the page doesn't state whether rides cost anything.",
+  "evidence_url": "https://lincolnchc.org/supportive-service/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County DSS – Medicaid transportation",
+  "city": "Hillsborough",
+  "cost": "free",
+  "evidence": "NC Medicaid: \"Free rides to and from your Medicaid medical and mental health appointments\"; Medicaid Direct members arrange rides through county DSS.",
+  "evidence_url": "https://medicaid.ncdhhs.gov/nemt",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Transit EZ Rider (ADA paratransit)",
+  "city": "Chapel Hill",
+  "cost": "free",
+  "evidence": "Chapel Hill Transit fee schedule: \"Certified EZ Rider Customers\" – \"Fare Free.\"",
+  "evidence_url": "https://www.chapelhillnc.gov/Town-Government/Departments-and-Offices/Transit/Transit-Fee-Schedule",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wheels 4 Hope (low-cost cars through partner agencies)",
+  "city": "Cary",
+  "cost": "low_cost_membership",
+  "evidence": "Recipients pay \"$500 for the car, NC DMV title transfer fees, and taxes.\"",
+  "evidence_url": "https://wheels4hope.org/apply",
+  "cost_note": "Cars cost $500 plus DMV title fees and taxes.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Self-Help",
+  "city": "Durham",
+  "cost": "some_free",
+  "evidence": "Self-Help says members \"can connect with a Self-Help financial coach\"; coaching via GreenPath is free; loans and credit-building products carry interest/fees. Own site blocked fetch.",
+  "evidence_url": "https://self-helpfcu.org/greenpath",
+  "cost_note": "Financial coaching is free for members; loans and credit-builder products charge interest.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Entry Point Durham",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "City page blocked automated fetch; sources describe intake and referral at 414 E. Main St. / 984-287-8313 but none state cost.",
+  "evidence_url": "https://www.durhamnc.gov/4990/Entry-Point",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Housing for New Hope -Rapid Rehousing",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Homepage lists Affordable Housing and Supportive Housing programs but no Rapid Rehousing program and nothing on participant rent share or costs.",
+  "evidence_url": "https://housingfornewhope.org/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Freedom House Recovery Center",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "Residential services FAQ: \"Medicaid and state funding cover our residential program\" (11-bed men's house, two 6-bed women's houses in Durham).",
+  "evidence_url": "https://freedomhouserecovery.org/services/residential-services/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Troy House",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "Site lists no fee; news reports say the re-entry council \"will often provide funds to support residents, but they can also pay for it themselves.\"",
+  "evidence_url": "https://www.straighttalksupportgroup.org/transitional-housing.html",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "LIFE House of Durham",
+  "city": "Durham",
+  "cost": "sliding_scale",
+  "evidence": "\"Residents are qualified through the Durham Housing Authority's Project Based Section 8 Program\" – rent is set by tenant income.",
+  "evidence_url": "https://www.voans.org/locations/life-house-of-durham/",
+  "cost_note": "Rent is based on income through project-based Section 8.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Volunteers of America and of the Carolinas, Maple Court Veterans Transitional Housing Program",
+  "city": "Durham",
+  "cost": "unknown",
+  "evidence": "No resident rent or program fee found; listed URL is VOA's homepage and the Maple Court location page returns 404.",
+  "evidence_url": "https://www.voachesapeake.org/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "ACLU -NC",
+  "city": "Triangle-wide",
+  "cost": "free",
+  "evidence": "Free public know-your-rights web page for immigrants with downloadable guides; no fees mentioned. \"This information is not intended as legal advice.\"",
+  "evidence_url": "https://www.acluofnorthcarolina.org/en/know-your-rights/know-your-rights-immigrants-rights",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "CWS Immigration Legal Services Center, Durham",
+  "city": "Durham",
+  "cost": "low_cost_membership",
+  "evidence": "CWS offers \"high-quality legal services at no or low cost\"; the page has an online payment option for legal services but lists no amounts.",
+  "evidence_url": "https://cwsdurham.org/immigration-legal-services/",
+  "cost_note": "Legal services are free or low cost; call 919-680-3585 for fees.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "North Carolina Justice Center, Raleigh",
+  "city": "Raleigh",
+  "cost": "free",
+  "evidence": "Justice Center \"provides free legal advice and representation to hundreds of low-income immigrants each year\"; intake page says it is not accepting new cases currently.",
+  "evidence_url": "https://www.ncjustice.org/getting-legal-assistance/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham Tech",
+  "city": "Durham",
+  "cost": "free",
+  "evidence": "\"Please note: All ESL courses are free.\" Course listings show a cost of $0.",
+  "evidence_url": "https://www.durhamtech.edu/continuing-education/english-second-language-esl",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Asylum Seekers Advocacy Project",
+  "city": "Triangle-wide",
+  "cost": "free",
+  "evidence": "\"ASAP membership is completely free and voluntary\"; no fee to apply or maintain membership.",
+  "evidence_url": "https://asaptogether.org/en/members/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "InStepp Inc",
+  "city": "Durham",
+  "cost": "low_cost_membership",
+  "evidence": "Immigration page offers \"Low-Cost Immigration Legal Services\" and \"Low-Cost Naturalization Services\"; no fee amounts listed.",
+  "evidence_url": "https://www.instepp.org/immigration-services",
+  "cost_note": "Low-cost fees for immigration and naturalization help; call 919-680-8000 for prices.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Apex Immigration Services",
+  "city": "Apex",
+  "cost": "sliding_scale",
+  "evidence": "\"Its legal fees are therefor set at low, affordable rates and include a sliding scale based on ability to pay.\"",
+  "evidence_url": "https://www.apeximm.org/our-services/",
+  "cost_note": "Low legal fees on a sliding scale based on ability to pay.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Alliance Medical Ministry",
+  "city": "Raleigh",
+  "cost": "sliding_scale",
+  "evidence": "\"The membership program is based on household size and income.\" Fees \"range from $40-$160 per year\"; counseling at \"no additional charge.\"",
+  "evidence_url": "https://alliancemedicalministry.org/patient-fees",
+  "cost_note": "Annual membership of $40–$160 based on household size and income.",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "El Vinculo Hispano",
+  "city": "Chapel Hill",
+  "cost": "unknown",
+  "evidence": "EVH site lists offices in Siler City and Sanford only (no Chapel Hill); no service fees stated, only its Fiesta is marked \"GRATIS.\"",
+  "evidence_url": "https://evhnc.org/",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Haven House Outreach Center",
+  "city": "Raleigh",
+  "cost": "free",
+  "evidence": "Haven House's Wrenn House youth shelter: \"All services are provided free of charge.\" No cost found for the Outreach Center itself.",
+  "evidence_url": "https://www.hillsboroughstreet.org/go/wrenn-house",
+  "cost_note": "",
+  "checked": "2026-11-10"
+ }
+]

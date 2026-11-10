@@ -12,10 +12,10 @@
   "phone": "(919) 560-7600",
   "hours": "Mon–Fri 8:30 am–5 pm (main office). Vaccine clinic Mon–Thu 8:30 am–4 pm, Fri 8:30–11 am. STI, family planning and vaccine clinics open until 6 pm on the 2nd Tuesday of each month.",
   "access": "Appointments preferred; STI walk-ins taken first-come as space allows; vaccine walk-ins 8:30–10:30 am and 1–3:30 pm. No one is denied STI/HIV testing for lack of documents. Minors can consent to STI/HIV testing; family planning needs no parental consent.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://dconc.gov/Public-Health/Clinical-Services/STD-HIV-Testing/STD-STI-Testing-and-Treatment",
   "checked": "2026-11-10",
-  "notes": "STI/HIV testing is free (STI line 919-560-7601); some STI medicines are free and others are reduced by income. Free PrEP screening, labs and a 90-day PrEP supply, then referral to a prescriber. Vasectomy (919-560-7631) is on a sliding fee scale. Family planning fees aren't posted. Vaccines (919-560-7608) are free for eligible children through VFC; some families pay. TB skin test is a flat $25 (919-560-7633). Free community HIV/STI testing (ITTS): 919-560-8835."
+  "notes": "STI/HIV testing is free (STI line 919-560-7601); some STI medicines are free and others are reduced by income. Free PrEP screening, labs and a 90-day PrEP supply, then referral to a prescriber. Vasectomy (919-560-7631) is on a sliding fee scale. Family planning fees aren't posted. Vaccines (919-560-7608) are free for eligible children through VFC; some families pay. TB skin test is a flat $25 (919-560-7633). Free community HIV/STI testing (ITTS): 919-560-8835. STI/HIV testing is free; some STI medicines are free, others cost less by income. Other services, like TB tests and vasectomy, have fees."
  },
  {
   "name": "Durham County Public Health – Dental Clinic (children and pregnant people)",
@@ -49,10 +49,10 @@
   "phone": "(919) 250-1120",
   "hours": "STI clinic Mon, Tue, Thu, Fri 8:15 am–4:15 pm; Wed 9:30 am–4:15 pm. Free walk-in evening HIV/STI testing Tue & Thu 5:30–7:30 pm. Family planning Mon–Fri 8 am–5:15 pm; vaccines Mon–Fri 8:15 am–5 pm; TB Mon–Fri 8 am–5 pm.",
   "access": "Same-day and scheduled STI appointments; walk-ins accepted for testing (9 am–noon) but appointments encouraged. Family planning, vaccines and TB care need an appointment.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
   "checked": "2026-11-10",
-  "notes": "STI services are free except HPV treatment; insurance is billed if you have it. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up at the Public Health Center pharmacy Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning (IUDs, implant, shot, pill, patch, ring, condoms) and vaccines offer self-pay discounts by income; vaccines are priced per shot (flu $30) and free for eligible kids through VFC. TB medicines free; $25 chest interview."
+  "notes": "STI services are free except HPV treatment; insurance is billed if you have it. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up at the Public Health Center pharmacy Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning (IUDs, implant, shot, pill, patch, ring, condoms) and vaccines offer self-pay discounts by income; vaccines are priced per shot (flu $30) and free for eligible kids through VFC. TB medicines free; $25 chest interview. STI/HIV testing and treatment and home test kits are free; family planning and vaccines have fees with income-based discounts."
  },
  {
   "name": "Wake County Public Health Center – Children's Dental Clinic & Smiles for Wake",
@@ -86,10 +86,10 @@
   "phone": "(919) 431-4000",
   "hours": "Building Mon–Fri 8:30 am–5:15 pm; clinic hours vary, call. Free community HIV/STI testing 2nd Monday of each month, 2–4 pm.",
   "access": "Call to confirm clinic hours and book.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/public-health/health-clinics/sexually-transmitted-infections-clinic",
   "checked": "2026-11-10",
-  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. Medicaid applications also handled here."
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. Medicaid applications also handled here. STI testing and at-home test kits are free; family planning and vaccines are charged based on income."
  },
  {
   "name": "Wake County Eastern Regional Center – Public Health Clinic",
@@ -104,10 +104,10 @@
   "phone": "(919) 404-3900",
   "hours": "Clinic Mon, Wed, Fri 8:30 am–5 pm (by appointment). Building Mon–Fri 8:30 am–5:15 pm.",
   "access": "Clinic by appointment only.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/eastern-regional-center",
   "checked": "2026-11-10",
-  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. STI testing and treatment and home test kits are free; family planning and vaccines have fees with income-based discounts."
  },
  {
   "name": "Wake County Northern Regional Center – Public Health Clinic",
@@ -122,10 +122,10 @@
   "phone": "(919) 562-6300",
   "hours": "Clinic Tue & Thu 8:30 am–5 pm (by appointment). Free community HIV/STI testing 4th Tuesday, 9–11 am.",
   "access": "Clinic by appointment only.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/northern-regional-center",
   "checked": "2026-11-10",
-  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. STI testing and at-home test kits are free; family planning and vaccines are charged based on income."
  },
  {
   "name": "Wake County Southern Regional Center – Public Health Clinic",
@@ -141,10 +141,10 @@
   "phone": "(919) 557-2501",
   "hours": "Clinic Mon, Wed, Thu 8:30 am–5 pm. Free community HIV/STI testing 4th Monday, 9–11 am.",
   "access": "Call to make an appointment.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/health-human-services/health-human-services-locations/southern-regional-center",
   "checked": "2026-11-10",
-  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income."
+  "notes": "STI services free except HPV treatment. Free at-home STI test kits (chlamydia, gonorrhea, HIV, syphilis, trichomoniasis) can be picked up here Mon–Fri 8:30 am–5 pm; no appointment or personal information needed. Family planning and vaccines offer self-pay discounts by income. STI testing and treatment and home test kits are free; other visits and vaccines have fees, with income-based discounts."
  },
  {
   "name": "Wake County free HIV/STI testing – Western Human Services Center (monthly)",
@@ -309,10 +309,10 @@
   "phone": "(919) 390-6497",
   "hours": "",
   "access": "Must be an uninsured, low-income Wake County resident (no Medicaid, Medicare or other insurance) and referred by Alliance Medical Ministry, Mariam Clinic, NeighborHealth Center or Urban Ministries of Wake County.",
-  "cost": "",
+  "cost": "low_cost_membership",
   "source_url": "https://www.wakesmiles.org/become-a-patient/",
   "checked": "2026-11-10",
-  "notes": "$40 administrative fee per appointment; cards accepted. Spanish information available."
+  "notes": "$40 administrative fee per appointment; cards accepted. Spanish information available. Dental care costs a $40 administrative fee per appointment."
  },
  {
   "name": "Piedmont Health – Carrboro Dental",
@@ -545,9 +545,9 @@
   "phone": "(866) 222-1546",
   "hours": "",
   "access": "Income-based. Apply through your county's Social Worker for the Blind or local DSB district office. Spanish: 1-800-662-7030.",
-  "cost": "",
+  "cost": "low_cost_membership",
   "source_url": "https://www.ncdhhs.gov/assistance/vision-loss/medical-eye-care-program",
   "checked": "2026-11-10",
-  "notes": "Help depends on available funds; eligibility is decided by a Social Worker for the Blind."
+  "notes": "Help depends on available funds; eligibility is decided by a Social Worker for the Blind. $5 co-pay on eye exams; the program pays for approved surgery, treatment and medicine for those who qualify."
  }
 ]

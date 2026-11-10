@@ -508,5 +508,89 @@
   "city": "Raleigh",
   "concern": "Pullen's calendar and directories give 1:30-2:30 pm, not 1-2 pm.",
   "checked": "2026-11-10"
+ },
+ {
+  "name": "Housing for New Hope",
+  "city": "",
+  "concern": "site no longer lists a Rapid Rehousing program",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "NC Justice Center",
+  "city": "",
+  "concern": "intake page says it isn't taking new cases",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "VOA Maple Court",
+  "city": "",
+  "concern": "location page 404s; listing URL is VOA's homepage",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "Troy House",
+  "city": "",
+  "concern": "site calls it STSG Transitional House; asked for donations to stay open after 2024 state funding cuts",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "El Vinculo Hispano",
+  "city": "",
+  "concern": "offices only in Siler City and Sanford, not Chapel Hill; phone 919-742-1448 (listed 1488)",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "Haven House Outreach Center",
+  "city": "",
+  "concern": "youth drop-in, not a shelter; (919) 833-3312 belongs to other Haven House programs",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "Asylum Seekers Advocacy Project",
+  "city": "",
+  "concern": "national online group; URL redirects to asaptogether.org",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "St. Thomas More",
+  "city": "",
+  "concern": "own page says utility help only, not rent; listed URL 403s, ministry page at 5520.sites.ecatholic.com",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "Good Samaritan Fund",
+  "city": "",
+  "concern": "now covers utilities and food only; utility applications closed until Dec 1",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "Wake Tech ESL",
+  "city": "",
+  "concern": "interest form currently closed",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "CWS Immigrant Solidarity Fund",
+  "city": "",
+  "concern": "URL redirects to cwsdurham.org/isf/; waitlist several months",
+  "checked": "2026-11-10",
+  "from": "cost check"
+ },
+ {
+  "name": "El Pueblo Familias Seguras",
+  "city": "",
+  "concern": "a free Spanish-only PDF planning guide, not a service",
+  "checked": "2026-11-10",
+  "from": "cost check"
  }
 ]

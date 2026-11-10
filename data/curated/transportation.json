@@ -30,10 +30,10 @@
   "phone": "919-485-7433 (919-485-RIDE)",
   "hours": "",
   "access": "Free with GoPass: seniors 65+ and youth 13–18 (parent or guardian signs them up). Discount GoPass for riders with a disability. Each needs a free Umo account and an online form.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://gotriangle.org/fares",
   "checked": "2026-11-10",
-  "notes": "To sign up: make a Umo account, then fill out the Senior, Youth or Disability GoPass form on gotriangle.org. Senior and youth GoPasses also cover GoRaleigh buses. Low-income adults: see the Transit Assistance Pass. Call 919-485-RIDE (7433) for trip planning across all Triangle bus systems."
+  "notes": "To sign up: make a Umo account, then fill out the Senior, Youth or Disability GoPass form on gotriangle.org. Senior and youth GoPasses also cover GoRaleigh buses. Low-income adults: see the Transit Assistance Pass. Call 919-485-RIDE (7433) for trip planning across all Triangle bus systems. Free with a GoPass for seniors 65+, youth 13-18 and Transit Assistance Pass holders; others pay $2.50 ($1.25 discount fare)."
  },
  {
   "name": "GoRaleigh buses – free & half-fare programs",
@@ -48,10 +48,10 @@
   "phone": "919-485-7433 (919-485-RIDE)",
   "hours": "",
   "access": "Free: seniors 65+ with a valid ID; youth 13–18 enrolled in Youth GoPass; children 12 and under with an adult; adults 19–64 on Medicaid or SNAP/EBT or with household income under $35,000 (Transit Assistance Pass). Half fare: people with a disability (GoRaleigh RF ID card) and Medicare card holders.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://goraleigh.org/fares",
   "checked": "2026-11-10",
-  "notes": "Medicare card holders get a reduced-fare ID at the GoRaleigh Station information booth. Other passes are set up online through GoTriangle and the Umo app. Without a pass: one ride $1.25, day pass $2.50, 7-day pass $12, 31-day pass $40 (reduced: $0.60 / $1.25 / $6 / $20)."
+  "notes": "Medicare card holders get a reduced-fare ID at the GoRaleigh Station information booth. Other passes are set up online through GoTriangle and the Umo app. Without a pass: one ride $1.25, day pass $2.50, 7-day pass $12, 31-day pass $40 (reduced: $0.60 / $1.25 / $6 / $20). Free for seniors, youth, kids and income-qualified adults (TAP card); others pay $1.25 a ride or $0.60 reduced."
  },
  {
   "name": "GoCary – fare-free buses",
@@ -84,10 +84,10 @@
   "phone": "919-481-2020 (reservations: option 3)",
   "hours": "Reservations 7:30 a.m.–4:30 p.m. daily",
   "access": "Must apply and be approved first; a professional must sign part of the application and decisions take up to 21 days. For people with a disability who can't use fixed-route buses, or Cary residents 60+. Book at least 1 day ahead. Apex riders: ADA trips within 3/4 mile of the GoCary routes and GoApex Route 1, booked 1–7 days ahead.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://gocary.org/fares-passes-gocary",
   "checked": "2026-11-10",
-  "notes": "Tier 1 trips (ADA and senior trips within 3/4 mile of GoCary bus routes) are free through June 30, 2027. Tier 2 trips elsewhere in Cary cost $4. Tier 3 medical, education and work trips outside Cary are $6 to Apex or Morrisville; other fares vary. Personal care attendants ride free. People living outside Cary should call GoWake Access at 919-212-7005. Apex details: https://apexnc.org/1703"
+  "notes": "Tier 1 trips (ADA and senior trips within 3/4 mile of GoCary bus routes) are free through June 30, 2027. Tier 2 trips elsewhere in Cary cost $4. Tier 3 medical, education and work trips outside Cary are $6 to Apex or Morrisville; other fares vary. Personal care attendants ride free. People living outside Cary should call GoWake Access at 919-212-7005. Apex details: https://apexnc.org/1703 Trips near bus routes are free for now; other Cary trips $4; medical trips to other towns $6-9."
  },
  {
   "name": "GoRaleigh Access (ADA paratransit)",
@@ -102,10 +102,10 @@
   "phone": "919-996-3459 (option 1); TTY via NC Relay 800-735-2962",
   "hours": "Reservations 8:15 a.m.–4:45 p.m.; call center preferred hours Mon–Fri 9 a.m.–4 p.m.",
   "access": "ADA-eligible people with a disability. Apply with Part A (you) and Part B (signed by a physician or agency official); an in-person interview follows and a decision comes within 21 business days. Eligibility lasts 2 years. Book 1 to 14 days ahead.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://raleighnc.gov/go-raleigh-access",
   "checked": "2026-11-10",
-  "notes": "A trip costs $2.50 one way, paid from an account you load at the call center or in person. Riders on Medicaid or SNAP/EBT, or with household income under $35,000, ride Access free with the Transit Assistance Pass. No service on Thanksgiving or Christmas."
+  "notes": "A trip costs $2.50 one way, paid from an account you load at the call center or in person. Riders on Medicaid or SNAP/EBT, or with household income under $35,000, ride Access free with the Transit Assistance Pass. No service on Thanksgiving or Christmas. Free with a Transit Assistance Pass (Medicaid, SNAP or income under $35,000); otherwise $2.50 each way."
  },
  {
   "name": "GoTriangle Access (regional ADA paratransit)",
@@ -120,10 +120,10 @@
   "phone": "919-485-7433 (919-485-RIDE); route questions 919-485-7468",
   "hours": "",
   "access": "Wake, Durham and Orange residents whose disability keeps them from using GoTriangle buses. Trips must start and end within 3/4 mile of an all-day GoTriangle route.",
-  "cost": "",
+  "cost": "low_cost_membership",
   "source_url": "https://gotriangle.org/access",
   "checked": "2026-11-10",
-  "notes": "$5 per one-way trip; a 10-ride punch pass is $50 and a monthly pass is $160. Cash must be exact. Children 12 and under ride free."
+  "notes": "$5 per one-way trip; a 10-ride punch pass is $50 and a monthly pass is $160. Cash must be exact. Children 12 and under ride free. $5 per one-way trip; 10-ride pass $50; monthly pass $160. Children 12 and under ride free."
  },
  {
   "name": "GoWake Access (Wake County van rides)",
@@ -138,10 +138,10 @@
   "phone": "919-212-7005 (reservations); TTY 800-735-2962; cancel 919-996-3444",
   "hours": "Rides Mon–Sat 6 a.m.–6 p.m., excluding holidays",
   "access": "Wake County residents who are 60+, have a disability, need rides to work or job interviews, live in or travel to a rural zone, or are on Medicaid. General-public riders call the day before. Medicaid riders book at least 3 business days ahead, or 5 for trips out of county. Have both addresses ready.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wake.gov/departments-government/social-services/programs-services/gowake-access-transportation",
   "checked": "2026-11-10",
-  "notes": "Medicaid rides to Medicaid-approved appointments are free; proof of the appointment is required. Gas cards are available for Medicaid trips of 5+ miles one way and must be picked up. Other trips cost $2 within one town or $4 between towns. Non-Medicaid trips depend on space and are first-come, first-served. Chemo and dialysis riders get rides on most holidays. Medicaid walk-in at 220 Swinburne St.: Mon–Thu 9–10:45 a.m. and 2–3:45 p.m., Fri 9–10:45 a.m."
+  "notes": "Medicaid rides to Medicaid-approved appointments are free; proof of the appointment is required. Gas cards are available for Medicaid trips of 5+ miles one way and must be picked up. Other trips cost $2 within one town or $4 between towns. Non-Medicaid trips depend on space and are first-come, first-served. Chemo and dialysis riders get rides on most holidays. Medicaid walk-in at 220 Swinburne St.: Mon–Thu 9–10:45 a.m. and 2–3:45 p.m., Fri 9–10:45 a.m. Medicaid medical rides are free; other trips cost $2 within a town or $4 between towns."
  },
  {
   "name": "GoWake SmartRide NE (free on-demand rides in eastern Wake)",
@@ -228,10 +228,10 @@
   "phone": "984-342-2319",
   "hours": "Mon–Thu 6 a.m.–9:30 p.m.; Fri 6 a.m.–10:30 p.m.; Sat 8 a.m.–10:30 p.m.; Sun 7 a.m.–7 p.m.",
   "access": "Open to the public. Reduced fare is for people 65+, people with a mobility-limiting disability, or those enrolled in certain income-based programs (households at or below 50% of the Wake County median income). Children 12 and under ride free. Rides can't be booked ahead.",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://www.wakeforestnc.gov/node/9405",
   "checked": "2026-11-10",
-  "notes": "Book in the Go Wake Forest app or call 984-342-2319. Apply for reduced fare online or at Town Hall (301 S. Brooks St.); fares can also be paid there. An ADA-accessible van is always in service. The town's own paratransit ended in October 2024; eligible riders can book GoRaleigh Access (919-996-3459) for trips to Raleigh."
+  "notes": "Book in the Go Wake Forest app or call 984-342-2319. Apply for reduced fare online or at Town Hall (301 S. Brooks St.); fares can also be paid there. An ADA-accessible van is always in service. The town's own paratransit ended in October 2024; eligible riders can book GoRaleigh Access (919-996-3459) for trips to Raleigh. Kids 12 and under ride free; reduced fare is half price ($1.25–$2.25) for seniors, people with disabilities and income-qualified riders."
  },
  {
   "name": "GoDurham Connect (free on-demand rides in North & East Durham)",
@@ -282,7 +282,7 @@
   "phone": "919-560-1551",
   "hours": "Live agents daily 8 a.m.–4:30 p.m.",
   "access": "Durham County residents who have a disability, are 60+, are 'transportation disadvantaged', or live in a rural part of the county. You must apply first; reviews take about 3 business days. Book 1 to 14 days ahead.",
-  "cost": "",
+  "cost": "free",
   "source_url": "https://godurhamaccess.org/durham-county-access",
   "checked": "2026-11-10",
   "notes": "Apply online, or call 919-560-1551 to get a paper application in English or Spanish. Book by phone, app or web portal; cancel at least 1 hour ahead (option 2). The site banner says 'GoDurham ACCESS remains fare-free until June 2027'; call to confirm whether that covers county ACCESS trips."
@@ -375,10 +375,10 @@
   "phone": "919-245-2008; TDD/TTY 919-644-3045",
   "hours": "",
   "access": "Residents travelling to or from a rural part of Orange County, older adults and people with disabilities, and DSS Work First / workforce clients or job seekers. You must first send in a Client Certification / Service Request form; processing takes about a month (21 business days).",
-  "cost": "",
+  "cost": "some_free",
   "source_url": "https://orangecountync.gov/1316/Demand-Response-Services",
   "checked": "2026-11-10",
-  "notes": "EDTAP and rural general public trips are $3 one way. Employment trips (job interviews, work, training, GED classes, child care drop-off for working parents) are $0. Older adults waiting on approval can call the Department on Aging at 919-717-1853."
+  "notes": "EDTAP and rural general public trips are $3 one way. Employment trips (job interviews, work, training, GED classes, child care drop-off for working parents) are $0. Older adults waiting on approval can call the Department on Aging at 919-717-1853. Work and job-training rides are free; senior, disability and rural rides are $3 each way."
  },
  {
   "name": "Orange County DSS – Medicaid transportation",
@@ -394,7 +394,7 @@
   "phone": "919-245-2774 (leave a voicemail)",
   "hours": "",
   "access": "Orange County Medicaid members; DSS pre-qualifies riders.",
-  "cost": "",
+  "cost": "free",
   "source_url": "https://orangecountync.gov/1316/Demand-Response-Services",
   "checked": "2026-11-10",
   "notes": "Leave a voicemail at 919-245-2774 to set up Medicaid rides. Per NC Medicaid, county DSS handles NC Medicaid Direct members; members of a health plan call their plan (see the NC Medicaid NEMT entry)."
@@ -430,7 +430,7 @@
   "phone": "Reservations 919-969-5544; applications 919-969-4920",
   "hours": "Service Mon–Fri 5:15 a.m.–10:27 p.m., Sat–Sun 7:50 a.m.–7:57 p.m.",
   "access": "People with a permanent or temporary impairment that keeps them from using the buses. The application must be completed by you and your medical provider. Temporary service may be possible; call 919-969-4920. Book 1 to 14 days ahead.",
-  "cost": "",
+  "cost": "free",
   "source_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider",
   "checked": "2026-11-10",
   "notes": "The page doesn't list a fare; Chapel Hill Transit's buses are fare-free. Subscription trips are available for regular rides, and will-call returns are for medical trips only. Drivers help with up to 4 shopping bags."
@@ -466,10 +466,10 @@
   "phone": "919-542-5136; TTY 800-735-2962",
   "hours": "Service 4 a.m.–6 p.m.; dispatch 7 a.m.–5 p.m.; Mon–Fri",
   "access": "Anyone who lives in Chatham County; no referral or application needed. Book In-County rides 48 hours ahead (Monday trips by noon Thursday, Tuesday trips by noon Friday). Transit On Demand is same-day and booked only in the online Trip Portal.",
-  "cost": "",
+  "cost": "low_cost_membership",
   "source_url": "https://chathamtransit.org/faqs/",
   "checked": "2026-11-10",
-  "notes": "Fares go by distance, each way: $2 (0–3 mi), $3 (3.1–5), $4 (5.1–7), $5 (7.1–10), $7 (10.1–13), up to $13 (25.1–27 mi). Pay when boarding; drivers can't make change. Children under 13 ride free with a parent, and one aide or attendant rides free. Out-of-county medical trips are arranged case by case. Transit On Demand in Pittsboro runs Mon–Wed 6 a.m.–8 p.m., Thu 6 a.m.–9 p.m., Fri 6 a.m.–10 p.m., Sat 11 a.m.–10 p.m., Sun 1–6 p.m."
+  "notes": "Fares go by distance, each way: $2 (0–3 mi), $3 (3.1–5), $4 (5.1–7), $5 (7.1–10), $7 (10.1–13), up to $13 (25.1–27 mi). Pay when boarding; drivers can't make change. Children under 13 ride free with a parent, and one aide or attendant rides free. Out-of-county medical trips are arranged case by case. Transit On Demand in Pittsboro runs Mon–Wed 6 a.m.–8 p.m., Thu 6 a.m.–9 p.m., Fri 6 a.m.–10 p.m., Sat 11 a.m.–10 p.m., Sun 1–6 p.m. Fares by distance, $2 to $13 each way; children under 13 with a parent and one aide ride free."
  },
  {
   "name": "NC Medicaid – free rides to medical appointments (NEMT)",
@@ -540,9 +540,9 @@
   "phone": "(919) 832-1941",
   "hours": "",
   "access": "No direct applications: you must be referred by a partner agency after at least 4 months in one of its programs. Also need a valid NC driver's license, proof of a job, and no other vehicle in the household. Must attend an orientation and show proof of insurance.",
-  "cost": "",
+  "cost": "low_cost_membership",
   "source_url": "https://wheels4hope.org/apply",
   "checked": "2026-11-10",
-  "notes": "Cost to the recipient: $500 plus NC DMV title transfer fees and taxes, sent in with the agency's application. The title transfers to you one year after you get the car. Ask your case worker, or see the list of Triangle partner agencies at https://www.wheels4hope.org/triangleagencies"
+  "notes": "Cost to the recipient: $500 plus NC DMV title transfer fees and taxes, sent in with the agency's application. The title transfers to you one year after you get the car. Ask your case worker, or see the list of Triangle partner agencies at https://www.wheels4hope.org/triangleagencies Cars cost $500 plus DMV title fees and taxes."
  }
 ]

@@ -50,10 +50,10 @@
     "phone": "(919) 772-0211",
     "hours": "Surgery Mon–Fri (limited availability). Drop off cats 8–8:30am and dogs 8:30–9am. Pick up 3–4pm.",
     "access": "Appointment only. Book online, or by phone (voicemail, call returned). You must pay when you book. No vouchers, checks or CareCredit.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://spcawake.org/saving-lives-spay-neuter-clinic/",
     "checked": "2026-11-10",
-    "notes": "Cats: male $90, female $120, community cat $60. Dogs up to 59 lb: male $200, female $230. Dogs 60–99 lb: male $240, female $270. Add-ons: microchip $25, FeLV/FIV test $40, heartworm test $25. SPCA also sells spay/neuter vouchers for participating vets (cats $80–90, dogs $100–150), but the clinic is cheaper."
+    "notes": "Cats: male $90, female $120, community cat $60. Dogs up to 59 lb: male $200, female $230. Dogs 60–99 lb: male $240, female $270. Add-ons: microchip $25, FeLV/FIV test $40, heartworm test $25. SPCA also sells spay/neuter vouchers for participating vets (cats $80–90, dogs $100–150), but the clinic is cheaper. Cats $60-120; dogs $200-270 depending on size and sex. Rabies and distemper vaccines and pain medicine included."
   },
   {
     "name": "SPCA Wake – Microchip & Vaccine Wellness Clinics",
@@ -68,10 +68,10 @@
     "phone": "(919) 772-2326",
     "hours": "Periodic Saturday clinics. Next clinic: Saturday, Nov 21, 2026.",
     "access": "Register online for a time slot (one form per pet). Owned pets only, up to 4 pets per household. Cats must be in a carrier and dogs on a leash.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://spcawake.org/wellness",
     "checked": "2026-11-10",
-    "notes": "Microchip $5, 1-year rabies $10, FVRCP (cats) $5, DAPP (dogs) $5, collar and engraved tag $5. Fees count as donations and are not refunded."
+    "notes": "Microchip $5, 1-year rabies $10, FVRCP (cats) $5, DAPP (dogs) $5, collar and engraved tag $5. Fees count as donations and are not refunded. Microchips and distemper vaccines $5, rabies shots $10, collar with ID tag $5."
   },
   {
     "name": "SAFE Haven for Cats – Pet Food Pantry",
@@ -105,10 +105,10 @@
     "phone": "(919) 872-7730",
     "hours": "By appointment only",
     "access": "Appointment required (schedule online). Pay at check-in with cash or card (3% card fee).",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://www.safecareclinic.org/spay-neuter-services/pricing/",
     "checked": "2026-11-10",
-    "notes": "Female cat $100, male cat $90, feral/community cat $60. With surgery: microchip $20, FeLV/FIV test $35. No emergency or wellness-only visits."
+    "notes": "Female cat $100, male cat $90, feral/community cat $60. With surgery: microchip $20, FeLV/FIV test $35. No emergency or wellness-only visits. Female cat $100, male cat $90, community cat $60, including exam, rabies and distemper vaccines and pain shots."
   },
   {
     "name": "Friends of Wake County Animal Center – No Empty Bowl Pet Food",
@@ -142,10 +142,10 @@
     "phone": "",
     "hours": "",
     "access": "Wake County residents. Apply online, one application per pet. Kitty Clip is for people who can't afford spay/neuter (up to 5 vouchers at a time). Pit Stop requires household income under $125,000, a photo of the dog, and allows 2 vouchers a year. Vouchers expire after 6 months. Applications open when funds allow.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://www.friendsofwakeanimals.org/cat-spayneuter",
     "checked": "2026-11-10",
-    "notes": "Pay the $15 or $40 to the clinic at drop-off. Extra charges apply if the pet is in heat, pregnant or cryptorchid. Pit Stop details: https://www.friendsofwakeanimals.org/pit-spayneuter"
+    "notes": "Pay the $15 or $40 to the clinic at drop-off. Extra charges apply if the pet is in heat, pregnant or cryptorchid. Pit Stop details: https://www.friendsofwakeanimals.org/pit-spayneuter $15 for cats, $40 for pit bulls; covers exam, surgery and rabies/distemper shots."
   },
   {
     "name": "Five County Spay Neuter Clinic",
@@ -160,10 +160,10 @@
     "phone": "(919) 269-4564",
     "hours": "By appointment only",
     "access": "Call to schedule an appointment. Spay/neuter only; not for sick or injured pets.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "http://fivecountyspayneuter.com/",
     "checked": "2026-11-10",
-    "notes": "Wake County's April 2025 spay/neuter list gives prices starting at $185 for dogs and $105 for cats. Nonprofit status not confirmed."
+    "notes": "Wake County's April 2025 spay/neuter list gives prices starting at $185 for dogs and $105 for cats. Nonprofit status not confirmed. Cats $105; dogs $215-330+ by weight. Extra fee if pet is in heat or pregnant."
   },
   {
     "name": "Alley Cats and Angels – Cat Spay/Neuter Vouchers",
@@ -252,10 +252,10 @@
     "phone": "(919) 560-0630",
     "hours": "Tuesdays, Wednesdays and Thursdays, by appointment",
     "access": "Appointment only. Call to schedule.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://dconc.gov/DurhamCo-News/rabies-foxes.htm",
     "checked": "2026-11-10",
-    "notes": "$10 per pet (county notice dated Aug 2025). Rabies vaccination is required by NC law."
+    "notes": "$10 per pet (county notice dated Aug 2025). Rabies vaccination is required by NC law. Rabies shots are $10 per pet, by appointment."
   },
   {
     "name": "Beyond Fences",
@@ -326,10 +326,10 @@
     "phone": "(919) 942-7387",
     "hours": "Saturday mornings 9am–12pm, several times a year (2026: Feb 21, Jun 27, Nov 14)",
     "access": "Orange County residency not required. No appointment is mentioned; expect a wait. Dogs on a leash, cats in carriers (one per carrier). Cash or card.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
     "checked": "2026-11-10",
-    "notes": "Free distemper vaccines are provided by Petco Love. A 3-year rabies shot requires a previous rabies certificate (a tag alone isn't enough). Dates may change, so check the page."
+    "notes": "Free distemper vaccines are provided by Petco Love. A 3-year rabies shot requires a previous rabies certificate (a tag alone isn't enough). Dates may change, so check the page. Distemper vaccines are free; rabies shots $10; microchips $35."
   },
   {
     "name": "Orange County Animal Services – Rabies & Microchip Clinic (Hillsborough)",
@@ -344,10 +344,10 @@
     "phone": "(919) 942-7387",
     "hours": "Wednesdays 3–6pm on set dates (2026: Apr 15, Aug 5, Oct 7)",
     "access": "Orange County residency not required. Dogs on a leash, cats in carriers. Cash or card.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
     "checked": "2026-11-10",
-    "notes": "Rabies and microchips only; free distemper vaccines are offered only at the Chapel Hill clinics. Check the page for 2027 dates."
+    "notes": "Rabies and microchips only; free distemper vaccines are offered only at the Chapel Hill clinics. Check the page for 2027 dates. Rabies vaccine $10; microchip $35."
   },
   {
     "name": "Orange County Animal Services – Pet Support (housing & keeping pets)",
@@ -419,9 +419,9 @@
     "phone": "(919) 542-5757",
     "hours": "",
     "access": "Chatham County residents with household income of $50,000 or less. Mail the application (English or Spanish) with proof of income and the $20 co-pay. Vouchers are mailed within about 7 days. Up to 10 owned pets per household.",
-    "cost": "",
+    "cost": "low_cost_membership",
     "source_url": "https://www.chathamanimalrescue.org/spay-neuter-resources/",
     "checked": "2026-11-10",
-    "notes": "Use the voucher at participating Chatham County vets. CARE covers extra costs for pets in heat or pregnant. When funding allows, it runs no-co-pay campaigns ('3 for FREE'). In 2025, 379 surgeries were done through Lillie's Fund."
+    "notes": "Use the voucher at participating Chatham County vets. CARE covers extra costs for pets in heat or pregnant. When funding allows, it runs no-co-pay campaigns ('3 for FREE'). In 2025, 379 surgeries were done through Lillie's Fund. $20 co-pay per pet covers surgery, vaccines, pain medicine and an optional microchip."
   }
 ]
