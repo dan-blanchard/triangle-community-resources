@@ -413,6 +413,10 @@
 "file": null,
 "checked": "2026-11-10"
 },
+"emanuelfoodpantry.org": {
+"file": null,
+"checked": "2026-11-10"
+},
 "empowermentinc.org": {
 "file": "empowermentinc.org.png",
 "fp": "048d817af158dbefe1bffec10a37ef3b8945baca",
@@ -677,6 +681,12 @@
 "file": "kidznotes.org.png",
 "fp": "37ddc9d291f4f7dee9b04ac49640edc28e18d90f",
 "src": "https://images.squarespace-cdn.com/content/v1/62d997549bd2e03b382eb1fe/fb375095-917b-46f8-bad7-08f9f4d7d0a6/favicon.ico?format=100w",
+"checked": "2026-11-10"
+},
+"kirkofkildaire.org": {
+"file": "kirkofkildaire.org.png",
+"fp": "d915852bf5a3fddcbfb557ea69fd2535cb0f8d62",
+"src": "https://www.kirkofkildaire.org/wp-content/uploads/2024/02/cropped-KirkofKildaire_WhiteFavicon-180x180.png",
 "checked": "2026-11-10"
 },
 "kramden.org": {
@@ -1127,6 +1137,12 @@
 "file": "splatspace.org.png",
 "fp": "373419447f7f5e1be7082c98141d7d4c4252f46e",
 "src": "https://www.splatspace.org/wp-content/uploads/2023/11/cropped-splatlogo2-180x180.png",
+"checked": "2026-11-10"
+},
+"stbnc.net": {
+"file": "stbnc.net.png",
+"fp": "374e5d8ad47062bcb139fde65981b47e01b211ec",
+"src": "https://i0.wp.com/www.stbnc.net/wp-content/uploads/2019/06/cropped-Original-St-Bernadette-Logo-512x512-w-no-bg.jpg?fit=180%2C180&ssl=1",
 "checked": "2026-11-10"
 },
 "stepupdurham.org": {
