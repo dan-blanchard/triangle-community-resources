@@ -34,6 +34,11 @@ header.top .updated{font-size:.85rem;color:#bdb5a5;margin-top:.7rem}
 .citynav a:hover{border-color:var(--ink)}
 .citynav a.active{background:var(--ink);color:#fff;border-color:var(--ink)}
 .citynav a.active small{color:#ddd6c8}
+.townchip{display:inline-flex;align-items:center;background:var(--ink);color:#fff;border-radius:999px;font-size:.92rem;overflow:hidden}
+.townchip[hidden]{display:none}
+.townchip a{color:#fff;text-decoration:none;padding:.4rem .2rem .4rem .8rem;font-weight:600}
+.townchip a::before{content:"Town: ";font-weight:400;color:#ddd6c8}
+.townchip button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
 .citynav small{color:var(--muted)}
 .hint{color:var(--muted);font-size:.9rem;margin:.6rem 0 0}
 section.city{margin:2rem 0 2.5rem}
@@ -97,16 +102,16 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 
 <div class="controls" id="controls" hidden><div class="wrap">
   <input type="search" id="q" placeholder="Search: e.g. showers, diapers, tools, no ID…" aria-label="Search resources">
-  <select id="city" aria-label="Town"><option value="">All towns</option>{% for c in by_city %}<option value="{{ c }}">{{ "Region-wide only" if c == "Triangle-wide" else c }}</option>{% endfor %}</select>
+  <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
   <select id="cat" aria-label="Need"><option value="">All needs</option>{% for c in categories %}<option>{{ c }}</option>{% endfor %}</select>
   <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
 </div></div>
 
 <main class="wrap" id="top">
-  <nav class="citynav" aria-label="Jump to town">
-    <a href="#top" data-city="" class="all" hidden>All towns</a>
-    {% for c in by_city %}<a href="#{{ c|slug }}" data-city="{{ c }}">{{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></a>{% endfor %}
+  <nav class="citynav" id="towns" aria-label="Filter by town">
+    <a href="#top" data-city="" class="all" role="button" hidden>All towns</a>
+    {% for c in by_city %}<a href="#{{ c|slug }}" data-city="{{ c }}" role="button" aria-pressed="false">{{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></a>{% endfor %}
   </nav>
   <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Green tags mark groups run by and for the community.</p>
 
@@ -160,7 +165,8 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 (() => {
   const $ = (s) => document.querySelector(s);
   const ctl = $('#controls'); ctl.hidden = false;
-  const q = $('#q'), city = $('#city'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf');
+  const q = $('#q'), cat = $('#cat'), ma = $('#ma'), nf = $('#nf');
+  const city = { value: '' };  // selected town ('' = all), set by the town badges
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
   const params = new URLSearchParams(location.search);
   q.value = params.get('q') || ''; city.value = params.get('city') || ''; cat.value = params.get('need') || '';
@@ -186,14 +192,21 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
       sc.classList.toggle('hidden', !cityShown); shown += cityShown;
     });
     $('#empty').style.display = shown ? 'none' : 'block';
-    document.querySelectorAll('.citynav a').forEach(a => a.classList.toggle('active', !!city.value && a.dataset.city === city.value));
+    document.querySelectorAll('.citynav a[data-city]').forEach(a => {
+      const on = !!city.value && a.dataset.city === city.value;
+      a.classList.toggle('active', on);
+      if (a.hasAttribute('aria-pressed')) a.setAttribute('aria-pressed', on);
+    });
     $('.citynav a.all').hidden = !city.value;
+    $('#townchip').hidden = !city.value;
+    $('#townname').textContent = city.value === 'Triangle-wide' ? 'Region-wide' : city.value;
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value); if (city.value) p.set('city', city.value); if (cat.value) p.set('need', cat.value);
     if (ma.checked) p.set('community', ''); if (nf.checked) p.set('nofaith', '');
     history.replaceState(null, '', p.toString() ? '?' + p : location.pathname);
   }
-  [q, city, cat, ma, nf].forEach(el => el.addEventListener('input', apply));
+  [q, cat, ma, nf].forEach(el => el.addEventListener('input', apply));
+  $('#townclear').addEventListener('click', () => { city.value = ''; apply(); });
   document.querySelectorAll('.citynav a').forEach(a => a.addEventListener('click', ev => {
     ev.preventDefault();
     city.value = (a.dataset.city && city.value !== a.dataset.city) ? a.dataset.city : '';  // click again to clear
