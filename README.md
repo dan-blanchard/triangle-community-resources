@@ -50,3 +50,9 @@ Free, pay-what-you-can, or sliding-scale resources open to the community. Mutual
 co-ops, and grassroots groups are listed first in each section and tagged green. Excluded:
 paid thrift and retail stores, for-profit businesses, and programs that require religious
 participation.
+
+**"Faith-based" tag** (what "Hide faith-based" hides): the group running the service is a
+congregation or a religious ministry. A program merely hosted in a church (e.g. a community
+fridge run by the fridge network) isn't tagged. Secular-service nonprofits founded by
+congregations (Urban Ministries of Durham/Wake, IFC, Inter-Faith Food Shuttle, NeighborUp)
+are not tagged either (decided 2026-11-10).
