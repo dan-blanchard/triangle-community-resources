@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import difflib
 import json
 import os
 import re
@@ -121,6 +122,16 @@ def same_site(a: str, b: str) -> bool:
     return pa == pb or not pa or not pb
 
 
+def similar_names(a: str, b: str) -> bool:
+    """Typo-level variants (Waltown/Walltown, Fridges/Fridge, Holiness/Holy); numbered sites stay apart."""
+    if re.findall(r"\d+", a) != re.findall(r"\d+", b):
+        return False
+    ta, tb = a.replace("the ", ""), b.replace("the ", "")
+    if min(len(ta), len(tb)) >= 8 and (ta in tb or tb in ta) and abs(len(ta) - len(tb)) <= 8:
+        return True
+    return difflib.SequenceMatcher(None, ta, tb).ratio() >= 0.86
+
+
 def dedupe(entries: list[dict]) -> list[dict]:
     aliases = {k.lower(): v for k, v in json.loads(ALIASES.read_text()).items() if not k.startswith("_")} if ALIASES.exists() else {}
     out: list[dict] = []
@@ -136,10 +147,14 @@ def dedupe(entries: list[dict]) -> list[dict]:
             if o["city"] != e["city"] and "Triangle-wide" not in (o["city"], e["city"]):
                 continue
             ok = norm_name(o["name"])
-            if ok == key or (min(len(ok), len(key)) >= 14 and (ok.startswith(key) or key.startswith(ok))):
+            if ok == key or (min(len(ok), len(key)) >= 14 and (ok.startswith(key) or key.startswith(ok))) \
+                    or (o["city"] == e["city"] and similar_names(ok, key)):
                 match = o
                 break
-            if o["city"] == e["city"] and same_site(o["url"], e["url"]):
+            # Shared website only implies "same org" when a scraped row is involved; curated
+            # entries that share a site (e.g. one org's two distribution sites) are distinct on purpose.
+            if (o["city"] == e["city"] and same_site(o["url"], e["url"])
+                    and not (o.get("curated_file") and e.get("curated_file"))):
                 match = o
                 break
         if not match and not e.get("curated_file"):

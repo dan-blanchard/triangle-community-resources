@@ -1,0 +1,36 @@
+[
+  {
+    "name": "New Freedom Christian Fellowship Food Pantry",
+    "city": "Raleigh",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Weekly Friday-evening church food pantry in Southeast Raleigh.",
+    "address": "3540 Maitland Dr, Ste 102, Raleigh, NC 27610",
+    "url": "",
+    "phone": "(919) 601-2352",
+    "hours": "Fridays from 5:30 pm until supplies run out",
+    "access": "",
+    "cost": "free",
+    "source_url": "https://www.wake.gov/departments-government/wake-county-food-security-program/find-food-wake-county",
+    "notes": "Listed on Wake County's Food Finder map, which gives the address as 3540 Maitland Dr, Ste 102. Our lead had 3533 Maitland Dr. The source lists no eligibility, ID or religious requirements. The church has no website we could find, so call to confirm before going."
+  },
+  {
+    "name": "Calvary Faith Center – The Father's Table Food Pantry",
+    "city": "Wendell",
+    "categories": [
+      "Food"
+    ],
+    "org_type": "faith_based",
+    "description": "Monthly church food pantry that gives groceries to people in need.",
+    "address": "4825 Rolesville Rd, Wendell, NC 27591",
+    "url": "https://www.calvaryfaith.com/the-fathers-table/",
+    "phone": "",
+    "hours": "3rd Saturday of each month",
+    "access": "",
+    "cost": "free",
+    "source_url": "https://www.calvaryfaith.com/the-fathers-table/",
+    "notes": "The church's page doesn't give a start time or any eligibility rules, and it mentions no service-attendance requirement. Wake County's Food Finder map also lists it for the 3rd Saturday. Contact: info@calvaryfaith.com. It has also been listed as a Ship Outreach partner site, but neither the church's nor Ship Outreach's website mentions that."
+  }
+]
