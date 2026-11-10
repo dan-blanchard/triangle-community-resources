@@ -58,7 +58,7 @@ Pushing any of these to `main` triggers a rebuild right away.
 
 ## Filters
 
-Search; Towns (multi-select dropdown; region-wide listings always stay); Type; Cost; Hide
+Search; Towns (multi-select dropdown; region-wide listings appear under every town); Type; Cost; Hide
 faith-based; LGBTQIA+ affirming only; and need badges (multi-select, a listing shows if it
 meets any selected need). Every tag on a listing is clickable and filters to listings like it.
 All filters are reflected in the URL (`?town=Durham&need=Food&cost=free&lgbtq`), so filtered

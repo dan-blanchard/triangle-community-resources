@@ -57,6 +57,7 @@ header.top .updated{font-size:.85rem;color:#bdb5a5;margin-top:.7rem}
 .needsum button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
 .hint{color:var(--muted);font-size:.9rem;margin:.6rem 0 0}
 section.city{margin:2rem 0 2.5rem}
+.rw{margin:.1rem 0 .35rem;font-size:.82rem;font-weight:600;color:var(--accent)}
 section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:3px solid var(--ink)}
 section.cat h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;margin:1.4rem 0 .6rem;color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem}
@@ -142,6 +143,30 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 }
 </style>
 </head>
+{% macro card(e) %}
+        <article class="r" id="r{{ e.rid }}" data-rid="{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lgbtq %} data-lgbtq="1"{% endif %}{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
+          <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
+          {% if e.city == "Triangle-wide" %}<p class="rw">Serves the whole region</p>{% endif %}
+          <div class="badges">
+            {% if e.is_new %}<button type="button" class="b b-new" data-f="new" title="Show only new listings">New</button>{% endif %}
+            <button type="button" class="b b-{{ e.org_type }}" data-f="type" data-v="{{ e.org_type }}" title="Show only: {{ org_label[e.org_type] }}">{{ org_label[e.org_type] }}</button>
+            {% if e.cost != "unknown" %}<button type="button" class="b b-cost" data-f="cost" data-v="{{ e.cost }}" title="Show only: {{ cost_label[e.cost] }}">{{ cost_label[e.cost] }}</button>{% endif %}
+            {% if e.lgbtq %}<button type="button" class="b b-pride" data-f="lgbtq" title="Show only LGBTQIA+ affirming listings"><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</button><a class="why" href="{{ e.lgbtq.evidence_url }}" rel="noopener" title="{{ e.lgbtq.evidence }}">why?</a>{% endif %}
+          </div>
+          <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" role="button" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
+          {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
+          <dl class="facts">
+            {% if e.hours %}<dt>When</dt><dd>{{ e.hours|truncate(220)|linkify }}</dd>{% endif %}
+            {% if e.address %}<dt>Where</dt><dd>{% set m = e|maps %}{% if m %}<a href="{{ m }}" rel="noopener">{{ e.address|truncate(160) }}</a>{% else %}{{ e.address|truncate(160) }}{% endif %}</dd>{% endif %}
+            {% if e.phone %}<dt>Call</dt><dd><a href="tel:{{ e.phone|tel }}">{{ e.phone }}</a></dd>{% endif %}
+            {% if e.url %}<dt>Web</dt><dd><a href="{{ e.url }}" rel="noopener">{{ e.url|domain }}</a></dd>{% endif %}
+            {% if e.access %}<dt>Access</dt><dd>{{ e.access|truncate(240)|linkify }}</dd>{% endif %}
+            {% if e.notes %}<dt>Note</dt><dd class="note">{{ e.notes|truncate(260)|linkify }}</dd>{% endif %}
+          </dl>
+          {% if e.link_warning %}<span class="warn">Website hasn't loaded for several days; call before going.</span>{% endif %}
+          <div class="src"><a class="report" href="{{ e|report }}" rel="noopener">Report a change</a><br>{{ e|sources }}</div>
+        </article>
+{% endmacro %}
 <body>
 <header class="top"><div class="wrap headrow"><div>
   <h1>Triangle Community Resources</h1>
@@ -162,7 +187,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   <div class="dd" id="towndd">
     <button type="button" class="ddbtn" id="townbtn" aria-haspopup="true" aria-expanded="false" aria-controls="townpanel">All towns ▾</button>
     <div class="ddpanel" id="townpanel" role="group" aria-label="Towns" hidden>
-      {% for c in by_city %}<label><input type="checkbox" value="{{ c }}"> {{ "Region-wide" if c == "Triangle-wide" else c }} <small>{{ city_counts[c] }}</small></label>
+      {% for c in by_city %}<label><input type="checkbox" value="{{ c }}"> {{ c }} <small>{{ city_counts[c] }}</small></label>
       {% endfor %}<div class="ddfoot"><button type="button" id="townclear">Clear</button><button type="button" id="towndone">Done</button></div>
     </div>
   </div>
@@ -180,7 +205,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     {% endfor %}
   </nav>
   <p class="needhelp" id="needhelp" hidden></p>
-  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Pick one or more needs to see places that meet any of them. Each town is listed A–Z; green tags mark community-run groups. Tap any tag on a listing to see others like it.</p>
+  <p class="hint">Hours change. Call ahead when you can, and check the source link if something looks off. Pick one or more needs to see places that meet any of them. Each town is listed A–Z, including services that cover the whole region; green tags mark community-run groups. Tap any tag on a listing to see others like it.</p>
 
   <div id="mapwrap" hidden>
     <div id="map" role="region" aria-label="Map of resources"></div>
@@ -189,38 +214,22 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   <div id="listview">
   {% for city, cats in by_city.items() %}
   <section class="city" id="{{ city|slug }}" data-city="{{ city }}">
-    <h2>{{ "Region-wide & mobile" if city == "Triangle-wide" else city }}</h2>
+    <h2>{{ city }}</h2>
     {% for group, items in cats.items() if items %}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lgbtq %} data-lgbtq="1"{% endif %}{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
-          <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
-          <div class="badges">
-            {% if e.is_new %}<button type="button" class="b b-new" data-f="new" title="Show only new listings">New</button>{% endif %}
-            <button type="button" class="b b-{{ e.org_type }}" data-f="type" data-v="{{ e.org_type }}" title="Show only: {{ org_label[e.org_type] }}">{{ org_label[e.org_type] }}</button>
-            {% if e.cost != "unknown" %}<button type="button" class="b b-cost" data-f="cost" data-v="{{ e.cost }}" title="Show only: {{ cost_label[e.cost] }}">{{ cost_label[e.cost] }}</button>{% endif %}
-            {% if e.lgbtq %}<button type="button" class="b b-pride" data-f="lgbtq" title="Show only LGBTQIA+ affirming listings"><svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</button><a class="why" href="{{ e.lgbtq.evidence_url }}" rel="noopener" title="{{ e.lgbtq.evidence }}">why?</a>{% endif %}
-          </div>
-          <div class="needs">{% for c in e.categories %}<a class="need" href="?need={{ c|urlencode }}" data-need="{{ c }}" role="button" title="{{ cat_help[c] }}"><span aria-hidden="true">{{ emoji[c] }}</span> {{ c }}</a>{% endfor %}</div>
-          {% if e.description %}<p class="desc">{{ e.description|truncate(320)|linkify }}</p>{% endif %}
-          <dl class="facts">
-            {% if e.hours %}<dt>When</dt><dd>{{ e.hours|truncate(220)|linkify }}</dd>{% endif %}
-            {% if e.address %}<dt>Where</dt><dd>{% set m = e|maps %}{% if m %}<a href="{{ m }}" rel="noopener">{{ e.address|truncate(160) }}</a>{% else %}{{ e.address|truncate(160) }}{% endif %}</dd>{% endif %}
-            {% if e.phone %}<dt>Call</dt><dd><a href="tel:{{ e.phone|tel }}">{{ e.phone }}</a></dd>{% endif %}
-            {% if e.url %}<dt>Web</dt><dd><a href="{{ e.url }}" rel="noopener">{{ e.url|domain }}</a></dd>{% endif %}
-            {% if e.access %}<dt>Access</dt><dd>{{ e.access|truncate(240)|linkify }}</dd>{% endif %}
-            {% if e.notes %}<dt>Note</dt><dd class="note">{{ e.notes|truncate(260)|linkify }}</dd>{% endif %}
-          </dl>
-          {% if e.link_warning %}<span class="warn">Website hasn't loaded for several days; call before going.</span>{% endif %}
-          <div class="src"><a class="report" href="{{ e|report }}" rel="noopener">Report a change</a><br>{{ e|sources }}</div>
-        </article>
+        {% if e.city == "Triangle-wide" %}<i class="rwslot" data-rid="{{ e.rid }}" hidden></i>{% else %}{{ card(e) }}{% endif %}
       {% endfor %}
       </div>
     </section>
     {% endfor %}
   </section>
   {% endfor %}
+  {% if region %}<section class="city" id="rwpool" data-city="Triangle-wide">
+    <h2>Region-wide &amp; mobile</h2>
+    <div class="grid">{% for e in region %}{{ card(e) }}{% endfor %}</div>
+  </section>{% endif %}
   </div>
   <p class="empty" id="empty">Nothing matches. Try fewer words or clear the filters.</p>
 </main>
@@ -253,9 +262,18 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   const EMOJI = {{ emoji|tojson }};
   const towns = new Set(), needs = new Set();
 
+  // ---- region-wide listings serve every town: copy each into its A-Z spot in every town ----
+  const pool = $('#rwpool');
+  if (pool) {
+    const byRid = {};
+    pool.querySelectorAll('article.r').forEach(a => byRid[a.dataset.rid] = a);
+    $$('i.rwslot').forEach(s => { const c = byRid[s.dataset.rid].cloneNode(true); c.removeAttribute('id'); s.replaceWith(c); });
+    pool.remove();
+  }
+
   // ---- state from the URL (?town=Durham&town=Raleigh&need=Food&need=Pet+Care…) ----
   const params = new URLSearchParams(location.search);
-  [...params.getAll('town'), ...params.getAll('city')].forEach(t => towns.add(t));
+  [...params.getAll('town'), ...params.getAll('city')].forEach(t => { if (t !== 'Triangle-wide') towns.add(t); });
   params.getAll('need').forEach(n => needs.add(n));
   q.value = params.get('q') || '';
   const pick = (sel, v) => [...sel.options].some(o => o.value === v) ? v : '';
@@ -283,7 +301,6 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   // ---- towns dropdown (multi-select) ----
   const townBtn = $('#townbtn'), townPanel = $('#townpanel');
   const townBoxes = $$('#townpanel input[type=checkbox]');
-  const townName = t => t === 'Triangle-wide' ? 'Region-wide' : t;
   function openTowns(open) { townPanel.hidden = !open; townBtn.setAttribute('aria-expanded', open); }
   townBtn.addEventListener('click', () => openTowns(townPanel.hidden));
   $('#towndone').addEventListener('click', () => openTowns(false));
@@ -302,8 +319,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     buildSearch();
     let shown = 0;
     $$('section.city').forEach(sc => {
-      // Selecting towns also keeps region-wide listings, which serve every town.
-      const cityOk = !towns.size || towns.has(sc.dataset.city) || sc.dataset.city === 'Triangle-wide';
+      const cityOk = !towns.size || towns.has(sc.dataset.city);
       let cityShown = 0;
       sc.querySelectorAll('article.r').forEach(a => {
         const t = a.dataset.type;
@@ -319,7 +335,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 
     // towns button + checkboxes
     townBoxes.forEach(b => b.checked = towns.has(b.value));
-    const tl = [...towns].map(townName);
+    const tl = [...towns];
     townBtn.textContent = (!tl.length ? 'All towns' : tl.length <= 2 ? tl.join(', ') : `${tl.length} towns`) + ' ▾';
     townBtn.classList.toggle('on', towns.size > 0);
     // needs badges, card badges, sticky summary, descriptions
@@ -359,7 +375,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     facts.querySelectorAll('dt').forEach(dt => { if (!['When', 'Where', 'Call'].includes(dt.textContent)) { dt.nextElementSibling.remove(); dt.remove(); } });
     div.append(facts);
     const more = document.createElement('a');
-    more.href = '#' + a.id; more.className = 'more'; more.textContent = 'Full details →';
+    more.href = a.id ? '#' + a.id : '#'; more.className = 'more'; more.textContent = 'Full details →';
     more.addEventListener('click', ev => { ev.preventDefault(); setView('list'); a.scrollIntoView({behavior: 'smooth', block: 'center'}); a.classList.add('flash'); setTimeout(() => a.classList.remove('flash'), 2000); });
     div.append(more);
     return div;
@@ -367,8 +383,10 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   function drawMarkers() {
     if (!map) return;
     cluster.clearLayers();
-    const pts = [];
+    const pts = [], seen = new Set();
     $$('section.city:not(.hidden) article.r:not(.hidden)[data-lat]').forEach(a => {
+      if (seen.has(a.dataset.rid)) return;  // region-wide listings appear under every town
+      seen.add(a.dataset.rid);
       const ll = [+a.dataset.lat, +a.dataset.lon];
       pts.push(ll);
       const m = L.circleMarker(ll, {radius: 7, weight: 2, color: '#fff', fillColor: COLORS[a.dataset.type] || '#2b4f7a', fillOpacity: .95});

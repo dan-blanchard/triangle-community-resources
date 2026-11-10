@@ -460,19 +460,24 @@ def render(entries: list[dict], meta: dict) -> None:
     for i, e in enumerate(sorted(entries, key=lambda e: (e["city"], e["name"].lower()))):
         e["rid"] = i
     order = {c: i for i, c in enumerate(common.CATEGORIES)}
+    for e in entries:
+        e["categories"] = sorted(e["categories"], key=lambda x: order.get(x, 99))
+    az = lambda e: e["name"].lower().removeprefix("the ")
+    # Region-wide listings serve every town, so each town's A-Z list includes them (as slots the
+    # page's script fills from one copy, which keeps the page small).
+    region = sorted((e for e in entries if e["city"] == "Triangle-wide"), key=az)
     by_city: dict[str, dict[str, list[dict]]] = {}
+    city_counts: dict[str, int] = {}
     for c in common.CITIES:
-        items = [e for e in entries if e["city"] == c]
-        if not items:
+        local = [e for e in entries if e["city"] == c]
+        if not local or c == "Triangle-wide":
             continue
-        for e in items:
-            e["categories"] = sorted(e["categories"], key=lambda x: order.get(x, 99))
-        items.sort(key=lambda e: e["name"].lower().removeprefix("the "))
-        by_city[c] = {"": items}  # one A-Z list per town
+        city_counts[c] = len(local)
+        by_city[c] = {"": sorted(local + region, key=az)}  # one A-Z list per town
     html = env.get_template("index.html.j2").render(
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
-        city_counts={c: sum(len(v) for v in groups.values()) for c, groups in by_city.items()},
+        city_counts=city_counts, region=region,
         cat_help=common.CATEGORY_HELP,
         any_new=any(e.get("is_new") for e in entries),
         unmapped=sum(1 for e in entries if e.get("lat") is None),
