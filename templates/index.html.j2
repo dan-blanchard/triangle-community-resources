@@ -107,7 +107,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 </div></div>
 
 <div class="controls" id="controls" hidden><div class="wrap">
-  <input type="search" id="q" placeholder="Search: e.g. showers, diapers, tools, no ID…" aria-label="Search resources">
+  <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
   <span class="townchip" id="townchip" hidden><a href="#towns" id="townname" title="Pick a different town"></a><button type="button" id="townclear" aria-label="Show all towns">✕</button></span>
   <select id="cat" aria-label="Need"><option value="">All needs</option>{% for group, cats in category_groups %}<optgroup label="{{ group }}">{% for c, em in cats %}{% if cat_counts[c] %}<option value="{{ c }}" title="{{ cat_help[c] }}">{{ em }} {{ c }} ({{ cat_counts[c] }})</option>{% endif %}{% endfor %}</optgroup>{% endfor %}</select>
   <label class="tog"><input type="checkbox" id="ma"> Mutual aid &amp; community-run only</label>
@@ -131,7 +131,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
       <h3>{{ group }}</h3>
       <div class="grid">
       {% for e in items %}
-        <article class="r" data-type="{{ e.org_type }}" data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes)|lower }}">
+        <article class="r" data-type="{{ e.org_type }}" data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone)|lower }}">
           <h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4>
           <div class="badges">
             {% if e.is_new %}<span class="b b-new">New</span>{% endif %}
@@ -182,8 +182,24 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
   const params = new URLSearchParams(location.search);
   q.value = params.get('q') || ''; city.value = params.get('city') || ''; cat.value = params.get('need') || '';
   ma.checked = params.has('community'); nf.checked = params.has('nofaith');
+  const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Words match at the start of a word ("id" won't match inside "aid").
+  const wordRe = w => new RegExp('(^|[^a-z0-9])' + esc(w));
+  let textOk = () => true;
+  function buildSearch() {
+    const words = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    if (!words.length) { textOk = () => true; return; }
+    const all = words.map(wordRe);
+    const byWords = t => all.every(r => r.test(t));
+    if (words.length === 1) { textOk = byWords; return; }
+    // Multi-word: prefer the exact phrase ("no id", "sliding scale"); fall back to all words anywhere.
+    const phrase = new RegExp('(^|[^a-z0-9])' + words.map(esc).join('[\\s,.;:/-]+'));
+    const byPhrase = t => phrase.test(t);
+    const anyPhrase = [...document.querySelectorAll('article.r')].some(a => byPhrase(a.dataset.text));
+    textOk = anyPhrase ? byPhrase : byWords;
+  }
   function apply() {
-    const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    buildSearch();
     let shown = 0;
     document.querySelectorAll('section.city').forEach(sc => {
       let cityShown = 0;
@@ -195,7 +211,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
           const t = a.dataset.type;
           const ok = cityOk && (!cat.value || a.dataset.cats.split('|').includes(cat.value))
             && (!ma.checked || COMMUNITY.has(t)) && (!nf.checked || t !== 'faith_based')
-            && words.every(w => a.dataset.text.includes(w));
+            && textOk(a.dataset.text);
           a.classList.toggle('hidden', !ok); if (ok) catShown++;
         });
         sk.classList.toggle('hidden', !catShown); cityShown += catShown;
