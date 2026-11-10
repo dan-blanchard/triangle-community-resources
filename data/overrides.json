@@ -7,5 +7,9 @@
  "Grey Stone Baptist Church Second Mile Ministries|Durham": {
   "notes": "Wednesday sessions begin at 9am with a brief welcome and encouraging word from a church pastor, and each person is offered a personal prayer; the site doesn't say whether these are optional.",
   "_why": "Religious-participation audit 2026-11-10 (greystonechurch.com/2nd-mile): unclear whether optional"
+ },
+ "White Plains UMC|Cary": {
+  "url": "https://wpumc.com/",
+  "_why": "Church's own site (313 SE Maynard Rd); feed has no URL. Audit 2026-11-10"
  }
 }

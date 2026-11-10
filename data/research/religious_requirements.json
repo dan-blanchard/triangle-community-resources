@@ -1,538 +1,1658 @@
 [
-  {
-    "name": "Open Table Ministry – Free Store",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Free store, office hours, case management; only faith content is an Isaiah 58 quote. No religious condition stated.",
-    "evidence_url": "https://www.opentableministry.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Urban Ministries of Durham – Community Café, Pantry & Clothing Closet",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "\"UMD welcomes all neighbors regardless of race, ethnicity, religious beliefs or non-faith\"; shelter is Housing First/low-barrier, no religious activities listed.",
-    "evidence_url": "https://umdurham.org/shelter/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Samaritan Health Center",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Care addresses \"spiritual issues that affect health\"; no requirement to attend worship or prayer stated.",
-    "evidence_url": "https://www.samaritanhealthcenter.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "World Relief Durham – Immigration Legal Services",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Partners with local churches; eligibility is a $50 legal consultation. No religious requirement stated.",
-    "evidence_url": "https://www.immigrationlawhelp.org/organization.708021-World_Relief_Durham",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Planned Parenthood – Chapel Hill Health Center",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.plannedparenthood.org/health-center/north-carolina/chapel-hill/27514/chapel-hill-health-center-4169-90860",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Piedmont Health – Chapel Hill Community Health Center",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://piedmonthealth.org/chc-locations-overview",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Town Food Distribution",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "PORCH Chapel Hill-Carrboro – Food for Families",
-    "city": "Carrboro",
-    "verdict": "no_requirement_found",
-    "evidence": "Grassroots secular 501(c)(3) hunger-relief group; no religious requirement.",
-    "evidence_url": "https://chapelhill.porchcommunities.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Orange Congregations in Mission (OCIM)",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Site states no religious condition for food, clothing or aid; details sparse.",
-    "evidence_url": "https://www.ocimnc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Transit (fare-free buses)",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Public Library",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.chapelhillpubliclibrary.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Mt. Zion AME Church (Cedar Grove) – Food Pantry",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Church site describes no help program conditions; no religious requirement stated.",
-    "evidence_url": "https://www.mtzionamehillsborough.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Hillsborough Seventh-day Adventist Church – Monthly Food Distribution",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Monthly Durham Food Bank pickup point, third Monday; no religious condition stated.",
-    "evidence_url": "https://hillsboroughadventist.org/ministries/community-services",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Life Point Church – The Storehouse",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Saturday food distribution from donated groceries; no worship/prayer requirement stated.",
-    "evidence_url": "https://www.lifepointnc.org/outreach",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Amity United Methodist Church – Food Pantry",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Pantry 2nd/4th Thursdays 10-12; no religious condition stated.",
-    "evidence_url": "https://amityumc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Hillside Church – Food Pantry",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Pantry 1st/3rd Saturdays 11am; no religious condition stated.",
-    "evidence_url": "https://hillsidenc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "APS of Durham – Community Pet Pantry at The Salvation Army",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "APS-run pet food pantry hosted at Salvation Army, Durham County residents; no religious requirement.",
-    "evidence_url": "https://www.apsofdurham.org/pet-owner-resources/assistance-for-pet-owners/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Orange County Animal Services – Low-Cost Vaccine & Microchip Clinic (Chapel Hill)",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Orange Congregations in Mission (OCIM) – Food Pantry for People and Pets",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Site states no religious condition for food pantry; details sparse.",
-    "evidence_url": "https://www.ocimnc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Public Library – Kits & Tech Lending",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://chapelhillpubliclibrary.org/kits-tech",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Public Library – Tech Lab",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://chapelhillpubliclibrary.org/tech-lab",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Simple Gifts Community Garden",
-    "city": "Apex",
-    "verdict": "no_requirement_found",
-    "evidence": "Community garden, \"all are welcome\"; Apex UMC sponsor logo only. No religious condition.",
-    "evidence_url": "https://simplegiftsgarden.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Society of St. Andrew – Triangle Gleaning Network",
-    "city": "Triangle-wide",
-    "verdict": "no_requirement_found",
-    "evidence": "Gleaned produce goes to partner agencies; no religious condition stated.",
-    "evidence_url": "https://endhunger.org/north-carolina/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Really Really Free Market",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.instagram.com/chapelhillrrfm",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Transit EZ Rider (ADA paratransit)",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chapel Hill Transit Senior Shuttle",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
-    "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider/Senior-Shuttle",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Urban Ministries of Wake County – Food Pantry",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "\"Any Wake County resident experiencing food insecurity. No referral is required. All are welcome.\"",
-    "evidence_url": "https://urbanmin.org/services/food-pantry",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Open Door Clinic (Urban Ministries of Wake County)",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Clinic for uninsured adults; no religious condition stated.",
-    "evidence_url": "https://urbanmin.org/services/clinic-pharmacy",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "NeighborUp – Cary (formerly Dorcas Ministries)",
-    "city": "Cary",
-    "verdict": "no_requirement_found",
-    "evidence": "Get-help page lists financial aid, pantry, coaching; no religious requirement mentioned.",
-    "evidence_url": "https://neighborup.org/get-help/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "NeighborUp – Apex (formerly Western Wake Crisis Ministry)",
-    "city": "Apex",
-    "verdict": "no_requirement_found",
-    "evidence": "Get-help page lists financial aid, pantry, coaching; no religious requirement mentioned.",
-    "evidence_url": "https://neighborup.org/get-help/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Community of Hope Ministries Food Pantry",
-    "city": "Garner",
-    "verdict": "unclear",
-    "evidence": "\"Each family receives counseling, and then is able to pick fresh food\"; ministry offers \"the Bread of Life through Jesus Christ\". Counseling content unstated.",
-    "evidence_url": "https://www.communityofhopeministries.org/food-pantry",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Tri-Area Ministry Food Pantry",
-    "city": "Wake Forest",
-    "verdict": "no_requirement_found",
-    "evidence": "Pantry describes itself as \"non-denominational, 100% volunteer\"; no religious condition stated.",
-    "evidence_url": "https://triareaministry.com/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Richland Creek Community Church Food Pantry",
-    "city": "Wake Forest",
-    "verdict": "no_requirement_found",
-    "evidence": "Pantry aims at \"engaging them with the Gospel\"; prayer counselors volunteer at distribution. Not stated as required.",
-    "evidence_url": "https://www.richlandcreek.com/creek-food-pantry",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Calvary Faith Center – The Father's Table Food Pantry",
-    "city": "Wendell",
-    "verdict": "no_requirement_found",
-    "evidence": "Monthly 3rd-Saturday pantry; \"feeding their bodies and filling their souls\" is intent only, no condition.",
-    "evidence_url": "https://www.calvaryfaith.com/the-fathers-table/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Duke Memorial UMC  Good Samaritan Fund",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Utility/food help for Durham County residents; no worship or membership condition stated.",
-    "evidence_url": "https://www.dukememorial.org/goodsam.html",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Grey Stone Baptist Church Second Mile Ministries",
-    "city": "Durham",
-    "verdict": "unclear",
-    "evidence": "Session \"begin[s] at 9am with a brief welcome and encouraging word from one of our Church Pastors\" before counseling; personal prayer for each person. Not stated optional.",
-    "evidence_url": "https://www.greystonechurch.com/2nd-mile",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Salvation Army",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Durham corps pages list no chapel/worship condition for aid; shelter rules not published online. News search found nothing.",
-    "evidence_url": "https://www.salvationarmyusa.org/nc/durham/liberty-st-corps/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "White Rock Baptist Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "One-time utility/rent aid; rules list ID and bills only. No religious condition.",
-    "evidence_url": "https://whiterockbaptistchurch.org/emergency-assistance-ministry/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Elizabeth Street UMC",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Monthly community meal, \"Come as you are — all are welcome!\"; no religious condition.",
-    "evidence_url": "https://elizabethstreetumc.org/community-meal",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Hannah’s Kitchen (Greater Orange Grove Baptist Church)",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Drive-through food box distribution at Orange Grove MBC; no religious activity mentioned.",
-    "evidence_url": "https://www.handsontriangle.org/need/detail/?need_id=572142",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Russell Memorial CME Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Wednesday food distribution; no religious condition stated.",
-    "evidence_url": "https://www.russellmemorialcme.org/food-bank-ministry/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "St. Joseph’s Episcopal Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Free weekday breakfast and showers open to anyone; no worship or prayer mentioned.",
-    "evidence_url": "https://stjosephsdurham.org/breakfast",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Greater Waltown United Holiness Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Site lists a community food pantry; no religious condition stated, few details.",
-    "evidence_url": "https://www.greaterwaltownuhc.org/index.php",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Durham Spanish SDA Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Site invites visitors to Bible study and worship; no aid program or condition tied to it.",
-    "evidence_url": "https://durhamspanishnc.adventistchurch.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Jewish Family Services",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "No requirement to be Jewish, attend services or hold membership stated.",
-    "evidence_url": "https://www.jewishforgood.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Ministerios Guerreros de Jesus Cristo International",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Menu lists a food bank; no conditions or religious requirement described.",
-    "evidence_url": "http://www.guerrerodejesucristo.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "First Calvary Baptist Church",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Homepage describes no aid conditions; no religious requirement stated.",
-    "evidence_url": "https://fcbcdurham.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "House of Mercy - Celebracion Cristiana",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "Casa de Misericordia food bank: \"No tienes que ser miembro de la iglesia\"; \"SIN REQUISITOS\".",
-    "evidence_url": "https://celebracioncristiana.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Martin Street Baptist Church",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Ministries page gives no aid details or religious conditions.",
-    "evidence_url": "https://www.martinstreetbaptist.org/our-ministries",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Hope Community Church",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Pantry shopping once per 30 days with free account; no religious condition; footer \"Need Prayer?\" link unrelated.",
-    "evidence_url": "https://gethope.net/localhope/food-pantry/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Alliance Medical Ministry",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Clinic for working uninsured Wake adults; no religious condition stated.",
-    "evidence_url": "https://www.alliancemedicalministry.org/comprehensive-care",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "First Presbyterian Church",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Friendship Fund helps Wake neighbors with urgent bills; no religious condition stated (missions URL 404).",
-    "evidence_url": "https://fpcraleigh.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Living Word Family Church - Food Distribution Center",
-    "city": "Wake Forest",
-    "verdict": "no_requirement_found",
-    "evidence": "Free groceries; warehouses offer chance to \"have gospel conversations\". No attendance or prayer condition stated.",
-    "evidence_url": "https://raleighdreamcenter.org/foodwarehouse/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "North Raleigh Ministries",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Food help by zip code and ID, curbside; pastoral care offered as separate service, not tied to food.",
-    "evidence_url": "https://northraleighministries.com/food-assistance/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "St Thomas Moore Church",
-    "city": "Chapel Hill",
-    "verdict": "optional_offered",
-    "evidence": "Utility aid for parishioners and Chapel Hill/Carrboro residents; parishioners get priority; volunteers \"can offer prayer support\".",
-    "evidence_url": "https://www.stmchapelhill.org/financial-assistance-ministry",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Blinkley Baptist Church",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "No aid program or religious condition described.",
-    "evidence_url": "https://www.binkleychurch.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Damascus Congregational Christian Church",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "Monthly Food & Fellowship meal; worship/Bible study listed separately with no requirement.",
-    "evidence_url": "https://www.damascuschurchnc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "United Church of Chapel Hill",
-    "city": "Chapel Hill",
-    "verdict": "no_requirement_found",
-    "evidence": "No religious condition tied to meals or assistance stated.",
-    "evidence_url": "https://unitedchurch.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Unitarian Universalist Congregation of Hillsborough",
-    "city": "Hillsborough",
-    "verdict": "no_requirement_found",
-    "evidence": "Little Free Pantry listed; no religious condition.",
-    "evidence_url": "https://uuchnc.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Durham Neighborhood Food Pantry (ICNA food relief)",
-    "city": "Durham",
-    "verdict": "no_requirement_found",
-    "evidence": "ICNA Relief: \"Faith In Action. Service For All.\" \"We don't ask who they are before we help.\"",
-    "evidence_url": "https://icnarelief.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "North Haven Ministries Inc",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "North Haven Church ministry: pantry, Community Day, camp; no religious condition stated.",
-    "evidence_url": "https://northhavenministries.org/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Raleigh Rescue Mission",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Site describes New Life Plan (vocational classes required) and Christian mission; no chapel/worship requirement published. No news reports found.",
-    "evidence_url": "https://www.raleighrescue.org/our-solution/the-new-life-plan/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Salvation Army-Raleigh",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Family shelter and pantry pages list ID/residency rules only; no chapel or devotion requirement.",
-    "evidence_url": "https://www.salvationarmyusa.org/usa-southern-territory/north-and-south-carolina/raleigh-area-command/homelessness/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "With Love From Jesus Ministry",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "\"No ID, referral, proof of income, or proof of residence is required\"; mission ministers to spiritual needs, no activity required.",
-    "evidence_url": "https://www.withlovefromjesus.org/to-receive-help/",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Helping Hands Mission",
-    "city": "Raleigh",
-    "verdict": "no_requirement_found",
-    "evidence": "Web search: food, clothing, furniture, shelter help for families; no reports of required religious participation. No working website.",
-    "evidence_url": "https://raleigh.graceslist.org/directory/listing/helping-hand-mission-inc",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Chatham Chuckwagon: St. Bartholomew's Episcopal Church",
-    "city": "Pittsboro",
-    "verdict": "no_requirement_found",
-    "evidence": "Chatham Chuckwagon provides free meals to community; no worship or prayer condition stated.",
-    "evidence_url": "https://www.chathamalliance.org",
-    "checked": "2026-11-10"
-  },
-  {
-    "name": "Haw River Baptist Church",
-    "city": "Pittsboro",
-    "verdict": "no_requirement_found",
-    "evidence": "Site has no content on aid or conditions.",
-    "evidence_url": "https://www.hawriverbaptistchurch.org/",
-    "checked": "2026-11-10"
-  }
+ {
+  "name": "Open Table Ministry – Free Store",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Free store, office hours, case management; only faith content is an Isaiah 58 quote. No religious condition stated.",
+  "evidence_url": "https://www.opentableministry.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Urban Ministries of Durham – Community Café, Pantry & Clothing Closet",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "\"UMD welcomes all neighbors regardless of race, ethnicity, religious beliefs or non-faith\"; shelter is Housing First/low-barrier, no religious activities listed.",
+  "evidence_url": "https://umdurham.org/shelter/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Samaritan Health Center",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Care addresses \"spiritual issues that affect health\"; no requirement to attend worship or prayer stated.",
+  "evidence_url": "https://www.samaritanhealthcenter.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "World Relief Durham – Immigration Legal Services",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Partners with local churches; eligibility is a $50 legal consultation. No religious requirement stated.",
+  "evidence_url": "https://www.immigrationlawhelp.org/organization.708021-World_Relief_Durham",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Planned Parenthood – Chapel Hill Health Center",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.plannedparenthood.org/health-center/north-carolina/chapel-hill/27514/chapel-hill-health-center-4169-90860",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Piedmont Health – Chapel Hill Community Health Center",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://piedmonthealth.org/chc-locations-overview",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Town Food Distribution",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.chapelhillnc.gov/Town-Services/Food-Distribution-Main-page",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "PORCH Chapel Hill-Carrboro – Food for Families",
+  "city": "Carrboro",
+  "verdict": "no_requirement_found",
+  "evidence": "Grassroots secular 501(c)(3) hunger-relief group; no religious requirement.",
+  "evidence_url": "https://chapelhill.porchcommunities.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange Congregations in Mission (OCIM)",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Site states no religious condition for food, clothing or aid; details sparse.",
+  "evidence_url": "https://www.ocimnc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Transit (fare-free buses)",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/Bus-Routes-and-Schedules",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Public Library",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.chapelhillpubliclibrary.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mt. Zion AME Church (Cedar Grove) – Food Pantry",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Church site describes no help program conditions; no religious requirement stated.",
+  "evidence_url": "https://www.mtzionamehillsborough.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillsborough Seventh-day Adventist Church – Monthly Food Distribution",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Monthly Durham Food Bank pickup point, third Monday; no religious condition stated.",
+  "evidence_url": "https://hillsboroughadventist.org/ministries/community-services",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Life Point Church – The Storehouse",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Saturday food distribution from donated groceries; no worship/prayer requirement stated.",
+  "evidence_url": "https://www.lifepointnc.org/outreach",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Amity United Methodist Church – Food Pantry",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry 2nd/4th Thursdays 10-12; no religious condition stated.",
+  "evidence_url": "https://amityumc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillside Church – Food Pantry",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry 1st/3rd Saturdays 11am; no religious condition stated.",
+  "evidence_url": "https://hillsidenc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "APS of Durham – Community Pet Pantry at The Salvation Army",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "APS-run pet food pantry hosted at Salvation Army, Durham County residents; no religious requirement.",
+  "evidence_url": "https://www.apsofdurham.org/pet-owner-resources/assistance-for-pet-owners/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange County Animal Services – Low-Cost Vaccine & Microchip Clinic (Chapel Hill)",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.orangecountync.gov/308/Low-Cost-Clinics",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Orange Congregations in Mission (OCIM) – Food Pantry for People and Pets",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Site states no religious condition for food pantry; details sparse.",
+  "evidence_url": "https://www.ocimnc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Public Library – Kits & Tech Lending",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://chapelhillpubliclibrary.org/kits-tech",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Public Library – Tech Lab",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://chapelhillpubliclibrary.org/tech-lab",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Simple Gifts Community Garden",
+  "city": "Apex",
+  "verdict": "no_requirement_found",
+  "evidence": "Community garden, \"all are welcome\"; Apex UMC sponsor logo only. No religious condition.",
+  "evidence_url": "https://simplegiftsgarden.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Society of St. Andrew – Triangle Gleaning Network",
+  "city": "Triangle-wide",
+  "verdict": "no_requirement_found",
+  "evidence": "Gleaned produce goes to partner agencies; no religious condition stated.",
+  "evidence_url": "https://endhunger.org/north-carolina/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Really Really Free Market",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.instagram.com/chapelhillrrfm",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Transit EZ Rider (ADA paratransit)",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chapel Hill Transit Senior Shuttle",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Secular public service; listed only because the name includes 'Chapel Hill'. No religious participation involved.",
+  "evidence_url": "https://www.chapelhillnc.gov/Transportation-and-Parking/EZ-Rider/Senior-Shuttle",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Urban Ministries of Wake County – Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "\"Any Wake County resident experiencing food insecurity. No referral is required. All are welcome.\"",
+  "evidence_url": "https://urbanmin.org/services/food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Open Door Clinic (Urban Ministries of Wake County)",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Clinic for uninsured adults; no religious condition stated.",
+  "evidence_url": "https://urbanmin.org/services/clinic-pharmacy",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "NeighborUp – Cary (formerly Dorcas Ministries)",
+  "city": "Cary",
+  "verdict": "no_requirement_found",
+  "evidence": "Get-help page lists financial aid, pantry, coaching; no religious requirement mentioned.",
+  "evidence_url": "https://neighborup.org/get-help/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "NeighborUp – Apex (formerly Western Wake Crisis Ministry)",
+  "city": "Apex",
+  "verdict": "no_requirement_found",
+  "evidence": "Get-help page lists financial aid, pantry, coaching; no religious requirement mentioned.",
+  "evidence_url": "https://neighborup.org/get-help/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Community of Hope Ministries Food Pantry",
+  "city": "Garner",
+  "verdict": "unclear",
+  "evidence": "\"Each family receives counseling, and then is able to pick fresh food\"; ministry offers \"the Bread of Life through Jesus Christ\". Counseling content unstated.",
+  "evidence_url": "https://www.communityofhopeministries.org/food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Tri-Area Ministry Food Pantry",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry describes itself as \"non-denominational, 100% volunteer\"; no religious condition stated.",
+  "evidence_url": "https://triareaministry.com/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Richland Creek Community Church Food Pantry",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry aims at \"engaging them with the Gospel\"; prayer counselors volunteer at distribution. Not stated as required.",
+  "evidence_url": "https://www.richlandcreek.com/creek-food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Calvary Faith Center – The Father's Table Food Pantry",
+  "city": "Wendell",
+  "verdict": "no_requirement_found",
+  "evidence": "Monthly 3rd-Saturday pantry; \"feeding their bodies and filling their souls\" is intent only, no condition.",
+  "evidence_url": "https://www.calvaryfaith.com/the-fathers-table/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Duke Memorial UMC  Good Samaritan Fund",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Utility/food help for Durham County residents; no worship or membership condition stated.",
+  "evidence_url": "https://www.dukememorial.org/goodsam.html",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Grey Stone Baptist Church Second Mile Ministries",
+  "city": "Durham",
+  "verdict": "unclear",
+  "evidence": "Session \"begin[s] at 9am with a brief welcome and encouraging word from one of our Church Pastors\" before counseling; personal prayer for each person. Not stated optional.",
+  "evidence_url": "https://www.greystonechurch.com/2nd-mile",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Salvation Army",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham corps pages list no chapel/worship condition for aid; shelter rules not published online. News search found nothing.",
+  "evidence_url": "https://www.salvationarmyusa.org/nc/durham/liberty-st-corps/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "White Rock Baptist Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "One-time utility/rent aid; rules list ID and bills only. No religious condition.",
+  "evidence_url": "https://whiterockbaptistchurch.org/emergency-assistance-ministry/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Elizabeth Street UMC",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Monthly community meal, \"Come as you are — all are welcome!\"; no religious condition.",
+  "evidence_url": "https://elizabethstreetumc.org/community-meal",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hannah’s Kitchen (Greater Orange Grove Baptist Church)",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Drive-through food box distribution at Orange Grove MBC; no religious activity mentioned.",
+  "evidence_url": "https://www.handsontriangle.org/need/detail/?need_id=572142",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Russell Memorial CME Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Wednesday food distribution; no religious condition stated.",
+  "evidence_url": "https://www.russellmemorialcme.org/food-bank-ministry/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Joseph’s Episcopal Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Free weekday breakfast and showers open to anyone; no worship or prayer mentioned.",
+  "evidence_url": "https://stjosephsdurham.org/breakfast",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Greater Waltown United Holiness Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Site lists a community food pantry; no religious condition stated, few details.",
+  "evidence_url": "https://www.greaterwaltownuhc.org/index.php",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham Spanish SDA Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Site invites visitors to Bible study and worship; no aid program or condition tied to it.",
+  "evidence_url": "https://durhamspanishnc.adventistchurch.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Jewish Family Services",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "No requirement to be Jewish, attend services or hold membership stated.",
+  "evidence_url": "https://www.jewishforgood.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Ministerios Guerreros de Jesus Cristo International",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Menu lists a food bank; no conditions or religious requirement described.",
+  "evidence_url": "http://www.guerrerodejesucristo.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First Calvary Baptist Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Homepage describes no aid conditions; no religious requirement stated.",
+  "evidence_url": "https://fcbcdurham.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "House of Mercy - Celebracion Cristiana",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Casa de Misericordia food bank: \"No tienes que ser miembro de la iglesia\"; \"SIN REQUISITOS\".",
+  "evidence_url": "https://celebracioncristiana.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Martin Street Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Ministries page gives no aid details or religious conditions.",
+  "evidence_url": "https://www.martinstreetbaptist.org/our-ministries",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hope Community Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry shopping once per 30 days with free account; no religious condition; footer \"Need Prayer?\" link unrelated.",
+  "evidence_url": "https://gethope.net/localhope/food-pantry/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Alliance Medical Ministry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Clinic for working uninsured Wake adults; no religious condition stated.",
+  "evidence_url": "https://www.alliancemedicalministry.org/comprehensive-care",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First Presbyterian Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Friendship Fund helps Wake neighbors with urgent bills; no religious condition stated (missions URL 404).",
+  "evidence_url": "https://fpcraleigh.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Living Word Family Church - Food Distribution Center",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Free groceries; warehouses offer chance to \"have gospel conversations\". No attendance or prayer condition stated.",
+  "evidence_url": "https://raleighdreamcenter.org/foodwarehouse/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "North Raleigh Ministries",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Food help by zip code and ID, curbside; pastoral care offered as separate service, not tied to food.",
+  "evidence_url": "https://northraleighministries.com/food-assistance/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St Thomas Moore Church",
+  "city": "Chapel Hill",
+  "verdict": "optional_offered",
+  "evidence": "Utility aid for parishioners and Chapel Hill/Carrboro residents; parishioners get priority; volunteers \"can offer prayer support\".",
+  "evidence_url": "https://www.stmchapelhill.org/financial-assistance-ministry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Blinkley Baptist Church",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "No aid program or religious condition described.",
+  "evidence_url": "https://www.binkleychurch.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Damascus Congregational Christian Church",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "Monthly Food & Fellowship meal; worship/Bible study listed separately with no requirement.",
+  "evidence_url": "https://www.damascuschurchnc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "United Church of Chapel Hill",
+  "city": "Chapel Hill",
+  "verdict": "no_requirement_found",
+  "evidence": "No religious condition tied to meals or assistance stated.",
+  "evidence_url": "https://unitedchurch.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Unitarian Universalist Congregation of Hillsborough",
+  "city": "Hillsborough",
+  "verdict": "no_requirement_found",
+  "evidence": "Little Free Pantry listed; no religious condition.",
+  "evidence_url": "https://uuchnc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Durham Neighborhood Food Pantry (ICNA food relief)",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "ICNA Relief: \"Faith In Action. Service For All.\" \"We don't ask who they are before we help.\"",
+  "evidence_url": "https://icnarelief.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "North Haven Ministries Inc",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "North Haven Church ministry: pantry, Community Day, camp; no religious condition stated.",
+  "evidence_url": "https://northhavenministries.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Raleigh Rescue Mission",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Site describes New Life Plan (vocational classes required) and Christian mission; no chapel/worship requirement published. No news reports found.",
+  "evidence_url": "https://www.raleighrescue.org/our-solution/the-new-life-plan/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Salvation Army-Raleigh",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Family shelter and pantry pages list ID/residency rules only; no chapel or devotion requirement.",
+  "evidence_url": "https://www.salvationarmyusa.org/usa-southern-territory/north-and-south-carolina/raleigh-area-command/homelessness/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "With Love From Jesus Ministry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "\"No ID, referral, proof of income, or proof of residence is required\"; mission ministers to spiritual needs, no activity required.",
+  "evidence_url": "https://www.withlovefromjesus.org/to-receive-help/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Helping Hands Mission",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Web search: food, clothing, furniture, shelter help for families; no reports of required religious participation. No working website.",
+  "evidence_url": "https://raleigh.graceslist.org/directory/listing/helping-hand-mission-inc",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Chatham Chuckwagon: St. Bartholomew's Episcopal Church",
+  "city": "Pittsboro",
+  "verdict": "no_requirement_found",
+  "evidence": "Chatham Chuckwagon provides free meals to community; no worship or prayer condition stated.",
+  "evidence_url": "https://www.chathamalliance.org",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Haw River Baptist Church",
+  "city": "Pittsboro",
+  "verdict": "no_requirement_found",
+  "evidence": "Site has no content on aid or conditions.",
+  "evidence_url": "https://www.hawriverbaptistchurch.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "NeighborHealth Center",
+  "city": "Raleigh",
+  "verdict": "optional_offered",
+  "evidence": "Sept 2026 physician job posting: care includes \"prayer when welcomed by the patient\"; About page: \"committed to serving patients of any faith.\"",
+  "evidence_url": "https://www.interviewpal.com/jobs/2352738746",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Jones Grove Missionary Baptist Church – Food Pantry & Distribution",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "No program description found online; only a church directory entry for Jones Grove Baptist Church at 2713 Coleman Loop Rd.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Refugee Hope Partners",
+  "city": "Raleigh",
+  "verdict": "optional_offered",
+  "evidence": "Program profile: \"As a faith-based organization, we also provide bible study for interested community members\"; Bible studies listed as one service among ESL, homework help, medical coordination.",
+  "evidence_url": "https://impala.digital/public/profiles/82-4815219/programs",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Garner Area Ministries",
+  "city": "Garner",
+  "verdict": "no_requirement_found",
+  "evidence": "Own site describes food pantry (\"once every three months\", emergency food anytime) and financial assistance; no mention of prayer, devotion or faith requirement.",
+  "evidence_url": "https://gam-nc.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Iglesia El Buen Pastor",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Episcopal church's monthly first-Saturday Food Bank/Food Shuttle mobile market; people \"register in person\" that day, stay in car. No religious activity mentioned.",
+  "evidence_url": "https://stmatthewshillsborough.org/blog/work-of-mercy-food-distribution-at-el-buen-pastor",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Carr United Methodist Church",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only 4th Friday 8am and walk-ins accepted.",
+  "evidence_url": "https://feedam.org/pantry-report/197520",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Southside Church of Christ",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directory listings give only hours (all on Wednesdays).",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/durham/southside-church-of-christ-7ebb4319",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Church of the Apostolic Revival",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; Durham food resource list gives only \"Fri 10am-11am, Sun 1:30pm\" with hygiene supplies and diapers.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Joseph AME Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only Wednesday 2-3 PM, walk-ins accepted.",
+  "evidence_url": "https://feedam.org/pantry-report/184000",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Christian Assembly",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham food resource list: \"2nd and 4th Thurs ... Fill out application, Drive-thru\"; county list: \"Arrive early to register, stay in car.\" Nothing religious mentioned.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Grace Outreach Ministry",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; Durham food resource list gives only hours (\"M-F (Emergency) = 10:30am-12pm, 3rd Sat = 10am-2pm\") and clothes.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mt Bethel United Methodist Church (Fish & Loaves)",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only hours, clothes, produce, hygiene items.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/bahama/mt-bethel-united-methodist-b37d360d",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Obedience to the Word Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Listings describe a stay-in-car pantry with intake sheet; 2024 Durham list: \"Stay in car, Call for appointment.\" Nothing religious mentioned.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/durham/obedience-to-the-word-food-pantry-57fc03ea",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Burning Bush Ministries Food Pantry",
+  "city": "Garner",
+  "verdict": "no_info",
+  "evidence": "No program description found online; Feed America lists only Tue/Thu 10:00-14:00, walk-ins accepted, free.",
+  "evidence_url": "https://feedam.org/pantry-report/181825",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Celebration Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; Plentiful lists it as a food pantry distribution site with no hours or process.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/raleigh/celebration-church-29bb768a",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Church of God-Sermon del Monte",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only the address (Plentiful says once a month).",
+  "evidence_url": "https://feedam.org/pantry-report/182572",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Covenant Life Fellowship Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Food Shuttle partner profile (Jan 2026) describes free weekly distributions of produce and staples, \"like a party\"; 2026 guide: Tue/Thu indoor, 4th Sat outdoor. Nothing religious required.",
+  "evidence_url": "https://foodshuttle.org/partner-spotlight-meet-covenant-life-fellowship/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "FEED Ministry: North Wake Church",
+  "city": "Wake Forest",
+  "verdict": "no_info",
+  "evidence": "No program description found online; Wake County list and Town of Wake Forest 2024 brochures give only Sunday 8:45-10:30am hours.",
+  "evidence_url": "https://wakeforestnc.gov/sites/default/files/uploads/final_12.12.2024_nc_food_security_brochure_17x11.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Focus Church Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only Sunday 12-1:30 PM, walk-ins accepted.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/raleigh/focus-church-92698e7c",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Green Pines Baptist Church",
+  "city": "Knightdale",
+  "verdict": "no_info",
+  "evidence": "No program description found online; listings give only Wednesday hours (5:30-6:30pm in one spreadsheet).",
+  "evidence_url": "https://docs.google.com/spreadsheets/d/1kaIXYSiIGECeO7OdfzDJTrtrWmPaqfKr_cRAcsb_Fu4/edit",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Iglesia Tabernaculo De Restauracion",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; no pantry listing found for this church on Rock Quarry Rd.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Lincoln Park Food Distribution Ministry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Food Shuttle 2026 guide (same phone): Tue/Thu 2-4pm, Sat 2-4pm; \"There is a short intake process\"; \"Walk up to the window to request food.\" Nothing religious mentioned.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/2026%20Food%20Resources%20Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Fellowship Ministry Food Pantry",
+  "city": "Holly Springs",
+  "verdict": "no_info",
+  "evidence": "No program description found online; no pantry by this name found. Crittenden Lane listings are for New Life Community Church (3115 Crittenden Ln).",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/holly-springs/new-life-community-church-f8a09153",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Open Door Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list Saturday 11am-12pm, walk-ins accepted, free.",
+  "evidence_url": "https://feedam.org/resource/186981",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Revelation Missionary Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; listings give only 3rd Saturday hours (and a Nov 2025 curbside Thanksgiving giveaway).",
+  "evidence_url": "https://triangleonthecheap.com/revelation-missionary-thanksgiving-food-giveaway",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. James Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Directory description: \"One solidly filled bag of groceries is provided. Participants can access groceries once per month.\" Mon-Thu 9am-2pm; no religious requirement mentioned.",
+  "evidence_url": "https://www.foodpantries.org/li/nc_27604_st-james-food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "The Stone Chapel",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Directory description: volunteers \"assemble and distribute food boxes each week\"; \"Food is not picked up from the church. Please contact us to schedule a delivery.\" Nothing religious mentioned.",
+  "evidence_url": "https://www.foodpantries.org/ci/nc-wake_forest",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Victory Gospel Chapel",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; no Raleigh church or pantry under this name found.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "White Plains UMC",
+  "city": "Cary",
+  "verdict": "no_requirement_found",
+  "evidence": "Church page: monthly distribution at 10:00 am in main parking lot \"until supplies run out,\" food for \"anyone in need\"; Produce Box food boxes plus diapers. No prayer or worship mentioned.",
+  "evidence_url": "https://wpumc.com/community/food-pantry-support/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Zebulon Baptist Church",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "No program description found online; no pantry listing found for Zebulon Baptist Church.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Pleasant Grove Baptist Church",
+  "city": "Wendell",
+  "verdict": "no_info",
+  "evidence": "No program description found online; directories list only hours and walk-ins accepted.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/wendell/pleasant-grove-baptist-church-d3dbdad3",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "One Love Ministries",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online; listed as \"One Love Mart\" (walk-ins accepted; 2018 listing: 2nd Saturdays 8-10:30 am).",
+  "evidence_url": "https://ampleharvest.org/food-pantries/one-love-mart-9387/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Cross Point Community Church Mobile Market",
+  "city": "Knightdale",
+  "verdict": "no_requirement_found",
+  "evidence": "Inter-Faith Food Shuttle 2026 guide (updated 3/5/26): \"1st Saturday of each month, 8am\"; \"Drive through.\" Nothing religious mentioned.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/2026%20Food%20Resources%20Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Rush Metropolitan Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online; no pantry listing found.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Eugene Catholic Church",
+  "city": "Wendell",
+  "verdict": "no_requirement_found",
+  "evidence": "Parish ministries page (same phone): Brown Bag Ministry provides \"almost 1000 lunches each week\"; volunteers Saturdays 9am. No religious requirement for recipients mentioned.",
+  "evidence_url": "https://www.catholicste.org/parish-ministries",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "StepUp Ministry – Employment & Life Skills Academies",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Program pages describe resume, interviewing, budgeting and goal-setting classes; describes itself as an \"interfaith community\". No prayer, devotion or worship requirement listed.",
+  "evidence_url": "https://www.stepupministry.org/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mebane's Chapel United Holy Church – Food Distribution & Pantry",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "No program description found online; only directory listings (WhyHunger lists 1st & 3rd Fridays ~10am-12:30pm).",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39277",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Genesis ESL (Genesis United Methodist Church)",
+  "city": "Cary",
+  "verdict": "optional_offered",
+  "evidence": "\"we do not proselytize our students\"; \"Our focus is solely on providing English education\"; \"we offer a separate Bible study program\" for those interested.",
+  "evidence_url": "https://www.genesis-umc.org/esl",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "CrossPoint Community Church Mobile Food Distribution",
+  "city": "Knightdale",
+  "verdict": "no_info",
+  "evidence": "Only directory listings: Plentiful lists it as a monthly Inter-Faith Food Shuttle Mobile Market site; Feed America says walk-ins accepted. No description of how distribution runs.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/knightdale/crosspoint-community-church-874add04",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Concilio Penecostal en Las Manos de Alfarero",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Cedar Grove United Methodist Church",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Greater Refuge Temple",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (address/hours); no description of how the pantry runs.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/durham/greater-refuge-temple-f57813e0",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Church of Philadelphia",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Durham food resource list: \"Call for appointment\", fresh produce. No description of process beyond that.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Walltown Neighborhood Ministries",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham food resource list: \"Must show ID\", \"Drive-thru\", last Thursday 11am-1pm. Nothing religious mentioned.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Bell Yeager Free Will Baptist",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham list: \"Stay in car, Drive-thru\", \"Must show ID\", \"Fill out application\", \"Arrive early\". WRAL describes cars lining up Wednesday mornings for bags of food.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Word Empowerment Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (2nd Friday 9am-12pm, fresh produce); no description of process.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mt. Zion Christian Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Directory listings only: Tue-Thu 12:30-1:30pm, \"Call for appointment\" (one listing says call 7:30-10:30am). Listings conflict on whether appointments needed.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Abundant Life Cathedral",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Inter-Faith Food Shuttle 2026 guide: 4th Saturday 8am-9am, \"Drive through\"; also Mon & Wed 11am-12pm indoor service at Building B. Nothing religious mentioned.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Capital Pentacostal Church",
+  "city": "Garner",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; Food Bank of Central & Eastern NC notes the pantry serves ~600 people a month via a Food Bank partnership. No description of the distribution process.",
+  "evidence_url": "https://feedam.org/resource/8860",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Centro Christiano Emanuel",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only an undated Wake County pantry list (1st & 3rd Friday 9:30am-1pm); no description of how the pantry runs.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/5987",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Compass Christian Church",
+  "city": "Fuquay-Varina",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (\"Compassion Food Pantry\", 1st Saturday 10am-12pm); no description of process.",
+  "evidence_url": "https://www.foodpantries.org/li/nc_27526_compassioncompass-christian-church",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Crabtree Valley Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "PEWSearch says the church runs the \"Hope Pantry community food program (open Wednesday mornings 9am-12pm)\"; no description of process.",
+  "evidence_url": "https://pewsearch.com/churches/crabtree-valley-baptist-church-raleigh-nc",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First Cosmopolitan MBC",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (FeedAM: free, walk-ins accepted); no description of how the pantry runs.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39226",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Gethsemane SDA Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; Food Shuttle blog (undated) mentions every-other-Saturday \"Free Meal Give-a-Ways\" at the church. No description of pantry process.",
+  "evidence_url": "https://www.foodpantries.org/li/gethsemane_7th_day_adv_pantry_27610",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hephzibah Baptist Church",
+  "city": "Wendell",
+  "verdict": "no_info",
+  "evidence": "No pantry listing or program description found; church directories show only the church.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Islamic Association of Raleigh Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "IAR's own 2025 events calendar lists a monthly \"Food Pantry (1st Saturday)\" at the IAR Red Building; no description of process.",
+  "evidence_url": "https://raleighmasjid.org/public-events/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Millbrook United Methodist",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "\"The pantry is open to anyone.\" \"First come, first served.\" Saturdays 10am-12pm, up to twice a month (Triangle on the Cheap, Feb 2026). No religious component mentioned.",
+  "evidence_url": "https://triangleonthecheap.com/millbrook-united-methodist-churchs-food-pantry/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Providence Missionary",
+  "city": "Fuquay-Varina",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (2nd & 3rd Sat 1-3pm); no description of how the pantry runs.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/fuquay-varina/new-providence-missionary-baptist-church-36fc2ce4",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Pleasant Grove Missionary",
+  "city": "Wendell",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (1st & 3rd Tue 10-11am, 1st & 3rd Wed 5-6pm); no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39313",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Solid Rock Ministry International Inc.",
+  "city": "Garner",
+  "verdict": "no_info",
+  "evidence": "AmpleHarvest listing (updated Jul 2023): pantry serving \"any family in need\", aligned with the NC Food Bank. No description of the distribution process.",
+  "evidence_url": "https://ampleharvest.org/?p=22767",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "State St. Community Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "The Way Church",
+  "city": "Garner",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake Chapel Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (2nd Saturday community food distribution, walk-ins accepted); no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39235",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Williams Grove Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; a Food Bank CENC profile mentions a couple running the pantry. No hours or process described.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/downtown/williams-grove-baptist-church-f7aa697b",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Zebulon United Methodist",
+  "city": "Zebulon",
+  "verdict": "no_requirement_found",
+  "evidence": "AmpleHarvest: open to all \"without regard race, gender or religion. There is no requirement that people using the ZUMC Food Pantry belong to the Zebulon United Methodist Church.\" Tue & Thu 9-10:30am.",
+  "evidence_url": "https://ampleharvest.org/?p=19546",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Glory Cloud & Fire Ministries",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (3rd Thu 10am-12pm, walk-ins accepted); no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/11252",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Emanuel Tabernacle Holiness",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (1st & 3rd Thu 10:30am-12pm); no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39195",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Extended Hands Mobile Market at St John United Holy Church",
+  "city": "Zebulon",
+  "verdict": "no_requirement_found",
+  "evidence": "Inter-Faith Food Shuttle 2026 guide: Extended Hands (at St John United Holy Church), 2nd Thursday of each month 10am, \"Drive through\". Nothing religious mentioned.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wake Forest Community Table - Olive Branch Baptist Church",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Wake Forest Community Table site: \"free meals, fresh produce, groceries and other essentials\" twice weekly; gatherings \"open to everyone\". No religious component; does not state a faith affiliation.",
+  "evidence_url": "https://wakeforestcommunitytable.com",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Philip Lutheran Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Church's own serve page lists Brown Bag Ministry and Blessing Bags with no details, and partners with North Raleigh Ministries for food; no public prepared-meal program described.",
+  "evidence_url": "https://st-philip.org/serve",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "StepUp Durham – Job Readiness & Coaching",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Program page describes a \"one hour conversation\" intake, Job Readiness Week, coaching and weekly ENER-G meetings; no devotion, prayer, Bible study or other religious activity is mentioned.",
+  "evidence_url": "https://www.stepupdurham.org/step1",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Piney Grove Baptist Church – Food Distribution",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Catholic Parish Outreach Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Food Shuttle Aug 2026 guide: \"Receive food once a month\", Wake/Johnston/Franklin residents, indoor service. A directory says it serves people \"regardless of their faith or background.\" Nothing religious required.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Freedom Christian Fellowship Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (Plentiful: Fridays 5:30-7:00 PM at 3540 Maitland Dr); no program description.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/raleigh/new-freedom-christian-3d691dd5",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Antioch Baptist Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "ABC11 profile: pantry open Thursdays 9am-noon, \"Sometimes by appointment, because people get in crisis\"; monthly hot meals. No prayer, worship or religious condition mentioned.",
+  "evidence_url": "https://abc11.com/post/food-pantry-help-families-cost-basic-needs-gas-continue-rise/19252550/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Home & Durham Baptist Association- TEFAP",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found; no program description.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "West End Mobile Market at Duke Memorial United Methodist Church (IFFS)",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Church page: volunteers \"distribute fresh healthy food to over 300 families\"; sponsored by Inter-Faith Food Shuttle and West End Community Foundation. No religious activity described.",
+  "evidence_url": "https://dukememorial.org/serve.html",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mt. Level Missionary Baptist (Two Fish, Five Loaves )",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (drive-thru, application, fresh produce); no program description.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St Mark AME Zion Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (4th Sat 11am-12:30pm, call for appointment, hot meals and clothes); no program description.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Oak Grove Free Will Baptist Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (photo ID, call for appointment); no program description.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Divine Grace Fellowship and Outreach Ministry",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found; no program description.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Mount Calvary UCC Food Pantry",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Baptist Grove",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (Food Shuttle Aug 2026 guide: 2nd & 4th Sat 10-11am, show ID, indoor service; runs as LIFE Harvest Food Pantry); no program description.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Care Pantry - Apex The Point Church",
+  "city": "Apex",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/apex/point-care-pantry-413faaf5",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Christian Life Fellowship Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://www.foodpantries.org/li/nc_27615_clf-food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Comunidad Cristiana Hosanna",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39222",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Emmanuel Hispanic Pentecostal",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39232",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First United Methodist Church",
+  "city": "Cary",
+  "verdict": "no_info",
+  "evidence": "No pantry description found; only a Cary Magazine piece on the church's restaurant-partnered food relief, with no program details.",
+  "evidence_url": "https://carymagazine.com/?p=37948",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Grace Christian Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Iglesia De Dios Pentecostal",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://feedam.org/resource/185273",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Kipling UMC",
+  "city": "Fuquay-Varina",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Bethel Baptist Church",
+  "city": "Rolesville",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (Feedam: free, walk-ins accepted); no program description.",
+  "evidence_url": "https://feedam.org/resource/191035",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Oak City Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Poplar Springs Christian",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (drive-thru distributions); no program description.",
+  "evidence_url": "https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/11858/Food Panties_Wake County.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Springfield Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Straightway Temple Ministries",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://feedam.org/resource/173157",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "UMOJA Central SDA Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39179",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wendell Baptist Church",
+  "city": "Wendell",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "https://feedam.org/resource/8936",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wilson Temple",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Zina Christian Church Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (Zina Christian Center; weekday hours or by appointment); church website did not load.",
+  "evidence_url": "https://www.foodpantries.org/li/zina_christian_center_27604",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Beulah Christian Baptist Church",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (Food Shuttle Aug 2026 guide: 3rd Saturday, 9am, drive through); no program description.",
+  "evidence_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Faith Gospel Tabernacle",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings found (proof of residency and photo ID); no program description.",
+  "evidence_url": "https://nhpresbytery.org/wp-content/uploads/2025/07/Assistance-Resources.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Praise Temple Multi-Cultural Mobile Market",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only an older (c. 2019) Food Shuttle mobile market schedule lists this site; no program description.",
+  "evidence_url": "https://static1.squarespace.com/static/586d2398579fb3ccd8c1dfe5/t/5dc425df4d5d1c6df796be38/1573135839490/Open+Mobile+Mkts+110719.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Fairmont UMC",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Little Free Pantry map lists a self-serve pantry box at the church, corner of Clark Ave and Horne St near the Horne St entrance. No religious condition.",
+  "evidence_url": "https://mapping.littlefreepantry.org/pantry/3454",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Grace A.M.E Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Hillsborough Church of God – Food Pantry",
+  "city": "Hillsborough",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (WhyHunger: Thu 10am-12pm, different phone 919-630-4345); no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39275",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. John United Holy Church – Food Distribution",
+  "city": "Chapel Hill",
+  "verdict": "no_info",
+  "evidence": "Only directory listings with name/hours; no description of process.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39252",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Lincoln Park Holiness Church Food Pantry",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Plentiful lists Tue/Thu/Sat 2-4pm, no requirements or process described.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/raleigh/lincoln-park-holiness-church-pantry-1a2ce4bd",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Iglesia La Semilla: Where Possibilities are Born",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only community food lists with hours (\"2nd Tues 6pm, Last Sat 11am\"); no description of how distribution runs.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Emanuel Iglesia",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "WRAL: donated food bagged by volunteers, Wednesday 2 p.m. distribution, \"People line up hours ahead\"; Durham list: drive-thru, Spanish spoken. No religious participation mentioned.",
+  "evidence_url": "https://www.wral.com/coronavirus/durham-church-food-pantry-meets-greater-need-to-fight-hunger/19095468/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Fisher Memorial United Holy Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "2025 presbytery resource list: \"Every Wednesday from 12:00pm to 1:00pm\"; 2020 Durham county list: \"OUTSIDE PICK UP\". Nothing religious mentioned.",
+  "evidence_url": "https://nhpresbytery.org/wp-content/uploads/2025/07/Assistance-Resources.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Agape Christian Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only a 2024 Durham food list entry: \"Saturday (4th Sat) 11:00am-2:00pm Hot meal\".",
+  "evidence_url": "https://gigisplayhouse.org/raleigh/files/2024/08/Duhram-County-Food-Banks.pdf",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Beacon Light Missionary Baptist Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Seed Time & Harvest Fellowship, Inc",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham community food list: \"Must show ID\", \"Fill out application\"; county list: call to confirm day/time. No religious requirement mentioned.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Immanuel Temple Seventh Day Adventist Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham community food list: \"2nd Sun, 12pm-1:30pm\", \"Drive-thru\". No religious requirement mentioned.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Saving Grace United for Christ Church",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only list entries: \"1st Sat, 10am-1pm\", clothes also offered; no process described.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Rougemont Community Food Pantry (Rougemont UMC)",
+  "city": "Durham",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (1st & 3rd Sat 9-10am at Rougemont UMC); no process described.",
+  "evidence_url": "https://foodpantries.org/li/rougemont-food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Bethlehem Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; no description of how the pantry runs.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/raleigh/bethlehem-baptist-church-ae5840e2",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Cary Church",
+  "city": "Cary",
+  "verdict": "no_info",
+  "evidence": "Directory lists Cary Church of God, 107 Quade Dr, as a food pantry; no hours or process described.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/cary/cary-church-of-god-9c5c8aad",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Church Of God Of Prophecy",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings, no process description; hours conflict across listings.",
+  "evidence_url": "https://www.foodpantries.org/li/church_of_god_of_prophecy_raleigh_27606",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Covenant Life Church",
+  "city": "Cary",
+  "verdict": "no_info",
+  "evidence": "Church's 2025 outreach flyer lists \"Food Pantry\" at 555 SW Maynard Rd, Tue/Wed/Fri 4:00-5:45 PM; no process described.",
+  "evidence_url": "https://docs.google.com/forms/d/e/1FAIpQLSerCT0QL_e961ChT-_3VWCHgWlhc_WIeftTKrGvgj3s4oLH4w/viewform",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Faith Missionary Baptist",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "WhyHunger: \"1st & 3rd Wednesdays, 10:30am-12pm\", \"Curbside pickup only\". Nothing religious mentioned.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/5951",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "First Worldwide Ministries",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Greater Pentecostal Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (Greater Pentecostal F.D. Food Pantry, 414 Rose Ln); hours \"varies - days as needed\"; no process described.",
+  "evidence_url": "https://www.foodpantries.org/li/greater_pentecostal_f.d._food_pantry_27610",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Iglesia Pentecostal Puerta Al Cielo",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Kirk of Kildaire Presbyterian Church",
+  "city": "Cary",
+  "verdict": "no_requirement_found",
+  "evidence": "Church site: pantry \"run entirely by volunteers who greet and assist nearly 100 families every week\"; no prayer/worship requirement mentioned.",
+  "evidence_url": "https://www.kirkofkildaire.org/serving-our-neighbors/",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "New Bethel Christian Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; Wake County list: \"Tues & 2nd Sat Call for hours\".",
+  "evidence_url": "https://feedam.org/pantry-report/179292",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "O'Neal Revival Tabernacle",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (WhyHunger: 2nd Sat 9-11am); no process described.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39314",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Raleigh Church of Christ",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (4th Sat 9:30-11:30am); no process described.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39181",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Bernadette Catholic Church",
+  "city": "Fuquay-Varina",
+  "verdict": "no_requirement_found",
+  "evidence": "Directory: \"open Mon thru Wen. 9:30 - 12:00 located in Church hall\"; parish site says it serves \"members of St. Bernadette and our neighbors within parish boundaries\". No religious requirement mentioned.",
+  "evidence_url": "https://www.foodpantries.org/li/saint-bernadette-catholic-church-food-pantry",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Sure Promise Christian Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (WhyHunger: every other Sat 11am-1pm; FeedAm: walk-ins accepted); no process described.",
+  "evidence_url": "https://networks.whyhunger.org/organisation/39233",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Upper Room Church of God",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (2nd & 4th Thu 6-9:30pm, 2nd Sat 9am-12pm; Sunday soup kitchen); no process described.",
+  "evidence_url": "https://www.foodpantries.org/li/upper_room_church_of_god_in_christ_27610",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Wendell United Methodist",
+  "city": "Wendell",
+  "verdict": "no_info",
+  "evidence": "Only directory listings; hours conflict (Plentiful monthly Sat 10-12; another Tue & Thu 9-noon); no process described.",
+  "evidence_url": "https://directory.plentiful.org/north-carolina/wendell/wendell-united-methodist-church-d5c49d6d",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Word of God Fellowship",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (\"Thurs 1pm - 2pm and as needed\"; one says no appointment needed); no process described.",
+  "evidence_url": "https://www.foodpantries.org/li/word_of_god_fellowship_outreach_27610",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Brooks Avenue Church of Christ",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "Only directory listings with conflicting hours; no process described.",
+  "evidence_url": "https://foodpantries.org/li/brooks_ave_church_of_christ_27607",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Kings Park Church",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Durham community food list: \"House of Mercy (Celebracion Cristiana) Kings Park International\", \"Wed, 5pm-6pm\", \"Drive-thru\", clothes, Spanish spoken. Nothing religious required.",
+  "evidence_url": "https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Pine Ridge Baptist Church",
+  "city": "Zebulon",
+  "verdict": "no_info",
+  "evidence": "Only directory listings (FeedAm: free, walk-ins accepted); no hours or process described.",
+  "evidence_url": "https://feedam.org/resource/181723",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "River of Raleigh Church",
+  "city": "Raleigh",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "St. Catherine of Siena Catholic Church",
+  "city": "Wake Forest",
+  "verdict": "no_info",
+  "evidence": "No program description found online.",
+  "evidence_url": "",
+  "checked": "2026-11-10"
+ },
+ {
+  "name": "Pullen Memorial Baptist Church",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Round Table: \"Provides a food pantry, snack lunches and hospitality\" Tue/Thu afternoons; no documentation or appointment needed. Pullen calendar describes it for people experiencing homelessness or food insecurity. No religious content mentioned.",
+  "evidence_url": "https://www.foodpantries.org/li/pullen_memorial_baptist_church_27605",
+  "checked": "2026-11-10"
+ }
 ]
