@@ -40,7 +40,7 @@ and the previous page stays up.
 | To… | Edit |
 |---|---|
 | Add or fix a mutual-aid / sharing resource | `data/curated/*.json` (schema in `data/SCHEMA.md`); set `checked` to today |
-| Hide something from a scraped source | add a regex to `data/exclude.json` with a reason |
+| Hide something | add a rule to `data/exclude.json`: `pattern` (regex on the name), `reason`, and `kind` (below) |
 | Merge a duplicate or fix a misspelled name | add `"source spelling": "Canonical Name"` to `data/aliases.json` |
 | Change the page design | `templates/index.html.j2` |
 
@@ -79,6 +79,16 @@ names both sexual orientation and gender identity; or a listing in an affirming-
 directory. No flag means "not confirmed". Research notes: `data/research/lgbtq_*.json`.
 
 ## Corrections
+
+`data/exclude.json` rules have a `kind`:
+
+- `out_of_scope` / `policy` / `religious_requirement`: inclusion criteria (retail, for-profit,
+  campus-only, anti-choice, required worship).
+- `maintainer_decision`: a judgment call by the directory's maintainer. Never revisited
+  automatically.
+- `duplicate`: another listing already covers it.
+- `probably_closed`: removed on indirect evidence of closure, with a `checked` date. The
+  re-check routine looks again after 90 days and proposes restoring it if it's clearly operating.
 
 `data/overrides.json` fixes individual fields on scraped listings (key `Name|Town`), and
 `data/logo_overrides.json` suppresses a site icon that isn't the org's logo.

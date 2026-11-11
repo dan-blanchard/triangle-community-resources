@@ -1,118 +1,167 @@
 [
  {
   "pattern": "goodwill",
-  "reason": "Retail thrift store (not free)"
+  "reason": "Retail thrift store (not free)",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "thrift|outlet",
-  "reason": "Retail resale (not free)"
+  "reason": "Retail resale (not free)",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "law firm",
-  "reason": "Private for-profit legal practice"
+  "reason": "Private for-profit legal practice",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "^federally subsidized housing|l\\.w\\. reid|lynnhaven",
-  "reason": "Individual subsidized apartment complexes, not a community resource"
+  "reason": "Individual subsidized apartment complexes, not a community resource",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "executive office for immigration review|innovation law lab",
-  "reason": "National/federal information link, not a local resource"
+  "reason": "National/federal information link, not a local resource",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "nc childcare association|nc homeowners assistance",
-  "reason": "Statewide program, outside the scope of local community resources"
+  "reason": "Statewide program, outside the scope of local community resources",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "restore\\b",
-  "reason": "Retail resale store (not free)"
+  "reason": "Retail resale store (not free)",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "pachayaku|a new life service",
-  "reason": "Private therapy practice (fee-based)"
+  "reason": "Private therapy practice (fee-based)",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "durham rescue mission",
-  "reason": "Requires chapel/prayer attendance (INDY Week reporting)"
+  "reason": "Requires chapel/prayer attendance (INDY Week reporting)",
+  "kind": "religious_requirement"
  },
  {
   "pattern": "carolina cupboard",
-  "reason": "UNC-Chapel Hill students, faculty and staff only"
+  "reason": "UNC-Chapel Hill students, faculty and staff only",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "^feed the pack",
-  "reason": "NC State students, faculty and staff only"
+  "reason": "NC State students, faculty and staff only",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "pregnancy (support|resource|care|help|medical|services|center|clinic)|crisis pregnancy|\\bcare ?net\\b|heartbeat (international|of)|birthright|gateway women|women'?s (care|resource|pregnancy) (center|clinic)|life ?choices|pregnancy center|abortion pill reversal|\\bpro-?life\\b|right to life",
-  "reason": "Anti-choice (crisis pregnancy center or anti-abortion org): the directory only lists resources that support reproductive rights"
+  "reason": "Anti-choice (crisis pregnancy center or anti-abortion org): the directory only lists resources that support reproductive rights",
+  "kind": "policy"
  },
  {
   "pattern": "students?\\s*(&|and)\\s*staff only|for (\\w+ )?students only|students only",
-  "reason": "Campus program limited to students/staff"
+  "reason": "Campus program limited to students/staff",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "neighborhealth",
-  "reason": "Maintainer decision 2026-11-10: past partnerships with an anti-abortion pregnancy center and a church tied to conversion therapy (INDY Week, 2019)"
+  "reason": "Maintainer decision 2026-11-10: past partnerships with an anti-abortion pregnancy center and a church tied to conversion therapy (INDY Week, 2019)",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "concilio pen[te]costal",
-  "reason": "Maintainer decision 2026-11-10: listed food hours match worship service times; food appears to be given only during services"
+  "reason": "Maintainer decision 2026-11-10: listed food hours match worship service times; food appears to be given only during services",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "^Praise\\ Temple\\ Multi\\-Cultural\\ Mobile\\ Market$",
-  "reason": "Program ended or out of area (checked 2026-11-10): Moved to 131 Guy Rd, Clayton (outside the towns this page covers). Church's own calendar (2025) and IFFS Aug & Oct 2026 guides place the 4th-Sat drive-thru market at 131 Guy Rd, Clayton. Same church (old Raleigh phone matches). City changes to Clayton. https://foodshuttle.org/Find%20Food/2026%20Holiday%20Food%20Resources%20Guide_Lynette%20DuCharme.pdf"
+  "reason": "Program ended or out of area (checked 2026-11-10): Moved to 131 Guy Rd, Clayton (outside the towns this page covers). Church's own calendar (2025) and IFFS Aug & Oct 2026 guides place the 4th-Sat drive-thru market at 131 Guy Rd, Clayton. Same church (old Raleigh phone matches). City changes to Clayton. https://foodshuttle.org/Find%20Food/2026%20Holiday%20Food%20Resources%20Guide_Lynette%20DuCharme.pdf",
+  "kind": "out_of_scope"
  },
  {
   "pattern": "^Lincoln\\ Park\\ Food\\ Distribution\\ Ministry$",
-  "reason": "Duplicate of 'Lincoln Park Holiness Church Food Pantry' (same pantry; checked 2026-11-10)"
+  "reason": "Duplicate of 'Lincoln Park Holiness Church Food Pantry' (same pantry; checked 2026-11-10)",
+  "kind": "duplicate"
  },
  {
   "pattern": "^Kings\\ Park\\ Church$",
-  "reason": "Duplicate of 'House of Mercy - Celebracion Cristiana' (same pantry; checked 2026-11-10)"
+  "reason": "Duplicate of 'House of Mercy - Celebracion Cristiana' (same pantry; checked 2026-11-10)",
+  "kind": "duplicate"
  },
  {
   "pattern": "^The Hope Center for Youth and Family Crisis$",
-  "reason": "Removed 2026-11-11 (owner decision): NC DHSR substantiated complaints (Sep 2025, Oct 2025, Mar 2026) for failing to report abuse/neglect allegations against staff. https://info.ncdhhs.gov/dhsr/mhlcs/sods/facility.asp?fid=180439"
+  "reason": "Maintainer decision 2026-11-11: NC DHSR substantiated complaints (Sep 2025, Oct 2025, Mar 2026) for failing to report abuse/neglect allegations against staff. https://info.ncdhhs.gov/dhsr/mhlcs/sods/facility.asp?fid=180439",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "^Upper Room Church of God$",
-  "reason": "Removed 2026-11-11 (owner decision): senior pastor's widely reported anti-LGBTQ record, incl. leading the Amendment One campaign (2012). https://www.advocate.com/news/daily-news/2012/01/31/pastor-stands-inflammatory-remarks-gay-sex"
+  "reason": "Maintainer decision 2026-11-11: senior pastor's widely reported anti-LGBTQ record, incl. leading the Amendment One campaign (2012). https://www.advocate.com/news/daily-news/2012/01/31/pastor-stands-inflammatory-remarks-gay-sex",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "^St\\. Augustine's University$",
-  "reason": "Removed 2026-11-11 (owner decision): university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed."
+  "reason": "Maintainer decision 2026-11-11: university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed.",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "^Hope Community Church( Food Pantry)?$",
-  "reason": "Removed 2026-11-11 (owner decision): INDY Week (2020) reported allegations that the church mishandled reports of sexual assault and harassment. https://indyweek.com/news/protest-hope-community-church-sexual-assault-response/"
+  "reason": "Maintainer decision 2026-11-11: INDY Week (2020) reported allegations that the church mishandled reports of sexual assault and harassment. https://indyweek.com/news/protest-hope-community-church-sexual-assault-response/",
+  "kind": "maintainer_decision"
  },
  {
   "pattern": "^Wake Relief$",
-  "reason": "Duplicate of the curated 'Wake Relief Food Pantry' (same address; this copy has a wrong phone number)."
+  "reason": "Duplicate of the curated 'Wake Relief Food Pantry' (same address; this copy has a wrong phone number).",
+  "kind": "duplicate"
  },
  {
   "pattern": "^Cristo\\ La\\ Solucion$",
-  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): NC Secretary of State lists the nonprofit's status as withdrawn."
+  "reason": "Probably closed (maintainer decision 2026-11-11, after the reputation sweep): NC Secretary of State lists the nonprofit's status as withdrawn.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^New\\ Fellowship\\ Ministry\\ Food\\ Pantry$",
-  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): No pantry by this name found in any other source; the Crittenden Ln pantry appears under another church's name."
+  "reason": "Probably closed (maintainer decision 2026-11-11, after the reputation sweep): No pantry by this name found in any other source; the Crittenden Ln pantry appears under another church's name.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^Covenant\\ Life\\ Church$",
-  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): MapQuest marks the church itself closed."
+  "reason": "Probably closed (maintainer decision 2026-11-11, after the reputation sweep): MapQuest marks the church itself closed.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^Poplar\\ Springs\\ Christian$",
-  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): MapQuest marks the church itself closed; another directory lists a different church at the address."
+  "reason": "Probably closed (maintainer decision 2026-11-11, after the reputation sweep): MapQuest marks the church itself closed; another directory lists a different church at the address.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^(Dream Seeker - )?Church of the Apostolic Revival( Intl)?$",
-  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): Directories conflict on address (one lists it closed at 1208 Angier Ave); a nearby building linked to the congregation burned in May 2024."
+  "reason": "Probably closed (maintainer decision 2026-11-11, after the reputation sweep): Directories conflict on address (one lists it closed at 1208 Angier Ave); a nearby building linked to the congregation burned in May 2024.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^DHIC$",
-  "reason": "Removed 2026-11-11 (owner decision): food access for residents of DHIC's Washington Terrace apartments only ('24hr access to residents'); not open to the public."
+  "reason": "Maintainer decision 2026-11-11: food access for residents of DHIC's Washington Terrace apartments only ('24hr access to residents'); not open to the public.",
+  "kind": "maintainer_decision"
+ },
+ {
+  "pattern": "^Cary Repair Café$",
+  "reason": "Maintainer decision 2026-11-11: Repair Café events are pop-ups whose venues move, so they're listed once region-wide as 'Repair Café NC'.",
+  "kind": "maintainer_decision"
+ },
+ {
+  "pattern": "^Repair Café NC – Cary$",
+  "reason": "Maintainer decision 2026-11-11: Repair Café events are listed once region-wide as 'Repair Café NC'.",
+  "kind": "maintainer_decision"
+ },
+ {
+  "pattern": "^Orange County Repair Café( \\(Hillsborough\\))?$",
+  "reason": "Maintainer decision 2026-11-11: Repair Café events are listed once region-wide as 'Repair Café NC'.",
+  "kind": "maintainer_decision"
  }
 ]
