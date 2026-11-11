@@ -70,5 +70,25 @@
  {
   "pattern": "^Kings\\ Park\\ Church$",
   "reason": "Duplicate of 'House of Mercy - Celebracion Cristiana' (same pantry; checked 2026-11-10)"
+ },
+ {
+  "pattern": "^The Hope Center for Youth and Family Crisis$",
+  "reason": "Removed 2026-11-11 (owner decision): NC DHSR substantiated complaints (Sep 2025, Oct 2025, Mar 2026) for failing to report abuse/neglect allegations against staff. https://info.ncdhhs.gov/dhsr/mhlcs/sods/facility.asp?fid=180439"
+ },
+ {
+  "pattern": "^Upper Room Church of God$",
+  "reason": "Removed 2026-11-11 (owner decision): senior pastor's widely reported anti-LGBTQ record, incl. leading the Amendment One campaign (2012). https://www.advocate.com/news/daily-news/2012/01/31/pastor-stands-inflammatory-remarks-gay-sex"
+ },
+ {
+  "pattern": "^St\\. Augustine's University$",
+  "reason": "Removed 2026-11-11 (owner decision): university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed."
+ },
+ {
+  "pattern": "^Hope Community Church$",
+  "reason": "Removed 2026-11-11 (owner decision): INDY Week (2020) reported allegations that the church mishandled reports of sexual assault and harassment. https://indyweek.com/news/protest-hope-community-church-sexual-assault-response/"
+ },
+ {
+  "pattern": "^Wake Relief$",
+  "reason": "Duplicate of the curated 'Wake Relief Food Pantry' (same address; this copy has a wrong phone number)."
  }
 ]

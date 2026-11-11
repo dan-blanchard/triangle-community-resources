@@ -650,24 +650,6 @@
   "checked": "2026-11-10"
  },
  {
-  "name": "Repair Café NC – Cary",
-  "city": "Cary",
-  "categories": [
-   "Make & Fix"
-  ],
-  "org_type": "community_org",
-  "description": "Volunteer fixers repair broken household items for free (small appliances, lamps, clothing, electronics and more) and teach you how.",
-  "address": "Kirk of Kildaire Presbyterian Church, 200 High Meadow Dr, Cary, NC",
-  "url": "https://repaircafenc.org",
-  "phone": "",
-  "hours": "Next listed: Sat, Jan 9, 2027, 1–5 pm (last check-in 3:30 pm)",
-  "access": "Walk in with your item",
-  "cost": "free",
-  "source_url": "https://triangleonthecheap.com/repair-cafe-can-help-fix-stuff-free",
-  "notes": "Events are held a few times a year (2026 Cary dates included March 14 and June 13). They won't take CRT TVs, weapons or compressed-gas items. Facebook: /RepairCafeNC.",
-  "checked": "2026-11-10"
- },
- {
   "name": "NeighborUp – Cary (formerly Dorcas Ministries)",
   "city": "Cary",
   "categories": [
@@ -903,8 +885,8 @@
   "access": "Drive-through; clear your trunk or back seat",
   "cost": "free",
   "source_url": "https://www.harnett.org/dss/downloads/harnett-county-food-pantry-list-11-25.pdf",
-  "notes": "Once every 28 days. Hours are from the Harnett County DSS pantry list updated 1/21/2026.",
-  "checked": "2026-11-10"
+  "notes": "Once every 28 days. Hours are from the Harnett County DSS pantry list updated 1/21/2026. Income-based eligibility; bring photo ID and proof of address. Drive-through.",
+  "checked": "2026-11-11"
  },
  {
   "name": "Operation Nahyelle",
@@ -922,25 +904,6 @@
   "cost": "free",
   "source_url": "https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf",
   "notes": "",
-  "checked": "2026-11-10"
- },
- {
-  "name": "The Hope Center for Youth and Family Crisis",
-  "city": "Fuquay-Varina",
-  "categories": [
-   "Mental Health & Crisis",
-   "Kids & Families"
-  ],
-  "org_type": "nonprofit",
-  "description": "Crisis center for children, teens and young adults (ages 5–20) and their families.",
-  "address": "400 W Ransom St, Fuquay-Varina, NC 27526",
-  "url": "",
-  "phone": "(877) 888-7849",
-  "hours": "",
-  "access": "Ages 5–20",
-  "cost": "free",
-  "source_url": "https://www.wake.gov/living-visiting/having-crisis",
-  "notes": "Listed by Wake County as a 24/7 crisis resource. Confirm hours and cost by phone.",
   "checked": "2026-11-10"
  },
  {

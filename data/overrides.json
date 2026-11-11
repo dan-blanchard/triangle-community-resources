@@ -2,11 +2,19 @@
  "_comment": "Field corrections for scraped listings we can't edit at the source. Key: 'Name|Town' (final display name). Value: fields to replace.",
  "Cedar Grove United Methodist Church|Hillsborough": {
   "url": "",
-  "_why": "Source lists cgumc.org, which is Cedar Grove UMC in Deale, Maryland"
+  "_why": "Source lists cgumc.org, which is Cedar Grove UMC in Deale, Maryland Checked 2026-11-11: Phone missing",
+  "_if": {
+   "phone": ""
+  },
+  "phone": "(919) 732-8405"
  },
  "Grey Stone Baptist Church Second Mile Ministries|Durham": {
-  "notes": "Wednesday sessions begin at 9am with a brief welcome and encouraging word from a church pastor, and each person is offered a personal prayer; the site doesn't say whether these are optional.",
-  "_why": "Religious-participation audit 2026-11-10 (greystonechurch.com/2nd-mile): unclear whether optional"
+  "notes": "Wednesday sessions begin at 9am with a brief welcome and encouraging word from a church pastor, and each person is offered a personal prayer; the site doesn't say whether these are optional. Bring a Durham photo ID.",
+  "_why": "Religious-participation audit 2026-11-10 (greystonechurch.com/2nd-mile): unclear whether optional Checked 2026-11-11: Address field had phone and hours mixed in Checked 2026-11-11: Requirement",
+  "_if": {
+   "address": "2601 Hillsborough Rd\n Durham, NC 27705\n (919) 286-3596\nOnly open Wednesday between 9am- 11:30am"
+  },
+  "address": "2601 Hillsborough Rd, Durham, NC 27705"
  },
  "White Plains UMC|Cary": {
   "url": "https://wpumc.com/",
@@ -66,7 +74,14 @@
  },
  "Welcome Baby Durham County Cooperative Extension|Durham": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://welcomebaby.org/giving-closet/"
+  "_why": "Cost checked 2026-11-10: https://welcomebaby.org/giving-closet/ Checked 2026-11-11: Fields had phone/hours mixed in",
+  "_if": {
+   "address": "721 Foster St\n Durham, NC 27701\n (919) 560-7150",
+   "hours": ""
+  },
+  "address": "721 Foster St, Durham, NC 27701",
+  "url": "https://welcomebaby.org/giving-closet/",
+  "hours": "Giving Closet by appointment only (Fridays 9 am–1 pm); call (919) 560-7150"
  },
  "El Pueblo- Familias Seguras|Triangle-wide": {
   "cost": "free",
@@ -131,7 +146,7 @@
  },
  "St Thomas Moore Church|Chapel Hill": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-10: The parish's Financial Assistance Ministry page says it helps Chapel Hill/Carrboro residents with a utility disconnect notice once every 12 months, and 'We do not provide rental assistance.' The ministry line is 919-942-6216, Monday 8:30–11:30am. 919-942-1040 is the parish office. stmchapelhill.org returns 403. I read the ministry page through search results because a direct fetch also returned 403. https://5520.sites.ecatholic.com/financial-assistance-ministry",
+  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-10: The parish's Financial Assistance Ministry page says it helps Chapel Hill/Carrboro residents with a utility disconnect notice once every 12 months, and 'We do not provide rental assistance.' The ministry line is 919-942-6216, Monday 8:30–11:30am. 919-942-1040 is the parish office. stmchapelhill.org returns 403. I read the ministry page through search results because a direct fetch also returned 403. https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-11: scope note.",
   "_if": {
    "description": "Rental assistance",
    "address": "",
@@ -145,7 +160,8 @@
   "phone": "(919) 942-6216",
   "url": "https://5520.sites.ecatholic.com/financial-assistance-ministry",
   "hours": "Mondays 8:30–11:30am (phone only)",
-  "access": "Call Monday mornings 8:30–11:30am and leave a message; messages left at other times are not returned. No walk-ins or email requests."
+  "access": "Call Monday mornings 8:30–11:30am and leave a message; messages left at other times are not returned. No walk-ins or email requests.",
+  "notes": "Helps with utility bills only (not rent), once every 12 months; parishioners get priority."
  },
  "Self-Help|Durham": {
   "cost": "some_free",
@@ -210,8 +226,8 @@
  },
  "Alliance Medical Ministry|Raleigh": {
   "cost": "sliding_scale",
-  "notes": "Annual membership of $40–$160 based on household size and income.",
-  "_why": "Cost checked 2026-11-10: https://alliancemedicalministry.org/patient-fees"
+  "notes": "Annual membership of $40–$160 based on household size and income. For uninsured Wake County adults (18+) who work or live with someone who works; people with Medicaid or Medicare aren't eligible. Pastoral counseling is optional.",
+  "_why": "Cost checked 2026-11-10: https://alliancemedicalministry.org/patient-fees Checked 2026-11-11: Eligibility"
  },
  "Haven House Outreach Center|Raleigh": {
   "cost": "free",
@@ -402,13 +418,6 @@
   },
   "notes": "Another list gives phone (919) 231-6351 and Tuesdays & 2nd Saturday; call to confirm before going.",
   "_why": "Checked 2026-11-10: Undated WCPSS/Wake list gives 919-231-6351 and Tue & 2nd Sat (call for hours); church website is offline; no dated source settles it. https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/11858/Food Panties_Wake County.pdf"
- },
- "Upper Room Church of God|Raleigh": {
-  "_if": {
-   "notes": ""
-  },
-  "notes": "Listings disagree on this pantry's days and times, and one directory shows it as closed; call before going.",
-  "_why": "Checked 2026-11-10: WhyHunger matches ours; undated Wake list gives 1st & 3rd Fri/2nd & 4th Sat; another gives Mondays; FeedAM showed closed. No church or 2026 source found. https://networks.whyhunger.org/organisation/39224"
  },
  "Pullen Memorial Baptist Church|Raleigh": {
   "_if": {
@@ -989,5 +998,137 @@
    "hours": "Friday 10:00 am - 11:30 am"
   },
   "_why": "Checked 2026-11-10: RDC's own schedule lists the walk-up pantry on 2nd & 4th Saturdays, not Fridays (https://raleighdreamcenter.org/resources/). No religious participation required per its pages."
+ },
+ "Helping Hands Mission|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "name": "Helping Hand Mission",
+  "notes": "A fire on March 1, 2026 badly damaged its main building and destroyed boxed food (ABC11). We found no reopening date, so call before going.",
+  "_why": "Checked 2026-11-11: Name and fire https://abc11.com/post/fire-damages-helping-hand-mission-raleigh-rock-quarry-road/18664884/"
+ },
+ "The Nest - Beltline Center Wake Technical Community College|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "name": "Wake Tech – The Nest student food pantry (Beltline Center)",
+  "notes": "For currently enrolled Wake Tech students. Order online, then pick up at a campus pantry.",
+  "_why": "Checked 2026-11-11: Students only"
+ },
+ "The Nest - Health Sciences Campus Wake Technical Community College advocacy/the-nest|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "name": "Wake Tech – The Nest student food pantry (Perry Health Sciences Campus)",
+  "notes": "For currently enrolled Wake Tech students. Order online, then pick up at a campus pantry.",
+  "_why": "Checked 2026-11-11: Students only; stray text in name"
+ },
+ "The Nest - North Campus Wake Technical Community College|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "name": "Wake Tech – The Nest student food pantry (Northern Wake Campus)",
+  "notes": "For currently enrolled Wake Tech students. Order online, then pick up at a campus pantry.",
+  "_why": "Checked 2026-11-11: Students only"
+ },
+ "The Nest - South Campus|Raleigh": {
+  "_if": {
+   "org_type": "nonprofit",
+   "notes": ""
+  },
+  "name": "Wake Tech – The Nest student food pantry (Southern Wake Campus)",
+  "org_type": "public",
+  "notes": "For currently enrolled Wake Tech students. Order online, then pick up at a campus pantry.",
+  "_why": "Checked 2026-11-11: Students only; public college, not a nonprofit"
+ },
+ "Blinkley Baptist Church|Chapel Hill": {
+  "_if": {
+   "phone": ""
+  },
+  "name": "Binkley Baptist Church",
+  "phone": "(919) 942-4964",
+  "_why": "Checked 2026-11-11: Misspelling (Olin T. Binkley Memorial Baptist) https://www.binkleychurch.org/"
+ },
+ "Wake Crossroads|Raleigh": {
+  "_if": {},
+  "name": "Wake Crossroads – Bread of Life Food Pantry",
+  "_why": "Checked 2026-11-11: Directories list this address and phone as Bread of Life Food Pantry at WCR"
+ },
+ "NCFST Mobile Market|Wake Forest": {
+  "_if": {
+   "address": "350 E. Holding St., Wake Forest, 27587"
+  },
+  "address": "350 E. Holding Ave., Wake Forest, NC 27587",
+  "_why": "Checked 2026-11-11: Street suffix"
+ },
+ "Birchwood Learning Center|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "South Raleigh Inwood Care Pantry|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Iglesia Pentecostal Puerta Al Cielo|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Iglesia Tabernaculo De Restauracion|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Grace Within Transitions Foundation|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Mom and Pop's Giving Closet|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Call before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Wake County Minimarket|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Check before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Cross Link Community Garden|Raleigh": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "We couldn't find this in any other current source (checked Nov 2026), so it may have ended. Check before going.",
+  "_why": "Checked 2026-11-11: Not found in any other source"
+ },
+ "Fayetteville St Elementary- #Durham EATS|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "This looks like part of the 2025 #DurhamEats effort, and we couldn't confirm it's still running (checked Nov 2026). Check before going.",
+  "_why": "Checked 2026-11-11: Not found"
+ },
+ "Durham Community Fridge at Part & Parcel|Durham": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "This fridge isn't on a May 2025 list of Durham's community fridges, so it may have moved or ended. Check Instagram @durmcommunityfridges before going.",
+  "_why": "Checked 2026-11-11: Not on WUNC list"
  }
 }
