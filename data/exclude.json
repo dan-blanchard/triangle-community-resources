@@ -110,5 +110,9 @@
  {
   "pattern": "^Church\\ of\\ the\\ Apostolic\\ Revival$",
   "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): Directories conflict on address (one lists it closed at 1208 Angier Ave); a nearby building linked to the congregation burned in May 2024."
+ },
+ {
+  "pattern": "^DHIC$",
+  "reason": "Removed 2026-11-11 (owner decision): food access for residents of DHIC's Washington Terrace apartments only ('24hr access to residents'); not open to the public."
  }
 ]
