@@ -403,15 +403,6 @@
   "access": "Register online Wednesday mornings starting at 7 am for a drive-up time slot (slots can fill by 10 am). No ID required. Stay in your car; volunteers load food. Also provides partial rental and/or utility assistance.",
   "_why": "Checked 2026-11-10: Pantry's own site gives Wed 2-4 pm (matches) with online registration from 7 am; old emanueldurham.org URL is dead (403/404). EHD 2026 agrees. https://www.emanuelfoodpantry.org/"
  },
- "Covenant Life Church|Cary": {
-  "_if": {
-   "hours": "Tuesday, Wednesday, and Thursday 4pm-5:45pm",
-   "access": ""
-  },
-  "hours": "Tue, Wed & Fri 4–5:45 pm",
-  "access": "Park in the lot at Lake Pine and Maynard and follow the path past the grey fence.",
-  "_why": "Checked 2026-11-10: Church's own Google Form (2025) says open Tuesday-Wednesday-Friday 4:00-5:45 pm at 555 SW Maynard Rd, phone 919-615-1122. https://docs.google.com/forms/d/e/1FAIpQLSerCT0QL_e961ChT-_3VWCHgWlhc_WIeftTKrGvgj3s4oLH4w/viewform"
- },
  "New Bethel Christian Church|Raleigh": {
   "_if": {
    "notes": ""
@@ -591,13 +582,6 @@
   "access": "Tickets handed out around 7 am for the 8:30 am start.",
   "_why": "Checked 2026-11-10: Food Shuttle's 2026 guides (Mar and Jul 2026 updates) both list the distribution at St. Luke's Episcopal, 1st/2nd/5th Sat 8:30am, phone 919-282-6175. https://foodshuttle.org/Find%20Food/August-2026-Food-Resources-Guide.pdf"
  },
- "Church of the Apostolic Revival|Durham": {
-  "_if": {
-   "notes": ""
-  },
-  "notes": "Another Durham list gives Fri 10–11 am and Sun 1:30 pm; call to confirm times before going.",
-  "_why": "Checked 2026-11-10: Only an undated community list found (Fri 10-11, Sun 1:30); differs slightly from ours; no church source. https://docs.google.com/document/u/0/d/10KoUCBlpLlEp4c98TQAzIkTSFsrUNzJ62FAxmPrXnUg/mobilebasic"
- },
  "Mt Bethel United Methodist Church (Fish & Loaves)|Durham": {
   "_if": {
    "notes": ""
@@ -611,13 +595,6 @@
   },
   "notes": "Other listings give Sundays 8:45–10:30 am; call to confirm before going.",
   "_why": "Checked 2026-11-10: Town of Wake Forest Dec 2024 brochure and Wake lists show every Sunday 8:45-10:30 (ours ends 10:15); 2024 source too old to update; Wed slot unconfirmed. https://wakeforestnc.gov/sites/default/files/uploads/final_12.12.2024_nc_food_security_brochure_17x11.pdf"
- },
- "New Fellowship Ministry Food Pantry|Holly Springs": {
-  "_if": {
-   "notes": ""
-  },
-  "notes": "We couldn't confirm this pantry online; directories list a New Life Community Church pantry on Crittenden Ln with Thu/Fri afternoon hours, and one lists it as closed. Call before going.",
-  "_why": "Checked 2026-11-10: No 'New Fellowship' found; New Life Community Church listings conflict on hours; FeedAM marks closed. Unconfirmed. https://feedam.org/resource/203036"
  },
  "The Stone Chapel|Wake Forest": {
   "_if": {
@@ -701,13 +678,6 @@
   },
   "notes": "Other listings give 2nd & 4th Wed 5:30–6:45 pm instead; call to confirm before going.",
   "_why": "Checked 2026-11-10: Plentiful (undated, food-bank-sourced) says 2nd/4th Wed 5:30-6:45; 2020 county list said 2nd Wed 6pm; community list matches ours. https://directory.plentiful.org/north-carolina/durham/divine-grace-fellowship-77e353fe"
- },
- "Poplar Springs Christian|Raleigh": {
-  "_if": {
-   "notes": ""
-  },
-  "notes": "Other listings give 1st & 4th Mon 8–10:30 am and/or 1st & 3rd Tue 10:30 am–12:30 pm (drive-thru); call to confirm before going.",
-  "_why": "Checked 2026-11-10: Undated Wake County list and community spreadsheet conflict with ours and each other; no church website found. https://www.wcpss.net/cms/lib/NC01911451/Centricity/Domain/12692/food pantry wake county.pdf"
  },
  "Faith Gospel Tabernacle|Durham": {
   "_if": {
@@ -1130,5 +1100,12 @@
   },
   "notes": "This fridge isn't on a May 2025 list of Durham's community fridges, so it may have moved or ended. Check Instagram @durmcommunityfridges before going.",
   "_why": "Checked 2026-11-11: Not on WUNC list"
+ },
+ "Faith In Action|Garner": {
+  "_if": {
+   "notes": ""
+  },
+  "notes": "One directory lists this pantry as closed (user-reported, unconfirmed); call before going.",
+  "_why": "Checked 2026-11-11: FeedAM latest snapshot shows closed; still on Wake County Food Finder."
  }
 }

@@ -84,11 +84,31 @@
   "reason": "Removed 2026-11-11 (owner decision): university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed."
  },
  {
-  "pattern": "^Hope Community Church$",
+  "pattern": "^Hope Community Church( Food Pantry)?$",
   "reason": "Removed 2026-11-11 (owner decision): INDY Week (2020) reported allegations that the church mishandled reports of sexual assault and harassment. https://indyweek.com/news/protest-hope-community-church-sexual-assault-response/"
  },
  {
   "pattern": "^Wake Relief$",
   "reason": "Duplicate of the curated 'Wake Relief Food Pantry' (same address; this copy has a wrong phone number)."
+ },
+ {
+  "pattern": "^Cristo\\ La\\ Solucion$",
+  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): NC Secretary of State lists the nonprofit's status as withdrawn."
+ },
+ {
+  "pattern": "^New\\ Fellowship\\ Ministry\\ Food\\ Pantry$",
+  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): No pantry by this name found in any other source; the Crittenden Ln pantry appears under another church's name."
+ },
+ {
+  "pattern": "^Covenant\\ Life\\ Church$",
+  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): MapQuest marks the church itself closed."
+ },
+ {
+  "pattern": "^Poplar\\ Springs\\ Christian$",
+  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): MapQuest marks the church itself closed; another directory lists a different church at the address."
+ },
+ {
+  "pattern": "^Church\\ of\\ the\\ Apostolic\\ Revival$",
+  "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): Directories conflict on address (one lists it closed at 1208 Angier Ave); a nearby building linked to the congregation burned in May 2024."
  }
 ]
