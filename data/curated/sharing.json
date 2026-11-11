@@ -133,24 +133,6 @@
   "checked": "2026-11-10"
  },
  {
-  "name": "Repair Café NC",
-  "city": "Triangle-wide",
-  "categories": [
-   "Make & Fix"
-  ],
-  "org_type": "community_org",
-  "description": "Free pop-up repair events where volunteer fixers help you repair small appliances, electronics, lamps, clocks, furniture, toys, jewelry, clothing and tools. It runs the Cary and Hillsborough events and others around NC.",
-  "address": "",
-  "url": "https://repaircafenc.org/",
-  "phone": "",
-  "hours": "Event-based; see upcoming events page",
-  "access": "Open to the public; bring your broken item",
-  "cost": "free",
-  "source_url": "https://repaircafenc.org/upcoming-events/",
-  "notes": "Upcoming Triangle events: Hillsborough Nov 14, 2026 and Cary Jan 9, 2027. Past events in Chapel Hill (Jan 2026, Jul 2025) and Durham (Oct 2024). Contact info@repaircafenc.org. Some locations don't take items such as gas engines or microwaves.",
-  "checked": "2026-11-10"
- },
- {
   "name": "Orange County Repair Café (Hillsborough)",
   "city": "Hillsborough",
   "categories": [
