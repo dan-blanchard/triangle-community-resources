@@ -108,7 +108,7 @@
   "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): MapQuest marks the church itself closed; another directory lists a different church at the address."
  },
  {
-  "pattern": "^Church\\ of\\ the\\ Apostolic\\ Revival$",
+  "pattern": "^(Dream Seeker - )?Church of the Apostolic Revival( Intl)?$",
   "reason": "Probably closed (owner decision 2026-11-11; reputation sweep): Directories conflict on address (one lists it closed at 1208 Angier Ave); a nearby building linked to the congregation burned in May 2024."
  },
  {
