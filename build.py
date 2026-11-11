@@ -16,6 +16,7 @@ import argparse
 import csv
 import datetime as dt
 import difflib
+import hashlib
 import json
 import os
 import re
@@ -546,6 +547,7 @@ def main() -> int:
             source_meta.append({"name": getattr(src, "SOURCE", src.__name__), "url": getattr(src, "SOURCE_URL", ""), "count": 0, "stale_parts": ["all"], "error": True})
 
     entries = [normalize(e) for e in raw if e.get("name")]
+    source_names = {e["name"].lower() for e in entries}  # before aliases rename anything
     entries, dropped = apply_exclusions(entries)
     entries = dedupe(entries)
 
@@ -640,6 +642,10 @@ def main() -> int:
     state["last_total"] = len(entries)
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))
 
+    review = review_items(entries, dropped, source_names, outdated, unused, state, launch, now.date())
+    write_review(review)
+    STATE.write_text(json.dumps(state, indent=1, sort_keys=True))  # review_items records excluded names
+
     print(f"{len(entries)} resources ({len(raw)} raw, {len(dropped)} excluded) -> {SITE / 'index.html'}")
     print(f"  logos: {logo_stats['entries_with_logo']} listings ({logo_stats['fetched']} sites checked)")
     print(f"  map: {geo['mapped']} located ({geo['looked_up']} new lookups), {geo['unmapped_with_address']} addresses not found")
@@ -657,8 +663,98 @@ def main() -> int:
     broken = [e for e in entries if e.get("link_status") == "broken"]
     if broken:
         print(f"  {len(broken)} links failing today:", *[f"    {e['name']}: {e['url']}" for e in broken], sep="\n")
+    for section, lines in review.items():
+        print(f"::warning::Needs review: {section} ({len(lines)})" if gha else f"  NEEDS REVIEW: {section}", *[f"    {x}" for x in lines], sep="\n")
     # A failed source still publishes (with cached data and a footer note) rather than taking the page down.
     return 0
+
+
+# ---------- things a person should look at ----------
+# The daily workflow turns build_review.md into one GitHub issue (opened, updated, or closed when clear).
+REVIEW_FILE = ROOT / "build_review.md"
+NEW_DAYS = 7  # how long a new listing stays on the review list
+
+
+def _excluded_names(dropped: list[dict], state: dict) -> set[str]:
+    """Names we've removed on purpose: every name an exclusion has ever dropped, plus the literal
+    name in each anchored rule (covers curated entries that were deleted rather than excluded)."""
+    seen = set(state.get("excluded_names", [])) | {d["name"] for d in dropped}
+    state["excluded_names"] = sorted(seen)
+    names = set(seen)
+    for r in json.loads(EXCLUDE.read_text()) if EXCLUDE.exists() else []:
+        p = r["pattern"]
+        if p.startswith("^") and p.endswith("$"):
+            lit = re.sub(r"\([^()]*\)\?", " ", p[1:-1])  # drop optional parts like "( Food Pantry)?"
+            lit = re.sub(r"\\(.)", r"\1", lit)
+            if not re.search(r"[\[\]()|*+?{}]", lit):
+                names.add(lit)
+    return {norm_name(n) for n in names if norm_name(n)}
+
+
+def _addr_key(e: dict) -> str:
+    m = re.match(r"\s*(\d+)\s+([a-z0-9. ]+?)\b(st|street|rd|road|ave|avenue|dr|drive|blvd|ln|lane|ct|court|pkwy|hwy|way|pl|place|cir)\b",
+                 (e.get("address") or "").lower().split("\n")[0])
+    return f"{e['city']}|{m.group(1)} {re.sub(r'[^a-z0-9]', '', m.group(2))}" if m else ""
+
+
+def _phone_key(e: dict) -> str:
+    d = re.sub(r"\D", "", e.get("phone") or "")
+    d = d[1:] if d.startswith("1") else d
+    return d[:10] if len(d) >= 10 else ""
+
+
+def review_items(entries, dropped, source_names, outdated, unused, state, launch, today) -> dict[str, list[str]]:
+    out: dict[str, list[str]] = {}
+    if outdated:
+        out["Corrections skipped because the source changed (check whether ours is still needed, then update or delete it in data/overrides.json)"] = outdated
+    if unused:
+        out["Corrections that match no listing (renamed or gone at the source; re-key or delete in data/overrides.json)"] = unused
+    aliases = json.loads(ALIASES.read_text()) if ALIASES.exists() else {}
+    dead = [f"{k} → {v}" for k, v in aliases.items() if not k.startswith("_") and k.lower() not in source_names]
+    if dead:
+        out["Duplicate merges whose source name no longer appears (the duplicate may be back under a new spelling; data/aliases.json)"] = dead
+
+    new = [e for e in entries if e["first_seen"] > launch and (today - dt.date.fromisoformat(e["first_seen"])).days <= NEW_DAYS]
+    excluded = _excluded_names(dropped, state)
+    near = []
+    for e in new:
+        n = norm_name(e["name"])
+        hit = next((x for x in excluded if x == n or (min(len(x), len(n)) >= 8 and (x in n or n in x))
+                    or difflib.SequenceMatcher(None, x, n).ratio() >= 0.85), None)
+        if hit:
+            near.append(f"{e['name']} ({e['city']}, first seen {e['first_seen']}): looks like removed listing \"{hit}\"")
+    if near:
+        out["New listings that look like something removed on purpose (add the new name to data/exclude.json if so)"] = near
+
+    by_phone, by_addr = {}, {}
+    for e in entries:
+        for idx, k in ((by_phone, _phone_key(e)), (by_addr, _addr_key(e))):
+            if k:
+                idx.setdefault(k, []).append(e)
+    dups = []
+    for e in new:
+        others = {id(o): o for k, idx in ((_phone_key(e), by_phone), (_addr_key(e), by_addr)) if k
+                  for o in idx[k] if o is not e and o["city"] == e["city"]
+                  and not (o.get("curated_file") and e.get("curated_file"))}  # two researched entries = separate programs
+        if others:
+            dups.append(f"{e['name']} ({e['city']}, first seen {e['first_seen']}) shares a phone or address with: "
+                        + "; ".join(o["name"] for o in others.values()))
+    if dups:
+        out["New listings that may duplicate an existing one (merge with data/aliases.json if so)"] = dups
+    return out
+
+
+def write_review(review: dict[str, list[str]]) -> None:
+    if not review:
+        REVIEW_FILE.write_text("")
+        return
+    body = ["The daily build found things that need a person's judgment. This issue updates itself after each "
+            "build and closes when the list is empty.", ""]
+    for section, lines in review.items():
+        body += [f"### {section}", *[f"- {x}" for x in lines], ""]
+    text = "\n".join(body)
+    digest = hashlib.sha1(text.encode()).hexdigest()[:12]
+    REVIEW_FILE.write_text(f"{text}\n<!-- review-hash: {digest} -->\n")
 
 
 if __name__ == "__main__":

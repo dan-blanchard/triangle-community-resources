@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -35,6 +36,29 @@ jobs:
 
       - name: Scrape, check links, render
         run: uv run build.py
+
+      # One open "build-review" issue lists what needs a person's judgment (build_review.md).
+      # Opened when something turns up, updated with a comment when the list changes, closed when clear.
+      - name: Open, update or close the review issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create build-review --color FBCA04 --description "Daily build found something to review" --force >/dev/null
+          num=$(gh issue list --label build-review --state open --json number --jq '.[0].number // empty')
+          if [ -s build_review.md ]; then
+            new=$(grep -o 'review-hash: [0-9a-f]*' build_review.md || true)
+            if [ -z "$num" ]; then
+              gh issue create --title "Daily build: needs review" --label build-review --body-file build_review.md
+            else
+              old=$(gh issue view "$num" --json body --jq .body | grep -o 'review-hash: [0-9a-f]*' || true)
+              if [ "$new" != "$old" ]; then
+                gh issue edit "$num" --body-file build_review.md
+                gh issue comment "$num" --body "The list changed in the $(date -u +%F) build; see the updated description."
+              fi
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --comment "Nothing to review as of the $(date -u +%F) build."
+          fi
 
       - name: Save history (first-seen dates, link-failure streaks, geocode + logo caches)
         run: |

@@ -49,7 +49,12 @@ Pushing any of these to `main` triggers a rebuild right away.
 ## Keeping it current
 
 - **Daily (GitHub Actions):** re-pulls every scraped source, checks links, and flags
-  web-search entries not re-checked in 90+ days.
+  web-search entries not re-checked in 90+ days. It also keeps one open issue labeled
+  `build-review` listing anything that needs a person's judgment: corrections skipped because
+  the source changed or that no longer match a listing, duplicate merges whose source spelling
+  disappeared, and listings new in the last 7 days that look like something removed on purpose
+  or share a phone/address with an existing listing. The issue gets a comment when the list
+  changes and closes itself when it's empty.
 - **Monthly (scheduled Claude agent):** re-verifies the web-search entries (oldest `checked`
   first), works through open `report-change` and `suggest-resource` issues, looks for new
   groups, and opens a **pull request** for review. Nothing reaches the live page until the PR
