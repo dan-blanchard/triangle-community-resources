@@ -133,42 +133,6 @@
   "checked": "2026-11-10"
  },
  {
-  "name": "Orange County Repair Café (Hillsborough)",
-  "city": "Hillsborough",
-  "categories": [
-   "Make & Fix"
-  ],
-  "org_type": "public",
-  "description": "County-hosted Repair Café where volunteer repair coaches help mend clothing and fix damaged electronics, furniture, jewelry and small appliances.",
-  "address": "Whitted Human Services Center, Donna S. Baker Meeting Room, 300 W. Tryon St., Hillsborough, NC 27278",
-  "url": "https://www.orangecountync.gov/3816/Repair-Caf",
-  "phone": "",
-  "hours": "Next event Sat Nov 14, 2026, 1–5pm (last check-in 3:30pm)",
-  "access": "Open to the public; register via RepairCafeNC.org",
-  "cost": "free",
-  "source_url": "https://www.orangecountync.gov/3816/Repair-Caf",
-  "notes": "Run with Repair Café NC under Orange County's sustainability program. Repair Café events are free.",
-  "checked": "2026-11-10"
- },
- {
-  "name": "Cary Repair Café",
-  "city": "Cary",
-  "categories": [
-   "Make & Fix"
-  ],
-  "org_type": "community_org",
-  "description": "Recurring Repair Café NC workshop in Cary (the group started here in 2017). Volunteers help fix household items, clothing, small appliances and electronics.",
-  "address": "Kirk of Kildaire Presbyterian Church, 200 High Meadow Drive, Cary, NC 27511",
-  "url": "https://repaircafenc.org/",
-  "phone": "",
-  "hours": "Next event Sat Jan 9, 2027, 1–5pm (last check-in 3:30pm); held several times a year",
-  "access": "Open to the public",
-  "cost": "free",
-  "source_url": "https://triangleonthecheap.com/repair-cafe-can-help-fix-stuff-free",
-  "notes": "2025–2026 dates included Aug 16 and Oct 25, 2025 and Mar 14 and Jun 13, 2026. They won't take CRT TVs, weapons or compressed-gas items. Facebook: /RepairCafeNC.",
-  "checked": "2026-11-11"
- },
- {
   "name": "Durham Bike Co-op",
   "city": "Durham",
   "categories": [
@@ -724,5 +688,23 @@
   "source_url": "https://help.buynothingproject.org/article/37-how-do-i-join-a-buy-nothing-group",
   "notes": "This is the hub page, not individual groups. Triangle groups are neighborhood-sized.",
   "checked": "2026-11-10"
+ },
+ {
+  "name": "Repair Café NC",
+  "city": "Triangle-wide",
+  "categories": [
+   "Make & Fix"
+  ],
+  "org_type": "community_org",
+  "description": "Free pop-up repair events where volunteer fixers help you repair small appliances, electronics, lamps, clocks, furniture, toys, jewelry, clothing and tools, and show you how. Events rotate around the Triangle, so check the events page for the next one near you.",
+  "address": "",
+  "url": "https://repaircafenc.org/upcoming-events/",
+  "phone": "",
+  "hours": "Pop-up events a few Saturdays a year, usually 1–5 pm (last check-in 3:30 pm); see the events page for dates and places",
+  "access": "Open to the public; bring your broken item",
+  "cost": "free",
+  "source_url": "https://repaircafenc.org/upcoming-events/",
+  "notes": "Upcoming: Hillsborough, Sat Nov 14, 2026 (Whitted Human Services Center, 300 W. Tryon St.) and Cary, Sat Jan 9, 2027 (Kirk of Kildaire Presbyterian, 200 High Meadow Dr.). Past events were also held at the Seymour Center in Chapel Hill and in Durham. Some locations don't take CRT TVs, weapons, gas engines, microwaves or compressed-gas items. Contact info@repaircafenc.org; Facebook /RepairCafeNC.",
+  "checked": "2026-11-11"
  }
 ]
