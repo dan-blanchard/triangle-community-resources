@@ -82,13 +82,33 @@ directory. No flag means "not confirmed". Research notes: `data/research/lgbtq_*
 
 `data/exclude.json` rules have a `kind`:
 
-- `out_of_scope` / `policy` / `religious_requirement`: inclusion criteria (retail, for-profit,
+- `out_of_scope` / `religious_requirement`: inclusion criteria (retail, for-profit,
   campus-only, anti-choice, required worship).
 - `maintainer_decision`: a judgment call by the directory's maintainer. Never revisited
   automatically.
-- `duplicate`: another listing already covers it.
-- `probably_closed`: removed on indirect evidence of closure, with a `checked` date. The
-  re-check routine looks again after 90 days and proposes restoring it if it's clearly operating.
+- `duplicate`: another listing covers it; `of` names that listing.
+- `probably_closed` (with a `checked` date) and `closed`: see below.
+
+**Closures.** Hide a listing as `probably_closed` only with evidence such as a map service
+marking the place itself closed, a state record (e.g. nonprofit "withdrawn"), the name not
+existing anywhere else, or conflicting listings plus physical evidence (e.g. a fire). A
+user-reported "closed" flag in a pantry directory (FeedAM/Feed America, Plentiful and similar)
+or simply having no web presence is not enough: those listings get a "call before
+going" note instead, and are never hidden automatically however long they stay unconfirmed.
+
+The re-check routine looks at each `probably_closed` rule every 90 days. It proposes, in its
+PR for the maintainer to merge:
+- restoring the listing (deleting the rule) if it's clearly operating;
+- `closed` right away on direct evidence (the org's own announcement, news, a dissolution record);
+- `closed` if the source has stopped listing it and it's still absent at the next re-check;
+- `closed` after two re-checks in a row find no sign of activity;
+- otherwise, a fresh `checked` date.
+
+`closed` rules are kept forever as a record and aren't re-checked. The daily build's review
+issue reports probably-closed listings that no source lists anymore, closure rules that match a
+source listing again after 7+ days of matching nothing (days a source fell back to its cached
+copy don't count), duplicate rules whose `of` listing is gone, and rules with no valid `kind`.
+There is deliberately no public "closed" list on the page.
 
 `data/overrides.json` fixes individual fields on scraped listings (key `Name|Town`), and
 `data/logo_overrides.json` suppresses a site icon that isn't the org's logo.

@@ -273,7 +273,7 @@ def apply_exclusions(entries: list[dict]) -> tuple[list[dict], list[dict]]:
     for e in entries:
         hit = next((r for r in rules if re.search(r["pattern"], e["name"], re.I)), None)
         if hit:
-            dropped.append({"name": e["name"], "reason": hit["reason"]})
+            dropped.append({"name": e["name"], "reason": hit["reason"], "pattern": hit["pattern"]})
         else:
             kept.append(e)
     return kept, dropped
@@ -642,7 +642,8 @@ def main() -> int:
     state["last_total"] = len(entries)
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))
 
-    review = review_items(entries, dropped, source_names, outdated, unused, state, launch, now.date())
+    stale_day = any(m.get("stale_parts") or m.get("error") for m in source_meta)
+    review = review_items(entries, dropped, source_names, outdated, unused, state, launch, now.date(), stale_day)
     write_review(review)
     STATE.write_text(json.dumps(state, indent=1, sort_keys=True))  # review_items records excluded names
 
@@ -703,8 +704,55 @@ def _phone_key(e: dict) -> str:
     return d[:10] if len(d) >= 10 else ""
 
 
-def review_items(entries, dropped, source_names, outdated, unused, state, launch, today) -> dict[str, list[str]]:
+EXCLUDE_KINDS = {"out_of_scope", "religious_requirement", "maintainer_decision", "duplicate", "probably_closed", "closed"}
+GONE_DAYS = 7        # a closure rule must match nothing this many days before a match counts as "reappeared"
+REAPPEARED_SHOW = 14  # days a reappearance stays on the review list
+
+
+def exclusion_items(entries, dropped, state, today, stale_day) -> dict[str, list[str]]:
+    """Track each exclusion rule's matches over time (state["exclusion_history"]) and report:
+    probably-closed rules that matched nothing (the source may have dropped the listing),
+    closure rules matching again after a gap (it may have reopened), duplicate rules whose
+    kept listing is gone, and rules with a missing or unknown kind."""
+    rules = json.loads(EXCLUDE.read_text()) if EXCLUDE.exists() else []
+    hits: dict[str, list[str]] = {}
+    for d in dropped:
+        hits.setdefault(d["pattern"], []).append(d["name"])
+    hist = state.setdefault("exclusion_history", {})
+    names = {e["name"] for e in entries}
     out: dict[str, list[str]] = {}
+    for r in rules:
+        p, kind = r["pattern"], r.get("kind")
+        label = r["pattern"].strip("^$").replace("\\", "")
+        if kind not in EXCLUDE_KINDS:
+            out.setdefault("Exclusion rules with a missing or unknown `kind` (data/exclude.json)", []).append(f"{label}: {kind!r}")
+        h = hist.setdefault(p, {"zero_days": 0, "last_zero_day": "", "reappeared_on": ""})
+        if hits.get(p):
+            if h["zero_days"] >= GONE_DAYS and kind in ("probably_closed", "closed"):
+                h["reappeared_on"] = today.isoformat()
+            h["zero_days"], h["last_zero_day"] = 0, ""
+        elif not stale_day and h["last_zero_day"] != today.isoformat():  # count days, not runs; skip days a source fell back to cache
+            h["zero_days"] += 1
+            h["last_zero_day"] = today.isoformat()
+        if h["reappeared_on"] and (today - dt.date.fromisoformat(h["reappeared_on"])).days <= REAPPEARED_SHOW:
+            out.setdefault("Removed as closed, but a source lists it again (it may have reopened; check, then restore it or update the rule's `checked`)", []).append(
+                f"{label} ({kind}): back on {h['reappeared_on']} as " + "; ".join(sorted(set(hits.get(p, []))) or ["(no longer matching)"]))
+        if kind == "probably_closed" and not hits.get(p):
+            out.setdefault("Probably-closed listings no source lists anymore (at the next re-check, mark `closed` if still absent)", []).append(
+                f"{label} (checked {r.get('checked', '?')})")
+        if kind == "duplicate" and r.get("of") and r["of"] not in names:
+            out.setdefault("Duplicate rules whose kept listing is gone (the hidden copy may now be the only one; data/exclude.json)", []).append(
+                f"{label} defers to \"{r['of']}\", which isn't listed anymore")
+        if kind == "duplicate" and not r.get("of"):
+            out.setdefault("Duplicate rules missing `of` (which listing they defer to)", []).append(label)
+    live = {r["pattern"] for r in rules}
+    for p in [p for p in hist if p not in live]:
+        del hist[p]
+    return out
+
+
+def review_items(entries, dropped, source_names, outdated, unused, state, launch, today, stale_day=False) -> dict[str, list[str]]:
+    out: dict[str, list[str]] = exclusion_items(entries, dropped, state, today, stale_day)
     if outdated:
         out["Corrections skipped because the source changed (check whether ours is still needed, then update or delete it in data/overrides.json)"] = outdated
     if unused:

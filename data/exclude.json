@@ -57,7 +57,7 @@
  {
   "pattern": "pregnancy (support|resource|care|help|medical|services|center|clinic)|crisis pregnancy|\\bcare ?net\\b|heartbeat (international|of)|birthright|gateway women|women'?s (care|resource|pregnancy) (center|clinic)|life ?choices|pregnancy center|abortion pill reversal|\\bpro-?life\\b|right to life",
   "reason": "Anti-choice (crisis pregnancy center or anti-abortion org): the directory only lists resources that support reproductive rights",
-  "kind": "policy"
+  "kind": "out_of_scope"
  },
  {
   "pattern": "students?\\s*(&|and)\\s*staff only|for (\\w+ )?students only|students only",
@@ -82,12 +82,14 @@
  {
   "pattern": "^Lincoln\\ Park\\ Food\\ Distribution\\ Ministry$",
   "reason": "Duplicate of 'Lincoln Park Holiness Church Food Pantry' (same pantry; checked 2026-11-10)",
-  "kind": "duplicate"
+  "kind": "duplicate",
+  "of": "Lincoln Park Holiness Church Food Pantry"
  },
  {
   "pattern": "^Kings\\ Park\\ Church$",
   "reason": "Duplicate of 'House of Mercy - Celebracion Cristiana' (same pantry; checked 2026-11-10)",
-  "kind": "duplicate"
+  "kind": "duplicate",
+  "of": "House of Mercy - Celebracion Cristiana"
  },
  {
   "pattern": "^The Hope Center for Youth and Family Crisis$",
@@ -101,8 +103,9 @@
  },
  {
   "pattern": "^St\\. Augustine's University$",
-  "reason": "Maintainer decision 2026-11-11: university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed.",
-  "kind": "maintainer_decision"
+  "reason": "Probably closed (maintainer decision 2026-11-11): university filed Chapter 11 on Apr 27, 2026 after losing accreditation; pantry status unconfirmed.",
+  "kind": "probably_closed",
+  "checked": "2026-11-11"
  },
  {
   "pattern": "^Hope Community Church( Food Pantry)?$",
@@ -112,7 +115,8 @@
  {
   "pattern": "^Wake Relief$",
   "reason": "Duplicate of the curated 'Wake Relief Food Pantry' (same address; this copy has a wrong phone number).",
-  "kind": "duplicate"
+  "kind": "duplicate",
+  "of": "Wake Relief Food Pantry"
  },
  {
   "pattern": "^Cristo\\ La\\ Solucion$",
