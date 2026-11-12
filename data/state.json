@@ -40,9 +40,9 @@
    "zero_days": 0
   },
   "^Cary Repair Caf\u00e9$": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "^Covenant\\ Life\\ Church$": {
    "last_zero_day": "",
@@ -80,9 +80,9 @@
    "zero_days": 0
   },
   "^Orange County Repair Caf\u00e9( \\(Hillsborough\\))?$": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "^Poplar\\ Springs\\ Christian$": {
    "last_zero_day": "",
@@ -95,9 +95,9 @@
    "zero_days": 0
   },
   "^Repair Caf\u00e9 NC \u2013 Cary$": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "^St\\. Augustine's University$": {
    "last_zero_day": "",
@@ -105,9 +105,9 @@
    "zero_days": 0
   },
   "^The Hope Center for Youth and Family Crisis$": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "^Upper Room Church of God$": {
    "last_zero_day": "",
@@ -125,9 +125,9 @@
    "zero_days": 0
   },
   "^feed the pack": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "carolina cupboard": {
    "last_zero_day": "",
@@ -165,9 +165,9 @@
    "zero_days": 0
   },
   "neighborhealth": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "pachayaku|a new life service": {
    "last_zero_day": "",
@@ -175,9 +175,9 @@
    "zero_days": 0
   },
   "pregnancy (support|resource|care|help|medical|services|center|clinic)|crisis pregnancy|\\bcare ?net\\b|heartbeat (international|of)|birthright|gateway women|women'?s (care|resource|pregnancy) (center|clinic)|life ?choices|pregnancy center|abortion pill reversal|\\bpro-?life\\b|right to life": {
-   "last_zero_day": "2026-11-11",
+   "last_zero_day": "2026-11-12",
    "reappeared_on": "",
-   "zero_days": 1
+   "zero_days": 2
   },
   "restore\\b": {
    "last_zero_day": "",
@@ -900,21 +900,21 @@
   "Wake County Food Finder map": 255,
   "Web search": 357
  },
- "last_run": "2026-11-11T22:09:24-05:00",
+ "last_run": "2026-11-12T05:20:52-05:00",
  "last_total": 600,
  "link_fail_streak": {
-  "https://celebracioncristiana.org/house-of-mercy/": 49,
-  "https://dfstrianglenc.org/services#signup": 49,
-  "https://fpcraleigh.org/missions/": 49,
-  "https://gocary.org/about-gocary-door-door-service": 22,
-  "https://gocary.org/fares-passes-gocary": 23,
-  "https://lincolnchc.org/?page_id=6453": 48,
-  "https://northraleighministries.com/foodassistance/": 49,
-  "https://richlandcreek.com/event/2019179-2022-06-25-community-food-pantry/": 48,
-  "https://soduco.org/parktown-food-hub": 49,
-  "https://www.caare-inc.org/": 49,
-  "https://www.chathamcountync.gov/government/departments-programs-a-h/aging-services/aging-services-home": 44,
-  "https://www.dpi.nc.gov/districts-schools/district-operations/school-nutrition/how-find-nc-summer-meals": 49,
+  "https://celebracioncristiana.org/house-of-mercy/": 50,
+  "https://dfstrianglenc.org/services#signup": 50,
+  "https://fpcraleigh.org/missions/": 50,
+  "https://gocary.org/about-gocary-door-door-service": 23,
+  "https://gocary.org/fares-passes-gocary": 24,
+  "https://lincolnchc.org/?page_id=6453": 49,
+  "https://northraleighministries.com/foodassistance/": 50,
+  "https://richlandcreek.com/event/2019179-2022-06-25-community-food-pantry/": 49,
+  "https://soduco.org/parktown-food-hub": 50,
+  "https://www.caare-inc.org/": 50,
+  "https://www.chathamcountync.gov/government/departments-programs-a-h/aging-services/aging-services-home": 45,
+  "https://www.dpi.nc.gov/districts-schools/district-operations/school-nutrition/how-find-nc-summer-meals": 50,
   "https://www.voachesapeake.org/locations/maple-court-veterans-apartments/": 34
  }
 }
