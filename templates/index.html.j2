@@ -120,8 +120,9 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .controls .wrap{display:grid;grid-template-columns:1fr 1fr;gap:.45rem}
   .controls .wrap>*{min-width:0;width:100%}
   .controls input[type=search],#towndd,.needsum{grid-column:1/-1}
-  .needbar{flex-wrap:nowrap;overflow-x:auto;padding-bottom:.4rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
-  .needchip{flex:none}
+  /* three rows that scroll sideways together, instead of one very long row */
+  .needbar{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);justify-content:start;justify-items:start;overflow-x:auto;padding-bottom:.4rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
+  .needchip{white-space:nowrap}
   .headrow{flex-direction:column}
   .viewtoggle{grid-column:1/-1;margin-left:0}
   .viewtoggle button{flex:1;white-space:nowrap}
@@ -170,7 +171,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 <body>
 <header class="top"><div class="wrap headrow"><div>
   <h1>Triangle Community Resources</h1>
-  <p>Free and low-cost help across the Triangle, from mutual-aid groups, nonprofits, congregations and public agencies. <strong>Take what you need.</strong> Share what you can.</p>
+  <p>Free and low-cost help across the Triangle, from mutual-aid groups, nonprofits, congregations and public agencies.</p>
   <div class="updated">Updated {{ meta.generated }} · {{ meta.total }} resources</div>
   </div>
 </div></header>
