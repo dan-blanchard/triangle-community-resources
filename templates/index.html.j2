@@ -97,7 +97,7 @@ svg.pride{border-radius:2px;flex:none}
 dl.facts{margin:0;font-size:.88rem;display:grid;grid-template-columns:auto 1fr;gap:.15rem .55rem}
 dl.facts dt{color:var(--muted);font-weight:600}
 dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
-/* long text shows six lines until "More" (the script adds the class and the button where text is really cut off) */
+/* long text shows six lines until "More" (the script adds the class, and shows the button, where text is really cut off) */
 .clamped{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;line-clamp:6;overflow:hidden}
 .morebtn{align-self:flex-start;font-size:.85rem}
 dl.facts dd.morerow{grid-column:2}
@@ -141,7 +141,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .controls .wrap{display:grid;grid-template-columns:repeat(6,1fr);gap:.45rem}
   .controls .wrap>*{min-width:0;width:100%;grid-column:span 3}
   .controls .dd{grid-column:span 2}
-  .controls input[type=search],#needsumrow{grid-column:1/-1}
+  .controls input[type=search]{grid-column:1/-1}
   /* strips that swipe sideways; the fade on the right hints at more */
   .jump,.needbar.collapsed{overflow-x:auto;padding-right:2.5rem;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
   .jump{flex-wrap:nowrap;scrollbar-width:none}
@@ -163,10 +163,13 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .controls .wrap{position:relative}
   .dd{position:static}
   .ddpanel{top:auto;left:1rem;right:1rem;margin-top:4px}
-  .needsum{max-width:none;width:100%;justify-content:space-between}
   .controls label.tog{font-size:.9rem;white-space:normal;width:auto}
   #map{height:70vh}
   section.city>h2{font-size:1.6rem}
+  section.city{margin-top:1rem}
+  .count{margin-top:.6rem}
+  .jump{margin-top:.3rem}
+  #needsumrow{display:none}  /* the bar isn't sticky here, and the count line names the needs */
 }
 @media print{
   .controls,.needbar,.needmore,.count,.jump,.totop,.viewtoggle,.morerow,.morebtn,.crisis a[href^=http]::after{display:none!important}
@@ -325,28 +328,45 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   const EMOJI = {{ emoji|tojson }};
   const towns = new Set(), needs = new Set(), types = new Set(), costs = new Set();
   // ---- long text: six lines, then a "More" button, wherever that hides at least a couple of lines ----
-  // (Shown in full without this script and in print. Runs before any card is hidden, so sizes can be measured.)
-  const longText = $$('article .long');
-  longText.forEach(el => el.classList.add('clamped'));
-  const hides = longText.map(el => el.scrollHeight - el.clientHeight > 24);  // all reads, then all writes
-  longText.forEach((el, i) => {
-    if (!hides[i]) { el.classList.remove('clamped'); return; }
+  // (Shown in full without this script and in print.)
+  const longText = $$('article .long').map(el => {
     const what = el.tagName === 'DD' ? el.previousElementSibling.textContent : 'Description';
     const btn = document.createElement('button');
     btn.type = 'button'; btn.className = 'morebtn';
+    let holder = btn;  // what to hide when nothing is cut off
+    if (el.tagName === 'DD') {  // keep the facts list valid: the button gets its own <dd>
+      holder = document.createElement('dd'); holder.className = 'morerow'; holder.append(btn);
+    }
+    const item = {el, holder, open: false, fitWidth: 0};  // fitWidth: page width it was last measured at
     const show = open => {
+      item.open = open;
       el.classList.toggle('clamped', !open);
       btn.textContent = open ? 'Less' : 'More';
       btn.setAttribute('aria-expanded', open); btn.setAttribute('aria-label', `${btn.textContent}: ${what}`);
     };
-    btn.addEventListener('click', () => show(el.classList.contains('clamped')));
+    btn.addEventListener('click', () => {
+      show(!item.open);
+      if (!item.open) { item.fitWidth = 0; fitLongText(); }  // the page may have changed width while it was open
+    });
     // tabbing to a link in the hidden part opens it rather than scrolling the box
-    el.addEventListener('focusin', ev => { if (ev.target.matches(':focus-visible')) show(true); });
+    el.addEventListener('focusin', ev => { if (!holder.hidden && ev.target.matches(':focus-visible')) show(true); });
     show(false);
-    if (el.tagName === 'DD') {  // keep the facts list valid: the button gets its own <dd>
-      const row = document.createElement('dd'); row.className = 'morerow'; row.append(btn); el.after(row);
-    } else el.after(btn);
+    holder.hidden = true;
+    el.after(holder);
+    return item;
   });
+  // Clamp, and offer "More", only where text is really cut off at the current width. Each field is
+  // measured once per page width, while its card is showing (a hidden card has no size); text the
+  // reader opened stays open. apply() calls this, so cards are measured as filters reveal them.
+  function fitLongText() {
+    const width = innerWidth;  // read once: reading it between writes can force a layout each time
+    const due = longText.filter(t => t.fitWidth !== width && !t.open && t.el.offsetParent);
+    due.forEach(t => t.el.classList.add('clamped'));
+    const hides = due.map(t => t.el.scrollHeight - t.el.clientHeight > 24);  // all reads, then all writes
+    due.forEach((t, k) => { t.el.classList.toggle('clamped', hides[k]); t.holder.hidden = !hides[k]; t.fitWidth = width; });
+  }
+  let fitTimer = 0;
+  addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(fitLongText, 200); });  // a new width re-wraps the text
 
   // every filter, in one place: what "filtered" means and what "Clear all" resets
   const sets = [towns, needs, types, costs], toggles = [nf, lg, nw];
@@ -497,6 +517,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     $$('article button.b').forEach(b => b.classList.toggle('on',
       (b.dataset.f === 'type' && types.has(b.dataset.v)) || (b.dataset.f === 'cost' && costs.has(b.dataset.v)) ||
       (b.dataset.f === 'lgbtq' && lg.checked) || (b.dataset.f === 'new' && nw.checked)));
+    fitLongText();
     announce();
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value);
