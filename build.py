@@ -656,6 +656,7 @@ def main() -> int:
 
     meta = {
         "generated": now.strftime("%A, %B %-d, %Y at %-I:%M %p ET"),
+        "generated_short": now.strftime("%b %-d, %-I:%M %p"),  # phones
         "generated_iso": now.isoformat(timespec="seconds"),
         "total": len(entries),
         "sources": source_meta,

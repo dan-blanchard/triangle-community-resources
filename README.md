@@ -144,7 +144,7 @@ open site/index.html
 Free, pay-what-you-can, or sliding-scale resources open to the community, from organizations
 aligned with reproductive rights and LGBTQ+ inclusion: crisis pregnancy centers and other
 anti-abortion or anti-LGBTQ providers (e.g. conversion therapy) are excluded (`data/exclude.json`). Mutual aid,
-co-ops, and grassroots groups are tagged green and have their own filter. Each town is listed A–Z. Excluded:
+co-ops, and grassroots groups are tagged green and can be picked in the Type filter. Each town is listed A–Z. Excluded:
 paid thrift and retail stores, for-profit businesses, and programs that require religious
 participation.
 
