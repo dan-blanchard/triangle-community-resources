@@ -29,7 +29,7 @@ from urllib.parse import urlencode, urlparse
 from zoneinfo import ZoneInfo
 
 import requests
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader
 from markupsafe import Markup, escape
 
 ROOT = Path(__file__).resolve().parent
@@ -465,7 +465,9 @@ def report_link(e: dict) -> str:
 
 
 def render(entries: list[dict], meta: dict) -> None:
-    env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=select_autoescape())
+    # Always escape: listings come from scraped pages. (select_autoescape() goes by file extension
+    # and would leave *.html.j2 unescaped.)
+    env = Environment(loader=FileSystemLoader(ROOT / "templates"), autoescape=True)
     env.filters["maps"] = maps_link
     env.filters["slug"] = lambda s: re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     env.filters["tel"] = lambda s: re.sub(r"[^\d+]", "", s)
