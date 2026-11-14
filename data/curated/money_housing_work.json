@@ -1,21 +1,60 @@
 [
   {
-    "name": "AARP Foundation Tax-Aide (free tax prep – Durham, Raleigh & Apex sites)",
-    "city": "Triangle-wide",
+    "name": "AARP Foundation Tax-Aide – Durham Main Library",
+    "city": "Durham",
     "categories": [
       "Money & Bills"
     ],
     "org_type": "nonprofit",
     "description": "Free tax preparation and e-filing of federal and NC returns by IRS-certified volunteers. Runs each year from about February to mid-April.",
-    "address": "",
-    "url": "https://taxaide.aarpfoundation.org/",
+    "address": "300 N. Roxboro St., Durham, NC 27701",
+    "url": "https://durhamcountylibrary.org/arbitrary-feature/tax-preparation/",
+    "phone": "919-695-7548",
+    "hours": "Tax season only. The 2026 season ran Jan 30–Apr 13; the 2027 schedule isn't posted yet.",
+    "access": "Free. You don't have to be an AARP member. Focus is on people over 50 and people with low to moderate income. By appointment.",
+    "cost": "free",
+    "source_url": "https://durhamcountylibrary.org/arbitrary-feature/tax-preparation/",
+    "checked": "2026-11-14",
+    "notes": "Book online through the library's tax page, call the number above or email durhamtaxaide@gmail.com. Don't call the library. For other sites, use AARP's locator at taxaide.aarpfoundation.org once 2027 sites are posted. Out-of-scope returns can't be prepared.",
+    "formerly": "AARP Foundation Tax-Aide (free tax prep – Durham, Raleigh & Apex sites)|Triangle-wide"
+  },
+  {
+    "name": "AARP Foundation Tax-Aide – Raleigh (Trinity Baptist Church)",
+    "city": "Raleigh",
+    "categories": [
+      "Money & Bills"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free tax preparation and e-filing of federal and NC returns by IRS-certified volunteers. Runs each year from about February to mid-April.",
+    "address": "4815 Six Forks Rd, Raleigh, NC 27609",
+    "url": "https://raleightaxaide.com/",
     "phone": "",
-    "hours": "Tax season only (about Feb–Apr). The 2027 schedule isn't posted yet.",
-    "access": "Free. You don't have to be an AARP member. Focus is on people over 50 and people with low to moderate income. Appointments required. Bring Social Security cards for everyone on the return.",
+    "hours": "Tax season only (about Feb–Apr). The site says appointments will be available in January 2027.",
+    "access": "Free. You don't have to be an AARP member. Focus is on people over 50 and people with low to moderate income. By appointment. You must bring Social Security cards for everyone on the return.",
     "cost": "free",
     "source_url": "https://raleightaxaide.com/",
-    "checked": "2026-11-10",
-    "notes": "Locations in the 2026 season: (1) Durham Main Library, 300 N. Roxboro St., Durham 27701, Jan 30–Apr 13, 2026. Book online through the library's tax page, call 919-695-7548 or email durhamtaxaide@gmail.com, and don't call the library (https://durhamcountylibrary.org/arbitrary-feature/tax-preparation/). (2) Raleigh Tax-Aide, which is moving to Trinity Baptist Church, 4815 Six Forks Rd, Raleigh 27609. Appointments are online only at raleightaxaide.com and open in January 2027. Email trinitybaptist.taxaide@gmail.com. (3) Apex Senior Center, 63 Hunter St., Apex 27502, Feb 3–Apr 14, 2026, Tue 9:30–2:30 and Thu 9:30–5:30. Book in person during site hours, not online. Call 919-446-1348 (https://apexnc.org/DocumentCenter/View/53220). AARP's national site said service was closed for the 2026 season when checked. Use its site locator for other Wake sites once 2027 sites are posted. Out-of-scope returns can't be prepared."
+    "checked": "2026-11-14",
+    "notes": "The Raleigh Food Bank Tax-Aide site is relocating here. Appointments are made online at raleightaxaide.com; the booking link wasn't live yet when checked. Email trinitybaptist.taxaide@gmail.com. For other sites, use AARP's locator at taxaide.aarpfoundation.org once 2027 sites are posted. Out-of-scope returns can't be prepared.",
+    "formerly": "AARP Foundation Tax-Aide (free tax prep – Durham, Raleigh & Apex sites)|Triangle-wide"
+  },
+  {
+    "name": "AARP Foundation Tax-Aide – Apex Senior Center",
+    "city": "Apex",
+    "categories": [
+      "Money & Bills"
+    ],
+    "org_type": "nonprofit",
+    "description": "Free tax preparation and e-filing of federal and NC returns by IRS-certified volunteers. Runs each year from about February to mid-April.",
+    "address": "63 Hunter St., Apex, NC 27502",
+    "url": "https://apexnc.org/515/Apex-Senior-Center",
+    "phone": "919-446-1348",
+    "hours": "Tax season only. In 2026: Feb 3–Apr 14, Tue 9:30–2:30 and Thu 9:30–5:30. The 2027 schedule isn't posted yet.",
+    "access": "Free. You don't have to be an AARP member. Focus is on people over 50 and people with low to moderate income. Appointments required.",
+    "cost": "free",
+    "source_url": "https://apexnc.org/DocumentCenter/View/53220",
+    "checked": "2026-11-14",
+    "notes": "Book in person during site hours, not online. AARP's national site listed service as closed for the 2026 season when checked; use its locator at taxaide.aarpfoundation.org for other sites once 2027 sites are posted. Out-of-scope returns can't be prepared.",
+    "formerly": "AARP Foundation Tax-Aide (free tax prep – Durham, Raleigh & Apex sites)|Triangle-wide"
   },
   {
     "name": "Orange County VITA – free tax prep (Department on Aging, Volunteer Connect 55+)",

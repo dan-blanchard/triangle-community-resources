@@ -438,7 +438,7 @@
  },
  {
   "name": "Therapeutic Alternatives Mobile Crisis (Wake)",
-  "city": "Triangle-wide",
+  "city": "Raleigh",
   "categories": [
    "Mental Health & Crisis"
   ],
@@ -452,7 +452,8 @@
   "cost": "free",
   "source_url": "https://www.wake.gov/living-visiting/having-crisis",
   "notes": "Wake County also lists the Alliance Health crisis line (877-223-4617) and 988 (call or text; text AYUDA for Spanish).",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "formerly": "Therapeutic Alternatives Mobile Crisis (Wake)|Triangle-wide"
  },
  {
   "name": "InterAct of Wake County",
@@ -611,7 +612,7 @@
  },
  {
   "name": "Wake County Public Libraries – free card services",
-  "city": "Triangle-wide",
+  "city": "Raleigh",
   "categories": [
    "Classes, Computers & Wi-Fi",
    "Gardens & Seeds",
@@ -627,7 +628,8 @@
   "cost": "free",
   "source_url": "https://www.wake.gov/news/wake-library-cards-unlock-opportunities-beyond-books",
   "notes": "The card page doesn't say how people without a permanent address can register, so ask at a branch. The system has a mobile library card option and new STEAM Labs.",
-  "checked": "2026-11-10"
+  "checked": "2026-11-10",
+  "formerly": "Wake County Public Libraries – free card services|Triangle-wide"
  },
  {
   "name": "Cary Really Really Free Market",

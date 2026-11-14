@@ -98,9 +98,11 @@
   "notes": "El Pueblo also posts recorded know-your-rights webinars on YouTube."
  },
  "U.S. Committee for Refugees and Immigrants, Raleigh|Triangle-wide": {
+  "city": "Raleigh",
+  "region_wide": true,
   "cost": "low_cost_membership",
   "notes": "Nominal fees apply; ask about the consultation fee when you contact the hotline.",
-  "_why": "Cost checked 2026-11-10: https://www.immigrationlawhelp.org/organization.397057-US_Committee_for_Refugees_and_Immigrants_Raleigh_Office"
+  "_why": "Cost checked 2026-11-10: https://www.immigrationlawhelp.org/organization.397057-US_Committee_for_Refugees_and_Immigrants_Raleigh_Office. Town set 2026-11-14: it has a walk-in Raleigh office but serves the whole region."
  },
  "Council on Immigrant Relations (CIR)|Raleigh": {
   "cost": "low_cost_membership",
@@ -1107,5 +1109,9 @@
   },
   "notes": "One directory lists this pantry as closed (user-reported, unconfirmed); call before going.",
   "_why": "Checked 2026-11-11: FeedAM latest snapshot shows closed; still on Wake County Food Finder."
+ },
+ "End Hunger Durham|Triangle-wide": {
+  "city": "Durham",
+  "_why": "Set 2026-11-14: a Durham County pantry directory with no walk-in location (checked endhungerdurham.org); county-wide listings go under the county's main town."
  }
 }
