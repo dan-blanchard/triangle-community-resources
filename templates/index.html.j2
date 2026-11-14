@@ -59,7 +59,7 @@ section.city{margin:2rem 0 2.5rem}
 .rw{margin:0;font-size:.82rem;font-weight:600;color:var(--accent)}
 .citynote{margin:-.5rem 0 1rem;color:var(--muted);font-size:.9rem}
 .jump{display:flex;flex-wrap:wrap;gap:.2rem .9rem;align-items:baseline;margin:1rem 0 0;font-size:.9rem}
-.totop,.needmore,#listview[hidden]~.totop{display:none}  /* in map view the page is short, and the link would cover the map's credits */
+.shortcut,.needmore,#listview[hidden]~.shortcut{display:none}  /* in map view the page is short, and the link would cover the map's credits */
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .count:focus,.controls:focus{outline:none}
 .jump b{color:var(--muted);font-weight:600}
@@ -101,6 +101,7 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 .clamped{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:6;line-clamp:6;overflow:hidden}
 .morebtn{align-self:flex-start;font-size:.85rem}
 dl.facts dd.morerow{grid-column:2}
+dl.facts dd.key{font-size:1rem;font-weight:600;line-height:1.32}  /* where to go, who to call; same line height as its label */
 .warn{font-size:.8rem;background:var(--warn-bg);color:var(--warn);border-radius:4px;padding:.15rem .45rem}
 .src{font-size:.75rem;color:var(--muted);padding-top:.2rem}
 .src a{color:var(--muted)}
@@ -130,6 +131,7 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 .pop .need{pointer-events:none}
 .pop dl.facts{font-size:.84rem}
 .pop dl.facts dd{overflow-wrap:break-word}
+.pop dl.facts dd.key{font-size:inherit;line-height:inherit}
 .pop .more{display:inline-block;margin-top:.4rem;font-weight:600}
 article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 .hidden{display:none!important}
@@ -147,7 +149,8 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .jump{flex-wrap:nowrap;scrollbar-width:none}
   .jump b{white-space:nowrap}
   .jump a{padding:.5rem 0}
-  dl.facts a.act{display:inline-block;padding:.15rem 0}
+  dl.facts{row-gap:.3rem}  /* room for the taller links below, so their tap areas don't overlap */
+  dl.facts a.act{display:inline-block;padding:.15rem 0;margin:-.15rem 0}  /* taller to tap, without shifting the text off its label's line */
   /* tappable tags and links on cards: at least 24px tall */
   article .b,article .need{padding:.22rem .55rem}
   .why,.src a.report{padding:.25rem 0}
@@ -155,7 +158,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .needbar.collapsed{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);justify-content:start;justify-items:start;padding-bottom:.4rem;scrollbar-width:thin}
   .needchip{display:inline-flex;align-items:center;gap:.3rem;min-height:40px;padding:.3rem .75rem;font-size:.9rem;line-height:1.2;white-space:nowrap}
   .needmore{display:block;margin:.5rem 0 0;padding:.5rem 0;font:inherit;font-size:.9rem;font-weight:600;text-decoration:underline}
-  .totop{display:inline-flex;position:fixed;right:.8rem;bottom:.8rem;z-index:30;padding:.65rem 1rem;border-radius:999px;background:var(--calm-ink);color:#fff;font-weight:600;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+  .shortcut{display:inline-flex;position:fixed;right:.8rem;bottom:.8rem;z-index:30;padding:.65rem 1rem;border-radius:999px;background:var(--calm-ink);color:#fff;font-weight:600;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
   .headrow{flex-direction:column}
   .controls .viewtoggle{grid-column:1/-1;margin-left:0}
   .viewtoggle button{flex:1;white-space:nowrap}
@@ -172,7 +175,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   #needsumrow{display:none}  /* the bar isn't sticky here, and the count line names the needs */
 }
 @media print{
-  .controls,.needbar,.needmore,.count,.jump,.totop,.viewtoggle,.morerow,.morebtn,.crisis a[href^=http]::after{display:none!important}
+  .controls,.needbar,.needmore,.count,.jump,.shortcut,.viewtoggle,.morerow,.morebtn,.crisis a[href^=http]::after{display:none!important}
   .clamped{display:block;-webkit-line-clamp:none;line-clamp:none;overflow:visible}
   body{background:#fff;font-size:11pt}
   header.top{background:#fff;color:#000;padding:0}
@@ -199,8 +202,8 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
           {% if e.description %}<p{{ cls(e.description, "desc") }}>{{ e.description|linkify }}</p>{% endif %}
           <dl class="facts">
             {% if e.hours %}<dt>When</dt><dd{{ cls(e.hours) }}>{{ e.hours|linkify }}</dd>{% endif %}
-            {% if e.address %}<dt>Where</dt><dd>{% set m = e|maps %}{% if m %}<a class="act" href="{{ m }}" rel="noopener">{{ e.address }}</a>{% else %}{{ e.address }}{% endif %}</dd>{% endif %}
-            {% if e.phone %}<dt>Call</dt><dd><a class="act" href="tel:{{ e.phone|tel }}">{{ e.phone }}</a></dd>{% endif %}
+            {% if e.address %}<dt>Where</dt><dd class="key">{% set m = e|maps %}{% if m %}<a class="act" href="{{ m }}" rel="noopener">{{ e.address }}</a>{% else %}{{ e.address }}{% endif %}</dd>{% endif %}
+            {% if e.phone %}<dt>Call</dt><dd class="key"><a class="act" href="tel:{{ e.phone|tel }}">{{ e.phone }}</a></dd>{% endif %}
             {% if e.url %}<dt>Web</dt><dd><a class="act" href="{{ e.url }}" rel="noopener">{{ e.url|domain }}</a></dd>{% endif %}
             {% if e.access %}<dt>Access</dt><dd{{ cls(e.access) }}>{{ e.access|linkify }}</dd>{% endif %}
             {% if e.notes %}<dt>Note</dt><dd{{ cls(e.notes, "note") }}>{{ e.notes|linkify }}</dd>{% endif %}
@@ -293,7 +296,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   </section>{% endif %}
   </div>
   <p class="empty" id="empty" hidden>Nothing matches. Try fewer words or clear the filters.</p>
-  <a class="totop" id="totop" href="#controls" hidden>↑ Filters</a>
+  <a class="shortcut" id="shortcut" href="#controls" hidden></a>
 </main>
 
 <footer><div class="wrap">
@@ -451,8 +454,26 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     apply();
     $('#count').focus();  // the button just hid itself; keep keyboard focus next to where it was
   });
-  // ---- mobile: the filters scroll away, so offer a way back ----
-  if (window.IntersectionObserver) new IntersectionObserver(entries => $('#totop').hidden = entries[0].isIntersecting).observe(controls);
+  const places = n => `${n} ${n === 1 ? 'place' : 'places'}`;
+
+  // ---- phones: one floating link for the trip the reader hasn't just made ----
+  // Filters on screen, filters chosen, matches still below the fold: "Show 81 places ↓".
+  // Filters scrolled away: "↑ Filters". Otherwise nothing.
+  const shortcut = $('#shortcut'), onScreen = {filters: true, list: true};
+  let matches = 0;  // places passing the filters when any filter is on, else 0; set by apply()
+  function syncShortcut() {
+    const toResults = onScreen.filters && !onScreen.list && matches > 0;
+    shortcut.hidden = onScreen.filters && !toResults;
+    shortcut.textContent = toResults ? `Show ${places(matches)} ↓` : '↑ Filters';
+    shortcut.href = toResults ? '#count' : '#controls';
+  }
+  if (window.IntersectionObserver) {
+    const watch = (el, key, rootMargin) => new IntersectionObserver(entries => {
+      onScreen[key] = entries[entries.length - 1].isIntersecting; syncShortcut();
+    }, {rootMargin}).observe(el);
+    watch(controls, 'filters', '0px');
+    watch($('#listview'), 'list', '0px 0px -30% 0px');  // "on screen" once it's well clear of the bottom edge
+  }
 
   // Screen readers hear the result count once typing pauses, not on every keystroke (and not on load).
   let announceTimer = 0, loaded = false;
@@ -461,7 +482,6 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     if (!loaded) { loaded = true; return; }
     announceTimer = setTimeout(() => $('#countlive').textContent = [$('#counttext').textContent, $('#countmap').textContent].filter(Boolean).join(', '), 600);
   }
-  const places = n => `${n} ${n === 1 ? 'place' : 'places'}`;
   // "73 places in Durham · Food, plus 8 that serve the whole Triangle": the first number is the one the towns menu shows
   // regionShown: places shown under a town filter only because they serve every town
   function countText(shown, regionShown, filtered) {
@@ -501,6 +521,8 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     $('#clearall').hidden = !filtered;
     $('#jump').hidden = $$('section.city:not(.hidden)').length < 2;
     syncView(shown);
+    matches = filtered ? shown : 0;
+    syncShortcut();
 
     // dropdown buttons + checkboxes
     dds.forEach(d => d.sync());
