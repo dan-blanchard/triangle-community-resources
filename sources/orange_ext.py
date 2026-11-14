@@ -20,7 +20,7 @@ _SECTION_DEFAULT = {
     "carrboro & chapel hill": "Chapel Hill",
     "cedar grove": "Hillsborough",
     "hillsborough": "Hillsborough",
-    "across county": "Triangle-wide",
+    "across county": "Chapel Hill",  # county-wide listings go under the county's main town (data/SCHEMA.md)
 }
 _DAYTIME = re.compile(
     r"\b(mon|tue|wed|thu|fri|sat|sun|daily|weekday|weekend|1st|2nd|3rd|4th|first|second|third|fourth|last|quarterly|monthly)"
@@ -62,7 +62,7 @@ def _parse_entry(p_html: str, section_city: str, section: str) -> dict | None:
     if not city:
         return None  # Efland/Mebane, Hurdle Mills: outside the towns this page covers
     desc = "; ".join(services)
-    if section_city == "Triangle-wide":
+    if "across county" in section.lower():
         desc = f"Serves all of Orange County. {desc}" if desc else "Serves all of Orange County."
     access = " ".join(notes)
     return {

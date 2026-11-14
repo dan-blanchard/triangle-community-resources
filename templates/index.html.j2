@@ -15,7 +15,8 @@
   --blue:#2b4f7a; --blue-bg:#e3ebf5; --gold-bg:#f8ecc9; --warn:#8a4b00; --warn-bg:#fdebd0;
 }
 *{box-sizing:border-box}
-html{scroll-padding-top:7.5rem}
+[hidden]{display:none!important}
+html{scroll-padding-top:calc(var(--bar-h,0px) + 12px)}  /* anchors land below the sticky bar */
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 a{color:var(--blue)}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
@@ -27,7 +28,7 @@ header.top .updated{font-size:.82rem;color:#5f7570;margin-top:.25rem}
 .crisis{background:var(--sand);color:#4a3f30;font-size:.9rem;border-top:1px solid #e8dcc6;border-bottom:1px solid #e8dcc6}
 .crisis .wrap{padding:.35rem 1rem;display:flex;flex-wrap:wrap;gap:.3rem 1.2rem}
 .crisis a{color:var(--calm-ink);font-weight:700}
-.controls{position:sticky;top:0;z-index:5;background:rgba(248,247,242,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(4px)}
+.controls{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
 .controls .wrap{display:flex;flex-wrap:wrap;gap:.45rem .7rem;align-items:center;padding:.5rem 1rem}
 .controls input[type=search]{flex:1 1 170px;padding:.5rem .7rem;font-size:1rem;line-height:1.2;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff}
 .controls label.tog{font-size:.9rem;display:flex;gap:.35rem;align-items:center;white-space:nowrap}
@@ -36,12 +37,12 @@ header.top .updated{font-size:.82rem;color:#5f7570;margin-top:.25rem}
 .ddbtn{padding:.5rem .7rem;font-size:.95rem;line-height:1.2;border:1.5px solid #cfc6b4;border-radius:8px;background:#fff;color:var(--ink);cursor:pointer;white-space:nowrap;max-width:16rem;overflow:hidden;text-overflow:ellipsis}
 .ddbtn.on{border-color:var(--accent);font-weight:600}
 .ddpanel{position:absolute;top:calc(100% + 4px);left:0;z-index:20;background:#fff;border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 24px rgba(0,0,0,.12);padding:.4rem;min-width:15rem;max-height:60vh;overflow:auto}
-.ddpanel[hidden]{display:none}
 .ddpanel label{display:flex;gap:.5rem;align-items:center;padding:.3rem .45rem;border-radius:6px;cursor:pointer;font-size:.95rem}
 .ddpanel label:hover{background:var(--calm)}
 .ddpanel small{margin-left:auto;color:var(--muted)}
 .ddfoot{display:flex;justify-content:space-between;border-top:1px solid var(--line);margin-top:.3rem;padding:.4rem .2rem 0}
-.ddfoot button{background:none;border:0;color:var(--blue);cursor:pointer;font-size:.9rem;padding:.2rem .4rem}
+.ddfoot button,.count button,.needmore{background:none;border:0;color:var(--blue);cursor:pointer}
+.ddfoot button{font-size:.9rem;padding:.2rem .4rem}
 .needbar{display:flex;flex-wrap:wrap;gap:.35rem .3rem;padding:.7rem 0 .1rem;align-items:center}
 .needchip{font-size:.85rem;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:999px;padding:.18rem .6rem;cursor:pointer}
 .needchip:hover{border-color:var(--accent)}
@@ -49,12 +50,23 @@ header.top .updated{font-size:.82rem;color:#5f7570;margin-top:.25rem}
 .needchip small{color:var(--muted)}
 .needchip[aria-pressed=true] small{color:#cfe0da}
 .needsum{display:inline-flex;align-items:center;background:var(--calm-ink);color:#fff;border-radius:999px;font-size:.9rem;overflow:hidden;max-width:22rem}
-.needsum[hidden]{display:none}
+#needsumrow{flex-basis:100%;display:flex}
 .needsum span{padding:.4rem .2rem .4rem .8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .needsum button{background:none;border:0;color:#fff;font-size:.95rem;padding:.4rem .7rem;cursor:pointer}
 .hint{color:var(--muted);font-size:.85rem;margin:.45rem 0 0}
 section.city{margin:2rem 0 2.5rem}
-.rw{margin:.1rem 0 .35rem;font-size:.82rem;font-weight:600;color:var(--accent)}
+.rw{margin:0;font-size:.82rem;font-weight:600;color:var(--accent)}
+.citynote{margin:-.5rem 0 1rem;color:var(--muted);font-size:.9rem}
+.jump{display:flex;flex-wrap:wrap;gap:.2rem .9rem;align-items:baseline;margin:1rem 0 0;font-size:.9rem}
+.totop,.needmore,#listview[hidden]~.totop{display:none}  /* in map view the page is short, and the link would cover the map's credits */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.count:focus,.controls:focus{outline:none}
+.jump b{color:var(--muted);font-weight:600}
+.jump a{white-space:nowrap;padding:.15rem 0}
+.jump small{color:var(--muted)}
+.count{display:flex;flex-wrap:wrap;gap:.2rem .8rem;align-items:baseline;margin:.9rem 0 0;font-weight:600}
+.count span{font-weight:400;color:var(--muted)}
+.count button{padding:.2rem 0;font:inherit;font-weight:400;text-decoration:underline}
 section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:2px solid #b9cfc7;color:var(--calm-ink)}
 section.cat h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;margin:1.4rem 0 .6rem;color:var(--accent)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem}
@@ -88,7 +100,7 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 .src a{color:var(--muted)}
 .src a.report{display:inline-block;margin-bottom:.15rem}
 .src .stale{color:var(--warn);font-weight:600}
-.empty{display:none;padding:2rem;text-align:center;color:var(--muted)}
+.empty{padding:2rem;text-align:center;color:var(--muted)}
 footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.5rem 0 3rem;font-size:.9rem;color:var(--muted)}
 footer h2{font-size:1rem;color:var(--ink)}
 dl.facts dd.note{color:var(--muted);font-size:.84rem}
@@ -97,20 +109,20 @@ dl.facts dd.note{color:var(--muted);font-size:.84rem}
 .need{cursor:pointer}
 .need:hover,.need.on{border-color:var(--accent);background:var(--calm)}
 .needhelp{font-size:.9rem;color:var(--muted);padding:0 1rem .55rem}
-.needhelp[hidden]{display:none}
 .viewtoggle{display:inline-flex;flex:none;border:1.5px solid #9dbbb2;background:#fff;border-radius:8px;overflow:hidden;margin-left:auto}
 .viewtoggle button{background:transparent;border:0;padding:.5rem .8rem;font-size:.95rem;line-height:1.2;cursor:pointer;color:var(--calm-ink)}
 .viewtoggle button[aria-pressed=true]{background:var(--calm-ink);color:#fff;font-weight:600}
 #mapwrap{margin:1rem 0 2rem}
-#map{height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
+#map{z-index:0;height:calc(100vh - 13rem);min-height:420px;border:1px solid var(--line);border-radius:10px}
 #mapnote{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
 .leaflet-popup-content{font:14px/1.4 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;margin:.7rem .9rem}
 .pop h4{margin:0;font-size:1rem}
-.pop .rhead{margin-bottom:.3rem}
+.pop .rhead,.pop .rw{margin-bottom:.3rem}
 .pop h4 a{color:var(--ink)}
 .pop .needs{margin:.2rem 0 .35rem}
 .pop .need{pointer-events:none}
 .pop dl.facts{font-size:.84rem}
+.pop dl.facts dd{overflow-wrap:break-word}
 .pop .more{display:inline-block;margin-top:.4rem;font-weight:600}
 article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 .hidden{display:none!important}
@@ -119,22 +131,24 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   .controls{position:static}
   .controls .wrap{display:grid;grid-template-columns:1fr 1fr;gap:.45rem}
   .controls .wrap>*{min-width:0;width:100%}
-  .controls input[type=search],#towndd,.needsum{grid-column:1/-1}
-  /* three rows that scroll sideways together, instead of one very long row */
-  .needbar{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);justify-content:start;justify-items:start;overflow-x:auto;padding-bottom:.4rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch}
-  .needchip{white-space:nowrap}
+  .controls input[type=search],#towndd,#needsumrow{grid-column:1/-1}
+  /* three rows of thumb-sized chips that scroll sideways together (the fade hints at more), or all of them via "Show all needs" */
+  .needbar.collapsed{display:grid;grid-auto-flow:column;grid-template-rows:repeat(3,auto);justify-content:start;justify-items:start;overflow-x:auto;padding-bottom:.4rem;padding-right:2.5rem;scrollbar-width:thin;-webkit-overflow-scrolling:touch;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 3rem),transparent)}
+  .needchip{display:inline-flex;align-items:center;gap:.3rem;min-height:40px;padding:.3rem .75rem;font-size:.9rem;line-height:1.2;white-space:nowrap}
+  .needmore{display:block;margin:.5rem 0 0;padding:.5rem 0;font:inherit;font-size:.9rem;font-weight:600;text-decoration:underline}
+  .totop{display:inline-flex;position:fixed;right:.8rem;bottom:.8rem;z-index:30;padding:.65rem 1rem;border-radius:999px;background:var(--calm-ink);color:#fff;font-weight:600;text-decoration:none;box-shadow:0 4px 14px rgba(0,0,0,.25)}
   .headrow{flex-direction:column}
   .viewtoggle{grid-column:1/-1;margin-left:0}
   .viewtoggle button{flex:1;white-space:nowrap}
   .ddbtn{max-width:none;width:100%;text-align:left}
   #costdd .ddpanel{left:auto;right:0}
-  .needsum{max-width:none;justify-content:space-between}
+  .needsum{max-width:none;width:100%;justify-content:space-between}
   .controls label.tog{font-size:.9rem;white-space:normal;width:auto}
   #map{height:70vh}
   section.city>h2{font-size:1.6rem}
 }
 @media print{
-  .controls,.needbar,.viewtoggle,.crisis a[href^=http]::after{display:none}
+  .controls,.needbar,.needmore,.count,.jump,.totop,.viewtoggle,.crisis a[href^=http]::after{display:none!important}
   body{background:#fff;font-size:11pt}
   header.top{background:#fff;color:#000;padding:0}
   header.top p,header.top .updated{color:#333}
@@ -145,9 +159,9 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 </style>
 </head>
 {% macro card(e) %}
-        <article class="r" id="r{{ e.rid }}" data-rid="{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lgbtq %} data-lgbtq="1"{% endif %}{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
+        <article class="r" id="r{{ e.rid }}" data-type="{{ e.org_type }}" data-cost="{{ e.cost }}"{% if e.lgbtq %} data-lgbtq="1"{% endif %}{% if e.serves_region %} data-region="1"{% endif %}{% if e.lat is number and e.lon is number %} data-lat="{{ e.lat }}" data-lon="{{ e.lon }}"{% endif %} data-cats="{{ e.categories|join('|') }}" data-text="{{ (e.name ~ ' ' ~ e.description ~ ' ' ~ e.access ~ ' ' ~ e.hours ~ ' ' ~ e.categories|join(' ') ~ ' ' ~ e.notes ~ ' ' ~ e.address ~ ' ' ~ e.city ~ ' ' ~ e.url|domain ~ ' ' ~ org_label[e.org_type] ~ ' ' ~ cost_label[e.cost] ~ ' ' ~ e.phone ~ (' lgbtq lgbtqia+ queer trans gay lesbian affirming pride' if e.lgbtq else ''))|lower }}">
           <div class="rhead">{% if e.logo %}<img class="logo" src="{{ e.logo }}" alt="" width="40" height="40" loading="lazy">{% endif %}<h4>{% if e.url %}<a href="{{ e.url }}" rel="noopener">{{ e.name }}</a>{% else %}{{ e.name }}{% endif %}</h4></div>
-          {% if e.city == "Triangle-wide" %}<p class="rw">Serves the whole region</p>{% endif %}
+          {% if e.region_wide %}<p class="rw">Also serves the whole Triangle</p>{% endif %}
           <div class="badges">
             {% if e.is_new %}<button type="button" class="b b-new" data-f="new" title="Show only new listings">New</button>{% endif %}
             <button type="button" class="b b-{{ e.org_type }}" data-f="type" data-v="{{ e.org_type }}" title="Show only: {{ org_label[e.org_type] }}">{{ org_label[e.org_type] }}</button>
@@ -182,7 +196,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   <span>Domestic violence: <a href="tel:+18007997233">(800) 799-7233</a></span>
 </div></div>
 
-<div class="controls" id="controls" hidden><div class="wrap">
+<div class="controls" id="controls" tabindex="-1" hidden><div class="wrap">
   <input type="search" id="q" placeholder="Search names, notes, addresses: e.g. showers, no ID, 27701…" aria-label="Search resources">
   <div class="dd" id="towndd">
     <button type="button" class="ddbtn" aria-haspopup="true" aria-expanded="false" aria-controls="townpanel" data-all="All towns" data-many="towns">All towns ▾</button>
@@ -208,22 +222,29 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   <label class="tog"><input type="checkbox" id="nf"> Hide faith-based</label>
   {% if any_new %}<label class="tog"><input type="checkbox" id="nw"> New this week</label>{% endif %}
   <label class="tog"><input type="checkbox" id="lg"> <svg class="pride" viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="3.34" y="0" fill="#E40303"/><rect width="30" height="3.34" y="3.33" fill="#FF8C00"/><rect width="30" height="3.34" y="6.66" fill="#FFED00"/><rect width="30" height="3.34" y="10" fill="#008026"/><rect width="30" height="3.34" y="13.33" fill="#004DFF"/><rect width="30" height="3.34" y="16.66" fill="#750787"/><polygon points="0,0 6,0 16,10 6,20 0,20" fill="#000"/><polygon points="0,0 4,0 14,10 4,20 0,20" fill="#613915"/><polygon points="0,0 2,0 12,10 2,20 0,20" fill="#5BCEFA"/><polygon points="0,0 10,10 0,20" fill="#F5A9B8"/><polygon points="0,2 8,10 0,18" fill="#FFF"/><polygon points="0,4 6,10 0,16" fill="#FFD800"/><circle cx="2" cy="10" r="1.6" fill="none" stroke="#7902AA" stroke-width=".55"/></svg> LGBTQIA+ affirming</label>
-  <span class="needsum" id="needsum" hidden><span id="needsumtext"></span><button type="button" id="needclear" aria-label="Clear needs">✕</button></span>
   <span class="viewtoggle" id="viewtoggle" role="group" aria-label="View" hidden><button type="button" id="vlist" aria-pressed="true">☰ List</button><button type="button" id="vmap" aria-pressed="false">🗺️ Map</button></span>
+  <div id="needsumrow" hidden><span class="needsum"><span id="needsumtext"></span><button type="button" id="needclear" aria-label="Clear needs">✕</button></span></div>
 </div></div>
 
 <main class="wrap" id="top">
   <nav class="needbar" id="needbar" aria-label="Filter by need">
     {% for c in categories_az if cat_counts[c] %}<button type="button" class="needchip" data-need="{{ c }}" aria-pressed="false" title="{{ cat_help[c] }}">{{ emoji[c] }} {{ c }} <small>{{ cat_counts[c] }}</small></button>{% endfor %}
   </nav>
+  <button type="button" class="needmore" id="needmore" aria-expanded="false" aria-controls="needbar" hidden></button>
   <p class="needhelp" id="needhelp" hidden></p>
   <p class="hint">Hours change, so call ahead when you can. Tap any tag to see places like it.</p>
+  <p class="count" id="count" tabindex="-1" hidden><strong id="counttext"></strong><span id="countmap"></span><button type="button" id="clearall" hidden>Clear all filters</button></p>
+  <span class="sr" id="countlive" role="status"></span>
 
   <div id="mapwrap" hidden>
     <div id="map" role="region" aria-label="Map of resources"></div>
-    <p id="mapnote">{{ unmapped }} resources aren't on the map because they serve the whole region, keep their location confidential, or list no street address. Switch to List to see everything.</p>
+    <p id="mapnote">Some places aren't on the map because they have no single location, keep their location confidential, or list no street address. Switch to List to see everything.</p>
   </div>
   <div id="listview">
+  <nav class="jump" id="jump" aria-label="Jump to a town"><b>Jump to</b>
+    {% for city in by_city %}<a href="#{{ city|slug }}">{{ city }} <small>{{ city_counts[city] }}</small></a>
+    {% endfor %}{% if region %}<a href="#whole-triangle">Serves the whole Triangle <small>{{ region|length }}</small></a>{% endif %}
+  </nav>
   {% for city, cats in by_city.items() %}
   <section class="city" id="{{ city|slug }}" data-city="{{ city }}">
     <h2>{{ city }}</h2>
@@ -231,24 +252,26 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     <section class="cat">
       <div class="grid">
       {% for e in items %}
-        {% if e.city == "Triangle-wide" %}<i class="rwslot" data-rid="{{ e.rid }}" hidden></i>{% else %}{{ card(e) }}{% endif %}
+        {{ card(e) }}
       {% endfor %}
       </div>
     </section>
     {% endfor %}
   </section>
   {% endfor %}
-  {% if region %}<section class="city" id="rwpool" data-city="Triangle-wide">
-    <h2>Region-wide &amp; mobile</h2>
+  {% if region %}<section class="city" id="whole-triangle" data-city="Triangle-wide">
+    <h2>Serves the whole Triangle</h2>
+    <p class="citynote">Hotlines, online and mobile services, and programs with no single location, for people in every town.</p>
     <div class="grid">{% for e in region %}{{ card(e) }}{% endfor %}</div>
   </section>{% endif %}
   </div>
-  <p class="empty" id="empty">Nothing matches. Try fewer words or clear the filters.</p>
+  <p class="empty" id="empty" hidden>Nothing matches. Try fewer words or clear the filters.</p>
+  <a class="totop" id="totop" href="#controls" hidden>↑ Filters</a>
 </main>
 
 <footer><div class="wrap">
   <h2>About this page</h2>
-  <p>How to use it: pick one or more needs to see places that meet any of them. Each town is listed A–Z, including services that cover the whole region. Green tags mark community-run groups. If something looks off, check the source link or use "Report a change".</p>
+  <p>How to use it: pick one or more needs to see places that meet any of them. Each town is listed A–Z. Services that cover every town stay in view whichever towns you pick: those with a place you can visit are under its town, tagged "Also serves the whole Triangle", and the rest are under "Serves the whole Triangle". Green tags mark community-run groups. If something looks off, check the source link or use "Report a change".</p>
   <p>Rebuilt every morning. Each day it re-pulls these live sources, merges them with a researched list of mutual aid, sharing and making spaces (found by web search and re-checked monthly), and tests every website link:</p>
   <ul>
     {% for s in meta.sources %}<li>{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}: {{ s.count }} entries{% if s.stale_parts %} <em>(source unreachable today; showing the last copy we got)</em>{% endif %}</li>{% endfor %}
@@ -267,32 +290,31 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
 (() => {
   const $ = (s) => document.querySelector(s);
   const $$ = (s) => [...document.querySelectorAll(s)];
-  $('#controls').hidden = false; $('#viewtoggle').hidden = false;
+  const controls = $('#controls');
+  controls.hidden = false; $('#viewtoggle').hidden = false;
+  // the sticky bar's height varies (it wraps, and the needs summary adds a row): tell the CSS
+  if (window.ResizeObserver) new ResizeObserver(() => document.documentElement.style.setProperty('--bar-h', controls.offsetHeight + 'px')).observe(controls);
   const q = $('#q'), nf = $('#nf'), lg = $('#lg');
   const nw = $('#nw') || {checked: false, addEventListener() {}};
   const COMMUNITY = new Set(['mutual_aid', 'cooperative', 'community_org']);
   const NEED_HELP = {{ cat_help|tojson }};
   const EMOJI = {{ emoji|tojson }};
   const towns = new Set(), needs = new Set(), types = new Set(), costs = new Set();
-
-  // ---- region-wide listings serve every town: copy each into its A-Z spot in every town ----
-  const pool = $('#rwpool');
-  if (pool) {
-    const byRid = {};
-    pool.querySelectorAll('article.r').forEach(a => byRid[a.dataset.rid] = a);
-    $$('i.rwslot').forEach(s => { const c = byRid[s.dataset.rid].cloneNode(true); c.removeAttribute('id'); s.replaceWith(c); });
-    pool.remove();
-  }
+  // every filter, in one place: what "filtered" means and what "Clear all" resets
+  const sets = [towns, needs, types, costs], toggles = [nf, lg, nw];
+  const isFiltered = () => !!q.value.trim() || sets.some(s => s.size) || toggles.some(t => t.checked);
+  // "Durham, Cary" or "3 towns"
+  const summarize = (list, many, sep) => list.length <= 2 ? list.join(sep) : `${list.length} ${many}`;
 
   // ---- state from the URL (?town=Durham&town=Raleigh&need=Food&need=Pet+Care…) ----
   const params = new URLSearchParams(location.search);
-  [...params.getAll('town'), ...params.getAll('city')].forEach(t => { if (t !== 'Triangle-wide') towns.add(t); });
-  params.getAll('need').forEach(n => needs.add(n));
-  q.value = params.get('q') || '';
-  const pick = (sel, v) => [...sel.options].some(o => o.value === v) ? v : '';
-  // (older links used type=community and cost=notfree)
+  // Only values the menus offer are kept (older links used city=, type=community and cost=notfree).
   const OPTS = id => new Set($$(`#${id}panel input`).map(b => b.value));
-  const typeOpts = OPTS('type'), costOpts = OPTS('cost');
+  const townOpts = OPTS('town'), typeOpts = OPTS('type'), costOpts = OPTS('cost');
+  [...params.getAll('town'), ...params.getAll('city')].forEach(t => townOpts.has(t) && towns.add(t));
+  const needOpts = new Set($$('.needchip').map(c => c.dataset.need));
+  params.getAll('need').forEach(n => needOpts.has(n) && needs.add(n));
+  q.value = params.get('q') || '';
   params.getAll('type').concat(params.has('community') ? ['community'] : []).forEach(t =>
     (t === 'community' ? [...COMMUNITY] : [t]).forEach(v => typeOpts.has(v) && types.add(v)));
   params.getAll('cost').forEach(c =>
@@ -330,7 +352,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     dds.push({root, open, sync() {
       boxes.forEach(b => b.checked = set.has(b.value));
       const l = [...set].map(v => names[v] || v);
-      btn.textContent = (!l.length ? btn.dataset.all : l.length <= 2 ? l.join(', ') : `${l.length} ${btn.dataset.many}`) + ' ▾';
+      btn.textContent = (l.length ? summarize(l, btn.dataset.many, ', ') : btn.dataset.all) + ' ▾';
       btn.classList.toggle('on', set.size > 0);
     }});
   }
@@ -344,30 +366,80 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   $$('article .need').forEach(n => n.addEventListener('click', ev => { ev.preventDefault(); toggleNeed(n.dataset.need); }));
   $('#needclear').addEventListener('click', () => { needs.clear(); apply(); });
 
+  // ---- mobile: needs beyond three rows sit behind a button ----
+  // (without this script the chips stay fully listed and the button and count stay hidden)
+  const needbar = $('#needbar'), needmore = $('#needmore');
+  const toggleNeeds = () => {
+    const collapsed = needbar.classList.toggle('collapsed');
+    needmore.setAttribute('aria-expanded', !collapsed);
+    needmore.textContent = collapsed ? `Show all ${$$('.needchip').length} needs ▾` : 'Show fewer needs ▴';
+  };
+  needmore.addEventListener('click', toggleNeeds);
+  toggleNeeds(); needmore.hidden = false;
+  $('#count').hidden = false;
+
+  $('#clearall').addEventListener('click', () => {
+    q.value = ''; sets.forEach(s => s.clear()); toggles.forEach(t => t.checked = false);
+    apply();
+    $('#count').focus();  // the button just hid itself; keep keyboard focus next to where it was
+  });
+  // ---- mobile: the filters scroll away, so offer a way back ----
+  if (window.IntersectionObserver) new IntersectionObserver(entries => $('#totop').hidden = entries[0].isIntersecting).observe(controls);
+
+  // Screen readers hear the result count once typing pauses, not on every keystroke (and not on load).
+  let announceTimer = 0, loaded = false;
+  function announce() {
+    clearTimeout(announceTimer);
+    if (!loaded) { loaded = true; return; }
+    announceTimer = setTimeout(() => $('#countlive').textContent = [$('#counttext').textContent, $('#countmap').textContent].filter(Boolean).join(', '), 600);
+  }
+  const places = n => `${n} ${n === 1 ? 'place' : 'places'}`;
+  // "73 places in Durham · Food, plus 8 that serve the whole Triangle": the first number is the one the towns menu shows
+  // regionShown: places shown under a town filter only because they serve every town
+  function countText(shown, regionShown, filtered) {
+    if (!shown) return 'No places match';
+    if (!filtered) return `Showing all ${places(shown)}`;
+    const what = needs.size ? ' · ' + [...needs].join(', ') : '';
+    if (!towns.size) return places(shown) + (what || (shown === 1 ? ' matches' : ' match'));
+    const local = shown - regionShown, serves = regionShown === 1 ? 'serves' : 'serve';
+    const head = (local ? places(local) : 'No places') + ' in ' + summarize([...towns], 'towns', ' and ') + what;
+    if (!regionShown) return head;
+    return `${head}, ${local ? 'plus' : 'but'} ${regionShown} ${local ? 'that ' : ''}${serves} the whole Triangle`;
+  }
+  const jumpLinks = Object.fromEntries($$('#jump a').map(a => [a.hash.slice(1), a]));
+
   function apply() {
     buildSearch();
-    let shown = 0;
+    let shown = 0, regionShown = 0;
     $$('section.city').forEach(sc => {
       const cityOk = !towns.size || towns.has(sc.dataset.city);
       let cityShown = 0;
       sc.querySelectorAll('article.r').forEach(a => {
         const t = a.dataset.type;
-        const ok = cityOk && (!needs.size || a.dataset.cats.split('|').some(c => needs.has(c)))
+        // region-wide listings (data-region) serve every town, so a town filter never hides them
+        const ok = (cityOk || a.dataset.region) && (!needs.size || a.dataset.cats.split('|').some(c => needs.has(c)))
           && typeOk(t) && (!nf.checked || t !== 'faith_based') && costOk(a.dataset.cost)
           && (!lg.checked || a.dataset.lgbtq) && (!nw.checked || a.querySelector('.b-new'))
           && textOk(a.dataset.text);
         a.classList.toggle('hidden', !ok); if (ok) cityShown++;
+        if (ok && !cityOk) regionShown++;
       });
       sc.classList.toggle('hidden', !cityShown); shown += cityShown;
+      const link = jumpLinks[sc.id];
+      if (link) { link.hidden = !cityShown; link.querySelector('small').textContent = cityShown; }
     });
-    $('#empty').style.display = shown ? 'none' : 'block';
+    const filtered = isFiltered();
+    $('#counttext').textContent = countText(shown, regionShown, filtered);
+    $('#clearall').hidden = !filtered;
+    $('#jump').hidden = $$('section.city:not(.hidden)').length < 2;
+    syncView(shown);
 
     // dropdown buttons + checkboxes
     dds.forEach(d => d.sync());
     // needs badges, card badges, sticky summary, descriptions
     $$('.needchip').forEach(c => c.setAttribute('aria-pressed', needs.has(c.dataset.need)));
     $$('article .need').forEach(n => n.classList.toggle('on', needs.has(n.dataset.need)));
-    $('#needsum').hidden = !needs.size;
+    $('#needsumrow').hidden = !needs.size;
     $('#needsumtext').textContent = 'Needs: ' + [...needs].map(n => (EMOJI[n] || '') + ' ' + n).join(', ');
     const help = $('#needhelp');
     help.hidden = !needs.size;
@@ -377,7 +449,7 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
     $$('article button.b').forEach(b => b.classList.toggle('on',
       (b.dataset.f === 'type' && types.has(b.dataset.v)) || (b.dataset.f === 'cost' && costs.has(b.dataset.v)) ||
       (b.dataset.f === 'lgbtq' && lg.checked) || (b.dataset.f === 'new' && nw.checked)));
-    if (view === 'map') drawMarkers();
+    announce();
     const p = new URLSearchParams();
     if (q.value) p.set('q', q.value);
     towns.forEach(t => p.append('town', t));
@@ -396,12 +468,12 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   function popupFor(a) {
     const div = document.createElement('div');
     div.className = 'pop';
-    div.append(a.querySelector('.rhead').cloneNode(true), a.querySelector('.needs').cloneNode(true));
+    div.append(...['.rhead', '.rw', '.needs'].map(sel => a.querySelector(sel)).filter(Boolean).map(n => n.cloneNode(true)));
     const facts = a.querySelector('dl.facts').cloneNode(true);
     facts.querySelectorAll('dt').forEach(dt => { if (!['When', 'Where', 'Call'].includes(dt.textContent)) { dt.nextElementSibling.remove(); dt.remove(); } });
     div.append(facts);
     const more = document.createElement('a');
-    more.href = a.id ? '#' + a.id : '#'; more.className = 'more'; more.textContent = 'Full details →';
+    more.href = '#' + a.id; more.className = 'more'; more.textContent = 'Full details →';
     more.addEventListener('click', ev => { ev.preventDefault(); setView('list'); a.scrollIntoView({behavior: 'smooth', block: 'center'}); a.classList.add('flash'); setTimeout(() => a.classList.remove('flash'), 2000); });
     div.append(more);
     return div;
@@ -409,24 +481,32 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
   function drawMarkers() {
     if (!map) return;
     cluster.clearLayers();
-    const pts = [], seen = new Set();
+    const pts = [];
     $$('section.city:not(.hidden) article.r:not(.hidden)[data-lat]').forEach(a => {
-      if (seen.has(a.dataset.rid)) return;  // region-wide listings appear under every town
-      seen.add(a.dataset.rid);
       const ll = [+a.dataset.lat, +a.dataset.lon];
       pts.push(ll);
       const m = L.circleMarker(ll, {radius: 7, weight: 2, color: '#fff', fillColor: COLORS[a.dataset.type] || '#2b4f7a', fillOpacity: .95});
-      m.bindPopup(() => popupFor(a), {maxWidth: 300});
+      // minWidth: Leaflet sizes a popup from its unwrapped content, which here is only the name
+      m.bindPopup(() => popupFor(a), {minWidth: 240, maxWidth: 300, autoPanPadding: [12, 12]});
       cluster.addLayer(m);
     });
     if (pts.length) map.fitBounds(pts, {padding: [30, 30], maxZoom: 15});
+    $('#countmap').textContent = `${pts.length} on the map`;
+  }
+  // What's on screen follows from the view and whether anything matched: the list, the map, or
+  // (with nothing to plot or list) the "nothing matches" message.
+  function syncView(shown) {
+    const showMap = view === 'map' && shown > 0;
+    $('#listview').hidden = view === 'map';
+    $('#empty').hidden = shown > 0;
+    $('#mapwrap').hidden = !showMap;
+    if (!showMap) $('#countmap').textContent = '';
+    else if (map) { map.invalidateSize(); drawMarkers(); }  // it had no size while hidden
   }
   function setView(v) {
     view = v;
     $('#vlist').setAttribute('aria-pressed', v === 'list');
     $('#vmap').setAttribute('aria-pressed', v === 'map');
-    $('#listview').hidden = v === 'map';
-    $('#mapwrap').hidden = v !== 'map';
     if (v === 'map' && !map && window.L) {
       map = L.map('map', {scrollWheelZoom: true});
       L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19,
@@ -436,12 +516,10 @@ article.r.flash{outline:3px solid var(--accent);outline-offset:2px}
       map.setView([35.87, -78.85], 10);
     }
     apply();
-    // The map was hidden (zero size) until now: measure it, then fit the markers.
-    if (map) setTimeout(() => { map.invalidateSize(); drawMarkers(); }, 0);
   }
   $('#vlist').addEventListener('click', () => setView('list'));
   $('#vmap').addEventListener('click', () => setView('map'));
-  [q, nf, lg, nw].forEach(el => el.addEventListener('input', apply));
+  [q, ...toggles].forEach(el => el.addEventListener('input', apply));
   // Any badge on a card filters to listings like it (click again to clear).
   $$('article button.b').forEach(b => b.addEventListener('click', () => {
     const f = b.dataset.f, v = b.dataset.v;

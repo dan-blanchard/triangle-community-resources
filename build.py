@@ -70,6 +70,11 @@ def norm_name(name: str) -> str:
     return re.sub(r"\s+", " ", n).strip()
 
 
+def seen_key(name: str, city: str) -> str:
+    """Key into state.json's first_seen history."""
+    return f"{norm_name(name)}|{city}"
+
+
 def infer_org_type(e: dict) -> str:
     t = f"{e['name']} {e.get('description', '')[:80]}".lower()
     if re.search(_FAITH, t):
@@ -127,6 +132,10 @@ def _merge(a: dict, b: dict) -> None:
             a[k] = b[k]
     if a.get("cost") == "unknown" and b.get("cost") not in (None, "unknown"):
         a["cost"] = b["cost"]
+    if b.get("region_wide") is True:
+        a["region_wide"] = True
+    if b.get("formerly"):
+        a.setdefault("formerly", b["formerly"])
     if a.get("lat") is None and b.get("lat") is not None:
         a["lat"], a["lon"] = b["lat"], b["lon"]
     if b.get("checked") and b["checked"] > a.get("checked", ""):
@@ -470,8 +479,8 @@ def render(entries: list[dict], meta: dict) -> None:
     for e in entries:
         e["categories"] = sorted(e["categories"])  # A-Z, same as the need filter
     az = lambda e: e["name"].lower().removeprefix("the ")
-    # Region-wide listings serve every town, so each town's A-Z list includes them (as slots the
-    # page's script fills from one copy, which keeps the page small).
+    # Listings with no single location get one section of their own rather than a copy under
+    # each town. (Town filters never hide those, or town listings flagged region_wide.)
     region = sorted((e for e in entries if e["city"] == "Triangle-wide"), key=az)
     by_city: dict[str, dict[str, list[dict]]] = {}
     city_counts: dict[str, int] = {}
@@ -480,7 +489,7 @@ def render(entries: list[dict], meta: dict) -> None:
         if not local or c == "Triangle-wide":
             continue
         city_counts[c] = len(local)
-        by_city[c] = {"": sorted(local + region, key=az)}  # one A-Z list per town
+        by_city[c] = {"": sorted(local, key=az)}  # one A-Z list per town
     html = env.get_template("index.html.j2").render(
         repo=REPO, by_city=by_city, categories=common.CATEGORIES, meta=meta,
         org_label=ORG_TYPE_LABEL, cost_label=COST_LABEL,
@@ -489,7 +498,6 @@ def render(entries: list[dict], meta: dict) -> None:
         cost_counts={k: sum(e["cost"] == k for e in entries) for k in COST_LABEL},
         cat_help=common.CATEGORY_HELP,
         any_new=any(e.get("is_new") for e in entries),
-        unmapped=sum(1 for e in entries if e.get("lat") is None),
         categories_az=sorted(common.CATEGORIES), emoji=common.CATEGORY_EMOJI,
         cat_counts={c: sum(c in e["categories"] for e in entries) for c in common.CATEGORIES},
     )
@@ -513,7 +521,7 @@ def render(entries: list[dict], meta: dict) -> None:
         needs=flyer_needs, total=len(entries)), encoding="utf-8")
 
     public_fields = ["name", "city", "categories", "org_type", "cost", "description", "address", "phone",
-                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen", "lat", "lon", "lgbtq"]
+                     "url", "hours", "access", "notes", "sources", "source_urls", "checked", "first_seen", "lat", "lon", "lgbtq", "serves_region"]
     for e in entries:
         e["source_urls"] = [x["url"] for x in e["source_links"] if x["url"]]
     rows = [{k: e.get(k, "") for k in public_fields} for e in entries]
@@ -567,7 +575,7 @@ def main() -> int:
             outdated.append(f"{key} ({', '.join(changed)})")
             continue
         if "name" in o or "city" in o:
-            e["_was"] = f"{norm_name(e['name'])}|{e['city']}"  # a rename isn't a new listing
+            e["_was"] = seen_key(e["name"], e["city"])  # a rename isn't a new listing
         for k, v in o.items():
             if not k.startswith("_"):
                 e[k] = v
@@ -577,10 +585,23 @@ def main() -> int:
     if unused:
         print(f"  {len(unused)} overrides match no listing (renamed or gone?): " + "; ".join(unused[:10]))
 
+    # Serves every town: listings with no single location ("Triangle-wide"), plus town listings
+    # flagged region_wide (a place you can visit that also helps people region-wide).
+    # (Checked here, not in normalize(), because an override can set the flag or the town.)
+    for e in entries:
+        if e["city"] not in common.CITIES:  # an override's typo would otherwise drop it from the page
+            print(f"  unknown town {e['city']!r}, listing as Triangle-wide: {e['name']}")
+            e["city"] = "Triangle-wide"
+        if e.get("region_wide") not in (None, True, False):
+            print(f"  region_wide must be true or false, ignoring {e['region_wide']!r}: {e['name']} ({e['city']})")
+        no_single_place = e["city"] == "Triangle-wide"
+        e["region_wide"] = e.get("region_wide") is True and not no_single_place  # the flag is for town listings
+        e["serves_region"] = e["region_wide"] or no_single_place
+
     # Coordinates: from the source feed when it has them, else the Census geocoder (cached).
     for e in entries:
         if geocode.query_for(e) is None:
-            e["lat"] = e["lon"] = None  # undisclosed / PO box / region-wide: never mapped
+            e["lat"] = e["lon"] = None  # undisclosed / PO box / no single location: never mapped
         elif e.get("lat") is not None and (common.km_from_town(e["city"], e["lat"], e["lon"]) or 0) > 30:
             e["lat"] = e["lon"] = None  # feed pin far from its town: re-geocode the street address
     geo = geocode.geocode(entries, today)
@@ -597,6 +618,9 @@ def main() -> int:
     for e in entries:
         f = flag_by_key.get((norm_name(e["name"]), e["city"]))
         e["lgbtq"] = {k: f[k] for k in ("basis", "evidence", "evidence_url", "checked")} if f else None
+    unmatched = sorted(set(flag_by_key) - {(norm_name(e["name"]), e["city"]) for e in entries})
+    if unmatched:  # a listing renamed or moved to another town silently loses its badge
+        print(f"  {len(unmatched)} LGBTQIA+ flags match no listing: " + "; ".join(f"{n} ({c})" for n, c in unmatched))
 
     stale = []
     for e in entries:
@@ -609,7 +633,10 @@ def main() -> int:
     # Launch day = the earliest first-seen date. Nothing from launch day counts as "new".
     launch = state.setdefault("initialized_on", min(first_seen.values(), default=today))
     for e in entries:
-        k = f"{norm_name(e['name'])}|{e['city']}"
+        k = seen_key(e["name"], e["city"])
+        if e.get("formerly") and "_was" not in e:  # a curated entry renamed, moved or split ("Old name|Old town")
+            old_name, _, old_city = e["formerly"].rpartition("|")
+            e["_was"] = seen_key(old_name, old_city)
         first_seen.setdefault(k, first_seen.get(e.get("_was", ""), today))
         e["first_seen"] = first_seen[k]
         e["is_new"] = e["first_seen"] > launch and (now.date() - dt.date.fromisoformat(e["first_seen"])).days <= 7

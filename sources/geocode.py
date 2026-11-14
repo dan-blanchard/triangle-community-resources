@@ -3,8 +3,8 @@ with OpenStreetMap Nominatim as a light, capped fallback for addresses Census ca
 
 Results are cached in data/geocache.json (committed), so a daily build only looks up
 addresses it hasn't seen. Misses are retried after RETRY_DAYS. Locations that are
-undisclosed/confidential (e.g. DV shelters), PO boxes and region-wide entries are
-never geocoded or mapped.
+undisclosed/confidential (e.g. DV shelters), PO boxes and entries with no single
+location are never geocoded or mapped.
 """
 from __future__ import annotations
 

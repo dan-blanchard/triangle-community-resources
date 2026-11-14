@@ -3,7 +3,7 @@
 A daily-rebuilt directory of free and low-cost help across the Research Triangle (Durham,
 Raleigh, Chapel Hill, Carrboro, Hillsborough, Cary, and nearby towns), from mutual-aid groups,
 nonprofits, congregations and public agencies. Towns are listed A–Z, and each town's listings
-are A–Z (including region-wide services).
+are A–Z. Region-wide services with no single location are listed once, in their own section.
 
 ## How it works
 
@@ -64,11 +64,12 @@ Pushing any of these to `main` triggers a rebuild right away.
 
 ## Filters
 
-Search; Towns, Type and Cost (multi-select dropdowns, all A–Z; region-wide listings appear under
-every town); Hide faith-based; LGBTQIA+ affirming only; and need badges (multi-select, a listing shows if it
-meets any selected need; A–Z). Every tag on a listing is clickable and filters to listings like it.
+Search; Towns, Type and Cost (multi-select dropdowns, all A–Z; town filters never hide
+region-wide listings, whether in their own section or flagged under a town); Hide faith-based; LGBTQIA+ affirming only; and need
+badges (multi-select, a listing shows if it meets any selected need; A–Z). Every tag on a listing is clickable and filters to listings like it.
 All filters are reflected in the URL (`?town=Durham&need=Food&cost=free&lgbtq`), so filtered
-views can be shared.
+views can be shared. Values the menus don't offer (a misspelled or removed town, need, type or
+cost) are ignored.
 
 ## LGBTQIA+ affirming flags
 
@@ -110,7 +111,8 @@ source listing again after 7+ days of matching nothing (days a source fell back 
 copy don't count), duplicate rules whose `of` listing is gone, and rules with no valid `kind`.
 There is deliberately no public "closed" list on the page.
 
-`data/overrides.json` fixes individual fields on scraped listings (key `Name|Town`), and
+`data/overrides.json` fixes individual fields on scraped listings (key `Name|Town`), including
+its town and the `region_wide` flag (see `data/SCHEMA.md`), and
 `data/logo_overrides.json` suppresses a site icon that isn't the org's logo.
 
 ## Map
@@ -121,7 +123,7 @@ feed when it has them (Wake KML, Durham and Chatham ArcGIS), otherwise from `sou
 the US Census batch geocoder, with a capped OpenStreetMap Nominatim fallback, cached in
 `data/geocache.json` so each daily build only looks up new addresses. Feed pins more than 30 km
 from their town are ignored and re-geocoded. Undisclosed or confidential locations (e.g. DV
-shelters), PO boxes and region-wide entries are never mapped.
+shelters), PO boxes and listings with no single location are never mapped.
 
 ## Sharing
 
