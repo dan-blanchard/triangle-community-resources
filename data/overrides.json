@@ -148,7 +148,7 @@
  },
  "St Thomas Moore Church|Chapel Hill": {
   "cost": "free",
-  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-10: The parish's Financial Assistance Ministry page says it helps Chapel Hill/Carrboro residents with a utility disconnect notice once every 12 months, and 'We do not provide rental assistance.' The ministry line is 919-942-6216, Monday 8:30–11:30am. 919-942-1040 is the parish office. stmchapelhill.org returns 403. I read the ministry page through search results because a direct fetch also returned 403. https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-11: scope note.",
+  "_why": "Cost checked 2026-11-10: https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-10: The parish's Financial Assistance Ministry page says it helps Chapel Hill/Carrboro residents with a utility disconnect notice once every 12 months, and 'We do not provide rental assistance.' The ministry line is 919-942-6216, Monday 8:30–11:30am. 919-942-1040 is the parish office. stmchapelhill.org returns 403. I read the ministry page through search results because a direct fetch also returned 403. https://5520.sites.ecatholic.com/financial-assistance-ministry Checked 2026-11-11: scope note. Checked 2026-11-15 (religious audit): page returned 403 to automated fetch; no worship requirement seen in sources.",
   "_if": {
    "description": "Rental assistance",
    "address": "",
@@ -163,7 +163,7 @@
   "url": "https://5520.sites.ecatholic.com/financial-assistance-ministry",
   "hours": "Mondays 8:30–11:30am (phone only)",
   "access": "Call Monday mornings 8:30–11:30am and leave a message; messages left at other times are not returned. No walk-ins or email requests.",
-  "notes": "Helps with utility bills only (not rent), once every 12 months; parishioners get priority."
+  "notes": "Helps with utility bills only (not rent), once every 12 months; parishioners get priority. Church page could not be re-read in the 2026-11-15 check; call to confirm eligibility."
  },
  "Self-Help|Durham": {
   "cost": "some_free",
@@ -1019,7 +1019,8 @@
   },
   "name": "Binkley Baptist Church",
   "phone": "(919) 942-4964",
-  "_why": "Checked 2026-11-11: Misspelling (Olin T. Binkley Memorial Baptist) https://www.binkleychurch.org/"
+  "_why": "Checked 2026-11-11: Misspelling (Olin T. Binkley Memorial Baptist) https://www.binkleychurch.org/ Checked 2026-11-15 (religious audit): church homepage does not mention the grocery gift card program, so conditions are unclear.",
+  "notes": "Public Transportation Options: Chapel Hill Transit Routes A from Willow Drive, F from S Estes Drive. Route A on Weekends. Church's site doesn't describe this program; call (919) 942-4964 to confirm date and any conditions."
  },
  "Wake Crossroads|Raleigh": {
   "_if": {},

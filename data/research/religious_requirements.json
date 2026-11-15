@@ -1655,5 +1655,221 @@
   "evidence": "Round Table: \"Provides a food pantry, snack lunches and hospitality\" Tue/Thu afternoons; no documentation or appointment needed. Pullen calendar describes it for people experiencing homelessness or food insecurity. No religious content mentioned.",
   "evidence_url": "https://www.foodpantries.org/li/pullen_memorial_baptist_church_27605",
   "checked": "2026-11-10"
+ },
+ {
+  "name": "Rolling Hills – Raleigh Dream Center mobile pantry",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Parrish Manor – Raleigh Dream Center mobile pantry",
+  "city": "Garner",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Duke Memorial UMC Good Samaritan Fund",
+  "city": "Durham",
+  "verdict": "no_requirement_found",
+  "evidence": "Assistance requires Durham County residency and one grant per 12 months; no membership or worship requirement stated.",
+  "evidence_url": "https://www.dukememorial.org/goodsam.html",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "St. Thomas More Catholic Church – Financial Assistance Ministry",
+  "city": "Chapel Hill",
+  "verdict": "unclear",
+  "evidence": "Page returned 403 to automated fetch; listing says parishioners get priority. No worship requirement seen in sources.",
+  "evidence_url": "https://5520.sites.ecatholic.com/financial-assistance-ministry",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Binkley Baptist Church",
+  "city": "Chapel Hill",
+  "verdict": "unclear",
+  "evidence": "Church homepage does not mention the grocery gift card program or any conditions; no worship requirement found.",
+  "evidence_url": "https://www.binkleychurch.org/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Raleigh Dream Center",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Boundary Village – Raleigh Dream Center mobile pantry",
+  "city": "Cary",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Buffaloe Mobile Home Park – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Casa De Luna Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Foxhall Village – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Laurel Crossing Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Knightdale",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "McMakin – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Neuse Estates – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "New Hope Village 1 – Raleigh Dream Center mobile pantry",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "New Hope Village 2 – Raleigh Dream Center mobile pantry",
+  "city": "Wake Forest",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Orchard Pointe – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Overlooke Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Raleigh Millbank Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "River of Raleigh Church – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Rush Metropolitan Church – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Shady Acres – Raleigh Dream Center mobile pantry",
+  "city": "Knightdale",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Stonecrest Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "The Bridges – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "The Oaks – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Treetop Apartments – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Washington Terrace – Raleigh Dream Center mobile pantry",
+  "city": "Raleigh",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
+ },
+ {
+  "name": "Granite Acres – Raleigh Dream Center mobile pantry",
+  "city": "Rolesville",
+  "verdict": "no_requirement_found",
+  "evidence": "Pantry page offers \"free groceries\" with no eligibility or worship condition; gospel sharing is framed around volunteers (statement of faith for volunteers).",
+  "evidence_url": "https://raleighdreamcenter.org/mobilefoodpantry/",
+  "checked": "2026-11-15"
  }
 ]
