@@ -28,8 +28,9 @@ are A–Z. Region-wide services with no single location are listed once, in thei
    address, or an alias in `data/aliases.json`. Separate programs in one building (a church's
    fridge vs. its breakfast) and one organization's separate sites stay apart.
 3. **Checks every website link.** An entry is only flagged once its link has failed 3 days in a row.
-4. **Renders** `site/index.html` (works without JavaScript and prints cleanly) plus
-   `site/resources.csv` and `site/resources.json`, then deploys to GitHub Pages.
+4. **Renders** `site/index.html` (works without JavaScript, prints cleanly, and follows the
+   reader's light or dark device setting) plus `site/resources.csv` and `site/resources.json`,
+   then deploys to GitHub Pages.
 
 If a source is unreachable, the last good copy is used and the footer says so. If the total
 count drops by more than 40% (a source probably changed format), the build refuses to publish
