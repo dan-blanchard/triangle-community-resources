@@ -100,7 +100,7 @@ section.city{margin:2rem 0 2.5rem}
 .count button,.morebtn{padding:.2rem 0;font:inherit;font-weight:400;text-decoration:underline}
 section.city>h2{font:800 1.9rem/1.1 Georgia,"Iowan Old Style",serif;margin:0 0 1rem;padding-bottom:.35rem;border-bottom:2px solid var(--rule);color:var(--calm-ink)}
 section.cat h3{font-size:1.05rem;text-transform:uppercase;letter-spacing:.06em;margin:1.4rem 0 .6rem;color:var(--accent)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem;align-items:start}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:.75rem}  /* cards in a row share its height */
 article.r{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.85rem .95rem;display:flex;flex-direction:column;gap:.35rem}
 article.r h4{margin:0;font-size:1.05rem;line-height:1.3}
 .rhead{display:flex;gap:.6rem;align-items:center}
@@ -133,7 +133,7 @@ dl.facts dd{margin:0;white-space:pre-line;overflow-wrap:anywhere}
 dl.facts dd.morerow{grid-column:2}
 dl.facts dd.key{font-size:1rem;font-weight:600;line-height:1.32}  /* where to go, who to call; same line height as its label */
 .warn{font-size:.8rem;background:var(--warn-bg);color:var(--warn);border-radius:4px;padding:.15rem .45rem}
-.src{font-size:.75rem;color:var(--muted);padding-top:.2rem}
+.src{font-size:.75rem;color:var(--muted);padding-top:.2rem;margin-top:auto}  /* sits at the foot of a stretched card */
 .src a{color:var(--muted)}
 .src a.report{display:inline-block;margin-bottom:.15rem}
 .src .stale{color:var(--warn);font-weight:600}
